@@ -11476,16 +11476,16 @@ Object.keys(config.collections)
 }));
 exports.default = routes;
 function createRoute(parent) {
-    return function (file, key) {
-        var layoutName = file.layout || parent.layout || DEFAULT_LAYOUT_NAME;
+    return function (page, key) {
+        var layoutName = page.layout || parent.layout || DEFAULT_LAYOUT_NAME;
         if (!layouts.hasOwnProperty(layoutName)) {
             throw new Error("couldn't find layout of name " + layoutName + "; please add it to _layouts/");
         }
-        file.body = file.__content.replace(/\n/g, '');
-        var componentProps = Object.assign({}, config, file);
+        page.body = page.__content.replace(/\n/g, '');
+        var componentProps = Object.assign({}, config, { page: page });
         var component = react_1.createElement(layouts[layoutName], componentProps);
         var routeProps = {
-            path: file.permalink || file.name.replace(/\.markdown$/, ''),
+            path: page.permalink || page.name.replace(/\.markdown$/, ''),
             exact: true,
             key: key,
         };
@@ -25646,15 +25646,17 @@ var React = __webpack_require__(7);
 var react_router_dom_1 = __webpack_require__(38);
 ;
 exports.default = function (_a) {
-    var title = _a.title, body = _a.body, links = _a.links;
+    var page = _a.page, links = _a.links;
     return (React.createElement("div", null,
         React.createElement("nav", null,
-            React.createElement("ul", null, links.map(function (link, key) { return (React.createElement(react_router_dom_1.Link, { to: link.url, key: key }, link.short)); }))),
+            React.createElement("ul", null, links.map(function (link, key) { return (React.createElement("li", { key: key },
+                React.createElement(react_router_dom_1.Link, { to: link.url }, link.short))); }))),
         React.createElement("header", null,
-            React.createElement("h1", null, title),
-            React.createElement("div", { dangerouslySetInnerHTML: { __html: body } })),
+            React.createElement("h1", null, page.title),
+            React.createElement("div", { dangerouslySetInnerHTML: { __html: page.body } })),
         React.createElement("main", null),
-        React.createElement("footer", null, links.map(function (link, key) { return (React.createElement(react_router_dom_1.Link, { to: link.url, key: key }, link.title)); }))));
+        React.createElement("footer", null, links.map(function (link, key) { return (React.createElement("li", { key: key },
+            React.createElement(react_router_dom_1.Link, { to: link.url }, link.title))); }))));
 };
 
 
