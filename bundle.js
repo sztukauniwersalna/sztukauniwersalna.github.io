@@ -25854,7 +25854,7 @@ var serverRender = function (locals) {
     var root = react_1.createElement(Root_1.default, locals);
     var html = server_1.renderToStaticMarkup(root);
     // react root contents rendered with react ids
-    var child = react_1.createElement('div', {}, routes_1.default);
+    var child = react_1.createElement(react_router_dom_1.Switch, {}, routes_1.default);
     var router = react_1.createElement(react_router_dom_1.StaticRouter, { location: locals.path, context: {} }, child);
     var body = server_1.renderToString(router);
     // everything together
@@ -25862,7 +25862,7 @@ var serverRender = function (locals) {
 };
 var clientRender = function () {
     var container = document.getElementById('root');
-    var child = react_1.createElement('div', {}, routes_1.default);
+    var child = react_1.createElement(react_router_dom_1.Switch, {}, routes_1.default);
     var router = react_1.createElement(react_router_dom_1.BrowserRouter, {}, child);
     react_dom_1.render(router, container);
 };
