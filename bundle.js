@@ -11509,11 +11509,10 @@ var config_1 = __webpack_require__(235);
 var NOT_FOUND_URL = '/404';
 var key = 0;
 function createRoute(routable) {
-    console.log(routable);
     var componentProps = Object.assign({}, config_1.default, { page: routable });
-    var component = react_1.createElement(routable.layout.component, componentProps);
-    var routeProps = { path: routable.url, exact: routable.exact != false, key: key++ };
-    var route = react_1.createElement(react_router_dom_1.Route, routeProps, component);
+    var component = function () { return react_1.createElement(routable.layout.component, componentProps); };
+    var routeProps = { path: routable.url, exact: routable.exact != false, key: key++, component: component };
+    var route = react_1.createElement(react_router_dom_1.Route, routeProps);
     return route;
 }
 var routes = [].concat.call(
@@ -26056,16 +26055,20 @@ module.exports = {
 	},
 	"categories": {
 		"kuchnia": {
-			"title": "Sztuka Gotowania"
+			"title": "Sztuka Gotowania",
+			"url": "/sztuka-gotowania"
 		},
 		"moda": {
-			"title": "Sztuka Ubioru"
+			"title": "Sztuka Ubioru",
+			"url": "/sztuka-ubioru"
 		},
 		"makijaż": {
-			"title": "Sztuka Makijażu"
+			"title": "Sztuka Makijażu",
+			"url": "/sztuka-makijażu"
 		},
 		"sztuka": {
-			"title": "Sztuka dla Sztuki"
+			"title": "Sztuka dla Sztuki",
+			"url": "/sztuka-dla-sztuki"
 		}
 	},
 	"menu": [
