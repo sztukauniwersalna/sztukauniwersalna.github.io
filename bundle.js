@@ -26056,50 +26056,50 @@ module.exports = {
 	"categories": {
 		"kuchnia": {
 			"title": "Sztuka Gotowania",
-			"url": "/sztuka-gotowania"
+			"url": "/sztuka-gotowania/"
 		},
 		"moda": {
 			"title": "Sztuka Ubioru",
-			"url": "/sztuka-ubioru"
+			"url": "/sztuka-ubioru/"
 		},
 		"makijaż": {
 			"title": "Sztuka Makijażu",
-			"url": "/sztuka-makijażu"
+			"url": "/sztuka-makijażu/"
 		},
 		"sztuka": {
 			"title": "Sztuka dla Sztuki",
-			"url": "/sztuka-dla-sztuki"
+			"url": "/sztuka-dla-sztuki/"
 		}
 	},
 	"menu": [
 		{
 			"title": "Sztuka Ubioru",
 			"short": "Moda",
-			"url": "/sztuka-ubioru",
+			"url": "/sztuka-ubioru/",
 			"icon": null
 		},
 		{
 			"title": "Sztuka Makijażu",
 			"short": "Makijaż",
-			"url": "/sztuka-makijażu",
+			"url": "/sztuka-makijażu/",
 			"icon": null
 		},
 		{
 			"title": "Sztuka Gotowania",
 			"short": "Kuchnia",
-			"url": "/sztuka-gotowania",
+			"url": "/sztuka-gotowania/",
 			"icon": null
 		},
 		{
 			"title": "Sztuka dla Sztuki",
 			"short": "Sztuka",
-			"url": "/sztuka-dla-sztuki",
+			"url": "/sztuka-dla-sztuki/",
 			"icon": null
 		},
 		{
 			"title": "Kim jest Olela?",
 			"short": "O mnie",
-			"url": "/kim-jest-olela",
+			"url": "/kim-jest-olela/",
 			"icon": null
 		}
 	]
