@@ -11492,7 +11492,7 @@ exports.default = function (_a) {
             React.createElement("meta", { name: "path", content: path })),
         React.createElement("body", null,
             React.createElement("div", { id: "root" }, "%%%BODY%%%"),
-            React.createElement("script", { type: "text/javascript", src: "./bundle.js" }))));
+            React.createElement("script", { type: "text/javascript", src: "/bundle.js" }))));
 };
 
 
