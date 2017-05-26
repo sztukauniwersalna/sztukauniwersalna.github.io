@@ -25914,7 +25914,7 @@ function createCollection(key, raw, context) {
     var layout = config.getLayoutOfName(raw.layout || DEFAULT_LAYOUT_NAME, "collection " + key);
     var collection = new models_1.Collection(title, layout, raw.output != false);
     collection.pages = requireDirectory(context).map(function (module, key) {
-        var frontMatter = module.exports;
+        var frontMatter = module.exports.frontMatter;
         var name = module.name.replace(/\.markdown$/, '').replace(/^\.\//, '');
         var layout = config.getLayoutOfName(frontMatter.layout || collection.layout.name, "page " + name);
         var template = module.exports.template;
@@ -26244,7 +26244,7 @@ module.exports = {
 /* 247 */
 /***/ (function(module, exports) {
 
-module.exports = {"title":"NotFound","__content":"<p>There is no page with this address.</p>\n","template":function anonymous(locals, escapeFn, include, rethrow
+module.exports = {"frontMatter":{"title":"NotFound"},"template":function anonymous(locals, escapeFn, include, rethrow
 /**/) {
 rethrow = rethrow || function rethrow(err, str, flnm, lineno, esc){
   var lines = str.split('\n');
@@ -26301,13 +26301,13 @@ try {
   rethrow(e, __lines, __filename, __line, escapeFn);
 }
 
-}};
+}}
 
 /***/ }),
 /* 248 */
 /***/ (function(module, exports) {
 
-module.exports = {"title":"SztukaUniwersalna.PL","permalink":"/","__content":"<ul>\n<li>Hello,</li>\n<li>Markdown!</li>\n</ul>\n","template":function anonymous(locals, escapeFn, include, rethrow
+module.exports = {"frontMatter":{"title":"SztukaUniwersalna.PL","permalink":"/"},"template":function anonymous(locals, escapeFn, include, rethrow
 /**/) {
 rethrow = rethrow || function rethrow(err, str, flnm, lineno, esc){
   var lines = str.split('\n');
@@ -26364,13 +26364,13 @@ try {
   rethrow(e, __lines, __filename, __line, escapeFn);
 }
 
-}};
+}}
 
 /***/ }),
 /* 249 */
 /***/ (function(module, exports) {
 
-module.exports = {"title":"Site Map","__content":"<p>{%= render(includes.TableOfContents.component, config) %}</p>\n","template":function anonymous(locals, escapeFn, include, rethrow
+module.exports = {"frontMatter":{"title":"Site Map"},"template":function anonymous(locals, escapeFn, include, rethrow
 /**/) {
 rethrow = rethrow || function rethrow(err, str, flnm, lineno, esc){
   var lines = str.split('\n');
@@ -26414,13 +26414,13 @@ function encode_char(c) {
 };
 ;
 var __line = 1
-  , __lines = "<p><%= render(includes.TableOfContents.component, config) %></p>\n"
+  , __lines = "<p><%- render(includes.TableOfContents.component, config) %></p>\n"
   , __filename = undefined;
 try {
   var __output = [], __append = __output.push.bind(__output);
   with (locals || {}) {
     ; __append("<p>")
-    ; __append(escapeFn( render(includes.TableOfContents.component, config) ))
+    ; __append( render(includes.TableOfContents.component, config) )
     ; __append("</p>\n")
     ; __line = 2
   }
@@ -26429,7 +26429,7 @@ try {
   rethrow(e, __lines, __filename, __line, escapeFn);
 }
 
-}};
+}}
 
 /***/ })
 /******/ ]);
