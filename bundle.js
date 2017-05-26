@@ -25787,7 +25787,7 @@ exports.default = function (_a) {
         .map(function (_a, key) {
         var url = _a.url, title = _a.title, pages = _a.pages;
         return (React.createElement("div", { key: key },
-            React.createElement("h1", null,
+            React.createElement("h2", null,
                 React.createElement(react_router_dom_1.Link, { to: url }, title)),
             React.createElement("ul", null, pages.map(function (_a, key) {
                 var title = _a.title, url = _a.url;
