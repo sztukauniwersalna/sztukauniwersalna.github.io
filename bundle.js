@@ -11938,6 +11938,11 @@ var component = exports.component = function component(data) {
       )
     ),
     _react2.default.createElement(
+      'p',
+      null,
+      'Is is hot?'
+    ),
+    _react2.default.createElement(
       'div',
       null,
       _react2.default.createElement(Feed, _extends({}, data, { feed: data.website.collections.Posts.pages }))
@@ -11945,7 +11950,7 @@ var component = exports.component = function component(data) {
   );
 };
 var frontMatter = exports.frontMatter = { "title": "SztukaUniwersalna.PL", "permalink": "/" };
-var body = exports.body = "<ul>\n<li>Hello?</li>\n<li>Markdown!</li>\n</ul>\n<div>\n  <Feed {...data} feed={ data.website.collections.Posts.pages } />\n</div>\n";
+var body = exports.body = "<ul>\n<li>Hello?</li>\n<li>Markdown!</li>\n</ul>\n<p>Is is hot?</p>\n<div>\n  <Feed {...data} feed={ data.website.collections.Posts.pages } />\n</div>\n";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(33)))
 
 /***/ }),
