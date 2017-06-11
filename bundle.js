@@ -12577,7 +12577,19 @@ exports.default = function (_a) {
         feed = _a.feed;
     return React.createElement("div", null, feed.map(function (page, key) {
         var Body = page.body;
-        return React.createElement("article", { key: key }, React.createElement("h1", null, React.createElement(react_router_dom_1.Link, { to: page.url }, page.title)), React.createElement(Body, { website: website, page: page }), React.createElement("p", null, React.createElement(react_router_dom_1.Link, { to: page.url }, "Read more")));
+        return React.createElement("article", { key: key }, React.createElement("h1", null, React.createElement(react_router_dom_1.Link, { to: page.url }, page.title)), React.createElement(CategoryList, { website: website, page: page }), React.createElement(Body, { website: website, page: page }), React.createElement(react_router_dom_1.Link, { to: page.url }, "Read more"));
+    }));
+};
+var CategoryList = function CategoryList(_a) {
+    var website = _a.website,
+        page = _a.page;
+    if (page.categories.length == 0) {
+        return null;
+    }
+    return React.createElement("ul", null, page.categories.map(function (title) {
+        return website.getCategoryOfTitle(title);
+    }).map(function (c, key) {
+        return React.createElement("li", { key: key }, React.createElement(react_router_dom_1.Link, { to: c.url }, c.title));
     }));
 };
 
