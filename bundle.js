@@ -3290,12 +3290,8 @@ var stripLeadingSlash = exports.stripLeadingSlash = function stripLeadingSlash(p
   return path.charAt(0) === '/' ? path.substr(1) : path;
 };
 
-var hasBasename = exports.hasBasename = function hasBasename(path, prefix) {
-  return new RegExp('^' + prefix + '(\\/|\\?|#|$)', 'i').test(path);
-};
-
-var stripBasename = exports.stripBasename = function stripBasename(path, prefix) {
-  return hasBasename(path, prefix) ? path.substr(prefix.length) : path;
+var stripPrefix = exports.stripPrefix = function stripPrefix(path, prefix) {
+  return path.indexOf(prefix) === 0 ? path.substr(prefix.length) : path;
 };
 
 var stripTrailingSlash = exports.stripTrailingSlash = function stripTrailingSlash(path) {
@@ -3319,6 +3315,8 @@ var parsePath = exports.parsePath = function parsePath(path) {
     pathname = pathname.substr(0, searchIndex);
   }
 
+  pathname = decodeURI(pathname);
+
   return {
     pathname: pathname,
     search: search === '?' ? '' : search,
@@ -3332,7 +3330,7 @@ var createPath = exports.createPath = function createPath(location) {
       hash = location.hash;
 
 
-  var path = pathname || '/';
+  var path = encodeURI(pathname || '/');
 
   if (search && search !== '?') path += search.charAt(0) === '?' ? search : '?' + search;
 
@@ -5316,17 +5314,7 @@ var createLocation = exports.createLocation = function createLocation(path, stat
     if (state !== undefined && location.state === undefined) location.state = state;
   }
 
-  try {
-    location.pathname = decodeURI(location.pathname);
-  } catch (e) {
-    if (e instanceof URIError) {
-      throw new URIError('Pathname "' + location.pathname + '" could not be decoded. ' + 'This is likely caused by an invalid percent-encoding.');
-    } else {
-      throw e;
-    }
-  }
-
-  if (key) location.key = key;
+  location.key = key;
 
   if (currentLocation) {
     // Resolve incomplete/relative pathname relative to current location.
@@ -5334,11 +5322,6 @@ var createLocation = exports.createLocation = function createLocation(path, stat
       location.pathname = currentLocation.pathname;
     } else if (location.pathname.charAt(0) !== '/') {
       location.pathname = (0, _resolvePathname2.default)(location.pathname, currentLocation.pathname);
-    }
-  } else {
-    // When there is no prior location and pathname is empty, set it to /
-    if (!location.pathname) {
-      location.pathname = '/';
     }
   }
 
@@ -7752,9 +7735,6 @@ pages_1.default.forEach(function (page) {
     page.categories.forEach(function (title) {
         return website.getCategoryOfTitle(title, requiredBy).pages.push(page);
     });
-    if (page.url == '/' || page instanceof models_1.Category) {
-        return;
-    }
     page.tags.forEach(function (title) {
         return website.getTagOfTitle(title, requiredBy).pages.push(page);
     });
@@ -13052,10 +13032,17 @@ exports.default = function (_a) {
     var tags = Object.keys(website.tags).map(function (key) {
         return website.tags[key];
     });
-    return React.createElement("ul", null, React.createElement("li", null, React.createElement(react_router_dom_1.Link, { to: '/' }, website.getPageOfUrl('/').title), React.createElement(Branch, { pages: topLevel.concat(tags) })));
+    return React.createElement("ul", null, React.createElement("li", { key: -1 }, React.createElement(react_router_dom_1.Link, { to: '/' }, website.getPageOfUrl('/').title), React.createElement(Branch, { pages: topLevel })), tags.map(function (_a, key) {
+        var title = _a.title,
+            url = _a.url,
+            pages = _a.pages;
+        return React.createElement("li", { key: key }, React.createElement(react_router_dom_1.Link, { to: url }, title), React.createElement(Branch, { pages: pages, shallow: true }));
+    }));
 };
 var Branch = function Branch(_a) {
-    var pages = _a.pages;
+    var pages = _a.pages,
+        _b = _a.shallow,
+        shallow = _b === void 0 ? false : _b;
     return React.createElement("ul", null, pages.filter(function (page) {
         return page instanceof models_1.Category;
     }).filter(function (page) {
@@ -13066,7 +13053,7 @@ var Branch = function Branch(_a) {
         var url = _a.url,
             title = _a.title,
             pages = _a.pages;
-        return React.createElement("li", { key: key }, React.createElement(react_router_dom_1.Link, { to: url }, title), React.createElement(Branch, { pages: pages }));
+        return React.createElement("li", { key: key }, React.createElement(react_router_dom_1.Link, { to: url }, title), !shallow ? React.createElement(Branch, { pages: pages }) : null);
     }), pages.filter(function (page) {
         return !(page instanceof models_1.Category);
     }).filter(function (page) {
@@ -13074,7 +13061,7 @@ var Branch = function Branch(_a) {
     }).map(function (_a, key) {
         var title = _a.title,
             url = _a.url;
-        return React.createElement("li", { key: key }, React.createElement(react_router_dom_1.Link, { to: url }, title));
+        return React.createElement("li", { key: 1024 * 1024 + key }, React.createElement(react_router_dom_1.Link, { to: url }, title));
     }));
 };
 
@@ -14820,11 +14807,12 @@ var createBrowserHistory = function createBrowserHistory() {
 
     var path = pathname + search + hash;
 
-    (0, _warning2.default)(!basename || (0, _PathUtils.hasBasename)(path, basename), 'You are attempting to use a basename on a page whose URL path does not begin ' + 'with the basename. Expected path "' + path + '" to begin with "' + basename + '".');
+    if (basename) path = (0, _PathUtils.stripPrefix)(path, basename);
 
-    if (basename) path = (0, _PathUtils.stripBasename)(path, basename);
-
-    return (0, _LocationUtils.createLocation)(path, state, key);
+    return _extends({}, (0, _PathUtils.parsePath)(path), {
+      state: state,
+      key: key
+    });
   };
 
   var createKey = function createKey() {
@@ -15145,11 +15133,9 @@ var createHashHistory = function createHashHistory() {
   var getDOMLocation = function getDOMLocation() {
     var path = decodePath(getHashPath());
 
-    (0, _warning2.default)(!basename || (0, _PathUtils.hasBasename)(path, basename), 'You are attempting to use a basename on a page whose URL path does not begin ' + 'with the basename. Expected path "' + path + '" to begin with "' + basename + '".');
+    if (basename) path = (0, _PathUtils.stripPrefix)(path, basename);
 
-    if (basename) path = (0, _PathUtils.stripBasename)(path, basename);
-
-    return (0, _LocationUtils.createLocation)(path);
+    return (0, _PathUtils.parsePath)(path);
   };
 
   var transitionManager = (0, _createTransitionManager2.default)();
