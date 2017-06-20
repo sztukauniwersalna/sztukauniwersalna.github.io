@@ -3290,8 +3290,12 @@ var stripLeadingSlash = exports.stripLeadingSlash = function stripLeadingSlash(p
   return path.charAt(0) === '/' ? path.substr(1) : path;
 };
 
-var stripPrefix = exports.stripPrefix = function stripPrefix(path, prefix) {
-  return path.indexOf(prefix) === 0 ? path.substr(prefix.length) : path;
+var hasBasename = exports.hasBasename = function hasBasename(path, prefix) {
+  return new RegExp('^' + prefix + '(\\/|\\?|#|$)', 'i').test(path);
+};
+
+var stripBasename = exports.stripBasename = function stripBasename(path, prefix) {
+  return hasBasename(path, prefix) ? path.substr(prefix.length) : path;
 };
 
 var stripTrailingSlash = exports.stripTrailingSlash = function stripTrailingSlash(path) {
@@ -3315,8 +3319,6 @@ var parsePath = exports.parsePath = function parsePath(path) {
     pathname = pathname.substr(0, searchIndex);
   }
 
-  pathname = decodeURI(pathname);
-
   return {
     pathname: pathname,
     search: search === '?' ? '' : search,
@@ -3330,7 +3332,7 @@ var createPath = exports.createPath = function createPath(location) {
       hash = location.hash;
 
 
-  var path = encodeURI(pathname || '/');
+  var path = pathname || '/';
 
   if (search && search !== '?') path += search.charAt(0) === '?' ? search : '?' + search;
 
@@ -5159,7 +5161,7 @@ exports.default = requireDirectory;
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var Page = function () {
-    function Page(title, url, layout, body, output, date, categories, tags) {
+    function Page(title, description, url, layout, body, output, date, categories, tags) {
         this.title = title;
         this.url = url;
         this.layout = layout;
@@ -5314,7 +5316,17 @@ var createLocation = exports.createLocation = function createLocation(path, stat
     if (state !== undefined && location.state === undefined) location.state = state;
   }
 
-  location.key = key;
+  try {
+    location.pathname = decodeURI(location.pathname);
+  } catch (e) {
+    if (e instanceof URIError) {
+      throw new URIError('Pathname "' + location.pathname + '" could not be decoded. ' + 'This is likely caused by an invalid percent-encoding.');
+    } else {
+      throw e;
+    }
+  }
+
+  if (key) location.key = key;
 
   if (currentLocation) {
     // Resolve incomplete/relative pathname relative to current location.
@@ -5322,6 +5334,11 @@ var createLocation = exports.createLocation = function createLocation(path, stat
       location.pathname = currentLocation.pathname;
     } else if (location.pathname.charAt(0) !== '/') {
       location.pathname = (0, _resolvePathname2.default)(location.pathname, currentLocation.pathname);
+    }
+  } else {
+    // When there is no prior location and pathname is empty, set it to /
+    if (!location.pathname) {
+      location.pathname = '/';
     }
   }
 
@@ -7657,6 +7674,7 @@ function parsePage(name, body, frontMatter, defaultLayout) {
     var requiredBy = "pages['" + name + "']";
     var layout = website.getLayoutOfName(checkIsString(frontMatter.layout || defaultLayout, requiredBy + ".layout"), requiredBy);
     var title = checkIsString(frontMatter.title || titleFromUrl(name, requiredBy), requiredBy + ".title");
+    var description = checkIsString(frontMatter.description || '', requiredBy + ".description");
     var url = checkIsString(frontMatter.permalink || urlFromTitle(name, requiredBy), requiredBy + ".url");
     var date = frontMatter.date || null;
     var role = checkIsString(frontMatter.role || 'page', requiredBy + ".role");
@@ -7668,9 +7686,9 @@ function parsePage(name, body, frontMatter, defaultLayout) {
     var tags = checkIsArray(frontMatter.tags || [], requiredBy + ".tags");
     switch (role) {
         case 'page':
-            return new models_1.Page(title, url, layout, body, output, date, categoryTitles, tags);
+            return new models_1.Page(title, description, url, layout, body, output, date, categoryTitles, tags);
         case 'category':
-            return new models_1.Category(title, url, layout, body, output, date, categoryTitles, tags);
+            return new models_1.Category(title, description, url, layout, body, output, date, categoryTitles, tags);
         default:
             throw new Error("unrecognized role: " + role + " in " + requiredBy);
     }
@@ -12254,7 +12272,7 @@ webpackContext.id = 121;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.body = exports.frontMatter = exports.component = undefined;
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -12284,6 +12302,7 @@ var component = exports.component = function component(data) {
 };
 var frontMatter = exports.frontMatter = { "title": "Sztuka Gotowania", "role": "category" };
 var body = exports.body = "<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka Gotowania').pages } />\n</div>\n";
+var raw = exports.raw = "\n<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka Gotowania').pages } />\n</div>\n\n";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)))
 
 /***/ }),
@@ -12296,7 +12315,7 @@ var body = exports.body = "<div>\n  <Feed { ...data } feed={ data.website.getCat
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.body = exports.frontMatter = exports.component = undefined;
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
 
 var _react = __webpack_require__(4);
 
@@ -12324,6 +12343,7 @@ var component = exports.component = function component(data) {
 };
 var frontMatter = exports.frontMatter = { "title": "NotFound", "output": false };
 var body = exports.body = "<p>There is no page with this address.</p>\n";
+var raw = exports.raw = "There is no page with this address.\n\n";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)))
 
 /***/ }),
@@ -12336,7 +12356,7 @@ var body = exports.body = "<p>There is no page with this address.</p>\n";
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.body = exports.frontMatter = exports.component = undefined;
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -12385,6 +12405,7 @@ var component = exports.component = function component(data) {
 };
 var frontMatter = exports.frontMatter = { "title": "SztukaUniwersalna.PL", "tags": ["hello", "index"], "permalink": "/" };
 var body = exports.body = "<ul>\n<li>Hello?</li>\n<li>Markdown!</li>\n</ul>\n<p>Is is hot?</p>\n<div>\n  <Feed {...data} feed={ data.website.getCollectionOfTitle('Posts').pages } />\n</div>\n";
+var raw = exports.raw = "\n * Hello?\n * Markdown!\n\nIs is hot?\n\n<div>\n  <Feed {...data} feed={ data.website.getCollectionOfTitle('Posts').pages } />\n</div>\n\n";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)))
 
 /***/ }),
@@ -12397,7 +12418,7 @@ var body = exports.body = "<ul>\n<li>Hello?</li>\n<li>Markdown!</li>\n</ul>\n<p>
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.body = exports.frontMatter = exports.component = undefined;
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
 
 var _react = __webpack_require__(4);
 
@@ -12425,6 +12446,7 @@ var component = exports.component = function component(data) {
 };
 var frontMatter = exports.frontMatter = { "title": "Site Map", "tags": ["hello", "sitemap"] };
 var body = exports.body = "<div>\n  <TableOfContents {...data} />\n</div>\n";
+var raw = exports.raw = "<div>\n  <TableOfContents {...data} />\n</div>\n\n";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)))
 
 /***/ }),
@@ -12437,7 +12459,7 @@ var body = exports.body = "<div>\n  <TableOfContents {...data} />\n</div>\n";
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.body = exports.frontMatter = exports.component = undefined;
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -12467,6 +12489,7 @@ var component = exports.component = function component(data) {
 };
 var frontMatter = exports.frontMatter = { "output": false };
 var body = exports.body = "<div>\n  <Feed { ...data } feed={ data.page.pages } />\n</div>\n";
+var raw = exports.raw = "<div>\n  <Feed { ...data } feed={ data.page.pages } />\n</div>\n\n";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)))
 
 /***/ }),
@@ -12479,7 +12502,7 @@ var body = exports.body = "<div>\n  <Feed { ...data } feed={ data.page.pages } /
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.body = exports.frontMatter = exports.component = undefined;
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
 
 var _react = __webpack_require__(4);
 
@@ -12507,6 +12530,7 @@ var component = exports.component = function component(data) {
 };
 var frontMatter = exports.frontMatter = { "title": "Test", "category": "Sztuka Gotowania", "role": "category", "tags": ["hello", "tags"] };
 var body = exports.body = "<p>Sharks with frickin’ lasers attached to their heads.</p>\n";
+var raw = exports.raw = "Sharks with frickin' lasers attached to their heads.\n\n";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)))
 
 /***/ }),
@@ -12519,7 +12543,7 @@ var body = exports.body = "<p>Sharks with frickin’ lasers attached to their he
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.body = exports.frontMatter = exports.component = undefined;
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
 
 var _react = __webpack_require__(4);
 
@@ -12547,6 +12571,7 @@ var component = exports.component = function component(data) {
 };
 var frontMatter = exports.frontMatter = { "title": "Another", "tags": ["hello", "posts"], "category": "Test" };
 var body = exports.body = "<p>Lorem ipsum...</p>\n";
+var raw = exports.raw = "Lorem ipsum...\n";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)))
 
 /***/ }),
@@ -12680,8 +12705,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var Page_1 = __webpack_require__(45);
 var Category = function (_super) {
     __extends(Category, _super);
-    function Category(title, url, layout, body, output, date, categories, tags) {
-        var _this = _super.call(this, title, url, layout, body, output, date, categories, tags) || this;
+    function Category(title, description, url, layout, body, output, date, categories, tags) {
+        var _this = _super.call(this, title, description, url, layout, body, output, date, categories, tags) || this;
         _this.pages = [];
         return _this;
     }
@@ -12789,11 +12814,20 @@ var Page_1 = __webpack_require__(45);
 var Tag = function (_super) {
     __extends(Tag, _super);
     function Tag(title, url, layout, body) {
-        var _this = _super.call(this, '#' + title, url, layout, body, true, null, [], []) || this;
+        var _this = _super.call(this, '#' + title, '', url, layout, body, true, null, [], []) || this;
         _this.pages = [];
         _this.originalTitle = title;
         return _this;
     }
+    Object.defineProperty(Tag.prototype, "description", {
+        get: function get() {
+            return this.pages.map(function (page) {
+                return "* " + page.title;
+            }).join(' ');
+        },
+        enumerable: true,
+        configurable: true
+    });
     return Tag;
 }(Page_1.default);
 exports.default = Tag;
@@ -14807,12 +14841,11 @@ var createBrowserHistory = function createBrowserHistory() {
 
     var path = pathname + search + hash;
 
-    if (basename) path = (0, _PathUtils.stripPrefix)(path, basename);
+    (0, _warning2.default)(!basename || (0, _PathUtils.hasBasename)(path, basename), 'You are attempting to use a basename on a page whose URL path does not begin ' + 'with the basename. Expected path "' + path + '" to begin with "' + basename + '".');
 
-    return _extends({}, (0, _PathUtils.parsePath)(path), {
-      state: state,
-      key: key
-    });
+    if (basename) path = (0, _PathUtils.stripBasename)(path, basename);
+
+    return (0, _LocationUtils.createLocation)(path, state, key);
   };
 
   var createKey = function createKey() {
@@ -15133,9 +15166,11 @@ var createHashHistory = function createHashHistory() {
   var getDOMLocation = function getDOMLocation() {
     var path = decodePath(getHashPath());
 
-    if (basename) path = (0, _PathUtils.stripPrefix)(path, basename);
+    (0, _warning2.default)(!basename || (0, _PathUtils.hasBasename)(path, basename), 'You are attempting to use a basename on a page whose URL path does not begin ' + 'with the basename. Expected path "' + path + '" to begin with "' + basename + '".');
 
-    return (0, _PathUtils.parsePath)(path);
+    if (basename) path = (0, _PathUtils.stripBasename)(path, basename);
+
+    return (0, _LocationUtils.createLocation)(path);
   };
 
   var transitionManager = (0, _createTransitionManager2.default)();
