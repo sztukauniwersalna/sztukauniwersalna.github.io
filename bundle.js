@@ -3085,15 +3085,8 @@ module.exports = warning;
 "use strict";
 
 
-var __assign = undefined && undefined.__assign || Object.assign || function (t) {
-    for (var s, i = 1, n = arguments.length; i < n; i++) {
-        s = arguments[i];
-        for (var p in s) {
-            if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
-        }
-    }
-    return t;
-};
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
 var __rest = undefined && undefined.__rest || function (s, e) {
     var t = {};
     for (var p in s) {
@@ -3120,51 +3113,61 @@ exports.ContentLimiter = function (_a) {
     var children = _a.children,
         limit = _a.limit,
         props = __rest(_a, ["children", "limit"]);
-    var childs = [].concat(children || []);
-    if (!limit || childs.length === 0) {
+    if (!limit) {
         return React.createElement("div", null, children);
     }
     var output = [];
+    limitContent(children, limit, props, output);
+    return React.createElement("div", null, output);
+};
+function limitContent(children, limit, props, output) {
+    switch (typeof children === "undefined" ? "undefined" : _typeof(children)) {
+        case 'undefined':
+            return limit;
+        case 'number':
+            return limitString(Number(children).toString(), limit, output);
+        case 'string':
+            return limitString(children, limit, output);
+        default:
+            return limitReactElement(children, limit, props, output);
+    }
+}
+function limitString(child, limit, output) {
+    output.push(child.substring(0, limit));
+    return Math.max(0, limit - child.length);
+}
+function limitReactElement(children, limit, props, output) {
     var characters = limit;
     try {
-        for (var childs_1 = __values(childs), childs_1_1 = childs_1.next(); !childs_1_1.done; childs_1_1 = childs_1.next()) {
-            var child = childs_1_1.value;
+        for (var _a = __values(asReactElementArray(children)), _b = _a.next(); !_b.done; _b = _a.next()) {
+            var child = _b.value;
             if (characters === 0) {
                 break;
             }
-            switch (child.type) {
-                case 'p':
-                    characters = renderParagraph(child, characters, output);
-                    break;
-                case 'ul':
-                case 'ol':
-                    characters = renderList(child, characters, output);
-                    break;
-                default:
-                    output.push(react_1.cloneElement(child, __assign({}, props, { limit: characters })));
-                    characters = 0;
-                    break;
-            }
+            var newChildren = [];
+            characters = limitContent(child.props.children, characters, props, newChildren);
+            output.push(react_1.cloneElement(child, props, newChildren));
         }
     } catch (e_1_1) {
         e_1 = { error: e_1_1 };
     } finally {
         try {
-            if (childs_1_1 && !childs_1_1.done && (_b = childs_1.return)) _b.call(childs_1);
+            if (_b && !_b.done && (_c = _a.return)) _c.call(_a);
         } finally {
             if (e_1) throw e_1.error;
         }
     }
-    return React.createElement("div", null, output);
-    var e_1, _b;
-};
-function renderParagraph(child, limit, output) {
-    output.push(React.createElement("p", null, "Paragraph limited to ", limit, "."));
-    return 0;
+    return characters;
+    var e_1, _c;
 }
-function renderList(child, limit, output) {
-    output.push(React.createElement("p", null, "Paragraph limited to ", limit, "."));
-    return 0;
+function asReactElementArray(children) {
+    if (typeof children === 'undefined') {
+        return [];
+    }
+    if ((typeof children === "undefined" ? "undefined" : _typeof(children)) !== 'object') {
+        throw new Error("unexpected value: " + children);
+    }
+    return [].concat(children);
 }
 exports.default = exports.ContentLimiter;
 
@@ -31113,7 +31116,7 @@ var component = exports.component = function component(data) {
     )
   );
 };
-var frontMatter = exports.frontMatter = { "title": "Test", "category": "Sztuka Gotowania", "role": "category", "tags": ["hello", "tags"] };
+var frontMatter = exports.frontMatter = { "title": "Test", "category": "Sztuka Gotowania", "role": "category", "tags": ["hello", "tags"], "limit": 4 };
 var body = exports.body = "<p>Sharks with frickin’ lasers attached to their heads.</p>\n";
 var raw = exports.raw = "Sharks with frickin' lasers attached to their heads.\n\n";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(16)))
