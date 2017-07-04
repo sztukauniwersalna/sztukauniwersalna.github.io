@@ -3087,6 +3087,15 @@ module.exports = warning;
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
+var __assign = undefined && undefined.__assign || Object.assign || function (t) {
+    for (var s, i = 1, n = arguments.length; i < n; i++) {
+        s = arguments[i];
+        for (var p in s) {
+            if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+    }
+    return t;
+};
 var __rest = undefined && undefined.__rest || function (s, e) {
     var t = {};
     for (var p in s) {
@@ -3095,21 +3104,10 @@ var __rest = undefined && undefined.__rest || function (s, e) {
         if (e.indexOf(p[i]) < 0) t[p[i]] = s[p[i]];
     }return t;
 };
-var __values = undefined && undefined.__values || function (o) {
-    var m = typeof Symbol === "function" && o[Symbol.iterator],
-        i = 0;
-    if (m) return m.call(o);
-    return {
-        next: function next() {
-            if (o && i >= o.length) o = void 0;
-            return { value: o && o[i++], done: !o };
-        }
-    };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(3);
 var react_1 = __webpack_require__(3);
-exports.ContentLimiter = function (_a) {
+function ContentLimiter(_a) {
     var children = _a.children,
         limit = _a.limit,
         props = __rest(_a, ["children", "limit"]);
@@ -3119,7 +3117,8 @@ exports.ContentLimiter = function (_a) {
     var output = [];
     limitContent(children, limit, props, output);
     return React.createElement("div", null, output);
-};
+}
+exports.ContentLimiter = ContentLimiter;
 function limitContent(children, limit, props, output) {
     switch (typeof children === "undefined" ? "undefined" : _typeof(children)) {
         case 'undefined':
@@ -3138,30 +3137,19 @@ function limitString(child, limit, output) {
 }
 function limitReactElement(children, limit, props, output) {
     var characters = limit;
-    try {
-        for (var _a = __values(asReactElementArray(children)), _b = _a.next(); !_b.done; _b = _a.next()) {
-            var child = _b.value;
-            if (characters === 0) {
-                break;
-            }
-            var newChildren = [];
-            characters = limitContent(child.props.children, characters, props, newChildren);
-            output.push(react_1.cloneElement(child, props, newChildren));
+    asReactElementArray(children).forEach(function (child, key) {
+        if (characters === 0) {
+            return;
         }
-    } catch (e_1_1) {
-        e_1 = { error: e_1_1 };
-    } finally {
-        try {
-            if (_b && !_b.done && (_c = _a.return)) _c.call(_a);
-        } finally {
-            if (e_1) throw e_1.error;
-        }
-    }
+        var newChildren = [];
+        characters = limitContent(child.props.children, characters, props, newChildren);
+        var newProps = _typeof(child.type) === 'object' ? __assign({}, props, { key: key }) : { key: key };
+        output.push(react_1.cloneElement(child, newProps, newChildren));
+    });
     return characters;
-    var e_1, _c;
 }
 function asReactElementArray(children) {
-    if (typeof children === 'undefined') {
+    if (children === undefined) {
         return [];
     }
     if ((typeof children === "undefined" ? "undefined" : _typeof(children)) !== 'object') {
@@ -3169,7 +3157,7 @@ function asReactElementArray(children) {
     }
     return [].concat(children);
 }
-exports.default = exports.ContentLimiter;
+exports.default = ContentLimiter;
 
 /***/ }),
 /* 27 */
@@ -31108,7 +31096,7 @@ delete global.__data;
 var component = exports.component = function component(data) {
   return _react2.default.createElement(
     _ContentLimiter2.default,
-    _extends({ limit: 132 }, data),
+    _extends({ limit: 4 }, data),
     _react2.default.createElement(
       'p',
       null,
