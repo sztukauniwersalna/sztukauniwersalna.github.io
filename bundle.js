@@ -12138,7 +12138,9 @@ var react_router_dom_1 = __webpack_require__(16);
 var models_1 = __webpack_require__(18);
 ;
 exports.TableOfContents = function (_a) {
-    var website = _a.website;
+    var website = _a.website,
+        _b = _a.respectLimit,
+        respectLimit = _b === void 0 ? false : _b;
     var topLevel = Object.keys(website.pages).map(function (key) {
         return website.pages[key];
     }).filter(function (page) {
@@ -12149,38 +12151,41 @@ exports.TableOfContents = function (_a) {
     var tags = Object.keys(website.tags).map(function (key) {
         return website.tags[key];
     });
-    return React.createElement("ul", null, React.createElement("li", { key: -1 }, React.createElement(react_router_dom_1.Link, { to: '/' }, website.getPageOfUrl('/').title), React.createElement(exports.Branch, { pages: topLevel })), tags.map(function (_a, key) {
+    return React.createElement("ul", null, React.createElement("li", { key: '/' }, React.createElement(react_router_dom_1.Link, { to: '/' }, website.getPageOfUrl('/').title), React.createElement(Branch, { pages: topLevel, shallow: respectLimit, ellipsis: respectLimit })), !respectLimit ? tags.map(function (_a) {
         var title = _a.title,
             url = _a.url,
             pages = _a.pages;
-        return React.createElement("li", { key: key }, React.createElement(react_router_dom_1.Link, { to: url }, title), React.createElement(exports.Branch, { pages: pages, shallow: true }));
-    }));
+        return React.createElement("li", { key: url }, React.createElement(react_router_dom_1.Link, { to: url }, title), React.createElement(Branch, { pages: pages, shallow: true }));
+    }) : null);
 };
-exports.Branch = function (_a) {
+function Branch(_a) {
     var pages = _a.pages,
         _b = _a.shallow,
-        shallow = _b === void 0 ? false : _b;
+        shallow = _b === void 0 ? false : _b,
+        _c = _a.ellipsis,
+        ellipsis = _c === void 0 ? false : _c;
     return React.createElement("ul", null, pages.filter(function (page) {
         return page instanceof models_1.Category;
     }).filter(function (page) {
         return page.output;
     }).map(function (page) {
         return page;
-    }).map(function (_a, key) {
+    }).map(function (_a) {
         var url = _a.url,
             title = _a.title,
             pages = _a.pages;
-        return React.createElement("li", { key: key }, React.createElement(react_router_dom_1.Link, { to: url }, title), !shallow ? React.createElement(exports.Branch, { pages: pages }) : null);
+        return React.createElement("li", { key: url }, React.createElement(react_router_dom_1.Link, { to: url }, title), !shallow ? React.createElement(Branch, { pages: pages }) : null);
     }), pages.filter(function (page) {
         return !(page instanceof models_1.Category);
     }).filter(function (page) {
         return page.output;
-    }).map(function (_a, key) {
+    }).map(function (_a) {
         var title = _a.title,
             url = _a.url;
-        return React.createElement("li", { key: 1024 * 1024 + key }, React.createElement(react_router_dom_1.Link, { to: url }, title));
-    }));
-};
+        return React.createElement("li", { key: url }, React.createElement(react_router_dom_1.Link, { to: url }, title));
+    }), ellipsis ? React.createElement("li", { key: 'ellipsis' }, "\u2026") : null);
+}
+exports.Branch = Branch;
 exports.default = exports.TableOfContents;
 
 /***/ }),
