@@ -811,7 +811,7 @@ module.exports = ExecutionEnvironment;
 
 var _prodInvariant = __webpack_require__(27);
 
-var ReactCurrentOwner = __webpack_require__(14);
+var ReactCurrentOwner = __webpack_require__(17);
 
 var invariant = __webpack_require__(1);
 var warning = __webpack_require__(2);
@@ -1334,6 +1334,23 @@ if (process.env.NODE_ENV !== 'production') {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+
+
+Object.defineProperty(exports, "__esModule", { value: true });
+var requireDirectory_1 = __webpack_require__(68);
+var models_1 = __webpack_require__(20);
+var Context = __webpack_require__(69);
+var includes = requireDirectory_1.default(Context.INCLUDES).map(function (module) {
+    var name = module.name.replace(/^\.\//, '').replace(/\.tsx$/, '');
+    return new models_1.Include(name, module.exports.default);
+});
+exports.default = includes;
+
+/***/ }),
+/* 14 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
 /* WEBPACK VAR INJECTION */(function(process) {/**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -1587,7 +1604,135 @@ module.exports = ReactUpdates;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 14 */
+/* 15 */
+/***/ (function(module, exports) {
+
+var g;
+
+// This works in non-strict mode
+g = (function() {
+	return this;
+})();
+
+try {
+	// This works if eval is allowed (see CSP)
+	g = g || Function("return this")() || (1,eval)("this");
+} catch(e) {
+	// This works if the window reference is available
+	if(typeof window === "object")
+		g = window;
+}
+
+// g can still be undefined, but nothing to do about it...
+// We return undefined, instead of nothing here, so it's
+// easier to handle this case. if(!global) { ...}
+
+module.exports = g;
+
+
+/***/ }),
+/* 16 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
+var __assign = undefined && undefined.__assign || Object.assign || function (t) {
+    for (var s, i = 1, n = arguments.length; i < n; i++) {
+        s = arguments[i];
+        for (var p in s) {
+            if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+    }
+    return t;
+};
+var __rest = undefined && undefined.__rest || function (s, e) {
+    var t = {};
+    for (var p in s) {
+        if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0) t[p] = s[p];
+    }if (s != null && typeof Object.getOwnPropertySymbols === "function") for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
+        if (e.indexOf(p[i]) < 0) t[p[i]] = s[p[i]];
+    }return t;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var React = __webpack_require__(3);
+var react_1 = __webpack_require__(3);
+function ContentLimiter(_a) {
+    var children = _a.children,
+        limit = _a.limit,
+        respectLimit = _a.respectLimit,
+        props = __rest(_a, ["children", "limit", "respectLimit"]);
+    if (!limit || !respectLimit) {
+        return React.createElement("div", null, children);
+    }
+    var output = [];
+    limitContent(children, limit, props, output);
+    return React.createElement("div", null, output);
+}
+exports.ContentLimiter = ContentLimiter;
+function limitContent(children, limit, props, output) {
+    switch (typeof children === "undefined" ? "undefined" : _typeof(children)) {
+        case 'undefined':
+            return limit;
+        case 'number':
+            output.push(children);
+            return limit;
+        case 'string':
+            return limitString(children, limit, output);
+        default:
+            return limitReactElement(children, limit, props, output);
+    }
+}
+function limitString(child, limit, output) {
+    var previuos = 0;
+    var current;
+    var sentences = sentencize(child);
+    if (sentences.length < limit) {
+        output.push(child);
+        return limit - sentences.length;
+    }
+    sentences.slice(0, limit).forEach(function (sentence) {
+        return output.push(sentence);
+    });
+    return 0;
+}
+function limitReactElement(children, limit, props, output) {
+    var characters = limit;
+    asReactElementArray(children).forEach(function (child, key) {
+        if (characters === 0) {
+            return;
+        }
+        var newChildren = [];
+        characters = limitContent(child.props.children, characters, props, newChildren);
+        var newProps = _typeof(child.type) === 'object' ? __assign({}, props, { key: key }) : { key: key };
+        output.push(react_1.cloneElement(child, newProps, newChildren));
+    });
+    return characters;
+}
+function asReactElementArray(children) {
+    if (children === undefined) {
+        return [];
+    }
+    if ((typeof children === "undefined" ? "undefined" : _typeof(children)) !== 'object') {
+        throw new Error("unexpected value: " + children);
+    }
+    return [].concat(children);
+}
+function sentencize(child) {
+    var sentenceRegexp = /[^.!?…]*[.!?…]/g;
+    var matches = [];
+    var match;
+    while ((match = sentenceRegexp.exec(child)) !== null) {
+        matches.push(match[0]);
+    }
+    return matches;
+}
+exports.default = ContentLimiter;
+
+/***/ }),
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1621,24 +1766,7 @@ var ReactCurrentOwner = {
 module.exports = ReactCurrentOwner;
 
 /***/ }),
-/* 15 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", { value: true });
-var requireDirectory_1 = __webpack_require__(68);
-var models_1 = __webpack_require__(18);
-var Context = __webpack_require__(69);
-var includes = requireDirectory_1.default(Context.INCLUDES).map(function (module) {
-    var name = module.name.replace(/^\.\//, '').replace(/\.tsx$/, '');
-    return new models_1.Include(name, module.exports.default);
-});
-exports.default = includes;
-
-/***/ }),
-/* 16 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1910,7 +2038,7 @@ function getPooledWarningPropertyDefinition(propName, getVal) {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 17 */
+/* 19 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1969,7 +2097,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 18 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1992,134 +2120,6 @@ var MenuEntry_1 = __webpack_require__(260);
 exports.MenuEntry = MenuEntry_1.default;
 var Website_1 = __webpack_require__(261);
 exports.Website = Website_1.default;
-
-/***/ }),
-/* 19 */
-/***/ (function(module, exports) {
-
-var g;
-
-// This works in non-strict mode
-g = (function() {
-	return this;
-})();
-
-try {
-	// This works if eval is allowed (see CSP)
-	g = g || Function("return this")() || (1,eval)("this");
-} catch(e) {
-	// This works if the window reference is available
-	if(typeof window === "object")
-		g = window;
-}
-
-// g can still be undefined, but nothing to do about it...
-// We return undefined, instead of nothing here, so it's
-// easier to handle this case. if(!global) { ...}
-
-module.exports = g;
-
-
-/***/ }),
-/* 20 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-var __assign = undefined && undefined.__assign || Object.assign || function (t) {
-    for (var s, i = 1, n = arguments.length; i < n; i++) {
-        s = arguments[i];
-        for (var p in s) {
-            if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
-        }
-    }
-    return t;
-};
-var __rest = undefined && undefined.__rest || function (s, e) {
-    var t = {};
-    for (var p in s) {
-        if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0) t[p] = s[p];
-    }if (s != null && typeof Object.getOwnPropertySymbols === "function") for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
-        if (e.indexOf(p[i]) < 0) t[p[i]] = s[p[i]];
-    }return t;
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(3);
-var react_1 = __webpack_require__(3);
-function ContentLimiter(_a) {
-    var children = _a.children,
-        limit = _a.limit,
-        respectLimit = _a.respectLimit,
-        props = __rest(_a, ["children", "limit", "respectLimit"]);
-    if (!limit || !respectLimit) {
-        return React.createElement("div", null, children);
-    }
-    var output = [];
-    limitContent(children, limit, props, output);
-    return React.createElement("div", null, output);
-}
-exports.ContentLimiter = ContentLimiter;
-function limitContent(children, limit, props, output) {
-    switch (typeof children === "undefined" ? "undefined" : _typeof(children)) {
-        case 'undefined':
-            return limit;
-        case 'number':
-            output.push(children);
-            return limit;
-        case 'string':
-            return limitString(children, limit, output);
-        default:
-            return limitReactElement(children, limit, props, output);
-    }
-}
-function limitString(child, limit, output) {
-    var previuos = 0;
-    var current;
-    var sentences = sentencize(child);
-    if (sentences.length < limit) {
-        output.push(child);
-        return limit - sentences.length;
-    }
-    sentences.slice(0, limit).forEach(function (sentence) {
-        return output.push(sentence);
-    });
-    return 0;
-}
-function limitReactElement(children, limit, props, output) {
-    var characters = limit;
-    asReactElementArray(children).forEach(function (child, key) {
-        if (characters === 0) {
-            return;
-        }
-        var newChildren = [];
-        characters = limitContent(child.props.children, characters, props, newChildren);
-        var newProps = _typeof(child.type) === 'object' ? __assign({}, props, { key: key }) : { key: key };
-        output.push(react_1.cloneElement(child, newProps, newChildren));
-    });
-    return characters;
-}
-function asReactElementArray(children) {
-    if (children === undefined) {
-        return [];
-    }
-    if ((typeof children === "undefined" ? "undefined" : _typeof(children)) !== 'object') {
-        throw new Error("unexpected value: " + children);
-    }
-    return [].concat(children);
-}
-function sentencize(child) {
-    var sentenceRegexp = /[^.!?…]*[.!?…]/g;
-    var matches = [];
-    var match;
-    while ((match = sentenceRegexp.exec(child)) !== null) {
-        matches.push(match[0]);
-    }
-    return matches;
-}
-exports.default = ContentLimiter;
 
 /***/ }),
 /* 21 */
@@ -2493,7 +2493,7 @@ module.exports = React;
 
 var _assign = __webpack_require__(5);
 
-var ReactCurrentOwner = __webpack_require__(14);
+var ReactCurrentOwner = __webpack_require__(17);
 
 var warning = __webpack_require__(2);
 var canDefineProperty = __webpack_require__(35);
@@ -3809,7 +3809,7 @@ module.exports = EventPluginHub;
 
 
 
-var SyntheticEvent = __webpack_require__(16);
+var SyntheticEvent = __webpack_require__(18);
 
 var getEventTarget = __webpack_require__(48);
 
@@ -5203,7 +5203,7 @@ module.exports = invariant;
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(3);
-var react_router_dom_1 = __webpack_require__(17);
+var react_router_dom_1 = __webpack_require__(19);
 var Crumbs_1 = __webpack_require__(117);
 var TagList_1 = __webpack_require__(70);
 function DefaultLayout(_a) {
@@ -6605,10 +6605,10 @@ module.exports = KeyEscapeUtils;
 
 var _prodInvariant = __webpack_require__(4);
 
-var ReactCurrentOwner = __webpack_require__(14);
+var ReactCurrentOwner = __webpack_require__(17);
 var ReactInstanceMap = __webpack_require__(33);
 var ReactInstrumentation = __webpack_require__(9);
-var ReactUpdates = __webpack_require__(13);
+var ReactUpdates = __webpack_require__(14);
 
 var invariant = __webpack_require__(1);
 var warning = __webpack_require__(2);
@@ -7694,10 +7694,10 @@ module.exports = {
 _PAGES: __webpack_require__(262),
 _PARAMORPH: __webpack_require__(267),
 CATEGORIES: __webpack_require__(268),
-POSTS: __webpack_require__(271),
-ROOT: __webpack_require__(275),
-LAYOUTS: __webpack_require__(276),
-INCLUDES: __webpack_require__(277)};
+POSTS: __webpack_require__(273),
+ROOT: __webpack_require__(277),
+LAYOUTS: __webpack_require__(278),
+INCLUDES: __webpack_require__(279)};
 
 
 /***/ }),
@@ -7709,7 +7709,7 @@ INCLUDES: __webpack_require__(277)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(3);
-var react_router_dom_1 = __webpack_require__(17);
+var react_router_dom_1 = __webpack_require__(19);
 function TagList(_a) {
     var website = _a.website,
         page = _a.page;
@@ -7737,7 +7737,7 @@ exports.default = TagList;
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var models_1 = __webpack_require__(18);
+var models_1 = __webpack_require__(20);
 var requireDirectory_1 = __webpack_require__(68);
 var layouts_1 = __webpack_require__(116);
 var Context = __webpack_require__(69);
@@ -8162,7 +8162,7 @@ module.exports = getIteratorFn;
 
 
 
-var ReactCurrentOwner = __webpack_require__(14);
+var ReactCurrentOwner = __webpack_require__(17);
 var ReactComponentTreeHook = __webpack_require__(8);
 var ReactElement = __webpack_require__(23);
 
@@ -10097,7 +10097,7 @@ var _assign = __webpack_require__(5);
 
 var LinkedValueUtils = __webpack_require__(54);
 var ReactDOMComponentTree = __webpack_require__(6);
-var ReactUpdates = __webpack_require__(13);
+var ReactUpdates = __webpack_require__(14);
 
 var warning = __webpack_require__(2);
 
@@ -10456,7 +10456,7 @@ module.exports = ReactHostComponent;
 
 var _prodInvariant = __webpack_require__(4);
 
-var ReactCurrentOwner = __webpack_require__(14);
+var ReactCurrentOwner = __webpack_require__(17);
 var REACT_ELEMENT_TYPE = __webpack_require__(184);
 
 var getIteratorFn = __webpack_require__(185);
@@ -10734,7 +10734,7 @@ module.exports = ReactServerRenderingTransaction;
 
 var _assign = __webpack_require__(5);
 
-var ReactUpdates = __webpack_require__(13);
+var ReactUpdates = __webpack_require__(14);
 var Transaction = __webpack_require__(37);
 
 var emptyFunction = __webpack_require__(10);
@@ -11073,7 +11073,7 @@ var DOMLazyTree = __webpack_require__(28);
 var DOMProperty = __webpack_require__(21);
 var React = __webpack_require__(22);
 var ReactBrowserEventEmitter = __webpack_require__(41);
-var ReactCurrentOwner = __webpack_require__(14);
+var ReactCurrentOwner = __webpack_require__(17);
 var ReactDOMComponentTree = __webpack_require__(6);
 var ReactDOMContainerInfo = __webpack_require__(105);
 var ReactDOMFeatureFlags = __webpack_require__(212);
@@ -11083,7 +11083,7 @@ var ReactInstrumentation = __webpack_require__(9);
 var ReactMarkupChecksum = __webpack_require__(106);
 var ReactReconciler = __webpack_require__(25);
 var ReactUpdateQueue = __webpack_require__(60);
-var ReactUpdates = __webpack_require__(13);
+var ReactUpdates = __webpack_require__(14);
 
 var emptyObject = __webpack_require__(29);
 var instantiateReactComponent = __webpack_require__(56);
@@ -12070,16 +12070,16 @@ Link.contextTypes = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __webpack_require__(3);
 var server_1 = __webpack_require__(109);
-var react_router_dom_1 = __webpack_require__(17);
+var react_router_dom_1 = __webpack_require__(19);
 var utils_1 = __webpack_require__(256);
-var models_1 = __webpack_require__(18);
+var models_1 = __webpack_require__(20);
 var layouts_1 = __webpack_require__(116);
-var includes_1 = __webpack_require__(15);
+var includes_1 = __webpack_require__(13);
 var collections_1 = __webpack_require__(71);
 var pages_1 = __webpack_require__(121);
 var categories_1 = __webpack_require__(122);
-var tags_1 = __webpack_require__(279);
-var menu_1 = __webpack_require__(280);
+var tags_1 = __webpack_require__(281);
+var menu_1 = __webpack_require__(282);
 var website = new models_1.Website();
 layouts_1.default.forEach(function (layout) {
     return website.addLayout(layout);
@@ -12238,7 +12238,7 @@ exports.default = Tag;
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var requireDirectory_1 = __webpack_require__(68);
-var models_1 = __webpack_require__(18);
+var models_1 = __webpack_require__(20);
 var Context = __webpack_require__(69);
 var layouts = requireDirectory_1.default(Context.LAYOUTS).map(function (module) {
     var name = module.name.replace(/^\.\//, '').replace(/\.tsx$/, '');
@@ -12255,7 +12255,7 @@ exports.default = layouts;
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(3);
-var react_router_dom_1 = __webpack_require__(17);
+var react_router_dom_1 = __webpack_require__(19);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page;
@@ -12277,7 +12277,7 @@ exports.default = Crumbs;
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(3);
-var react_router_dom_1 = __webpack_require__(17);
+var react_router_dom_1 = __webpack_require__(19);
 function CategoryList(_a) {
     var website = _a.website,
         page = _a.page;
@@ -12304,8 +12304,8 @@ exports.default = CategoryList;
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(3);
-var react_router_dom_1 = __webpack_require__(17);
-var models_1 = __webpack_require__(18);
+var react_router_dom_1 = __webpack_require__(19);
+var models_1 = __webpack_require__(20);
 ;
 exports.TableOfContents = function (_a) {
     var website = _a.website,
@@ -12436,7 +12436,7 @@ module.exports = {
 
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var models_1 = __webpack_require__(18);
+var models_1 = __webpack_require__(20);
 var collections_1 = __webpack_require__(71);
 var pages = collections_1.default.reduce(function (p, c) {
     return p.concat(c.pages);
@@ -12453,7 +12453,7 @@ exports.default = pages;
 
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var models_1 = __webpack_require__(18);
+var models_1 = __webpack_require__(20);
 var collections_1 = __webpack_require__(71);
 var categories = collections_1.default.reduce(function (p, c) {
     return p.concat(c.pages);
@@ -12480,7 +12480,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __webpack_require__(3);
 var react_dom_1 = __webpack_require__(139);
 var server_1 = __webpack_require__(109);
-var react_router_dom_1 = __webpack_require__(17);
+var react_router_dom_1 = __webpack_require__(19);
 var react_hot_loader_1 = __webpack_require__(249);
 var Root_1 = __webpack_require__(254);
 var routes_1 = __webpack_require__(255);
@@ -12845,7 +12845,7 @@ module.exports = PooledClass;
 
 var _prodInvariant = __webpack_require__(27);
 
-var ReactCurrentOwner = __webpack_require__(14);
+var ReactCurrentOwner = __webpack_require__(17);
 var REACT_ELEMENT_TYPE = __webpack_require__(74);
 
 var getIteratorFn = __webpack_require__(75);
@@ -14490,7 +14490,7 @@ var ReactDOMComponentTree = __webpack_require__(6);
 var ReactDefaultInjection = __webpack_require__(80);
 var ReactMount = __webpack_require__(104);
 var ReactReconciler = __webpack_require__(25);
-var ReactUpdates = __webpack_require__(13);
+var ReactUpdates = __webpack_require__(14);
 var ReactVersion = __webpack_require__(107);
 
 var findDOMNode = __webpack_require__(214);
@@ -15169,7 +15169,7 @@ module.exports = FallbackCompositionState;
 
 
 
-var SyntheticEvent = __webpack_require__(16);
+var SyntheticEvent = __webpack_require__(18);
 
 /**
  * @interface Event
@@ -15210,7 +15210,7 @@ module.exports = SyntheticCompositionEvent;
 
 
 
-var SyntheticEvent = __webpack_require__(16);
+var SyntheticEvent = __webpack_require__(18);
 
 /**
  * @interface Event
@@ -15256,8 +15256,8 @@ var EventPluginHub = __webpack_require__(31);
 var EventPropagators = __webpack_require__(30);
 var ExecutionEnvironment = __webpack_require__(7);
 var ReactDOMComponentTree = __webpack_require__(6);
-var ReactUpdates = __webpack_require__(13);
-var SyntheticEvent = __webpack_require__(16);
+var ReactUpdates = __webpack_require__(14);
+var SyntheticEvent = __webpack_require__(18);
 
 var inputValueTracking = __webpack_require__(86);
 var getEventTarget = __webpack_require__(48);
@@ -18830,7 +18830,7 @@ var _prodInvariant = __webpack_require__(4),
 var DOMPropertyOperations = __webpack_require__(92);
 var LinkedValueUtils = __webpack_require__(54);
 var ReactDOMComponentTree = __webpack_require__(6);
-var ReactUpdates = __webpack_require__(13);
+var ReactUpdates = __webpack_require__(14);
 
 var invariant = __webpack_require__(1);
 var warning = __webpack_require__(2);
@@ -19250,7 +19250,7 @@ var _prodInvariant = __webpack_require__(4),
 
 var LinkedValueUtils = __webpack_require__(54);
 var ReactDOMComponentTree = __webpack_require__(6);
-var ReactUpdates = __webpack_require__(13);
+var ReactUpdates = __webpack_require__(14);
 
 var invariant = __webpack_require__(1);
 var warning = __webpack_require__(2);
@@ -19417,7 +19417,7 @@ var ReactComponentEnvironment = __webpack_require__(55);
 var ReactInstanceMap = __webpack_require__(33);
 var ReactInstrumentation = __webpack_require__(9);
 
-var ReactCurrentOwner = __webpack_require__(14);
+var ReactCurrentOwner = __webpack_require__(17);
 var ReactReconciler = __webpack_require__(25);
 var ReactChildReconciler = __webpack_require__(179);
 
@@ -20027,7 +20027,7 @@ var _prodInvariant = __webpack_require__(4),
 
 var React = __webpack_require__(22);
 var ReactComponentEnvironment = __webpack_require__(55);
-var ReactCurrentOwner = __webpack_require__(14);
+var ReactCurrentOwner = __webpack_require__(17);
 var ReactErrorUtils = __webpack_require__(47);
 var ReactInstanceMap = __webpack_require__(33);
 var ReactInstrumentation = __webpack_require__(9);
@@ -21757,7 +21757,7 @@ var EventListener = __webpack_require__(101);
 var ExecutionEnvironment = __webpack_require__(7);
 var PooledClass = __webpack_require__(24);
 var ReactDOMComponentTree = __webpack_require__(6);
-var ReactUpdates = __webpack_require__(13);
+var ReactUpdates = __webpack_require__(14);
 
 var getEventTarget = __webpack_require__(48);
 var getUnboundedScrollPosition = __webpack_require__(192);
@@ -21962,7 +21962,7 @@ var ReactComponentEnvironment = __webpack_require__(55);
 var ReactEmptyComponent = __webpack_require__(96);
 var ReactBrowserEventEmitter = __webpack_require__(41);
 var ReactHostComponent = __webpack_require__(97);
-var ReactUpdates = __webpack_require__(13);
+var ReactUpdates = __webpack_require__(14);
 
 var ReactInjection = {
   Component: ReactComponentEnvironment.injection,
@@ -22890,7 +22890,7 @@ var EventPropagators = __webpack_require__(30);
 var ExecutionEnvironment = __webpack_require__(7);
 var ReactDOMComponentTree = __webpack_require__(6);
 var ReactInputSelection = __webpack_require__(102);
-var SyntheticEvent = __webpack_require__(16);
+var SyntheticEvent = __webpack_require__(18);
 
 var getActiveElement = __webpack_require__(103);
 var isTextInputElement = __webpack_require__(87);
@@ -23087,7 +23087,7 @@ var EventPropagators = __webpack_require__(30);
 var ReactDOMComponentTree = __webpack_require__(6);
 var SyntheticAnimationEvent = __webpack_require__(203);
 var SyntheticClipboardEvent = __webpack_require__(204);
-var SyntheticEvent = __webpack_require__(16);
+var SyntheticEvent = __webpack_require__(18);
 var SyntheticFocusEvent = __webpack_require__(205);
 var SyntheticKeyboardEvent = __webpack_require__(206);
 var SyntheticMouseEvent = __webpack_require__(38);
@@ -23311,7 +23311,7 @@ module.exports = SimpleEventPlugin;
 
 
 
-var SyntheticEvent = __webpack_require__(16);
+var SyntheticEvent = __webpack_require__(18);
 
 /**
  * @interface Event
@@ -23355,7 +23355,7 @@ module.exports = SyntheticAnimationEvent;
 
 
 
-var SyntheticEvent = __webpack_require__(16);
+var SyntheticEvent = __webpack_require__(18);
 
 /**
  * @interface Event
@@ -23736,7 +23736,7 @@ module.exports = SyntheticTouchEvent;
 
 
 
-var SyntheticEvent = __webpack_require__(16);
+var SyntheticEvent = __webpack_require__(18);
 
 /**
  * @interface Event
@@ -23911,7 +23911,7 @@ module.exports = adler32;
 
 var _prodInvariant = __webpack_require__(4);
 
-var ReactCurrentOwner = __webpack_require__(14);
+var ReactCurrentOwner = __webpack_require__(17);
 var ReactDOMComponentTree = __webpack_require__(6);
 var ReactInstanceMap = __webpack_require__(33);
 
@@ -24302,7 +24302,7 @@ var ReactMarkupChecksum = __webpack_require__(106);
 var ReactReconciler = __webpack_require__(25);
 var ReactServerBatchingStrategy = __webpack_require__(221);
 var ReactServerRenderingTransaction = __webpack_require__(99);
-var ReactUpdates = __webpack_require__(13);
+var ReactUpdates = __webpack_require__(14);
 
 var emptyObject = __webpack_require__(29);
 var instantiateReactComponent = __webpack_require__(56);
@@ -26840,7 +26840,7 @@ exports.default = function (_a) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __webpack_require__(3);
-var react_router_dom_1 = __webpack_require__(17);
+var react_router_dom_1 = __webpack_require__(19);
 var data_1 = __webpack_require__(113);
 var NOT_FOUND_URL = '/404';
 var error404 = data_1.default.pages[NOT_FOUND_URL];
@@ -27206,13 +27206,13 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _ContentLimiter = __webpack_require__(20);
+var _ContentLimiter = __webpack_require__(16);
 
 var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(15).default;
+global.__data = __webpack_require__(13).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -27233,7 +27233,7 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "NotFound", "output": false };
 var body = exports.body = "<p>There is no page with this address.</p>\n";
 var raw = exports.raw = "\nThere is no page with this address.\n\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(19)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(15)))
 
 /***/ }),
 /* 264 */
@@ -27253,13 +27253,13 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _ContentLimiter = __webpack_require__(20);
+var _ContentLimiter = __webpack_require__(16);
 
 var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(15).default;
+global.__data = __webpack_require__(13).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -27299,7 +27299,7 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "SztukaUniwersalna.PL", "permalink": "/", "tags": ["hello", "index"], "description": "Sztuka w codzienności. Aleksandra Krawczyk prezentuje sposoby na odnalezienie odrobiny sztuki w codziennych czynnościach takich jak gotowanie, makijaż, oraz moda. Sztuka współczesna, sztuka abstrakcyjna, inspiracje dziełami wielkich twórców." };
 var body = exports.body = "<ul>\n<li>Hello?</li>\n<li>Markdown!</li>\n</ul>\n<p>Is is hot?</p>\n<div>\n  <Feed {...data} feed={ data.website.getCollectionOfTitle('Posts').pages } />\n</div>\n";
 var raw = exports.raw = "\n * Hello?\n * Markdown!\n\nIs is hot?\n\n<div>\n  <Feed {...data} feed={ data.website.getCollectionOfTitle('Posts').pages } />\n</div>\n\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(19)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(15)))
 
 /***/ }),
 /* 265 */
@@ -27319,13 +27319,13 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _ContentLimiter = __webpack_require__(20);
+var _ContentLimiter = __webpack_require__(16);
 
 var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(15).default;
+global.__data = __webpack_require__(13).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -27346,7 +27346,7 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Site Map", "tags": ["hello", "sitemap"] };
 var body = exports.body = "<div>\n  <TableOfContents {...data} />\n</div>\n";
 var raw = exports.raw = "\n<div>\n  <TableOfContents {...data} />\n</div>\n\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(19)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(15)))
 
 /***/ }),
 /* 266 */
@@ -27366,13 +27366,13 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _ContentLimiter = __webpack_require__(20);
+var _ContentLimiter = __webpack_require__(16);
 
 var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(15).default;
+global.__data = __webpack_require__(13).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -27393,7 +27393,7 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Tag", "output": false };
 var body = exports.body = "<div>\n  <Feed { ...data } feed={ data.page.pages } />\n</div>\n";
 var raw = exports.raw = "\n<div>\n  <Feed { ...data } feed={ data.page.pages } />\n</div>\n\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(19)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(15)))
 
 /***/ }),
 /* 267 */
@@ -27413,7 +27413,9 @@ webpackEmptyContext.id = 267;
 
 var map = {
 	"./sztuka-dla-sztuki.markdown": 269,
-	"./sztuka-gotowania.markdown": 270
+	"./sztuka-gotowania.markdown": 270,
+	"./sztuka-makijazu.markdown": 271,
+	"./sztuka-ubioru.markdown": 272
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -27449,13 +27451,13 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _ContentLimiter = __webpack_require__(20);
+var _ContentLimiter = __webpack_require__(16);
 
 var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(15).default;
+global.__data = __webpack_require__(13).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -27476,7 +27478,7 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Sztuka dla Sztuki", "date": "2017-07-15T20:12:00.000Z", "role": "category" };
 var body = exports.body = "<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka dla Sztuki').pages } />\n</div>";
 var raw = exports.raw = "\n<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka dla Sztuki').pages } />\n</div>";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(19)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(15)))
 
 /***/ }),
 /* 270 */
@@ -27496,13 +27498,13 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _ContentLimiter = __webpack_require__(20);
+var _ContentLimiter = __webpack_require__(16);
 
 var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(15).default;
+global.__data = __webpack_require__(13).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -27523,32 +27525,54 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Sztuka Gotowania", "role": "category" };
 var body = exports.body = "<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka Gotowania').pages } />\n</div>\n";
 var raw = exports.raw = "\n<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka Gotowania').pages } />\n</div>\n\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(19)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(15)))
 
 /***/ }),
 /* 271 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var map = {
-	"./2017-07-15-uniwersalno-sztuki.markdown": 272,
-	"./test.markdown": 273,
-	"./test2.markdown": 274
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(3);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(16);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(13).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'div',
+      null,
+      _react2.default.createElement(Feed, _extends({}, data, { feed: data.website.getCategoryOfTitle('Sztuka Makijażu').pages }))
+    )
+  );
 };
-function webpackContext(req) {
-	return __webpack_require__(webpackContextResolve(req));
-};
-function webpackContextResolve(req) {
-	var id = map[req];
-	if(!(id + 1)) // check for number or string
-		throw new Error("Cannot find module '" + req + "'.");
-	return id;
-};
-webpackContext.keys = function webpackContextKeys() {
-	return Object.keys(map);
-};
-webpackContext.resolve = webpackContextResolve;
-module.exports = webpackContext;
-webpackContext.id = 271;
+var frontMatter = exports.frontMatter = { "title": "Sztuka Makijażu", "date": "2017-07-15T20:13:00.000Z", "permalink": "/sztuka-makijazu", "role": "category" };
+var body = exports.body = "<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka Makijażu').pages } />\n</div>";
+var raw = exports.raw = "\n<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka Makijażu').pages } />\n</div>";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(15)))
 
 /***/ }),
 /* 272 */
@@ -27568,13 +27592,85 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _ContentLimiter = __webpack_require__(20);
+var _ContentLimiter = __webpack_require__(16);
 
 var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(15).default;
+global.__data = __webpack_require__(13).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'div',
+      null,
+      _react2.default.createElement(Feed, _extends({}, data, { feed: data.website.getCategoryOfTitle('Sztuka Ubioru').pages }))
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Sztuka Ubioru", "date": "2017-07-15T20:14:00.000Z", "role": "category" };
+var body = exports.body = "<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka Ubioru').pages } />\n</div>";
+var raw = exports.raw = "\n<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka Ubioru').pages } />\n</div>";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(15)))
+
+/***/ }),
+/* 273 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./2017-07-15-uniwersalno-sztuki.markdown": 274,
+	"./test.markdown": 275,
+	"./test2.markdown": 276
+};
+function webpackContext(req) {
+	return __webpack_require__(webpackContextResolve(req));
+};
+function webpackContextResolve(req) {
+	var id = map[req];
+	if(!(id + 1)) // check for number or string
+		throw new Error("Cannot find module '" + req + "'.");
+	return id;
+};
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = 273;
+
+/***/ }),
+/* 274 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(3);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(16);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(13).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -27640,10 +27736,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Uniwersalność Sztuki", "date": "2017-07-15T19:56:00.000Z", "permalink": "/uniwersalnosc-sztuki", "categories": ["Sztuka dla Sztuki"], "tags": ["art", "artist", "sztuka", "dzieło", "artysta", "kreacja"] };
 var body = exports.body = "<p>„Interesowało mnie utrwalanie wszystkich prostych czynności, bo są UNIWERSALNE. Każda z nich, kiedy się na niej skupimy, zatrzymamy na sekundę, staje się dziełem SZTUKI.”\nNatalia Lach-Lachowicz (Natalia LL)</p>\n<p>Od pewnego czasu obserwuje pewne zjawisko, a mianowicie w nazewnictwie ‘zawodowym’ nagminnie zaczęło pojawiać się słowo ‘art’ i ‘artist’. Dziś już nie jesteś tylko makijażystą, jesteś ‘make up artist’ - artystą od makjażu lub makijażowym artystą, chciałoby się przetłumaczyć, lub też jesteś po prostu artystą pracującym w technice ‘makijaż’. Dziś to nie fryzjerzy ścinają i farbują nam włosy lecz ‘styliści fryzur’, artyści od włosów, ‘hair artists’. Od niedawna także Ci styliści od mody przekwalifikowali swoje stanowiska na Fashion ART Directors (dosłownie ci, którzy wyznaczają artystyczny kierunek modzie). Skąd tyle tej sztuki, a raczej mody na sztukę, dlaczego dziś wszyscy nazywamy się artystami i dlaczego jest to tak ważne dla poczucia ‘siebie’ i swojej roli we współczesnym  społeczeństwie?</p>\n<h2>1. ALBO Artysta ALBO Rzemieślnik</h2>\n<p>Nie ulega wątpliwości, że w pewnym momencie zawód artysty stał się zawodem cenionym. Wymaga on bowiem nie tylko talentu, ale przede wszystkim kreatywnego MYŚLENIA. Należy rozgraniczyć artystów od rzemieślników. Ci drudzy wykonują wyuczony fach wręcz mechanicznie, podczas gdy Ci pierwsi znajdują czas na refleksje przy pracy i wprowadzanie do jej efektów coraz to nowych pomysłów (IDEI), często kończących się fiaskiem, niepowodzeniem, totalną klapą, a nawet spaleniem dzieła nigdyniedokończonego. Artyści błądzą. Kreują. Drą i krzyczą. Rzemieślnicy wykonują.</p>\n<h2>2. ‘Młodzi Kreatywni’</h2>\n<p>Artyści od zawsze mieli ciężko. Tworzyli dzieła zamawiane przez fundatorów dyskretnie przemycając swoje wizje lub też nie kryli się z wizjami stanowczo wykraczającymi ponad ciemne umysły ludności. Doceniani zazwyczaj po śmierci, okazywało się, że przychodzili na świat nie w swoim miejscu, nie w swoim czasie. Walczyli o swoje poglądy, ich często innowacyjne wizje kończyły zmieszane z błotem przez krytyków. Gdyby nie ten indywidualizm, parcie do przodu i często związana z tym ignorancja, nie mielibyśmy tych ‘wielkich’, wizjonerów,  którzy na zawsze odmienili postrzeganie danej dziedziny, często wykraczając poza jej granice.\nŻyjemy w XXI wieku, który nieubłagalnie pędzi i przyspiesza niczym ciuchcia w wierszu Tuwima. Nigdy nie zwalnia, więc i Ty nie zwalniaj. Byli już Zmęczeni Rzeczywistością, teraz przyszedł czas na Młodych Kreatywnych – absolwentów uczelni artystycznych, którzy wpisani w ramy wieku pędzą. Nie ograniczają się tylko do działań w dziedzinie, z której są (dumnymi) magistrami na papierze. Chcą robić kariere, chcą być nie tyle na czasie, co w czasie, poznawać nowe technologie, rozwijać możliwości. Kończą malarstwo i idą pracować do największych agencji kreatywnych, które (podobno) cenią młode, twórcze, otwarte umysły (o tym już w kolejnym poście).</p>\n<h2>3. Pokolenie Self-Obsessed</h2>\n<p>‘-Wykonanie makijażu zajmuje mi jakieś 3 godziny. W trakcie malowania oczywiście nagrywam wszystko, żeby później zmontować to w spójny tutorial i wrzucić na YouTube. W czasie międzyczasu nagrywam krótkie story na żywo. Kiedy skończę utrwalam wszystko robiąc kilka selfie, no dobra może kilkanaście. Czas wyjść z domu. Przeglądam się  w lustrze kilka razy, sprawdzam fryzurę, wciągam brzuch, jeszcze kilka fotek. Wychodzę na siłownie, żeby tam powtórzyć rytuał, tyle że w innym lustrze. Żyję sobą i inni ludzie żyją mną, a  raczej marzeniem by być jak ja. Zaczynają mnie naśladować, stosować się do moich rad, zostają moimi fanami.’\nI gdyby to wszystko okazało się świadomą artystyczną kreacją, sztuką konceptualną, performansem, okej, to ma sens, coś uświadamia. A może rzeczywiście sztuka wyszła ze sztuki, przekroczyła samą siebie i jest w każdej najmniejszej czynności? Przecież pędzle do makijażu niczym nie różnią się od tych, którymi uprawiamy akwarele (nieśmiało przyznam, że nieraz wiewiórczy włos idealnie pomógł mi w blendowaniu załamaia powieki...) A gdyby tak, w tej nieświadomości, dodać przedrostek -art/przyrostek -artist do mojego pseudonimu na Instagramie? Czy wtedy ludzie zaczną lubić mnie bardziej? W końcu sztuka to domena jednostek myślących…</p>\n<p><a href=\"http://SztukaUniwersalna.pl\">SztukaUniwersalna.pl</a> to portal w którym zacierają się granice. Opisuję i rejestruję Sztukę, która zajmuje mnie w danej chwili. Potraktuj to jako pamiętnik Młodej Kreatywnej, której każdy dzień to artystyczna kreacja. Miłej lektury. :)</p>\n";
 var raw = exports.raw = "\n„Interesowało mnie utrwalanie wszystkich prostych czynności, bo są UNIWERSALNE. Każda z nich, kiedy się na niej skupimy, zatrzymamy na sekundę, staje się dziełem SZTUKI.”\nNatalia Lach-Lachowicz (Natalia LL)\n\nOd pewnego czasu obserwuje pewne zjawisko, a mianowicie w nazewnictwie ‘zawodowym’ nagminnie zaczęło pojawiać się słowo ‘art’ i ‘artist’. Dziś już nie jesteś tylko makijażystą, jesteś ‘make up artist’ - artystą od makjażu lub makijażowym artystą, chciałoby się przetłumaczyć, lub też jesteś po prostu artystą pracującym w technice ‘makijaż’. Dziś to nie fryzjerzy ścinają i farbują nam włosy lecz ‘styliści fryzur’, artyści od włosów, ‘hair artists’. Od niedawna także Ci styliści od mody przekwalifikowali swoje stanowiska na Fashion ART Directors (dosłownie ci, którzy wyznaczają artystyczny kierunek modzie). Skąd tyle tej sztuki, a raczej mody na sztukę, dlaczego dziś wszyscy nazywamy się artystami i dlaczego jest to tak ważne dla poczucia ‘siebie’ i swojej roli we współczesnym  społeczeństwie?\n\n## 1. ALBO Artysta ALBO Rzemieślnik\n\nNie ulega wątpliwości, że w pewnym momencie zawód artysty stał się zawodem cenionym. Wymaga on bowiem nie tylko talentu, ale przede wszystkim kreatywnego MYŚLENIA. Należy rozgraniczyć artystów od rzemieślników. Ci drudzy wykonują wyuczony fach wręcz mechanicznie, podczas gdy Ci pierwsi znajdują czas na refleksje przy pracy i wprowadzanie do jej efektów coraz to nowych pomysłów (IDEI), często kończących się fiaskiem, niepowodzeniem, totalną klapą, a nawet spaleniem dzieła nigdyniedokończonego. Artyści błądzą. Kreują. Drą i krzyczą. Rzemieślnicy wykonują.\n\n## 2. ‘Młodzi Kreatywni’\n\nArtyści od zawsze mieli ciężko. Tworzyli dzieła zamawiane przez fundatorów dyskretnie przemycając swoje wizje lub też nie kryli się z wizjami stanowczo wykraczającymi ponad ciemne umysły ludności. Doceniani zazwyczaj po śmierci, okazywało się, że przychodzili na świat nie w swoim miejscu, nie w swoim czasie. Walczyli o swoje poglądy, ich często innowacyjne wizje kończyły zmieszane z błotem przez krytyków. Gdyby nie ten indywidualizm, parcie do przodu i często związana z tym ignorancja, nie mielibyśmy tych ‘wielkich’, wizjonerów,  którzy na zawsze odmienili postrzeganie danej dziedziny, często wykraczając poza jej granice.\nŻyjemy w XXI wieku, który nieubłagalnie pędzi i przyspiesza niczym ciuchcia w wierszu Tuwima. Nigdy nie zwalnia, więc i Ty nie zwalniaj. Byli już Zmęczeni Rzeczywistością, teraz przyszedł czas na Młodych Kreatywnych – absolwentów uczelni artystycznych, którzy wpisani w ramy wieku pędzą. Nie ograniczają się tylko do działań w dziedzinie, z której są (dumnymi) magistrami na papierze. Chcą robić kariere, chcą być nie tyle na czasie, co w czasie, poznawać nowe technologie, rozwijać możliwości. Kończą malarstwo i idą pracować do największych agencji kreatywnych, które (podobno) cenią młode, twórcze, otwarte umysły (o tym już w kolejnym poście).\n\n## 3. Pokolenie Self-Obsessed\n\n‘-Wykonanie makijażu zajmuje mi jakieś 3 godziny. W trakcie malowania oczywiście nagrywam wszystko, żeby później zmontować to w spójny tutorial i wrzucić na YouTube. W czasie międzyczasu nagrywam krótkie story na żywo. Kiedy skończę utrwalam wszystko robiąc kilka selfie, no dobra może kilkanaście. Czas wyjść z domu. Przeglądam się  w lustrze kilka razy, sprawdzam fryzurę, wciągam brzuch, jeszcze kilka fotek. Wychodzę na siłownie, żeby tam powtórzyć rytuał, tyle że w innym lustrze. Żyję sobą i inni ludzie żyją mną, a  raczej marzeniem by być jak ja. Zaczynają mnie naśladować, stosować się do moich rad, zostają moimi fanami.’\nI gdyby to wszystko okazało się świadomą artystyczną kreacją, sztuką konceptualną, performansem, okej, to ma sens, coś uświadamia. A może rzeczywiście sztuka wyszła ze sztuki, przekroczyła samą siebie i jest w każdej najmniejszej czynności? Przecież pędzle do makijażu niczym nie różnią się od tych, którymi uprawiamy akwarele (nieśmiało przyznam, że nieraz wiewiórczy włos idealnie pomógł mi w blendowaniu załamaia powieki...) A gdyby tak, w tej nieświadomości, dodać przedrostek -art/przyrostek -artist do mojego pseudonimu na Instagramie? Czy wtedy ludzie zaczną lubić mnie bardziej? W końcu sztuka to domena jednostek myślących...\n\n\nSztukaUniwersalna.pl to portal w którym zacierają się granice. Opisuję i rejestruję Sztukę, która zajmuje mnie w danej chwili. Potraktuj to jako pamiętnik Młodej Kreatywnej, której każdy dzień to artystyczna kreacja. Miłej lektury. :)";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(19)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(15)))
 
 /***/ }),
-/* 273 */
+/* 275 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27660,13 +27756,13 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _ContentLimiter = __webpack_require__(20);
+var _ContentLimiter = __webpack_require__(16);
 
 var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(15).default;
+global.__data = __webpack_require__(13).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -27687,10 +27783,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Test", "categories": ["Sztuka Gotowania"], "tags": ["hello", "tags"], "role": "category", "limit": 1 };
 var body = exports.body = "<p>Sharks with frickin’ lasers attached to their heads. Evidently, my cycloptic friend...</p>\n";
 var raw = exports.raw = "\nSharks with frickin' lasers attached to their heads. Evidently, my cycloptic friend...\n\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(19)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(15)))
 
 /***/ }),
-/* 274 */
+/* 276 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27707,13 +27803,13 @@ var _react = __webpack_require__(3);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _ContentLimiter = __webpack_require__(20);
+var _ContentLimiter = __webpack_require__(16);
 
 var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(15).default;
+global.__data = __webpack_require__(13).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -27734,10 +27830,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Another", "tags": ["hello", "posts"], "category": "Test", "limit": 2 };
 var body = exports.body = "<p>Lorem ipsum...</p>\n";
 var raw = exports.raw = "\nLorem ipsum...\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(19)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(15)))
 
 /***/ }),
-/* 275 */
+/* 277 */
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -27746,10 +27842,10 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 275;
+webpackEmptyContext.id = 277;
 
 /***/ }),
-/* 276 */
+/* 278 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -27772,16 +27868,16 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 276;
+webpackContext.id = 278;
 
 /***/ }),
-/* 277 */
+/* 279 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"./CategoryList.tsx": 118,
 	"./Crumbs.tsx": 117,
-	"./Feed.tsx": 278,
+	"./Feed.tsx": 280,
 	"./TableOfContents.tsx": 119,
 	"./TagList.tsx": 70
 };
@@ -27799,10 +27895,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 277;
+webpackContext.id = 279;
 
 /***/ }),
-/* 278 */
+/* 280 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27827,7 +27923,7 @@ var __rest = undefined && undefined.__rest || function (s, e) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(3);
-var react_router_dom_1 = __webpack_require__(17);
+var react_router_dom_1 = __webpack_require__(19);
 var CategoryList_1 = __webpack_require__(118);
 var TagList_1 = __webpack_require__(70);
 var TableOfContents_1 = __webpack_require__(119);
@@ -27851,14 +27947,14 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 279 */
+/* 281 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var models_1 = __webpack_require__(18);
+var models_1 = __webpack_require__(20);
 var pages_1 = __webpack_require__(121);
 var categories_1 = __webpack_require__(122);
 var website = new models_1.Website();
@@ -27881,7 +27977,7 @@ var tags = pages_1.default.concat(categories_1.default).map(function (page) {
 exports.default = tags;
 
 /***/ }),
-/* 280 */
+/* 282 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27890,7 +27986,7 @@ exports.default = tags;
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var models_1 = __webpack_require__(18);
+var models_1 = __webpack_require__(20);
 var config = __webpack_require__(120);
 function checkIsArray(value, name) {
     if (!(value instanceof Array)) {
