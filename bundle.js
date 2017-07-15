@@ -12404,7 +12404,7 @@ module.exports = {
 		{
 			"title": "Sztuka Makijażu",
 			"short": "Makijaż",
-			"url": "/sztuka-makijażu",
+			"url": "/sztuka-makijazu",
 			"icon": null
 		},
 		{
