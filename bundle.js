@@ -12368,7 +12368,7 @@ module.exports = {
 	"title": "SztukaUniwersalna.PL",
 	"timezone": "Europe/Warsaw",
 	"collections": {
-		"categories": {
+		"Categories": {
 			"title": "Categories",
 			"output": false,
 			"layout": "PostLayout"
@@ -12393,7 +12393,7 @@ module.exports = {
 			"output": false
 		}
 	},
-	"baseurl": "://sztukauniwersalna.pl/",
+	"baseurl": "//sztukauniwersalna.pl/",
 	"menu": [
 		{
 			"title": "Sztuka Ubioru",
