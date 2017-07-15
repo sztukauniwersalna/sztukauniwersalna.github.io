@@ -12368,7 +12368,7 @@ module.exports = {
 	"title": "SztukaUniwersalna.PL",
 	"timezone": "Europe/Warsaw",
 	"collections": {
-		"Categories": {
+		"categories": {
 			"title": "Categories",
 			"output": false,
 			"layout": "PostLayout"
