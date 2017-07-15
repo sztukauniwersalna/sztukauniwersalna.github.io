@@ -12366,26 +12366,34 @@ exports.default = exports.TableOfContents;
 
 module.exports = {
 	"title": "SztukaUniwersalna.PL",
-	"baseurl": "://sztukauniwersalna.pl/",
 	"timezone": "Europe/Warsaw",
 	"collections": {
+		"Categories": {
+			"title": "Categories",
+			"output": false,
+			"layout": "PostLayout"
+		},
+		"drafts": {
+			"title": "Drafts",
+			"output": false,
+			"layout": "DraftLayout"
+		},
 		"pages": {
+			"title": "Pages",
+			"output": false,
 			"layout": "PageLayout"
 		},
 		"posts": {
-			"layout": "PostLayout"
-		},
-		"Categories": {
+			"title": "Posts",
+			"output": true,
 			"layout": "PostLayout"
 		},
 		"uploads": {
-			"title": "Uploads"
-		},
-		"drafts": {
-			"layout": "DraftLayout",
+			"title": "Uploads",
 			"output": false
 		}
 	},
+	"baseurl": "://sztukauniwersalna.pl/",
 	"menu": [
 		{
 			"title": "Sztuka Ubioru",
@@ -27306,7 +27314,7 @@ var component = exports.component = function component(data) {
 };
 var frontMatter = exports.frontMatter = { "title": "NotFound", "output": false };
 var body = exports.body = "<p>There is no page with this address.</p>\n";
-var raw = exports.raw = "There is no page with this address.\n\n";
+var raw = exports.raw = "\nThere is no page with this address.\n\n";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)))
 
 /***/ }),
@@ -27370,7 +27378,7 @@ var component = exports.component = function component(data) {
     )
   );
 };
-var frontMatter = exports.frontMatter = { "title": "SztukaUniwersalna.PL", "tags": ["hello", "index"], "description": "Sztuka w codzienności. Aleksandra Krawczyk prezentuje sposoby na odnalezienie odrobiny sztuki w codziennych czynnościach takich jak gotowanie, makijaż, oraz moda. Sztuka współczesna, sztuka abstrakcyjna, inspiracje dziełami wielkich twórców.", "permalink": "/" };
+var frontMatter = exports.frontMatter = { "title": "SztukaUniwersalna.PL", "permalink": "/", "tags": ["hello", "index"], "description": "Sztuka w codzienności. Aleksandra Krawczyk prezentuje sposoby na odnalezienie odrobiny sztuki w codziennych czynnościach takich jak gotowanie, makijaż, oraz moda. Sztuka współczesna, sztuka abstrakcyjna, inspiracje dziełami wielkich twórców." };
 var body = exports.body = "<ul>\n<li>Hello?</li>\n<li>Markdown!</li>\n</ul>\n<p>Is is hot?</p>\n<div>\n  <Feed {...data} feed={ data.website.getCollectionOfTitle('Posts').pages } />\n</div>\n";
 var raw = exports.raw = "\n * Hello?\n * Markdown!\n\nIs is hot?\n\n<div>\n  <Feed {...data} feed={ data.website.getCollectionOfTitle('Posts').pages } />\n</div>\n\n";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)))
@@ -27419,7 +27427,7 @@ var component = exports.component = function component(data) {
 };
 var frontMatter = exports.frontMatter = { "title": "Site Map", "tags": ["hello", "sitemap"] };
 var body = exports.body = "<div>\n  <TableOfContents {...data} />\n</div>\n";
-var raw = exports.raw = "<div>\n  <TableOfContents {...data} />\n</div>\n\n";
+var raw = exports.raw = "\n<div>\n  <TableOfContents {...data} />\n</div>\n\n";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)))
 
 /***/ }),
@@ -27464,9 +27472,9 @@ var component = exports.component = function component(data) {
     )
   );
 };
-var frontMatter = exports.frontMatter = { "output": false };
+var frontMatter = exports.frontMatter = { "title": "Tag", "output": false };
 var body = exports.body = "<div>\n  <Feed { ...data } feed={ data.page.pages } />\n</div>\n";
-var raw = exports.raw = "<div>\n  <Feed { ...data } feed={ data.page.pages } />\n</div>\n\n";
+var raw = exports.raw = "\n<div>\n  <Feed { ...data } feed={ data.page.pages } />\n</div>\n\n";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)))
 
 /***/ }),
@@ -27537,7 +27545,7 @@ var component = exports.component = function component(data) {
 };
 var frontMatter = exports.frontMatter = { "title": "Test", "category": "Sztuka Gotowania", "role": "category", "tags": ["hello", "tags"], "limit": 1 };
 var body = exports.body = "<p>Sharks with frickin’ lasers attached to their heads. Evidently, my cycloptic friend...</p>\n";
-var raw = exports.raw = "Sharks with frickin' lasers attached to their heads. Evidently, my cycloptic friend...\n\n";
+var raw = exports.raw = "\nSharks with frickin' lasers attached to their heads. Evidently, my cycloptic friend...\n\n";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)))
 
 /***/ }),
@@ -27584,7 +27592,7 @@ var component = exports.component = function component(data) {
 };
 var frontMatter = exports.frontMatter = { "title": "Another", "tags": ["hello", "posts"], "category": "Test", "limit": 2 };
 var body = exports.body = "<p>Lorem ipsum...</p>\n";
-var raw = exports.raw = "Lorem ipsum...\n";
+var raw = exports.raw = "\nLorem ipsum...\n";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)))
 
 /***/ }),
