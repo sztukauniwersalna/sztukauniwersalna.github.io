@@ -1244,16 +1244,13 @@ var Page = /** @class */function () {
         }, []);
     };
     Page.prototype.compareTo = function (another) {
-        if (this.date === null) {
-            if (another.date === null) {
-                return this.title > another.title;
+        if (this.date === another.date) {
+            if (this.title === another.title) {
+                return this.url > another.url ? 1 : -1;
             }
-            return -1;
+            return this.title > another.title ? 1 : -1;
         }
-        if (another.date === null) {
-            return 1;
-        }
-        return new Date(this.date).getTime() > new Date(another.date).getTime();
+        return this.date.getTime() > another.date.getTime() ? 1 : -1;
     };
     return Page;
 }();
@@ -1650,7 +1647,7 @@ function createPage(role, title, description, url, layout, body, output, date, c
 }
 function parsePage(name, body, frontMatter, defaultLayout) {
     var requiredBy = "pages['" + name + "']";
-    var page = createPage(checkIsString(frontMatter.role || 'page', requiredBy + ".role"), checkIsString(frontMatter.title || titleFromUrl(name, requiredBy), requiredBy + ".title"), checkIsString(frontMatter.description || '', requiredBy + ".description"), checkIsString(frontMatter.permalink || urlFromTitle(name, requiredBy), requiredBy + ".url"), website.getLayoutOfName(checkIsString(frontMatter.layout || defaultLayout, requiredBy + ".layout"), requiredBy), body, frontMatter.output != false, frontMatter.date || null, checkIsArray(frontMatter.categories || [], requiredBy + ".categories").concat(frontMatter.category !== undefined ? [checkIsString(frontMatter.category, requiredBy + ".category")] : []), checkIsArray(frontMatter.tags || [], requiredBy + ".tags"), checkIsOptionalBoolean(frontMatter.feed, true, requiredBy + ".feed"), requiredBy);
+    var page = createPage(checkIsString(frontMatter.role || 'page', requiredBy + ".role"), checkIsString(frontMatter.title || titleFromUrl(name, requiredBy), requiredBy + ".title"), checkIsString(frontMatter.description || '', requiredBy + ".description"), checkIsString(frontMatter.permalink || urlFromTitle(name, requiredBy), requiredBy + ".url"), website.getLayoutOfName(checkIsString(frontMatter.layout || defaultLayout, requiredBy + ".layout"), requiredBy), body, frontMatter.output != false, new Date(checkIsString(frontMatter.date, requiredBy + ".date")), checkIsArray(frontMatter.categories || [], requiredBy + ".categories").concat(frontMatter.category !== undefined ? [checkIsString(frontMatter.category, requiredBy + ".category")] : []), checkIsArray(frontMatter.tags || [], requiredBy + ".tags"), checkIsOptionalBoolean(frontMatter.feed, true, requiredBy + ".feed"), requiredBy);
     return page;
 }
 function createCollection(key, cfg, context) {
@@ -1917,7 +1914,7 @@ var Page_1 = __webpack_require__(30);
 var Tag = /** @class */function (_super) {
     __extends(Tag, _super);
     function Tag(title, url, layout, body) {
-        var _this = _super.call(this, '#' + title, '', url, layout, body, true, null, [], [], false) || this;
+        var _this = _super.call(this, '#' + title, '', url, layout, body, true, new Date(Date.UTC(0, 0)), [], [], false) || this;
         _this.pages = [];
         _this.originalTitle = title;
         return _this;
@@ -2501,8 +2498,6 @@ var pages = collections_1.default.reduce(function (p, c) {
     return p.concat(c.pages);
 }, []).filter(function (page) {
     return !(page instanceof models_1.Category);
-}).sort(function (a, b) {
-    return !a.compareTo(b);
 });
 exports.default = pages;
 
@@ -3942,7 +3937,7 @@ var component = exports.component = function component(data) {
     )
   );
 };
-var frontMatter = exports.frontMatter = { "title": "Sztuka Gotowania", "tags": ["sztuka", "gotowanie", "kuchnia", "dania", "ciasta", "inspiracje"], "role": "category" };
+var frontMatter = exports.frontMatter = { "title": "Sztuka Gotowania", "date": "2017-07-15T20:12:00.000Z", "tags": ["sztuka", "gotowanie", "kuchnia", "dania", "ciasta", "inspiracje"], "role": "category" };
 var body = exports.body = "<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka Gotowania').pages } />\n</div>\n";
 var raw = exports.raw = "\n<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka Gotowania').pages } />\n</div>\n\n";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)))
@@ -4110,7 +4105,7 @@ var component = exports.component = function component(data) {
     )
   );
 };
-var frontMatter = exports.frontMatter = { "title": "Nie Znaleziono", "output": false };
+var frontMatter = exports.frontMatter = { "title": "Nie Znaleziono", "date": "1900-01-01T00:00:00.000Z", "output": false };
 var body = exports.body = "<p>Strona o tym adresie nie istnieje.</p>\n";
 var raw = exports.raw = "\nStrona o tym adresie nie istnieje.\n\n";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)))
@@ -4157,7 +4152,7 @@ var component = exports.component = function component(data) {
     )
   );
 };
-var frontMatter = exports.frontMatter = { "title": "SztukaUniwersalna.PL", "permalink": "/", "tags": ["index", "sztuka", "uniwersalna", "moda", "makijaż", "gotowanie", "codzienność", "współczesna", "abstrakcja", "inspiracje"], "description": "Sztuka w codzienności. Aleksandra Krawczyk prezentuje sposoby na odnalezienie odrobiny sztuki w codziennych czynnościach takich jak gotowanie, makijaż, oraz moda. Sztuka współczesna, sztuka abstrakcyjna, inspiracje dziełami wielkich twórców.", "feed": false };
+var frontMatter = exports.frontMatter = { "title": "SztukaUniwersalna.PL", "date": "2017-07-15T20:12:00.000Z", "permalink": "/", "tags": ["index", "sztuka", "uniwersalna", "moda", "makijaż", "gotowanie", "codzienność", "współczesna", "abstrakcja", "inspiracje"], "description": "Sztuka w codzienności. Aleksandra Krawczyk prezentuje sposoby na odnalezienie odrobiny sztuki w codziennych czynnościach takich jak gotowanie, makijaż, oraz moda. Sztuka współczesna, sztuka abstrakcyjna, inspiracje dziełami wielkich twórców.", "feed": false };
 var body = exports.body = "<div>\n  <Feed {...data} feed={ data.website.getCollectionOfTitle('Posts').pages } />\n</div>\n";
 var raw = exports.raw = "\n<div>\n  <Feed {...data} feed={ data.website.getCollectionOfTitle('Posts').pages } />\n</div>\n\n";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)))
@@ -4329,7 +4324,7 @@ var component = exports.component = function component(data) {
     )
   );
 };
-var frontMatter = exports.frontMatter = { "title": "Mapa Witryny", "permalink": "/sitemap", "tags": ["sitemap", "dla bota"] };
+var frontMatter = exports.frontMatter = { "title": "Mapa Witryny", "date": "2017-07-15T20:12:00.000Z", "permalink": "/sitemap", "tags": ["sitemap", "dla bota"] };
 var body = exports.body = "<div className='compact'>\n  <TableOfContents {...data} />\n</div>\n";
 var raw = exports.raw = "\n<div className='compact'>\n  <TableOfContents {...data} />\n</div>\n\n";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)))
@@ -4376,7 +4371,7 @@ var component = exports.component = function component(data) {
     )
   );
 };
-var frontMatter = exports.frontMatter = { "title": "Tag", "output": false };
+var frontMatter = exports.frontMatter = { "title": "Tag", "date": "1900-01-01T00:00:00.000Z", "output": false };
 var body = exports.body = "<div>\n  <Feed { ...data } feed={ data.page.pages } />\n</div>\n";
 var raw = exports.raw = "\n<div>\n  <Feed { ...data } feed={ data.page.pages } />\n</div>\n\n";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)))
@@ -6822,7 +6817,9 @@ function Feed(_a) {
     if (respectLimit) {
         return React.createElement(TableOfContents_1.Branch, __assign({ pages: pages, shallow: true }, props));
     }
-    return React.createElement("div", null, pages.map(function (page) {
+    return React.createElement("div", null, pages.sort(function (a, b) {
+        return b.compareTo(a);
+    }).map(function (page) {
         return React.createElement(Tile_1.default, { key: page.url, page: page, website: website });
     }));
 }
