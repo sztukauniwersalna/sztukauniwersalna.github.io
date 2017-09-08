@@ -87,14 +87,6 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_1__;
 
 /***/ }),
 /* 2 */
-/***/ (function(module, exports) {
-
-var core = module.exports = { version: '2.5.1' };
-if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
-
-
-/***/ }),
-/* 3 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -102,7 +94,7 @@ if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var requireDirectory_1 = __webpack_require__(31);
-var models_1 = __webpack_require__(7);
+var models_1 = __webpack_require__(9);
 var Context = __webpack_require__(32);
 var includes = requireDirectory_1.default(Context.INCLUDES).map(function (module) {
     var name = module.name.replace(/^\.\//, '').replace(/\.tsx$/, '');
@@ -111,7 +103,143 @@ var includes = requireDirectory_1.default(Context.INCLUDES).map(function (module
 exports.default = includes;
 
 /***/ }),
+/* 3 */
+/***/ (function(module, exports) {
+
+var core = module.exports = { version: '2.5.1' };
+if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
+
+
+/***/ }),
 /* 4 */
+/***/ (function(module, exports) {
+
+var g;
+
+// This works in non-strict mode
+g = (function() {
+	return this;
+})();
+
+try {
+	// This works if eval is allowed (see CSP)
+	g = g || Function("return this")() || (1,eval)("this");
+} catch(e) {
+	// This works if the window reference is available
+	if(typeof window === "object")
+		g = window;
+}
+
+// g can still be undefined, but nothing to do about it...
+// We return undefined, instead of nothing here, so it's
+// easier to handle this case. if(!global) { ...}
+
+module.exports = g;
+
+
+/***/ }),
+/* 5 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
+var __assign = undefined && undefined.__assign || Object.assign || function (t) {
+    for (var s, i = 1, n = arguments.length; i < n; i++) {
+        s = arguments[i];
+        for (var p in s) {
+            if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+    }
+    return t;
+};
+var __rest = undefined && undefined.__rest || function (s, e) {
+    var t = {};
+    for (var p in s) {
+        if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0) t[p] = s[p];
+    }if (s != null && typeof Object.getOwnPropertySymbols === "function") for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
+        if (e.indexOf(p[i]) < 0) t[p[i]] = s[p[i]];
+    }return t;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var React = __webpack_require__(0);
+var react_1 = __webpack_require__(0);
+function ContentLimiter(_a) {
+    var children = _a.children,
+        limit = _a.limit,
+        respectLimit = _a.respectLimit,
+        props = __rest(_a, ["children", "limit", "respectLimit"]);
+    if (!limit || !respectLimit) {
+        return React.createElement("div", null, children);
+    }
+    var output = [];
+    limitContent(children, limit, props, output);
+    return React.createElement("div", null, output);
+}
+exports.ContentLimiter = ContentLimiter;
+function limitContent(children, limit, props, output) {
+    switch (typeof children === "undefined" ? "undefined" : _typeof(children)) {
+        case 'undefined':
+            return limit;
+        case 'number':
+            output.push(children);
+            return limit;
+        case 'string':
+            return limitString(children, limit, output);
+        default:
+            return limitReactElement(children, limit, props, output);
+    }
+}
+function limitString(child, limit, output) {
+    var previuos = 0;
+    var current;
+    var sentences = sentencize(child);
+    if (sentences.length < limit) {
+        output.push(child);
+        return limit - sentences.length;
+    }
+    sentences.slice(0, limit).forEach(function (sentence) {
+        return output.push(sentence);
+    });
+    return 0;
+}
+function limitReactElement(children, limit, props, output) {
+    var characters = limit;
+    asReactElementArray(children).forEach(function (child, key) {
+        if (characters === 0) {
+            return;
+        }
+        var newChildren = [];
+        characters = limitContent(child.props.children, characters, props, newChildren);
+        var newProps = _typeof(child.type) === 'object' ? __assign({}, props, { key: key }) : { key: key };
+        output.push(react_1.cloneElement(child, newProps, newChildren));
+    });
+    return characters;
+}
+function asReactElementArray(children) {
+    if (children === undefined) {
+        return [];
+    }
+    if ((typeof children === "undefined" ? "undefined" : _typeof(children)) !== 'object') {
+        throw new Error("unexpected value: " + children);
+    }
+    return [].concat(children);
+}
+function sentencize(child) {
+    var sentenceRegexp = /[^.!?…]*[.!?…]/g;
+    var matches = [];
+    var match;
+    while ((match = sentenceRegexp.exec(child)) !== null) {
+        matches.push(match[0]);
+    }
+    return matches;
+}
+exports.default = ContentLimiter;
+
+/***/ }),
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -121,23 +249,23 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _getPrototypeOf = __webpack_require__(115);
+var _getPrototypeOf = __webpack_require__(116);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__(120);
+var _classCallCheck2 = __webpack_require__(121);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__(121);
+var _createClass2 = __webpack_require__(122);
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__(125);
+var _possibleConstructorReturn2 = __webpack_require__(126);
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__(149);
+var _inherits2 = __webpack_require__(150);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
@@ -149,7 +277,7 @@ var _propTypes = __webpack_require__(26);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _hoistNonReactStatics = __webpack_require__(157);
+var _hoistNonReactStatics = __webpack_require__(158);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
@@ -212,7 +340,7 @@ function withStyles() {
 exports.default = withStyles;
 
 /***/ }),
-/* 5 */
+/* 7 */
 /***/ (function(module, exports) {
 
 /*
@@ -294,17 +422,17 @@ function toComment(sourceMap) {
 
 
 /***/ }),
-/* 6 */
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _stringify = __webpack_require__(161);
+var _stringify = __webpack_require__(162);
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
-var _slicedToArray2 = __webpack_require__(163);
+var _slicedToArray2 = __webpack_require__(164);
 
 var _slicedToArray3 = _interopRequireDefault(_slicedToArray2);
 
@@ -424,7 +552,7 @@ function insertCss(styles) {
 module.exports = insertCss;
 
 /***/ }),
-/* 7 */
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -447,134 +575,6 @@ var MenuEntry_1 = __webpack_require__(96);
 exports.MenuEntry = MenuEntry_1.default;
 var Website_1 = __webpack_require__(97);
 exports.Website = Website_1.default;
-
-/***/ }),
-/* 8 */
-/***/ (function(module, exports) {
-
-var g;
-
-// This works in non-strict mode
-g = (function() {
-	return this;
-})();
-
-try {
-	// This works if eval is allowed (see CSP)
-	g = g || Function("return this")() || (1,eval)("this");
-} catch(e) {
-	// This works if the window reference is available
-	if(typeof window === "object")
-		g = window;
-}
-
-// g can still be undefined, but nothing to do about it...
-// We return undefined, instead of nothing here, so it's
-// easier to handle this case. if(!global) { ...}
-
-module.exports = g;
-
-
-/***/ }),
-/* 9 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-var __assign = undefined && undefined.__assign || Object.assign || function (t) {
-    for (var s, i = 1, n = arguments.length; i < n; i++) {
-        s = arguments[i];
-        for (var p in s) {
-            if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
-        }
-    }
-    return t;
-};
-var __rest = undefined && undefined.__rest || function (s, e) {
-    var t = {};
-    for (var p in s) {
-        if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0) t[p] = s[p];
-    }if (s != null && typeof Object.getOwnPropertySymbols === "function") for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
-        if (e.indexOf(p[i]) < 0) t[p[i]] = s[p[i]];
-    }return t;
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var react_1 = __webpack_require__(0);
-function ContentLimiter(_a) {
-    var children = _a.children,
-        limit = _a.limit,
-        respectLimit = _a.respectLimit,
-        props = __rest(_a, ["children", "limit", "respectLimit"]);
-    if (!limit || !respectLimit) {
-        return React.createElement("div", null, children);
-    }
-    var output = [];
-    limitContent(children, limit, props, output);
-    return React.createElement("div", null, output);
-}
-exports.ContentLimiter = ContentLimiter;
-function limitContent(children, limit, props, output) {
-    switch (typeof children === "undefined" ? "undefined" : _typeof(children)) {
-        case 'undefined':
-            return limit;
-        case 'number':
-            output.push(children);
-            return limit;
-        case 'string':
-            return limitString(children, limit, output);
-        default:
-            return limitReactElement(children, limit, props, output);
-    }
-}
-function limitString(child, limit, output) {
-    var previuos = 0;
-    var current;
-    var sentences = sentencize(child);
-    if (sentences.length < limit) {
-        output.push(child);
-        return limit - sentences.length;
-    }
-    sentences.slice(0, limit).forEach(function (sentence) {
-        return output.push(sentence);
-    });
-    return 0;
-}
-function limitReactElement(children, limit, props, output) {
-    var characters = limit;
-    asReactElementArray(children).forEach(function (child, key) {
-        if (characters === 0) {
-            return;
-        }
-        var newChildren = [];
-        characters = limitContent(child.props.children, characters, props, newChildren);
-        var newProps = _typeof(child.type) === 'object' ? __assign({}, props, { key: key }) : { key: key };
-        output.push(react_1.cloneElement(child, newProps, newChildren));
-    });
-    return characters;
-}
-function asReactElementArray(children) {
-    if (children === undefined) {
-        return [];
-    }
-    if ((typeof children === "undefined" ? "undefined" : _typeof(children)) !== 'object') {
-        throw new Error("unexpected value: " + children);
-    }
-    return [].concat(children);
-}
-function sentencize(child) {
-    var sentenceRegexp = /[^.!?…]*[.!?…]/g;
-    var matches = [];
-    var match;
-    while ((match = sentenceRegexp.exec(child)) !== null) {
-        matches.push(match[0]);
-    }
-    return matches;
-}
-exports.default = ContentLimiter;
 
 /***/ }),
 /* 10 */
@@ -652,7 +652,7 @@ module.exports = !__webpack_require__(21)(function () {
 /***/ (function(module, exports, __webpack_require__) {
 
 var global = __webpack_require__(11);
-var core = __webpack_require__(2);
+var core = __webpack_require__(3);
 var ctx = __webpack_require__(59);
 var hide = __webpack_require__(16);
 var PROTOTYPE = 'prototype';
@@ -744,7 +744,7 @@ module.exports = function (it) {
 /***/ (function(module, exports, __webpack_require__) {
 
 // to indexed object, toObject with fallback for non-array-like ES3 strings
-var IObject = __webpack_require__(131);
+var IObject = __webpack_require__(132);
 var defined = __webpack_require__(33);
 module.exports = function (it) {
   return IObject(defined(it));
@@ -980,8 +980,8 @@ module.exports = {};
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(1);
-var withStyles_1 = __webpack_require__(4);
-var s = __webpack_require__(159);
+var withStyles_1 = __webpack_require__(6);
+var s = __webpack_require__(160);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -1274,10 +1274,10 @@ module.exports = {
 _PARAMORPH: __webpack_require__(98),
 CATEGORIES: __webpack_require__(99),
 PAGES: __webpack_require__(104),
-POSTS: __webpack_require__(109),
-ROOT: __webpack_require__(112),
-LAYOUTS: __webpack_require__(113),
-INCLUDES: __webpack_require__(197)};
+POSTS: __webpack_require__(110),
+ROOT: __webpack_require__(113),
+LAYOUTS: __webpack_require__(114),
+INCLUDES: __webpack_require__(198)};
 
 
 /***/ }),
@@ -1338,7 +1338,7 @@ module.exports = function (it, S) {
 
 "use strict";
 
-var $at = __webpack_require__(128)(true);
+var $at = __webpack_require__(129)(true);
 
 // 21.1.3.27 String.prototype[@@iterator]()
 __webpack_require__(63)(String, 'String', function (iterated) {
@@ -1381,7 +1381,7 @@ module.exports = true;
 
 // 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
 var anObject = __webpack_require__(17);
-var dPs = __webpack_require__(130);
+var dPs = __webpack_require__(131);
 var enumBugKeys = __webpack_require__(43);
 var IE_PROTO = __webpack_require__(34)('IE_PROTO');
 var Empty = function () { /* empty */ };
@@ -1396,7 +1396,7 @@ var createDict = function () {
   var gt = '>';
   var iframeDocument;
   iframe.style.display = 'none';
-  __webpack_require__(135).appendChild(iframe);
+  __webpack_require__(136).appendChild(iframe);
   iframe.src = 'javascript:'; // eslint-disable-line no-script-url
   // createDict = iframe.contentWindow.Object;
   // html.removeChild(iframe);
@@ -1473,7 +1473,7 @@ module.exports = function (it, tag, stat) {
 /* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(136);
+__webpack_require__(137);
 var global = __webpack_require__(11);
 var hide = __webpack_require__(16);
 var Iterators = __webpack_require__(22);
@@ -1506,7 +1506,7 @@ exports.f = __webpack_require__(10);
 /***/ (function(module, exports, __webpack_require__) {
 
 var global = __webpack_require__(11);
-var core = __webpack_require__(2);
+var core = __webpack_require__(3);
 var LIBRARY = __webpack_require__(39);
 var wksExt = __webpack_require__(46);
 var defineProperty = __webpack_require__(13).f;
@@ -1532,8 +1532,8 @@ exports.f = {}.propertyIsEnumerable;
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var withStyles_1 = __webpack_require__(4);
-var s = __webpack_require__(171);
+var withStyles_1 = __webpack_require__(6);
+var s = __webpack_require__(172);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -1570,7 +1570,7 @@ exports.default = withStyles_1.default(s)(Icon);
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var models_1 = __webpack_require__(7);
+var models_1 = __webpack_require__(9);
 var requireDirectory_1 = __webpack_require__(31);
 var layouts_1 = __webpack_require__(56);
 var Context = __webpack_require__(32);
@@ -1748,14 +1748,14 @@ var react_1 = __webpack_require__(0);
 var server_1 = __webpack_require__(51);
 var react_router_dom_1 = __webpack_require__(1);
 var utils_1 = __webpack_require__(92);
-var models_1 = __webpack_require__(7);
+var models_1 = __webpack_require__(9);
 var layouts_1 = __webpack_require__(56);
-var includes_1 = __webpack_require__(3);
+var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(50);
 var pages_1 = __webpack_require__(76);
 var categories_1 = __webpack_require__(77);
-var tags_1 = __webpack_require__(203);
-var menu_1 = __webpack_require__(204);
+var tags_1 = __webpack_require__(204);
+var menu_1 = __webpack_require__(205);
 var website = new models_1.Website();
 layouts_1.default.forEach(function (layout) {
     return website.addLayout(layout);
@@ -1923,7 +1923,7 @@ exports.default = Tag;
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var requireDirectory_1 = __webpack_require__(31);
-var models_1 = __webpack_require__(7);
+var models_1 = __webpack_require__(9);
 var Context = __webpack_require__(32);
 var layouts = requireDirectory_1.default(Context.LAYOUTS).map(function (module) {
     var name = module.name.replace(/^\.\//, '').replace(/\.tsx$/, '');
@@ -1966,7 +1966,7 @@ module.exports = Object.getPrototypeOf || function (O) {
 /***/ (function(module, exports, __webpack_require__) {
 
 // optional / simple context binding
-var aFunction = __webpack_require__(119);
+var aFunction = __webpack_require__(120);
 module.exports = function (fn, that, length) {
   aFunction(fn);
   if (that === undefined) return fn;
@@ -2018,11 +2018,11 @@ module.exports = function (it) {
 
 exports.__esModule = true;
 
-var _iterator = __webpack_require__(126);
+var _iterator = __webpack_require__(127);
 
 var _iterator2 = _interopRequireDefault(_iterator);
 
-var _symbol = __webpack_require__(139);
+var _symbol = __webpack_require__(140);
 
 var _symbol2 = _interopRequireDefault(_symbol);
 
@@ -2048,7 +2048,7 @@ var redefine = __webpack_require__(64);
 var hide = __webpack_require__(16);
 var has = __webpack_require__(12);
 var Iterators = __webpack_require__(22);
-var $iterCreate = __webpack_require__(129);
+var $iterCreate = __webpack_require__(130);
 var setToStringTag = __webpack_require__(44);
 var getPrototypeOf = __webpack_require__(58);
 var ITERATOR = __webpack_require__(10)('iterator');
@@ -2126,7 +2126,7 @@ module.exports = __webpack_require__(16);
 
 var has = __webpack_require__(12);
 var toIObject = __webpack_require__(18);
-var arrayIndexOf = __webpack_require__(132)(false);
+var arrayIndexOf = __webpack_require__(133)(false);
 var IE_PROTO = __webpack_require__(34)('IE_PROTO');
 
 module.exports = function (object, names) {
@@ -2223,8 +2223,8 @@ module.exports = function (it) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var withStyles_1 = __webpack_require__(4);
-var s = __webpack_require__(173);
+var withStyles_1 = __webpack_require__(6);
+var s = __webpack_require__(174);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -2273,9 +2273,9 @@ exports.default = withStyles_1.default(s)(Logo);
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var withStyles_1 = __webpack_require__(4);
+var withStyles_1 = __webpack_require__(6);
 var Button_1 = __webpack_require__(23);
-var s = __webpack_require__(181);
+var s = __webpack_require__(182);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -2352,7 +2352,7 @@ exports.default = TagList;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(1);
-var models_1 = __webpack_require__(7);
+var models_1 = __webpack_require__(9);
 ;
 exports.TableOfContents = function (_a) {
     var website = _a.website,
@@ -2483,7 +2483,7 @@ module.exports = {
 
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var models_1 = __webpack_require__(7);
+var models_1 = __webpack_require__(9);
 var collections_1 = __webpack_require__(50);
 var pages = collections_1.default.reduce(function (p, c) {
     return p.concat(c.pages);
@@ -2500,7 +2500,7 @@ exports.default = pages;
 
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var models_1 = __webpack_require__(7);
+var models_1 = __webpack_require__(9);
 var collections_1 = __webpack_require__(50);
 var categories = collections_1.default.reduce(function (p, c) {
     return p.concat(c.pages);
@@ -3857,13 +3857,13 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _ContentLimiter = __webpack_require__(9);
+var _ContentLimiter = __webpack_require__(5);
 
 var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(3).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -3884,7 +3884,7 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Sztuka dla Sztuki", "date": "2017-07-15T20:12:00.000Z", "tags": ["sztuka", "współczesna", "abstrakcja", "inspiracje"], "role": "category" };
 var body = exports.body = "<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka dla Sztuki').pages } />\n</div>\n";
 var raw = exports.raw = "\n<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka dla Sztuki').pages } />\n</div>\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)))
 
 /***/ }),
 /* 101 */
@@ -3904,13 +3904,13 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _ContentLimiter = __webpack_require__(9);
+var _ContentLimiter = __webpack_require__(5);
 
 var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(3).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -3931,7 +3931,7 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Sztuka Gotowania", "tags": ["sztuka", "gotowanie", "kuchnia", "dania", "ciasta", "inspiracje"], "role": "category" };
 var body = exports.body = "<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka Gotowania').pages } />\n</div>\n";
 var raw = exports.raw = "\n<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka Gotowania').pages } />\n</div>\n\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)))
 
 /***/ }),
 /* 102 */
@@ -3951,13 +3951,13 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _ContentLimiter = __webpack_require__(9);
+var _ContentLimiter = __webpack_require__(5);
 
 var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(3).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -3978,7 +3978,7 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Sztuka Makijażu", "date": "2017-07-15T20:13:00.000Z", "permalink": "/sztuka-makijazu", "tags": ["sztuka", "makijaż", "inspiracje"], "role": "category" };
 var body = exports.body = "<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka Makijażu').pages } />\n</div>\n";
 var raw = exports.raw = "\n<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka Makijażu').pages } />\n</div>\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)))
 
 /***/ }),
 /* 103 */
@@ -3998,13 +3998,13 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _ContentLimiter = __webpack_require__(9);
+var _ContentLimiter = __webpack_require__(5);
 
 var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(3).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -4025,7 +4025,7 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Sztuka Ubioru", "date": "2017-07-15T20:14:00.000Z", "tags": ["sztuka", "ubiór", "moda", "projektanci", "domy mody", "inspiracje"], "role": "category" };
 var body = exports.body = "<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka Ubioru').pages } />\n</div>\n";
 var raw = exports.raw = "\n<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka Ubioru').pages } />\n</div>\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)))
 
 /***/ }),
 /* 104 */
@@ -4034,8 +4034,9 @@ var raw = exports.raw = "\n<div>\n  <Feed { ...data } feed={ data.website.getCat
 var map = {
 	"./404.markdown": 105,
 	"./index.markdown": 106,
-	"./sitemap.markdown": 107,
-	"./tag.markdown": 108
+	"./kim-jest-olela.markdown": 107,
+	"./sitemap.markdown": 108,
+	"./tag.markdown": 109
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -4071,13 +4072,13 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _ContentLimiter = __webpack_require__(9);
+var _ContentLimiter = __webpack_require__(5);
 
 var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(3).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -4098,7 +4099,7 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Nie Znaleziono", "output": false };
 var body = exports.body = "<p>Strona o tym adresie nie istnieje.</p>\n";
 var raw = exports.raw = "\nStrona o tym adresie nie istnieje.\n\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)))
 
 /***/ }),
 /* 106 */
@@ -4118,13 +4119,13 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _ContentLimiter = __webpack_require__(9);
+var _ContentLimiter = __webpack_require__(5);
 
 var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(3).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -4145,7 +4146,7 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "SztukaUniwersalna.PL", "permalink": "/", "tags": ["index", "sztuka", "uniwersalna", "moda", "makijaż", "gotowanie", "codzienność", "współczesna", "abstrakcja", "inspiracje"], "description": "Sztuka w codzienności. Aleksandra Krawczyk prezentuje sposoby na odnalezienie odrobiny sztuki w codziennych czynnościach takich jak gotowanie, makijaż, oraz moda. Sztuka współczesna, sztuka abstrakcyjna, inspiracje dziełami wielkich twórców.", "feed": false };
 var body = exports.body = "<div>\n  <Feed {...data} feed={ data.website.getCollectionOfTitle('Posts').pages } />\n</div>\n";
 var raw = exports.raw = "\n<div>\n  <Feed {...data} feed={ data.website.getCollectionOfTitle('Posts').pages } />\n</div>\n\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)))
 
 /***/ }),
 /* 107 */
@@ -4165,13 +4166,105 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _ContentLimiter = __webpack_require__(9);
+var _ContentLimiter = __webpack_require__(5);
 
 var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(3).default;
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Kim jest Olela?'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Cze\u015B\u0107, jestem Olela, witaj na moim blogu. Na co dzie\u0144 pracuj\u0119 w szeroko poj\u0119tym obszarze sztuki - maluj\u0119 obrazy, fotografuj\u0119, jestem grafikiem komputerowym, tancerk\u0105, nauczycielk\u0105 ta\u0144ca i choreografk\u0105. Z zami\u0142owania r\xF3wnie\u017C gotuj\u0119. Z racji tak mnogich zainteresowa\u0144, zwyk\u0142am m\xF3wi\u0107 o sobie Artystka Uniwersalna. Wierz\u0119 w zanikanie granic i wzajemne przenikanie si\u0119 dyscyplin. Czy mieszam sk\u0142adniki zupy w garnku, czy dodaj\u0119 do ultramaryny odrobin\u0119 karminu, czy nak\u0142adam baz\u0119 pod makija\u017C \u2013 tworz\u0119 sztuk\u0119.'
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Jaki jest cel?'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Misj\u0105 bloga ',
+      _react2.default.createElement(
+        'a',
+        { href: 'http://sztukauniwersalna.pl' },
+        'sztukauniwersalna.pl'
+      ),
+      ' jest dostrze\u017Cenie i zatarcie granicy pomi\u0119dzy sztuk\u0105 a codzienno\u015Bci\u0105, zintegrowanie \u015Bwiata masowego przekazu, kt\xF3rym jeste\u015Bmy otoczeni z ka\u017Cdej strony, z kultur\u0105. Postaram si\u0119 pokaza\u0107, nieoczywiste na pierwszy rzut oka, konotacje pomi\u0119dzy czynno\u015Bciami okre\u015Blanymi jako \u2018przyziemne\u2019, a kreacj\u0105 artystyczn\u0105. Opr\xF3cz tego wyka\u017C\u0119 wp\u0142ywy poszczeg\xF3lnych tendencji artystycznych na r\xF3\u017Cne dziedziny \u017Cycia. Mam nadzieje, \u017Ce znajdziesz tu dla siebie wiele inspiracji, kt\xF3re prze\u0142o\u017C\u0105 si\u0119 na Twoje postrzeganie rzeczywisto\u015Bci.'
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Poznajmy si\u0119 lepiej.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Jestem Magistrem Sztuk Pi\u0119knych. W 2015 r. obroni\u0142am dyplom  na wydziale malarstwa krakowskiej ASP. Dyplomem by\u0142 solowy spektakl pt.: \u2018Pi\u0119\u0107 P\xF3r Roku\u2019 zrealizowany w jednym z krakowskich teatr\xF3w. W trakcie p\xF3\u0142godzinnej etiudy stara\u0142am si\u0119 wyta\u0144czy\u0107 wszystkie stany emocjonalne towarzysz\u0105ce mi przez 5letnie studia artystyczne. Malowanie ruchem by\u0142o cudownym do\u015Bwiadczeniem i spotka\u0142o si\u0119 z pozytywnym odbiorem komisji i publiczno\u015Bci. Jak wi\u0119kszo\u015B\u0107 kobiet uwielbiam si\u0119 malowa\u0107 i przebiera\u0107. Staram si\u0119 dok\u0142ada\u0107 do tych czynno\u015Bci teatralny pierwiastek. Wymy\u015Blam posta\u0107, opowiadam po cichu historie, \u2018wchodz\u0119 w rol\u0119\u2019. Najbardziej inspiruj\u0105 mnie futurystyczne klimaty. Moim najwi\u0119kszym bzikiem s\u0105... buty i szminki. Uwa\u017Cam, \u017Ce kolor na ustach czyni kobiet\u0119 pewniejsz\u0105 siebie. Ah, jak ja kocham te kolory! Blady r\xF3\u017C na sportowo. Jagodowa do ramoneski. Czerwie\u0144 jest raczej zarezerwowana dla klasycznych po\u0142\u0105cze\u0144, dlatego rzadko jej u\u017Cywam. Zdecydowanie bardziej wol\u0119 elektryzuj\u0105cy eklektyzm. Kiedy robi\u0119 zakupy w sklepie spo\u017Cywczym zazwyczaj w\u0105cham owoce i warzywa. Zapach pozwala na wyobra\u017Cenie smaku. Czasami te\u017C subtelnie zanurzam d\u0142o\u0144 w worku z ziarnami, jak zwyk\u0142a robi\u0107 to Amelia, bohaterka filmu o tym samym tytule. Do\u015B\u0107 sporo czasu w swoim \u017Cyciu sp\u0119dzi\u0142am w muzeach. Moja najd\u0142u\u017Csza kontemplacja dzie\u0142a sztuki mia\u0142a miejsce na wystawie Mark\u2019a Rothko w Warszawie w 2013\xA0r.  By\u0142am tak zafascynowana tw\xF3rczo\u015Bci\u0105 nowojorczyka (nadal jestem), \u017Ce przed jednym obrazem sp\u0119dzi\u0142am kilka godzin, a panowie ochroniarze dos\u0142ownie musieli wyprasza\u0107 mnie z budynku, gdy przysz\u0142a godzina zamkni\u0119cia ekspozycji.'
+    ),
+    _react2.default.createElement(
+      'pre',
+      null,
+      _react2.default.createElement(
+        'code',
+        null,
+        'Skoro ju\u017C tyle o mnie wiesz\u2026 mam nadzieje, \u017Ce zostaniesz tu na d\u0142u\u017Cej. Czytaj, ogl\u0105daj, komentuj, kontempluj. Mo\u017Cesz te\u017C polubi\u0107 konto na [fb](https://facebook.com/sztukauniwersalna/"fb") i [insta](https://instagram.com/sztuka_uniwersalna/"insta"), \u017Ceby by\u0107 na bie\u017C\u0105co. A je\u015Bli chcesz si\u0119 ze mn\u0105 skontkowa\u0107 napisz na adres sztuka.uniwersalna@gmail.com \u2013 b\u0119dzie mi bardzo mi\u0142o!'
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Pozdrawiam, Olela'
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Kim jest Olela?", "date": "2017-09-08T17:17:00.000Z", "permalink": "/kim-jest-olela" };
+var body = exports.body = "<h2>Kim jest Olela?</h2>\n<p>Cześć, jestem Olela, witaj na moim blogu. Na co dzień pracuję w szeroko pojętym obszarze sztuki - maluję obrazy, fotografuję, jestem grafikiem komputerowym, tancerką, nauczycielką tańca i choreografką. Z zamiłowania również gotuję. Z racji tak mnogich zainteresowań, zwykłam mówić o sobie Artystka Uniwersalna. Wierzę w zanikanie granic i wzajemne przenikanie się dyscyplin. Czy mieszam składniki zupy w garnku, czy dodaję do ultramaryny odrobinę karminu, czy nakładam bazę pod makijaż – tworzę sztukę.</p>\n<h2>Jaki jest cel?</h2>\n<p>Misją bloga <a href=\"http://sztukauniwersalna.pl\">sztukauniwersalna.pl</a> jest dostrzeżenie i zatarcie granicy pomiędzy sztuką a codziennością, zintegrowanie świata masowego przekazu, którym jesteśmy otoczeni z każdej strony, z kulturą. Postaram się pokazać, nieoczywiste na pierwszy rzut oka, konotacje pomiędzy czynnościami określanymi jako ‘przyziemne’, a kreacją artystyczną. Oprócz tego wykażę wpływy poszczególnych tendencji artystycznych na różne dziedziny życia. Mam nadzieje, że znajdziesz tu dla siebie wiele inspiracji, które przełożą się na Twoje postrzeganie rzeczywistości.</p>\n<h2>Poznajmy się lepiej.</h2>\n<p>Jestem Magistrem Sztuk Pięknych. W 2015 r. obroniłam dyplom  na wydziale malarstwa krakowskiej ASP. Dyplomem był solowy spektakl pt.: ‘Pięć Pór Roku’ zrealizowany w jednym z krakowskich teatrów. W trakcie półgodzinnej etiudy starałam się wytańczyć wszystkie stany emocjonalne towarzyszące mi przez 5letnie studia artystyczne. Malowanie ruchem było cudownym doświadczeniem i spotkało się z pozytywnym odbiorem komisji i publiczności.\nJak większość kobiet uwielbiam się malować i przebierać. Staram się dokładać do tych czynności teatralny pierwiastek. Wymyślam postać, opowiadam po cichu historie, ‘wchodzę w rolę’. Najbardziej inspirują mnie futurystyczne klimaty.\nMoim największym bzikiem są... buty i szminki. Uważam, że kolor na ustach czyni kobietę pewniejszą siebie. Ah, jak ja kocham te kolory! Blady róż na sportowo. Jagodowa do ramoneski. Czerwień jest raczej zarezerwowana dla klasycznych połączeń, dlatego rzadko jej używam. Zdecydowanie bardziej wolę elektryzujący eklektyzm.\nKiedy robię zakupy w sklepie spożywczym zazwyczaj wącham owoce i warzywa. Zapach pozwala na wyobrażenie smaku. Czasami też subtelnie zanurzam dłoń w worku z ziarnami, jak zwykła robić to Amelia, bohaterka filmu o tym samym tytule.\nDość sporo czasu w swoim życiu spędziłam w muzeach. Moja najdłuższa kontemplacja dzieła sztuki miała miejsce na wystawie Mark’a Rothko w Warszawie w 2013 r.  Byłam tak zafascynowana twórczością nowojorczyka (nadal jestem), że przed jednym obrazem spędziłam kilka godzin, a panowie ochroniarze dosłownie musieli wypraszać mnie z budynku, gdy przyszła godzina zamknięcia ekspozycji.</p>\n<pre><code>Skoro już tyle o mnie wiesz… mam nadzieje, że zostaniesz tu na dłużej. Czytaj, oglądaj, komentuj, kontempluj. Możesz też polubić konto na [fb](https://facebook.com/sztukauniwersalna/&quot;fb&quot;) i [insta](https://instagram.com/sztuka_uniwersalna/&quot;insta&quot;), żeby być na bieżąco. A jeśli chcesz się ze mną skontkować napisz na adres sztuka.uniwersalna@gmail.com – będzie mi bardzo miło!\n</code></pre>\n<p>Pozdrawiam,\nOlela</p>\n";
+var raw = exports.raw = "\n## Kim jest Olela?\n\nCześć, jestem Olela, witaj na moim blogu. Na co dzień pracuję w szeroko pojętym obszarze sztuki - maluję obrazy, fotografuję, jestem grafikiem komputerowym, tancerką, nauczycielką tańca i choreografką. Z zamiłowania również gotuję. Z racji tak mnogich zainteresowań, zwykłam mówić o sobie Artystka Uniwersalna. Wierzę w zanikanie granic i wzajemne przenikanie się dyscyplin. Czy mieszam składniki zupy w garnku, czy dodaję do ultramaryny odrobinę karminu, czy nakładam bazę pod makijaż – tworzę sztukę. \n\n## Jaki jest cel?\n\nMisją bloga sztukauniwersalna.pl jest dostrzeżenie i zatarcie granicy pomiędzy sztuką a codziennością, zintegrowanie świata masowego przekazu, którym jesteśmy otoczeni z każdej strony, z kulturą. Postaram się pokazać, nieoczywiste na pierwszy rzut oka, konotacje pomiędzy czynnościami określanymi jako ‘przyziemne’, a kreacją artystyczną. Oprócz tego wykażę wpływy poszczególnych tendencji artystycznych na różne dziedziny życia. Mam nadzieje, że znajdziesz tu dla siebie wiele inspiracji, które przełożą się na Twoje postrzeganie rzeczywistości.\n\n## Poznajmy się lepiej.\n\nJestem Magistrem Sztuk Pięknych. W 2015 r. obroniłam dyplom  na wydziale malarstwa krakowskiej ASP. Dyplomem był solowy spektakl pt.: ‘Pięć Pór Roku’ zrealizowany w jednym z krakowskich teatrów. W trakcie półgodzinnej etiudy starałam się wytańczyć wszystkie stany emocjonalne towarzyszące mi przez 5letnie studia artystyczne. Malowanie ruchem było cudownym doświadczeniem i spotkało się z pozytywnym odbiorem komisji i publiczności.\n\tJak większość kobiet uwielbiam się malować i przebierać. Staram się dokładać do tych czynności teatralny pierwiastek. Wymyślam postać, opowiadam po cichu historie, ‘wchodzę w rolę’. Najbardziej inspirują mnie futurystyczne klimaty.\n\tMoim największym bzikiem są… buty i szminki. Uważam, że kolor na ustach czyni kobietę pewniejszą siebie. Ah, jak ja kocham te kolory! Blady róż na sportowo. Jagodowa do ramoneski. Czerwień jest raczej zarezerwowana dla klasycznych połączeń, dlatego rzadko jej używam. Zdecydowanie bardziej wolę elektryzujący eklektyzm. \n\tKiedy robię zakupy w sklepie spożywczym zazwyczaj wącham owoce i warzywa. Zapach pozwala na wyobrażenie smaku. Czasami też subtelnie zanurzam dłoń w worku z ziarnami, jak zwykła robić to Amelia, bohaterka filmu o tym samym tytule.\n\tDość sporo czasu w swoim życiu spędziłam w muzeach. Moja najdłuższa kontemplacja dzieła sztuki miała miejsce na wystawie Mark’a Rothko w Warszawie w 2013 r.  Byłam tak zafascynowana twórczością nowojorczyka (nadal jestem), że przed jednym obrazem spędziłam kilka godzin, a panowie ochroniarze dosłownie musieli wypraszać mnie z budynku, gdy przyszła godzina zamknięcia ekspozycji.\n\n\n\n\n\tSkoro już tyle o mnie wiesz… mam nadzieje, że zostaniesz tu na dłużej. Czytaj, oglądaj, komentuj, kontempluj. Możesz też polubić konto na [fb](https://facebook.com/sztukauniwersalna/\"fb\") i [insta](https://instagram.com/sztuka_uniwersalna/\"insta\"), żeby być na bieżąco. A jeśli chcesz się ze mną skontkować napisz na adres sztuka.uniwersalna@gmail.com – będzie mi bardzo miło!\n\nPozdrawiam,\nOlela";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)))
+
+/***/ }),
+/* 108 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(5);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -4192,10 +4285,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Mapa Witryny", "permalink": "/sitemap", "tags": ["sitemap", "dla bota"] };
 var body = exports.body = "<div className='compact'>\n  <TableOfContents {...data} />\n</div>\n";
 var raw = exports.raw = "\n<div className='compact'>\n  <TableOfContents {...data} />\n</div>\n\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)))
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4212,13 +4305,13 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _ContentLimiter = __webpack_require__(9);
+var _ContentLimiter = __webpack_require__(5);
 
 var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(3).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -4239,15 +4332,15 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Tag", "output": false };
 var body = exports.body = "<div>\n  <Feed { ...data } feed={ data.page.pages } />\n</div>\n";
 var raw = exports.raw = "\n<div>\n  <Feed { ...data } feed={ data.page.pages } />\n</div>\n\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)))
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./2017-07-15-uniwersalno-sztuki.markdown": 110,
-	"./2017-09-07-wenus-chanel-nowa-dziewczyna-z-perla.markdown": 111
+	"./2017-07-15-uniwersalno-sztuki.markdown": 111,
+	"./2017-09-07-wenus-chanel-nowa-dziewczyna-z-perla.markdown": 112
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -4263,10 +4356,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 109;
+webpackContext.id = 110;
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4283,13 +4376,13 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _ContentLimiter = __webpack_require__(9);
+var _ContentLimiter = __webpack_require__(5);
 
 var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(3).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -4364,10 +4457,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Uniwersalność Sztuki", "date": "2017-07-15T19:56:00.000Z", "permalink": "/uniwersalnosc-sztuki", "categories": ["Sztuka dla Sztuki"], "tags": ["art", "artist", "sztuka", "dzieło", "artysta", "kreacja"], "limit": 3 };
 var body = exports.body = "<blockquote>\n<p>Interesowało mnie utrwalanie wszystkich prostych czynności, bo są UNIWERSALNE. Każda z nich,\nkiedy się na niej skupimy, zatrzymamy na sekundę, staje się dziełem SZTUKI.</p>\n<p>~ Natalia Lach-Lachowicz (Natalia LL)</p>\n</blockquote>\n<p>Od pewnego czasu obserwuje zjawisko nagminnego pojawiania się słów ‘art’, ‘artist’ w nazewnictwie zawodowym. Dziś już nie jesteś tylko makijażystą, jesteś ‘make up artist’ - artystą od makijażu lub makijażowym artystą, chciałoby się przetłumaczyć, lub też jesteś po prostu artystą pracującym w technice ‘makijaż’. Dziś to nie fryzjerzy ścinają i farbują nam włosy lecz ‘styliści fryzur’, artyści od włosów, ‘hair artists’. Od niedawna także Ci styliści od mody przekwalifikowali swoje stanowiska na Fashion ART Directors (dosłownie ci, którzy wyznaczają artystyczny kierunek modzie). Skąd tyle tej sztuki, a raczej mody na sztukę, dlaczego dziś wszyscy nazywamy się artystami i dlaczego jest to tak ważne dla poczucia ‘siebie’ i swojej roli we współczesnym  społeczeństwie?</p>\n<h2>Artysta = Rzemieślnik ?</h2>\n<p>Zastanawiam się, czy w stosunku do artystycznej działalności wypada użyć słowa ‘zawód’. Kim jesteś z zawodu? - Jestem artystą. Czy to nie jest trochę tak, że zawód się wybiera, idąc np. na konkretny kierunek studiów, a brzemienia artysty poniekąd nie jesteśmy w stanie wybrać świadomie. Z drugiej strony wszystkich warsztatowych technik da się nauczyć i nie tylko Ci najzdolniejsi zarabiają na swojej pracy artystycznej. Zatem dobrze, mówmy o zawodzie, czyli o czynnościach, z których dana jednostka jest w stanie zarobić na chleb. Zawód artysty wymaga nie tylko talentu, ale przede wszystkim kreatywnego myślenia. Czy artyści to również rzemieślnicy? Ci drudzy wykonują wyuczony fach wręcz mechanicznie, podczas gdy Ci pierwsi znajdują czas na refleksje przy pracy i wprowadzanie do jej efektów coraz to nowych pomysłów (IDEI), często kończących się fiaskiem, niepowodzeniem, totalną klapą, a nawet spaleniem dzieła nigdyniedokończonego. Artyści błądzą. Kreują. Drą i krzyczą. Rzemieślnicy wykonują.</p>\n<h2>‘Młodzi Kreatywni’</h2>\n<p>Powiedzmy sobie szczerze, artyści od zawsze mieli ‘pod górkę’. Tworzyli dzieła zamawiane przez fundatorów dyskretnie przemycając swoje wizje lub też nie kryli się z wizjami stanowczo wykraczającymi ponad ramy epoki, co skutkowało niezrozumieniem i wykluczeniem ze społeczeństwa. Doceniani zazwyczaj po śmierci, okazywało się, że przychodzili na świat nie w swoim miejscu, nie w swoim czasie. Walczyli o swoje poglądy, ich często innowacyjne wizje kończyły zmieszane z błotem przez krytyków. Gdyby nie ten indywidualizm, parcie do przodu i często związana z tym ignorancja, nie mielibyśmy tych ‘wielkich’, wizjonerów,  którzy na zawsze odmienili postrzeganie danej dziedziny, często wykraczając poza jej granice.\nŻyjemy w XXI wieku, który nieubłagalnie pędzi i przyspiesza niczym ciuchcia w wierszu Tuwima. Nigdy nie zwalnia, więc i Ty nie zwalniaj. Byli już Zmęczeni Rzeczywistością, teraz przyszedł czas na Młodych Kreatywnych – absolwentów uczelni artystycznych, którzy wpisani w ramy wieku pędzą. Nie ograniczają się tylko do działań w dziedzinie, z której są (dumnymi) magistrami na papierze. Chcą robić kariere, chcą być nie tyle na czasie, co w czasie, poznawać nowe technologie, rozwijać możliwości. Kończą malarstwo i idą pracować do największych agencji kreatywnych, które (podobno) cenią młode, twórcze, otwarte umysły (o tym już w kolejnym poście).</p>\n<h2>Pokolenie Self-Obsessed</h2>\n<p>‘-Wykonanie makijażu zajmuje mi jakieś 3 godziny. W trakcie malowania oczywiście nagrywam wszystko, żeby później zmontować to w spójny tutorial i wrzucić na YouTube. W czasie międzyczasu nagrywam krótkie story na żywo. Kiedy skończę utrwalam wszystko robiąc kilka selfie, no dobra może kilkanaście. Czas wyjść z domu. Przeglądam się  w lustrze kilka razy, sprawdzam fryzurę, wciągam brzuch, jeszcze kilka fotek. Wychodzę na siłownie, żeby tam powtórzyć rytuał, tyle że w innym lustrze. Żyję sobą i inni ludzie żyją mną, a  raczej marzeniem by być jak ja. Zaczynają mnie naśladować, stosować się do moich rad, zostają moimi fanami.’\nI gdyby to wszystko okazało się świadomą artystyczną kreacją, sztuką konceptualną, performansem, okej, to ma sens, coś uświadamia. A może rzeczywiście sztuka wyszła ze sztuki, przekroczyła samą siebie i jest w każdej najmniejszej czynności? Przecież pędzle do makijażu niczym nie różnią się od tych, którymi uprawiamy akwarele (nieśmiało przyznam, że nieraz wiewiórczy włos idealnie pomógł mi w blendowaniu załamania powieki...) A gdyby tak, w tej nieświadomości, dodać przedrostek -art/przyrostek -artist do mojego pseudonimu na Instagramie? Czy wtedy ludzie zaczną lubić mnie bardziej? W końcu sztuka to domena jednostek myślących…</p>\n<p><a href=\"http://SztukaUniwersalna.pl\">SztukaUniwersalna.pl</a> to portal w którym zacierają się granice. Opisuję i rejestruję Sztukę, która zajmuje mnie w danej chwili. Potraktuj to jako pamiętnik Młodej Kreatywnej, której każdy dzień to artystyczna kreacja. Miłej lektury. :)</p>\n";
 var raw = exports.raw = "\n> Interesowało mnie utrwalanie wszystkich prostych czynności, bo są UNIWERSALNE. Każda z nich,\n> kiedy się na niej skupimy, zatrzymamy na sekundę, staje się dziełem SZTUKI.\n>\n> ~ Natalia Lach-Lachowicz (Natalia LL)\n\nOd pewnego czasu obserwuje zjawisko nagminnego pojawiania się słów ‘art’, ‘artist’ w nazewnictwie zawodowym. Dziś już nie jesteś tylko makijażystą, jesteś ‘make up artist’ - artystą od makijażu lub makijażowym artystą, chciałoby się przetłumaczyć, lub też jesteś po prostu artystą pracującym w technice ‘makijaż’. Dziś to nie fryzjerzy ścinają i farbują nam włosy lecz ‘styliści fryzur’, artyści od włosów, ‘hair artists’. Od niedawna także Ci styliści od mody przekwalifikowali swoje stanowiska na Fashion ART Directors (dosłownie ci, którzy wyznaczają artystyczny kierunek modzie). Skąd tyle tej sztuki, a raczej mody na sztukę, dlaczego dziś wszyscy nazywamy się artystami i dlaczego jest to tak ważne dla poczucia ‘siebie’ i swojej roli we współczesnym  społeczeństwie?\n\n## Artysta = Rzemieślnik ?\nZastanawiam się, czy w stosunku do artystycznej działalności wypada użyć słowa ‘zawód’. Kim jesteś z zawodu? - Jestem artystą. Czy to nie jest trochę tak, że zawód się wybiera, idąc np. na konkretny kierunek studiów, a brzemienia artysty poniekąd nie jesteśmy w stanie wybrać świadomie. Z drugiej strony wszystkich warsztatowych technik da się nauczyć i nie tylko Ci najzdolniejsi zarabiają na swojej pracy artystycznej. Zatem dobrze, mówmy o zawodzie, czyli o czynnościach, z których dana jednostka jest w stanie zarobić na chleb. Zawód artysty wymaga nie tylko talentu, ale przede wszystkim kreatywnego myślenia. Czy artyści to również rzemieślnicy? Ci drudzy wykonują wyuczony fach wręcz mechanicznie, podczas gdy Ci pierwsi znajdują czas na refleksje przy pracy i wprowadzanie do jej efektów coraz to nowych pomysłów (IDEI), często kończących się fiaskiem, niepowodzeniem, totalną klapą, a nawet spaleniem dzieła nigdyniedokończonego. Artyści błądzą. Kreują. Drą i krzyczą. Rzemieślnicy wykonują.\n\n## ‘Młodzi Kreatywni’\nPowiedzmy sobie szczerze, artyści od zawsze mieli ‘pod górkę’. Tworzyli dzieła zamawiane przez fundatorów dyskretnie przemycając swoje wizje lub też nie kryli się z wizjami stanowczo wykraczającymi ponad ramy epoki, co skutkowało niezrozumieniem i wykluczeniem ze społeczeństwa. Doceniani zazwyczaj po śmierci, okazywało się, że przychodzili na świat nie w swoim miejscu, nie w swoim czasie. Walczyli o swoje poglądy, ich często innowacyjne wizje kończyły zmieszane z błotem przez krytyków. Gdyby nie ten indywidualizm, parcie do przodu i często związana z tym ignorancja, nie mielibyśmy tych ‘wielkich’, wizjonerów,  którzy na zawsze odmienili postrzeganie danej dziedziny, często wykraczając poza jej granice.\nŻyjemy w XXI wieku, który nieubłagalnie pędzi i przyspiesza niczym ciuchcia w wierszu Tuwima. Nigdy nie zwalnia, więc i Ty nie zwalniaj. Byli już Zmęczeni Rzeczywistością, teraz przyszedł czas na Młodych Kreatywnych – absolwentów uczelni artystycznych, którzy wpisani w ramy wieku pędzą. Nie ograniczają się tylko do działań w dziedzinie, z której są (dumnymi) magistrami na papierze. Chcą robić kariere, chcą być nie tyle na czasie, co w czasie, poznawać nowe technologie, rozwijać możliwości. Kończą malarstwo i idą pracować do największych agencji kreatywnych, które (podobno) cenią młode, twórcze, otwarte umysły (o tym już w kolejnym poście).\n\n## Pokolenie Self-Obsessed\n‘-Wykonanie makijażu zajmuje mi jakieś 3 godziny. W trakcie malowania oczywiście nagrywam wszystko, żeby później zmontować to w spójny tutorial i wrzucić na YouTube. W czasie międzyczasu nagrywam krótkie story na żywo. Kiedy skończę utrwalam wszystko robiąc kilka selfie, no dobra może kilkanaście. Czas wyjść z domu. Przeglądam się  w lustrze kilka razy, sprawdzam fryzurę, wciągam brzuch, jeszcze kilka fotek. Wychodzę na siłownie, żeby tam powtórzyć rytuał, tyle że w innym lustrze. Żyję sobą i inni ludzie żyją mną, a  raczej marzeniem by być jak ja. Zaczynają mnie naśladować, stosować się do moich rad, zostają moimi fanami.’\nI gdyby to wszystko okazało się świadomą artystyczną kreacją, sztuką konceptualną, performansem, okej, to ma sens, coś uświadamia. A może rzeczywiście sztuka wyszła ze sztuki, przekroczyła samą siebie i jest w każdej najmniejszej czynności? Przecież pędzle do makijażu niczym nie różnią się od tych, którymi uprawiamy akwarele (nieśmiało przyznam, że nieraz wiewiórczy włos idealnie pomógł mi w blendowaniu załamania powieki...) A gdyby tak, w tej nieświadomości, dodać przedrostek -art/przyrostek -artist do mojego pseudonimu na Instagramie? Czy wtedy ludzie zaczną lubić mnie bardziej? W końcu sztuka to domena jednostek myślących...\n\nSztukaUniwersalna.pl to portal w którym zacierają się granice. Opisuję i rejestruję Sztukę, która zajmuje mnie w danej chwili. Potraktuj to jako pamiętnik Młodej Kreatywnej, której każdy dzień to artystyczna kreacja. Miłej lektury. :)\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)))
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4384,13 +4477,13 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _ContentLimiter = __webpack_require__(9);
+var _ContentLimiter = __webpack_require__(5);
 
 var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(3).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -4458,10 +4551,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Wenus vs Chanel, czyli Nowa Dziewczyna z Perłą", "date": "2017-09-07T10:32:00.000Z", "categories": ["Sztuka Ubioru"], "tags": ["art", "artist", "artysta", "dzieło", "wenus", "chanel", "kreacja", "moda"] };
 var body = exports.body = "<olela-narrative>\nJestem tym, który delikatnie, z wielką precyzją i odwagą wsuwa maleńkie ziarnko piasku pomiędzy twarde uszy muszli. Jestem tym cierpliwym, który czeka wiele lat zanim jego dotyk urzeczywistni się w postaci nieśmiertelnego piękna. Jestem stwórcą, kreatorem nowej rzeczywistości w akcie nieznanym.\n</olela-narrative>\n<p>Co dzieje się wewnątrz małży nie jesteśmy w stanie do końca wyjaśnić. Arystoteles to maleńkie cudo nanotechnologii porównywał do zapłodnienia kroplą oceanu. XV wiek to czas hipotez -perły są jajami małży. XVII – perły powstają w wyniku utwardzenia soków wydzielanych przez muszlę. XIX – i tutaj zbliżamy się do teorii ciała obcego, które małż traktuje jako intruza i odkłada wokół niego perlistą substancję.\nWłaściwie, to wszystko może stać się perłą. Wyobraźmy sobie muszle wielkości samochodu – z podobnej przecież wyłoniła się Wenus na obrazie S. Botticellego „Narodziny Wenus”. Tak... Wenus była perłą! Wystarczy spojrzeć na odcień jej skóry, który praktycznie zlewa się z muszlą. Gest prawej dłoni podkreśla niewinność piersi - jakże kształtem swoim perliste! Simonetta Vespucci pozuje idealnie a Botticelli idealnie oddaje piękno boskiej perły – jedynej w swoim rodzaju. Nie ma dwóch takich samych, a kopia nigdy nie dorówna oryginalnemu pięknu.</p>\n<p>Pod koniec XVI wieku perły docierają do Europy i… nie wzbudzają większego zainteresowania. Za  to ok. pół roku później holenderski malarz popełnia dzieło uznawane za najwybitniejszy przykład XVII wecznego malarstwa - „Dziewczyna z perłą”, nazywany często Mona Lisą Północy. Kim była owa dziewczyna? Być może jest to kilkunastoletnia wówczas córka J. Vermeera.  Tracy Chevalier (autorka książki „Dziewczyna z Perłą”) interpretuje młodą damę jako służącą, a za jej śladem idzie Peter Webber, reżyser filmu o tym samym tytule.</p>\n<olela-narrative>\nTwarz dziewczyny z obrazu zastyga na moment z lekko rozchylonymi ustami. Patrząc dłuższą chwilę odnoszę wrażenie jakbym przed chwilą zawołał jej imię, stąd gest skrętu głowy w moim kierunku.\nNie mogę oderwać wzroku.\nJeszcze chwila.\n</olela-narrative>\n<p>Przemysłowe hodowle pereł, tych w kształcie kuli, to zasługa Japończyków, a właściwie Kokichi Mikimoto – pioniera innowacyjnej metody. Podczas gdy Kokochi eksperymentuje z małżami na swiat przychodzi przyszła, największa fanka cudownych dzieci muszli – COCO CHANEL.\nPraktycznie na każdym archiwalnym zdjęciu Coco (Gabrielle Bonheur Chanel) nosi na sobie perły – nie jeden sznur a sześć. Z czasem, przylegają do jej tożsamości i w połączeniu z małą czarną stają się UNIWERSALNĄ klasyką.</p>\n<olela-narrative>\nUmówiliśmy się po południu na rogu Park Avenue i 35tej alei. Podobno jest tam jakaś bardzo fajna wegańska kawiarnia. Nie za bardzo wiedziałem czego się spodziewać. W głębi duszy nie chciałem, żeby było to spotkanie czysto biznesowe. Miałem na sobie sportowo-elegancką kurtkę od Armaniego, spodnie przypominające bryczesy i półbuty, których koloru nie jestem w stanie określić. Zerknąłem na zegarek i zacząłem nieco się niecierpliwić. W momencie, kiedy w mojej głowie pojawiła się myśl, że Laura jednak nie przyjdzie, zauważyłem w oddali kobietę zbliżającą się w moim kierunku szybkim, lekko chwiejnym krokiem.\n</olela-narrative>\n<olela-narrative>\n&mdash; Strasznie Cię przepraszam, ale po drodze tutaj najpierw zostawiłam palto w taksówce, a zaraz potem złamałam obcas... &mdash; powiedziała zdejmując lewego buta. Miała na sobie małą czarną i subtelne kolczyki z perłą. Mój umysł przywołał obraz Vermeera, który niedawno widziałem a wystawie.<br />\n&mdash; To Ty... &mdash; wymamrotałem bezwiednie.<br />\n&mdash; Słucham?<br />\n&mdash; Nic, nic, przepraszam, zamyśliłem się. &mdash; Niewiele myśląc chwyciłem Laure pod kolana i za ramiona i podniosłem do góry.<br />\n&mdash; Hej, co robisz?<br />\n&mdash; Zdejmij też drugiego buta, proszę. W tej sukience i kolczykach wyglądasz genialnie. Nic więcej nie jest Ci potrzebne. Mam zamiar zanieść Cię najpierw do kawiarni, gdzie zamówimy sojowe latte na podwójnym espresso, a później tam, gdzie tylko zapragniesz. &mdash; Laura obdarzyła mnie spojrzeniem pełnym niedowierzania, aby zaraz głęboko się uśmiechnąć.<br />\n&mdash; Zgadzam się, ale pod jednym warunkiem.<br />\n&mdash; Jakim?<br />\n&mdash; Zamówimy espresso.<br />\n</olela-narrative>\n";
 var raw = exports.raw = "\n\n\n<olela-narrative>\nJestem tym, który delikatnie, z wielką precyzją i odwagą wsuwa maleńkie ziarnko piasku pomiędzy twarde uszy muszli. Jestem tym cierpliwym, który czeka wiele lat zanim jego dotyk urzeczywistni się w postaci nieśmiertelnego piękna. Jestem stwórcą, kreatorem nowej rzeczywistości w akcie nieznanym.\n</olela-narrative>\n\nCo dzieje się wewnątrz małży nie jesteśmy w stanie do końca wyjaśnić. Arystoteles to maleńkie cudo nanotechnologii porównywał do zapłodnienia kroplą oceanu. XV wiek to czas hipotez -perły są jajami małży. XVII – perły powstają w wyniku utwardzenia soków wydzielanych przez muszlę. XIX – i tutaj zbliżamy się do teorii ciała obcego, które małż traktuje jako intruza i odkłada wokół niego perlistą substancję.\nWłaściwie, to wszystko może stać się perłą. Wyobraźmy sobie muszle wielkości samochodu – z podobnej przecież wyłoniła się Wenus na obrazie S. Botticellego „Narodziny Wenus”. Tak… Wenus była perłą! Wystarczy spojrzeć na odcień jej skóry, który praktycznie zlewa się z muszlą. Gest prawej dłoni podkreśla niewinność piersi - jakże kształtem swoim perliste! Simonetta Vespucci pozuje idealnie a Botticelli idealnie oddaje piękno boskiej perły – jedynej w swoim rodzaju. Nie ma dwóch takich samych, a kopia nigdy nie dorówna oryginalnemu pięknu.\n\nPod koniec XVI wieku perły docierają do Europy i… nie wzbudzają większego zainteresowania. Za  to ok. pół roku później holenderski malarz popełnia dzieło uznawane za najwybitniejszy przykład XVII wecznego malarstwa - „Dziewczyna z perłą”, nazywany często Mona Lisą Północy. Kim była owa dziewczyna? Być może jest to kilkunastoletnia wówczas córka J. Vermeera.  Tracy Chevalier (autorka książki „Dziewczyna z Perłą”) interpretuje młodą damę jako służącą, a za jej śladem idzie Peter Webber, reżyser filmu o tym samym tytule.\n\n<olela-narrative>\nTwarz dziewczyny z obrazu zastyga na moment z lekko rozchylonymi ustami. Patrząc dłuższą chwilę odnoszę wrażenie jakbym przed chwilą zawołał jej imię, stąd gest skrętu głowy w moim kierunku.\nNie mogę oderwać wzroku.\nJeszcze chwila.\n</olela-narrative>\n\n\nPrzemysłowe hodowle pereł, tych w kształcie kuli, to zasługa Japończyków, a właściwie Kokichi Mikimoto – pioniera innowacyjnej metody. Podczas gdy Kokochi eksperymentuje z małżami na swiat przychodzi przyszła, największa fanka cudownych dzieci muszli – COCO CHANEL.\nPraktycznie na każdym archiwalnym zdjęciu Coco (Gabrielle Bonheur Chanel) nosi na sobie perły – nie jeden sznur a sześć. Z czasem, przylegają do jej tożsamości i w połączeniu z małą czarną stają się UNIWERSALNĄ klasyką.\n\n<olela-narrative>\nUmówiliśmy się po południu na rogu Park Avenue i 35tej alei. Podobno jest tam jakaś bardzo fajna wegańska kawiarnia. Nie za bardzo wiedziałem czego się spodziewać. W głębi duszy nie chciałem, żeby było to spotkanie czysto biznesowe. Miałem na sobie sportowo-elegancką kurtkę od Armaniego, spodnie przypominające bryczesy i półbuty, których koloru nie jestem w stanie określić. Zerknąłem na zegarek i zacząłem nieco się niecierpliwić. W momencie, kiedy w mojej głowie pojawiła się myśl, że Laura jednak nie przyjdzie, zauważyłem w oddali kobietę zbliżającą się w moim kierunku szybkim, lekko chwiejnym krokiem.\n</olela-narrative>\n\n<olela-narrative>\n&mdash; Strasznie Cię przepraszam, ale po drodze tutaj najpierw zostawiłam palto w taksówce, a zaraz potem złamałam obcas... &mdash; powiedziała zdejmując lewego buta. Miała na sobie małą czarną i subtelne kolczyki z perłą. Mój umysł przywołał obraz Vermeera, który niedawno widziałem a wystawie.<br />\n&mdash; To Ty... &mdash; wymamrotałem bezwiednie.<br />\n&mdash; Słucham?<br />\n&mdash; Nic, nic, przepraszam, zamyśliłem się. &mdash; Niewiele myśląc chwyciłem Laure pod kolana i za ramiona i podniosłem do góry.<br />\n&mdash; Hej, co robisz?<br />\n&mdash; Zdejmij też drugiego buta, proszę. W tej sukience i kolczykach wyglądasz genialnie. Nic więcej nie jest Ci potrzebne. Mam zamiar zanieść Cię najpierw do kawiarni, gdzie zamówimy sojowe latte na podwójnym espresso, a później tam, gdzie tylko zapragniesz. &mdash; Laura obdarzyła mnie spojrzeniem pełnym niedowierzania, aby zaraz głęboko się uśmiechnąć.<br />\n&mdash; Zgadzam się, ale pod jednym warunkiem.<br />\n&mdash; Jakim?<br />\n&mdash; Zamówimy espresso.<br />\n</olela-narrative>\n\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)))
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -4470,15 +4563,15 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 112;
+webpackEmptyContext.id = 113;
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./ParrotLayout.tsx": 114,
-	"./default.tsx": 196
+	"./ParrotLayout.tsx": 115,
+	"./default.tsx": 197
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -4494,10 +4587,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 113;
+webpackContext.id = 114;
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4532,17 +4625,17 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(1);
-var withStyles_1 = __webpack_require__(4);
-var models_1 = __webpack_require__(7);
-var TopBar_1 = __webpack_require__(158);
-var Crumbs_1 = __webpack_require__(178);
+var withStyles_1 = __webpack_require__(6);
+var models_1 = __webpack_require__(9);
+var TopBar_1 = __webpack_require__(159);
+var Crumbs_1 = __webpack_require__(179);
 var Tags_1 = __webpack_require__(71);
-var Footer_1 = __webpack_require__(183);
+var Footer_1 = __webpack_require__(184);
 var Logo_1 = __webpack_require__(70);
-var SideMenu_1 = __webpack_require__(186);
-var Jumbotron_1 = __webpack_require__(190);
-var s = __webpack_require__(193);
-var image = __webpack_require__(195);
+var SideMenu_1 = __webpack_require__(187);
+var Jumbotron_1 = __webpack_require__(191);
+var s = __webpack_require__(194);
+var image = __webpack_require__(196);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -4615,28 +4708,28 @@ function maybeRenderTitle(website, page) {
 exports.default = withStyles_1.default(s)(ParrotLayout);
 
 /***/ }),
-/* 115 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = { "default": __webpack_require__(116), __esModule: true };
-
-/***/ }),
 /* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(117);
-module.exports = __webpack_require__(2).Object.getPrototypeOf;
-
+module.exports = { "default": __webpack_require__(117), __esModule: true };
 
 /***/ }),
 /* 117 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(118);
+module.exports = __webpack_require__(3).Object.getPrototypeOf;
+
+
+/***/ }),
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.9 Object.getPrototypeOf(O)
 var toObject = __webpack_require__(57);
 var $getPrototypeOf = __webpack_require__(58);
 
-__webpack_require__(118)('getPrototypeOf', function () {
+__webpack_require__(119)('getPrototypeOf', function () {
   return function getPrototypeOf(it) {
     return $getPrototypeOf(toObject(it));
   };
@@ -4644,12 +4737,12 @@ __webpack_require__(118)('getPrototypeOf', function () {
 
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // most Object methods by ES6 should accept primitives
 var $export = __webpack_require__(15);
-var core = __webpack_require__(2);
+var core = __webpack_require__(3);
 var fails = __webpack_require__(21);
 module.exports = function (KEY, exec) {
   var fn = (core.Object || {})[KEY] || Object[KEY];
@@ -4660,7 +4753,7 @@ module.exports = function (KEY, exec) {
 
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports) {
 
 module.exports = function (it) {
@@ -4670,7 +4763,7 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4685,7 +4778,7 @@ exports.default = function (instance, Constructor) {
 };
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4693,7 +4786,7 @@ exports.default = function (instance, Constructor) {
 
 exports.__esModule = true;
 
-var _defineProperty = __webpack_require__(122);
+var _defineProperty = __webpack_require__(123);
 
 var _defineProperty2 = _interopRequireDefault(_defineProperty);
 
@@ -4718,24 +4811,24 @@ exports.default = function () {
 }();
 
 /***/ }),
-/* 122 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = { "default": __webpack_require__(123), __esModule: true };
-
-/***/ }),
 /* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(124);
-var $Object = __webpack_require__(2).Object;
+module.exports = { "default": __webpack_require__(124), __esModule: true };
+
+/***/ }),
+/* 124 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(125);
+var $Object = __webpack_require__(3).Object;
 module.exports = function defineProperty(it, key, desc) {
   return $Object.defineProperty(it, key, desc);
 };
 
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var $export = __webpack_require__(15);
@@ -4744,7 +4837,7 @@ $export($export.S + $export.F * !__webpack_require__(14), 'Object', { defineProp
 
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4767,13 +4860,13 @@ exports.default = function (self, call) {
 };
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = { "default": __webpack_require__(127), __esModule: true };
+module.exports = { "default": __webpack_require__(128), __esModule: true };
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(37);
@@ -4782,7 +4875,7 @@ module.exports = __webpack_require__(46).f('iterator');
 
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var toInteger = __webpack_require__(38);
@@ -4805,7 +4898,7 @@ module.exports = function (TO_STRING) {
 
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4825,7 +4918,7 @@ module.exports = function (Constructor, NAME, next) {
 
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var dP = __webpack_require__(13);
@@ -4844,7 +4937,7 @@ module.exports = __webpack_require__(14) ? Object.defineProperties : function de
 
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // fallback for non-array-like ES3 and non-enumerable old V8 strings
@@ -4856,14 +4949,14 @@ module.exports = Object('z').propertyIsEnumerable(0) ? Object : function (it) {
 
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // false -> Array#indexOf
 // true  -> Array#includes
 var toIObject = __webpack_require__(18);
-var toLength = __webpack_require__(133);
-var toAbsoluteIndex = __webpack_require__(134);
+var toLength = __webpack_require__(134);
+var toAbsoluteIndex = __webpack_require__(135);
 module.exports = function (IS_INCLUDES) {
   return function ($this, el, fromIndex) {
     var O = toIObject($this);
@@ -4885,7 +4978,7 @@ module.exports = function (IS_INCLUDES) {
 
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.1.15 ToLength
@@ -4897,7 +4990,7 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var toInteger = __webpack_require__(38);
@@ -4910,7 +5003,7 @@ module.exports = function (index, length) {
 
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var document = __webpack_require__(11).document;
@@ -4918,13 +5011,13 @@ module.exports = document && document.documentElement;
 
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var addToUnscopables = __webpack_require__(137);
-var step = __webpack_require__(138);
+var addToUnscopables = __webpack_require__(138);
+var step = __webpack_require__(139);
 var Iterators = __webpack_require__(22);
 var toIObject = __webpack_require__(18);
 
@@ -4959,14 +5052,14 @@ addToUnscopables('entries');
 
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports) {
 
 module.exports = function () { /* empty */ };
 
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports) {
 
 module.exports = function (done, value) {
@@ -4975,24 +5068,24 @@ module.exports = function (done, value) {
 
 
 /***/ }),
-/* 139 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = { "default": __webpack_require__(140), __esModule: true };
-
-/***/ }),
 /* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(141);
-__webpack_require__(146);
-__webpack_require__(147);
-__webpack_require__(148);
-module.exports = __webpack_require__(2).Symbol;
-
+module.exports = { "default": __webpack_require__(141), __esModule: true };
 
 /***/ }),
 /* 141 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(142);
+__webpack_require__(147);
+__webpack_require__(148);
+__webpack_require__(149);
+module.exports = __webpack_require__(3).Symbol;
+
+
+/***/ }),
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5003,7 +5096,7 @@ var has = __webpack_require__(12);
 var DESCRIPTORS = __webpack_require__(14);
 var $export = __webpack_require__(15);
 var redefine = __webpack_require__(64);
-var META = __webpack_require__(142).KEY;
+var META = __webpack_require__(143).KEY;
 var $fails = __webpack_require__(21);
 var shared = __webpack_require__(35);
 var setToStringTag = __webpack_require__(44);
@@ -5011,14 +5104,14 @@ var uid = __webpack_require__(24);
 var wks = __webpack_require__(10);
 var wksExt = __webpack_require__(46);
 var wksDefine = __webpack_require__(47);
-var enumKeys = __webpack_require__(143);
-var isArray = __webpack_require__(144);
+var enumKeys = __webpack_require__(144);
+var isArray = __webpack_require__(145);
 var anObject = __webpack_require__(17);
 var toIObject = __webpack_require__(18);
 var toPrimitive = __webpack_require__(36);
 var createDesc = __webpack_require__(25);
 var _create = __webpack_require__(40);
-var gOPNExt = __webpack_require__(145);
+var gOPNExt = __webpack_require__(146);
 var $GOPD = __webpack_require__(68);
 var $DP = __webpack_require__(13);
 var $keys = __webpack_require__(41);
@@ -5233,7 +5326,7 @@ setToStringTag(global.JSON, 'JSON', true);
 
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var META = __webpack_require__(24)('meta');
@@ -5292,7 +5385,7 @@ var meta = module.exports = {
 
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // all enumerable object keys, includes symbols
@@ -5313,7 +5406,7 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.2.2 IsArray(argument)
@@ -5324,7 +5417,7 @@ module.exports = Array.isArray || function isArray(arg) {
 
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // fallback for IE11 buggy Object.getOwnPropertyNames with iframe and window
@@ -5349,27 +5442,27 @@ module.exports.f = function getOwnPropertyNames(it) {
 
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports) {
 
-
-
-/***/ }),
-/* 147 */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(47)('asyncIterator');
 
 
 /***/ }),
 /* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(47)('observable');
+__webpack_require__(47)('asyncIterator');
 
 
 /***/ }),
 /* 149 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(47)('observable');
+
+
+/***/ }),
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5377,11 +5470,11 @@ __webpack_require__(47)('observable');
 
 exports.__esModule = true;
 
-var _setPrototypeOf = __webpack_require__(150);
+var _setPrototypeOf = __webpack_require__(151);
 
 var _setPrototypeOf2 = _interopRequireDefault(_setPrototypeOf);
 
-var _create = __webpack_require__(154);
+var _create = __webpack_require__(155);
 
 var _create2 = _interopRequireDefault(_create);
 
@@ -5408,30 +5501,30 @@ exports.default = function (subClass, superClass) {
 };
 
 /***/ }),
-/* 150 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = { "default": __webpack_require__(151), __esModule: true };
-
-/***/ }),
 /* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(152);
-module.exports = __webpack_require__(2).Object.setPrototypeOf;
-
+module.exports = { "default": __webpack_require__(152), __esModule: true };
 
 /***/ }),
 /* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
-// 19.1.3.19 Object.setPrototypeOf(O, proto)
-var $export = __webpack_require__(15);
-$export($export.S, 'Object', { setPrototypeOf: __webpack_require__(153).set });
+__webpack_require__(153);
+module.exports = __webpack_require__(3).Object.setPrototypeOf;
 
 
 /***/ }),
 /* 153 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 19.1.3.19 Object.setPrototypeOf(O, proto)
+var $export = __webpack_require__(15);
+$export($export.S, 'Object', { setPrototypeOf: __webpack_require__(154).set });
+
+
+/***/ }),
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Works with __proto__ only. Old v8 can't work with null proto objects.
@@ -5462,24 +5555,24 @@ module.exports = {
 
 
 /***/ }),
-/* 154 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = { "default": __webpack_require__(155), __esModule: true };
-
-/***/ }),
 /* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(156);
-var $Object = __webpack_require__(2).Object;
+module.exports = { "default": __webpack_require__(156), __esModule: true };
+
+/***/ }),
+/* 156 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(157);
+var $Object = __webpack_require__(3).Object;
 module.exports = function create(P, D) {
   return $Object.create(P, D);
 };
 
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var $export = __webpack_require__(15);
@@ -5488,7 +5581,7 @@ $export($export.S, 'Object', { create: __webpack_require__(40) });
 
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5560,7 +5653,7 @@ module.exports = function hoistNonReactStatics(targetComponent, sourceComponent,
 
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5586,12 +5679,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(1);
-var withStyles_1 = __webpack_require__(4);
+var withStyles_1 = __webpack_require__(6);
 var Button_1 = __webpack_require__(23);
 var Icon_1 = __webpack_require__(49);
 var Logo_1 = __webpack_require__(70);
-__webpack_require__(175);
-var s = __webpack_require__(176);
+__webpack_require__(176);
+var s = __webpack_require__(177);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -5612,12 +5705,12 @@ exports.TopBar = TopBar;
 exports.default = withStyles_1.default(s)(TopBar);
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(160);
-    var insertCss = __webpack_require__(6);
+    var content = __webpack_require__(161);
+    var insertCss = __webpack_require__(8);
 
     if (typeof content === 'string') {
       content = [[module.i, content, '']];
@@ -5647,10 +5740,10 @@ exports.default = withStyles_1.default(s)(TopBar);
   
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(5)(undefined);
+exports = module.exports = __webpack_require__(7)(undefined);
 // imports
 
 
@@ -5669,16 +5762,16 @@ exports.locals = {
 };
 
 /***/ }),
-/* 161 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = { "default": __webpack_require__(162), __esModule: true };
-
-/***/ }),
 /* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var core = __webpack_require__(2);
+module.exports = { "default": __webpack_require__(163), __esModule: true };
+
+/***/ }),
+/* 163 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var core = __webpack_require__(3);
 var $JSON = core.JSON || (core.JSON = { stringify: JSON.stringify });
 module.exports = function stringify(it) { // eslint-disable-line no-unused-vars
   return $JSON.stringify.apply($JSON, arguments);
@@ -5686,7 +5779,7 @@ module.exports = function stringify(it) { // eslint-disable-line no-unused-vars
 
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5694,11 +5787,11 @@ module.exports = function stringify(it) { // eslint-disable-line no-unused-vars
 
 exports.__esModule = true;
 
-var _isIterable2 = __webpack_require__(164);
+var _isIterable2 = __webpack_require__(165);
 
 var _isIterable3 = _interopRequireDefault(_isIterable2);
 
-var _getIterator2 = __webpack_require__(167);
+var _getIterator2 = __webpack_require__(168);
 
 var _getIterator3 = _interopRequireDefault(_getIterator2);
 
@@ -5743,28 +5836,28 @@ exports.default = function () {
 }();
 
 /***/ }),
-/* 164 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = { "default": __webpack_require__(165), __esModule: true };
-
-/***/ }),
 /* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(45);
-__webpack_require__(37);
-module.exports = __webpack_require__(166);
-
+module.exports = { "default": __webpack_require__(166), __esModule: true };
 
 /***/ }),
 /* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
+__webpack_require__(45);
+__webpack_require__(37);
+module.exports = __webpack_require__(167);
+
+
+/***/ }),
+/* 167 */
+/***/ (function(module, exports, __webpack_require__) {
+
 var classof = __webpack_require__(69);
 var ITERATOR = __webpack_require__(10)('iterator');
 var Iterators = __webpack_require__(22);
-module.exports = __webpack_require__(2).isIterable = function (it) {
+module.exports = __webpack_require__(3).isIterable = function (it) {
   var O = Object(it);
   return O[ITERATOR] !== undefined
     || '@@iterator' in O
@@ -5774,27 +5867,27 @@ module.exports = __webpack_require__(2).isIterable = function (it) {
 
 
 /***/ }),
-/* 167 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = { "default": __webpack_require__(168), __esModule: true };
-
-/***/ }),
 /* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(45);
-__webpack_require__(37);
-module.exports = __webpack_require__(169);
-
+module.exports = { "default": __webpack_require__(169), __esModule: true };
 
 /***/ }),
 /* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
+__webpack_require__(45);
+__webpack_require__(37);
+module.exports = __webpack_require__(170);
+
+
+/***/ }),
+/* 170 */
+/***/ (function(module, exports, __webpack_require__) {
+
 var anObject = __webpack_require__(17);
-var get = __webpack_require__(170);
-module.exports = __webpack_require__(2).getIterator = function (it) {
+var get = __webpack_require__(171);
+module.exports = __webpack_require__(3).getIterator = function (it) {
   var iterFn = get(it);
   if (typeof iterFn != 'function') throw TypeError(it + ' is not iterable!');
   return anObject(iterFn.call(it));
@@ -5802,13 +5895,13 @@ module.exports = __webpack_require__(2).getIterator = function (it) {
 
 
 /***/ }),
-/* 170 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var classof = __webpack_require__(69);
 var ITERATOR = __webpack_require__(10)('iterator');
 var Iterators = __webpack_require__(22);
-module.exports = __webpack_require__(2).getIteratorMethod = function (it) {
+module.exports = __webpack_require__(3).getIteratorMethod = function (it) {
   if (it != undefined) return it[ITERATOR]
     || it['@@iterator']
     || Iterators[classof(it)];
@@ -5816,12 +5909,12 @@ module.exports = __webpack_require__(2).getIteratorMethod = function (it) {
 
 
 /***/ }),
-/* 171 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(172);
-    var insertCss = __webpack_require__(6);
+    var content = __webpack_require__(173);
+    var insertCss = __webpack_require__(8);
 
     if (typeof content === 'string') {
       content = [[module.i, content, '']];
@@ -5851,10 +5944,10 @@ module.exports = __webpack_require__(2).getIteratorMethod = function (it) {
   
 
 /***/ }),
-/* 172 */
+/* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(5)(undefined);
+exports = module.exports = __webpack_require__(7)(undefined);
 // imports
 
 
@@ -5867,12 +5960,12 @@ exports.locals = {
 };
 
 /***/ }),
-/* 173 */
+/* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(174);
-    var insertCss = __webpack_require__(6);
+    var content = __webpack_require__(175);
+    var insertCss = __webpack_require__(8);
 
     if (typeof content === 'string') {
       content = [[module.i, content, '']];
@@ -5902,10 +5995,10 @@ exports.locals = {
   
 
 /***/ }),
-/* 174 */
+/* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(5)(undefined);
+exports = module.exports = __webpack_require__(7)(undefined);
 // imports
 
 
@@ -5923,7 +6016,7 @@ exports.locals = {
 };
 
 /***/ }),
-/* 175 */
+/* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5957,12 +6050,12 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 176 */
+/* 177 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(177);
-    var insertCss = __webpack_require__(6);
+    var content = __webpack_require__(178);
+    var insertCss = __webpack_require__(8);
 
     if (typeof content === 'string') {
       content = [[module.i, content, '']];
@@ -5992,10 +6085,10 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
   
 
 /***/ }),
-/* 177 */
+/* 178 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(5)(undefined);
+exports = module.exports = __webpack_require__(7)(undefined);
 // imports
 
 
@@ -6013,7 +6106,7 @@ exports.locals = {
 };
 
 /***/ }),
-/* 178 */
+/* 179 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6022,8 +6115,8 @@ exports.locals = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(1);
-var withStyles_1 = __webpack_require__(4);
-var s = __webpack_require__(179);
+var withStyles_1 = __webpack_require__(6);
+var s = __webpack_require__(180);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page;
@@ -6037,12 +6130,12 @@ exports.Crumbs = Crumbs;
 exports.default = withStyles_1.default(s)(Crumbs);
 
 /***/ }),
-/* 179 */
+/* 180 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(180);
-    var insertCss = __webpack_require__(6);
+    var content = __webpack_require__(181);
+    var insertCss = __webpack_require__(8);
 
     if (typeof content === 'string') {
       content = [[module.i, content, '']];
@@ -6072,10 +6165,10 @@ exports.default = withStyles_1.default(s)(Crumbs);
   
 
 /***/ }),
-/* 180 */
+/* 181 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(5)(undefined);
+exports = module.exports = __webpack_require__(7)(undefined);
 // imports
 
 
@@ -6088,12 +6181,12 @@ exports.locals = {
 };
 
 /***/ }),
-/* 181 */
+/* 182 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(182);
-    var insertCss = __webpack_require__(6);
+    var content = __webpack_require__(183);
+    var insertCss = __webpack_require__(8);
 
     if (typeof content === 'string') {
       content = [[module.i, content, '']];
@@ -6123,10 +6216,10 @@ exports.locals = {
   
 
 /***/ }),
-/* 182 */
+/* 183 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(5)(undefined);
+exports = module.exports = __webpack_require__(7)(undefined);
 // imports
 
 
@@ -6139,7 +6232,7 @@ exports.locals = {
 };
 
 /***/ }),
-/* 183 */
+/* 184 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6165,10 +6258,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(1);
-var withStyles_1 = __webpack_require__(4);
+var withStyles_1 = __webpack_require__(6);
 var Button_1 = __webpack_require__(23);
 var Icon_1 = __webpack_require__(49);
-var s = __webpack_require__(184);
+var s = __webpack_require__(185);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -6192,12 +6285,12 @@ exports.Footer = Footer;
 exports.default = withStyles_1.default(s)(Footer);
 
 /***/ }),
-/* 184 */
+/* 185 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(185);
-    var insertCss = __webpack_require__(6);
+    var content = __webpack_require__(186);
+    var insertCss = __webpack_require__(8);
 
     if (typeof content === 'string') {
       content = [[module.i, content, '']];
@@ -6227,10 +6320,10 @@ exports.default = withStyles_1.default(s)(Footer);
   
 
 /***/ }),
-/* 185 */
+/* 186 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(5)(undefined);
+exports = module.exports = __webpack_require__(7)(undefined);
 // imports
 
 
@@ -6250,7 +6343,7 @@ exports.locals = {
 };
 
 /***/ }),
-/* 186 */
+/* 187 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6285,10 +6378,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(1);
-var withStyles_1 = __webpack_require__(4);
+var withStyles_1 = __webpack_require__(6);
 var Button_1 = __webpack_require__(23);
 var Icon_1 = __webpack_require__(49);
-var s = __webpack_require__(187);
+var s = __webpack_require__(188);
 function Item(props) {
     return null;
 }
@@ -6348,12 +6441,12 @@ function renderItems(children) {
 exports.default = withStyles_1.default(s)(SideMenu);
 
 /***/ }),
-/* 187 */
+/* 188 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(188);
-    var insertCss = __webpack_require__(6);
+    var content = __webpack_require__(189);
+    var insertCss = __webpack_require__(8);
 
     if (typeof content === 'string') {
       content = [[module.i, content, '']];
@@ -6383,15 +6476,15 @@ exports.default = withStyles_1.default(s)(SideMenu);
   
 
 /***/ }),
-/* 188 */
+/* 189 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(5)(undefined);
+exports = module.exports = __webpack_require__(7)(undefined);
 // imports
 
 
 // module
-exports.push([module.i, "html{font-size:4px}._2Ugt_EDi4ibsg-a3Rca84Z{position:absolute;top:0;transition:left .2s ease-out;left:-100%;width:calc(100% - 14rem);max-width:80rem;height:100%;background:#f1f1f1;box-shadow:0 0 4px #000;display:flex;flex-direction:column}._2Ugt_EDi4ibsg-a3Rca84Z._3BVp9hmtU66aFy0eRB0LRi{left:0}._2Ugt_EDi4ibsg-a3Rca84Z:focus{outline:0}._9c2XlVlxjlaFdYbrVzEN_{height:63rem;background:url(" + __webpack_require__(189) + ") 50% no-repeat;background-size:cover}.lKobN5IQhVnwdxNfbhy0z,._9c2XlVlxjlaFdYbrVzEN_{display:flex;flex-direction:column}.lKobN5IQhVnwdxNfbhy0z{margin:0;padding:2rem 0;align-items:stretch}.lKobN5IQhVnwdxNfbhy0z li{margin:0;padding:0;display:block}.lKobN5IQhVnwdxNfbhy0z li:before{display:none}.lKobN5IQhVnwdxNfbhy0z a{margin:0;padding:0 4rem;display:flex;flex-direction:row;align-items:center;text-decoration:none}.lKobN5IQhVnwdxNfbhy0z a:active,.lKobN5IQhVnwdxNfbhy0z a:hover{background-color:#fff}._3PqaGCTzDFRSKPe9hXcPz0{margin-right:8rem;width:6rem;flex-shrink:0;flex-grow:0;align-self:stretch;color:rgba(51,51,51,.6);display:flex;flex-direction:row;align-items:center;justify-content:center}.oZE9lnjTMHJjd9MGOUMAc{flex-shrink:0;flex-grow:1;color:rgba(51,51,51,.9);font-family:Roboto Slab,serif;font-weight:400;letter-spacing:-.003rem;font-size:16px;line-height:6rem;padding-top:3.56rem;padding-bottom:3.44rem;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}@media only screen and (min-width:1012px){.oZE9lnjTMHJjd9MGOUMAc{font-size:20px;line-height:7rem;padding-top:3.7rem;padding-bottom:4.3rem}}._3MKYraCdU4zpGIPVBs8M-r{align-self:flex-end;background-color:#f1f1f1}._3MKYraCdU4zpGIPVBs8M-r i{font-size:6rem;line-height:12.5rem;color:rgba(51,51,51,.72)}._3MKYraCdU4zpGIPVBs8M-r,._3MKYraCdU4zpGIPVBs8M-r button{height:14rem;width:14rem;text-align:center}", ""]);
+exports.push([module.i, "html{font-size:4px}._2Ugt_EDi4ibsg-a3Rca84Z{position:absolute;top:0;transition:left .2s ease-out;left:-100%;width:calc(100% - 14rem);max-width:80rem;height:100%;background:#f1f1f1;box-shadow:0 0 4px #000;display:flex;flex-direction:column}._2Ugt_EDi4ibsg-a3Rca84Z._3BVp9hmtU66aFy0eRB0LRi{left:0}._2Ugt_EDi4ibsg-a3Rca84Z:focus{outline:0}._9c2XlVlxjlaFdYbrVzEN_{height:63rem;background:url(" + __webpack_require__(190) + ") 50% no-repeat;background-size:cover}.lKobN5IQhVnwdxNfbhy0z,._9c2XlVlxjlaFdYbrVzEN_{display:flex;flex-direction:column}.lKobN5IQhVnwdxNfbhy0z{margin:0;padding:2rem 0;align-items:stretch}.lKobN5IQhVnwdxNfbhy0z li{margin:0;padding:0;display:block}.lKobN5IQhVnwdxNfbhy0z li:before{display:none}.lKobN5IQhVnwdxNfbhy0z a{margin:0;padding:0 4rem;display:flex;flex-direction:row;align-items:center;text-decoration:none}.lKobN5IQhVnwdxNfbhy0z a:active,.lKobN5IQhVnwdxNfbhy0z a:hover{background-color:#fff}._3PqaGCTzDFRSKPe9hXcPz0{margin-right:8rem;width:6rem;flex-shrink:0;flex-grow:0;align-self:stretch;color:rgba(51,51,51,.6);display:flex;flex-direction:row;align-items:center;justify-content:center}.oZE9lnjTMHJjd9MGOUMAc{flex-shrink:0;flex-grow:1;color:rgba(51,51,51,.9);font-family:Roboto Slab,serif;font-weight:400;letter-spacing:-.003rem;font-size:16px;line-height:6rem;padding-top:3.56rem;padding-bottom:3.44rem;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}@media only screen and (min-width:1012px){.oZE9lnjTMHJjd9MGOUMAc{font-size:20px;line-height:7rem;padding-top:3.7rem;padding-bottom:4.3rem}}._3MKYraCdU4zpGIPVBs8M-r{align-self:flex-end;background-color:#f1f1f1}._3MKYraCdU4zpGIPVBs8M-r i{font-size:6rem;line-height:12.5rem;color:rgba(51,51,51,.72)}._3MKYraCdU4zpGIPVBs8M-r,._3MKYraCdU4zpGIPVBs8M-r button{height:14rem;width:14rem;text-align:center}", ""]);
 
 // exports
 exports.locals = {
@@ -6405,13 +6498,13 @@ exports.locals = {
 };
 
 /***/ }),
-/* 189 */
+/* 190 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "940f732e370cf6a7d71a8494ac7e7782.jpg";
 
 /***/ }),
-/* 190 */
+/* 191 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6419,8 +6512,8 @@ module.exports = __webpack_require__.p + "940f732e370cf6a7d71a8494ac7e7782.jpg";
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var withStyles_1 = __webpack_require__(4);
-var s = __webpack_require__(191);
+var withStyles_1 = __webpack_require__(6);
+var s = __webpack_require__(192);
 function Jumbotron(_a) {
     var children = _a.children,
         src = _a.src,
@@ -6437,12 +6530,12 @@ var renderImage = function renderImage(src) {
 exports.default = withStyles_1.default(s)(Jumbotron);
 
 /***/ }),
-/* 191 */
+/* 192 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(192);
-    var insertCss = __webpack_require__(6);
+    var content = __webpack_require__(193);
+    var insertCss = __webpack_require__(8);
 
     if (typeof content === 'string') {
       content = [[module.i, content, '']];
@@ -6472,10 +6565,10 @@ exports.default = withStyles_1.default(s)(Jumbotron);
   
 
 /***/ }),
-/* 192 */
+/* 193 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(5)(undefined);
+exports = module.exports = __webpack_require__(7)(undefined);
 // imports
 
 
@@ -6494,12 +6587,12 @@ exports.locals = {
 };
 
 /***/ }),
-/* 193 */
+/* 194 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(194);
-    var insertCss = __webpack_require__(6);
+    var content = __webpack_require__(195);
+    var insertCss = __webpack_require__(8);
 
     if (typeof content === 'string') {
       content = [[module.i, content, '']];
@@ -6529,10 +6622,10 @@ exports.locals = {
   
 
 /***/ }),
-/* 194 */
+/* 195 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(5)(undefined);
+exports = module.exports = __webpack_require__(7)(undefined);
 // imports
 
 
@@ -6555,13 +6648,13 @@ exports.locals = {
 };
 
 /***/ }),
-/* 195 */
+/* 196 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "a923c54dca55ec45e1914f1e11f92d0e.jpg";
 
 /***/ }),
-/* 196 */
+/* 197 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6587,13 +6680,13 @@ exports.DefaultLayout = DefaultLayout;
 exports.default = DefaultLayout;
 
 /***/ }),
-/* 197 */
+/* 198 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./CategoryList.tsx": 198,
+	"./CategoryList.tsx": 199,
 	"./Crumbs.tsx": 72,
-	"./Feed.tsx": 199,
+	"./Feed.tsx": 200,
 	"./TableOfContents.tsx": 74,
 	"./TagList.tsx": 73
 };
@@ -6611,10 +6704,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 197;
+webpackContext.id = 198;
 
 /***/ }),
-/* 198 */
+/* 199 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6641,7 +6734,7 @@ exports.CategoryList = CategoryList;
 exports.default = CategoryList;
 
 /***/ }),
-/* 199 */
+/* 200 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6666,7 +6759,7 @@ var __rest = undefined && undefined.__rest || function (s, e) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var Tile_1 = __webpack_require__(200);
+var Tile_1 = __webpack_require__(201);
 var TableOfContents_1 = __webpack_require__(74);
 ;
 function Feed(_a) {
@@ -6690,7 +6783,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 200 */
+/* 201 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6699,10 +6792,10 @@ exports.default = Feed;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(1);
-var withStyles_1 = __webpack_require__(4);
+var withStyles_1 = __webpack_require__(6);
 var Tags_1 = __webpack_require__(71);
 var Button_1 = __webpack_require__(23);
-var s = __webpack_require__(201);
+var s = __webpack_require__(202);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -6713,12 +6806,12 @@ exports.Tile = Tile;
 exports.default = withStyles_1.default(s)(Tile);
 
 /***/ }),
-/* 201 */
+/* 202 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    var content = __webpack_require__(202);
-    var insertCss = __webpack_require__(6);
+    var content = __webpack_require__(203);
+    var insertCss = __webpack_require__(8);
 
     if (typeof content === 'string') {
       content = [[module.i, content, '']];
@@ -6748,10 +6841,10 @@ exports.default = withStyles_1.default(s)(Tile);
   
 
 /***/ }),
-/* 202 */
+/* 203 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(5)(undefined);
+exports = module.exports = __webpack_require__(7)(undefined);
 // imports
 
 
@@ -6765,14 +6858,14 @@ exports.locals = {
 };
 
 /***/ }),
-/* 203 */
+/* 204 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var models_1 = __webpack_require__(7);
+var models_1 = __webpack_require__(9);
 var pages_1 = __webpack_require__(76);
 var categories_1 = __webpack_require__(77);
 var website = new models_1.Website();
@@ -6795,7 +6888,7 @@ var tags = pages_1.default.concat(categories_1.default).map(function (page) {
 exports.default = tags;
 
 /***/ }),
-/* 204 */
+/* 205 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6804,7 +6897,7 @@ exports.default = tags;
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var models_1 = __webpack_require__(7);
+var models_1 = __webpack_require__(9);
 var config = __webpack_require__(75);
 function checkIsArray(value, name) {
     if (!(value instanceof Array)) {
