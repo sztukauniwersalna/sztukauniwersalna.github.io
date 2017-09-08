@@ -1243,6 +1243,18 @@ var Page = /** @class */function () {
             return a.concat(b);
         }, []);
     };
+    Page.prototype.compareTo = function (another) {
+        if (this.date === null) {
+            if (another.date === null) {
+                return this.title > another.title;
+            }
+            return -1;
+        }
+        if (another.date === null) {
+            return 1;
+        }
+        return new Date(this.date).getTime() > new Date(another.date).getTime();
+    };
     return Page;
 }();
 exports.Page = Page;
@@ -2489,6 +2501,8 @@ var pages = collections_1.default.reduce(function (p, c) {
     return p.concat(c.pages);
 }, []).filter(function (page) {
     return !(page instanceof models_1.Category);
+}).sort(function (a, b) {
+    return !a.compareTo(b);
 });
 exports.default = pages;
 
