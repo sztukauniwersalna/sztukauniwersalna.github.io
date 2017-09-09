@@ -6897,11 +6897,10 @@ exports = module.exports = __webpack_require__(7)(undefined);
 
 
 // module
-exports.push([module.i, ".izruApnDkLLIscb3F4Hqi{display:none}@media only screen and (min-width:568px) and (max-width:799px){.izruApnDkLLIscb3F4Hqi{display:block}}@media only screen and (min-width:800px) and (max-width:1011px){.izruApnDkLLIscb3F4Hqi{display:block}}@media only screen and (min-width:1012px){.izruApnDkLLIscb3F4Hqi{display:block}}._30KjvNmLpdOJMkyYNU2Ajj{padding:7rem 0 12rem;text-align:center}@media only screen and (min-width:1012px){._30KjvNmLpdOJMkyYNU2Ajj{padding:9rem 0 16rem}}@media only screen and (min-width:800px) and (max-width:1011px){._30KjvNmLpdOJMkyYNU2Ajj{text-align:left}}@media only screen and (min-width:1012px){._30KjvNmLpdOJMkyYNU2Ajj{text-align:left}}._30KjvNmLpdOJMkyYNU2Ajj a{padding:0 13rem}@media only screen and (min-width:800px) and (max-width:1011px){._30KjvNmLpdOJMkyYNU2Ajj a{padding:0 7rem}}@media only screen and (min-width:1012px){._30KjvNmLpdOJMkyYNU2Ajj a{padding:0 9rem}}", ""]);
+exports.push([module.i, "._30KjvNmLpdOJMkyYNU2Ajj{padding:7rem 0 12rem;text-align:center}@media only screen and (min-width:1012px){._30KjvNmLpdOJMkyYNU2Ajj{padding:9rem 0 16rem}}@media only screen and (min-width:800px) and (max-width:1011px){._30KjvNmLpdOJMkyYNU2Ajj{text-align:left}}@media only screen and (min-width:1012px){._30KjvNmLpdOJMkyYNU2Ajj{text-align:left}}._30KjvNmLpdOJMkyYNU2Ajj a{padding:0 13rem}@media only screen and (min-width:800px) and (max-width:1011px){._30KjvNmLpdOJMkyYNU2Ajj a{padding:0 7rem}}@media only screen and (min-width:1012px){._30KjvNmLpdOJMkyYNU2Ajj a{padding:0 9rem}}", ""]);
 
 // exports
 exports.locals = {
-	"tags": "izruApnDkLLIscb3F4Hqi",
 	"more": "_30KjvNmLpdOJMkyYNU2Ajj"
 };
 
