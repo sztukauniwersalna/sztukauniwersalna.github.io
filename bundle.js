@@ -311,12 +311,16 @@ function withStyles() {
       (0, _createClass3.default)(WithStyles, [{
         key: 'componentWillMount',
         value: function componentWillMount() {
-          this.removeCss = this.context.insertCss.apply(undefined, styles);
+          var _context;
+
+          this.removeCss = (_context = this.context).insertCss.apply(_context, styles);
         }
       }, {
         key: 'componentWillUnmount',
         value: function componentWillUnmount() {
-          setTimeout(this.removeCss, 0);
+          if (this.removeCss) {
+            setTimeout(this.removeCss, 0);
+          }
         }
       }, {
         key: 'render',
