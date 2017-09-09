@@ -3416,7 +3416,7 @@ exports.default = function (_a) {
         css = _a.css,
         scripts = _a.scripts,
         stylesheets = _a.stylesheets;
-    return React.createElement("html", null, React.createElement("head", null, React.createElement("title", null, title), React.createElement("meta", { name: "path", content: path }), React.createElement("meta", { name: "keywords", content: tags.join(', ') }), React.createElement("meta", { name: "description", content: description }), React.createElement("style", { type: "text/css" }, css.join(''))), React.createElement("body", null, React.createElement("div", { id: "root" }, "%%%BODY%%%"), scripts.map(function (src) {
+    return React.createElement("html", null, React.createElement("head", null, React.createElement("title", null, title), React.createElement("meta", { name: 'path', content: path }), React.createElement("meta", { name: 'keywords', content: tags.join(', ') }), React.createElement("meta", { name: 'description', content: description }), React.createElement("meta", { name: 'viewport', content: 'width=device-width; initial-scale=1.0' }), React.createElement("style", { type: 'text/css' }, css.join(''))), React.createElement("body", null, React.createElement("div", { id: 'root' }, "%%%BODY%%%"), scripts.map(function (src) {
         return React.createElement("script", { type: 'text/javascript', src: src, key: src });
     }), stylesheets.map(function (src) {
         return React.createElement("link", { type: 'text/css', rel: 'stylesheet', href: src, key: src });
