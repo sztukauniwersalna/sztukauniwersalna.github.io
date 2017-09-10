@@ -4729,7 +4729,7 @@ var ParrotLayout = /** @class */function (_super) {
                 return _this.hideMenu();
             }, onClosed: function onClosed() {
                 return _this.disableMenu();
-            } }, website.menu.map(function (entry) {
+            }, currentUrl: page.url }, website.menu.map(function (entry) {
             return React.createElement(SideMenu_1.Item, { key: entry.url, url: entry.url, title: entry.title, icon: entry.icon });
         }))));
     };
@@ -6488,7 +6488,29 @@ var SideMenu = /** @class */function (_super) {
                 return _this.element = elem;
             }, onClick: function onClick(e) {
                 return e.stopPropagation();
-            } }, React.createElement("div", { className: s.header }, React.createElement("div", { className: s.closeButton }, React.createElement(Button_1.default, { onClick: onCloseRequested }, React.createElement(Icon_1.default, { name: 'close' })))), React.createElement("ul", { className: s.content }, renderItems(children)));
+            } }, React.createElement("div", { className: s.header }, React.createElement("div", { className: s.closeButton }, React.createElement(Button_1.default, { onClick: onCloseRequested }, React.createElement(Icon_1.default, { name: 'close' })))), React.createElement("ul", { className: s.content }, this.renderItems()));
+    };
+    SideMenu.prototype.renderItems = function () {
+        var _this = this;
+        var children = this.props.children;
+        if (!children) {
+            return null;
+        }
+        return [].concat(children).map(function (item) {
+            return _this.renderItem(item);
+        });
+    };
+    SideMenu.prototype.renderItem = function (item) {
+        var _a = this.props,
+            currentUrl = _a.currentUrl,
+            onCloseRequested = _a.onCloseRequested;
+        if (currentUrl === item.props.url) {
+            // just scroll to top and close the menu for already selected item
+            return React.createElement("li", { key: item.props.url, className: s.current }, React.createElement("a", { onClick: function onClick() {
+                    window.scrollTo(0, 0);onCloseRequested();
+                } }, React.createElement("span", { className: s.itemIcon }, React.createElement(Icon_1.default, { name: item.props.icon })), React.createElement("span", { className: s.itemTitle }, item.props.title)));
+        }
+        return React.createElement("li", { key: item.props.url }, React.createElement(react_router_dom_1.Link, { to: item.props.url }, React.createElement("span", { className: s.itemIcon }, React.createElement(Icon_1.default, { name: item.props.icon })), React.createElement("span", { className: s.itemTitle }, item.props.title)));
     };
     SideMenu.prototype.onTransitionEnd = function () {
         if (this.props.visible) {
@@ -6499,14 +6521,6 @@ var SideMenu = /** @class */function (_super) {
     return SideMenu;
 }(react_1.Component);
 exports.SideMenu = SideMenu;
-function renderItems(children) {
-    if (!children) {
-        return null;
-    }
-    return [].concat(children).map(function (item) {
-        return React.createElement("li", { key: item.props.url }, React.createElement(react_router_dom_1.Link, { to: item.props.url }, React.createElement("span", { className: s.itemIcon }, React.createElement(Icon_1.default, { name: item.props.icon })), React.createElement("span", { className: s.itemTitle }, item.props.title)));
-    });
-}
 exports.default = withStyles_1.default(s)(SideMenu);
 
 /***/ }),
@@ -6553,7 +6567,7 @@ exports = module.exports = __webpack_require__(7)(undefined);
 
 
 // module
-exports.push([module.i, "html{font-size:4px}._2Ugt_EDi4ibsg-a3Rca84Z{-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;user-select:none;position:absolute;top:0;transition:left .2s ease-out;left:-100%;width:calc(100% - 14rem);max-width:80rem;height:100vh;overflow:hidden;background:#f1f1f1;box-shadow:0 0 4px #000;display:flex;flex-direction:column}._2Ugt_EDi4ibsg-a3Rca84Z._3BVp9hmtU66aFy0eRB0LRi{left:0}._9c2XlVlxjlaFdYbrVzEN_{height:63rem;max-height:63rem;min-height:14rem;background:url(" + __webpack_require__(190) + ") 50% no-repeat;background-size:cover}.lKobN5IQhVnwdxNfbhy0z,._9c2XlVlxjlaFdYbrVzEN_{display:flex;flex-direction:column}.lKobN5IQhVnwdxNfbhy0z{margin:0;padding:2rem 0;align-items:stretch}.lKobN5IQhVnwdxNfbhy0z li{margin:0;padding:0;display:block}.lKobN5IQhVnwdxNfbhy0z li:before{display:none}.lKobN5IQhVnwdxNfbhy0z a{margin:0;padding:0 4rem;display:flex;flex-direction:row;align-items:center;text-decoration:none}.lKobN5IQhVnwdxNfbhy0z a:active,.lKobN5IQhVnwdxNfbhy0z a:hover{background-color:#fff}._3PqaGCTzDFRSKPe9hXcPz0{margin-right:8rem;width:6rem;flex-shrink:0;flex-grow:0;align-self:stretch;color:rgba(51,51,51,.6);display:flex;flex-direction:row;align-items:center;justify-content:center}.oZE9lnjTMHJjd9MGOUMAc{flex-shrink:0;flex-grow:1;color:rgba(51,51,51,.9);font-family:Roboto Slab,serif;font-weight:400;letter-spacing:-.003rem;font-size:16px;line-height:6rem;padding-top:3.56rem;padding-bottom:3.44rem;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}@media only screen and (min-width:1012px){.oZE9lnjTMHJjd9MGOUMAc{font-size:20px;line-height:7rem;padding-top:3.7rem;padding-bottom:4.3rem}}._3MKYraCdU4zpGIPVBs8M-r{align-self:flex-end;background-color:#f1f1f1}._3MKYraCdU4zpGIPVBs8M-r i{font-size:6rem;line-height:12.5rem;color:rgba(51,51,51,.72)}._3MKYraCdU4zpGIPVBs8M-r,._3MKYraCdU4zpGIPVBs8M-r button{height:14rem;width:14rem;text-align:center}", ""]);
+exports.push([module.i, "html{font-size:4px}._2Ugt_EDi4ibsg-a3Rca84Z{-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;user-select:none;position:absolute;top:0;transition:left .2s ease-out;left:-100%;width:calc(100% - 14rem);max-width:80rem;height:100vh;overflow:hidden;background:#f1f1f1;box-shadow:0 0 4px #000;display:flex;flex-direction:column}._2Ugt_EDi4ibsg-a3Rca84Z._3BVp9hmtU66aFy0eRB0LRi{left:0}._9c2XlVlxjlaFdYbrVzEN_{height:63rem;max-height:63rem;min-height:14rem;background:url(" + __webpack_require__(190) + ") 50% no-repeat;background-size:cover}.lKobN5IQhVnwdxNfbhy0z,._9c2XlVlxjlaFdYbrVzEN_{display:flex;flex-direction:column}.lKobN5IQhVnwdxNfbhy0z{margin:0;padding:2rem 0;align-items:stretch}.lKobN5IQhVnwdxNfbhy0z li{margin:0;padding:0;display:block}.lKobN5IQhVnwdxNfbhy0z li:before{display:none}.lKobN5IQhVnwdxNfbhy0z a{cursor:pointer;margin:0;padding:0 4rem;display:flex;flex-direction:row;align-items:center;text-decoration:none}.lKobN5IQhVnwdxNfbhy0z:not(:hover) ._3K6vtU4f7c_fbS6I6E8U3a a,.lKobN5IQhVnwdxNfbhy0z a:active,.lKobN5IQhVnwdxNfbhy0z a:hover{background-color:#fff}._3PqaGCTzDFRSKPe9hXcPz0{margin-right:8rem;width:6rem;flex-shrink:0;flex-grow:0;align-self:stretch;color:rgba(51,51,51,.6);display:flex;flex-direction:row;align-items:center;justify-content:center}.oZE9lnjTMHJjd9MGOUMAc{flex-shrink:0;flex-grow:1;color:rgba(51,51,51,.9);font-family:Roboto Slab,serif;font-weight:400;letter-spacing:-.003rem;font-size:16px;line-height:6rem;padding-top:3.56rem;padding-bottom:3.44rem;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}@media only screen and (min-width:1012px){.oZE9lnjTMHJjd9MGOUMAc{font-size:20px;line-height:7rem;padding-top:3.7rem;padding-bottom:4.3rem}}._3MKYraCdU4zpGIPVBs8M-r{align-self:flex-end;background-color:#f1f1f1}._3MKYraCdU4zpGIPVBs8M-r i{font-size:6rem;line-height:12.5rem;color:rgba(51,51,51,.72)}._3MKYraCdU4zpGIPVBs8M-r,._3MKYraCdU4zpGIPVBs8M-r button{height:14rem;width:14rem;text-align:center}", ""]);
 
 // exports
 exports.locals = {
@@ -6561,6 +6575,7 @@ exports.locals = {
 	"visible": "_3BVp9hmtU66aFy0eRB0LRi",
 	"header": "_9c2XlVlxjlaFdYbrVzEN_",
 	"content": "lKobN5IQhVnwdxNfbhy0z",
+	"current": "_3K6vtU4f7c_fbS6I6E8U3a",
 	"itemIcon": "_3PqaGCTzDFRSKPe9hXcPz0",
 	"itemTitle": "oZE9lnjTMHJjd9MGOUMAc",
 	"closeButton": "_3MKYraCdU4zpGIPVBs8M-r"
