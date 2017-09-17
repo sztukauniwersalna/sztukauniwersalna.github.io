@@ -4465,7 +4465,7 @@ var map = {
 	"./2017-07-15-uniwersalno-sztuki.markdown": 112,
 	"./2017-09-07-wenus-chanel-nowa-dziewczyna-z-perla.markdown": 113,
 	"./2017-09-11-make-up-inspirowany-obrazem-m64-by-wojciech-fangor.markdown": 114,
-	"./2017-09-16-smaki-jesieni-vol-1-salatka-z-bialej-rzepy-i-rzodkiewki-z-mlekiem-kokosowym-puree-brokulowym-i-pudrem-z-migdalow.markdown": 115
+	"./2017-09-16-salatka-z-bialej-rzepy-i-rzodkiewki.markdown": 115
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
