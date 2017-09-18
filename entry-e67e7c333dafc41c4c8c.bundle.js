@@ -5030,14 +5030,14 @@ var component = exports.component = function component(data) {
     _react2.default.createElement(
       'p',
       null,
-      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/6242412/ello-optimized-c8dd3711.jpg', alt: 'Zdj\u0119cie przedstawia kola\u017C na czerwonym tle, elementy s\u0105 geometryczne, bia\u0142e, niebieskie, a z lewej strony widzimy fragment ro\u015Bliny.' }),
-      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/6235681/ello-optimized-4ab7553c.jpg', alt: 'Zdj\u0119cie centralnie przedstawia ro\u015Blin\u0119 z rodziny kaktusowatych, rosn\u0105c\u0105 w szarej glebie na tle jasnej \u015Bciany.' })
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/6235681/ello-optimized-4ab7553c.jpg', alt: 'Zdj\u0119cie centralnie przedstawia ro\u015Blin\u0119 z rodziny kaktusowatych, rosn\u0105c\u0105 w szarej glebie na tle jasnej \u015Bciany.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/6242404/ello-optimized-dbcead22.jpg', alt: 'Zdj\u0119cie przedstawia szkic wykonany tuszem z elementami kola\u017Cu. Z lewego g\xF3rnego i prawego dolnego rogu wyrasta ro' })
     )
   );
 };
 var frontMatter = exports.frontMatter = { "title": "Fuerteventura impressions", "date": "2017-09-18T15:38:00.000Z" };
-var body = exports.body = "<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6242412/ello-optimized-c8dd3711.jpg\" alt=\"Zdjęcie przedstawia kolaż na czerwonym tle, elementy są geometryczne, białe, niebieskie, a z lewej strony widzimy fragment rośliny.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6235681/ello-optimized-4ab7553c.jpg\" alt=\"Zdjęcie centralnie przedstawia roślinę z rodziny kaktusowatych, rosnącą w szarej glebie na tle jasnej ściany.\" /></p>\n";
-var raw = exports.raw = "\n![Zdjęcie przedstawia kolaż na czerwonym tle, elementy są geometryczne, białe, niebieskie, a z lewej strony widzimy fragment rośliny.](https://assets2.ello.co/uploads/asset/attachment/6242412/ello-optimized-c8dd3711.jpg)\n![Zdjęcie centralnie przedstawia roślinę z rodziny kaktusowatych, rosnącą w szarej glebie na tle jasnej ściany.](https://assets0.ello.co/uploads/asset/attachment/6235681/ello-optimized-4ab7553c.jpg)";
+var body = exports.body = "<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6235681/ello-optimized-4ab7553c.jpg\" alt=\"Zdjęcie centralnie przedstawia roślinę z rodziny kaktusowatych, rosnącą w szarej glebie na tle jasnej ściany.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6242404/ello-optimized-dbcead22.jpg\" alt=\"Zdjęcie przedstawia szkic wykonany tuszem z elementami kolażu. Z lewego górnego i prawego dolnego rogu wyrasta ro\" /></p>\n";
+var raw = exports.raw = "\n![Zdjęcie centralnie przedstawia roślinę z rodziny kaktusowatych, rosnącą w szarej glebie na tle jasnej ściany.](https://assets0.ello.co/uploads/asset/attachment/6235681/ello-optimized-4ab7553c.jpg)\n![Zdjęcie przedstawia szkic wykonany tuszem z elementami kolażu. Z lewego górnego i prawego dolnego rogu wyrasta ro](https://assets2.ello.co/uploads/asset/attachment/6242404/ello-optimized-dbcead22.jpg)\n";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
