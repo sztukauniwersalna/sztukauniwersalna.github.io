@@ -5031,13 +5031,13 @@ var component = exports.component = function component(data) {
       'p',
       null,
       _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/6235681/ello-optimized-4ab7553c.jpg', alt: 'Zdj\u0119cie centralnie przedstawia ro\u015Blin\u0119 z rodziny kaktusowatych, rosn\u0105c\u0105 w szarej glebie na tle jasnej \u015Bciany.' }),
-      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/6242404/ello-optimized-dbcead22.jpg', alt: 'Zdj\u0119cie przedstawia szkic wykonany tuszem z elementami kola\u017Cu. Z lewego g\xF3rnego i prawego dolnego rogu wyrasta ro' })
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/6242404/ello-optimized-dbcead22.jpg', alt: 'Zdj\u0119cie przedstawia szkic wykonany tuszem z elementami kola\u017Cu. Z lewego g\xF3rnego i prawego dolnego rogu wyrasta ro\u015Blina, a elementy geometryczne s\u0105 czerwone.' })
     )
   );
 };
-var frontMatter = exports.frontMatter = { "title": "Fuerteventura impressions", "date": "2017-09-18T15:38:00.000Z" };
-var body = exports.body = "<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6235681/ello-optimized-4ab7553c.jpg\" alt=\"Zdjęcie centralnie przedstawia roślinę z rodziny kaktusowatych, rosnącą w szarej glebie na tle jasnej ściany.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6242404/ello-optimized-dbcead22.jpg\" alt=\"Zdjęcie przedstawia szkic wykonany tuszem z elementami kolażu. Z lewego górnego i prawego dolnego rogu wyrasta ro\" /></p>\n";
-var raw = exports.raw = "\n![Zdjęcie centralnie przedstawia roślinę z rodziny kaktusowatych, rosnącą w szarej glebie na tle jasnej ściany.](https://assets0.ello.co/uploads/asset/attachment/6235681/ello-optimized-4ab7553c.jpg)\n![Zdjęcie przedstawia szkic wykonany tuszem z elementami kolażu. Z lewego górnego i prawego dolnego rogu wyrasta ro](https://assets2.ello.co/uploads/asset/attachment/6242404/ello-optimized-dbcead22.jpg)\n";
+var frontMatter = exports.frontMatter = { "title": "Fuerteventura impressions", "date": "2017-09-18T15:38:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["podróż", "wyspa", "fuerteventura", "sztuka", "szkic", "art", "kreacja"] };
+var body = exports.body = "<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6235681/ello-optimized-4ab7553c.jpg\" alt=\"Zdjęcie centralnie przedstawia roślinę z rodziny kaktusowatych, rosnącą w szarej glebie na tle jasnej ściany.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6242404/ello-optimized-dbcead22.jpg\" alt=\"Zdjęcie przedstawia szkic wykonany tuszem z elementami kolażu. Z lewego górnego i prawego dolnego rogu wyrasta roślina, a elementy geometryczne są czerwone.\" /></p>\n";
+var raw = exports.raw = "\n![Zdjęcie centralnie przedstawia roślinę z rodziny kaktusowatych, rosnącą w szarej glebie na tle jasnej ściany.](https://assets0.ello.co/uploads/asset/attachment/6235681/ello-optimized-4ab7553c.jpg)\n![Zdjęcie przedstawia szkic wykonany tuszem z elementami kolażu. Z lewego górnego i prawego dolnego rogu wyrasta roślina, a elementy geometryczne są czerwone.](https://assets2.ello.co/uploads/asset/attachment/6242404/ello-optimized-dbcead22.jpg)\n";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
 
 /***/ }),
