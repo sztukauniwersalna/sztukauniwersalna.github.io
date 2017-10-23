@@ -6156,13 +6156,46 @@ var component = exports.component = function component(data) {
     _react2.default.createElement(
       'olela-narrative',
       null,
-      'W oryginale \'szarlotka babci Czesi\'. Przepis jest bardzo klasyczny, stary (w rodzinie od pokole\u0144) i dobry - to ciasto zawsze wychodzi, a dodatkowo zostawia pole do popisu Twojej wyobra\u017Ani (na wierzch ciasta po\u0142o\u017Cy\u0142am pasy ciasta, tworz\u0105c krat\u0119, a Ty - mo\u017Ce masz pomys\u0142 na inne kszta\u0142ty?).'
+      'W oryginale \'szarlotka babci Czesi\'. Przepis jest bardzo klasyczny, stary (w rodzinie od pokole\u0144) i dobry - to ciasto zawsze wychodzi. Dodatkowo zostawia pole do popisu Twojej wyobra\u017Ani - ja na wierzch ciasta po\u0142o\u017Cy\u0142am pasy ciasta, tworz\u0105c krat\u0119. A Ty? Mo\u017Ce masz pomys\u0142 na inne kszta\u0142ty? Mo\u017Cesz tak\u017Ce opr\xF3szy\u0107 ca\u0142o\u015B\u0107 cukrem lub cynamonem. Podaj kawa\u0142ek szarlotki na ciep\u0142o z ga\u0142k\u0105 lod\xF3w waniliowych, a jesienna chandra minie jak r\u0119k\u0105 odj\u0105\u0142!'
+    ),
+    _react2.default.createElement(
+      'div',
+      null,
+      _react2.default.createElement(
+        Recipe,
+        {
+          title: 'Geometryczna szarlotka',
+          time: '120 minut',
+          level: '\u0142atwy',
+          mealFor: '15 os\xF3b',
+          photo: 'https://assets2.ello.co/uploads/asset/attachment/6401877/ello-optimized-acbac144.jpg',
+          altText: 'Zdj\u0119cie przedstawia czerwony talerz na jasnym tle z perspektywy lotu ptaka. Na talerzu znajduje si\u0119 ciasto z jab\u0142kami.'
+        },
+        _react2.default.createElement(Ingredient, { title: 'jab\u0142ka', quantity: '10 \u015Brednich' }),
+        _react2.default.createElement(Ingredient, { title: 'm\u0105ka pszenna', quantity: '3 i 1/2 szklanki' }),
+        _react2.default.createElement(Ingredient, { title: 'cukier puder', quantity: '1/2 szklanki' }),
+        _react2.default.createElement(Ingredient, { title: 'cukier br\u0105zowy', quantity: '3 \u0142y\u017Cki' }),
+        _react2.default.createElement(Ingredient, { title: 'mas\u0142o', quantity: '1 kostka' }),
+        _react2.default.createElement(Ingredient, { title: 'jaja', quantity: '4' }),
+        _react2.default.createElement(Ingredient, { title: 'proszek do pieczenia', quantity: '2 czubate \u0142y\u017Ceczki' }),
+        _react2.default.createElement(
+          Method,
+          null,
+          'Obieram wszystkie jab\u0142ka (u mnie odmiana \'ligol\') i kroj\u0119 w drobn\u0105 kostk\u0119. Wrzucam do garnka, zalewam odrobin\u0105 wody, kropi\u0119 sokiem z cytryny, zasypuj\u0119 br\u0105zowym cukrem i dusz\u0119 do mi\u0119kko\u015Bci. W mi\u0119dzyczasie przygotowuj\u0119 ciasto. Mieszam m\u0105k\u0119 z proszkiem do pieczenia, cukrem pudrem i zimnym mas\u0142em (dok\u0142adnie tak, jak zagniata si\u0119 kruche ciasto). Wbijam jaja i wyrabiam r\u0119koma. Dziel\u0119 na dwie r\xF3wne cz\u0119\u015Bci i wsadzam na p\xF3\u0142 godziny do lod\xF3wki. Po tym czasie jedn\u0105 z cz\u0119\u015Bci rozwa\u0142kowuje i wyk\u0142adam do blachy o \u015Brednicy 25 x 40 cm. Wyk\u0142adam uduszone jab\u0142ka i przykrywam drug\u0105 cz\u0119\u015Bci\u0105 ciasta.Tak przygotowane ciasto l\u0105duje na ok. 45 min. do nagrzanego do 180\xB0C. Voil\xE0 - najlepiej smakuje na ciep\u0142o z lodami waniliowymi.'
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/6401889/ello-optimized-f23c386a.jpg', alt: 'Zdj\u0119cie przedstawia ciasto z jab\u0142kami na czerwonym talerzu.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/6401901/ello-optimized-01997911.jpg', alt: 'Zdj\u0119cie przedstawia zbli\u017Cenie na ciasto z jab\u0142kami na czerwonym talerzu.' })
     )
   );
 };
 var frontMatter = exports.frontMatter = { "title": "Smaki_Jesieni vol._3. Geometryczna_szarlotka.", "date": "2017-10-23T16:22:00.000Z", "categories": ["Sztuka Gotowania"], "tags": ["przepis", "deser", "szarlotka", "jabłka", "jesień", "kuchnia", "kompozycja", "kreacja", "sztuka", "artysta"] };
-var body = exports.body = "<olela-narrative>\nW oryginale 'szarlotka babci Czesi'. Przepis jest bardzo klasyczny, stary (w rodzinie od pokoleń) i dobry - to ciasto zawsze wychodzi, a dodatkowo zostawia pole do popisu Twojej wyobraźni (na wierzch ciasta położyłam pasy ciasta, tworząc kratę, a Ty - może masz pomysł na inne kształty?).\n</olela-narrative>";
-var raw = exports.raw = "\n<olela-narrative>\nW oryginale 'szarlotka babci Czesi'. Przepis jest bardzo klasyczny, stary (w rodzinie od pokoleń) i dobry - to ciasto zawsze wychodzi, a dodatkowo zostawia pole do popisu Twojej wyobraźni (na wierzch ciasta położyłam pasy ciasta, tworząc kratę, a Ty - może masz pomysł na inne kształty?).\n</olela-narrative>";
+var body = exports.body = "<olela-narrative>\nW oryginale 'szarlotka babci Czesi'. Przepis jest bardzo klasyczny, stary (w rodzinie od pokoleń) i dobry - to ciasto zawsze wychodzi. Dodatkowo zostawia pole do popisu Twojej wyobraźni - ja na wierzch ciasta położyłam pasy ciasta, tworząc kratę. A Ty? Może masz pomysł na inne kształty? Możesz także oprószyć całość cukrem lub cynamonem. Podaj kawałek szarlotki na ciepło z gałką lodów waniliowych, a jesienna chandra minie jak ręką odjął!\n</olela-narrative>\n<div>\n  <Recipe\n    title='Geometryczna szarlotka'\n    time='120 minut'\n    level='łatwy'\n    mealFor='15 osób'\n    photo='https://assets2.ello.co/uploads/asset/attachment/6401877/ello-optimized-acbac144.jpg'\n    altText='Zdjęcie przedstawia czerwony talerz na jasnym tle z perspektywy lotu ptaka. Na talerzu znajduje się ciasto z jabłkami.'\n  >\n    <Ingredient title='jabłka' quantity='10 średnich' />\n    <Ingredient title='mąka pszenna' quantity='3 i 1/2 szklanki' />\n    <Ingredient title='cukier puder' quantity='1/2 szklanki' />\n    <Ingredient title='cukier brązowy' quantity='3 łyżki' />\n    <Ingredient title='masło' quantity='1 kostka' />\n    <Ingredient title='jaja' quantity='4' />\n    <Ingredient title='proszek do pieczenia' quantity='2 czubate łyżeczki' />\n    <Method>\nObieram wszystkie jabłka (u mnie odmiana 'ligol') i kroję w drobną kostkę. Wrzucam do garnka, zalewam odrobiną wody, kropię sokiem z cytryny, zasypuję brązowym cukrem i duszę do miękkości. W międzyczasie przygotowuję ciasto. Mieszam mąkę z proszkiem do pieczenia, cukrem pudrem i zimnym masłem (dokładnie tak, jak zagniata się kruche ciasto). Wbijam jaja i wyrabiam rękoma. Dzielę na dwie równe części i wsadzam na pół godziny do lodówki. Po tym czasie jedną z części rozwałkowuje i wykładam do blachy o średnicy 25 x 40 cm. Wykładam uduszone jabłka i przykrywam drugą częścią ciasta.Tak przygotowane ciasto ląduje na ok. 45 min. do nagrzanego do 180°C. Voilà - najlepiej smakuje na ciepło z lodami waniliowymi.\n    </Method>\n  </Recipe>\n</div>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6401889/ello-optimized-f23c386a.jpg\" alt=\"Zdjęcie przedstawia ciasto z jabłkami na czerwonym talerzu.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6401901/ello-optimized-01997911.jpg\" alt=\"Zdjęcie przedstawia zbliżenie na ciasto z jabłkami na czerwonym talerzu.\" /></p>\n";
+var raw = exports.raw = "\n<olela-narrative>\nW oryginale 'szarlotka babci Czesi'. Przepis jest bardzo klasyczny, stary (w rodzinie od pokoleń) i dobry - to ciasto zawsze wychodzi. Dodatkowo zostawia pole do popisu Twojej wyobraźni - ja na wierzch ciasta położyłam pasy ciasta, tworząc kratę. A Ty? Może masz pomysł na inne kształty? Możesz także oprószyć całość cukrem lub cynamonem. Podaj kawałek szarlotki na ciepło z gałką lodów waniliowych, a jesienna chandra minie jak ręką odjął!\n</olela-narrative>\n\n<div>\n  <Recipe\n    title='Geometryczna szarlotka'\n    time='120 minut'\n    level='łatwy'\n    mealFor='15 osób'\n    photo='https://assets2.ello.co/uploads/asset/attachment/6401877/ello-optimized-acbac144.jpg'\n    altText='Zdjęcie przedstawia czerwony talerz na jasnym tle z perspektywy lotu ptaka. Na talerzu znajduje się ciasto z jabłkami.'\n  >\n    <Ingredient title='jabłka' quantity='10 średnich' />\n    <Ingredient title='mąka pszenna' quantity='3 i 1/2 szklanki' />\n    <Ingredient title='cukier puder' quantity='1/2 szklanki' />\n    <Ingredient title='cukier brązowy' quantity='3 łyżki' />\n    <Ingredient title='masło' quantity='1 kostka' />\n    <Ingredient title='jaja' quantity='4' />\n    <Ingredient title='proszek do pieczenia' quantity='2 czubate łyżeczki' />\n    <Method>\nObieram wszystkie jabłka (u mnie odmiana 'ligol') i kroję w drobną kostkę. Wrzucam do garnka, zalewam odrobiną wody, kropię sokiem z cytryny, zasypuję brązowym cukrem i duszę do miękkości. W międzyczasie przygotowuję ciasto. Mieszam mąkę z proszkiem do pieczenia, cukrem pudrem i zimnym masłem (dokładnie tak, jak zagniata się kruche ciasto). Wbijam jaja i wyrabiam rękoma. Dzielę na dwie równe części i wsadzam na pół godziny do lodówki. Po tym czasie jedną z części rozwałkowuje i wykładam do blachy o średnicy 25 x 40 cm. Wykładam uduszone jabłka i przykrywam drugą częścią ciasta.Tak przygotowane ciasto ląduje na ok. 45 min. do nagrzanego do 180°C. Voilà - najlepiej smakuje na ciepło z lodami waniliowymi.\n    </Method>\n  </Recipe>\n</div>\n\n![Zdjęcie przedstawia ciasto z jabłkami na czerwonym talerzu.](https://assets1.ello.co/uploads/asset/attachment/6401889/ello-optimized-f23c386a.jpg)\n![Zdjęcie przedstawia zbliżenie na ciasto z jabłkami na czerwonym talerzu.](https://assets2.ello.co/uploads/asset/attachment/6401901/ello-optimized-01997911.jpg)";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
