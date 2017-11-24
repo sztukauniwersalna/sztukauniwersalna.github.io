@@ -1425,13 +1425,13 @@ function getRouterProps(location) {
     return { location: location, context: {} };
 }
 function getRootProps(locals, page) {
-    var title = page.title + (locals.title ? " | " + locals.title : '');
     var assets = Object.keys(locals.webpackStats.compilation.assets)
         .map(function (url) { return "/" + url; });
     var css = assets.filter(function (value) { return value.match(/\.css$/); });
     var js = assets.filter(function (value) { return value.match(/\.js$/); });
     return {
-        page: Object.assign(page, { title: title }),
+        siteTitle: locals.siteTitle,
+        page: page,
         localBundles: { css: css, js: js },
         externalBundles: { css: locals.css || [], js: locals.js || [] },
     };
@@ -1447,10 +1447,13 @@ function getRootProps(locals, page) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 function Root(_a) {
-    var page = _a.page, localBundles = _a.localBundles, externalBundles = _a.externalBundles;
+    var siteTitle = _a.siteTitle, page = _a.page, localBundles = _a.localBundles, externalBundles = _a.externalBundles;
     return (React.createElement("html", null,
         React.createElement("head", null,
-            React.createElement("title", null, page.title),
+            React.createElement("title", null,
+                page.title,
+                " | ",
+                siteTitle),
             React.createElement("meta", { name: 'path', content: page.url }),
             React.createElement("meta", { name: 'keywords', content: page.tags.join(', ') }),
             React.createElement("meta", { name: 'description', content: page.description }),
