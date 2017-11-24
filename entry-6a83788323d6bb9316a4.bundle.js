@@ -4,7 +4,7 @@
 	else if(typeof define === 'function' && define.amd)
 		define([, , , , ], factory);
 	else {
-		var a = typeof exports === 'object' ? factory(require("react"), require("react-dom"), require("react-router-dom"), require("react-dom/server"), require("prop-types")) : factory(root["React"], root["ReactDOM"], root["ReactRouterDOM"], root["ReactDOMServer"], root["React.PropTypes"]);
+		var a = typeof exports === 'object' ? factory(require("react"), require("react-dom"), require("react-router-dom"), require("react-dom/server"), require("prop-types")) : factory(root["React"], root["ReactDOM"], root["ReactRouterDOM"], root["ReactDOMServer"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
 })(this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_33__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_15__, __WEBPACK_EXTERNAL_MODULE_89__) {
@@ -1286,7 +1286,7 @@ if (typeof window !== 'undefined') {
 }
 exports.default = serverRender;
 if (false) {
-    module.hot.accept('./routes', clientRender);
+    module.hot.accept('./data', clientRender);
 }
 
 
