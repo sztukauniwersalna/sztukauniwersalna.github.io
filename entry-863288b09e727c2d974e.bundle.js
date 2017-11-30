@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-dom"), require("react-router-dom"), require("react-dom/server"), require("prop-types")) : factory(root["React"], root["ReactDOM"], root["ReactRouterDOM"], root["ReactDOMServer"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_33__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_15__, __WEBPACK_EXTERNAL_MODULE_89__) {
+})(this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_33__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_15__, __WEBPACK_EXTERNAL_MODULE_90__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -233,7 +233,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(22);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(101);
+var Feed_1 = __webpack_require__(102);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(23);
 exports.Footer = Footer_1.default;
@@ -245,7 +245,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(20);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(103);
+var Recipe_1 = __webpack_require__(104);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -301,7 +301,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(90);
+var s = __webpack_require__(91);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -346,7 +346,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(91);
+var s = __webpack_require__(92);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -447,9 +447,9 @@ module.exports = {
 CATEGORIES: __webpack_require__(49),
 PAGES: __webpack_require__(54),
 POSTS: __webpack_require__(60),
-ROOT: __webpack_require__(85),
-LAYOUTS: __webpack_require__(86),
-INCLUDES: __webpack_require__(106)};
+ROOT: __webpack_require__(86),
+LAYOUTS: __webpack_require__(87),
+INCLUDES: __webpack_require__(107)};
 
 
 /***/ }),
@@ -461,7 +461,7 @@ INCLUDES: __webpack_require__(106)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(92);
+var s = __webpack_require__(93);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -511,7 +511,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(96);
+var s = __webpack_require__(97);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -732,7 +732,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(105);
+__webpack_require__(106);
 
 
 
@@ -772,7 +772,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(87);
+var react_disqus_comments_1 = __webpack_require__(88);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(21);
 var Crumbs_1 = __webpack_require__(22);
@@ -782,7 +782,7 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(24);
 var Jumbotron_1 = __webpack_require__(25);
-var s = __webpack_require__(100);
+var s = __webpack_require__(101);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -894,8 +894,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(93);
-var s = __webpack_require__(94);
+__webpack_require__(94);
+var s = __webpack_require__(95);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -925,7 +925,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(95);
+var s = __webpack_require__(96);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -969,7 +969,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(97);
+var s = __webpack_require__(98);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1030,7 +1030,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(98);
+var s = __webpack_require__(99);
 function Item(props) {
     return null;
 }
@@ -1112,7 +1112,7 @@ exports.default = SideMenu;
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(99);
+var s = __webpack_require__(100);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1136,7 +1136,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(102);
+var s = __webpack_require__(103);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1539,8 +1539,8 @@ var includes_1 = __webpack_require__(1);
 var collections_1 = __webpack_require__(14);
 var pages_1 = __webpack_require__(29);
 var categories_1 = __webpack_require__(30);
-var tags_1 = __webpack_require__(113);
-var menu_1 = __webpack_require__(114);
+var tags_1 = __webpack_require__(114);
+var menu_1 = __webpack_require__(115);
 var website = new models_1.Website();
 layouts_1.default.forEach(function (layout) { return website.addLayout(layout); });
 includes_1.default.forEach(function (include) { return website.addInclude(include); });
@@ -2479,7 +2479,8 @@ var map = {
 	"./2017-11-09-action-painting-moodboard.markdown": 81,
 	"./2017-11-13-picasso-wizerunek-wielokrotny-muzeum-lubelskie-w-lublinie.markdown": 82,
 	"./2017-11-16-impresjonizm-moodboard.markdown": 83,
-	"./2017-11-22-diy-1-edycja-zimowa.markdown": 84
+	"./2017-11-22-diy-1-edycja-zimowa.markdown": 84,
+	"./2017-11-30-make-up-inspirowany-obrazem-figure-dog-birds-by-joan-miro.markdown": 85
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -5192,6 +5193,68 @@ var raw = exports.raw = "\n<olela-narrative>\nCzy wiecie, jak niewiele trzeba ab
 
 /***/ }),
 /* 85 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(1).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'olela-narrative',
+      null,
+      'Kiedy patrzysz na obraz budzi on w Tobie emocje. Jedne p\u0142\xF3tna nios\u0105 ze sob\u0105 smutek, namawiaj\u0105 do nostalgii, inne ciesz\u0105 si\u0119 razem z Tob\u0105, wnosz\u0105c w \u017Cycie kolor. Przy p\u0142\xF3tnach Salvadora \u015Bni\u0142am koszmary. Mia\u0142am wra\u017Cenie, \u017Ce ca\u0142a rzeczywisto\u015B\u0107 i czas rozp\u0142ywaj\u0105 si\u0119 niczym karmelowy chupa-chups w piekarniku nagrzanym do 180\xB0C . Max Ernst ni\xF3s\u0142 ze sob\u0105 widmo apokalipsy. Krajobrazy zbudowane z pumeksu w ciemnych barwach prowadz\u0105 do \u015Bwiata zaprzysz\u0142ego, gdzie ludzkie formy \u017Cycia to niezwyk\u0142a rzadko\u015B\u0107. Zupe\u0142nie inaczej jest z Mir\xF3. On jest malarzem u\u015Bmiechu. W jego dzie\u0142ach znajduj\u0119 niewinn\u0105 rado\u015B\u0107. Z ka\u017Cdym razem gdy zerkam na obraz spotykam si\u0119 z dzieckiem o duszy stulatka. Tym razem te\u017C \u015Bni\u0119, ale z tego snu nie chc\u0119 si\u0119 wybudzi\u0107.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/6623239/ello-optimized-f916976a.jpg', alt: 'Zdj\u0119cie przedstawia portret m\u0142odej kobiety w artystycznym makija\u017Cu i siwych w\u0142osach oraz abstrakcyjny czarno-niebieski kszta\u0142t.' })
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Joan Mir\xF3 urodzi\u0142 si\u0119 20stego kwietnia 1893 r. w Barcelonie. Kszta\u0142ci\u0142 si\u0119 w kierunku biznesu, jednocze\u015Bnie ucz\u0119szczaj\u0105c na lekcje sztuki w La Lonja\u2019s Escuela Superior de Artes Industriales y Bellas Artes. Po trzech latach nauki obj\u0105\u0142 stanowisko urz\u0119dnika, by zaraz potem przej\u015B\u0107 za\u0142amanie nerwowe, po kt\xF3rym na dobre porzuci\u0142 biznes i wznowi\u0142 studia artystyczne. W latach 1912-1915  kszta\u0142ci\u0142 si\u0119 w Francesc Gal\xED\u2019s Escola d\u2019Art w Barcelonie, w tym samym mie\u015Bcie mia\u0142 r\xF3wnie\u017C miejsce pierwszy solowy pokaz jego prac w galerii Jos\xE9 Dalmau w 1918 r. (rok wcze\u015Bniej m\u0142ody malarz poznaje Francis\u2019a Picabia, artyst\u0119 z kr\u0119gu dadaist\xF3w i surrealist\xF3w).'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/6623243/ello-optimized-b221decb.jpg', alt: 'Zdj\u0119cie przedstawia portret m\u0142odej kobiety na szarym tle w artystycznym makija\u017Cu. Kobieta ma zamkni\u0119te oczy i siwe wlosy.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Make-up inspirowany obrazem. 'Figure, Dog, Birds' by Joan Miró", "date": "2017-11-30T19:32:00.000Z", "categories": ["Sztuka Makijażu"], "tags": ["Miro", "surrealism", "makeup", "makijaż", "dzieło", "obraz", "kreacja", "artysta", "sztuka"] };
+var body = exports.body = "<olela-narrative>\nKiedy patrzysz na obraz budzi on w Tobie emocje. Jedne płótna niosą ze sobą smutek, namawiają do nostalgii, inne cieszą się razem z Tobą, wnosząc w życie kolor. Przy płótnach Salvadora śniłam koszmary. Miałam wrażenie, że cała rzeczywistość i czas rozpływają się niczym karmelowy chupa-chups w piekarniku nagrzanym do 180°C . Max Ernst niósł ze sobą widmo apokalipsy. Krajobrazy zbudowane z pumeksu w ciemnych barwach prowadzą do świata zaprzyszłego, gdzie ludzkie formy życia to niezwykła rzadkość. Zupełnie inaczej jest z Miró. On jest malarzem uśmiechu. W jego dziełach znajduję niewinną radość. Z każdym razem gdy zerkam na obraz spotykam się z dzieckiem o duszy stulatka. Tym razem też śnię, ale z tego snu nie chcę się wybudzić.\n</olela-narrative>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6623239/ello-optimized-f916976a.jpg\" alt=\"Zdjęcie przedstawia portret młodej kobiety w artystycznym makijażu i siwych włosach oraz abstrakcyjny czarno-niebieski kształt.\" /></p>\n<p>Joan Miró urodził się 20stego kwietnia 1893 r. w Barcelonie. Kształcił się w kierunku biznesu, jednocześnie uczęszczając na lekcje sztuki w La Lonja’s Escuela Superior de Artes Industriales y Bellas Artes. Po trzech latach nauki objął stanowisko urzędnika, by zaraz potem przejść załamanie nerwowe, po którym na dobre porzucił biznes i wznowił studia artystyczne. W latach 1912-1915  kształcił się w Francesc Galí’s Escola d’Art w Barcelonie, w tym samym mieście miał również miejsce pierwszy solowy pokaz jego prac w galerii José Dalmau w 1918 r. (rok wcześniej młody malarz poznaje Francis’a Picabia, artystę z kręgu dadaistów i surrealistów).</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6623243/ello-optimized-b221decb.jpg\" alt=\"Zdjęcie przedstawia portret młodej kobiety na szarym tle w artystycznym makijażu. Kobieta ma zamknięte oczy i siwe wlosy.\" /></p>\n";
+var raw = exports.raw = "\n<olela-narrative>\nKiedy patrzysz na obraz budzi on w Tobie emocje. Jedne płótna niosą ze sobą smutek, namawiają do nostalgii, inne cieszą się razem z Tobą, wnosząc w życie kolor. Przy płótnach Salvadora śniłam koszmary. Miałam wrażenie, że cała rzeczywistość i czas rozpływają się niczym karmelowy chupa-chups w piekarniku nagrzanym do 180°C . Max Ernst niósł ze sobą widmo apokalipsy. Krajobrazy zbudowane z pumeksu w ciemnych barwach prowadzą do świata zaprzyszłego, gdzie ludzkie formy życia to niezwykła rzadkość. Zupełnie inaczej jest z Miró. On jest malarzem uśmiechu. W jego dziełach znajduję niewinną radość. Z każdym razem gdy zerkam na obraz spotykam się z dzieckiem o duszy stulatka. Tym razem też śnię, ale z tego snu nie chcę się wybudzić.\n</olela-narrative>\n\n![Zdjęcie przedstawia portret młodej kobiety w artystycznym makijażu i siwych włosach oraz abstrakcyjny czarno-niebieski kształt.](https://assets0.ello.co/uploads/asset/attachment/6623239/ello-optimized-f916976a.jpg)\n\nJoan Miró urodził się 20stego kwietnia 1893 r. w Barcelonie. Kształcił się w kierunku biznesu, jednocześnie uczęszczając na lekcje sztuki w La Lonja’s Escuela Superior de Artes Industriales y Bellas Artes. Po trzech latach nauki objął stanowisko urzędnika, by zaraz potem przejść załamanie nerwowe, po którym na dobre porzucił biznes i wznowił studia artystyczne. W latach 1912-1915  kształcił się w Francesc Galí’s Escola d’Art w Barcelonie, w tym samym mieście miał również miejsce pierwszy solowy pokaz jego prac w galerii José Dalmau w 1918 r. (rok wcześniej młody malarz poznaje Francis’a Picabia, artystę z kręgu dadaistów i surrealistów).\n\n![Zdjęcie przedstawia portret młodej kobiety na szarym tle w artystycznym makijażu. Kobieta ma zamknięte oczy i siwe wlosy.](https://assets0.ello.co/uploads/asset/attachment/6623243/ello-optimized-b221decb.jpg)\n\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+
+/***/ }),
+/* 86 */
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -5200,10 +5263,10 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 85;
+webpackEmptyContext.id = 86;
 
 /***/ }),
-/* 86 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -5224,19 +5287,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 86;
+webpackContext.id = 87;
 
 /***/ }),
-/* 87 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(88);
+module.exports = __webpack_require__(89);
 
 /***/ }),
-/* 88 */
+/* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5254,7 +5317,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(89);
+var _propTypes = __webpack_require__(90);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -5458,13 +5521,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 89 */
+/* 90 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_89__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_90__;
 
 /***/ }),
-/* 90 */
+/* 91 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -5478,7 +5541,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 91 */
+/* 92 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -5486,7 +5549,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 92 */
+/* 93 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -5499,7 +5562,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 93 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5533,7 +5596,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 94 */
+/* 95 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -5546,7 +5609,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 95 */
+/* 96 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -5555,7 +5618,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 96 */
+/* 97 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -5563,7 +5626,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 97 */
+/* 98 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -5578,7 +5641,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 98 */
+/* 99 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -5593,7 +5656,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 99 */
+/* 100 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -5606,7 +5669,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 100 */
+/* 101 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -5627,7 +5690,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 101 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5678,7 +5741,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 102 */
+/* 103 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -5686,7 +5749,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 103 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5695,7 +5758,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(104);
+var s = __webpack_require__(105);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -5728,7 +5791,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 104 */
+/* 105 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -5738,22 +5801,22 @@ module.exports = {
 };
 
 /***/ }),
-/* 105 */
+/* 106 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 106 */
+/* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 107,
-	"./Feed.js": 108,
-	"./Ingredient.js": 109,
-	"./Method.js": 110,
-	"./Recipe.js": 111,
-	"./TableOfContents.js": 112
+	"./Crumbs.js": 108,
+	"./Feed.js": 109,
+	"./Ingredient.js": 110,
+	"./Method.js": 111,
+	"./Recipe.js": 112,
+	"./TableOfContents.js": 113
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -5769,10 +5832,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 106;
+webpackContext.id = 107;
 
 /***/ }),
-/* 107 */
+/* 108 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5787,7 +5850,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5802,7 +5865,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5817,7 +5880,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5832,7 +5895,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5847,7 +5910,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5862,7 +5925,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5886,7 +5949,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
