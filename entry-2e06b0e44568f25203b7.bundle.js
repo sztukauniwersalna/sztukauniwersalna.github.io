@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-dom"), require("react-router-dom"), require("react-dom/server"), require("prop-types")) : factory(root["React"], root["ReactDOM"], root["ReactRouterDOM"], root["ReactDOMServer"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_33__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_15__, __WEBPACK_EXTERNAL_MODULE_91__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_33__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_15__, __WEBPACK_EXTERNAL_MODULE_91__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -233,7 +233,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(22);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(103);
+var Feed_1 = __webpack_require__(104);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(23);
 exports.Footer = Footer_1.default;
@@ -245,7 +245,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(20);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(105);
+var Recipe_1 = __webpack_require__(106);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -449,7 +449,7 @@ PAGES: __webpack_require__(54),
 POSTS: __webpack_require__(60),
 ROOT: __webpack_require__(87),
 LAYOUTS: __webpack_require__(88),
-INCLUDES: __webpack_require__(108)};
+INCLUDES: __webpack_require__(109)};
 
 
 /***/ }),
@@ -732,7 +732,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(107);
+__webpack_require__(108);
 
 
 
@@ -782,7 +782,10 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(24);
 var Jumbotron_1 = __webpack_require__(25);
-var s = __webpack_require__(102);
+var gtag_1 = __webpack_require__(102);
+var s = __webpack_require__(103);
+gtag_1.default('js', new Date());
+var GA_TRACKING_ID = 'UA-110945340-1';
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -799,6 +802,7 @@ var ParrotLayout = /** @class */function (_super) {
         document.body.addEventListener('swipe-right', this.showMenu);
         window.scrollTo(0, 0);
         document.title = this.props.page.title + " | SztukaUniwersalna.PL";
+        gtag_1.default('config', GA_TRACKING_ID, { 'page-path': this.props.page.url });
     };
     ParrotLayout.prototype.componentWillUnmount = function () {
         document.body.removeEventListener('swipe-left', this.hideMenu);
@@ -817,6 +821,12 @@ var ParrotLayout = /** @class */function (_super) {
             }, currentUrl: page.url }, website.menu.map(function (entry) {
             return React.createElement(SideMenu_1.Item, { key: entry.url, url: entry.url, title: entry.title, icon: entry.icon });
         }))));
+    };
+    ParrotLayout.prototype.componentWillReceiveProps = function (newProps) {
+        if (newProps.page === this.props.page) {
+            return;
+        }
+        gtag_1.default('config', GA_TRACKING_ID, { 'page-path': newProps.page.url });
     };
     ParrotLayout.prototype.showMenu = function () {
         this.setSideMenuClassName(s.visible);
@@ -1136,7 +1146,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(104);
+var s = __webpack_require__(105);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1539,8 +1549,8 @@ var includes_1 = __webpack_require__(1);
 var collections_1 = __webpack_require__(14);
 var pages_1 = __webpack_require__(29);
 var categories_1 = __webpack_require__(30);
-var tags_1 = __webpack_require__(115);
-var menu_1 = __webpack_require__(116);
+var tags_1 = __webpack_require__(116);
+var menu_1 = __webpack_require__(117);
 var website = new models_1.Website();
 layouts_1.default.forEach(function (layout) { return website.addLayout(layout); });
 includes_1.default.forEach(function (include) { return website.addInclude(include); });
@@ -5800,6 +5810,26 @@ module.exports = {
 
 /***/ }),
 /* 102 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", { value: true });
+var dataLayer = [];
+self.dataLayer = dataLayer;
+function gtag(action) {
+    var params = [];
+    for (var _i = 1; _i < arguments.length; _i++) {
+        params[_i - 1] = arguments[_i];
+    }
+    dataLayer.push(arguments);
+}
+exports.gtag = gtag;
+exports.default = gtag;
+
+/***/ }),
+/* 103 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -5820,7 +5850,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 103 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5871,7 +5901,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 104 */
+/* 105 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -5879,7 +5909,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 105 */
+/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5888,7 +5918,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(106);
+var s = __webpack_require__(107);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -5921,7 +5951,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 106 */
+/* 107 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -5931,22 +5961,22 @@ module.exports = {
 };
 
 /***/ }),
-/* 107 */
+/* 108 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 109,
-	"./Feed.js": 110,
-	"./Ingredient.js": 111,
-	"./Method.js": 112,
-	"./Recipe.js": 113,
-	"./TableOfContents.js": 114
+	"./Crumbs.js": 110,
+	"./Feed.js": 111,
+	"./Ingredient.js": 112,
+	"./Method.js": 113,
+	"./Recipe.js": 114,
+	"./TableOfContents.js": 115
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -5962,10 +5992,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 108;
+webpackContext.id = 109;
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5980,7 +6010,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -5995,7 +6025,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6010,7 +6040,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6025,7 +6055,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6040,7 +6070,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6055,7 +6085,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6079,7 +6109,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
