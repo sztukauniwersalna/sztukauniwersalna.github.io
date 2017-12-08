@@ -5816,8 +5816,7 @@ module.exports = {
 
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var dataLayer = [];
-self.dataLayer = dataLayer;
+var dataLayer = self.dataLayer = self.dataLayer || [];
 function gtag(action) {
     var params = [];
     for (var _i = 1; _i < arguments.length; _i++) {
