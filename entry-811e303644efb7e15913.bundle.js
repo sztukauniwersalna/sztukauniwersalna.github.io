@@ -156,22 +156,31 @@ function ContentLimiter(_a) {
         return React.createElement("div", { className: 'content' }, children);
     }
     var output = [];
-    limitContent(children, limit, props, output);
+    limitChildren(children, limit, props, output);
     return React.createElement("div", { className: 'content' }, output);
 }
 exports.ContentLimiter = ContentLimiter;
 exports.default = ContentLimiter;
-function limitContent(children, limit, props, output) {
-    switch (typeof children) {
-        case 'undefined':
-            return limit;
+function limitChildren(children, limit, limiterProps, output) {
+    var updatedLimit = limit;
+    react_1.Children.forEach(children, function (child, key) {
+        updatedLimit = limitContent(child, updatedLimit, limiterProps, key, output);
+    });
+    return updatedLimit;
+}
+function limitContent(node, limit, limiterProps, key, output) {
+    if (limit === 0 || node === null || node === undefined) {
+        return limit;
+    }
+    switch (typeof node) {
+        case 'boolean':
         case 'number':
-            output.push(children);
+            output.push(node);
             return limit;
         case 'string':
-            return limitString(children, limit, output);
+            return limitString(node, limit, output);
         default:
-            return limitReactElement(children, limit, props, output);
+            return limitReactElement(node, limit, limiterProps, key, output);
     }
 }
 function limitString(child, limit, output) {
@@ -186,27 +195,17 @@ function limitString(child, limit, output) {
         .forEach(function (sentence) { return output.push(sentence); });
     return 0;
 }
-function limitReactElement(children, limit, props, output) {
-    var characters = limit;
-    asReactElementArray(children).forEach(function (child, key) {
-        if (characters === 0) {
-            return;
-        }
-        var newChildren = [];
-        characters = limitContent(child.props.children, characters, props, newChildren);
-        var newProps = typeof child.type === 'object' ? __assign({}, props, { key: key }) : { key: key };
-        output.push(react_1.cloneElement(child, newProps, newChildren.length === 0 ? undefined : newChildren));
-    });
-    return characters;
-}
-function asReactElementArray(children) {
-    if (children === undefined) {
-        return [];
+function limitReactElement(elem, limit, limiterProps, key, output) {
+    if (elem.type === 'img') {
+        return limit;
     }
-    if (typeof children !== 'object') {
-        throw new Error("unexpected value: " + children);
-    }
-    return [].concat(children);
+    var updatedChildren = [];
+    var updatedLimit = limitChildren(elem.props.children, limit, limiterProps, updatedChildren);
+    var cloneProps = createCloneProps(elem, limiterProps, key);
+    // props.children must be undefined in case of child-less elements (e.g <img/>).
+    var maybeChildren = updatedChildren.length === 0 ? undefined : updatedChildren;
+    output.push(react_1.cloneElement(elem, cloneProps, maybeChildren));
+    return updatedLimit;
 }
 function sentencize(child) {
     var sentenceRegexp = /[^.!?…]*[.!?…]/g;
@@ -216,6 +215,12 @@ function sentencize(child) {
         matches.push(match[0]);
     }
     return matches;
+}
+function createCloneProps(elem, limiterProps, key) {
+    if (typeof elem.type === 'string') {
+        return __assign({ key: key }, elem.props);
+    }
+    return __assign({ key: key }, elem.props, limiterProps);
 }
 
 
@@ -381,12 +386,13 @@ function renderInstagramIcon() {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var Page = /** @class */ (function () {
-    function Page(title, description, url, layout, body, output, date, categories, tags, feed) {
+    function Page(title, description, url, layout, body, image, output, date, categories, tags, feed) {
         this.title = title;
         this.description = description;
         this.url = url;
         this.layout = layout;
         this.body = body;
+        this.image = image;
         this.output = output;
         this.date = date;
         this.categories = categories;
@@ -542,7 +548,7 @@ var layouts_1 = __webpack_require__(19);
 var Context = __webpack_require__(11);
 var config = __webpack_require__(15);
 function checkIsObject(value, name) {
-    if (typeof value != 'object') {
+    if (typeof value !== 'object') {
         throw new Error(name + " must be an object; got " + typeof value);
     }
     return value;
@@ -554,8 +560,14 @@ function checkIsArray(value, name) {
     return value;
 }
 function checkIsString(value, name) {
-    if (typeof value != 'string') {
+    if (typeof value !== 'string') {
         throw new Error(name + " must be a string; got " + typeof value);
+    }
+    return value;
+}
+function checkIsOptionalString(value, name) {
+    if (typeof value !== 'string' && value !== null) {
+        throw new Error(name + " must be a string or null; got " + typeof value);
     }
     return value;
 }
@@ -590,21 +602,21 @@ function parseCollection(key, cfg) {
     var layout = website.getLayoutOfName(cfg.layout || DEFAULT_LAYOUT_NAME, requiredBy);
     return new models_1.Collection(title, layout, cfg.output != false);
 }
-function createPage(role, title, description, url, layout, body, output, date, categoryTitles, tags, feed, requiredBy) {
+function createPage(role, title, description, url, layout, body, image, output, date, categoryTitles, tags, feed, requiredBy) {
     // replace _ with non-breaking spaces
     title = title.replace(/_/g, String.fromCharCode(160));
     switch (role) {
         case 'page':
-            return new models_1.Page(title, description, url, layout, body, output, date, categoryTitles, tags, feed);
+            return new models_1.Page(title, description, url, layout, body, image, output, date, categoryTitles, tags, feed);
         case 'category':
-            return new models_1.Category(title, description, url, layout, body, output, date, categoryTitles, tags);
+            return new models_1.Category(title, description, url, layout, body, image, output, date, categoryTitles, tags);
         default:
             throw new Error("unrecognized role: " + role + " in " + requiredBy);
     }
 }
 function parsePage(name, body, frontMatter, defaultLayout) {
     var requiredBy = "pages['" + name + "']";
-    var page = createPage(checkIsString(frontMatter.role || 'page', requiredBy + ".role"), checkIsString(frontMatter.title || titleFromUrl(name, requiredBy), requiredBy + ".title"), checkIsString(frontMatter.description || '', requiredBy + ".description"), checkIsString(frontMatter.permalink || urlFromTitle(name, requiredBy), requiredBy + ".url"), website.getLayoutOfName(checkIsString(frontMatter.layout || defaultLayout, requiredBy + ".layout"), requiredBy), body, frontMatter.output != false, new Date(checkIsString(frontMatter.date, requiredBy + ".date")), checkIsArray(frontMatter.categories || [], requiredBy + ".categories")
+    var page = createPage(checkIsString(frontMatter.role || 'page', requiredBy + ".role"), checkIsString(frontMatter.title || titleFromUrl(name, requiredBy), requiredBy + ".title"), checkIsString(frontMatter.description || '', requiredBy + ".description"), checkIsString(frontMatter.permalink || urlFromTitle(name, requiredBy), requiredBy + ".url"), website.getLayoutOfName(checkIsString(frontMatter.layout || defaultLayout, requiredBy + ".layout"), requiredBy), body, checkIsOptionalString(frontMatter.image || null, requiredBy + ".image"), frontMatter.output != false, new Date(checkIsString(frontMatter.date, requiredBy + ".date")), checkIsArray(frontMatter.categories || [], requiredBy + ".categories")
         .concat(frontMatter.category !== undefined
         ? [checkIsString(frontMatter.category, requiredBy + ".category")]
         : []), checkIsArray(frontMatter.tags || [], requiredBy + ".tags"), checkIsOptionalBoolean(frontMatter.feed, true, requiredBy + ".feed"), requiredBy);
@@ -634,7 +646,7 @@ exports.default = collections;
 /* 15 */
 /***/ (function(module, exports) {
 
-module.exports = {"title":"SztukaUniwersalna.PL","timezone":"Europe/Warsaw","collections":{"categories":{"title":"Categories","output":false,"layout":"ParrotLayout"},"drafts":{"title":"Drafts","output":false,"layout":"ParrotLayout"},"pages":{"title":"Pages","output":false,"layout":"ParrotLayout"},"posts":{"title":"Posts","output":true,"layout":"ParrotLayout"},"uploads":{"title":"Uploads","output":false}},"baseUrl":"http:////sztukauniwersalna.pl/","locale":"pl_PL","menu":[{"title":"Sztuka Ubioru","short":"Moda","url":"/sztuka-ubioru","icon":"content_cut"},{"title":"Sztuka Makijażu","short":"Makijaż","url":"/sztuka-makijazu","icon":"remove_red_eye"},{"title":"Sztuka Gotowania","short":"Kuchnia","url":"/sztuka-gotowania","icon":"restaurant"},{"title":"Sztuka dla Sztuki","short":"Sztuka","url":"/sztuka-dla-sztuki","icon":"palette"},{"title":"Kim jest Olela?","short":"O mnie","url":"/kim-jest-olela","icon":"mood"}]};
+module.exports = {"title":"SztukaUniwersalna.pl","timezone":"Europe/Warsaw","collections":{"categories":{"title":"Categories","output":false,"layout":"ParrotLayout"},"drafts":{"title":"Drafts","output":false,"layout":"ParrotLayout"},"pages":{"title":"Pages","output":false,"layout":"ParrotLayout"},"posts":{"title":"Posts","output":true,"layout":"ParrotLayout"},"uploads":{"title":"Uploads","output":false}},"baseUrl":"http://sztukauniwersalna.pl","locale":"pl_PL","menu":[{"title":"Sztuka Ubioru","short":"Moda","url":"/sztuka-ubioru","icon":"content_cut"},{"title":"Sztuka Makijażu","short":"Makijaż","url":"/sztuka-makijazu","icon":"remove_red_eye"},{"title":"Sztuka Gotowania","short":"Kuchnia","url":"/sztuka-gotowania","icon":"restaurant"},{"title":"Sztuka dla Sztuki","short":"Sztuka","url":"/sztuka-dla-sztuki","icon":"palette"},{"title":"Kim jest Olela?","short":"O mnie","url":"/kim-jest-olela","icon":"mood"}]};
 
 
 /***/ }),
@@ -663,8 +675,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var Page_1 = __webpack_require__(9);
 var Category = /** @class */ (function (_super) {
     __extends(Category, _super);
-    function Category(title, description, url, layout, body, output, date, categories, tags) {
-        var _this = _super.call(this, title, description, url, layout, body, output, date, categories, tags, false) || this;
+    function Category(title, description, url, layout, body, image, output, date, categories, tags) {
+        var _this = _super.call(this, title, description, url, layout, body, image, output, date, categories, tags, false) || this;
         _this.pages = [];
         return _this;
     }
@@ -694,7 +706,7 @@ var Page_1 = __webpack_require__(9);
 var Tag = /** @class */ (function (_super) {
     __extends(Tag, _super);
     function Tag(title, url, layout, body) {
-        var _this = _super.call(this, '#' + title, '', url, layout, body, true, new Date(Date.UTC(0, 0)), [], [], false) || this;
+        var _this = _super.call(this, '#' + title, '', url, layout, body, null, true, new Date(Date.UTC(0, 0)), [], [], false) || this;
         _this.pages = [];
         _this.originalTitle = title;
         return _this;
@@ -809,7 +821,7 @@ var ParrotLayout = /** @class */function (_super) {
         document.body.addEventListener('swipe-left', this.hideMenu);
         document.body.addEventListener('swipe-right', this.showMenu);
         window.scrollTo(0, 0);
-        document.title = this.props.page.title + " | SztukaUniwersalna.PL";
+        document.title = this.props.page.title + " | " + this.props.website.title;
         gtag_1.default('config', GA_TRACKING_ID, { 'page-path': this.props.page.url });
     };
     ParrotLayout.prototype.componentWillUnmount = function () {
@@ -951,7 +963,7 @@ function Crumbs(_a) {
         responsive = _b === void 0 ? false : _b;
     return React.createElement("div", { className: s.crumbs + " " + (responsive ? s.responsive : '') }, page.getCrumbs(website).map(function (crumbs, key) {
         return React.createElement("ul", { key: key }, crumbs.map(function (page) {
-            return React.createElement("li", { key: page.url }, React.createElement(react_router_dom_1.Link, { to: page.url }, page.title));
+            return React.createElement("li", { key: page.url }, React.createElement(react_router_dom_1.Link, { to: page.url }, page.url === '/' ? website.title : page.title));
         }));
     }));
 }
@@ -1179,9 +1191,15 @@ function Tile(_a) {
     var website = _a.website,
         page = _a.page;
     var Body = page.body;
-    return React.createElement("article", null, React.createElement("h1", null, React.createElement(react_router_dom_1.Link, { to: page.url }, page.title)), React.createElement("div", { className: s.tags }, React.createElement(Tags_1.default, { website: website, page: page })), React.createElement(Body, { website: website, page: page, respectLimit: true }), React.createElement("div", { className: s.more }, React.createElement(Button_1.default, { url: page.url, variant: 'raised', color: 'purple' }, "Read More")));
+    return React.createElement("article", null, React.createElement("h1", null, React.createElement(react_router_dom_1.Link, { to: page.url }, page.title)), React.createElement("div", { className: s.tags }, React.createElement(Tags_1.default, { website: website, page: page })), maybeRenderImage(page), React.createElement(Body, { website: website, page: page, respectLimit: true }), React.createElement("div", { className: s.more }, React.createElement(Button_1.default, { url: page.url, variant: 'raised', color: 'purple' }, "Read More")));
 }
 exports.Tile = Tile;
+function maybeRenderImage(page) {
+    if (page.image === null) {
+        return null;
+    }
+    return React.createElement(react_router_dom_1.Link, { to: page.url }, React.createElement("img", { src: page.image, alt: "" + page.title }));
+}
 exports.default = Tile;
 
 /***/ }),
@@ -1492,6 +1510,7 @@ function Root(_a) {
             localBundles.css.map(function (url) { return (React.createElement("link", { type: 'text/css', rel: 'stylesheet', href: url, key: url })); }),
             React.createElement("meta", { property: 'og:url', content: "" + website.baseUrl + page.url }),
             React.createElement("meta", { property: 'og:title', content: page.title }),
+            page.image !== null ? React.createElement("meta", { property: 'og:image', content: page.image }) : null,
             React.createElement("meta", { property: 'og:description', content: page.description }),
             React.createElement("meta", { property: 'og:locale', content: website.locale }),
             React.createElement("meta", { property: 'og:type', content: page.url === '/' ? 'website' : 'article' })),
@@ -1626,6 +1645,7 @@ categories_1.default.forEach(function (category) {
 tags_1.default.forEach(function (tag) {
     tag.description = descriptionFromPages(tag);
 });
+// check for missing descriptions
 var missingDescription = pages_1.default
     .concat(categories_1.default)
     .concat(tags_1.default)
@@ -1634,6 +1654,16 @@ var missingDescription = pages_1.default
 if (missingDescription.length !== 0) {
     throw new Error("Description missing in pages " + JSON.stringify(missingDescription) + ". Write some text in the article or add 'description' field.");
 }
+// if absent, set image to first img src found in content
+pages_1.default.forEach(function (page) {
+    if (page.image || !page.output) {
+        return;
+    }
+    Object.defineProperty(page, 'image', {
+        get: function () { return imageFromContent(page); },
+        set: function () { throw new Error('Page.image is readonly'); }
+    });
+});
 function descriptionFromContent(page) {
     var element = react_1.createElement(page.body, { website: website, page: page, respectLimit: true });
     var router = react_1.createElement(react_router_dom_1.StaticRouter, { location: page.url, context: {} }, element);
@@ -1641,6 +1671,17 @@ function descriptionFromContent(page) {
 }
 function descriptionFromPages(page) {
     return index.title + " " + page.title + ": " + page.pages.map(function (p) { return p.title; }).join(', ');
+}
+function imageFromContent(page) {
+    var element = react_1.createElement(page.body, { website: website, page: page, respectLimit: false });
+    var router = react_1.createElement(react_router_dom_1.StaticRouter, { location: page.url, context: {} }, element);
+    var markup = server_1.renderToStaticMarkup(router);
+    var found = /<img[^>]* src="([^"]*)"[^>]*>/.exec(markup);
+    if (!found) {
+        console.warn("Couldn't find image on page " + page.url + "; page.image is null");
+        return null;
+    }
+    return found[1];
 }
 function checkIsString(value, name) {
     if (typeof value !== 'string') {
@@ -2259,7 +2300,7 @@ var component = exports.component = function component(data) {
     )
   );
 };
-var frontMatter = exports.frontMatter = { "title": "SztukaUniwersalna.PL", "date": "2017-07-15T20:12:00.000Z", "permalink": "/", "tags": ["index", "sztuka", "uniwersalna", "moda", "makijaż", "gotowanie", "codzienność", "współczesna", "abstrakcja", "inspiracje"], "description": "Sztuka w codzienności. Aleksandra Krawczyk prezentuje sposoby na odnalezienie odrobiny sztuki w codziennych czynnościach takich jak gotowanie, makijaż, oraz moda. Sztuka współczesna, sztuka abstrakcyjna, inspiracje dziełami wielkich twórców.", "feed": false };
+var frontMatter = exports.frontMatter = { "title": "Sztuka Uniwersalna", "date": "2017-07-15T20:12:00.000Z", "permalink": "/", "tags": ["index", "sztuka", "uniwersalna", "moda", "makijaż", "gotowanie", "codzienność", "współczesna", "abstrakcja", "inspiracje"], "description": "Sztuka w codzienności. Aleksandra Krawczyk prezentuje sposoby na odnalezienie odrobiny sztuki w codziennych czynnościach takich jak gotowanie, makijaż, oraz moda. Sztuka współczesna, sztuka abstrakcyjna, inspiracje dziełami wielkich twórców.", "feed": false };
 var body = exports.body = "<div>\n  <Feed {...data} feed={ data.website.getCollectionOfTitle('Posts').pages } />\n</div>\n";
 var raw = exports.raw = "\n<div>\n  <Feed {...data} feed={ data.website.getCollectionOfTitle('Posts').pages } />\n</div>\n\n";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
