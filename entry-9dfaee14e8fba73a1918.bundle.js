@@ -784,8 +784,9 @@ var SideMenu_1 = __webpack_require__(25);
 var Jumbotron_1 = __webpack_require__(26);
 var gtag_1 = __webpack_require__(104);
 var s = __webpack_require__(105);
-gtag_1.default('js', new Date());
 var GA_TRACKING_ID = 'UA-110945340-1';
+gtag_1.default('js', new Date());
+gtag_1.default('config', GA_TRACKING_ID, { 'send_page_view': false });
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
