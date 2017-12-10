@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-dom"), require("react-router-dom"), require("react-dom/server"), require("prop-types")) : factory(root["React"], root["ReactDOM"], root["ReactRouterDOM"], root["ReactDOMServer"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_34__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_15__, __WEBPACK_EXTERNAL_MODULE_92__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_34__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_16__, __WEBPACK_EXTERNAL_MODULE_92__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -227,37 +227,37 @@ function sentencize(child) {
 
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var ParrotLayout_1 = __webpack_require__(20);
+var ParrotLayout_1 = __webpack_require__(21);
 exports.default = ParrotLayout_1.default;
 var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
-var Crumbs_1 = __webpack_require__(22);
+var Crumbs_1 = __webpack_require__(23);
 exports.Crumbs = Crumbs_1.default;
 var Feed_1 = __webpack_require__(106);
 exports.Feed = Feed_1.default;
-var Footer_1 = __webpack_require__(23);
+var Footer_1 = __webpack_require__(24);
 exports.Footer = Footer_1.default;
 var Icon_1 = __webpack_require__(8);
 exports.Icon = Icon_1.default;
-var Jumbotron_1 = __webpack_require__(26);
+var Jumbotron_1 = __webpack_require__(27);
 exports.Jumbotron = Jumbotron_1.default;
 var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
-var ParrotLayout_2 = __webpack_require__(20);
+var ParrotLayout_2 = __webpack_require__(21);
 exports.ParrotLayout = ParrotLayout_2.default;
 var Recipe_1 = __webpack_require__(108);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
-var SideMenu_1 = __webpack_require__(25);
+var SideMenu_1 = __webpack_require__(26);
 exports.SideMenu = SideMenu_1.default;
-var TableOfContents_1 = __webpack_require__(28);
+var TableOfContents_1 = __webpack_require__(29);
 exports.TableOfContents = TableOfContents_1.default;
 var Tags_1 = __webpack_require__(13);
 exports.Tags = Tags_1.default;
-var Tile_1 = __webpack_require__(27);
+var Tile_1 = __webpack_require__(28);
 exports.Tile = Tile_1.default;
-var TopBar_1 = __webpack_require__(21);
+var TopBar_1 = __webpack_require__(22);
 exports.TopBar = TopBar_1.default;
 
 /***/ }),
@@ -277,9 +277,9 @@ var Page_1 = __webpack_require__(9);
 exports.Page = Page_1.default;
 var Collection_1 = __webpack_require__(45);
 exports.Collection = Collection_1.default;
-var Category_1 = __webpack_require__(16);
+var Category_1 = __webpack_require__(17);
 exports.Category = Category_1.default;
-var Tag_1 = __webpack_require__(17);
+var Tag_1 = __webpack_require__(18);
 exports.Tag = Tag_1.default;
 var Layout_1 = __webpack_require__(46);
 exports.Layout = Layout_1.default;
@@ -538,9 +538,9 @@ exports.default = Tags;
 Object.defineProperty(exports, "__esModule", { value: true });
 var models_1 = __webpack_require__(6);
 var requireDirectory_1 = __webpack_require__(10);
-var layouts_1 = __webpack_require__(18);
+var layouts_1 = __webpack_require__(19);
 var Context = __webpack_require__(11);
-var config = __webpack_require__(29);
+var config = __webpack_require__(15);
 function checkIsObject(value, name) {
     if (typeof value != 'object') {
         throw new Error(name + " must be an object; got " + typeof value);
@@ -569,7 +569,7 @@ function checkIsOptionalBoolean(value, defaultValue, name) {
     return value;
 }
 checkIsObject(config.collections, 'config.collections');
-var website = new models_1.Website();
+var website = new models_1.Website('', '', '', '');
 layouts_1.default.forEach(function (layout) { return website.addLayout(layout); });
 var ROOT_COLLECTION_KEY = '$root';
 var ROOT_COLLECTION_TITLE = 'Root Pages';
@@ -634,10 +634,17 @@ exports.default = collections;
 /* 15 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_15__;
+module.exports = {"title":"SztukaUniwersalna.PL","timezone":"Europe/Warsaw","collections":{"categories":{"title":"Categories","output":false,"layout":"ParrotLayout"},"drafts":{"title":"Drafts","output":false,"layout":"ParrotLayout"},"pages":{"title":"Pages","output":false,"layout":"ParrotLayout"},"posts":{"title":"Posts","output":true,"layout":"ParrotLayout"},"uploads":{"title":"Uploads","output":false}},"baseUrl":"http:////sztukauniwersalna.pl/","locale":"pl_PL","menu":[{"title":"Sztuka Ubioru","short":"Moda","url":"/sztuka-ubioru","icon":"content_cut"},{"title":"Sztuka Makijażu","short":"Makijaż","url":"/sztuka-makijazu","icon":"remove_red_eye"},{"title":"Sztuka Gotowania","short":"Kuchnia","url":"/sztuka-gotowania","icon":"restaurant"},{"title":"Sztuka dla Sztuki","short":"Sztuka","url":"/sztuka-dla-sztuki","icon":"palette"},{"title":"Kim jest Olela?","short":"O mnie","url":"/kim-jest-olela","icon":"mood"}]};
+
 
 /***/ }),
 /* 16 */
+/***/ (function(module, exports) {
+
+module.exports = __WEBPACK_EXTERNAL_MODULE_16__;
+
+/***/ }),
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -667,7 +674,7 @@ exports.default = Category;
 
 
 /***/ }),
-/* 17 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -698,7 +705,7 @@ exports.default = Tag;
 
 
 /***/ }),
-/* 18 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -720,7 +727,7 @@ exports.default = layouts;
 
 
 /***/ }),
-/* 19 */
+/* 20 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -737,7 +744,7 @@ __webpack_require__(110);
 
 
 /***/ }),
-/* 20 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -774,14 +781,14 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var react_disqus_comments_1 = __webpack_require__(90);
 var models_1 = __webpack_require__(6);
-var TopBar_1 = __webpack_require__(21);
-var Crumbs_1 = __webpack_require__(22);
+var TopBar_1 = __webpack_require__(22);
+var Crumbs_1 = __webpack_require__(23);
 var Tags_1 = __webpack_require__(13);
-var Footer_1 = __webpack_require__(23);
+var Footer_1 = __webpack_require__(24);
 var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
-var SideMenu_1 = __webpack_require__(25);
-var Jumbotron_1 = __webpack_require__(26);
+var SideMenu_1 = __webpack_require__(26);
+var Jumbotron_1 = __webpack_require__(27);
 var gtag_1 = __webpack_require__(104);
 var s = __webpack_require__(105);
 var GA_TRACKING_ID = 'UA-110945340-1';
@@ -876,7 +883,7 @@ function maybeRenderComments(page) {
 }
 
 /***/ }),
-/* 21 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -927,7 +934,7 @@ exports.TopBar = TopBar;
 exports.default = TopBar;
 
 /***/ }),
-/* 22 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -952,7 +959,7 @@ exports.Crumbs = Crumbs;
 exports.default = Crumbs;
 
 /***/ }),
-/* 23 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -980,7 +987,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var SocialButtons_1 = __webpack_require__(24);
+var SocialButtons_1 = __webpack_require__(25);
 var s = __webpack_require__(101);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
@@ -1005,7 +1012,7 @@ exports.Footer = Footer;
 exports.default = Footer;
 
 /***/ }),
-/* 24 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1023,7 +1030,7 @@ exports.SocialButtons = SocialButtons;
 exports.default = SocialButtons;
 
 /***/ }),
-/* 25 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1134,7 +1141,7 @@ exports.SideMenu = SideMenu;
 exports.default = SideMenu;
 
 /***/ }),
-/* 26 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1142,7 +1149,7 @@ exports.default = SideMenu;
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var SocialButtons_1 = __webpack_require__(24);
+var SocialButtons_1 = __webpack_require__(25);
 var s = __webpack_require__(103);
 function Jumbotron(_a) {
     var children = _a.children,
@@ -1156,7 +1163,7 @@ exports.Jumbotron = Jumbotron;
 exports.default = Jumbotron;
 
 /***/ }),
-/* 27 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1178,7 +1185,7 @@ exports.Tile = Tile;
 exports.default = Tile;
 
 /***/ }),
-/* 28 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1243,13 +1250,6 @@ exports.Branch = Branch;
 exports.default = exports.TableOfContents;
 
 /***/ }),
-/* 29 */
-/***/ (function(module, exports) {
-
-module.exports = {"title":"SztukaUniwersalna.PL","timezone":"Europe/Warsaw","collections":{"categories":{"title":"Categories","output":false,"layout":"ParrotLayout"},"drafts":{"title":"Drafts","output":false,"layout":"ParrotLayout"},"pages":{"title":"Pages","output":false,"layout":"ParrotLayout"},"posts":{"title":"Posts","output":true,"layout":"ParrotLayout"},"uploads":{"title":"Uploads","output":false}},"baseurl":"//sztukauniwersalna.pl/","menu":[{"title":"Sztuka Ubioru","short":"Moda","url":"/sztuka-ubioru","icon":"content_cut"},{"title":"Sztuka Makijażu","short":"Makijaż","url":"/sztuka-makijazu","icon":"remove_red_eye"},{"title":"Sztuka Gotowania","short":"Kuchnia","url":"/sztuka-gotowania","icon":"restaurant"},{"title":"Sztuka dla Sztuki","short":"Sztuka","url":"/sztuka-dla-sztuki","icon":"palette"},{"title":"Kim jest Olela?","short":"O mnie","url":"/kim-jest-olela","icon":"mood"}]};
-
-
-/***/ }),
 /* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1303,7 +1303,7 @@ var routesFactory = new route_factory_1.default();
 var routes = routesFactory.getRoutes(data_1.default);
 var serverRender = function (locals) {
     var renderer = new server_1.ServerRenderer(Root_1.default);
-    return renderer.render(locals, routes);
+    return renderer.render(locals, data_1.default, routes);
 };
 var clientRender = function () {
     var container = document.getElementById('root');
@@ -1428,12 +1428,12 @@ module.exports = AppContainer;
 Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var server_1 = __webpack_require__(15);
+var server_1 = __webpack_require__(16);
 var ServerRenderer = /** @class */ (function () {
     function ServerRenderer(Root) {
         this.Root = Root;
     }
-    ServerRenderer.prototype.render = function (locals, routes) {
+    ServerRenderer.prototype.render = function (locals, website, routes) {
         var _this = this;
         var routeSwitch = react_1.createElement(react_router_dom_1.Switch, {}, routes.map(function (r) { return r.route; }));
         return routes.reduce(function (result, _a) {
@@ -1442,7 +1442,7 @@ var ServerRenderer = /** @class */ (function () {
             var router = react_1.createElement(react_router_dom_1.StaticRouter, getRouterProps(page.url), routeSwitch);
             var body = server_1.renderToString(router);
             // site skeleton rendered without react ids
-            var root = react_1.createElement(_this.Root, getRootProps(locals, page));
+            var root = react_1.createElement(_this.Root, getRootProps(locals, website, page));
             var html = server_1.renderToStaticMarkup(root);
             result[page.url] = '<!DOCTYPE html>\n' + html.replace("%%%BODY%%%", body);
             return result;
@@ -1455,13 +1455,13 @@ exports.default = ServerRenderer;
 function getRouterProps(location) {
     return { location: location, context: {} };
 }
-function getRootProps(locals, page) {
+function getRootProps(locals, website, page) {
     var assets = Object.keys(locals.webpackStats.compilation.assets)
         .map(function (url) { return "/" + url; });
     var css = assets.filter(function (value) { return value.match(/\.css$/); });
     var js = assets.filter(function (value) { return value.match(/\.js$/); });
     return {
-        siteTitle: locals.siteTitle,
+        website: website,
         page: page,
         localBundles: { css: css, js: js },
         externalBundles: { css: locals.css || [], js: locals.js || [] },
@@ -1478,18 +1478,23 @@ function getRootProps(locals, page) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 function Root(_a) {
-    var siteTitle = _a.siteTitle, page = _a.page, localBundles = _a.localBundles, externalBundles = _a.externalBundles;
+    var website = _a.website, page = _a.page, localBundles = _a.localBundles, externalBundles = _a.externalBundles;
     return (React.createElement("html", null,
         React.createElement("head", null,
             React.createElement("title", null,
                 page.title,
                 " | ",
-                siteTitle),
+                website.title),
             React.createElement("meta", { name: 'path', content: page.url }),
             React.createElement("meta", { name: 'keywords', content: page.tags.join(', ') }),
             React.createElement("meta", { name: 'description', content: page.description }),
             React.createElement("meta", { name: 'viewport', content: 'width=device-width; initial-scale=1.0' }),
-            localBundles.css.map(function (url) { return (React.createElement("link", { type: 'text/css', rel: 'stylesheet', href: url, key: url })); })),
+            localBundles.css.map(function (url) { return (React.createElement("link", { type: 'text/css', rel: 'stylesheet', href: url, key: url })); }),
+            React.createElement("meta", { property: 'og:url', content: "" + website.baseUrl + page.url }),
+            React.createElement("meta", { property: 'og:title', content: page.title }),
+            React.createElement("meta", { property: 'og:description', content: page.description }),
+            React.createElement("meta", { property: 'og:locale', content: website.locale }),
+            React.createElement("meta", { property: 'og:type', content: page.url === '/' ? 'website' : 'article' })),
         React.createElement("body", null,
             React.createElement("div", { id: 'root' }, "%%%BODY%%%"),
             externalBundles.js.map(function (url) { return (React.createElement("script", { type: 'text/javascript', src: url, key: url })); }),
@@ -1561,18 +1566,20 @@ exports.default = RoutesFactory;
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __webpack_require__(0);
-var server_1 = __webpack_require__(15);
+var server_1 = __webpack_require__(16);
 var react_router_dom_1 = __webpack_require__(5);
 var utils_1 = __webpack_require__(44);
 var models_1 = __webpack_require__(6);
-var layouts_1 = __webpack_require__(18);
+var layouts_1 = __webpack_require__(19);
 var includes_1 = __webpack_require__(1);
 var collections_1 = __webpack_require__(14);
 var pages_1 = __webpack_require__(30);
 var categories_1 = __webpack_require__(31);
 var tags_1 = __webpack_require__(118);
 var menu_1 = __webpack_require__(119);
-var website = new models_1.Website();
+var config = __webpack_require__(15);
+var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
+exports.default = website;
 layouts_1.default.forEach(function (layout) { return website.addLayout(layout); });
 includes_1.default.forEach(function (include) { return website.addInclude(include); });
 collections_1.default.forEach(function (collection) { return website.addCollection(collection); });
@@ -1627,7 +1634,12 @@ function descriptionFromContent(page) {
 function descriptionFromPages(page) {
     return index.title + " " + page.title + ": " + page.pages.map(function (p) { return p.title; }).join(', ');
 }
-exports.default = website;
+function checkIsString(value, name) {
+    if (typeof value !== 'string') {
+        throw new Error(name + " must be a string; got " + value + " (" + typeof value + ")");
+    }
+    return value;
+}
 
 
 /***/ }),
@@ -1785,10 +1797,10 @@ exports.default = MenuEntry;
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var Category_1 = __webpack_require__(16);
-var Tag_1 = __webpack_require__(17);
+var Category_1 = __webpack_require__(17);
+var Tag_1 = __webpack_require__(18);
 var Website = /** @class */ (function () {
-    function Website() {
+    function Website(title, baseUrl, timezone, locale) {
         this.layouts = {};
         this.includes = {};
         this.collections = {};
@@ -1796,6 +1808,10 @@ var Website = /** @class */ (function () {
         this.tags = {};
         this.pages = {};
         this.entities = {};
+        this.title = title;
+        this.baseUrl = baseUrl;
+        this.timezone = timezone;
+        this.locale = locale;
     }
     Website.prototype.addLayout = function (layout) {
         if (this.layouts[layout.name] != undefined) {
@@ -5431,8 +5447,8 @@ webpackEmptyContext.id = 88;
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./ParrotLayout.js": 19,
-	"./default.js": 19
+	"./ParrotLayout.js": 20,
+	"./default.js": 20
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -5905,8 +5921,8 @@ var __rest = undefined && undefined.__rest || function (s, e) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var Tile_1 = __webpack_require__(27);
-var TableOfContents_1 = __webpack_require__(28);
+var Tile_1 = __webpack_require__(28);
+var TableOfContents_1 = __webpack_require__(29);
 ;
 function Feed(_a) {
     var website = _a.website,
@@ -6124,7 +6140,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var models_1 = __webpack_require__(6);
 var pages_1 = __webpack_require__(30);
 var categories_1 = __webpack_require__(31);
-var website = new models_1.Website();
+var website = new models_1.Website('', '', '', '');
 pages_1.default.forEach(function (page) { return website.addPage(page); });
 var tagPage = website.getPageOfUrl('/tag', 'all tags');
 function urlFromTitle(title) {
@@ -6146,7 +6162,7 @@ exports.default = tags;
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var models_1 = __webpack_require__(6);
-var config = __webpack_require__(29);
+var config = __webpack_require__(15);
 function checkIsArray(value, name) {
     if (!(value instanceof Array)) {
         throw new Error(name + " must be an array; got " + typeof value);
