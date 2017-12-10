@@ -1606,7 +1606,7 @@ categories_1.default.forEach(function (page) {
 });
 // generate descriptions for pages, categories and tags
 pages_1.default.forEach(function (page) {
-    if (page.description) {
+    if (page.description || !page.output) {
         return;
     }
     Object.defineProperty(page, 'description', {
@@ -1626,6 +1626,14 @@ categories_1.default.forEach(function (category) {
 tags_1.default.forEach(function (tag) {
     tag.description = descriptionFromPages(tag);
 });
+var missingDescription = pages_1.default
+    .concat(categories_1.default)
+    .concat(tags_1.default)
+    .filter(function (p) { return p.description === '' && p.output; })
+    .map(function (p) { return p.title; });
+if (missingDescription.length !== 0) {
+    throw new Error("Description missing in pages " + JSON.stringify(missingDescription) + ". Write some text in the article or add 'description' field.");
+}
 function descriptionFromContent(page) {
     var element = react_1.createElement(page.body, { website: website, page: page, respectLimit: true });
     var router = react_1.createElement(react_router_dom_1.StaticRouter, { location: page.url, context: {} }, element);
@@ -1661,20 +1669,8 @@ function stripTags(htmlText) {
     tmp = tmp.replace(/<(script|style)( [^>]*)*>((?!<\/\1( [^>]*)*>).)*<\/\1>/gi, "");
     // remove all tags except that are being handled separately
     tmp = tmp.replace(/<(\/)?((?!h[1-6]( [^>]*)*>)(?!img( [^>]*)*>)(?!a( [^>]*)*>)(?!ul( [^>]*)*>)(?!ol( [^>]*)*>)(?!li( [^>]*)*>)(?!p( [^>]*)*>)(?!div( [^>]*)*>)(?!td( [^>]*)*>)(?!br( [^>]*)*>)[^>\/])[^>]*>/gi, "");
-    // remove or replace images - replacement texts with <> tags will be removed also, if not intentional, try to use other notation
-    tmp = tmp.replace(/<img([^>]*)>/gi, function (str, imAttrs) {
-        var imSrc = "";
-        var imAlt = "";
-        var imSrcResult = (/src="([^"]*)"/i).exec(imAttrs);
-        var imAltResult = (/alt="([^"]*)"/i).exec(imAttrs);
-        if (imSrcResult !== null) {
-            imSrc = imSrcResult[1];
-        }
-        if (imAltResult !== null) {
-            imAlt = imAltResult[1];
-        }
-        return imAlt;
-    });
+    // remove images
+    tmp = tmp.replace(/<img([^>]*)>/gi, '');
     function createListReplaceCb() {
         return function (match, listType, listAttributes, listBody) {
             var liIndex = 0;
@@ -3705,9 +3701,9 @@ var component = exports.component = function component(data) {
     )
   );
 };
-var frontMatter = exports.frontMatter = { "title": "KOŁO [moodboard]", "date": "2017-10-05T17:33:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["circle", "koło", "symbol", "moodboard", "art", "sztuka", "artysta"] };
+var frontMatter = exports.frontMatter = { "title": "KOŁO [moodboard]", "date": "2017-10-05T17:33:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["circle", "koło", "symbol", "moodboard", "art", "sztuka", "artysta"], "description": "Koło Moodboard by Olela Krawczyk" };
 var body = exports.body = "<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6321789/ello-optimized-10c170fc.jpg\" alt=\"Obrazek przedstawia cztery zdjęcia kobiet w strojach o kształcie koła, na tle geometrycznych czarno-białych figur.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6321790/ello-optimized-bd9371a6.jpg\" alt=\"Obrazek przedstawia zdjęcia postaci ubranych w stroje w kropki, na tle różnobarwnych kropek, całość na czarno-biały, geometrycznym tle.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6321719/ello-optimized-77db47fb.jpg\" alt=\"Obrazek przedstawia zdjęcia obrazów, tortu, butów, fragment paletki do makijażu, dookoła widać czarne okręgi różnej wielkości.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6321725/ello-optimized-7a107f6a.jpg\" alt=\"Obrazek przedstawia zdjęcia dzieł różnych artystów, widzimy rzeźby w przestrzeni i budowle w kształcie koła. Na tle znajduje się czarne koło i małe białe kółka.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6321726/ello-optimized-e9af3234.jpg\" alt=\"Obrazek przedstawia białe napisy na czarnym tle.\" /></p>\n";
-var raw = exports.raw = "\n![Obrazek przedstawia cztery zdjęcia kobiet w strojach o kształcie koła, na tle geometrycznych czarno-białych figur.](https://assets0.ello.co/uploads/asset/attachment/6321789/ello-optimized-10c170fc.jpg)\n![Obrazek przedstawia zdjęcia postaci ubranych w stroje w kropki, na tle różnobarwnych kropek, całość na czarno-biały, geometrycznym tle.](https://assets1.ello.co/uploads/asset/attachment/6321790/ello-optimized-bd9371a6.jpg)\n![Obrazek przedstawia zdjęcia obrazów, tortu, butów, fragment paletki do makijażu, dookoła widać czarne okręgi różnej wielkości.](https://assets2.ello.co/uploads/asset/attachment/6321719/ello-optimized-77db47fb.jpg)\n![Obrazek przedstawia zdjęcia dzieł różnych artystów, widzimy rzeźby w przestrzeni i budowle w kształcie koła. Na tle znajduje się czarne koło i małe białe kółka.](https://assets1.ello.co/uploads/asset/attachment/6321725/ello-optimized-7a107f6a.jpg)\n![Obrazek przedstawia białe napisy na czarnym tle.](https://assets1.ello.co/uploads/asset/attachment/6321726/ello-optimized-e9af3234.jpg)";
+var raw = exports.raw = "\n![Obrazek przedstawia cztery zdjęcia kobiet w strojach o kształcie koła, na tle geometrycznych czarno-białych figur.](https://assets0.ello.co/uploads/asset/attachment/6321789/ello-optimized-10c170fc.jpg)\n![Obrazek przedstawia zdjęcia postaci ubranych w stroje w kropki, na tle różnobarwnych kropek, całość na czarno-biały, geometrycznym tle.](https://assets1.ello.co/uploads/asset/attachment/6321790/ello-optimized-bd9371a6.jpg)\n![Obrazek przedstawia zdjęcia obrazów, tortu, butów, fragment paletki do makijażu, dookoła widać czarne okręgi różnej wielkości.](https://assets2.ello.co/uploads/asset/attachment/6321719/ello-optimized-77db47fb.jpg)\n![Obrazek przedstawia zdjęcia dzieł różnych artystów, widzimy rzeźby w przestrzeni i budowle w kształcie koła. Na tle znajduje się czarne koło i małe białe kółka.](https://assets1.ello.co/uploads/asset/attachment/6321725/ello-optimized-7a107f6a.jpg)\n![Obrazek przedstawia białe napisy na czarnym tle.](https://assets1.ello.co/uploads/asset/attachment/6321726/ello-optimized-e9af3234.jpg)\n";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
@@ -5045,9 +5041,9 @@ var component = exports.component = function component(data) {
     )
   );
 };
-var frontMatter = exports.frontMatter = { "title": "Impresjonizm [moodboard]", "date": "2017-11-16T16:36:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["impresjonizm", "impressionism", "moodboard", "monet", "artist", "artysta", "sztuka"] };
+var frontMatter = exports.frontMatter = { "title": "Impresjonizm [moodboard]", "date": "2017-11-16T16:36:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["impresjonizm", "impressionism", "moodboard", "monet", "artist", "artysta", "sztuka"], "description": "Impressionism moodboard by Olela Krawczyk" };
 var body = exports.body = "<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6535912/ello-optimized-1ea87931.jpg\" alt=\"Obraz przedstawia fotografie na niebieskim tle. Widzimy torebkę, obrazy znanego artysty, modelki w sukniach.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6535917/ello-optimized-9b34446d.jpg\" alt=\"Obraz przedstawia fotografie na niebieskim tle. Widzimy oko z mocnym makijażem, dwa talerze z potrawami sfotografowane z lotu ptaka, obrazy znanego artysty, trzy modelki.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6535922/ello-optimized-70b26f57.jpg\" alt=\"Obraz przedstawia fotografie na niebieskim tle. Widzimy rzeźbę baletnicy, kobietę pozującą na wzór rzeźby, obrazy znanego artysty, talerz z potrawą, fotografie przedstawiającą siedzącą kobietę z torebką.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6535926/ello-optimized-96d43544.jpg\" alt=\"Obraz przedstawia trzy fotografie obrazów znanych artystów oraz napisy, wszystko na niebieskim tle.\" /></p>\n";
-var raw = exports.raw = "\n![Obraz przedstawia fotografie na niebieskim tle. Widzimy torebkę, obrazy znanego artysty, modelki w sukniach.](https://assets2.ello.co/uploads/asset/attachment/6535912/ello-optimized-1ea87931.jpg)\n![Obraz przedstawia fotografie na niebieskim tle. Widzimy oko z mocnym makijażem, dwa talerze z potrawami sfotografowane z lotu ptaka, obrazy znanego artysty, trzy modelki.](https://assets0.ello.co/uploads/asset/attachment/6535917/ello-optimized-9b34446d.jpg)\n![Obraz przedstawia fotografie na niebieskim tle. Widzimy rzeźbę baletnicy, kobietę pozującą na wzór rzeźby, obrazy znanego artysty, talerz z potrawą, fotografie przedstawiającą siedzącą kobietę z torebką.](https://assets0.ello.co/uploads/asset/attachment/6535922/ello-optimized-70b26f57.jpg)\n![Obraz przedstawia trzy fotografie obrazów znanych artystów oraz napisy, wszystko na niebieskim tle.](https://assets1.ello.co/uploads/asset/attachment/6535926/ello-optimized-96d43544.jpg)";
+var raw = exports.raw = "\n![Obraz przedstawia fotografie na niebieskim tle. Widzimy torebkę, obrazy znanego artysty, modelki w sukniach.](https://assets2.ello.co/uploads/asset/attachment/6535912/ello-optimized-1ea87931.jpg)\n![Obraz przedstawia fotografie na niebieskim tle. Widzimy oko z mocnym makijażem, dwa talerze z potrawami sfotografowane z lotu ptaka, obrazy znanego artysty, trzy modelki.](https://assets0.ello.co/uploads/asset/attachment/6535917/ello-optimized-9b34446d.jpg)\n![Obraz przedstawia fotografie na niebieskim tle. Widzimy rzeźbę baletnicy, kobietę pozującą na wzór rzeźby, obrazy znanego artysty, talerz z potrawą, fotografie przedstawiającą siedzącą kobietę z torebką.](https://assets0.ello.co/uploads/asset/attachment/6535922/ello-optimized-70b26f57.jpg)\n![Obraz przedstawia trzy fotografie obrazów znanych artystów oraz napisy, wszystko na niebieskim tle.](https://assets1.ello.co/uploads/asset/attachment/6535926/ello-optimized-96d43544.jpg)\n";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
@@ -5425,9 +5421,9 @@ var component = exports.component = function component(data) {
     )
   );
 };
-var frontMatter = exports.frontMatter = { "title": "Op-art [moodboard]", "date": "2017-12-07T16:37:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["opart", "optical", "art", "moodboard", "artist", "artysta", "sztuka"] };
+var frontMatter = exports.frontMatter = { "title": "Op-art [moodboard]", "date": "2017-12-07T16:37:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["opart", "optical", "art", "moodboard", "artist", "artysta", "sztuka"], "description": "Op Art Moodboard by Olela Krawczyk" };
 var body = exports.body = "<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6664021/ello-optimized-55517a7b.jpg\" alt=\"Obraz przedstawia fotografie różnych dzieł znanych artystów. Wszystko na ciemno-szarym tle.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6664023/ello-optimized-6953652c.jpg\" alt=\"Obraz przedstawia fotografie modelek w czarno-białych kostiumach, sportowe buty. Wszystko na ciemno-szarym tle.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6664024/ello-optimized-716d3f05.jpg\" alt=\"Obraz przedstawia fotografie dwóch obrazów znanych artystów. Wszystko na ciemno-szarym tle.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6664025/ello-optimized-9ef158dc.jpg\" alt=\"Obraz przedstawia zdjęcia pomalowanych paznokci, twarzy w makijażu, modelek w czarno-białych kostiumach. Wszystko na ciemno-szarym tle.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6664026/ello-optimized-55f1e869.jpg\" alt=\"Obraz przedstawia fotografie prac znanych artystów, widzimy też zdjęcie modelki na wybiegu ubranej w suknie w czarno-czerwone pasy.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6663927/ello-optimized-979dc213.jpg\" alt=\"Obraz przedstawia fotografie budynków. Widzimy też prace znanych artystów, wszystko na ciemno-szarym tle.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6663928/ello-optimized-5054382c.jpg\" alt=\"Obraz przedstawia jasne napisy na ciemno-szarym tle, oraz zdjęcie budynku.\" /></p>\n";
-var raw = exports.raw = "\n![Obraz przedstawia fotografie różnych dzieł znanych artystów. Wszystko na ciemno-szarym tle.](https://assets0.ello.co/uploads/asset/attachment/6664021/ello-optimized-55517a7b.jpg)\n![Obraz przedstawia fotografie modelek w czarno-białych kostiumach, sportowe buty. Wszystko na ciemno-szarym tle.](https://assets1.ello.co/uploads/asset/attachment/6664023/ello-optimized-6953652c.jpg)\n![Obraz przedstawia fotografie dwóch obrazów znanych artystów. Wszystko na ciemno-szarym tle.](https://assets1.ello.co/uploads/asset/attachment/6664024/ello-optimized-716d3f05.jpg)\n![Obraz przedstawia zdjęcia pomalowanych paznokci, twarzy w makijażu, modelek w czarno-białych kostiumach. Wszystko na ciemno-szarym tle.](https://assets1.ello.co/uploads/asset/attachment/6664025/ello-optimized-9ef158dc.jpg)\n![Obraz przedstawia fotografie prac znanych artystów, widzimy też zdjęcie modelki na wybiegu ubranej w suknie w czarno-czerwone pasy.](https://assets2.ello.co/uploads/asset/attachment/6664026/ello-optimized-55f1e869.jpg)\n![Obraz przedstawia fotografie budynków. Widzimy też prace znanych artystów, wszystko na ciemno-szarym tle.](https://assets2.ello.co/uploads/asset/attachment/6663927/ello-optimized-979dc213.jpg)\n![Obraz przedstawia jasne napisy na ciemno-szarym tle, oraz zdjęcie budynku.](https://assets2.ello.co/uploads/asset/attachment/6663928/ello-optimized-5054382c.jpg)";
+var raw = exports.raw = "\n![Obraz przedstawia fotografie różnych dzieł znanych artystów. Wszystko na ciemno-szarym tle.](https://assets0.ello.co/uploads/asset/attachment/6664021/ello-optimized-55517a7b.jpg)\n![Obraz przedstawia fotografie modelek w czarno-białych kostiumach, sportowe buty. Wszystko na ciemno-szarym tle.](https://assets1.ello.co/uploads/asset/attachment/6664023/ello-optimized-6953652c.jpg)\n![Obraz przedstawia fotografie dwóch obrazów znanych artystów. Wszystko na ciemno-szarym tle.](https://assets1.ello.co/uploads/asset/attachment/6664024/ello-optimized-716d3f05.jpg)\n![Obraz przedstawia zdjęcia pomalowanych paznokci, twarzy w makijażu, modelek w czarno-białych kostiumach. Wszystko na ciemno-szarym tle.](https://assets1.ello.co/uploads/asset/attachment/6664025/ello-optimized-9ef158dc.jpg)\n![Obraz przedstawia fotografie prac znanych artystów, widzimy też zdjęcie modelki na wybiegu ubranej w suknie w czarno-czerwone pasy.](https://assets2.ello.co/uploads/asset/attachment/6664026/ello-optimized-55f1e869.jpg)\n![Obraz przedstawia fotografie budynków. Widzimy też prace znanych artystów, wszystko na ciemno-szarym tle.](https://assets2.ello.co/uploads/asset/attachment/6663927/ello-optimized-979dc213.jpg)\n![Obraz przedstawia jasne napisy na ciemno-szarym tle, oraz zdjęcie budynku.](https://assets2.ello.co/uploads/asset/attachment/6663928/ello-optimized-5054382c.jpg)\n";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
