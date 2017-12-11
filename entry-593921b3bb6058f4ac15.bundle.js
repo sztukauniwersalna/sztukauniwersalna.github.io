@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-dom"), require("react-router-dom"), require("react-dom/server"), require("prop-types")) : factory(root["React"], root["ReactDOM"], root["ReactRouterDOM"], root["ReactDOMServer"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_34__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_16__, __WEBPACK_EXTERNAL_MODULE_92__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_34__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_16__, __WEBPACK_EXTERNAL_MODULE_93__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(23);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(106);
+var Feed_1 = __webpack_require__(107);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(24);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(21);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(108);
+var Recipe_1 = __webpack_require__(109);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -306,7 +306,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(93);
+var s = __webpack_require__(94);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -351,7 +351,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(94);
+var s = __webpack_require__(95);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -453,9 +453,9 @@ module.exports = {
 CATEGORIES: __webpack_require__(50),
 PAGES: __webpack_require__(55),
 POSTS: __webpack_require__(61),
-ROOT: __webpack_require__(88),
-LAYOUTS: __webpack_require__(89),
-INCLUDES: __webpack_require__(111)};
+ROOT: __webpack_require__(89),
+LAYOUTS: __webpack_require__(90),
+INCLUDES: __webpack_require__(112)};
 
 
 /***/ }),
@@ -467,7 +467,7 @@ INCLUDES: __webpack_require__(111)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(95);
+var s = __webpack_require__(96);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -517,7 +517,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(99);
+var s = __webpack_require__(100);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -751,7 +751,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(110);
+__webpack_require__(111);
 
 
 
@@ -791,7 +791,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(90);
+var react_disqus_comments_1 = __webpack_require__(91);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(22);
 var Crumbs_1 = __webpack_require__(23);
@@ -801,8 +801,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(26);
 var Jumbotron_1 = __webpack_require__(27);
-var gtag_1 = __webpack_require__(104);
-var s = __webpack_require__(105);
+var gtag_1 = __webpack_require__(105);
+var s = __webpack_require__(106);
 var GA_TRACKING_ID = 'UA-110945340-1';
 gtag_1.default('js', new Date());
 gtag_1.default('config', GA_TRACKING_ID, { 'send_page_view': false });
@@ -924,8 +924,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(96);
-var s = __webpack_require__(97);
+__webpack_require__(97);
+var s = __webpack_require__(98);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -955,7 +955,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(98);
+var s = __webpack_require__(99);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1000,7 +1000,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(25);
-var s = __webpack_require__(101);
+var s = __webpack_require__(102);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1034,7 +1034,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(100);
+var s = __webpack_require__(101);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1079,7 +1079,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(102);
+var s = __webpack_require__(103);
 function Item(props) {
     return null;
 }
@@ -1162,7 +1162,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(25);
-var s = __webpack_require__(103);
+var s = __webpack_require__(104);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1186,7 +1186,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(107);
+var s = __webpack_require__(108);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1594,8 +1594,8 @@ var includes_1 = __webpack_require__(1);
 var collections_1 = __webpack_require__(14);
 var pages_1 = __webpack_require__(30);
 var categories_1 = __webpack_require__(31);
-var tags_1 = __webpack_require__(118);
-var menu_1 = __webpack_require__(119);
+var tags_1 = __webpack_require__(119);
+var menu_1 = __webpack_require__(120);
 var config = __webpack_require__(15);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2565,7 +2565,8 @@ var map = {
 	"./2017-11-16-impresjonizm-moodboard.markdown": 84,
 	"./2017-11-22-diy-1-edycja-zimowa.markdown": 85,
 	"./2017-11-30-make-up-inspirowany-obrazem-figure-dog-birds-by-joan-miro.markdown": 86,
-	"./2017-12-07-op-art-moodboard.markdown": 87
+	"./2017-12-07-op-art-moodboard.markdown": 87,
+	"./2017-12-11-wystawa-inny-trans-atlantyk-sztuka-kinetyczna-i-op-art-w-europie-wschodniej-i-ameryce-lacinskiej-w-latach-50-70.markdown": 88
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -5469,6 +5470,68 @@ var raw = exports.raw = "\n![Obraz przedstawia fotografie różnych dzieł znany
 
 /***/ }),
 /* 88 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(1).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'olela-narrative',
+      null,
+      'W marcu tego roku otworzy\u0142 swoje drzwi pawilon Muzeum Sztuki Nowoczesnej nad Wis\u0142\u0105. Pawilon ten jest tymczasowy, a jego istnienie w roli przestrzeni wystawienniczej szacuje si\u0119 na oko\u0142o cztery lata. Pierwsz\u0105 wystaw\u0105 jaka mia\u0142a tam miejsce by\u0142a: \u2018Syrena herbem twym zwodnicza\u2019 (tytu\u0142 zaczerpni\u0119ty zosta\u0142 z wiersza Cypriana Kamila Norwida). By\u0142a to wystawa do\u015B\u0107 adekwatna, co o miejsca i czasu, pawilon bowiem nie tyko stoi w Warszawie, ale te\u017C bardzo blisko samego symbolu tego miasta \u2013 pomnika Warszawskiej Syrenki tu\u017C nad brzegiem Wis\u0142y. Samo otwarcie by\u0142o wielkim dwudniowym wydarzeniem naszpikowanym r\xF3\u017Cnego rodzaju atrakcjami dodatkowymi. Mogli\u015Bmy uczestniczy\u0107 w oprowadzaniu, warsztatach, wsp\xF3lnym malowaniu muralu, a nawet koncertach. Pami\u0119tam, \u017Ce dooko\u0142a pawilonu sta\u0142y bardzo modne obecnie \u2018foodtracki\u2019 z pysznymi r\xF3\u017Cno\u015Bciami od kuchni indyjskiej po polskie pierogi. Przez to klimat zdawa\u0142 si\u0119 by\u0107 nieco festynowo-festiwalowy, ale mo\u017Ce to dobry pomys\u0142, aby ludzie przy okazji sp\u0119dzania mi\u0142o czasu z przyjaci\xF3\u0142mi i rodzin\u0105 posmakowali nie tylko pikantnego curry, ale te\u017C uszczkn\u0119li conieco tematu sztuki.'
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Pocz\u0105tek'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Wystaw\u0119 \u2018Inny Trans-Atlantyk. Sztuka kinetyczna i op-art w Europie Wschodniej i Ameryce \u0141aci\u0144skiej w latach 50. \u2013 70.\u2019 planowa\u0142am zobaczy\u0107 ju\u017C od d\u0142u\u017Cszego czasu. Korzystaj\u0105c z wolnego dnia i (ju\u017C) zimowej pogody przespacerowa\u0142am spokojnie brzegiem rzeki, z we\u0142nian\u0105 ciep\u0142\u0105 czap\u0105 na g\u0142owie prosto do pawilonu Muzeum Sztuki Nowoczesnej. Przy wej\u015Bciu powita\u0142y mnie dwie instalacje/rze\u017Aby. Jedn\u0105 z nich by\u0142o \u2018Penetrable BBL Blue\u2019 Jes\xFAs\u2019a Rafael\u2019a Soto. Sporych rozmiar\xF3w stalowa konstrukcja o kszta\u0142cie sze\u015Bcianu, z kt\xF3rej \u2018zwisa\u0142y\u2019 niebieskie (my\u015Bl\u0119, \u017Ce gumowe lub plastikowe) sznurki (nie wiem, czy bardziej obrazowo nie podzia\u0142a\u0142o by tutaj s\u0142owo: makaron). Moja wyprawa mia\u0142a miejsce w do\u015B\u0107 ch\u0142odny i wietrzny dzie\u0144, tote\u017C \xF3w makaron porusza\u0142 si\u0119 razem z wiatrem, przez co obraz za nim zdawa\u0142 si\u0119 \u2018migota\u0107\u2019, \u017Cy\u0107 odbiciem w\u0142asnego szumu. D\u0142u\u017Csze wpatrywanie si\u0119 w niego doprowadzi\u0142o mnie do lekkich zawrot\xF3w g\u0142owy i powidoku. Ze zmarzni\u0119tym nosem i chwiejnym krokiem otworzy\u0142am drzwi Muzeum.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/6690686/ello-optimized-14031b74.jpg', alt: 'Zdj\u0119cie przedstawia geometryczn\u0105 czerwono-czarn\u0105 rze\u017Ab\u0119 stoj\u0105c\u0105 na \u015Bniegu na tle budynku ozdobionego rysunkami.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Wystawa: Inny Trans-Atlantyk. Sztuka kinetyczna i op-art w Europie Wschodniej i Ameryce Łacińskiej w latach 50. – 70.", "date": "2017-12-11T18:15:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["wystawa", "exhibition", "opart", "kineticart", "recenzja", "sztuka", "artysta", "muzeum"] };
+var body = exports.body = "<olela-narrative>\nW marcu tego roku otworzył swoje drzwi pawilon Muzeum Sztuki Nowoczesnej nad Wisłą. Pawilon ten jest tymczasowy, a jego istnienie w roli przestrzeni wystawienniczej szacuje się na około cztery lata. Pierwszą wystawą jaka miała tam miejsce była: ‘Syrena herbem twym zwodnicza’ (tytuł zaczerpnięty został z wiersza Cypriana Kamila Norwida). Była to wystawa dość adekwatna, co o miejsca i czasu, pawilon bowiem nie tyko stoi w Warszawie, ale też bardzo blisko samego symbolu tego miasta – pomnika Warszawskiej Syrenki tuż nad brzegiem Wisły. Samo otwarcie było wielkim dwudniowym wydarzeniem naszpikowanym różnego rodzaju atrakcjami dodatkowymi. Mogliśmy uczestniczyć w oprowadzaniu, warsztatach, wspólnym malowaniu muralu, a nawet koncertach. Pamiętam, że dookoła pawilonu stały bardzo modne obecnie ‘foodtracki’ z pysznymi różnościami od kuchni indyjskiej po polskie pierogi. Przez to klimat zdawał się być nieco festynowo-festiwalowy, ale może to dobry pomysł, aby ludzie przy okazji spędzania miło czasu z przyjaciółmi i rodziną posmakowali nie tylko pikantnego curry, ale też uszczknęli conieco tematu sztuki. \n</olela-narrative>\n<h2>Początek</h2>\n<p>Wystawę ‘Inny Trans-Atlantyk. Sztuka kinetyczna i op-art w Europie Wschodniej i Ameryce Łacińskiej w latach 50. – 70.’ planowałam zobaczyć już od dłuższego czasu. Korzystając z wolnego dnia i (już) zimowej pogody przespacerowałam spokojnie brzegiem rzeki, z wełnianą ciepłą czapą na głowie prosto do pawilonu Muzeum Sztuki Nowoczesnej. Przy wejściu powitały mnie dwie instalacje/rzeźby. Jedną z nich było ‘Penetrable BBL Blue’ Jesús’a Rafael’a Soto. Sporych rozmiarów stalowa konstrukcja o kształcie sześcianu, z której ‘zwisały’ niebieskie (myślę, że gumowe lub plastikowe) sznurki (nie wiem, czy bardziej obrazowo nie podziałało by tutaj słowo: makaron). Moja wyprawa miała miejsce w dość chłodny i wietrzny dzień, toteż ów makaron poruszał się razem z wiatrem, przez co obraz za nim zdawał się ‘migotać’, żyć odbiciem własnego szumu. Dłuższe wpatrywanie się w niego doprowadziło mnie do lekkich zawrotów głowy i powidoku. Ze zmarzniętym nosem i chwiejnym krokiem otworzyłam drzwi Muzeum.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6690686/ello-optimized-14031b74.jpg\" alt=\"Zdjęcie przedstawia geometryczną czerwono-czarną rzeźbę stojącą na śniegu na tle budynku ozdobionego rysunkami.\" /></p>\n";
+var raw = exports.raw = "\n<olela-narrative>\nW marcu tego roku otworzył swoje drzwi pawilon Muzeum Sztuki Nowoczesnej nad Wisłą. Pawilon ten jest tymczasowy, a jego istnienie w roli przestrzeni wystawienniczej szacuje się na około cztery lata. Pierwszą wystawą jaka miała tam miejsce była: ‘Syrena herbem twym zwodnicza’ (tytuł zaczerpnięty został z wiersza Cypriana Kamila Norwida). Była to wystawa dość adekwatna, co o miejsca i czasu, pawilon bowiem nie tyko stoi w Warszawie, ale też bardzo blisko samego symbolu tego miasta – pomnika Warszawskiej Syrenki tuż nad brzegiem Wisły. Samo otwarcie było wielkim dwudniowym wydarzeniem naszpikowanym różnego rodzaju atrakcjami dodatkowymi. Mogliśmy uczestniczyć w oprowadzaniu, warsztatach, wspólnym malowaniu muralu, a nawet koncertach. Pamiętam, że dookoła pawilonu stały bardzo modne obecnie ‘foodtracki’ z pysznymi różnościami od kuchni indyjskiej po polskie pierogi. Przez to klimat zdawał się być nieco festynowo-festiwalowy, ale może to dobry pomysł, aby ludzie przy okazji spędzania miło czasu z przyjaciółmi i rodziną posmakowali nie tylko pikantnego curry, ale też uszczknęli conieco tematu sztuki. \n</olela-narrative>\n\n## Początek\n\nWystawę ‘Inny Trans-Atlantyk. Sztuka kinetyczna i op-art w Europie Wschodniej i Ameryce Łacińskiej w latach 50. – 70.’ planowałam zobaczyć już od dłuższego czasu. Korzystając z wolnego dnia i (już) zimowej pogody przespacerowałam spokojnie brzegiem rzeki, z wełnianą ciepłą czapą na głowie prosto do pawilonu Muzeum Sztuki Nowoczesnej. Przy wejściu powitały mnie dwie instalacje/rzeźby. Jedną z nich było ‘Penetrable BBL Blue’ Jesús’a Rafael’a Soto. Sporych rozmiarów stalowa konstrukcja o kształcie sześcianu, z której ‘zwisały’ niebieskie (myślę, że gumowe lub plastikowe) sznurki (nie wiem, czy bardziej obrazowo nie podziałało by tutaj słowo: makaron). Moja wyprawa miała miejsce w dość chłodny i wietrzny dzień, toteż ów makaron poruszał się razem z wiatrem, przez co obraz za nim zdawał się ‘migotać’, żyć odbiciem własnego szumu. Dłuższe wpatrywanie się w niego doprowadziło mnie do lekkich zawrotów głowy i powidoku. Ze zmarzniętym nosem i chwiejnym krokiem otworzyłam drzwi Muzeum.\n\n![Zdjęcie przedstawia geometryczną czerwono-czarną rzeźbę stojącą na śniegu na tle budynku ozdobionego rysunkami.](https://assets1.ello.co/uploads/asset/attachment/6690686/ello-optimized-14031b74.jpg)";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+
+/***/ }),
+/* 89 */
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -5477,10 +5540,10 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 88;
+webpackEmptyContext.id = 89;
 
 /***/ }),
-/* 89 */
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -5501,19 +5564,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 89;
+webpackContext.id = 90;
 
 /***/ }),
-/* 90 */
+/* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(91);
+module.exports = __webpack_require__(92);
 
 /***/ }),
-/* 91 */
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5531,7 +5594,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(92);
+var _propTypes = __webpack_require__(93);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -5735,13 +5798,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 92 */
+/* 93 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_92__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_93__;
 
 /***/ }),
-/* 93 */
+/* 94 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -5755,7 +5818,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 94 */
+/* 95 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -5763,7 +5826,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 95 */
+/* 96 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -5776,7 +5839,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 96 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5810,7 +5873,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 97 */
+/* 98 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -5823,7 +5886,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 98 */
+/* 99 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -5832,7 +5895,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 99 */
+/* 100 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -5840,7 +5903,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 100 */
+/* 101 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -5848,7 +5911,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 101 */
+/* 102 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -5863,7 +5926,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 102 */
+/* 103 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -5878,7 +5941,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 103 */
+/* 104 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -5893,7 +5956,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 104 */
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5912,7 +5975,7 @@ exports.gtag = gtag;
 exports.default = gtag;
 
 /***/ }),
-/* 105 */
+/* 106 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -5933,7 +5996,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 106 */
+/* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5984,7 +6047,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 107 */
+/* 108 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -5992,7 +6055,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6001,7 +6064,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(109);
+var s = __webpack_require__(110);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -6034,7 +6097,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6044,22 +6107,22 @@ module.exports = {
 };
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 112,
-	"./Feed.js": 113,
-	"./Ingredient.js": 114,
-	"./Method.js": 115,
-	"./Recipe.js": 116,
-	"./TableOfContents.js": 117
+	"./Crumbs.js": 113,
+	"./Feed.js": 114,
+	"./Ingredient.js": 115,
+	"./Method.js": 116,
+	"./Recipe.js": 117,
+	"./TableOfContents.js": 118
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -6075,10 +6138,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 111;
+webpackContext.id = 112;
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6093,7 +6156,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6108,7 +6171,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6123,7 +6186,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6138,7 +6201,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6153,7 +6216,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6168,7 +6231,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6192,7 +6255,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
