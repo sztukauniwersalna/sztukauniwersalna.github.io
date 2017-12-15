@@ -581,7 +581,7 @@ function checkIsOptionalBoolean(value, defaultValue, name) {
     return value;
 }
 checkIsObject(config.collections, 'config.collections');
-var website = new models_1.Website('', '', '', '');
+var website = new models_1.Website('', '', '', '', '');
 layouts_1.default.forEach(function (layout) { return website.addLayout(layout); });
 var ROOT_COLLECTION_KEY = '$root';
 var ROOT_COLLECTION_TITLE = 'Root Pages';
@@ -646,7 +646,7 @@ exports.default = collections;
 /* 15 */
 /***/ (function(module, exports) {
 
-module.exports = {"title":"SztukaUniwersalna.pl","timezone":"Europe/Warsaw","collections":{"categories":{"title":"Categories","output":false,"layout":"ParrotLayout"},"drafts":{"title":"Drafts","output":false,"layout":"ParrotLayout"},"pages":{"title":"Pages","output":false,"layout":"ParrotLayout"},"posts":{"title":"Posts","output":true,"layout":"ParrotLayout"},"uploads":{"title":"Uploads","output":false}},"baseUrl":"http://sztukauniwersalna.pl","locale":"pl_PL","menu":[{"title":"Sztuka Ubioru","short":"Moda","url":"/sztuka-ubioru","icon":"content_cut"},{"title":"Sztuka Makijażu","short":"Makijaż","url":"/sztuka-makijazu","icon":"remove_red_eye"},{"title":"Sztuka Gotowania","short":"Kuchnia","url":"/sztuka-gotowania","icon":"restaurant"},{"title":"Sztuka dla Sztuki","short":"Sztuka","url":"/sztuka-dla-sztuki","icon":"palette"},{"title":"Kim jest Olela?","short":"O mnie","url":"/kim-jest-olela","icon":"mood"}]};
+module.exports = {"title":"SztukaUniwersalna.pl","timezone":"Europe/Warsaw","collections":{"categories":{"title":"Categories","output":false,"layout":"ParrotLayout"},"drafts":{"title":"Drafts","output":false,"layout":"ParrotLayout"},"pages":{"title":"Pages","output":false,"layout":"ParrotLayout"},"posts":{"title":"Posts","output":true,"layout":"ParrotLayout"},"uploads":{"title":"Uploads","output":false}},"baseUrl":"http://sztukauniwersalna.pl","image":"http://sztukauniwersalna.pl/logo-gradient.png","locale":"pl_PL","menu":[{"title":"Sztuka Ubioru","short":"Moda","url":"/sztuka-ubioru","icon":"content_cut"},{"title":"Sztuka Makijażu","short":"Makijaż","url":"/sztuka-makijazu","icon":"remove_red_eye"},{"title":"Sztuka Gotowania","short":"Kuchnia","url":"/sztuka-gotowania","icon":"restaurant"},{"title":"Sztuka dla Sztuki","short":"Sztuka","url":"/sztuka-dla-sztuki","icon":"palette"},{"title":"Kim jest Olela?","short":"O mnie","url":"/kim-jest-olela","icon":"mood"}]};
 
 
 /***/ }),
@@ -1519,7 +1519,7 @@ function Root(_a) {
             localBundles.css.map(function (url) { return (React.createElement("link", { type: 'text/css', rel: 'stylesheet', href: url, key: url })); }),
             React.createElement("meta", { property: 'og:url', content: "" + website.baseUrl + page.url }),
             React.createElement("meta", { property: 'og:title', content: page.title }),
-            page.image !== null ? React.createElement("meta", { property: 'og:image', content: page.image }) : null,
+            React.createElement("meta", { property: 'og:image', content: page.url === '/' || page.image === null ? website.image : page.image }),
             React.createElement("meta", { property: 'og:description', content: page.description }),
             React.createElement("meta", { property: 'og:locale', content: website.locale }),
             React.createElement("meta", { property: 'og:type', content: page.url === '/' ? 'website' : 'article' }),
@@ -1607,7 +1607,7 @@ var categories_1 = __webpack_require__(31);
 var tags_1 = __webpack_require__(119);
 var menu_1 = __webpack_require__(120);
 var config = __webpack_require__(15);
-var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
+var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.image, 'config.image'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
 layouts_1.default.forEach(function (layout) { return website.addLayout(layout); });
 includes_1.default.forEach(function (include) { return website.addInclude(include); });
@@ -1847,7 +1847,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var Category_1 = __webpack_require__(17);
 var Tag_1 = __webpack_require__(18);
 var Website = /** @class */ (function () {
-    function Website(title, baseUrl, timezone, locale) {
+    function Website(title, image, baseUrl, timezone, locale) {
         this.layouts = {};
         this.includes = {};
         this.collections = {};
@@ -1856,6 +1856,7 @@ var Website = /** @class */ (function () {
         this.pages = {};
         this.entities = {};
         this.title = title;
+        this.image = image;
         this.baseUrl = baseUrl;
         this.timezone = timezone;
         this.locale = locale;
@@ -6403,7 +6404,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var models_1 = __webpack_require__(6);
 var pages_1 = __webpack_require__(30);
 var categories_1 = __webpack_require__(31);
-var website = new models_1.Website('', '', '', '');
+var website = new models_1.Website('', '', '', '', '');
 pages_1.default.forEach(function (page) { return website.addPage(page); });
 var tagPage = website.getPageOfUrl('/tag', 'all tags');
 function urlFromTitle(title) {
