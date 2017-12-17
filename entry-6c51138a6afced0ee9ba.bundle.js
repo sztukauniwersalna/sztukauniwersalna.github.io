@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(23);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(107);
+var Feed_1 = __webpack_require__(109);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(24);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(21);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(109);
+var Recipe_1 = __webpack_require__(111);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -455,7 +455,7 @@ PAGES: __webpack_require__(55),
 POSTS: __webpack_require__(61),
 ROOT: __webpack_require__(89),
 LAYOUTS: __webpack_require__(90),
-INCLUDES: __webpack_require__(112)};
+INCLUDES: __webpack_require__(114)};
 
 
 /***/ }),
@@ -751,7 +751,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(111);
+__webpack_require__(113);
 
 
 
@@ -801,8 +801,10 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(26);
 var Jumbotron_1 = __webpack_require__(27);
-var gtag_1 = __webpack_require__(105);
-var s = __webpack_require__(106);
+var FacebookSdk_1 = __webpack_require__(105);
+var FacebookLike_1 = __webpack_require__(106);
+var gtag_1 = __webpack_require__(107);
+var s = __webpack_require__(108);
 var GA_TRACKING_ID = 'UA-110945340-1';
 gtag_1.default('js', new Date());
 gtag_1.default('config', GA_TRACKING_ID, { 'send_page_view': false });
@@ -834,13 +836,13 @@ var ParrotLayout = /** @class */function (_super) {
             website = _a.website,
             page = _a.page;
         var Body = page.body;
-        return React.createElement("div", { id: s.all }, React.createElement("div", { className: s.header }, React.createElement(TopBar_1.default, { website: website, page: page, onMenuClick: this.showMenu })), React.createElement("div", { className: s.main }, jumbotronFor(website, page), React.createElement("main", null, maybeRenderTitle(website, page), React.createElement(Body, { website: website, page: page }))), maybeRenderComments(page), React.createElement("div", { className: s.footer + " contrast" }, React.createElement(Footer_1.default, { website: website, page: page }), React.createElement("div", { className: s.bottom }, React.createElement("div", { className: s.logo }, React.createElement(Logo_1.default, { variant: 'full' })))), React.createElement("div", { className: s.sideMenu + " " + this.state.sideMenuClassName, onClick: this.hideMenu }, React.createElement(SideMenu_1.default, { visible: this.state.sideMenuClassName === s.visible, onCloseRequested: function onCloseRequested() {
+        return React.createElement(FacebookSdk_1.default, { url: page.url }, React.createElement("div", { id: s.all }, React.createElement("div", { className: s.header }, React.createElement(TopBar_1.default, { website: website, page: page, onMenuClick: this.showMenu })), React.createElement("div", { className: s.main }, jumbotronFor(website, page), React.createElement("main", null, maybeRenderTitle(website, page), React.createElement(Body, { website: website, page: page }), React.createElement(FacebookLike_1.default, { url: "" + website.baseUrl + page.url }))), maybeRenderComments(page), React.createElement("div", { className: s.footer + " contrast" }, React.createElement(Footer_1.default, { website: website, page: page }), React.createElement("div", { className: s.bottom }, React.createElement("div", { className: s.logo }, React.createElement(Logo_1.default, { variant: 'full' })))), React.createElement("div", { className: s.sideMenu + " " + this.state.sideMenuClassName, onClick: this.hideMenu }, React.createElement(SideMenu_1.default, { visible: this.state.sideMenuClassName === s.visible, onCloseRequested: function onCloseRequested() {
                 return _this.hideMenu();
             }, onClosed: function onClosed() {
                 return _this.disableMenu();
             }, currentUrl: page.url }, website.menu.map(function (entry) {
             return React.createElement(SideMenu_1.Item, { key: entry.url, url: entry.url, title: entry.title, icon: entry.icon });
-        }))));
+        })))));
     };
     ParrotLayout.prototype.componentWillReceiveProps = function (newProps) {
         if (newProps.page === this.props.page) {
@@ -885,7 +887,7 @@ function maybeRenderTitle(website, page) {
     if (page.url === '/' || page instanceof models_1.Category || page instanceof models_1.Tag) {
         return null;
     }
-    return React.createElement("div", null, React.createElement("h1", null, React.createElement(react_router_dom_1.Link, { to: page.url }, page.title)), React.createElement(Tags_1.default, { website: website, page: page }));
+    return React.createElement("div", null, React.createElement("h1", null, React.createElement(react_router_dom_1.Link, { to: page.url }, page.title)), React.createElement(Tags_1.default, { website: website, page: page }), React.createElement(FacebookLike_1.default, { url: "" + website.baseUrl + page.url }));
 }
 function maybeRenderComments(page) {
     if (page.url === '/' || page instanceof models_1.Category || page instanceof models_1.Tag) {
@@ -1186,7 +1188,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(108);
+var s = __webpack_require__(110);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1604,8 +1606,8 @@ var includes_1 = __webpack_require__(1);
 var collections_1 = __webpack_require__(14);
 var pages_1 = __webpack_require__(30);
 var categories_1 = __webpack_require__(31);
-var tags_1 = __webpack_require__(119);
-var menu_1 = __webpack_require__(120);
+var tags_1 = __webpack_require__(121);
+var menu_1 = __webpack_require__(122);
 var config = __webpack_require__(15);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.image, 'config.image'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -6126,6 +6128,88 @@ module.exports = {
 "use strict";
 
 
+var __extends = undefined && undefined.__extends || function () {
+    var extendStatics = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function (d, b) {
+        d.__proto__ = b;
+    } || function (d, b) {
+        for (var p in b) {
+            if (b.hasOwnProperty(p)) d[p] = b[p];
+        }
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() {
+            this.constructor = d;
+        }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+}();
+Object.defineProperty(exports, "__esModule", { value: true });
+var React = __webpack_require__(0);
+var FacebookSdk = /** @class */function (_super) {
+    __extends(FacebookSdk, _super);
+    function FacebookSdk() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    FacebookSdk.prototype.render = function () {
+        var _a = this.props,
+            children = _a.children,
+            url = _a.url;
+        return React.createElement("div", { id: 'fb-root', "data-url": url }, children);
+    };
+    FacebookSdk.prototype.componentDidMount = function () {
+        this.parseXfbml();
+    };
+    FacebookSdk.prototype.componentDidUpdate = function () {
+        this.parseXfbml();
+    };
+    FacebookSdk.prototype.parseXfbml = function () {
+        if (FB === undefined) {
+            return;
+        }
+        FB.XFBML.parse();
+    };
+    return FacebookSdk;
+}(React.Component);
+exports.FacebookSdk = FacebookSdk;
+exports.default = FacebookSdk;
+function load(doc, id) {
+    var head = doc.getElementsByTagName('head')[0];
+    if (doc.getElementById(id) !== null) {
+        return;
+    }
+    var js = doc.createElement('script');
+    js.id = id;
+    js.src = 'https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.11';
+    head.appendChild(js);
+}
+if (document !== undefined) {
+    load(document, 'facebook-jssdk');
+}
+
+/***/ }),
+/* 106 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", { value: true });
+var React = __webpack_require__(0);
+function FacebookLike(_a) {
+    var url = _a.url;
+    return React.createElement("div", { className: 'fb-like', "data-href": url, "data-layout": 'button_count', "data-action": 'like', "data-size": 'large', "data-show-faces": 'false', "data-share": 'false' });
+}
+exports.FacebookLike = FacebookLike;
+exports.default = FacebookLike;
+
+/***/ }),
+/* 107 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
 Object.defineProperty(exports, "__esModule", { value: true });
 var dataLayer = self.dataLayer = self.dataLayer || [];
 function gtag(action) {
@@ -6139,7 +6223,7 @@ exports.gtag = gtag;
 exports.default = gtag;
 
 /***/ }),
-/* 106 */
+/* 108 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6160,7 +6244,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 107 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6211,7 +6295,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 108 */
+/* 110 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6219,7 +6303,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 109 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6228,7 +6312,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(110);
+var s = __webpack_require__(112);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -6261,7 +6345,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 110 */
+/* 112 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6271,22 +6355,22 @@ module.exports = {
 };
 
 /***/ }),
-/* 111 */
+/* 113 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 112 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 113,
-	"./Feed.js": 114,
-	"./Ingredient.js": 115,
-	"./Method.js": 116,
-	"./Recipe.js": 117,
-	"./TableOfContents.js": 118
+	"./Crumbs.js": 115,
+	"./Feed.js": 116,
+	"./Ingredient.js": 117,
+	"./Method.js": 118,
+	"./Recipe.js": 119,
+	"./TableOfContents.js": 120
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -6302,10 +6386,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 112;
+webpackContext.id = 114;
 
 /***/ }),
-/* 113 */
+/* 115 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6320,7 +6404,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 114 */
+/* 116 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6335,7 +6419,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 115 */
+/* 117 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6350,7 +6434,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 116 */
+/* 118 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6365,7 +6449,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 117 */
+/* 119 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6380,7 +6464,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 118 */
+/* 120 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6395,7 +6479,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 119 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6419,7 +6503,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 120 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
