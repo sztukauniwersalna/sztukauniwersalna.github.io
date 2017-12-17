@@ -6335,8 +6335,7 @@ function urlParamsToString(params) {
 /***/ (function(module, exports) {
 
 module.exports = {
-  "like": "like-3LtG_",
-  "ready": "ready-3Ze6P"
+  "like": "like-3LtG_"
 };
 
 /***/ }),
