@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-dom"), require("react-router-dom"), require("react-dom/server"), require("prop-types")) : factory(root["React"], root["ReactDOM"], root["ReactRouterDOM"], root["ReactDOMServer"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_34__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_16__, __WEBPACK_EXTERNAL_MODULE_94__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_34__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_16__, __WEBPACK_EXTERNAL_MODULE_95__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(23);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(110);
+var Feed_1 = __webpack_require__(111);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(24);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(21);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(112);
+var Recipe_1 = __webpack_require__(113);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -306,7 +306,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(95);
+var s = __webpack_require__(96);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -351,7 +351,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(96);
+var s = __webpack_require__(97);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -453,9 +453,9 @@ module.exports = {
 CATEGORIES: __webpack_require__(50),
 PAGES: __webpack_require__(55),
 POSTS: __webpack_require__(61),
-ROOT: __webpack_require__(90),
-LAYOUTS: __webpack_require__(91),
-INCLUDES: __webpack_require__(115)};
+ROOT: __webpack_require__(91),
+LAYOUTS: __webpack_require__(92),
+INCLUDES: __webpack_require__(116)};
 
 
 /***/ }),
@@ -467,7 +467,7 @@ INCLUDES: __webpack_require__(115)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(97);
+var s = __webpack_require__(98);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -517,7 +517,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(101);
+var s = __webpack_require__(102);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -751,7 +751,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(114);
+__webpack_require__(115);
 
 
 
@@ -791,7 +791,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(92);
+var react_disqus_comments_1 = __webpack_require__(93);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(22);
 var Crumbs_1 = __webpack_require__(23);
@@ -801,9 +801,9 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(26);
 var Jumbotron_1 = __webpack_require__(27);
-var FacebookLike_1 = __webpack_require__(106);
-var gtag_1 = __webpack_require__(108);
-var s = __webpack_require__(109);
+var FacebookLike_1 = __webpack_require__(107);
+var gtag_1 = __webpack_require__(109);
+var s = __webpack_require__(110);
 var GA_TRACKING_ID = 'UA-110945340-1';
 gtag_1.default('js', new Date());
 gtag_1.default('config', GA_TRACKING_ID, { 'send_page_view': false });
@@ -925,8 +925,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(98);
-var s = __webpack_require__(99);
+__webpack_require__(99);
+var s = __webpack_require__(100);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -956,7 +956,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(100);
+var s = __webpack_require__(101);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1001,7 +1001,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(25);
-var s = __webpack_require__(103);
+var s = __webpack_require__(104);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1035,7 +1035,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(102);
+var s = __webpack_require__(103);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1080,7 +1080,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(104);
+var s = __webpack_require__(105);
 function Item(props) {
     return null;
 }
@@ -1163,7 +1163,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(25);
-var s = __webpack_require__(105);
+var s = __webpack_require__(106);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1187,7 +1187,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(111);
+var s = __webpack_require__(112);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1605,8 +1605,8 @@ var includes_1 = __webpack_require__(1);
 var collections_1 = __webpack_require__(14);
 var pages_1 = __webpack_require__(30);
 var categories_1 = __webpack_require__(31);
-var tags_1 = __webpack_require__(122);
-var menu_1 = __webpack_require__(123);
+var tags_1 = __webpack_require__(123);
+var menu_1 = __webpack_require__(124);
 var config = __webpack_require__(15);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.image, 'config.image'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2578,7 +2578,8 @@ var map = {
 	"./2017-11-30-make-up-inspirowany-obrazem-figure-dog-birds-by-joan-miro.markdown": 86,
 	"./2017-12-07-op-art-moodboard.markdown": 87,
 	"./2017-12-11-wystawa-inny-trans-atlantyk-sztuka-kinetyczna-i-op-art-w-europie-wschodniej-i-ameryce-lacinskiej-w-latach-50-70.markdown": 88,
-	"./2017-12-17-o-kolorach-fiolet.markdown": 89
+	"./2017-12-17-o-kolorach-fiolet.markdown": 89,
+	"./2017-12-21-moje-wybory-grudzien.markdown": 90
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -5851,6 +5852,63 @@ var raw = exports.raw = "\nTak! Już jest! Kolorem roku 2018 według Pantone zos
 
 /***/ }),
 /* 90 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(1).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'olela-narrative',
+      null,
+      'Zima to czas, kiedy wszystko w przyrodzie zasypia, aby wraz z nadej\u015Bciem wiosny obudzi\u0107 si\u0119 w pe\u0142ni si\u0142. Podobnie jest np. z nasz\u0105 sk\xF3r\u0105, dlatego tak wa\u017Cne jest, aby odpowiednio o ni\u0105 zadba\u0107. Niech nie zwiod\u0105 naszych zmys\u0142\xF3w te ciemne miesi\u0105ce, pobud\u017Amy je aromatem \u015Bwi\u0105tecznych potraw i zapachem ulubionych perfum. Czas sp\u0119dzony w gronie najbli\u017Cszych niech b\u0119dzie czasem wzajemnych inspiracji i opowie\u015Bci o niedawno przeczytanych ksi\u0105\u017Ckach i obejrzanych filmach. Sen jest teraz niezwykle wa\u017Cnym elementem dobrego samopoczucia, dlatego wysypiajmy swoje cia\u0142o zgodnie z jego potrzebami. S\u0142uchajmy nie tylko swoich najbli\u017Cszych, ale przede wszystkim siebie, siebie wewn\u0119trznego. Jest jednak jedna rzecz, kt\xF3rej za wszelk\u0105 cen\u0119 nie mo\u017Cemy da\u0107 zasn\u0105\u0107: nasza ciekawo\u015B\u0107. Niech budzi si\u0119 w Nas coraz wi\u0119ksza ka\u017Cdego dnia. Razem z ni\u0105 odkrywajmy uroki \u017Cycia.'
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Perfumy'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Zima to zdecydowanie okres ci\u0119\u017Cszych, s\u0142odszych zapach\xF3w. Z bia\u0142ymi wieczorami kojarz\u0105 mi si\u0119: wanilia, pi\u017Cmo, drzewo sanda\u0142owe, migda\u0142, ale te\u017C pomara\u0144cza. Idealnym po\u0142\u0105czeniem \u015Bwie\u017Co\u015Bci cytrus\xF3w, kt\xF3re przypominaj\u0105 nam o minionym lecie i subtelnej melancholii coraz to ni\u017Cszych temperatur jest w moim odczuciu zapach Because It\u2019s You Emporio Armani marki Giorgio Armani. Na pierwszym spotkaniu s\u0105 wyra\u017Anie cytrusowo-kwiatowe, nutami g\u0142owy jest malina, cytryna, neroli. Jednak ju\u017C za chwil\u0119 jeste\u015Bmy w stanie bardzo wyra\u017Anie odczu\u0107 ich baz\u0119: wanili\u0119, drzewo bursztynowe i pi\u017Cmo. Tworz\u0105 idealne po\u0142\u0105czenie z kaszmirowym swetrem jak i wieczorow\u0105 sukienk\u0105. Polecam zimowo.'
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Moje wybory: grudzień", "date": "2017-12-21T14:33:00.000Z", "categories": ["Sztuka Ubioru"], "tags": ["wybory", "inspiracje", "zima", "perfumy", "książka", "kosmetyk", "torebka"] };
+var body = exports.body = "<olela-narrative>\nZima to czas, kiedy wszystko w przyrodzie zasypia, aby wraz z nadejściem wiosny obudzić się w pełni sił. Podobnie jest np. z naszą skórą, dlatego tak ważne jest, aby odpowiednio o nią zadbać. Niech nie zwiodą naszych zmysłów te ciemne miesiące, pobudźmy je aromatem świątecznych potraw i zapachem ulubionych perfum. Czas spędzony w gronie najbliższych niech będzie czasem wzajemnych inspiracji i opowieści o niedawno przeczytanych książkach i obejrzanych filmach. Sen jest teraz niezwykle ważnym elementem dobrego samopoczucia, dlatego wysypiajmy swoje ciało zgodnie z jego potrzebami. Słuchajmy nie tylko swoich najbliższych, ale przede wszystkim siebie, siebie wewnętrznego. Jest jednak jedna rzecz, której za wszelką cenę nie możemy dać zasnąć: nasza ciekawość. Niech budzi się w Nas coraz większa każdego dnia. Razem z nią odkrywajmy uroki życia.\n</olela-narrative>\n<h2>Perfumy</h2>\n<p>Zima to zdecydowanie okres cięższych, słodszych zapachów. Z białymi wieczorami kojarzą mi się: wanilia, piżmo, drzewo sandałowe, migdał, ale też pomarańcza. Idealnym połączeniem świeżości cytrusów, które przypominają nam o minionym lecie i subtelnej melancholii coraz to niższych temperatur jest w moim odczuciu zapach Because It’s You Emporio Armani marki Giorgio Armani. Na pierwszym spotkaniu są wyraźnie cytrusowo-kwiatowe, nutami głowy jest malina, cytryna, neroli. Jednak już za chwilę jesteśmy w stanie bardzo wyraźnie odczuć ich bazę: wanilię, drzewo bursztynowe i piżmo. Tworzą idealne połączenie z kaszmirowym swetrem jak i wieczorową sukienką. Polecam zimowo.</p>\n";
+var raw = exports.raw = "\n<olela-narrative>\nZima to czas, kiedy wszystko w przyrodzie zasypia, aby wraz z nadejściem wiosny obudzić się w pełni sił. Podobnie jest np. z naszą skórą, dlatego tak ważne jest, aby odpowiednio o nią zadbać. Niech nie zwiodą naszych zmysłów te ciemne miesiące, pobudźmy je aromatem świątecznych potraw i zapachem ulubionych perfum. Czas spędzony w gronie najbliższych niech będzie czasem wzajemnych inspiracji i opowieści o niedawno przeczytanych książkach i obejrzanych filmach. Sen jest teraz niezwykle ważnym elementem dobrego samopoczucia, dlatego wysypiajmy swoje ciało zgodnie z jego potrzebami. Słuchajmy nie tylko swoich najbliższych, ale przede wszystkim siebie, siebie wewnętrznego. Jest jednak jedna rzecz, której za wszelką cenę nie możemy dać zasnąć: nasza ciekawość. Niech budzi się w Nas coraz większa każdego dnia. Razem z nią odkrywajmy uroki życia.\n</olela-narrative>\n\n## Perfumy\n\nZima to zdecydowanie okres cięższych, słodszych zapachów. Z białymi wieczorami kojarzą mi się: wanilia, piżmo, drzewo sandałowe, migdał, ale też pomarańcza. Idealnym połączeniem świeżości cytrusów, które przypominają nam o minionym lecie i subtelnej melancholii coraz to niższych temperatur jest w moim odczuciu zapach Because It’s You Emporio Armani marki Giorgio Armani. Na pierwszym spotkaniu są wyraźnie cytrusowo-kwiatowe, nutami głowy jest malina, cytryna, neroli. Jednak już za chwilę jesteśmy w stanie bardzo wyraźnie odczuć ich bazę: wanilię, drzewo bursztynowe i piżmo. Tworzą idealne połączenie z kaszmirowym swetrem jak i wieczorową sukienką. Polecam zimowo.";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+
+/***/ }),
+/* 91 */
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -5859,10 +5917,10 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 90;
+webpackEmptyContext.id = 91;
 
 /***/ }),
-/* 91 */
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -5883,19 +5941,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 91;
+webpackContext.id = 92;
 
 /***/ }),
-/* 92 */
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(93);
+module.exports = __webpack_require__(94);
 
 /***/ }),
-/* 93 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5913,7 +5971,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(94);
+var _propTypes = __webpack_require__(95);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -6117,13 +6175,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 94 */
+/* 95 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_94__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_95__;
 
 /***/ }),
-/* 95 */
+/* 96 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6137,7 +6195,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 96 */
+/* 97 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6145,7 +6203,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 97 */
+/* 98 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6158,7 +6216,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 98 */
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6192,7 +6250,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 99 */
+/* 100 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6205,7 +6263,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 100 */
+/* 101 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6214,7 +6272,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 101 */
+/* 102 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6222,7 +6280,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 102 */
+/* 103 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6230,7 +6288,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 103 */
+/* 104 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6245,7 +6303,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 104 */
+/* 105 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6260,7 +6318,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 105 */
+/* 106 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6275,7 +6333,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 106 */
+/* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6299,7 +6357,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(107);
+var s = __webpack_require__(108);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -6330,7 +6388,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 107 */
+/* 108 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6338,7 +6396,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6357,7 +6415,7 @@ exports.gtag = gtag;
 exports.default = gtag;
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6379,7 +6437,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6430,7 +6488,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6438,7 +6496,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6447,7 +6505,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(113);
+var s = __webpack_require__(114);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -6480,7 +6538,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6490,22 +6548,22 @@ module.exports = {
 };
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 116,
-	"./Feed.js": 117,
-	"./Ingredient.js": 118,
-	"./Method.js": 119,
-	"./Recipe.js": 120,
-	"./TableOfContents.js": 121
+	"./Crumbs.js": 117,
+	"./Feed.js": 118,
+	"./Ingredient.js": 119,
+	"./Method.js": 120,
+	"./Recipe.js": 121,
+	"./TableOfContents.js": 122
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -6521,10 +6579,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 115;
+webpackContext.id = 116;
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6539,7 +6597,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6554,7 +6612,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6569,7 +6627,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6584,7 +6642,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6599,7 +6657,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6614,7 +6672,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6638,7 +6696,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
