@@ -835,7 +835,7 @@ var ParrotLayout = /** @class */function (_super) {
             website = _a.website,
             page = _a.page;
         var Body = page.body;
-        return React.createElement("div", { id: s.all }, React.createElement("div", { className: s.header }, React.createElement(TopBar_1.default, { website: website, page: page, onMenuClick: this.showMenu })), React.createElement("div", { className: s.main }, jumbotronFor(website, page), React.createElement("main", null, maybeRenderTitle(website, page), React.createElement(Body, { website: website, page: page }), React.createElement("div", { className: s.bottomLike }, React.createElement(FacebookLike_1.default, { url: "" + website.baseUrl + page.url })))), maybeRenderComments(page), React.createElement("div", { className: s.footer + " contrast" }, React.createElement(Footer_1.default, { website: website, page: page }), React.createElement("div", { className: s.bottom }, React.createElement("div", { className: s.logo }, React.createElement(Logo_1.default, { variant: 'full' })))), React.createElement("div", { className: s.sideMenu + " " + this.state.sideMenuClassName, onClick: this.hideMenu }, React.createElement(SideMenu_1.default, { visible: this.state.sideMenuClassName === s.visible, onCloseRequested: function onCloseRequested() {
+        return React.createElement("div", { id: s.all }, React.createElement("div", { className: s.header }, React.createElement(TopBar_1.default, { website: website, page: page, onMenuClick: this.showMenu })), React.createElement("div", { className: s.main }, jumbotronFor(website, page), React.createElement("main", null, maybeRenderTitle(website, page), React.createElement(Body, { website: website, page: page }), React.createElement("div", { className: s.bottomLike }, React.createElement(FacebookLike_1.default, { url: "" + website.baseUrl + page.url })))), maybeRenderComments(page), React.createElement("div", { className: s.footer + " contrast" }, React.createElement(Footer_1.default, { website: website, page: page }), React.createElement("div", { className: s.bottom }, React.createElement("div", { className: s.content }, React.createElement("div", { className: s.zblogowani }, React.createElement("a", { href: 'https://zblogowani.pl/', title: 'Sprawdź serwis zBLOGowani.pl!' }, React.createElement("img", { src: '//zblogowani.pl/code/160x50/silver/341338/btn.png', alt: 'zBLOGowani.pl' }))), React.createElement("div", { className: s.logo }, React.createElement(Logo_1.default, { variant: 'full' }))))), React.createElement("div", { className: s.sideMenu + " " + this.state.sideMenuClassName, onClick: this.hideMenu }, React.createElement(SideMenu_1.default, { visible: this.state.sideMenuClassName === s.visible, onCloseRequested: function onCloseRequested() {
                 return _this.hideMenu();
             }, onClosed: function onClosed() {
                 return _this.disableMenu();
@@ -6533,7 +6533,7 @@ exports.default = gtag;
 module.exports = {
   "main": "main-2EmuK",
   "bottom": "bottom-qaW5p",
-  "logo": "logo-2wc3f",
+  "content": "content-3-Spa",
   "comments": "comments-U6lN7",
   "menuEntryJumbo": "menuEntryJumbo-1gAPA",
   "tagJumbo": "tagJumbo-2y6Er",
@@ -6543,6 +6543,8 @@ module.exports = {
   "bottomLike": "bottomLike-1iw1L",
   "disqus_thread": "disqus_thread-1jnRb",
   "footer": "footer-3r5Xl",
+  "zblogowani": "zblogowani-Zrc7Z",
+  "logo": "logo-2wc3f",
   "sideMenu": "sideMenu-3RB85",
   "visible": "visible-202JZ",
   "closed": "closed-3xC98"
