@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-dom"), require("react-router-dom"), require("react-dom/server"), require("prop-types")) : factory(root["React"], root["ReactDOM"], root["ReactRouterDOM"], root["ReactDOMServer"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_34__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_16__, __WEBPACK_EXTERNAL_MODULE_95__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_34__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_16__, __WEBPACK_EXTERNAL_MODULE_96__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(23);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(111);
+var Feed_1 = __webpack_require__(112);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(24);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(21);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(113);
+var Recipe_1 = __webpack_require__(114);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -306,7 +306,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(96);
+var s = __webpack_require__(97);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -351,7 +351,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(97);
+var s = __webpack_require__(98);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -453,9 +453,9 @@ module.exports = {
 CATEGORIES: __webpack_require__(50),
 PAGES: __webpack_require__(55),
 POSTS: __webpack_require__(61),
-ROOT: __webpack_require__(91),
-LAYOUTS: __webpack_require__(92),
-INCLUDES: __webpack_require__(116)};
+ROOT: __webpack_require__(92),
+LAYOUTS: __webpack_require__(93),
+INCLUDES: __webpack_require__(117)};
 
 
 /***/ }),
@@ -467,7 +467,7 @@ INCLUDES: __webpack_require__(116)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(98);
+var s = __webpack_require__(99);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -517,7 +517,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(102);
+var s = __webpack_require__(103);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -751,7 +751,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(115);
+__webpack_require__(116);
 
 
 
@@ -791,7 +791,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(93);
+var react_disqus_comments_1 = __webpack_require__(94);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(22);
 var Crumbs_1 = __webpack_require__(23);
@@ -801,9 +801,9 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(26);
 var Jumbotron_1 = __webpack_require__(27);
-var FacebookLike_1 = __webpack_require__(107);
-var gtag_1 = __webpack_require__(109);
-var s = __webpack_require__(110);
+var FacebookLike_1 = __webpack_require__(108);
+var gtag_1 = __webpack_require__(110);
+var s = __webpack_require__(111);
 var GA_TRACKING_ID = 'UA-110945340-1';
 gtag_1.default('js', new Date());
 gtag_1.default('config', GA_TRACKING_ID, { 'send_page_view': false });
@@ -925,8 +925,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(99);
-var s = __webpack_require__(100);
+__webpack_require__(100);
+var s = __webpack_require__(101);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -956,7 +956,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(101);
+var s = __webpack_require__(102);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1001,7 +1001,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(25);
-var s = __webpack_require__(104);
+var s = __webpack_require__(105);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1035,7 +1035,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(103);
+var s = __webpack_require__(104);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1080,7 +1080,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(105);
+var s = __webpack_require__(106);
 function Item(props) {
     return null;
 }
@@ -1163,7 +1163,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(25);
-var s = __webpack_require__(106);
+var s = __webpack_require__(107);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1187,7 +1187,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(112);
+var s = __webpack_require__(113);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1605,8 +1605,8 @@ var includes_1 = __webpack_require__(1);
 var collections_1 = __webpack_require__(14);
 var pages_1 = __webpack_require__(30);
 var categories_1 = __webpack_require__(31);
-var tags_1 = __webpack_require__(123);
-var menu_1 = __webpack_require__(124);
+var tags_1 = __webpack_require__(124);
+var menu_1 = __webpack_require__(125);
 var config = __webpack_require__(15);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.image, 'config.image'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2579,7 +2579,8 @@ var map = {
 	"./2017-12-07-op-art-moodboard.markdown": 87,
 	"./2017-12-11-wystawa-inny-trans-atlantyk-sztuka-kinetyczna-i-op-art-w-europie-wschodniej-i-ameryce-lacinskiej-w-latach-50-70.markdown": 88,
 	"./2017-12-17-o-kolorach-fiolet.markdown": 89,
-	"./2017-12-21-moje-wybory-grudzien.markdown": 90
+	"./2017-12-21-moje-wybory-grudzien.markdown": 90,
+	"./2017-12-31-kolagen.markdown": 91
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -6021,6 +6022,72 @@ var raw = exports.raw = "\n<olela-narrative>\nZima to czas, kiedy wszystko w prz
 
 /***/ }),
 /* 91 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(1).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/6824416/ello-optimized-7218aa5a.jpg', alt: 'Zdj\u0119cie przedstawia portret m\u0142odej kobiety. Prawa cz\u0119\u015B\u0107 twarzy o\u015Bwietlona jest r\xF3\u017Cowym \u015Bwiat\u0142em, kobieta ma przyklejone usta z papieru, ca\u0142o\u015B\u0107 na \u017C\xF3\u0142tym tle.' })
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Tego dnia budzik nie zadzwoni\u0142. Cho\u0107 da\u0142o si\u0119 ule\u0107 wra\u017Ceniu, \u017Ce \u015Bpi twardo jak kamie\u0144, jej sen przypomina\u0142 raczej k\u0142\u0119bek kr\xF3liczych w\u0142os\xF3w wyczesanych nerwowo Tangle Teezer\u2019em. A we \u015Bnie dzia\u0142o si\u0119 wszystko to, czego nie mog\u0142a do\u015Bwiadczy\u0107 na jawie. Spada\u0142a w d\xF3\u0142, lecz owe spadanie by\u0142o jak najpi\u0119kniejszy lot. Unosi\u0142y j\u0105 niewidzialne skrzyd\u0142a, wiatr delikatnie muska\u0142 rumiany policzek. A kiedy ju\u017C przysz\u0142o do upadku, po kt\xF3rym wi\u0119kszo\u015B\u0107 z nas wraca z powrotem do realnego \u015Bwiata, ona zanurzy\u0142a si\u0119 w ogromnej satynowej poduszce, mi\u0119kko\u015Bci\u0105 sw\u0105 przypominaj\u0105cej cumulusa. Satyna to by\u0142a niebylejaka \u2013 b\u0142\u0119kitna, odcieniem sta\u0142a blisko kobaltu, lecz dotyku nie spos\xF3b opisa\u0107 s\u0142owami. Dooko\u0142a pachnia\u0142o baklaw\u0105 i miodem z orzeszkami. Przetar\u0142a oczy wierzchem d\u0142oni i natychmiast zorientowa\u0142a si\u0119, \u017Ce p\u0142ynie wraz z pr\u0105dem rzeki, na tej poduszce - tratwie. By\u0142o to co\u015B, przypominaj\u0105ce podziemn\u0105 jaskini\u0119, jednak ze \u015Bcian, zamiast wody sp\u0142ywa\u0142y warkocze l\u015Bni\u0105cych w\u0142os\xF3w. Niewiele my\u015Bl\u0105c chwyci\u0142a jeden z nich.'
+    ),
+    _react2.default.createElement(
+      'ul',
+      null,
+      _react2.default.createElement(
+        'li',
+        null,
+        'Jak dobrze, \u017Ce by\u0142am par\u0119 razy w \u017Cyciu na \u015Bciance wspinaczkowej \u2013 pomy\u015Bla\u0142a w duchu. Mocnym chwytem zr\u0119cznej d\u0142oni wspina\u0142a si\u0119 coraz wy\u017Cej i wy\u017Cej. Coraz wy\u017Cej i wy\u017Cej... Podr\xF3\u017C zda\u0142a si\u0119 nie mie\u0107 ko\u0144ca, kiedy to nagle szum wody usta\u0142, a po chwili tej kompletnej ciszy rozleg\u0142 si\u0119 g\u0142o\u015Bny d\u017Awi\u0119k puzonu. Zaraz obok puzonu da\u0142o si\u0119 s\u0142ysze\u0107 werbel, o kt\xF3rym ostentacyjnie swoj\u0105 mow\u0119 wyg\u0142osi\u0142a stopa. Puzon zamilk\u0142 speszony, a sytuacje wykorzysta\u0142a tr\u0105bka maluj\u0105c swoj\u0105 polirytmi\u0119 na kszta\u0142t kubistycznego dzie\u0142a sztuki. Z ka\u017Cd\u0105 sekund\u0105 tej muzycznej orgii, niczym nieprzypominaj\u0105cej harmonijnego utworu, traci\u0142a zmys\u0142y. Zmys\u0142y zmienia\u0142y si\u0119 w szklane kule i ulatywa\u0142y do g\xF3ry, \u017Ceby zaraz p\u0119kn\u0105\u0107 niczym mydlana ba\u0144ka, do produkcji kt\xF3rej u\u017Cyto marnej jako\u015Bci p\u0142ynu do mycia naczy\u0144. Wraz z p\u0119kni\u0119ciem najwi\u0119kszej ba\u0144ki p\u0119k\u0142 tak\u017Ce sen.'
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/6824418/ello-optimized-4a08c53a.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia r\xF3\u017Cnej wielko\u015Bci, na jednym widzimy twarz kobiety o\u015Bwietlon\u0105 czerwonym \u015Bwiat\u0142em. Na mniejszym, pod\u0142u\u017Cnym zdj\u0119ciu poni\u017Cej widzimy czerwone usta.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Kolagen", "date": "2017-12-31T17:08:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["kolagen", "kobieta", "sztuka", "kreacja", "portret", "kolaż"] };
+var body = exports.body = "<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6824416/ello-optimized-7218aa5a.jpg\" alt=\"Zdjęcie przedstawia portret młodej kobiety. Prawa część twarzy oświetlona jest różowym światłem, kobieta ma przyklejone usta z papieru, całość na żółtym tle.\" /></p>\n<p>Tego dnia budzik nie zadzwonił. Choć dało się uleć wrażeniu, że śpi twardo jak kamień, jej sen przypominał raczej kłębek króliczych włosów wyczesanych nerwowo Tangle Teezer’em. A we śnie działo się wszystko to, czego nie mogła doświadczyć na jawie. Spadała w dół, lecz owe spadanie było jak najpiękniejszy lot. Unosiły ją niewidzialne skrzydła, wiatr delikatnie muskał rumiany policzek. A kiedy już przyszło do upadku, po którym większość z nas wraca z powrotem do realnego świata, ona zanurzyła się w ogromnej satynowej poduszce, miękkością swą przypominającej cumulusa. Satyna to była niebylejaka – błękitna, odcieniem stała blisko kobaltu, lecz dotyku nie sposób opisać słowami. Dookoła pachniało baklawą i miodem z orzeszkami.\nPrzetarła oczy wierzchem dłoni i natychmiast zorientowała się, że płynie wraz z prądem rzeki, na tej poduszce - tratwie. Było to coś, przypominające podziemną jaskinię, jednak ze ścian, zamiast wody spływały warkocze lśniących włosów. Niewiele myśląc chwyciła jeden z nich.</p>\n<ul>\n<li>Jak dobrze, że byłam parę razy w życiu na ściance wspinaczkowej – pomyślała w duchu.\nMocnym chwytem zręcznej dłoni wspinała się coraz wyżej i wyżej. Coraz wyżej i wyżej... Podróż zdała się nie mieć końca, kiedy to nagle szum wody ustał, a po chwili tej kompletnej ciszy rozległ się głośny dźwięk puzonu. Zaraz obok puzonu dało się słyszeć werbel, o którym ostentacyjnie swoją mowę wygłosiła stopa. Puzon zamilkł speszony, a sytuacje wykorzystała trąbka malując swoją polirytmię na kształt kubistycznego dzieła sztuki. Z każdą sekundą tej muzycznej orgii, niczym nieprzypominającej harmonijnego utworu, traciła zmysły. Zmysły zmieniały się w szklane kule i ulatywały do góry, żeby zaraz pęknąć niczym mydlana bańka, do produkcji której użyto marnej jakości płynu do mycia naczyń. Wraz z pęknięciem największej bańki pękł także sen.</li>\n</ul>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6824418/ello-optimized-4a08c53a.jpg\" alt=\"Obraz przedstawia dwa zdjęcia różnej wielkości, na jednym widzimy twarz kobiety oświetloną czerwonym światłem. Na mniejszym, podłużnym zdjęciu poniżej widzimy czerwone usta.\" /></p>\n";
+var raw = exports.raw = "\n![Zdjęcie przedstawia portret młodej kobiety. Prawa część twarzy oświetlona jest różowym światłem, kobieta ma przyklejone usta z papieru, całość na żółtym tle.](https://assets1.ello.co/uploads/asset/attachment/6824416/ello-optimized-7218aa5a.jpg)\n\nTego dnia budzik nie zadzwonił. Choć dało się uleć wrażeniu, że śpi twardo jak kamień, jej sen przypominał raczej kłębek króliczych włosów wyczesanych nerwowo Tangle Teezer’em. A we śnie działo się wszystko to, czego nie mogła doświadczyć na jawie. Spadała w dół, lecz owe spadanie było jak najpiękniejszy lot. Unosiły ją niewidzialne skrzydła, wiatr delikatnie muskał rumiany policzek. A kiedy już przyszło do upadku, po którym większość z nas wraca z powrotem do realnego świata, ona zanurzyła się w ogromnej satynowej poduszce, miękkością swą przypominającej cumulusa. Satyna to była niebylejaka – błękitna, odcieniem stała blisko kobaltu, lecz dotyku nie sposób opisać słowami. Dookoła pachniało baklawą i miodem z orzeszkami.\nPrzetarła oczy wierzchem dłoni i natychmiast zorientowała się, że płynie wraz z prądem rzeki, na tej poduszce - tratwie. Było to coś, przypominające podziemną jaskinię, jednak ze ścian, zamiast wody spływały warkocze lśniących włosów. Niewiele myśląc chwyciła jeden z nich.\n- Jak dobrze, że byłam parę razy w życiu na ściance wspinaczkowej – pomyślała w duchu.\nMocnym chwytem zręcznej dłoni wspinała się coraz wyżej i wyżej. Coraz wyżej i wyżej… Podróż zdała się nie mieć końca, kiedy to nagle szum wody ustał, a po chwili tej kompletnej ciszy rozległ się głośny dźwięk puzonu. Zaraz obok puzonu dało się słyszeć werbel, o którym ostentacyjnie swoją mowę wygłosiła stopa. Puzon zamilkł speszony, a sytuacje wykorzystała trąbka malując swoją polirytmię na kształt kubistycznego dzieła sztuki. Z każdą sekundą tej muzycznej orgii, niczym nieprzypominającej harmonijnego utworu, traciła zmysły. Zmysły zmieniały się w szklane kule i ulatywały do góry, żeby zaraz pęknąć niczym mydlana bańka, do produkcji której użyto marnej jakości płynu do mycia naczyń. Wraz z pęknięciem największej bańki pękł także sen.\n\n![Obraz przedstawia dwa zdjęcia różnej wielkości, na jednym widzimy twarz kobiety oświetloną czerwonym światłem. Na mniejszym, podłużnym zdjęciu poniżej widzimy czerwone usta.](https://assets1.ello.co/uploads/asset/attachment/6824418/ello-optimized-4a08c53a.jpg)\n\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+
+/***/ }),
+/* 92 */
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -6029,10 +6096,10 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 91;
+webpackEmptyContext.id = 92;
 
 /***/ }),
-/* 92 */
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -6053,19 +6120,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 92;
+webpackContext.id = 93;
 
 /***/ }),
-/* 93 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(94);
+module.exports = __webpack_require__(95);
 
 /***/ }),
-/* 94 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6083,7 +6150,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(95);
+var _propTypes = __webpack_require__(96);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -6287,13 +6354,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 95 */
+/* 96 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_95__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_96__;
 
 /***/ }),
-/* 96 */
+/* 97 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6307,7 +6374,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 97 */
+/* 98 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6315,7 +6382,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 98 */
+/* 99 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6328,7 +6395,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 99 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6362,7 +6429,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 100 */
+/* 101 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6375,7 +6442,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 101 */
+/* 102 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6384,7 +6451,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 102 */
+/* 103 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6392,7 +6459,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 103 */
+/* 104 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6400,7 +6467,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 104 */
+/* 105 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6415,7 +6482,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 105 */
+/* 106 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6430,7 +6497,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 106 */
+/* 107 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6445,7 +6512,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 107 */
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6469,7 +6536,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(108);
+var s = __webpack_require__(109);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -6500,7 +6567,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6508,7 +6575,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6527,7 +6594,7 @@ exports.gtag = gtag;
 exports.default = gtag;
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6551,7 +6618,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6602,7 +6669,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6610,7 +6677,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6619,7 +6686,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(114);
+var s = __webpack_require__(115);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -6652,7 +6719,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6662,22 +6729,22 @@ module.exports = {
 };
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 117,
-	"./Feed.js": 118,
-	"./Ingredient.js": 119,
-	"./Method.js": 120,
-	"./Recipe.js": 121,
-	"./TableOfContents.js": 122
+	"./Crumbs.js": 118,
+	"./Feed.js": 119,
+	"./Ingredient.js": 120,
+	"./Method.js": 121,
+	"./Recipe.js": 122,
+	"./TableOfContents.js": 123
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -6693,10 +6760,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 116;
+webpackContext.id = 117;
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6711,7 +6778,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6726,7 +6793,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6741,7 +6808,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6756,7 +6823,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6771,7 +6838,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6786,7 +6853,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6810,7 +6877,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
