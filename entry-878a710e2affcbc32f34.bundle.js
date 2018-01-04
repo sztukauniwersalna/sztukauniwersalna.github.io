@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-dom"), require("react-router-dom"), require("react-dom/server"), require("prop-types")) : factory(root["React"], root["ReactDOM"], root["ReactRouterDOM"], root["ReactDOMServer"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_34__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_16__, __WEBPACK_EXTERNAL_MODULE_96__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_34__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_16__, __WEBPACK_EXTERNAL_MODULE_97__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(23);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(112);
+var Feed_1 = __webpack_require__(113);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(24);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(21);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(114);
+var Recipe_1 = __webpack_require__(115);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -306,7 +306,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(97);
+var s = __webpack_require__(98);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -351,7 +351,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(98);
+var s = __webpack_require__(99);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -453,9 +453,9 @@ module.exports = {
 CATEGORIES: __webpack_require__(50),
 PAGES: __webpack_require__(55),
 POSTS: __webpack_require__(61),
-ROOT: __webpack_require__(92),
-LAYOUTS: __webpack_require__(93),
-INCLUDES: __webpack_require__(117)};
+ROOT: __webpack_require__(93),
+LAYOUTS: __webpack_require__(94),
+INCLUDES: __webpack_require__(118)};
 
 
 /***/ }),
@@ -467,7 +467,7 @@ INCLUDES: __webpack_require__(117)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(99);
+var s = __webpack_require__(100);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -517,7 +517,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(103);
+var s = __webpack_require__(104);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -751,7 +751,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(116);
+__webpack_require__(117);
 
 
 
@@ -791,7 +791,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(94);
+var react_disqus_comments_1 = __webpack_require__(95);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(22);
 var Crumbs_1 = __webpack_require__(23);
@@ -801,9 +801,9 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(26);
 var Jumbotron_1 = __webpack_require__(27);
-var FacebookLike_1 = __webpack_require__(108);
-var gtag_1 = __webpack_require__(110);
-var s = __webpack_require__(111);
+var FacebookLike_1 = __webpack_require__(109);
+var gtag_1 = __webpack_require__(111);
+var s = __webpack_require__(112);
 var GA_TRACKING_ID = 'UA-110945340-1';
 gtag_1.default('js', new Date());
 gtag_1.default('config', GA_TRACKING_ID, { 'send_page_view': false });
@@ -925,8 +925,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(100);
-var s = __webpack_require__(101);
+__webpack_require__(101);
+var s = __webpack_require__(102);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -956,7 +956,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(102);
+var s = __webpack_require__(103);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1001,7 +1001,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(25);
-var s = __webpack_require__(105);
+var s = __webpack_require__(106);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1035,7 +1035,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(104);
+var s = __webpack_require__(105);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1080,7 +1080,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(106);
+var s = __webpack_require__(107);
 function Item(props) {
     return null;
 }
@@ -1163,7 +1163,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(25);
-var s = __webpack_require__(107);
+var s = __webpack_require__(108);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1187,7 +1187,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(113);
+var s = __webpack_require__(114);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1605,8 +1605,8 @@ var includes_1 = __webpack_require__(1);
 var collections_1 = __webpack_require__(14);
 var pages_1 = __webpack_require__(30);
 var categories_1 = __webpack_require__(31);
-var tags_1 = __webpack_require__(124);
-var menu_1 = __webpack_require__(125);
+var tags_1 = __webpack_require__(125);
+var menu_1 = __webpack_require__(126);
 var config = __webpack_require__(15);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.image, 'config.image'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2580,7 +2580,8 @@ var map = {
 	"./2017-12-11-wystawa-inny-trans-atlantyk-sztuka-kinetyczna-i-op-art-w-europie-wschodniej-i-ameryce-lacinskiej-w-latach-50-70.markdown": 88,
 	"./2017-12-17-o-kolorach-fiolet.markdown": 89,
 	"./2017-12-21-moje-wybory-grudzien.markdown": 90,
-	"./2017-12-31-kolagen.markdown": 91
+	"./2017-12-31-kolagen.markdown": 91,
+	"./2018-01-04-ekspresjonizm-abstrakcyjny-moodboard.markdown": 92
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -6137,6 +6138,53 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia portret młodej kobiety. Prawa
 
 /***/ }),
 /* 92 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(1).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'olela-narrative',
+      null,
+      'Nazwa z\u0142o\u017Cona z dw\xF3ch nazw \u2013 ekspresjonizm abstrakcyjny. Ekspresja (\u0142ac. exspressio \u2013 wyciskanie soku), czyli uzewn\u0119trznienie, wyraz. Obecna od najm\u0142odszych lat, cz\u0119sto nieu\u015Bwiadomiona \u2013 ekspresja mimiki, ekspresja s\u0142owna, wszystkie gesty sk\u0142adaj\u0105ce si\u0119 na obraz naszych emocji i wewn\u0119trznych prze\u017Cy\u0107. Abstrakcja (\u0142ac. abstractio \u2013 oderwanie ), forma pozbawiona cech ilustracyjno\u015Bci, nieprzedstawiaj\u0105ca. W jednym zdaniu: ekspresjonizm abstrakcyjny to spontaniczny (w pewnym sensie r\xF3wnie\u017C automatyczny/pod\u015Bwiadomy) akt tw\xF3rczy, \u0142\u0105cz\u0105cy w sobie ch\u0119\u0107 samowyra\u017Cenia z antyfiguratywn\u0105 estetyk\u0105. Termin ten dotyczy g\u0142\xF3wnie tzw. \u201ESzko\u0142y Nowojorskiej\u201D, gdzie w latach 40-tych XX wieku mia\u0142 szans\u0119 zaistnie\u0107 pod wp\u0142ywem nowoczesnego malarstwa europejskiego. W jej obr\u0119bie wyr\xF3\u017Cniamy g\u0142\xF3wne nurty tj: * \u2018action painting\u2019 (tutaj znajdziesz moodboard, kt\xF3ry przybli\u017Cy temat) \u2013 malarstwo gestu. S\u0142ynne \u2018chlapanie po p\u0142\xF3tnie\u2019 Jacksona Pollocka. Odwo\u0142uje si\u0119 do spontanicznej \u0142aski tworzenia i pod\u015Bwiadomej si\u0142y wyrazu artysty. * \u2018color field painting\u2019 - malarstwo p\u0142aszczyzn, kt\xF3rego kr\xF3lem jest Mark Rothko. Barwy rozpo\u015Bcieraj\u0105ce swoj\u0105 energi\u0119 na wielkich p\u0142aszczyznach (polach) p\u0142\xF3tna. Kiedy stoi si\u0119 przed dzie\u0142em w odpowiedniej odleg\u0142o\u015Bci ma si\u0119 wra\u017Cenie \u2018zaw\u0142aszczenia\u2019 przez dzie\u0142o, a pozornie jednolita p\u0142aszczyzna zaczyna wibrowa\u0107 i przybli\u017Ca nas do swoistego rodzaju uczucia transcendencji.'
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Ekspresjonizm_abstrakcyjny [moodboard]", "date": "2018-01-04T11:27:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["ekspresjonizm", "abstrakcyjny", "moodboard", "ekspresja", "abstrakcja", "szkoła nowojorska", "sztuka", "artysta", "kreacja"] };
+var body = exports.body = "<olela-narrative>\nNazwa złożona z dwóch nazw – ekspresjonizm abstrakcyjny. Ekspresja (łac. exspressio – wyciskanie soku), czyli uzewnętrznienie, wyraz. Obecna od najmłodszych lat, często nieuświadomiona – ekspresja mimiki, ekspresja słowna, wszystkie gesty składające się na obraz naszych emocji i wewnętrznych przeżyć. Abstrakcja (łac. abstractio – oderwanie ), forma pozbawiona cech ilustracyjności, nieprzedstawiająca. W jednym zdaniu: ekspresjonizm abstrakcyjny to spontaniczny (w pewnym sensie również automatyczny/podświadomy) akt twórczy, łączący w sobie chęć samowyrażenia z antyfiguratywną estetyką. Termin ten dotyczy głównie tzw. „Szkoły Nowojorskiej”, gdzie w latach 40-tych XX wieku miał szansę zaistnieć pod wpływem nowoczesnego malarstwa europejskiego. W jej obrębie wyróżniamy główne nurty tj: \n* ‘action painting’ (tutaj znajdziesz moodboard, który przybliży temat) – malarstwo gestu. Słynne ‘chlapanie po płótnie’ Jacksona Pollocka. Odwołuje się do spontanicznej łaski tworzenia i podświadomej siły wyrazu artysty. \n* ‘color field painting’ - malarstwo płaszczyzn, którego królem jest Mark Rothko. Barwy rozpościerające swoją energię na wielkich płaszczyznach (polach) płótna. Kiedy stoi się przed dziełem w odpowiedniej odległości ma się wrażenie ‘zawłaszczenia’ przez dzieło, a pozornie jednolita płaszczyzna zaczyna wibrować i przybliża nas do swoistego rodzaju uczucia transcendencji.\n</olela-narrative>\n";
+var raw = exports.raw = "\n<olela-narrative>\nNazwa złożona z dwóch nazw – ekspresjonizm abstrakcyjny. Ekspresja (łac. exspressio – wyciskanie soku), czyli uzewnętrznienie, wyraz. Obecna od najmłodszych lat, często nieuświadomiona – ekspresja mimiki, ekspresja słowna, wszystkie gesty składające się na obraz naszych emocji i wewnętrznych przeżyć. Abstrakcja (łac. abstractio – oderwanie ), forma pozbawiona cech ilustracyjności, nieprzedstawiająca. W jednym zdaniu: ekspresjonizm abstrakcyjny to spontaniczny (w pewnym sensie również automatyczny/podświadomy) akt twórczy, łączący w sobie chęć samowyrażenia z antyfiguratywną estetyką. Termin ten dotyczy głównie tzw. „Szkoły Nowojorskiej”, gdzie w latach 40-tych XX wieku miał szansę zaistnieć pod wpływem nowoczesnego malarstwa europejskiego. W jej obrębie wyróżniamy główne nurty tj: \n* ‘action painting’ (tutaj znajdziesz moodboard, który przybliży temat) – malarstwo gestu. Słynne ‘chlapanie po płótnie’ Jacksona Pollocka. Odwołuje się do spontanicznej łaski tworzenia i podświadomej siły wyrazu artysty. \n* ‘color field painting’ - malarstwo płaszczyzn, którego królem jest Mark Rothko. Barwy rozpościerające swoją energię na wielkich płaszczyznach (polach) płótna. Kiedy stoi się przed dziełem w odpowiedniej odległości ma się wrażenie ‘zawłaszczenia’ przez dzieło, a pozornie jednolita płaszczyzna zaczyna wibrować i przybliża nas do swoistego rodzaju uczucia transcendencji.\n</olela-narrative>\n\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+
+/***/ }),
+/* 93 */
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -6145,10 +6193,10 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 92;
+webpackEmptyContext.id = 93;
 
 /***/ }),
-/* 93 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -6169,19 +6217,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 93;
+webpackContext.id = 94;
 
 /***/ }),
-/* 94 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(95);
+module.exports = __webpack_require__(96);
 
 /***/ }),
-/* 95 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6199,7 +6247,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(96);
+var _propTypes = __webpack_require__(97);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -6403,13 +6451,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 96 */
+/* 97 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_96__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_97__;
 
 /***/ }),
-/* 97 */
+/* 98 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6423,7 +6471,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 98 */
+/* 99 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6431,7 +6479,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 99 */
+/* 100 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6444,7 +6492,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 100 */
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6478,7 +6526,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 101 */
+/* 102 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6491,7 +6539,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 102 */
+/* 103 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6500,7 +6548,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 103 */
+/* 104 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6508,7 +6556,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 104 */
+/* 105 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6516,7 +6564,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 105 */
+/* 106 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6531,7 +6579,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 106 */
+/* 107 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6546,7 +6594,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 107 */
+/* 108 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6561,7 +6609,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6585,7 +6633,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(109);
+var s = __webpack_require__(110);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -6616,7 +6664,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6624,7 +6672,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6643,7 +6691,7 @@ exports.gtag = gtag;
 exports.default = gtag;
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6667,7 +6715,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6718,7 +6766,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6726,7 +6774,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6735,7 +6783,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(115);
+var s = __webpack_require__(116);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -6768,7 +6816,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6778,22 +6826,22 @@ module.exports = {
 };
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 118,
-	"./Feed.js": 119,
-	"./Ingredient.js": 120,
-	"./Method.js": 121,
-	"./Recipe.js": 122,
-	"./TableOfContents.js": 123
+	"./Crumbs.js": 119,
+	"./Feed.js": 120,
+	"./Ingredient.js": 121,
+	"./Method.js": 122,
+	"./Recipe.js": 123,
+	"./TableOfContents.js": 124
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -6809,10 +6857,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 117;
+webpackContext.id = 118;
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6827,7 +6875,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6842,7 +6890,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6857,7 +6905,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6872,7 +6920,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6887,7 +6935,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6902,7 +6950,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6926,7 +6974,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
