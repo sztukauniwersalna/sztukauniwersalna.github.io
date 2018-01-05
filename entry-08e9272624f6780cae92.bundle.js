@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-dom"), require("react-router-dom"), require("react-dom/server"), require("prop-types")) : factory(root["React"], root["ReactDOM"], root["ReactRouterDOM"], root["ReactDOMServer"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_34__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_16__, __WEBPACK_EXTERNAL_MODULE_97__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_34__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_16__, __WEBPACK_EXTERNAL_MODULE_98__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(23);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(113);
+var Feed_1 = __webpack_require__(114);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(24);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(21);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(115);
+var Recipe_1 = __webpack_require__(116);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -306,7 +306,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(98);
+var s = __webpack_require__(99);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -351,7 +351,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(99);
+var s = __webpack_require__(100);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -453,9 +453,9 @@ module.exports = {
 CATEGORIES: __webpack_require__(50),
 PAGES: __webpack_require__(55),
 POSTS: __webpack_require__(61),
-ROOT: __webpack_require__(93),
-LAYOUTS: __webpack_require__(94),
-INCLUDES: __webpack_require__(118)};
+ROOT: __webpack_require__(94),
+LAYOUTS: __webpack_require__(95),
+INCLUDES: __webpack_require__(119)};
 
 
 /***/ }),
@@ -467,7 +467,7 @@ INCLUDES: __webpack_require__(118)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(100);
+var s = __webpack_require__(101);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -517,7 +517,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(104);
+var s = __webpack_require__(105);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -751,7 +751,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(117);
+__webpack_require__(118);
 
 
 
@@ -791,7 +791,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(95);
+var react_disqus_comments_1 = __webpack_require__(96);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(22);
 var Crumbs_1 = __webpack_require__(23);
@@ -801,9 +801,9 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(26);
 var Jumbotron_1 = __webpack_require__(27);
-var FacebookLike_1 = __webpack_require__(109);
-var gtag_1 = __webpack_require__(111);
-var s = __webpack_require__(112);
+var FacebookLike_1 = __webpack_require__(110);
+var gtag_1 = __webpack_require__(112);
+var s = __webpack_require__(113);
 var GA_TRACKING_ID = 'UA-110945340-1';
 gtag_1.default('js', new Date());
 gtag_1.default('config', GA_TRACKING_ID, { 'send_page_view': false });
@@ -925,8 +925,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(101);
-var s = __webpack_require__(102);
+__webpack_require__(102);
+var s = __webpack_require__(103);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -956,7 +956,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(103);
+var s = __webpack_require__(104);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1001,7 +1001,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(25);
-var s = __webpack_require__(106);
+var s = __webpack_require__(107);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1035,7 +1035,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(105);
+var s = __webpack_require__(106);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1080,7 +1080,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(107);
+var s = __webpack_require__(108);
 function Item(props) {
     return null;
 }
@@ -1163,7 +1163,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(25);
-var s = __webpack_require__(108);
+var s = __webpack_require__(109);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1187,7 +1187,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(114);
+var s = __webpack_require__(115);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1605,8 +1605,8 @@ var includes_1 = __webpack_require__(1);
 var collections_1 = __webpack_require__(14);
 var pages_1 = __webpack_require__(30);
 var categories_1 = __webpack_require__(31);
-var tags_1 = __webpack_require__(125);
-var menu_1 = __webpack_require__(126);
+var tags_1 = __webpack_require__(126);
+var menu_1 = __webpack_require__(127);
 var config = __webpack_require__(15);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.image, 'config.image'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2581,7 +2581,8 @@ var map = {
 	"./2017-12-17-o-kolorach-fiolet.markdown": 89,
 	"./2017-12-21-moje-wybory-grudzien.markdown": 90,
 	"./2017-12-31-kolagen.markdown": 91,
-	"./2018-01-04-ekspresjonizm-abstrakcyjny-moodboard.markdown": 92
+	"./2018-01-04-ekspresjonizm-abstrakcyjny-moodboard.markdown": 92,
+	"./2018-01-05-smaki-zimy-vol-dot-1-kaczka-z-sosem-pomaranczowym-i-jablkami-w-tymianku.markdown": 93
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -6205,6 +6206,93 @@ var raw = exports.raw = "\n<olela-narrative>\nNazwa złożona z dwóch nazw – 
 
 /***/ }),
 /* 93 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(1).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'olela-narrative',
+      null,
+      'Sezon na pomara\u0144cze w pe\u0142ni. Chocia\u017C wed\u0142ug medycyny chi\u0144skiej ten owoc o pi\u0119knej barwie jest produktem wych\u0142adzaj\u0105cym, to jednak w po\u0142\u0105czeniu z mi\u0119sem kaczki stanowi duet idealny na ch\u0142odne dni. Zima to czas, kiedy nasz organizm na wszelkie sposoby poszukuje ciep\u0142a. Zauwa\u017Cyli\u015Bcie, \u017Ce w\u0142a\u015Bnie na pocz\u0105tku i w trakcie zimy mamy zwi\u0119kszony apetyt? Dlatego, w\u0142a\u015Bnie teraz warto jest je\u015B\u0107 dobrze rozgrzewaj\u0105ce potrawy. Nie \u017Ca\u0142ujmy tak\u017Ce przypraw. Imbir, pieprz, kurkuma, papryka, czosnek - pomog\u0105 nam utrzyma\u0107 ciep\u0142o i wzmocni\u0107 uk\u0142ad odporno\u015Bciowy. A jab\u0142ka? Wiadomo - "An apple a day keeps the doctor away" (ang. Jedno jab\u0142ko dziennie utrzyma Ci\u0119 z dala od lekarza").'
+    ),
+    _react2.default.createElement(
+      'div',
+      null,
+      _react2.default.createElement(
+        Recipe,
+        {
+          title: 'Kaczka z sosem pomara\u0144czowym i jab\u0142kami w tymianku',
+          time: '60 minut',
+          level: '\u015Bredni',
+          mealFor: '2 osoby',
+          photo: 'https://assets1.ello.co/uploads/asset/attachment/6842176/ello-optimized-553af22a.jpg',
+          altText: 'Zdj\u0119cie przedstawia bia\u0142y kwadratowy talerz z perspektywy lotu ptaka, na talerzu znajduj\u0105 si\u0119 kawa\u0142ki mi\u0119sa, pomara\u0144cze, jab\u0142ka, \u017C\xF3\u0142ty sos. Ca\u0142o\u015B\u0107 na bia\u0142ym tle.'
+        },
+        _react2.default.createElement(Ingredient, { title: 'filety z piersi kaczki', quantity: '2' }),
+        _react2.default.createElement(Ingredient, { title: 'jab\u0142ko', quantity: '1 \u015Brednie' }),
+        _react2.default.createElement(Ingredient, { title: 'pomara\u0144cze', quantity: '2+1 do dekoracji' }),
+        _react2.default.createElement(Ingredient, { title: 'czosnek', quantity: '4 z\u0105bki' }),
+        _react2.default.createElement(Ingredient, { title: 'mas\u0142o', quantity: '1 \u0142y\u017Ceczka' }),
+        _react2.default.createElement(Ingredient, { title: 'mi\xF3d', quantity: '1 \u0142y\u017Cka' }),
+        _react2.default.createElement(Ingredient, { title: '\u015Bwie\u017Cy imbir', quantity: 'kawa\u0142ek' }),
+        _react2.default.createElement(Ingredient, { title: 's\xF3l, pieprz, tymianek, kurkuma' }),
+        _react2.default.createElement(
+          Method,
+          null,
+          'Zaczynam od sparzenia wrz\u0105tkiem dw\xF3ch pomara\u0144czy. Z jednej obieram sk\xF3rk\u0119 i siekam na drobne kawa\u0142ki. Siekam tak\u017Ce kawa\u0142ek imbiru. Sok z obu owoc\xF3w wyciskam do ma\u0142ego rondelka i dodaj\u0119 od razu \u0142y\u017Ck\u0119 miodu (u mnie rzepakowy), oraz odrobin\u0119 pieprzu i soli. Tak przygotowany rondelek i posiekan\u0105 sk\xF3rk\u0119 z imbirem odstawiam na bok.',
+          _react2.default.createElement('br', null),
+          'Przygotowuj\u0119 blach\u0119 pod mi\u0119so \u2013 wyk\u0142adam j\u0105 papierem do pieczenia i wyciskam na niego czosnek w miejsca, gdzie p\xF3\u017Aniej umieszcz\u0119 filety. Posypuj\u0119 go odrobin\u0105 tymianku.',
+          _react2.default.createElement('br', null),
+          'Filety z kaczki myj\u0119 pod ZIMN\u0104 (wa\u017Cne!) wod\u0105 i usuwam (je\u015Bli s\u0105) pi\xF3rka pincetk\u0105 (mo\u017Cna tez opali\u0107 palnikiem). Sk\xF3r\u0119 nacinam delikatnie, uwa\u017Caj\u0105c by nie przyci\u0105\u0107 mi\u0119sa, a samo mi\u0119so przyprawiam \u015Bwie\u017Co mielonym pieprzem. K\u0142ad\u0119 na SUCH\u0104 (wa\u017Cne!) patelnie od strony sk\xF3ry, sma\u017C\u0119 tak do momentu zrumienienia, odwracam na stron\u0119 mi\u0119sa i sma\u017C\u0119 podobn\u0105 ilo\u015B\u0107 czasu. Zrumienione filety wyk\u0142adam na wcze\u015Bniej przygotowan\u0105 blach\u0119 wprost na czosnek z tymiankiem (w ten spos\xF3b aromaty przypraw wnikn\u0105 w mi\u0119so) i wk\u0142adam do piekarnika nagrzanego do 180\xB0C na 8-10 minut (d\u0142ugo\u015B\u0107 czasu zar\xF3wno obsma\u017Cania filet\xF3w, jak i pieczenia zale\u017Cy od ich wielko.',
+          _react2.default.createElement('br', null),
+          'Podczas kiedy mi\u0119so \u2018dochodzi w piekarniku\u2019 kroj\u0119 jab\u0142ko w p\xF3\u0142ksi\u0119\u017Cyce i wrzucam na ciep\u0142y t\u0142uszcz wytopiony wcze\u015Bniej z kaczki. Chwil\u0119 podsma\u017Cam posypuj\u0105c ca\u0142o\u015B\u0107 tymiankiem. Zdejmuj\u0119 na osobny talerz.',
+          _react2.default.createElement('br', null),
+          'Przygotowany wcze\u015Bniej rondelek z sokiem z pomara\u0144czy i miodem wstawiam na niewielki gaz i doprowadzam do wrzenia. Nast\u0119pnie wrzucam posiekan\u0105 sk\xF3rk\u0119 pomara\u0144czow\u0105 z imbirem. Pozwalam tej mieszance chwil\u0119 si\u0119 pogotowa\u0107 i nast\u0119pnie wlewam na patelni\u0119, na kt\xF3rej przed chwil\u0105 sma\u017Cy\u0142am jab\u0142ka. Dodaj\u0119 \u0142y\u017Ceczk\u0119 mas\u0142a, szczypt\u0119 kurkumy i redukuj\u0119 ca\u0142o\u015B\u0107. Kiedy sos zg\u0119stnieje przecedzam go przez drobne sitko do miseczki. Mi\u0119so po wyj\u0119ciu z piekarnika powinno chwil\u0119 odpocz\u0105\u0107. Dlatego, zanim zaczniemy wyk\u0142ada\u0107 danie na talerz odczekajmy oko\u0142o 5-8 min.',
+          _react2.default.createElement('br', null),
+          'Po tym czasie zaczynamy serwowa\u0107. Malujemy sosem po talerzu, na\u0144 k\u0142adziemy kawa\u0142ki mi\u0119sa, obok jab\u0142ka z tymiankiem, a ca\u0142o\u015B\u0107 \u015Bwietnie dope\u0142ni\u0105 \u015Bwie\u017Ce kawa\u0142ki pomara\u0144czy. Niech talerz b\u0119dzie Twoim p\u0142\xF3tnem. Zdecyduj o kompozycji \u2013 centralna, zamkni\u0119ta, otwarta, dynamiczna? Je si\u0119 przecie\u017C przede wszystkim oczami... PS. Do dekoracji mo\u017Cesz r\xF3wnie\u017C u\u017Cy\u0107 sk\xF3rek pomara\u0144czowych z imbirem, kt\xF3re zosta\u0142y Ci po przecedzeniu sosu. Rzu\u0107 te\u017C zielony akcent (u mnie koperek).',
+          _react2.default.createElement('br', null),
+          'Smacznego!'
+        )
+      )
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Smaki_Zimy_vol._1. Kaczka z sosem pomarańczowym i jabłkami w tymianku", "date": "2018-01-05T08:09:00.000Z", "categories": ["Sztuka Gotowania"], "tags": ["przepis", "kaczka", "jabłka", "tymianek", "pomarańcze", "zima", "kuchnia", "kompozycja", "kreacja", "sztuka", "artysta"] };
+var body = exports.body = "<olela-narrative>\nSezon na pomarańcze w pełni. Chociaż według medycyny chińskiej ten owoc o pięknej barwie jest produktem wychładzającym, to jednak w połączeniu z mięsem kaczki stanowi duet idealny na chłodne dni. Zima to czas, kiedy nasz organizm na wszelkie sposoby poszukuje ciepła. Zauważyliście, że właśnie na początku i w trakcie zimy mamy zwiększony apetyt? Dlatego, właśnie teraz warto jest jeść dobrze rozgrzewające potrawy. Nie żałujmy także przypraw. Imbir, pieprz, kurkuma, papryka, czosnek - pomogą nam utrzymać ciepło i wzmocnić układ odpornościowy. A jabłka? Wiadomo - \"An apple a day keeps the doctor away\" (ang. Jedno jabłko dziennie utrzyma Cię z dala od lekarza\").\n</olela-narrative>\n<div>\n  <Recipe\n    title='Kaczka z sosem pomarańczowym i jabłkami w tymianku'\n    time='60 minut'\n    level='średni'\n    mealFor='2 osoby'\n    photo='https://assets1.ello.co/uploads/asset/attachment/6842176/ello-optimized-553af22a.jpg'\n    altText='Zdjęcie przedstawia biały kwadratowy talerz z perspektywy lotu ptaka, na talerzu znajdują się kawałki mięsa, pomarańcze, jabłka, żółty sos. Całość na białym tle.'\n  >\n    <Ingredient title='filety z piersi kaczki' quantity='2' />\n    <Ingredient title='jabłko' quantity='1 średnie' />\n    <Ingredient title='pomarańcze' quantity='2+1 do dekoracji' />\n    <Ingredient title='czosnek' quantity='4 ząbki' />\n    <Ingredient title='masło' quantity='1 łyżeczka' />\n    <Ingredient title='miód' quantity='1 łyżka' />\n    <Ingredient title='świeży imbir' quantity='kawałek' />\n    <Ingredient title='sól, pieprz, tymianek, kurkuma' />\n    <Method>\nZaczynam od sparzenia wrzątkiem dwóch pomarańczy. Z jednej obieram skórkę i siekam na drobne kawałki. Siekam także kawałek imbiru. Sok z obu owoców wyciskam do małego rondelka i dodaję od razu łyżkę miodu (u mnie rzepakowy), oraz odrobinę pieprzu i soli. Tak przygotowany rondelek i posiekaną skórkę z imbirem odstawiam na bok.<br/>\nPrzygotowuję blachę pod mięso – wykładam ją papierem do pieczenia i wyciskam na niego czosnek w miejsca, gdzie później umieszczę filety. Posypuję go odrobiną tymianku.<br/>\nFilety z kaczki myję pod ZIMNĄ (ważne!) wodą i usuwam (jeśli są) piórka pincetką (można tez opalić palnikiem). Skórę nacinam delikatnie, uważając by nie przyciąć mięsa, a samo mięso przyprawiam świeżo mielonym pieprzem. Kładę na SUCHĄ (ważne!) patelnie od strony skóry, smażę tak do momentu zrumienienia, odwracam na stronę mięsa i smażę podobną ilość czasu. Zrumienione filety wykładam na wcześniej przygotowaną blachę wprost na czosnek z tymiankiem (w ten sposób aromaty przypraw wnikną w mięso) i wkładam do piekarnika nagrzanego do 180°C na 8-10 minut (długość czasu zarówno obsmażania filetów, jak i pieczenia zależy od ich wielko.<br/>\nPodczas kiedy mięso ‘dochodzi w piekarniku’ kroję jabłko w półksiężyce i wrzucam na ciepły tłuszcz wytopiony wcześniej z kaczki. Chwilę podsmażam posypując całość tymiankiem. Zdejmuję na osobny talerz.<br/>\nPrzygotowany wcześniej rondelek z sokiem z pomarańczy i miodem wstawiam na niewielki gaz i doprowadzam do wrzenia. Następnie wrzucam posiekaną skórkę pomarańczową z imbirem. Pozwalam tej mieszance chwilę się pogotować i następnie wlewam na patelnię, na której przed chwilą smażyłam jabłka. Dodaję łyżeczkę masła, szczyptę kurkumy i redukuję całość. Kiedy sos zgęstnieje przecedzam go przez drobne sitko do miseczki.\nMięso po wyjęciu z piekarnika powinno chwilę odpocząć. Dlatego, zanim zaczniemy wykładać danie na talerz odczekajmy około 5-8 min.<br/>\nPo tym czasie zaczynamy serwować. Malujemy sosem po talerzu, nań kładziemy kawałki mięsa, obok jabłka z tymiankiem, a całość świetnie dopełnią świeże kawałki pomarańczy. Niech talerz będzie Twoim płótnem. Zdecyduj o kompozycji – centralna, zamknięta, otwarta, dynamiczna? Je się przecież przede wszystkim oczami... \nPS. Do dekoracji możesz również użyć skórek pomarańczowych z imbirem, które zostały Ci po przecedzeniu sosu. Rzuć też zielony akcent (u mnie koperek).<br/>\nSmacznego!\n</Method>\n  </Recipe>\n</div>";
+var raw = exports.raw = "\n<olela-narrative>\nSezon na pomarańcze w pełni. Chociaż według medycyny chińskiej ten owoc o pięknej barwie jest produktem wychładzającym, to jednak w połączeniu z mięsem kaczki stanowi duet idealny na chłodne dni. Zima to czas, kiedy nasz organizm na wszelkie sposoby poszukuje ciepła. Zauważyliście, że właśnie na początku i w trakcie zimy mamy zwiększony apetyt? Dlatego, właśnie teraz warto jest jeść dobrze rozgrzewające potrawy. Nie żałujmy także przypraw. Imbir, pieprz, kurkuma, papryka, czosnek - pomogą nam utrzymać ciepło i wzmocnić układ odpornościowy. A jabłka? Wiadomo - \"An apple a day keeps the doctor away\" (ang. Jedno jabłko dziennie utrzyma Cię z dala od lekarza\").\n</olela-narrative>\n\n<div>\n  <Recipe\n    title='Kaczka z sosem pomarańczowym i jabłkami w tymianku'\n    time='60 minut'\n    level='średni'\n    mealFor='2 osoby'\n    photo='https://assets1.ello.co/uploads/asset/attachment/6842176/ello-optimized-553af22a.jpg'\n    altText='Zdjęcie przedstawia biały kwadratowy talerz z perspektywy lotu ptaka, na talerzu znajdują się kawałki mięsa, pomarańcze, jabłka, żółty sos. Całość na białym tle.'\n  >\n    <Ingredient title='filety z piersi kaczki' quantity='2' />\n    <Ingredient title='jabłko' quantity='1 średnie' />\n    <Ingredient title='pomarańcze' quantity='2+1 do dekoracji' />\n    <Ingredient title='czosnek' quantity='4 ząbki' />\n    <Ingredient title='masło' quantity='1 łyżeczka' />\n    <Ingredient title='miód' quantity='1 łyżka' />\n    <Ingredient title='świeży imbir' quantity='kawałek' />\n    <Ingredient title='sól, pieprz, tymianek, kurkuma' />\n    <Method>\nZaczynam od sparzenia wrzątkiem dwóch pomarańczy. Z jednej obieram skórkę i siekam na drobne kawałki. Siekam także kawałek imbiru. Sok z obu owoców wyciskam do małego rondelka i dodaję od razu łyżkę miodu (u mnie rzepakowy), oraz odrobinę pieprzu i soli. Tak przygotowany rondelek i posiekaną skórkę z imbirem odstawiam na bok.<br/>\nPrzygotowuję blachę pod mięso – wykładam ją papierem do pieczenia i wyciskam na niego czosnek w miejsca, gdzie później umieszczę filety. Posypuję go odrobiną tymianku.<br/>\nFilety z kaczki myję pod ZIMNĄ (ważne!) wodą i usuwam (jeśli są) piórka pincetką (można tez opalić palnikiem). Skórę nacinam delikatnie, uważając by nie przyciąć mięsa, a samo mięso przyprawiam świeżo mielonym pieprzem. Kładę na SUCHĄ (ważne!) patelnie od strony skóry, smażę tak do momentu zrumienienia, odwracam na stronę mięsa i smażę podobną ilość czasu. Zrumienione filety wykładam na wcześniej przygotowaną blachę wprost na czosnek z tymiankiem (w ten sposób aromaty przypraw wnikną w mięso) i wkładam do piekarnika nagrzanego do 180°C na 8-10 minut (długość czasu zarówno obsmażania filetów, jak i pieczenia zależy od ich wielko.<br/>\nPodczas kiedy mięso ‘dochodzi w piekarniku’ kroję jabłko w półksiężyce i wrzucam na ciepły tłuszcz wytopiony wcześniej z kaczki. Chwilę podsmażam posypując całość tymiankiem. Zdejmuję na osobny talerz.<br/>\nPrzygotowany wcześniej rondelek z sokiem z pomarańczy i miodem wstawiam na niewielki gaz i doprowadzam do wrzenia. Następnie wrzucam posiekaną skórkę pomarańczową z imbirem. Pozwalam tej mieszance chwilę się pogotować i następnie wlewam na patelnię, na której przed chwilą smażyłam jabłka. Dodaję łyżeczkę masła, szczyptę kurkumy i redukuję całość. Kiedy sos zgęstnieje przecedzam go przez drobne sitko do miseczki.\nMięso po wyjęciu z piekarnika powinno chwilę odpocząć. Dlatego, zanim zaczniemy wykładać danie na talerz odczekajmy około 5-8 min.<br/>\nPo tym czasie zaczynamy serwować. Malujemy sosem po talerzu, nań kładziemy kawałki mięsa, obok jabłka z tymiankiem, a całość świetnie dopełnią świeże kawałki pomarańczy. Niech talerz będzie Twoim płótnem. Zdecyduj o kompozycji – centralna, zamknięta, otwarta, dynamiczna? Je się przecież przede wszystkim oczami… \nPS. Do dekoracji możesz również użyć skórek pomarańczowych z imbirem, które zostały Ci po przecedzeniu sosu. Rzuć też zielony akcent (u mnie koperek).<br/>\nSmacznego!\n</Method>\n  </Recipe>\n</div>";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+
+/***/ }),
+/* 94 */
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -6213,10 +6301,10 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 93;
+webpackEmptyContext.id = 94;
 
 /***/ }),
-/* 94 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -6237,19 +6325,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 94;
+webpackContext.id = 95;
 
 /***/ }),
-/* 95 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(96);
+module.exports = __webpack_require__(97);
 
 /***/ }),
-/* 96 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6267,7 +6355,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(97);
+var _propTypes = __webpack_require__(98);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -6471,13 +6559,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 97 */
+/* 98 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_97__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_98__;
 
 /***/ }),
-/* 98 */
+/* 99 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6491,7 +6579,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 99 */
+/* 100 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6499,7 +6587,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 100 */
+/* 101 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6512,7 +6600,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 101 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6546,7 +6634,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 102 */
+/* 103 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6559,7 +6647,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 103 */
+/* 104 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6568,7 +6656,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 104 */
+/* 105 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6576,7 +6664,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 105 */
+/* 106 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6584,7 +6672,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 106 */
+/* 107 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6599,7 +6687,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 107 */
+/* 108 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6614,7 +6702,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6629,7 +6717,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6653,7 +6741,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(110);
+var s = __webpack_require__(111);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -6684,7 +6772,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6692,7 +6780,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6711,7 +6799,7 @@ exports.gtag = gtag;
 exports.default = gtag;
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6735,7 +6823,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6786,7 +6874,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6794,7 +6882,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6803,7 +6891,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(116);
+var s = __webpack_require__(117);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -6836,7 +6924,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6846,22 +6934,22 @@ module.exports = {
 };
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 119,
-	"./Feed.js": 120,
-	"./Ingredient.js": 121,
-	"./Method.js": 122,
-	"./Recipe.js": 123,
-	"./TableOfContents.js": 124
+	"./Crumbs.js": 120,
+	"./Feed.js": 121,
+	"./Ingredient.js": 122,
+	"./Method.js": 123,
+	"./Recipe.js": 124,
+	"./TableOfContents.js": 125
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -6877,10 +6965,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 118;
+webpackContext.id = 119;
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6895,7 +6983,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6910,7 +6998,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6925,7 +7013,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6940,7 +7028,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6955,7 +7043,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -6970,7 +7058,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6994,7 +7082,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
