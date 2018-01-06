@@ -1,13 +1,13 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("react"), require("react-dom"), require("react-router-dom"), require("react-dom/server"), require("prop-types"));
+		module.exports = factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types"));
 	else if(typeof define === 'function' && define.amd)
 		define([, , , , ], factory);
 	else {
-		var a = typeof exports === 'object' ? factory(require("react"), require("react-dom"), require("react-router-dom"), require("react-dom/server"), require("prop-types")) : factory(root["React"], root["ReactDOM"], root["ReactRouterDOM"], root["ReactDOMServer"], root["PropTypes"]);
+		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_34__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_16__, __WEBPACK_EXTERNAL_MODULE_98__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_101__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -70,7 +70,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 32);
+/******/ 	return __webpack_require__(__webpack_require__.s = 35);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -81,24 +81,6 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_0__;
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-var requireDirectory_1 = __webpack_require__(10);
-var models_1 = __webpack_require__(6);
-var Context = __webpack_require__(11);
-var includes = requireDirectory_1.default(Context.INCLUDES)
-    .map(function (module) {
-    var name = module.name.replace(/^\.\//, '').replace(/\.js$/, '');
-    return new models_1.Include(name, module.exports.default);
-});
-exports.default = includes;
-
-
-/***/ }),
-/* 2 */
 /***/ (function(module, exports) {
 
 var g;
@@ -122,6 +104,24 @@ try {
 // easier to handle this case. if(!global) { ...}
 
 module.exports = g;
+
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+var requireDirectory_1 = __webpack_require__(10);
+var models_1 = __webpack_require__(6);
+var Context = __webpack_require__(11);
+var includes = requireDirectory_1.default(Context.INCLUDES)
+    .map(function (module) {
+    var name = module.name.replace(/^\.\//, '').replace(/\.js$/, '');
+    return new models_1.Include(name, module.exports.default);
+});
+exports.default = includes;
 
 
 /***/ }),
@@ -232,38 +232,42 @@ function createCloneProps(elem, limiterProps, key) {
 
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var ParrotLayout_1 = __webpack_require__(21);
+var ParrotLayout_1 = __webpack_require__(24);
 exports.default = ParrotLayout_1.default;
 var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
-var Crumbs_1 = __webpack_require__(23);
+var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(114);
+var Feed_1 = __webpack_require__(116);
 exports.Feed = Feed_1.default;
-var Footer_1 = __webpack_require__(24);
+var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
 var Icon_1 = __webpack_require__(8);
 exports.Icon = Icon_1.default;
-var Jumbotron_1 = __webpack_require__(27);
+var Jumbotron_1 = __webpack_require__(30);
 exports.Jumbotron = Jumbotron_1.default;
 var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
-var ParrotLayout_2 = __webpack_require__(21);
+var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(116);
+var Recipe_1 = __webpack_require__(118);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
-var SideMenu_1 = __webpack_require__(26);
+var SideMenu_1 = __webpack_require__(29);
 exports.SideMenu = SideMenu_1.default;
-var TableOfContents_1 = __webpack_require__(29);
+var TableOfContents_1 = __webpack_require__(32);
 exports.TableOfContents = TableOfContents_1.default;
 var Tags_1 = __webpack_require__(13);
 exports.Tags = Tags_1.default;
-var Tile_1 = __webpack_require__(28);
+var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
-var TopBar_1 = __webpack_require__(22);
+var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
+var Root_1 = __webpack_require__(120);
+exports.Root = Root_1.default;
+var gtag_1 = __webpack_require__(14);
+exports.ftag = gtag_1.default;
 
 /***/ }),
 /* 5 */
@@ -280,19 +284,19 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_5__;
 Object.defineProperty(exports, "__esModule", { value: true });
 var Page_1 = __webpack_require__(9);
 exports.Page = Page_1.default;
-var Collection_1 = __webpack_require__(45);
+var Collection_1 = __webpack_require__(48);
 exports.Collection = Collection_1.default;
-var Category_1 = __webpack_require__(17);
+var Category_1 = __webpack_require__(20);
 exports.Category = Category_1.default;
-var Tag_1 = __webpack_require__(18);
+var Tag_1 = __webpack_require__(21);
 exports.Tag = Tag_1.default;
-var Layout_1 = __webpack_require__(46);
+var Layout_1 = __webpack_require__(49);
 exports.Layout = Layout_1.default;
-var Include_1 = __webpack_require__(47);
+var Include_1 = __webpack_require__(50);
 exports.Include = Include_1.default;
-var MenuEntry_1 = __webpack_require__(48);
+var MenuEntry_1 = __webpack_require__(51);
 exports.MenuEntry = MenuEntry_1.default;
-var Website_1 = __webpack_require__(49);
+var Website_1 = __webpack_require__(52);
 exports.Website = Website_1.default;
 
 
@@ -306,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(99);
+var s = __webpack_require__(102);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -351,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(100);
+var s = __webpack_require__(103);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -450,12 +454,12 @@ exports.default = requireDirectory;
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = {
-CATEGORIES: __webpack_require__(50),
-PAGES: __webpack_require__(55),
-POSTS: __webpack_require__(61),
-ROOT: __webpack_require__(94),
-LAYOUTS: __webpack_require__(95),
-INCLUDES: __webpack_require__(119)};
+CATEGORIES: __webpack_require__(53),
+PAGES: __webpack_require__(58),
+POSTS: __webpack_require__(64),
+ROOT: __webpack_require__(97),
+LAYOUTS: __webpack_require__(98),
+INCLUDES: __webpack_require__(122)};
 
 
 /***/ }),
@@ -467,7 +471,7 @@ INCLUDES: __webpack_require__(119)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(101);
+var s = __webpack_require__(104);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -517,7 +521,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(105);
+var s = __webpack_require__(108);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -540,13 +544,46 @@ exports.default = Tags;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", { value: true });
+var dataLayer = window.dataLayer = window.dataLayer || [];
+function gtag(action) {
+    var params = [];
+    for (var _i = 1; _i < arguments.length; _i++) {
+        params[_i - 1] = arguments[_i];
+    }
+    dataLayer.push(arguments);
+}
+exports.gtag = gtag;
+exports.default = gtag;
+gtag('js', new Date());
+gtag('config', "UA-110945340-1");
+window.addEventListener('load', sendPageviewOnLocationChange);
+function sendPageviewOnLocationChange() {
+    var page_path = location.pathname;
+    global.setInterval(function () {
+        if (page_path === location.pathname) {
+            return;
+        }
+        page_path = location.pathname;
+        gtag('config', "UA-110945340-1", { page_path: page_path });
+    }, 300);
+}
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
+
+/***/ }),
+/* 15 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var models_1 = __webpack_require__(6);
 var requireDirectory_1 = __webpack_require__(10);
-var layouts_1 = __webpack_require__(19);
+var layouts_1 = __webpack_require__(22);
 var Context = __webpack_require__(11);
-var config = __webpack_require__(15);
+var config = __webpack_require__(16);
 function checkIsObject(value, name) {
     if (typeof value !== 'object') {
         throw new Error(name + " must be an object; got " + typeof value);
@@ -581,7 +618,7 @@ function checkIsOptionalBoolean(value, defaultValue, name) {
     return value;
 }
 checkIsObject(config.collections, 'config.collections');
-var website = new models_1.Website('', '', '', '', '');
+var website = new models_1.Website('', '', '', '');
 layouts_1.default.forEach(function (layout) { return website.addLayout(layout); });
 var ROOT_COLLECTION_KEY = '$root';
 var ROOT_COLLECTION_TITLE = 'Root Pages';
@@ -643,20 +680,82 @@ exports.default = collections;
 
 
 /***/ }),
-/* 15 */
+/* 16 */
 /***/ (function(module, exports) {
 
 module.exports = {"title":"SztukaUniwersalna.pl","timezone":"Europe/Warsaw","collections":{"categories":{"title":"Categories","output":false,"layout":"ParrotLayout"},"drafts":{"title":"Drafts","output":false,"layout":"ParrotLayout"},"pages":{"title":"Pages","output":false,"layout":"ParrotLayout"},"posts":{"title":"Posts","output":true,"layout":"ParrotLayout"},"uploads":{"title":"Uploads","output":false}},"baseUrl":"http://sztukauniwersalna.pl","image":"http://sztukauniwersalna.pl/logo-gradient.png","locale":"pl_PL","menu":[{"title":"Sztuka Ubioru","short":"Moda","url":"/sztuka-ubioru","icon":"content_cut"},{"title":"Sztuka Makijażu","short":"Makijaż","url":"/sztuka-makijazu","icon":"remove_red_eye"},{"title":"Sztuka Gotowania","short":"Kuchnia","url":"/sztuka-gotowania","icon":"restaurant"},{"title":"Sztuka dla Sztuki","short":"Sztuka","url":"/sztuka-dla-sztuki","icon":"palette"},{"title":"Kim jest Olela?","short":"O mnie","url":"/kim-jest-olela","icon":"mood"}]};
 
 
 /***/ }),
-/* 16 */
+/* 17 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_16__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_17__;
 
 /***/ }),
-/* 17 */
+/* 18 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+var React = __webpack_require__(0);
+var LOAD_SCRIPTS_SOURCE = loadScripts.toString().replace(/\n/g, '').replace(/  +/g, ' ');
+function DeferredScripts(_a) {
+    var srcs = _a.srcs;
+    var code = LOAD_SCRIPTS_SOURCE + "loadScripts(" + JSON.stringify(srcs) + ");";
+    return (React.createElement("script", { type: 'text/javascript', dangerouslySetInnerHTML: { __html: code } }));
+}
+exports.DeferredScripts = DeferredScripts;
+exports.default = DeferredScripts;
+function loadScripts(srcs) {
+    var head = document.getElementsByTagName('head')[0];
+    function load(src, onLoad) {
+        var script = document.createElement('script');
+        script.setAttribute('type', 'text/javascript');
+        script.setAttribute('src', src);
+        script.onload = onLoad;
+        head.appendChild(script);
+    }
+    function loadNext() {
+        var src = srcs.shift();
+        var onLoad = srcs.length === 0 ? function () { } : loadNext;
+        load(src, onLoad);
+    }
+    loadNext();
+}
+
+
+/***/ }),
+/* 19 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+var React = __webpack_require__(0);
+var LOAD_STYLES_SOURCE = loadStyles.toString().replace(/\n/g, '').replace(/  +/g, ' ');
+function DeferredStyles(_a) {
+    var hrefs = _a.hrefs;
+    var code = LOAD_STYLES_SOURCE + "loadStyles(" + JSON.stringify(hrefs) + ");";
+    return (React.createElement("script", { type: 'text/javascript', dangerouslySetInnerHTML: { __html: code } }));
+}
+exports.DeferredStyles = DeferredStyles;
+exports.default = DeferredStyles;
+function loadStyles(hrefs) {
+    var head = document.getElementsByTagName('head')[0];
+    hrefs.forEach(function (href) {
+        var link = document.createElement('link');
+        link.setAttribute('href', href);
+        link.setAttribute('type', 'text/css');
+        link.setAttribute('rel', 'stylesheet');
+        head.appendChild(link);
+    });
+}
+
+
+/***/ }),
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -686,7 +785,7 @@ exports.default = Category;
 
 
 /***/ }),
-/* 18 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -717,7 +816,7 @@ exports.default = Tag;
 
 
 /***/ }),
-/* 19 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -739,7 +838,7 @@ exports.default = layouts;
 
 
 /***/ }),
-/* 20 */
+/* 23 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -751,12 +850,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(118);
+__webpack_require__(121);
 
 
 
 /***/ }),
-/* 21 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -791,22 +890,18 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(96);
+var react_disqus_comments_1 = __webpack_require__(99);
 var models_1 = __webpack_require__(6);
-var TopBar_1 = __webpack_require__(22);
-var Crumbs_1 = __webpack_require__(23);
+var TopBar_1 = __webpack_require__(25);
+var Crumbs_1 = __webpack_require__(26);
 var Tags_1 = __webpack_require__(13);
-var Footer_1 = __webpack_require__(24);
+var Footer_1 = __webpack_require__(27);
 var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
-var SideMenu_1 = __webpack_require__(26);
-var Jumbotron_1 = __webpack_require__(27);
-var FacebookLike_1 = __webpack_require__(110);
-var gtag_1 = __webpack_require__(112);
-var s = __webpack_require__(113);
-var GA_TRACKING_ID = 'UA-110945340-1';
-gtag_1.default('js', new Date());
-gtag_1.default('config', GA_TRACKING_ID, { 'send_page_view': false });
+var SideMenu_1 = __webpack_require__(29);
+var Jumbotron_1 = __webpack_require__(30);
+var FacebookLike_1 = __webpack_require__(113);
+var s = __webpack_require__(115);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -823,7 +918,6 @@ var ParrotLayout = /** @class */function (_super) {
         document.body.addEventListener('swipe-right', this.showMenu);
         window.scrollTo(0, 0);
         document.title = this.props.page.title + " | " + this.props.website.title;
-        gtag_1.default('config', GA_TRACKING_ID, { 'page-path': this.props.page.url });
     };
     ParrotLayout.prototype.componentWillUnmount = function () {
         document.body.removeEventListener('swipe-left', this.hideMenu);
@@ -842,12 +936,6 @@ var ParrotLayout = /** @class */function (_super) {
             }, currentUrl: page.url }, website.menu.map(function (entry) {
             return React.createElement(SideMenu_1.Item, { key: entry.url, url: entry.url, title: entry.title, icon: entry.icon });
         }))));
-    };
-    ParrotLayout.prototype.componentWillReceiveProps = function (newProps) {
-        if (newProps.page === this.props.page) {
-            return;
-        }
-        gtag_1.default('config', GA_TRACKING_ID, { 'page-path': newProps.page.url });
     };
     ParrotLayout.prototype.showMenu = function () {
         this.setSideMenuClassName(s.visible);
@@ -896,7 +984,7 @@ function maybeRenderComments(page) {
 }
 
 /***/ }),
-/* 22 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -925,8 +1013,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(102);
-var s = __webpack_require__(103);
+__webpack_require__(105);
+var s = __webpack_require__(106);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -947,7 +1035,7 @@ exports.TopBar = TopBar;
 exports.default = TopBar;
 
 /***/ }),
-/* 23 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -956,7 +1044,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(104);
+var s = __webpack_require__(107);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -972,7 +1060,7 @@ exports.Crumbs = Crumbs;
 exports.default = Crumbs;
 
 /***/ }),
-/* 24 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1000,8 +1088,8 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var SocialButtons_1 = __webpack_require__(25);
-var s = __webpack_require__(107);
+var SocialButtons_1 = __webpack_require__(28);
+var s = __webpack_require__(110);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1025,7 +1113,7 @@ exports.Footer = Footer;
 exports.default = Footer;
 
 /***/ }),
-/* 25 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1035,7 +1123,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(106);
+var s = __webpack_require__(109);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1043,7 +1131,7 @@ exports.SocialButtons = SocialButtons;
 exports.default = SocialButtons;
 
 /***/ }),
-/* 26 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1080,7 +1168,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(108);
+var s = __webpack_require__(111);
 function Item(props) {
     return null;
 }
@@ -1154,7 +1242,7 @@ exports.SideMenu = SideMenu;
 exports.default = SideMenu;
 
 /***/ }),
-/* 27 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1162,8 +1250,8 @@ exports.default = SideMenu;
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var SocialButtons_1 = __webpack_require__(25);
-var s = __webpack_require__(109);
+var SocialButtons_1 = __webpack_require__(28);
+var s = __webpack_require__(112);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1176,7 +1264,7 @@ exports.Jumbotron = Jumbotron;
 exports.default = Jumbotron;
 
 /***/ }),
-/* 28 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1187,7 +1275,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(115);
+var s = __webpack_require__(117);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1204,7 +1292,7 @@ function maybeRenderImage(page) {
 exports.default = Tile;
 
 /***/ }),
-/* 29 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1269,59 +1357,59 @@ exports.Branch = Branch;
 exports.default = exports.TableOfContents;
 
 /***/ }),
-/* 30 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-var models_1 = __webpack_require__(6);
-var collections_1 = __webpack_require__(14);
-var pages = collections_1.default.reduce(function (p, c) { return p.concat(c.pages); }, [])
-    .filter(function (page) { return !(page instanceof models_1.Category); });
-exports.default = pages;
-
-
-/***/ }),
-/* 31 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-var models_1 = __webpack_require__(6);
-var collections_1 = __webpack_require__(14);
-var categories = collections_1.default.reduce(function (p, c) { return p.concat(c.pages); }, [])
-    .filter(function (page) { return page instanceof models_1.Category; });
-exports.default = categories;
-
-
-/***/ }),
-/* 32 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(33);
-
-
-/***/ }),
 /* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
+var models_1 = __webpack_require__(6);
+var collections_1 = __webpack_require__(15);
+var pages = collections_1.default.reduce(function (p, c) { return p.concat(c.pages); }, [])
+    .filter(function (page) { return !(page instanceof models_1.Category); });
+exports.default = pages;
+
+
+/***/ }),
+/* 34 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+var models_1 = __webpack_require__(6);
+var collections_1 = __webpack_require__(15);
+var categories = collections_1.default.reduce(function (p, c) { return p.concat(c.pages); }, [])
+    .filter(function (page) { return page instanceof models_1.Category; });
+exports.default = categories;
+
+
+/***/ }),
+/* 35 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(36);
+
+
+/***/ }),
+/* 36 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __webpack_require__(0);
-var react_dom_1 = __webpack_require__(34);
+var react_dom_1 = __webpack_require__(37);
 var react_router_dom_1 = __webpack_require__(5);
-var react_hot_loader_1 = __webpack_require__(35);
-var server_1 = __webpack_require__(40);
-var Root_1 = __webpack_require__(41);
-var route_factory_1 = __webpack_require__(42);
-var data_1 = __webpack_require__(43);
+var react_hot_loader_1 = __webpack_require__(38);
+var server_1 = __webpack_require__(43);
+var Root_1 = __webpack_require__(44);
+var route_factory_1 = __webpack_require__(45);
+var data_1 = __webpack_require__(46);
 var routesFactory = new route_factory_1.default();
 var routes = routesFactory.getRoutes(data_1.default);
 var serverRender = function (locals) {
-    var renderer = new server_1.ServerRenderer(Root_1.default);
+    var renderer = new server_1.ServerRenderer(locals.Root || Root_1.default);
     return renderer.render(locals, data_1.default, routes);
 };
 var clientRender = function () {
@@ -1341,59 +1429,59 @@ if (false) {
 
 
 /***/ }),
-/* 34 */
+/* 37 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_34__;
-
-/***/ }),
-/* 35 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(36)
-
-
-/***/ }),
-/* 36 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-/* eslint-disable global-require */
-
-if (true) {
-  module.exports = __webpack_require__(37);
-} else {
-  module.exports = require('./index.dev');
-}
-
-/***/ }),
-/* 37 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-module.exports.AppContainer = __webpack_require__(38);
+module.exports = __WEBPACK_EXTERNAL_MODULE_37__;
 
 /***/ }),
 /* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
+module.exports = __webpack_require__(39)
+
+
+/***/ }),
+/* 39 */
+/***/ (function(module, exports, __webpack_require__) {
+
 "use strict";
 
 
 /* eslint-disable global-require */
 
 if (true) {
-  module.exports = __webpack_require__(39);
+  module.exports = __webpack_require__(40);
+} else {
+  module.exports = require('./index.dev');
+}
+
+/***/ }),
+/* 40 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports.AppContainer = __webpack_require__(41);
+
+/***/ }),
+/* 41 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/* eslint-disable global-require */
+
+if (true) {
+  module.exports = __webpack_require__(42);
 } else {
   module.exports = require('./AppContainer.dev');
 }
 
 /***/ }),
-/* 39 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1439,7 +1527,7 @@ var AppContainer = function (_Component) {
 module.exports = AppContainer;
 
 /***/ }),
-/* 40 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1447,7 +1535,7 @@ module.exports = AppContainer;
 Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var server_1 = __webpack_require__(16);
+var server_1 = __webpack_require__(17);
 var ServerRenderer = /** @class */ (function () {
     function ServerRenderer(Root) {
         this.Root = Root;
@@ -1484,29 +1572,22 @@ function getRootProps(locals, website, page) {
         page: page,
         localBundles: { css: css, js: js },
         externalBundles: { css: locals.css || [], js: locals.js || [] },
-        meta: locals.meta || [],
     };
 }
 
 
 /***/ }),
-/* 41 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var __assign = (this && this.__assign) || Object.assign || function(t) {
-    for (var s, i = 1, n = arguments.length; i < n; i++) {
-        s = arguments[i];
-        for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-            t[p] = s[p];
-    }
-    return t;
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
+var DeferredScripts_1 = __webpack_require__(18);
+var DeferredStyles_1 = __webpack_require__(19);
 function Root(_a) {
-    var website = _a.website, page = _a.page, localBundles = _a.localBundles, externalBundles = _a.externalBundles, meta = _a.meta;
+    var website = _a.website, page = _a.page, localBundles = _a.localBundles, externalBundles = _a.externalBundles;
     return (React.createElement("html", null,
         React.createElement("head", null,
             React.createElement("title", null,
@@ -1517,26 +1598,18 @@ function Root(_a) {
             React.createElement("meta", { name: 'keywords', content: page.tags.join(', ') }),
             React.createElement("meta", { name: 'description', content: page.description }),
             React.createElement("meta", { name: 'viewport', content: 'width=device-width; initial-scale=1.0' }),
-            localBundles.css.map(function (url) { return (React.createElement("link", { type: 'text/css', rel: 'stylesheet', href: url, key: url })); }),
-            React.createElement("meta", { property: 'og:url', content: "" + website.baseUrl + page.url }),
-            React.createElement("meta", { property: 'og:title', content: page.title }),
-            React.createElement("meta", { property: 'og:image', content: page.url === '/' || page.image === null ? website.image : page.image }),
-            React.createElement("meta", { property: 'og:description', content: page.description }),
-            React.createElement("meta", { property: 'og:locale', content: website.locale }),
-            React.createElement("meta", { property: 'og:type', content: page.url === '/' ? 'website' : 'article' }),
-            meta.map(function (props, key) { return (React.createElement("meta", __assign({}, props, { key: key }))); })),
+            localBundles.css.map(function (url) { return (React.createElement("link", { type: 'text/css', rel: 'stylesheet', href: url, key: url })); })),
         React.createElement("body", null,
             React.createElement("div", { id: 'root' }, "%%%BODY%%%"),
-            externalBundles.js.map(function (url) { return (React.createElement("script", { type: 'text/javascript', src: url, key: url })); }),
-            localBundles.js.map(function (url) { return (React.createElement("script", { type: 'text/javascript', src: url, key: url })); }),
-            externalBundles.css.map(function (url) { return (React.createElement("link", { type: 'text/css', rel: 'stylesheet', href: url, key: url })); }))));
+            React.createElement(DeferredScripts_1.default, { srcs: externalBundles.js.concat(localBundles.js) }),
+            React.createElement(DeferredStyles_1.default, { hrefs: externalBundles.css }))));
 }
 exports.Root = Root;
 exports.default = Root;
 
 
 /***/ }),
-/* 42 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1589,26 +1662,26 @@ exports.default = RoutesFactory;
 
 
 /***/ }),
-/* 43 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __webpack_require__(0);
-var server_1 = __webpack_require__(16);
+var server_1 = __webpack_require__(17);
 var react_router_dom_1 = __webpack_require__(5);
-var utils_1 = __webpack_require__(44);
+var utils_1 = __webpack_require__(47);
 var models_1 = __webpack_require__(6);
-var layouts_1 = __webpack_require__(19);
-var includes_1 = __webpack_require__(1);
-var collections_1 = __webpack_require__(14);
-var pages_1 = __webpack_require__(30);
-var categories_1 = __webpack_require__(31);
-var tags_1 = __webpack_require__(126);
-var menu_1 = __webpack_require__(127);
-var config = __webpack_require__(15);
-var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.image, 'config.image'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
+var layouts_1 = __webpack_require__(22);
+var includes_1 = __webpack_require__(2);
+var collections_1 = __webpack_require__(15);
+var pages_1 = __webpack_require__(33);
+var categories_1 = __webpack_require__(34);
+var tags_1 = __webpack_require__(129);
+var menu_1 = __webpack_require__(130);
+var config = __webpack_require__(16);
+var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
 layouts_1.default.forEach(function (layout) { return website.addLayout(layout); });
 includes_1.default.forEach(function (include) { return website.addInclude(include); });
@@ -1703,7 +1776,7 @@ function checkIsString(value, name) {
 
 
 /***/ }),
-/* 44 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1767,7 +1840,7 @@ exports.stripTags = stripTags;
 
 
 /***/ }),
-/* 45 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1786,7 +1859,7 @@ exports.default = Collection;
 
 
 /***/ }),
-/* 46 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1803,7 +1876,7 @@ exports.default = Layout;
 
 
 /***/ }),
-/* 47 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1820,7 +1893,7 @@ exports.default = Include;
 
 
 /***/ }),
-/* 48 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1839,16 +1912,16 @@ exports.default = MenuEntry;
 
 
 /***/ }),
-/* 49 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var Category_1 = __webpack_require__(17);
-var Tag_1 = __webpack_require__(18);
+var Category_1 = __webpack_require__(20);
+var Tag_1 = __webpack_require__(21);
 var Website = /** @class */ (function () {
-    function Website(title, image, baseUrl, timezone, locale) {
+    function Website(title, baseUrl, timezone, locale) {
         this.layouts = {};
         this.includes = {};
         this.collections = {};
@@ -1857,7 +1930,6 @@ var Website = /** @class */ (function () {
         this.pages = {};
         this.entities = {};
         this.title = title;
-        this.image = image;
         this.baseUrl = baseUrl;
         this.timezone = timezone;
         this.locale = locale;
@@ -1983,14 +2055,14 @@ exports.default = Website;
 
 
 /***/ }),
-/* 50 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./sztuka-dla-sztuki.markdown": 51,
-	"./sztuka-gotowania.markdown": 52,
-	"./sztuka-makijazu.markdown": 53,
-	"./sztuka-ubioru.markdown": 54
+	"./sztuka-dla-sztuki.markdown": 54,
+	"./sztuka-gotowania.markdown": 55,
+	"./sztuka-makijazu.markdown": 56,
+	"./sztuka-ubioru.markdown": 57
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -2006,148 +2078,7 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 50;
-
-/***/ }),
-/* 51 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(global) {
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _ContentLimiter = __webpack_require__(3);
-
-var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-global.__data = __webpack_require__(1).default;
-
-var code = global.__data.map(function (entry, index) {
-  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
-}).join('');eval.call(null, code);
-delete global.__data;
-
-var component = exports.component = function component(data) {
-  return _react2.default.createElement(
-    _ContentLimiter2.default,
-    _extends({ limit: 5 }, data),
-    _react2.default.createElement(
-      'div',
-      null,
-      _react2.default.createElement(Feed, _extends({}, data, { feed: data.website.getCategoryOfTitle('Sztuka dla Sztuki').pages }))
-    )
-  );
-};
-var frontMatter = exports.frontMatter = { "title": "Sztuka dla Sztuki", "date": "2017-07-15T20:12:00.000Z", "tags": ["sztuka", "współczesna", "abstrakcja", "inspiracje"], "role": "category" };
-var body = exports.body = "<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka dla Sztuki').pages } />\n</div>\n";
-var raw = exports.raw = "\n<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka dla Sztuki').pages } />\n</div>\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
-
-/***/ }),
-/* 52 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(global) {
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _ContentLimiter = __webpack_require__(3);
-
-var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-global.__data = __webpack_require__(1).default;
-
-var code = global.__data.map(function (entry, index) {
-  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
-}).join('');eval.call(null, code);
-delete global.__data;
-
-var component = exports.component = function component(data) {
-  return _react2.default.createElement(
-    _ContentLimiter2.default,
-    _extends({ limit: 5 }, data),
-    _react2.default.createElement(
-      'div',
-      null,
-      _react2.default.createElement(Feed, _extends({}, data, { feed: data.website.getCategoryOfTitle('Sztuka Gotowania').pages }))
-    )
-  );
-};
-var frontMatter = exports.frontMatter = { "title": "Sztuka Gotowania", "date": "2017-07-15T20:12:00.000Z", "tags": ["sztuka", "gotowanie", "kuchnia", "dania", "ciasta", "inspiracje"], "role": "category" };
-var body = exports.body = "<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka Gotowania').pages } />\n</div>\n";
-var raw = exports.raw = "\n<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka Gotowania').pages } />\n</div>\n\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
-
-/***/ }),
-/* 53 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(global) {
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _ContentLimiter = __webpack_require__(3);
-
-var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-global.__data = __webpack_require__(1).default;
-
-var code = global.__data.map(function (entry, index) {
-  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
-}).join('');eval.call(null, code);
-delete global.__data;
-
-var component = exports.component = function component(data) {
-  return _react2.default.createElement(
-    _ContentLimiter2.default,
-    _extends({ limit: 5 }, data),
-    _react2.default.createElement(
-      'div',
-      null,
-      _react2.default.createElement(Feed, _extends({}, data, { feed: data.website.getCategoryOfTitle('Sztuka Makijażu').pages }))
-    )
-  );
-};
-var frontMatter = exports.frontMatter = { "title": "Sztuka Makijażu", "date": "2017-07-15T20:13:00.000Z", "permalink": "/sztuka-makijazu", "tags": ["sztuka", "makijaż", "inspiracje"], "role": "category" };
-var body = exports.body = "<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka Makijażu').pages } />\n</div>\n";
-var raw = exports.raw = "\n<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka Makijażu').pages } />\n</div>\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+webpackContext.id = 53;
 
 /***/ }),
 /* 54 */
@@ -2173,7 +2104,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -2187,41 +2118,61 @@ var component = exports.component = function component(data) {
     _react2.default.createElement(
       'div',
       null,
-      _react2.default.createElement(Feed, _extends({}, data, { feed: data.website.getCategoryOfTitle('Sztuka Ubioru').pages }))
+      _react2.default.createElement(Feed, _extends({}, data, { feed: data.website.getCategoryOfTitle('Sztuka dla Sztuki').pages }))
     )
   );
 };
-var frontMatter = exports.frontMatter = { "title": "Sztuka Ubioru", "date": "2017-07-15T20:14:00.000Z", "tags": ["sztuka", "ubiór", "moda", "projektanci", "domy mody", "inspiracje"], "role": "category" };
-var body = exports.body = "<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka Ubioru').pages } />\n</div>\n";
-var raw = exports.raw = "\n<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka Ubioru').pages } />\n</div>\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+var frontMatter = exports.frontMatter = { "title": "Sztuka dla Sztuki", "date": "2017-07-15T20:12:00.000Z", "tags": ["sztuka", "współczesna", "abstrakcja", "inspiracje"], "role": "category" };
+var body = exports.body = "<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka dla Sztuki').pages } />\n</div>\n";
+var raw = exports.raw = "\n<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka dla Sztuki').pages } />\n</div>\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var map = {
-	"./404.markdown": 56,
-	"./index.markdown": 57,
-	"./kim-jest-olela.markdown": 58,
-	"./sitemap.markdown": 59,
-	"./tag.markdown": 60
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'div',
+      null,
+      _react2.default.createElement(Feed, _extends({}, data, { feed: data.website.getCategoryOfTitle('Sztuka Gotowania').pages }))
+    )
+  );
 };
-function webpackContext(req) {
-	return __webpack_require__(webpackContextResolve(req));
-};
-function webpackContextResolve(req) {
-	var id = map[req];
-	if(!(id + 1)) // check for number or string
-		throw new Error("Cannot find module '" + req + "'.");
-	return id;
-};
-webpackContext.keys = function webpackContextKeys() {
-	return Object.keys(map);
-};
-webpackContext.resolve = webpackContextResolve;
-module.exports = webpackContext;
-webpackContext.id = 55;
+var frontMatter = exports.frontMatter = { "title": "Sztuka Gotowania", "date": "2017-07-15T20:12:00.000Z", "tags": ["sztuka", "gotowanie", "kuchnia", "dania", "ciasta", "inspiracje"], "role": "category" };
+var body = exports.body = "<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka Gotowania').pages } />\n</div>\n";
+var raw = exports.raw = "\n<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka Gotowania').pages } />\n</div>\n\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 56 */
@@ -2247,7 +2198,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -2259,16 +2210,16 @@ var component = exports.component = function component(data) {
     _ContentLimiter2.default,
     _extends({ limit: 5 }, data),
     _react2.default.createElement(
-      'p',
+      'div',
       null,
-      'Strona o tym adresie nie istnieje.'
+      _react2.default.createElement(Feed, _extends({}, data, { feed: data.website.getCategoryOfTitle('Sztuka Makijażu').pages }))
     )
   );
 };
-var frontMatter = exports.frontMatter = { "title": "Nie Znaleziono", "date": "1900-01-01T00:00:00.000Z", "output": false };
-var body = exports.body = "<p>Strona o tym adresie nie istnieje.</p>\n";
-var raw = exports.raw = "\nStrona o tym adresie nie istnieje.\n\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+var frontMatter = exports.frontMatter = { "title": "Sztuka Makijażu", "date": "2017-07-15T20:13:00.000Z", "permalink": "/sztuka-makijazu", "tags": ["sztuka", "makijaż", "inspiracje"], "role": "category" };
+var body = exports.body = "<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka Makijażu').pages } />\n</div>\n";
+var raw = exports.raw = "\n<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka Makijażu').pages } />\n</div>\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 57 */
@@ -2294,7 +2245,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -2308,17 +2259,44 @@ var component = exports.component = function component(data) {
     _react2.default.createElement(
       'div',
       null,
-      _react2.default.createElement(Feed, _extends({}, data, { feed: data.website.getCollectionOfTitle('Posts').pages }))
+      _react2.default.createElement(Feed, _extends({}, data, { feed: data.website.getCategoryOfTitle('Sztuka Ubioru').pages }))
     )
   );
 };
-var frontMatter = exports.frontMatter = { "title": "Sztuka Uniwersalna", "date": "2017-07-15T20:12:00.000Z", "permalink": "/", "tags": ["index", "sztuka", "uniwersalna", "moda", "makijaż", "gotowanie", "codzienność", "współczesna", "abstrakcja", "inspiracje"], "description": "Sztuka w codzienności. Aleksandra Krawczyk prezentuje sposoby na odnalezienie odrobiny sztuki w codziennych czynnościach takich jak gotowanie, makijaż, oraz moda. Sztuka współczesna, sztuka abstrakcyjna, inspiracje dziełami wielkich twórców.", "feed": false };
-var body = exports.body = "<div>\n  <Feed {...data} feed={ data.website.getCollectionOfTitle('Posts').pages } />\n</div>\n";
-var raw = exports.raw = "\n<div>\n  <Feed {...data} feed={ data.website.getCollectionOfTitle('Posts').pages } />\n</div>\n\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+var frontMatter = exports.frontMatter = { "title": "Sztuka Ubioru", "date": "2017-07-15T20:14:00.000Z", "tags": ["sztuka", "ubiór", "moda", "projektanci", "domy mody", "inspiracje"], "role": "category" };
+var body = exports.body = "<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka Ubioru').pages } />\n</div>\n";
+var raw = exports.raw = "\n<div>\n  <Feed { ...data } feed={ data.website.getCategoryOfTitle('Sztuka Ubioru').pages } />\n</div>\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 58 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./404.markdown": 59,
+	"./index.markdown": 60,
+	"./kim-jest-olela.markdown": 61,
+	"./sitemap.markdown": 62,
+	"./tag.markdown": 63
+};
+function webpackContext(req) {
+	return __webpack_require__(webpackContextResolve(req));
+};
+function webpackContextResolve(req) {
+	var id = map[req];
+	if(!(id + 1)) // check for number or string
+		throw new Error("Cannot find module '" + req + "'.");
+	return id;
+};
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = 58;
+
+/***/ }),
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2341,7 +2319,101 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Strona o tym adresie nie istnieje.'
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Nie Znaleziono", "date": "1900-01-01T00:00:00.000Z", "output": false };
+var body = exports.body = "<p>Strona o tym adresie nie istnieje.</p>\n";
+var raw = exports.raw = "\nStrona o tym adresie nie istnieje.\n\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
+
+/***/ }),
+/* 60 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'div',
+      null,
+      _react2.default.createElement(Feed, _extends({}, data, { feed: data.website.getCollectionOfTitle('Posts').pages }))
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Sztuka Uniwersalna", "date": "2017-07-15T20:12:00.000Z", "permalink": "/", "tags": ["index", "sztuka", "uniwersalna", "moda", "makijaż", "gotowanie", "codzienność", "współczesna", "abstrakcja", "inspiracje"], "description": "Sztuka w codzienności. Aleksandra Krawczyk prezentuje sposoby na odnalezienie odrobiny sztuki w codziennych czynnościach takich jak gotowanie, makijaż, oraz moda. Sztuka współczesna, sztuka abstrakcyjna, inspiracje dziełami wielkich twórców.", "feed": false };
+var body = exports.body = "<div>\n  <Feed {...data} feed={ data.website.getCollectionOfTitle('Posts').pages } />\n</div>\n";
+var raw = exports.raw = "\n<div>\n  <Feed {...data} feed={ data.website.getCollectionOfTitle('Posts').pages } />\n</div>\n\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
+
+/***/ }),
+/* 61 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -2450,155 +2522,7 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Kim jest Olela?", "date": "2017-09-08T17:17:00.000Z", "permalink": "/kim-jest-olela", "tags": ["olela", "artysta", "blog", "sztuka", "uniwersalna"] };
 var body = exports.body = "<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6213390/ello-optimized-75547475.jpg\" alt=\"Zdjęcie przedstawia portret młodej kobiety o szarych włosach, w niebieskiej czapce, kolorowej chustce na szyi, kolczykach, na niebieskim tle. Z lewej strony zdjęcia umieszczony jest logotyp.\" /></p>\n<p>Cześć, jestem Olela, witaj na moim blogu. Na co dzień pracuję w szeroko pojętym obszarze sztuki - maluję obrazy, fotografuję, jestem grafikiem komputerowym, tancerką, nauczycielką tańca i choreografką. Z zamiłowania również gotuję. Z racji tak mnogich zainteresowań, zwykłam mówić o sobie Artystka Uniwersalna. Wierzę w zanikanie granic i wzajemne przenikanie się dyscyplin. Czy mieszam składniki zupy w garnku, czy dodaję do ultramaryny odrobinę karminu, czy nakładam bazę pod makijaż – tworzę sztukę.</p>\n<h2>Po co to komu?</h2>\n<p>Misją bloga <a href=\"http://sztukauniwersalna.pl\">sztukauniwersalna.pl</a> jest dostrzeżenie i zatarcie granicy pomiędzy sztuką a codziennością, zintegrowanie świata masowego przekazu, którym jesteśmy otoczeni z każdej strony, z kulturą. Postaram się pokazać, nieoczywiste na pierwszy rzut oka, konotacje pomiędzy czynnościami określanymi jako ‘przyziemne’, a kreacją artystyczną. Oprócz tego wykażę wpływy poszczególnych tendencji artystycznych na różne dziedziny życia. Mam nadzieje, że znajdziesz tu dla siebie wiele inspiracji, które przełożą się na Twoje postrzeganie rzeczywistości.</p>\n<h2>Poznajmy się lepiej.</h2>\n<ul>\n<li>Jestem Magistrem Sztuk Pięknych. W 2015 r. obroniłam dyplom  na wydziale malarstwa krakowskiej ASP. Dyplomem był solowy spektakl pt.: ‘Pięć Pór Roku’ zrealizowany w jednym z krakowskich teatrów. W trakcie półgodzinnej etiudy starałam się wytańczyć wszystkie stany emocjonalne towarzyszące mi przez 5letnie studia artystyczne. Malowanie ruchem było cudownym doświadczeniem i spotkało się z pozytywnym odbiorem komisji i publiczności.</li>\n<li>Jak większość kobiet uwielbiam się malować i przebierać. Staram się dokładać do tych czynności teatralny pierwiastek. Wymyślam postać, opowiadam po cichu historie, ‘wchodzę w rolę’. Najbardziej inspirują mnie futurystyczne klimaty.</li>\n<li>Moim największym bzikiem są... buty i szminki. Uważam, że kolor na ustach czyni kobietę pewniejszą siebie. Ah, jak ja kocham te kolory! Blady róż na sportowo. Jagodowa do ramoneski. Czerwień jest raczej zarezerwowana dla klasycznych połączeń, dlatego rzadko jej używam. Zdecydowanie bardziej wolę elektryzujący eklektyzm.</li>\n<li>Kiedy robię zakupy w sklepie spożywczym zazwyczaj wącham owoce i warzywa. Zapach pozwala na wyobrażenie smaku. Czasami też subtelnie zanurzam dłoń w worku z ziarnami, jak zwykła robić to Amelia, bohaterka filmu o tym samym tytule.</li>\n<li>Dość sporo czasu w swoim życiu spędziłam w muzeach. Moja najdłuższa kontemplacja dzieła sztuki miała miejsce na wystawie Mark’a Rothko w Warszawie w 2013 r.  Byłam tak zafascynowana twórczością nowojorczyka (nadal jestem), że przed jednym obrazem spędziłam kilka godzin, a panowie ochroniarze dosłownie musieli wypraszać mnie z budynku, gdy przyszła godzina zamknięcia ekspozycji.</li>\n</ul>\n<p>Skoro już tyle o mnie wiesz… mam nadzieje, że zostaniesz tu na dłużej. Czytaj, oglądaj, komentuj, kontempluj. Możesz też polubić konto na <a href=\"https://www.facebook.com/sztukauniwersalna/\">fb</a> i <a href=\"https://www.instagram.com/sztuka_uniwersalna/\">insta</a>, żeby być na bieżąco. A jeśli chcesz się ze mną skontkować napisz na adres <a href=\"mailto:sztuka.uniwersalna@gmail.com\">sztuka.uniwersalna@gmail.com</a> – będzie mi bardzo miło!</p>\n<p>Pozdrawiam,\nOlela</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6213404/ello-optimized-adcc0c71.jpg\" alt=\"Zdjęcie podzielone jest na dwie części, część z lewej strony jest zbliżeniem na kobiecy kolczyk w kształcie twarzy. Z prawej strony widzimy połowę twarzy młodej kobiety z siwymi włosami, kolorową chustą i kolczykiem w kształcie twarzy.\" /></p>\n";
 var raw = exports.raw = "\n![Zdjęcie przedstawia portret młodej kobiety o szarych włosach, w niebieskiej czapce, kolorowej chustce na szyi, kolczykach, na niebieskim tle. Z lewej strony zdjęcia umieszczony jest logotyp.](https://assets1.ello.co/uploads/asset/attachment/6213390/ello-optimized-75547475.jpg)\n\nCześć, jestem Olela, witaj na moim blogu. Na co dzień pracuję w szeroko pojętym obszarze sztuki - maluję obrazy, fotografuję, jestem grafikiem komputerowym, tancerką, nauczycielką tańca i choreografką. Z zamiłowania również gotuję. Z racji tak mnogich zainteresowań, zwykłam mówić o sobie Artystka Uniwersalna. Wierzę w zanikanie granic i wzajemne przenikanie się dyscyplin. Czy mieszam składniki zupy w garnku, czy dodaję do ultramaryny odrobinę karminu, czy nakładam bazę pod makijaż – tworzę sztukę.\n\n## Po co to komu?\n\nMisją bloga sztukauniwersalna.pl jest dostrzeżenie i zatarcie granicy pomiędzy sztuką a codziennością, zintegrowanie świata masowego przekazu, którym jesteśmy otoczeni z każdej strony, z kulturą. Postaram się pokazać, nieoczywiste na pierwszy rzut oka, konotacje pomiędzy czynnościami określanymi jako ‘przyziemne’, a kreacją artystyczną. Oprócz tego wykażę wpływy poszczególnych tendencji artystycznych na różne dziedziny życia. Mam nadzieje, że znajdziesz tu dla siebie wiele inspiracji, które przełożą się na Twoje postrzeganie rzeczywistości.\n\n## Poznajmy się lepiej.\n\n* Jestem Magistrem Sztuk Pięknych. W 2015 r. obroniłam dyplom  na wydziale malarstwa krakowskiej ASP. Dyplomem był solowy spektakl pt.: ‘Pięć Pór Roku’ zrealizowany w jednym z krakowskich teatrów. W trakcie półgodzinnej etiudy starałam się wytańczyć wszystkie stany emocjonalne towarzyszące mi przez 5letnie studia artystyczne. Malowanie ruchem było cudownym doświadczeniem i spotkało się z pozytywnym odbiorem komisji i publiczności.\n* Jak większość kobiet uwielbiam się malować i przebierać. Staram się dokładać do tych czynności teatralny pierwiastek. Wymyślam postać, opowiadam po cichu historie, ‘wchodzę w rolę’. Najbardziej inspirują mnie futurystyczne klimaty.\n* Moim największym bzikiem są… buty i szminki. Uważam, że kolor na ustach czyni kobietę pewniejszą siebie. Ah, jak ja kocham te kolory! Blady róż na sportowo. Jagodowa do ramoneski. Czerwień jest raczej zarezerwowana dla klasycznych połączeń, dlatego rzadko jej używam. Zdecydowanie bardziej wolę elektryzujący eklektyzm.\n* Kiedy robię zakupy w sklepie spożywczym zazwyczaj wącham owoce i warzywa. Zapach pozwala na wyobrażenie smaku. Czasami też subtelnie zanurzam dłoń w worku z ziarnami, jak zwykła robić to Amelia, bohaterka filmu o tym samym tytule.\n* Dość sporo czasu w swoim życiu spędziłam w muzeach. Moja najdłuższa kontemplacja dzieła sztuki miała miejsce na wystawie Mark’a Rothko w Warszawie w 2013 r.  Byłam tak zafascynowana twórczością nowojorczyka (nadal jestem), że przed jednym obrazem spędziłam kilka godzin, a panowie ochroniarze dosłownie musieli wypraszać mnie z budynku, gdy przyszła godzina zamknięcia ekspozycji.\n\nSkoro już tyle o mnie wiesz… mam nadzieje, że zostaniesz tu na dłużej. Czytaj, oglądaj, komentuj, kontempluj. Możesz też polubić konto na [fb](https://www.facebook.com/sztukauniwersalna/) i [insta](https://www.instagram.com/sztuka_uniwersalna/), żeby być na bieżąco. A jeśli chcesz się ze mną skontkować napisz na adres sztuka.uniwersalna@gmail.com – będzie mi bardzo miło!\n\nPozdrawiam,\nOlela\n\n\n![Zdjęcie podzielone jest na dwie części, część z lewej strony jest zbliżeniem na kobiecy kolczyk w kształcie twarzy. Z prawej strony widzimy połowę twarzy młodej kobiety z siwymi włosami, kolorową chustą i kolczykiem w kształcie twarzy.](https://assets2.ello.co/uploads/asset/attachment/6213404/ello-optimized-adcc0c71.jpg)";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
-
-/***/ }),
-/* 59 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(global) {
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _ContentLimiter = __webpack_require__(3);
-
-var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-global.__data = __webpack_require__(1).default;
-
-var code = global.__data.map(function (entry, index) {
-  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
-}).join('');eval.call(null, code);
-delete global.__data;
-
-var component = exports.component = function component(data) {
-  return _react2.default.createElement(
-    _ContentLimiter2.default,
-    _extends({ limit: 5 }, data),
-    _react2.default.createElement(
-      'div',
-      { className: 'compact' },
-      _react2.default.createElement(TableOfContents, data)
-    )
-  );
-};
-var frontMatter = exports.frontMatter = { "title": "Mapa Witryny", "date": "2017-07-15T20:12:00.000Z", "permalink": "/sitemap", "tags": ["sitemap", "dla bota"] };
-var body = exports.body = "<div className='compact'>\n  <TableOfContents {...data} />\n</div>\n";
-var raw = exports.raw = "\n<div className='compact'>\n  <TableOfContents {...data} />\n</div>\n\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
-
-/***/ }),
-/* 60 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(global) {
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _ContentLimiter = __webpack_require__(3);
-
-var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-global.__data = __webpack_require__(1).default;
-
-var code = global.__data.map(function (entry, index) {
-  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
-}).join('');eval.call(null, code);
-delete global.__data;
-
-var component = exports.component = function component(data) {
-  return _react2.default.createElement(
-    _ContentLimiter2.default,
-    _extends({ limit: 5 }, data),
-    _react2.default.createElement(
-      'div',
-      null,
-      _react2.default.createElement(Feed, _extends({}, data, { feed: data.page.pages }))
-    )
-  );
-};
-var frontMatter = exports.frontMatter = { "title": "Tag", "date": "1900-01-01T00:00:00.000Z", "output": false };
-var body = exports.body = "<div>\n  <Feed { ...data } feed={ data.page.pages } />\n</div>\n";
-var raw = exports.raw = "\n<div>\n  <Feed { ...data } feed={ data.page.pages } />\n</div>\n\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
-
-/***/ }),
-/* 61 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var map = {
-	"./2017-07-15-uniwersalno-sztuki.markdown": 62,
-	"./2017-09-07-wenus-chanel-nowa-dziewczyna-z-perla.markdown": 63,
-	"./2017-09-11-make-up-inspirowany-obrazem-m64-by-wojciech-fangor.markdown": 64,
-	"./2017-09-16-salatka-z-bialej-rzepy-i-rzodkiewki.markdown": 65,
-	"./2017-09-17-smaki-jesieni-vol-dot-2-curry-z-pomidorow-cukinii-i-jablek.markdown": 66,
-	"./2017-09-18-fuerteventura-impressions.markdown": 67,
-	"./2017-09-21-make-up-inspirowany-obrazem-m10-by-wojciech-fangor.markdown": 68,
-	"./2017-09-25-podlewaj-swoje-kwiaty.markdown": 69,
-	"./2017-09-28-neoplastycyzm-moodboard.markdown": 70,
-	"./2017-10-03-cala-ta-j-dot-dot-dot.markdown": 71,
-	"./2017-10-05-kolo-moodboard.markdown": 72,
-	"./2017-10-10-make-up-inspirowany-obrazem-flying-eyes-by-yayoi-kusama.markdown": 73,
-	"./2017-10-12-pop-art-moodboard.markdown": 74,
-	"./2017-10-18-stylizacje-za-grosze-czyli-pokochaj-lumpeksy.markdown": 75,
-	"./2017-10-19-minimalism-moodboard.markdown": 76,
-	"./2017-10-23-smaki-jesieni-vol-dot-3-geometryczna-szarlotka.markdown": 77,
-	"./2017-10-25-kolaz-okladek.markdown": 78,
-	"./2017-10-26-kubizm-moodboard.markdown": 79,
-	"./2017-11-02-surrealizm-moodboard.markdown": 80,
-	"./2017-11-07-make-up-inspirowany-obrazem-czarny-kwadrat-na-bialym-tle-by-kazimierz-malewicz.markdown": 81,
-	"./2017-11-09-action-painting-moodboard.markdown": 82,
-	"./2017-11-13-picasso-wizerunek-wielokrotny-muzeum-lubelskie-w-lublinie.markdown": 83,
-	"./2017-11-16-impresjonizm-moodboard.markdown": 84,
-	"./2017-11-22-diy-1-edycja-zimowa.markdown": 85,
-	"./2017-11-30-make-up-inspirowany-obrazem-figure-dog-birds-by-joan-miro.markdown": 86,
-	"./2017-12-07-op-art-moodboard.markdown": 87,
-	"./2017-12-11-wystawa-inny-trans-atlantyk-sztuka-kinetyczna-i-op-art-w-europie-wschodniej-i-ameryce-lacinskiej-w-latach-50-70.markdown": 88,
-	"./2017-12-17-o-kolorach-fiolet.markdown": 89,
-	"./2017-12-21-moje-wybory-grudzien.markdown": 90,
-	"./2017-12-31-kolagen.markdown": 91,
-	"./2018-01-04-ekspresjonizm-abstrakcyjny-moodboard.markdown": 92,
-	"./2018-01-05-smaki-zimy-vol-dot-1-kaczka-z-sosem-pomaranczowym-i-jablkami-w-tymianku.markdown": 93
-};
-function webpackContext(req) {
-	return __webpack_require__(webpackContextResolve(req));
-};
-function webpackContextResolve(req) {
-	var id = map[req];
-	if(!(id + 1)) // check for number or string
-		throw new Error("Cannot find module '" + req + "'.");
-	return id;
-};
-webpackContext.keys = function webpackContextKeys() {
-	return Object.keys(map);
-};
-webpackContext.resolve = webpackContextResolve;
-module.exports = webpackContext;
-webpackContext.id = 61;
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 62 */
@@ -2624,7 +2548,155 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'div',
+      { className: 'compact' },
+      _react2.default.createElement(TableOfContents, data)
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Mapa Witryny", "date": "2017-07-15T20:12:00.000Z", "permalink": "/sitemap", "tags": ["sitemap", "dla bota"] };
+var body = exports.body = "<div className='compact'>\n  <TableOfContents {...data} />\n</div>\n";
+var raw = exports.raw = "\n<div className='compact'>\n  <TableOfContents {...data} />\n</div>\n\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
+
+/***/ }),
+/* 63 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'div',
+      null,
+      _react2.default.createElement(Feed, _extends({}, data, { feed: data.page.pages }))
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Tag", "date": "1900-01-01T00:00:00.000Z", "output": false };
+var body = exports.body = "<div>\n  <Feed { ...data } feed={ data.page.pages } />\n</div>\n";
+var raw = exports.raw = "\n<div>\n  <Feed { ...data } feed={ data.page.pages } />\n</div>\n\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
+
+/***/ }),
+/* 64 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./2017-07-15-uniwersalno-sztuki.markdown": 65,
+	"./2017-09-07-wenus-chanel-nowa-dziewczyna-z-perla.markdown": 66,
+	"./2017-09-11-make-up-inspirowany-obrazem-m64-by-wojciech-fangor.markdown": 67,
+	"./2017-09-16-salatka-z-bialej-rzepy-i-rzodkiewki.markdown": 68,
+	"./2017-09-17-smaki-jesieni-vol-dot-2-curry-z-pomidorow-cukinii-i-jablek.markdown": 69,
+	"./2017-09-18-fuerteventura-impressions.markdown": 70,
+	"./2017-09-21-make-up-inspirowany-obrazem-m10-by-wojciech-fangor.markdown": 71,
+	"./2017-09-25-podlewaj-swoje-kwiaty.markdown": 72,
+	"./2017-09-28-neoplastycyzm-moodboard.markdown": 73,
+	"./2017-10-03-cala-ta-j-dot-dot-dot.markdown": 74,
+	"./2017-10-05-kolo-moodboard.markdown": 75,
+	"./2017-10-10-make-up-inspirowany-obrazem-flying-eyes-by-yayoi-kusama.markdown": 76,
+	"./2017-10-12-pop-art-moodboard.markdown": 77,
+	"./2017-10-18-stylizacje-za-grosze-czyli-pokochaj-lumpeksy.markdown": 78,
+	"./2017-10-19-minimalism-moodboard.markdown": 79,
+	"./2017-10-23-smaki-jesieni-vol-dot-3-geometryczna-szarlotka.markdown": 80,
+	"./2017-10-25-kolaz-okladek.markdown": 81,
+	"./2017-10-26-kubizm-moodboard.markdown": 82,
+	"./2017-11-02-surrealizm-moodboard.markdown": 83,
+	"./2017-11-07-make-up-inspirowany-obrazem-czarny-kwadrat-na-bialym-tle-by-kazimierz-malewicz.markdown": 84,
+	"./2017-11-09-action-painting-moodboard.markdown": 85,
+	"./2017-11-13-picasso-wizerunek-wielokrotny-muzeum-lubelskie-w-lublinie.markdown": 86,
+	"./2017-11-16-impresjonizm-moodboard.markdown": 87,
+	"./2017-11-22-diy-1-edycja-zimowa.markdown": 88,
+	"./2017-11-30-make-up-inspirowany-obrazem-figure-dog-birds-by-joan-miro.markdown": 89,
+	"./2017-12-07-op-art-moodboard.markdown": 90,
+	"./2017-12-11-wystawa-inny-trans-atlantyk-sztuka-kinetyczna-i-op-art-w-europie-wschodniej-i-ameryce-lacinskiej-w-latach-50-70.markdown": 91,
+	"./2017-12-17-o-kolorach-fiolet.markdown": 92,
+	"./2017-12-21-moje-wybory-grudzien.markdown": 93,
+	"./2017-12-31-kolagen.markdown": 94,
+	"./2018-01-04-ekspresjonizm-abstrakcyjny-moodboard.markdown": 95,
+	"./2018-01-05-smaki-zimy-vol-dot-1-kaczka-z-sosem-pomaranczowym-i-jablkami-w-tymianku.markdown": 96
+};
+function webpackContext(req) {
+	return __webpack_require__(webpackContextResolve(req));
+};
+function webpackContextResolve(req) {
+	var id = map[req];
+	if(!(id + 1)) // check for number or string
+		throw new Error("Cannot find module '" + req + "'.");
+	return id;
+};
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = 64;
+
+/***/ }),
+/* 65 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -2719,10 +2791,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Uniwersalność Sztuki", "date": "2017-07-15T19:56:00.000Z", "permalink": "/2017-07-15-uniwersalnosc-sztuki", "categories": ["Sztuka dla Sztuki"], "tags": ["art", "artist", "sztuka", "dzieło", "artysta", "kreacja"], "limit": 3 };
 var body = exports.body = "<blockquote>\n<p>Interesowało mnie utrwalanie wszystkich prostych czynności, bo są UNIWERSALNE. Każda z nich,\nkiedy się na niej skupimy, zatrzymamy na sekundę, staje się dziełem SZTUKI.</p>\n<p>~ Natalia Lach-Lachowicz (Natalia LL)</p>\n</blockquote>\n<p>Od pewnego czasu obserwuje zjawisko nagminnego pojawiania się słów ‘art’, ‘artist’ w nazewnictwie zawodowym. Dziś już nie jesteś tylko makijażystą, jesteś ‘make up artist’ - artystą od makijażu lub makijażowym artystą, chciałoby się przetłumaczyć, lub też jesteś po prostu artystą pracującym w technice ‘makijaż’. Dziś to nie fryzjerzy ścinają i farbują nam włosy lecz ‘styliści fryzur’, artyści od włosów, ‘hair artists’. Od niedawna także Ci styliści od mody przekwalifikowali swoje stanowiska na Fashion ART Directors (dosłownie ci, którzy wyznaczają artystyczny kierunek modzie). Skąd tyle tej sztuki, a raczej mody na sztukę, dlaczego dziś wszyscy nazywamy się artystami i dlaczego jest to tak ważne dla poczucia ‘siebie’ i swojej roli we współczesnym  społeczeństwie?</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6230425/ello-optimized-928b9c87.jpg\" alt=\"Zdjęcie przedstawia papierowy kolaż, gdzie mężczyzna z głową wyciętą z chmur w garniturze podtrzymuje na rękach drugiego mężczyznę w garniturze, który nie ma głowy. Całość kompozycji na żółtym tle.\" /></p>\n<h2>Artysta = Rzemieślnik ?</h2>\n<p>Zastanawiam się, czy w stosunku do artystycznej działalności wypada użyć słowa ‘zawód’. Kim jesteś z zawodu? - Jestem artystą. Czy to nie jest trochę tak, że zawód się wybiera, idąc np. na konkretny kierunek studiów, a brzemienia artysty poniekąd nie jesteśmy w stanie wybrać świadomie. Z drugiej strony wszystkich warsztatowych technik da się nauczyć i nie tylko Ci najzdolniejsi zarabiają na swojej pracy artystycznej. Zatem dobrze, mówmy o zawodzie, czyli o czynnościach, z których dana jednostka jest w stanie zarobić na chleb. Zawód artysty wymaga nie tylko talentu, ale przede wszystkim kreatywnego myślenia. Czy artyści to również rzemieślnicy? Ci drudzy wykonują wyuczony fach wręcz mechanicznie, podczas gdy Ci pierwsi znajdują czas na refleksje przy pracy i wprowadzanie do jej efektów coraz to nowych pomysłów (IDEI), często kończących się fiaskiem, niepowodzeniem, totalną klapą, a nawet spaleniem dzieła nigdyniedokończonego. Artyści błądzą. Kreują. Drą i krzyczą. Rzemieślnicy wykonują.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6230423/ello-optimized-76fb5582.jpg\" alt=\"Zdjęcie przedstawia papierowy kolaż na zielonym tle, gdzie z prawego dolnego rogu ręka wykonuje gest w kierunku ręki kobiety w fioletowej sukience, która zamiast głowy ma bukiet kwiatów.\" /></p>\n<h2>‘Młodzi Kreatywni’</h2>\n<p>Powiedzmy sobie szczerze, artyści od zawsze mieli ‘pod górkę’. Tworzyli dzieła zamawiane przez fundatorów dyskretnie przemycając swoje wizje lub też nie kryli się z wizjami stanowczo wykraczającymi ponad ramy epoki, co skutkowało niezrozumieniem i wykluczeniem ze społeczeństwa. Doceniani zazwyczaj po śmierci, okazywało się, że przychodzili na świat nie w swoim miejscu, nie w swoim czasie. Walczyli o swoje poglądy, ich często innowacyjne wizje kończyły zmieszane z błotem przez krytyków. Gdyby nie ten indywidualizm, parcie do przodu i często związana z tym ignorancja, nie mielibyśmy tych ‘wielkich’, wizjonerów,  którzy na zawsze odmienili postrzeganie danej dziedziny, często wykraczając poza jej granice.\nŻyjemy w XXI wieku, który nieubłagalnie pędzi i przyspiesza niczym ciuchcia w wierszu Tuwima. Nigdy nie zwalnia, więc i Ty nie zwalniaj. Byli już Zmęczeni Rzeczywistością, teraz przyszedł czas na Młodych Kreatywnych – absolwentów uczelni artystycznych, którzy wpisani w ramy wieku pędzą. Nie ograniczają się tylko do działań w dziedzinie, z której są (dumnymi) magistrami na papierze. Chcą robić kariere, chcą być nie tyle na czasie, co w czasie, poznawać nowe technologie, rozwijać możliwości. Kończą malarstwo i idą pracować do największych agencji kreatywnych, które (podobno) cenią młode, twórcze, otwarte umysły (o tym już w kolejnym poście).</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6230428/ello-optimized-f82621bd.jpg\" alt=\"Zdjęcie przedstawia papierowy kolaż na niebieskim tle przedstawiający popiersie kobiety, gdzie kobieta wykonuje gest dotykania głowy. Kobieta zamiast twarzy ma krajobraz morza.\" /></p>\n<h2>Pokolenie Self-Obsessed</h2>\n<p>‘-Wykonanie makijażu zajmuje mi jakieś 3 godziny. W trakcie malowania oczywiście nagrywam wszystko, żeby później zmontować to w spójny tutorial i wrzucić na YouTube. W czasie międzyczasu nagrywam krótkie story na żywo. Kiedy skończę utrwalam wszystko robiąc kilka selfie, no dobra może kilkanaście. Czas wyjść z domu. Przeglądam się  w lustrze kilka razy, sprawdzam fryzurę, wciągam brzuch, jeszcze kilka fotek. Wychodzę na siłownie, żeby tam powtórzyć rytuał, tyle że w innym lustrze. Żyję sobą i inni ludzie żyją mną, a  raczej marzeniem by być jak ja. Zaczynają mnie naśladować, stosować się do moich rad, zostają moimi fanami.’\nI gdyby to wszystko okazało się świadomą artystyczną kreacją, sztuką konceptualną, performansem, okej, to ma sens, coś uświadamia. A może rzeczywiście sztuka wyszła ze sztuki, przekroczyła samą siebie i jest w każdej najmniejszej czynności? Przecież pędzle do makijażu niczym nie różnią się od tych, którymi uprawiamy akwarele (nieśmiało przyznam, że nieraz wiewiórczy włos idealnie pomógł mi w blendowaniu załamania powieki...) A gdyby tak, w tej nieświadomości, dodać przedrostek -art/przyrostek -artist do mojego pseudonimu na Instagramie? Czy wtedy ludzie zaczną lubić mnie bardziej? W końcu sztuka to domena jednostek myślących…</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6230421/ello-optimized-26292a74.jpg\" alt=\"Zdjęcie przedstawia papierowy kolaż na czerwonym tle, gdzie widnieje postać idącej kobiety, której tułów to rzeźba. Kobieta ma czerwone usta, spódnicę w czarno-białe pionowe pasy i białe kozaki.\" /></p>\n<p><a href=\"http://SztukaUniwersalna.pl\">SztukaUniwersalna.pl</a> to portal w którym zacierają się granice. Opisuję i rejestruję Sztukę, która zajmuje mnie w danej chwili. Potraktuj to jako pamiętnik Młodej Kreatywnej, której każdy dzień to artystyczna kreacja. Miłej lektury. :)</p>\n";
 var raw = exports.raw = "\n> Interesowało mnie utrwalanie wszystkich prostych czynności, bo są UNIWERSALNE. Każda z nich,\n> kiedy się na niej skupimy, zatrzymamy na sekundę, staje się dziełem SZTUKI.\n>\n> ~ Natalia Lach-Lachowicz (Natalia&nbsp;LL)\n\nOd pewnego czasu obserwuje zjawisko nagminnego pojawiania się słów ‘art’, ‘artist’ w nazewnictwie zawodowym. Dziś już nie jesteś tylko makijażystą, jesteś ‘make up artist’ - artystą od makijażu lub makijażowym artystą, chciałoby się przetłumaczyć, lub też jesteś po prostu artystą pracującym w technice ‘makijaż’. Dziś to nie fryzjerzy ścinają i farbują nam włosy lecz ‘styliści fryzur’, artyści od włosów, ‘hair artists’. Od niedawna także Ci styliści od mody przekwalifikowali swoje stanowiska na Fashion ART Directors (dosłownie ci, którzy wyznaczają artystyczny kierunek modzie). Skąd tyle tej sztuki, a raczej mody na sztukę, dlaczego dziś wszyscy nazywamy się artystami i dlaczego jest to tak ważne dla poczucia ‘siebie’ i swojej roli we współczesnym  społeczeństwie?\n\n![Zdjęcie przedstawia papierowy kolaż, gdzie mężczyzna z głową wyciętą z chmur w garniturze podtrzymuje na rękach drugiego mężczyznę w garniturze, który nie ma głowy. Całość kompozycji na żółtym tle.](https://assets1.ello.co/uploads/asset/attachment/6230425/ello-optimized-928b9c87.jpg)\n\n## Artysta = Rzemieślnik ?\nZastanawiam się, czy w stosunku do artystycznej działalności wypada użyć słowa ‘zawód’. Kim jesteś z zawodu? - Jestem artystą. Czy to nie jest trochę tak, że zawód się wybiera, idąc np. na konkretny kierunek studiów, a brzemienia artysty poniekąd nie jesteśmy w stanie wybrać świadomie. Z drugiej strony wszystkich warsztatowych technik da się nauczyć i nie tylko Ci najzdolniejsi zarabiają na swojej pracy artystycznej. Zatem dobrze, mówmy o zawodzie, czyli o czynnościach, z których dana jednostka jest w stanie zarobić na chleb. Zawód artysty wymaga nie tylko talentu, ale przede wszystkim kreatywnego myślenia. Czy artyści to również rzemieślnicy? Ci drudzy wykonują wyuczony fach wręcz mechanicznie, podczas gdy Ci pierwsi znajdują czas na refleksje przy pracy i wprowadzanie do jej efektów coraz to nowych pomysłów (IDEI), często kończących się fiaskiem, niepowodzeniem, totalną klapą, a nawet spaleniem dzieła nigdyniedokończonego. Artyści błądzą. Kreują. Drą i krzyczą. Rzemieślnicy wykonują.\n\n![Zdjęcie przedstawia papierowy kolaż na zielonym tle, gdzie z prawego dolnego rogu ręka wykonuje gest w kierunku ręki kobiety w fioletowej sukience, która zamiast głowy ma bukiet kwiatów.](https://assets0.ello.co/uploads/asset/attachment/6230423/ello-optimized-76fb5582.jpg)\n\n## ‘Młodzi Kreatywni’\nPowiedzmy sobie szczerze, artyści od zawsze mieli ‘pod górkę’. Tworzyli dzieła zamawiane przez fundatorów dyskretnie przemycając swoje wizje lub też nie kryli się z wizjami stanowczo wykraczającymi ponad ramy epoki, co skutkowało niezrozumieniem i wykluczeniem ze społeczeństwa. Doceniani zazwyczaj po śmierci, okazywało się, że przychodzili na świat nie w swoim miejscu, nie w swoim czasie. Walczyli o swoje poglądy, ich często innowacyjne wizje kończyły zmieszane z błotem przez krytyków. Gdyby nie ten indywidualizm, parcie do przodu i często związana z tym ignorancja, nie mielibyśmy tych ‘wielkich’, wizjonerów,  którzy na zawsze odmienili postrzeganie danej dziedziny, często wykraczając poza jej granice.\nŻyjemy w XXI wieku, który nieubłagalnie pędzi i przyspiesza niczym ciuchcia w wierszu Tuwima. Nigdy nie zwalnia, więc i Ty nie zwalniaj. Byli już Zmęczeni Rzeczywistością, teraz przyszedł czas na Młodych Kreatywnych – absolwentów uczelni artystycznych, którzy wpisani w ramy wieku pędzą. Nie ograniczają się tylko do działań w dziedzinie, z której są (dumnymi) magistrami na papierze. Chcą robić kariere, chcą być nie tyle na czasie, co w czasie, poznawać nowe technologie, rozwijać możliwości. Kończą malarstwo i idą pracować do największych agencji kreatywnych, które (podobno) cenią młode, twórcze, otwarte umysły (o tym już w kolejnym poście).\n\n![Zdjęcie przedstawia papierowy kolaż na niebieskim tle przedstawiający popiersie kobiety, gdzie kobieta wykonuje gest dotykania głowy. Kobieta zamiast twarzy ma krajobraz morza.](https://assets1.ello.co/uploads/asset/attachment/6230428/ello-optimized-f82621bd.jpg)\n\n## Pokolenie Self-Obsessed\n‘-Wykonanie makijażu zajmuje mi jakieś 3 godziny. W trakcie malowania oczywiście nagrywam wszystko, żeby później zmontować to w spójny tutorial i wrzucić na YouTube. W czasie międzyczasu nagrywam krótkie story na żywo. Kiedy skończę utrwalam wszystko robiąc kilka selfie, no dobra może kilkanaście. Czas wyjść z domu. Przeglądam się  w lustrze kilka razy, sprawdzam fryzurę, wciągam brzuch, jeszcze kilka fotek. Wychodzę na siłownie, żeby tam powtórzyć rytuał, tyle że w innym lustrze. Żyję sobą i inni ludzie żyją mną, a  raczej marzeniem by być jak ja. Zaczynają mnie naśladować, stosować się do moich rad, zostają moimi fanami.’\nI gdyby to wszystko okazało się świadomą artystyczną kreacją, sztuką konceptualną, performansem, okej, to ma sens, coś uświadamia. A może rzeczywiście sztuka wyszła ze sztuki, przekroczyła samą siebie i jest w każdej najmniejszej czynności? Przecież pędzle do makijażu niczym nie różnią się od tych, którymi uprawiamy akwarele (nieśmiało przyznam, że nieraz wiewiórczy włos idealnie pomógł mi w blendowaniu załamania powieki...) A gdyby tak, w tej nieświadomości, dodać przedrostek -art/przyrostek -artist do mojego pseudonimu na Instagramie? Czy wtedy ludzie zaczną lubić mnie bardziej? W końcu sztuka to domena jednostek myślących...\n\n![Zdjęcie przedstawia papierowy kolaż na czerwonym tle, gdzie widnieje postać idącej kobiety, której tułów to rzeźba. Kobieta ma czerwone usta, spódnicę w czarno-białe pionowe pasy i białe kozaki.](https://assets1.ello.co/uploads/asset/attachment/6230421/ello-optimized-26292a74.jpg)\n\nSztukaUniwersalna.pl to portal w którym zacierają się granice. Opisuję i rejestruję Sztukę, która zajmuje mnie w danej chwili. Potraktuj to jako pamiętnik Młodej Kreatywnej, której każdy dzień to artystyczna kreacja. Miłej lektury. :)\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 63 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2745,7 +2817,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -2843,10 +2915,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Wenus vs Chanel, czyli_Nowa Dziewczyna z_Perłą", "date": "2017-09-07T10:32:00.000Z", "permalink": "/2017-09-07-wenus-chanel-nowa-dziewczyna-z-perla", "categories": ["Sztuka Ubioru"], "tags": ["chanel", "perły", "wenus", "moda", "art", "kreacja", "dzieło", "artysta"] };
 var body = exports.body = "<olela-narrative>\nJestem tym, który delikatnie, z wielką precyzją i odwagą wsuwa maleńkie ziarnko piasku pomiędzy twarde uszy muszli. Jestem tym cierpliwym, który czeka wiele lat zanim jego dotyk urzeczywistni się w postaci nieśmiertelnego piękna. Jestem stwórcą, kreatorem nowej rzeczywistości w akcie nieznanym.\n</olela-narrative>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6229492/ello-optimized-56e3e021.jpg\" alt=\"Zdjęcie przedstawia zbliżenie na usta kobiety, pomalowane na biało z perłami przyczepionymi do dolnej wargi i twarzy kobiety.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6229495/ello-optimized-01fb3dca.jpg\" alt=\"Zdjęcie przedstawia usta kobiety, pomalowane na biało z perłami przyczepionymi do dolnej wargi i twarzy kobiety.\" /></p>\n<p>Co dzieje się wewnątrz małży nie jesteśmy w stanie do końca wyjaśnić. Arystoteles to maleńkie cudo nanotechnologii porównywał do zapłodnienia kroplą oceanu. XV wiek to czas hipotez -perły są jajami małży. XVII – perły powstają w wyniku utwardzenia soków wydzielanych przez muszlę. XIX – i tutaj zbliżamy się do teorii ciała obcego, które małż traktuje jako intruza i odkłada wokół niego perlistą substancję.\nWłaściwie, to wszystko może stać się perłą. Wyobraźmy sobie muszle wielkości samochodu – z podobnej przecież wyłoniła się Wenus na obrazie S. Botticellego „Narodziny Wenus”. Tak... Wenus była perłą! Wystarczy spojrzeć na odcień jej skóry, który praktycznie zlewa się z muszlą. Gest prawej dłoni podkreśla niewinność piersi - jakże kształtem swoim perliste! Simonetta Vespucci pozuje idealnie a Botticelli idealnie oddaje piękno boskiej perły – jedynej w swoim rodzaju. Nie ma dwóch takich samych, a kopia nigdy nie dorówna oryginalnemu pięknu.</p>\n<p>Pod koniec XVI wieku perły docierają do Europy i… nie wzbudzają większego zainteresowania. Za  to ok. pół roku później holenderski malarz popełnia dzieło uznawane za najwybitniejszy przykład XVII wecznego malarstwa - „Dziewczyna z perłą”, nazywany często Mona Lisą Północy. Kim była owa dziewczyna? Być może jest to kilkunastoletnia wówczas córka J. Vermeera.  Tracy Chevalier (autorka książki „Dziewczyna z Perłą”) interpretuje młodą damę jako służącą, a za jej śladem idzie Peter Webber, reżyser filmu o tym samym tytule.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6216044/ello-optimized-c0bb333d.jpg\" alt=\"Zdjęcie przedstawia portret kobiety z perłami przyczepionymi do twarzy i ust. Kobieta patrzy w swój lewy dolny róg, ma usta pomalowane na biało.\" /></p>\n<olela-narrative>\nTwarz dziewczyny z obrazu zastyga na moment z lekko rozchylonymi ustami. Patrząc dłuższą chwilę odnoszę wrażenie jakbym przed chwilą zawołał jej imię, stąd gest skrętu głowy w moim kierunku.\nNie mogę oderwać wzroku.\nJeszcze chwila.\n</olela-narrative>\n<p>Przemysłowe hodowle pereł, tych w kształcie kuli, to zasługa Japończyków, a właściwie Kokichi Mikimoto – pioniera innowacyjnej metody. Podczas gdy Kokochi eksperymentuje z małżami na swiat przychodzi przyszła, największa fanka cudownych dzieci muszli – COCO CHANEL.\nPraktycznie na każdym archiwalnym zdjęciu Coco (Gabrielle Bonheur Chanel) nosi na sobie perły – nie jeden sznur a sześć. Z czasem, przylegają do jej tożsamości i w połączeniu z małą czarną stają się UNIWERSALNĄ klasyką.</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6216049/ello-optimized-5ee2d384.jpg\" alt=\"Zdjęcie przedstawia połowę twarzy kobiety, do której przyczepione są perły, a powieka oka pomalowana jest na biało.\" /></p>\n<olela-narrative>\nUmówiliśmy się po południu na rogu Park Avenue i 35tej alei. Podobno jest tam jakaś bardzo fajna wegańska kawiarnia. Nie za bardzo wiedziałem czego się spodziewać. W głębi duszy nie chciałem, żeby było to spotkanie czysto biznesowe. Miałem na sobie sportowo-elegancką kurtkę od Armaniego, spodnie przypominające bryczesy i półbuty, których koloru nie jestem w stanie określić. Zerknąłem na zegarek i zacząłem nieco się niecierpliwić. W momencie, kiedy w mojej głowie pojawiła się myśl, że Laura jednak nie przyjdzie, zauważyłem w oddali kobietę zbliżającą się w moim kierunku szybkim, lekko chwiejnym krokiem.\n</olela-narrative>\n<olela-narrative>\n&mdash; Strasznie Cię przepraszam, ale po drodze tutaj najpierw zostawiłam palto w taksówce, a zaraz potem złamałam obcas... &mdash; powiedziała zdejmując lewego buta. Miała na sobie małą czarną i subtelne kolczyki z perłą. Mój umysł przywołał obraz Vermeera, który niedawno widziałem a wystawie.<br />\n&mdash; To Ty... &mdash; wymamrotałem bezwiednie.<br />\n&mdash; Słucham?<br />\n&mdash; Nic, nic, przepraszam, zamyśliłem się. &mdash; Niewiele myśląc chwyciłem Laure pod kolana i za ramiona i podniosłem do góry.<br />\n&mdash; Hej, co robisz?<br />\n&mdash; Zdejmij też drugiego buta, proszę. W tej sukience i kolczykach wyglądasz genialnie. Nic więcej nie jest Ci potrzebne. Mam zamiar zanieść Cię najpierw do kawiarni, gdzie zamówimy sojowe latte na podwójnym espresso, a później tam, gdzie tylko zapragniesz. &mdash; Laura obdarzyła mnie spojrzeniem pełnym niedowierzania, aby zaraz głęboko się uśmiechnąć.<br />\n&mdash; Zgadzam się, ale pod jednym warunkiem.<br />\n&mdash; Jakim?<br />\n&mdash; Zamówimy espresso.<br />\n</olela-narrative>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6202833/ello-optimized-7d07df99.jpg\" alt=\"Czarno-białe zdjęcie przedstawia postać odwróconą tyłem w żakiecie ozdobionym perłami i skórzanej spódnicy zapinanej na zamek. Widać lewą dłoń postaci.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6202835/ello-optimized-9d462f06.jpg\" alt=\"Czarno-białe zdjęcie przedstawia zbliżenie na żakietozdobiony perłą, zapinany na zamek błyskawiczny. Widać kawałek lewej dłoni postaci.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6202836/ello-optimized-8db76be4.jpg\" alt=\"Czarno-białe zdjęcie przedstawia zbliżenie na żakietozdobiony perłą, zapinany na zamek błyskawiczny.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6202837/ello-optimized-b2d459e4.jpg\" alt=\"Czarno-białe zdjęcie przedstawia postać kobiety od tyłu. Kobieta ma włosy spięte w kok i podnosi ręce do góry, jest ubrana w żakiet ozdobiony perłami.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6216182/ello-optimized-8951e881.jpg\" alt=\"Czarno-białe zdjęcie przedstawia popiersie kobiety w rozpiętym żakiecie ozdobionym perłami, kobieta nosi sznury pereł na szyi.\" /></p>\n<p>naszyjnik: Zara / spódnica: Reserved / żakiet: Bik Bok x Olela</p>\n";
 var raw = exports.raw = "\n<olela-narrative>\nJestem tym, który delikatnie, z wielką precyzją i odwagą wsuwa maleńkie ziarnko piasku pomiędzy twarde uszy muszli. Jestem tym cierpliwym, który czeka wiele lat zanim jego dotyk urzeczywistni się w postaci nieśmiertelnego piękna. Jestem stwórcą, kreatorem nowej rzeczywistości w akcie nieznanym.\n</olela-narrative>\n\n![Zdjęcie przedstawia zbliżenie na usta kobiety, pomalowane na biało z perłami przyczepionymi do dolnej wargi i twarzy kobiety.](https://assets0.ello.co/uploads/asset/attachment/6229492/ello-optimized-56e3e021.jpg)\n![Zdjęcie przedstawia usta kobiety, pomalowane na biało z perłami przyczepionymi do dolnej wargi i twarzy kobiety.](https://assets0.ello.co/uploads/asset/attachment/6229495/ello-optimized-01fb3dca.jpg)\n\nCo dzieje się wewnątrz małży nie jesteśmy w stanie do końca wyjaśnić. Arystoteles to maleńkie cudo nanotechnologii porównywał do zapłodnienia kroplą oceanu. XV wiek to czas hipotez -perły są jajami małży. XVII – perły powstają w wyniku utwardzenia soków wydzielanych przez muszlę. XIX – i tutaj zbliżamy się do teorii ciała obcego, które małż traktuje jako intruza i odkłada wokół niego perlistą substancję.\nWłaściwie, to wszystko może stać się perłą. Wyobraźmy sobie muszle wielkości samochodu – z podobnej przecież wyłoniła się Wenus na obrazie S. Botticellego „Narodziny Wenus”. Tak… Wenus była perłą! Wystarczy spojrzeć na odcień jej skóry, który praktycznie zlewa się z muszlą. Gest prawej dłoni podkreśla niewinność piersi - jakże kształtem swoim perliste! Simonetta Vespucci pozuje idealnie a Botticelli idealnie oddaje piękno boskiej perły – jedynej w swoim rodzaju. Nie ma dwóch takich samych, a kopia nigdy nie dorówna oryginalnemu pięknu.\n\nPod koniec XVI wieku perły docierają do Europy i… nie wzbudzają większego zainteresowania. Za  to ok. pół roku później holenderski malarz popełnia dzieło uznawane za najwybitniejszy przykład XVII wecznego malarstwa - „Dziewczyna z perłą”, nazywany często Mona Lisą Północy. Kim była owa dziewczyna? Być może jest to kilkunastoletnia wówczas córka J. Vermeera.  Tracy Chevalier (autorka książki „Dziewczyna z Perłą”) interpretuje młodą damę jako służącą, a za jej śladem idzie Peter Webber, reżyser filmu o tym samym tytule.\n\n![Zdjęcie przedstawia portret kobiety z perłami przyczepionymi do twarzy i ust. Kobieta patrzy w swój lewy dolny róg, ma usta pomalowane na biało.](https://assets1.ello.co/uploads/asset/attachment/6216044/ello-optimized-c0bb333d.jpg)\n\n<olela-narrative>\nTwarz dziewczyny z obrazu zastyga na moment z lekko rozchylonymi ustami. Patrząc dłuższą chwilę odnoszę wrażenie jakbym przed chwilą zawołał jej imię, stąd gest skrętu głowy w moim kierunku.\nNie mogę oderwać wzroku.\nJeszcze chwila.\n</olela-narrative>\n\n\nPrzemysłowe hodowle pereł, tych w kształcie kuli, to zasługa Japończyków, a właściwie Kokichi Mikimoto – pioniera innowacyjnej metody. Podczas gdy Kokochi eksperymentuje z małżami na swiat przychodzi przyszła, największa fanka cudownych dzieci muszli – COCO CHANEL.\nPraktycznie na każdym archiwalnym zdjęciu Coco (Gabrielle Bonheur Chanel) nosi na sobie perły – nie jeden sznur a sześć. Z czasem, przylegają do jej tożsamości i w połączeniu z małą czarną stają się UNIWERSALNĄ klasyką.\n\n![Zdjęcie przedstawia połowę twarzy kobiety, do której przyczepione są perły, a powieka oka pomalowana jest na biało.](https://assets2.ello.co/uploads/asset/attachment/6216049/ello-optimized-5ee2d384.jpg)\n\n<olela-narrative>\nUmówiliśmy się po południu na rogu Park Avenue i 35tej alei. Podobno jest tam jakaś bardzo fajna wegańska kawiarnia. Nie za bardzo wiedziałem czego się spodziewać. W głębi duszy nie chciałem, żeby było to spotkanie czysto biznesowe. Miałem na sobie sportowo-elegancką kurtkę od Armaniego, spodnie przypominające bryczesy i półbuty, których koloru nie jestem w stanie określić. Zerknąłem na zegarek i zacząłem nieco się niecierpliwić. W momencie, kiedy w mojej głowie pojawiła się myśl, że Laura jednak nie przyjdzie, zauważyłem w oddali kobietę zbliżającą się w moim kierunku szybkim, lekko chwiejnym krokiem.\n</olela-narrative>\n\n<olela-narrative>\n&mdash; Strasznie Cię przepraszam, ale po drodze tutaj najpierw zostawiłam palto w taksówce, a zaraz potem złamałam obcas... &mdash; powiedziała zdejmując lewego buta. Miała na sobie małą czarną i subtelne kolczyki z perłą. Mój umysł przywołał obraz Vermeera, który niedawno widziałem a wystawie.<br />\n&mdash; To Ty... &mdash; wymamrotałem bezwiednie.<br />\n&mdash; Słucham?<br />\n&mdash; Nic, nic, przepraszam, zamyśliłem się. &mdash; Niewiele myśląc chwyciłem Laure pod kolana i za ramiona i podniosłem do góry.<br />\n&mdash; Hej, co robisz?<br />\n&mdash; Zdejmij też drugiego buta, proszę. W tej sukience i kolczykach wyglądasz genialnie. Nic więcej nie jest Ci potrzebne. Mam zamiar zanieść Cię najpierw do kawiarni, gdzie zamówimy sojowe latte na podwójnym espresso, a później tam, gdzie tylko zapragniesz. &mdash; Laura obdarzyła mnie spojrzeniem pełnym niedowierzania, aby zaraz głęboko się uśmiechnąć.<br />\n&mdash; Zgadzam się, ale pod jednym warunkiem.<br />\n&mdash; Jakim?<br />\n&mdash; Zamówimy espresso.<br />\n</olela-narrative>\n\n![Czarno-białe zdjęcie przedstawia postać odwróconą tyłem w żakiecie ozdobionym perłami i skórzanej spódnicy zapinanej na zamek. Widać lewą dłoń postaci.](https://assets0.ello.co/uploads/asset/attachment/6202833/ello-optimized-7d07df99.jpg)\n![Czarno-białe zdjęcie przedstawia zbliżenie na żakietozdobiony perłą, zapinany na zamek błyskawiczny. Widać kawałek lewej dłoni postaci.](https://assets2.ello.co/uploads/asset/attachment/6202835/ello-optimized-9d462f06.jpg)\n![Czarno-białe zdjęcie przedstawia zbliżenie na żakietozdobiony perłą, zapinany na zamek błyskawiczny.](https://assets2.ello.co/uploads/asset/attachment/6202836/ello-optimized-8db76be4.jpg)\n![Czarno-białe zdjęcie przedstawia postać kobiety od tyłu. Kobieta ma włosy spięte w kok i podnosi ręce do góry, jest ubrana w żakiet ozdobiony perłami.](https://assets0.ello.co/uploads/asset/attachment/6202837/ello-optimized-b2d459e4.jpg)\n![Czarno-białe zdjęcie przedstawia popiersie kobiety w rozpiętym żakiecie ozdobionym perłami, kobieta nosi sznury pereł na szyi.](https://assets0.ello.co/uploads/asset/attachment/6216182/ello-optimized-8951e881.jpg)\n\nnaszyjnik: Zara / spódnica: Reserved / żakiet: Bik Bok x Olela\n\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 64 */
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2869,7 +2941,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -2935,10 +3007,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Make-up inspirowany obrazem. M64_by_Wojciech Fangor", "date": "2017-09-11T16:52:00.000Z", "categories": ["Sztuka Makijażu"], "tags": ["fangor", "makeup", "makijaż", "dzieło", "obraz", "kreacja", "artysta", "art", "sztuka"] };
 var body = exports.body = "<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6212854/ello-optimized-8ec92992.jpg\" alt=\"Zdjęcie przedstawia młodą kobietę w makijażu na niebieskim tle, spoglądającą w swoją lewą stronę.\" /></p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6217685/ello-optimized-63cb1526.jpg\" alt=\"Zdjęcie przedstawia oczy młodej kobiety w makijażu, na niebieskim tle, patrzące w prawą stronę.\" /></p>\n<olela-narrative>\nOptyczne majaczenie. Gdzieś uciekam źrenicą, szukam granicy - jedynej, ostrej, wyczuwalnej. Nie znajduję niczego, co pozwala zatrzymać wzrok na chwilę. W sumie czuję ból, podobny do tego, który dotyka mnie po wielu godzinach spędzonych przed ekranem komputera. Uciekam okiem, spoglądam w dal. Coś jednak mówi mi ‘spójrz jeszcze’. Dochodzę do wniosku, że owe wzrokowe boleści w pewien sposób fascynują, hipnotyzują, są przyjemne.\n</olela-narrative>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6213643/ello-optimized-630110c6.jpg\" alt=\"Zdjęcie składa się z dwóch zdjęć przedstawiających młodą kobietę, raz z otwartymi oczami, raz z zamkniętymi. Kobieta ma opaskę na czole, makijaż, a za nią znajduje się niebieskie tło.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6217682/ello-optimized-582c1f5f.jpg\" alt=\"Zdjęcie podzielone jest na sześć części. Cztery z nich przedstawiają oczy młodej kobiety w makijażu w kolorach niebiesko-fioletowych. Jedno z nich jest w całości wypełnione kolorem niebieskim, a jedno z nich przedstawia rozmyte koło w kolorach niebiesko-fioletowych.\" /></p>\n<p>Ta swoiście masochistyczna postawa materializuje się w obrazach jednego z najznakomitszych malarzy XX wieku, mojego ulubionego – Wojciecha Fangora. Myślę, że obrazy, z których dziś znamy postać artysty najbardziej (seria OpArtowskich kręgów i fal) miała swój początek wraz z uświadomieniem roli przestrzeni zastanej i kreowanej przez dzieło.</p>\n<p>Wszystko zaczęło się od współpracy naszego mistrza z architektami i... od przypadku. W.F. Chciał namalować obrazy dwuwątkowe – na tle form rozproszonych miała znaleźć się figuracja. Odkrył on jednak, że już ten element ‘rozproszony’ (ja nazywam je często ‘zblendowanymi’ lub ‘zblurowanymi’) wpływa bezpośrednio na przestrzeń przed obrazem znacząco ją uaktywniając. Z kolaboracji ze Stanisławem Zamecznikiem powstaje w 1958r. ‘Studium Przestrzeni’ - environment, gdzie głównymi elementami instalacji są obrazy wiszące i stojące na sztalugach, kreujące przestrzeń pomiędzy nimi.</p>\n<p>Będąc w Krakowie (2012r.) na wystawie pt. ‘Wojciech Fangor. Przestrzeń jako gra’ miałam okazję ‘zagrać’ w ową grę. ‘Pozytywna przestrzeń iluzyjna’ transformowała mnie od środka jednocześnie otaczając swoją zachłannością. Znajdując się w małym pomieszczeniu sam na sam z jednym z fangorowskich kręgów, odniosłam wrażenie, że widok obrazu pojawia się pomiędzy mną a obrazem. To totalne zaprzeczenie klasycznego pojęcia perspektywy, która z definicji prowadzi nas W obraz, zafascynowało mnie do tego stopnia, że spędziłam w muzeum dobrych kilka godzin.</p>\n<p>Dziś, przywołując w myślach obrazy i powidoki obrazów Wojciecha Fangora, postanowiłam założyć je na siebie. Za wzór posłużył mi M64. Granat i fiolet, idealnie współgrają ze sobą w załamaniu powieki.</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6212890/ello-optimized-b9dcd943.jpg\" alt=\"Zdjęcie przedstawia twarz młodej kobiety w makijażu, do góry nogami, z niebieskim światłem padającym na prawą część twarzy.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6217691/ello-optimized-91c22814.jpg\" alt=\"Zdjęcie przedstawia twarz młodej kobiety w makijażu, twarz przekręcona jest o 45 stopni.\" />\n<img src=\"https://assets3.ello.co/uploads/asset/attachment/6217258/ello-optimized-9b841a4a.jpg\" alt=\"Zdjęcie przedstawia zbliżenie na oko kobiety pomalowane na niebiesko-fioletowo, całość na niebieskim tle.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6217267/ello-optimized-ccc695a4.jpg\" alt=\"Zdjęcie przedstawia zbliżenie na oko kobiety, pomalowane na niebiesko-fioletowo.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6213422/ello-optimized-b59eb7b9.jpg\" alt=\"Zdjęcie przedstawia zbliżenie na rzęsy powieki oka pomalowanej na niebiesko-fioletowo.\" /></p>\n";
 var raw = exports.raw = "\n![Zdjęcie przedstawia młodą kobietę w makijażu na niebieskim tle, spoglądającą w swoją lewą stronę.](https://assets0.ello.co/uploads/asset/attachment/6212854/ello-optimized-8ec92992.jpg)\n\n![Zdjęcie przedstawia oczy młodej kobiety w makijażu, na niebieskim tle, patrzące w prawą stronę.](https://assets1.ello.co/uploads/asset/attachment/6217685/ello-optimized-63cb1526.jpg)\n\n<olela-narrative>\nOptyczne majaczenie. Gdzieś uciekam źrenicą, szukam granicy - jedynej, ostrej, wyczuwalnej. Nie znajduję niczego, co pozwala zatrzymać wzrok na chwilę. W sumie czuję ból, podobny do tego, który dotyka mnie po wielu godzinach spędzonych przed ekranem komputera. Uciekam okiem, spoglądam w dal. Coś jednak mówi mi ‘spójrz jeszcze’. Dochodzę do wniosku, że owe wzrokowe boleści w pewien sposób fascynują, hipnotyzują, są przyjemne.\n</olela-narrative>\n\n![Zdjęcie składa się z dwóch zdjęć przedstawiających młodą kobietę, raz z otwartymi oczami, raz z zamkniętymi. Kobieta ma opaskę na czole, makijaż, a za nią znajduje się niebieskie tło.](https://assets1.ello.co/uploads/asset/attachment/6213643/ello-optimized-630110c6.jpg)\n![Zdjęcie podzielone jest na sześć części. Cztery z nich przedstawiają oczy młodej kobiety w makijażu w kolorach niebiesko-fioletowych. Jedno z nich jest w całości wypełnione kolorem niebieskim, a jedno z nich przedstawia rozmyte koło w kolorach niebiesko-fioletowych.](https://assets1.ello.co/uploads/asset/attachment/6217682/ello-optimized-582c1f5f.jpg)\n\nTa swoiście masochistyczna postawa materializuje się w obrazach jednego z najznakomitszych malarzy XX wieku, mojego ulubionego – Wojciecha Fangora. Myślę, że obrazy, z których dziś znamy postać artysty najbardziej (seria OpArtowskich kręgów i fal) miała swój początek wraz z uświadomieniem roli przestrzeni zastanej i kreowanej przez dzieło. \n\nWszystko zaczęło się od współpracy naszego mistrza z architektami i… od przypadku. W.F. Chciał namalować obrazy dwuwątkowe – na tle form rozproszonych miała znaleźć się figuracja. Odkrył on jednak, że już ten element ‘rozproszony’ (ja nazywam je często ‘zblendowanymi’ lub ‘zblurowanymi’) wpływa bezpośrednio na przestrzeń przed obrazem znacząco ją uaktywniając. Z kolaboracji ze Stanisławem Zamecznikiem powstaje w 1958r. ‘Studium Przestrzeni’ - environment, gdzie głównymi elementami instalacji są obrazy wiszące i stojące na sztalugach, kreujące przestrzeń pomiędzy nimi. \n\nBędąc w Krakowie (2012r.) na wystawie pt. ‘Wojciech Fangor. Przestrzeń jako gra’ miałam okazję ‘zagrać’ w ową grę. ‘Pozytywna przestrzeń iluzyjna’ transformowała mnie od środka jednocześnie otaczając swoją zachłannością. Znajdując się w małym pomieszczeniu sam na sam z jednym z fangorowskich kręgów, odniosłam wrażenie, że widok obrazu pojawia się pomiędzy mną a obrazem. To totalne zaprzeczenie klasycznego pojęcia perspektywy, która z definicji prowadzi nas W obraz, zafascynowało mnie do tego stopnia, że spędziłam w muzeum dobrych kilka godzin.\n\nDziś, przywołując w myślach obrazy i powidoki obrazów Wojciecha Fangora, postanowiłam założyć je na siebie. Za wzór posłużył mi M64. Granat i fiolet, idealnie współgrają ze sobą w załamaniu powieki. \n\n![Zdjęcie przedstawia twarz młodej kobiety w makijażu, do góry nogami, z niebieskim światłem padającym na prawą część twarzy.](https://assets2.ello.co/uploads/asset/attachment/6212890/ello-optimized-b9dcd943.jpg)\n![Zdjęcie przedstawia twarz młodej kobiety w makijażu, twarz przekręcona jest o 45 stopni.](https://assets0.ello.co/uploads/asset/attachment/6217691/ello-optimized-91c22814.jpg)\n![Zdjęcie przedstawia zbliżenie na oko kobiety pomalowane na niebiesko-fioletowo, całość na niebieskim tle.](https://assets3.ello.co/uploads/asset/attachment/6217258/ello-optimized-9b841a4a.jpg)\n![Zdjęcie przedstawia zbliżenie na oko kobiety, pomalowane na niebiesko-fioletowo.](https://assets1.ello.co/uploads/asset/attachment/6217267/ello-optimized-ccc695a4.jpg)\n![Zdjęcie przedstawia zbliżenie na rzęsy powieki oka pomalowanej na niebiesko-fioletowo.](https://assets2.ello.co/uploads/asset/attachment/6213422/ello-optimized-b59eb7b9.jpg)\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 65 */
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2961,7 +3033,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -3020,10 +3092,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Smaki_Jesieni vol._1. Sałatka z_białej rzepy i_rzodkiewki.", "date": "2017-09-16T16:51:00.000Z", "permalink": "/2017-09-16-salatka-z-bialej-rzepy-i-rzodkiewki", "categories": ["Sztuka Gotowania"], "tags": ["przepis", "sałatka", "smak", "jesień", "przystawka", "sztuka", "talerz", "artysta", "kucharz", "kreacja", "kompozycja"] };
 var body = exports.body = "<olela-narrative>\nJesień to czas, kiedy z lekkich letnich sałatek zaczynami przerzucać się na dania rozgrzewające. W końcu zima zbliża się wielkimi krokami. Imbir, chilli, kardamon – to zdecydowanie moje zimowe aromaty. A jesień? Zamyśliłam się chwile nad smakiem jesieni. Chciałam zrobić coś lekkiego, jednocześnie odchodząc od ogórkowych, orzeźwiających smaków lata, a nie dochodząc do ciężkich aromatów zimy.\n</olela-narrative>\n<p>W ręce wpadł mi stary numer KukBuk’a (marzec/kwiecień 2015). Pamiętam, że jeszcze wtedy pracowałam w pewnej krakowskiej restauracji gotując wegańskie zupy. Zainspirowana przepisem Piotra Markowskiego dochodzę do wniosku, że jesień to dla mnie rzodkiewka – lekkie warzywo, ale o ostrym posmaku, brokuł, kalafior, cukinia, jabłka, no i oczywiście dynia. Dziś wyczarowałam jesienną przystawkę. Przepis znajdziecie poniżej.</p>\n<div>\n  <Recipe\n    title='Sałatka z białej rzepy i rzodkiewki'\n    time='10 minut'\n    level='łatwy'\n    mealFor='1 osoba'\n    photo='https://assets2.ello.co/uploads/asset/attachment/6234887/ello-optimized-033c3643.jpg'\n    altText='Zdjęcie przedstawia ciemny talerz na jasnym tle z perspektywy lotu ptaka. Na talerzu znajdują się warzywa, biały sos, zioła.'\n  >\n    <Ingredient title='biała rzepa' />\n    <Ingredient title='rzodkiewka' quantity='ok 3 sztuki' />\n    <Ingredient title='brokuł' />\n    <Ingredient title='mleczko kokosowe' quantity='ok 4 łyżki' />\n    <Ingredient title='migdały w płatkach' quantity='garść' />\n    <Ingredient title='kolendra świeża' quantity='garść' />\n    <Ingredient title='oliwa z wytłoczyn z oliwek' quantity='ok 3 łyżki' />\n    <Ingredient title='pieprz i sól do smaku' />\n    <Method>\n      Brokuł gotuję w osolonej wodzie. Na suchej patelni prażę płatki migdałów,\n      a później mielę na puder. Rzepę i rzodkiew kroję w drobne plasterki.\n      Mleczko kokosowe redukuje przez chwilę na patelni.\n      Ugotowanego brokuła blenduję na purée, doprawiam solą i pieprzem,\n      a kolendrę miksuję razem z oliwą. Na talerz wylewam mleko kokosowe,\n      w głowie wspominając wielkiego mistrza taszyzmu – Jackson'a Pollock'a.\n      Układam rzepę i rzodkiew – tutaj wspomnienia nabierają geometrii Kandinsky’ego.\n      Z boku nakładam odrobinę brokułowego purée, a całość dekoruję pudrem z migdałów,\n      kolendrową oliwą i listkami kolendry. Takie proste, a takie pyszne! Smacznego!\n    </Method>\n  </Recipe>\n</div>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6234895/ello-optimized-24cdaed7.jpg\" alt=\"Zdjęcie przedstawia zbliżenie na ciemny talerz na jasnym tle. Na talerzu znajdują się warzywa, biały sos, zioła.\" /></p>\n";
 var raw = exports.raw = "\n<olela-narrative>\nJesień to czas, kiedy z lekkich letnich sałatek zaczynami przerzucać się na dania rozgrzewające. W końcu zima zbliża się wielkimi krokami. Imbir, chilli, kardamon – to zdecydowanie moje zimowe aromaty. A jesień? Zamyśliłam się chwile nad smakiem jesieni. Chciałam zrobić coś lekkiego, jednocześnie odchodząc od ogórkowych, orzeźwiających smaków lata, a nie dochodząc do ciężkich aromatów zimy.\n</olela-narrative>\n\nW ręce wpadł mi stary numer KukBuk’a (marzec/kwiecień 2015). Pamiętam, że jeszcze wtedy pracowałam w pewnej krakowskiej restauracji gotując wegańskie zupy. Zainspirowana przepisem Piotra Markowskiego dochodzę do wniosku, że jesień to dla mnie rzodkiewka – lekkie warzywo, ale o ostrym posmaku, brokuł, kalafior, cukinia, jabłka, no i oczywiście dynia. Dziś wyczarowałam jesienną przystawkę. Przepis znajdziecie poniżej.\n\n<div>\n  <Recipe\n    title='Sałatka z białej rzepy i rzodkiewki'\n    time='10 minut'\n    level='łatwy'\n    mealFor='1 osoba'\n    photo='https://assets2.ello.co/uploads/asset/attachment/6234887/ello-optimized-033c3643.jpg'\n    altText='Zdjęcie przedstawia ciemny talerz na jasnym tle z perspektywy lotu ptaka. Na talerzu znajdują się warzywa, biały sos, zioła.'\n  >\n    <Ingredient title='biała rzepa' />\n    <Ingredient title='rzodkiewka' quantity='ok 3 sztuki' />\n    <Ingredient title='brokuł' />\n    <Ingredient title='mleczko kokosowe' quantity='ok 4 łyżki' />\n    <Ingredient title='migdały w płatkach' quantity='garść' />\n    <Ingredient title='kolendra świeża' quantity='garść' />\n    <Ingredient title='oliwa z wytłoczyn z oliwek' quantity='ok 3 łyżki' />\n    <Ingredient title='pieprz i sól do smaku' />\n    <Method>\n      Brokuł gotuję w osolonej wodzie. Na suchej patelni prażę płatki migdałów,\n      a później mielę na puder. Rzepę i rzodkiew kroję w drobne plasterki.\n      Mleczko kokosowe redukuje przez chwilę na patelni.\n      Ugotowanego brokuła blenduję na purée, doprawiam solą i pieprzem,\n      a kolendrę miksuję razem z oliwą. Na talerz wylewam mleko kokosowe,\n      w głowie wspominając wielkiego mistrza taszyzmu – Jackson'a Pollock'a.\n      Układam rzepę i rzodkiew – tutaj wspomnienia nabierają geometrii Kandinsky’ego.\n      Z boku nakładam odrobinę brokułowego purée, a całość dekoruję pudrem z migdałów,\n      kolendrową oliwą i listkami kolendry. Takie proste, a takie pyszne! Smacznego!\n    </Method>\n  </Recipe>\n</div>\n\n\n![Zdjęcie przedstawia zbliżenie na ciemny talerz na jasnym tle. Na talerzu znajdują się warzywa, biały sos, zioła.](https://assets1.ello.co/uploads/asset/attachment/6234895/ello-optimized-24cdaed7.jpg)\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 66 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3046,7 +3118,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -3105,10 +3177,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Smaki_Jesieni vol._2. Curry z_pomidorów, cukinii i_jabłek.", "date": "2017-09-17T15:47:00.000Z", "categories": ["Sztuka Gotowania"], "tags": ["przepis", "curry", "cukinia", "jabłka", "kuchnia", "sztuka", "artysta", "kreacja", "kompozycja", "smak", "jesień", "kucharz", "talerz"] };
 var body = exports.body = "<olela-narrative>\nPomyśl przez chwilę o swoim ulubionym artyście. Może fascynują Cię kompozycje Joan’a Miró , a może przepadasz za kropkami tak jak Yayoi Kusama? Nie znasz ich zbyt wielu? Nie szkodzi – zajrzyj do internetu. Wpisz nazwisko, jakie pierwsze przyjdzie Ci do głowy, lub nazwę kierunku np. kubizm. Reszta wyświetli się sama. Od jednego dzieła do następnego. Zainspiruj się i wykorzystaj talerz jako płótno. Myśląc o składnikach pomyśl też o kolorach. Mieszaj je ze sobą z uważnością buddyjskiego mnicha, zaobserwuj ich strukturę. Na samym końcu zastanów się nad kompozycją. Czy ma mieć charakter otwarty, a może wolisz coś scentrowanego, które elementy warto wyeksponować na pierwszym planie, a które są tylko dodatkiem do koncertu smaków, zapachów i barw. Voilà. Oto dzieło, które w przeciwieństwie do obrazów nie ma przetrwać tysiąca lat, bo im szybciej znika, tym bardziej się podoba.\n</olela-narrative>\n<div>\n  <Recipe\n    title='Curry z pomidorów, cukinii i jabłek'\n    time='30 minut'\n    level='łatwy'\n    mealFor='4 osoby'\n    photo='https://assets2.ello.co/uploads/asset/attachment/6243540/ello-optimized-936d4bdf.jpg'\n    altText='Zdjęcie przedstawia seledynowy talerz na jasnym tle z perspektywy lotu ptaka. Na talerzu znajdują się warzywa, czerwony sos, biały sos, żółty ryż, zioła, orzechy.'\n  >\n    <Ingredient title='cukinia' quantity='1 średnia ' />\n    <Ingredient title='jabłko' quantity='1 średnie' />\n    <Ingredient title='cebula czerwona' quantity='2 średnie' />\n    <Ingredient title='pomidory krojone' quantity='1 puszka' />\n    <Ingredient title='koncentrat pomidorowy' quantity='2 łyżeczki' />\n    <Ingredient title='czosnek' quantity='3 ząbki' />\n    <Ingredient title='goździki' quantity='3 sztuki' />\n    <Ingredient title='papryka słodka mielona' quantity='1 łyżka'/>\n    <Ingredient title='świeża kolendra do przyozdobienia' />\n    <Ingredient title='pieprz i sól do smaku' />\n    <Ingredient title='ryż basmati' quantity='250 g' />\n    <Ingredient title='daktyle suszone' quantity='garść' />\n    <Ingredient title='kurkuma lub przyprawa curry' quantity='ok jedna łyżka' />\n    <Method>\n      Cebulę kroję w drobną kostkę, siekam 2 ząbki czosnku i wrzucam wszystko do garnka na rozgrzany olej. Dorzucam 3 goździki. Kiedy całość się podsmaża kroję w kostkę cukinię i jabłka. W osobnym garnku, w osolonej wodzie gotuję ryż. Cukinie dorzucam do cebuli, zasypuję solą i przykrywam. Duszę tak ok. 10min, po czym dodaję łyżkę słodkiej papryki i zostawiam jeszcze na chwilę. Kiedy ryż się ugotuję, odsączam go i dorzucam posiekane daktyle i ok. 2 łyżki kurkumy (lub przyprawy curry) i mieszam dokładnie (można dodać odrobinę oliwy). Do podduszonej cukinii wlewam pomidory i koncentrat, oraz dorzucam jabłka. Zostawiam całość na małym ogniu pod przykryciem na ok 10-15 min. Na sam koniec wyciskam jeszcze ząbek czosnku i doprawiam solą i pieprzem według uznania (można dodać też trochę pieprzu cayenne dla ostrości). Gotowe. \n    </Method>\n  </Recipe>\n</div>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6238656/ello-optimized-e62176d8.jpg\" alt=\"Zdjęcie przedstawia zbliżenie na seledynowy talerz na jasnym tle. Na talerzu znajdują się żółty ryż, czerwony sos, warzywa, zioła, orzechy.\" /></p>\n";
 var raw = exports.raw = "\n<olela-narrative>\nPomyśl przez chwilę o swoim ulubionym artyście. Może fascynują Cię kompozycje Joan’a Miró , a może przepadasz za kropkami tak jak Yayoi Kusama? Nie znasz ich zbyt wielu? Nie szkodzi – zajrzyj do internetu. Wpisz nazwisko, jakie pierwsze przyjdzie Ci do głowy, lub nazwę kierunku np. kubizm. Reszta wyświetli się sama. Od jednego dzieła do następnego. Zainspiruj się i wykorzystaj talerz jako płótno. Myśląc o składnikach pomyśl też o kolorach. Mieszaj je ze sobą z uważnością buddyjskiego mnicha, zaobserwuj ich strukturę. Na samym końcu zastanów się nad kompozycją. Czy ma mieć charakter otwarty, a może wolisz coś scentrowanego, które elementy warto wyeksponować na pierwszym planie, a które są tylko dodatkiem do koncertu smaków, zapachów i barw. Voilà. Oto dzieło, które w przeciwieństwie do obrazów nie ma przetrwać tysiąca lat, bo im szybciej znika, tym bardziej się podoba.\n</olela-narrative>\n\n<div>\n  <Recipe\n    title='Curry z pomidorów, cukinii i jabłek'\n    time='30 minut'\n    level='łatwy'\n    mealFor='4 osoby'\n    photo='https://assets2.ello.co/uploads/asset/attachment/6243540/ello-optimized-936d4bdf.jpg'\n    altText='Zdjęcie przedstawia seledynowy talerz na jasnym tle z perspektywy lotu ptaka. Na talerzu znajdują się warzywa, czerwony sos, biały sos, żółty ryż, zioła, orzechy.'\n  >\n    <Ingredient title='cukinia' quantity='1 średnia ' />\n    <Ingredient title='jabłko' quantity='1 średnie' />\n    <Ingredient title='cebula czerwona' quantity='2 średnie' />\n    <Ingredient title='pomidory krojone' quantity='1 puszka' />\n    <Ingredient title='koncentrat pomidorowy' quantity='2 łyżeczki' />\n    <Ingredient title='czosnek' quantity='3 ząbki' />\n    <Ingredient title='goździki' quantity='3 sztuki' />\n    <Ingredient title='papryka słodka mielona' quantity='1 łyżka'/>\n    <Ingredient title='świeża kolendra do przyozdobienia' />\n    <Ingredient title='pieprz i sól do smaku' />\n    <Ingredient title='ryż basmati' quantity='250 g' />\n    <Ingredient title='daktyle suszone' quantity='garść' />\n    <Ingredient title='kurkuma lub przyprawa curry' quantity='ok jedna łyżka' />\n    <Method>\n      Cebulę kroję w drobną kostkę, siekam 2 ząbki czosnku i wrzucam wszystko do garnka na rozgrzany olej. Dorzucam 3 goździki. Kiedy całość się podsmaża kroję w kostkę cukinię i jabłka. W osobnym garnku, w osolonej wodzie gotuję ryż. Cukinie dorzucam do cebuli, zasypuję solą i przykrywam. Duszę tak ok. 10min, po czym dodaję łyżkę słodkiej papryki i zostawiam jeszcze na chwilę. Kiedy ryż się ugotuję, odsączam go i dorzucam posiekane daktyle i ok. 2 łyżki kurkumy (lub przyprawy curry) i mieszam dokładnie (można dodać odrobinę oliwy). Do podduszonej cukinii wlewam pomidory i koncentrat, oraz dorzucam jabłka. Zostawiam całość na małym ogniu pod przykryciem na ok 10-15 min. Na sam koniec wyciskam jeszcze ząbek czosnku i doprawiam solą i pieprzem według uznania (można dodać też trochę pieprzu cayenne dla ostrości). Gotowe. \n    </Method>\n  </Recipe>\n</div>\n\n\n![Zdjęcie przedstawia zbliżenie na seledynowy talerz na jasnym tle. Na talerzu znajdują się żółty ryż, czerwony sos, warzywa, zioła, orzechy.](https://assets0.ello.co/uploads/asset/attachment/6238656/ello-optimized-e62176d8.jpg)";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 67 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3131,7 +3203,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -3276,10 +3348,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Fuerteventura impressions", "date": "2017-09-18T15:38:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["podróż", "wyspa", "fuerteventura", "sztuka", "szkic", "art", "kreacja"] };
 var body = exports.body = "<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6235681/ello-optimized-4ab7553c.jpg\" alt=\"Zdjęcie centralnie przedstawia roślinę z rodziny kaktusowatych, rosnącą w szarej glebie na tle jasnej ściany.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6242404/ello-optimized-dbcead22.jpg\" alt=\"Zdjęcie przedstawia szkic wykonany tuszem z elementami kolażu. Z lewego górnego i prawego dolnego rogu wyrasta roślina, a elementy geometryczne są czerwone.\" /></p>\n<olela-narrative>\nPodobno\n</olela-narrative>\n<p>Na początku była Atlantyda. Cudowna kraina, w której diamenty występowały tak często, jak warzywa czy zioła. Góry odgradzały ziemie od nieprzyjaznych wiatrów. Mieszkańcy żyli w harmonii z naturą i sobą nawzajem. Mierzyli do dwóch metrów wzrostu, oczy ich były niebieskie, a włosy jasne , dotknięte słońcem. Nie wiadomo jak znaleźli się na wyspie, gdyż powszechnie znany był ich wstręt do wody, nie potrafili także budować łodzi. Istnieje hipoteza, że byli potomkami jednego z odgałęzień Celtów, oni bowiem oraz plemiona germańskie odbywały odległe podróże jeszcze przed erą rzymską.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6235695/ello-optimized-50fa876a.jpg\" alt=\"Zdjęcie przedstawia plażę ze śladami odciśniętymi w piasku, w oddali widać wodę i góry.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6235697/ello-optimized-62f6ec60.jpg\" alt=\"Zdjęcie przedstawia piasek z odciśniętymi śladami stóp.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6235698/ello-optimized-ca951166.jpg\" alt=\"Zdjęcie przedstawia piasek z odciśniętymi śladami stóp, po lewej stronie w oddali widać dwie sylwetki ludzkie.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6235700/ello-optimized-c11e111e.jpg\" alt=\"Zdjęcie przedstawia krajobraz gór, w oddali widać wodę, a na pierwszym planie żółtą tabliczkę z czarnym znakiem wiewiórki.\" /></p>\n<p>Jean de Béthencourt dotarł do wybrzeży Wysp Kanaryjskich 1 czerwca 1402 r. i w zaledwie 4 lata zdobył Fuerteventurę, Lanzarotę, La Gomerę, El Hierro. Utworzone przez niego miasteczko Betancuria (istniejące do dziś) przez wiele lat było stolicą Fuerteventury. Pozostałe wyspy – Gran Canaria, La Palma i Teneryfa zostały podbite przez Alonso Fernández de Lugo . Liczne, krwawe walki doszczętnie zniszczyły kulturę i społeczeństwo Guanczów – niebieskookich blondynów, wysokich na dwa metry. Tak oto zginęły ostatnie, żywe dowody istnienia mitycznej krainy.</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6242475/ello-optimized-d8a5d13e.jpg\" alt=\"Zdjęcie przedstawia pomnik mężczyzny z brązu, trzymającego włócznię, w ujęciu od dołu.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6242478/ello-optimized-c40dcdd8.jpg\" alt=\"Zdjęcie przedstawia połowę pomnika mężczyzny z brązu, trzymającego włócznię, w ujęciu od dołu\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6242481/ello-optimized-480397f0.jpg\" alt=\"Zdjęcie przedstawia dłoń pomnika mężczyzny wykonanego z brązu, a w tle górski krajobraz.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6242483/ello-optimized-9531724e.jpg\" alt=\"Zdjęcie przedstawia dwa pomniki mężczyzn z brązu, obaj trzymają w dłoniach włócznię.\" /></p>\n<olela-narrative>\nPodobno\n</olela-narrative>\n<p>Na Fuerteventurze mieszka 100 tysięcy ludzi, a 150 tysięcy kóz. Podczas naszej tygodniowej wyprawy kozy widziałam tylko dwa razy. W pomarańczowych skałach dostrzegłam o wiele więcej chartów kanaryjskich, gdyż na wyspie trwa sezon polowań na króliki. Owszem, próbowałam kozich serów, które przyznaje z ręką na sercu, były najpyszniejsze jakie w życiu jadłam. Kozy żywią się bowiem głównie ziołami i porostami. Sery dzięki temu mają posmak tymianku, migdałów, dzikiego miodu - Coś niesamowitego! Najlepiej smakują w połączeniu z dżemem figowym lub słodkim gofio (rodzaj mączki wyrabianej z uprażonych ziaren jęczmienia, kukurydzy i innych zbóż, która w połączeniu z wodą lub mlekiem daje konsystencje zbliżoną do chałwy). Udało nam się przywieźć trzy różne gatunki sera z lokalnej wytwórni. Żałuję, że nie kupiłam gofio, w Polsce jest je niesamowicie ciężko dostać.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6242470/ello-optimized-49f44a2b.jpg\" alt=\"Zdjęcie przedstawia górski krajobraz z zieloną rośliną na pierwszym palnie.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6242493/ello-optimized-03c9d495.jpg\" alt=\"Zdjęcie przedstawia górę z drogą po środku, na tle niebieskiego nieba.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6242384/ello-optimized-247979b7.jpg\" alt=\"Zdjęcie jest kolażem geometrycznych czerwono-niebieskich elementów z dwiema czarnymi liniami.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6242412/ello-optimized-c8dd3711.jpg\" alt=\"Zdjęcie jest kolażem geometrycznych elementów, na czerwonym tle, elementy są białe i niebieskie, a z lewej strony widzimy element roślinny.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6242502/ello-optimized-c7e3e36f.jpg\" alt=\"Zdjęcie przedstawia żółto-biały budynek z szyldem na górze. Na pierwszym planie znajdują się rośliny w donicach i szklana balustrada.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6242521/ello-optimized-753d42b0.jpg\" alt=\"Zdjęcie przedstawia ulicę z białym budynkiem po prawej, na którego ścianie znajduje się mural przedstawiający dziewczynkę w pomarańczowej sukience z falbankami podlewającą kwiat w kształcie serca.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6242514/ello-optimized-212ccd8b.jpg\" alt=\"Zdjęcie przedstawia ulicę, przy której stoi budynek o zielonych oknach i drzwiach, a na niebie są białe chmury.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6242506/ello-optimized-34aa198e.jpg\" alt=\"Zdjęcie przedstawia ulicę, przy której z lewej strony stoją samochody i rosną palmy, w tle widać biały budynek.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6242503/ello-optimized-090a1c7e.jpg\" alt=\"Zdjęcie przedstawia prawy bok mężczyzny siedzącego w samochodzie. Mężczyzna ma niebieski kapelusz na głowie, czerwoną koszulkę i okulary, a w tle widać palmy i niebieskie niebo.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6242527/ello-optimized-c8f56a61.jpg\" alt=\"Zdjęcie przedstawia drogę z żółtymi pasami, którą jadą samochody. Po bokach widzimy góry, a po prawej stronie żółty znak drogowy z liczbą 60.\" /></p>\n<olela-narrative>\nPodobno\n</olela-narrative>\n<p>Nazwa Fuerteventura pochodzi od mocno (fuerte) wiejących tu wiatrów (viento). Nic nie jest w stanie ich zatrzymać, gdyż wyspa w najwyższym punkcie ma zaledwie 807m wysokości. Bardziej wietrzna jest zachodnia strona wyspy, to istny raj dla surferów. Odbywają się tu Mistrzostwa Świata w Windsurfingu i Kiteboardingu.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6242538/ello-optimized-0e2b067e.jpg\" alt=\"Zdjęcie przedstawia postać ubraną na biało w kapeluszu stojącą tyłem na plaży. W oddali z prawej strony widać budynki, a z lewej na niebie unoszą się latawce.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6242392/ello-optimized-3c4cd600.jpg\" alt=\"Zdjęcie przedstawia kolaż złożony z czarnych linii jednego niebiesko-czerwonego elementu w prawym górnym rogu.\" /></p>\n<p>Czasami zdarza się też, że wiatry niosą ze sobą zjawiska, takie jak ‘kalima’. Mieliśmy okazję ją zobaczyć i doświadczyć w pierwsze dwa dni naszego pobytu na wyspie. Kiedy lądowaliśmy miałam wrażenie, że cały czas znajdujemy się w chmurze lub we mgle. ‘Kalima’ wiąże się z burzami piaskowymi nad Saharą i transportem pyłu przez wschodnie wiatry. To tak jakby ‘kanaryjski smog’. Pył zawieszony w powietrzu znacząco utrudnia widoczność, powietrze staje się suche, a temperatura wzrasta średnio do 40 stopni. Na szczęście furte vientos dość prędko uporały się z kalimą i prawdziwe kolory krajobrazów zaistniały na horyzoncie.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6235691/ello-optimized-ab4b9031.jpg\" alt=\"Zdjęcie przedstawia samolot lecący nad piaszczystym krajobrazem. W oddali widać budynki.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6242487/ello-optimized-5c9f0b2a.jpg\" alt=\"Zdjęcie przedstawia samochód marki toyota stojący tyłem. W oddali widać góry.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6242526/ello-optimized-be05e84e.jpg\" alt=\"Zdjęcie przedstawia ulicę z budynkami po bokach i samochodami stojącymi po bokach. Na ulicy z prawej strony widoczny jest cień osoby fotografującej.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6235686/ello-optimized-257bf96a.jpg\" alt=\"Zdjęcie przedstawia okrągłe okno przez które widać morze i skały.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6235684/ello-optimized-10f89506.jpg\" alt=\"Zdjęcie przedstawia białe krzesła i stoliki stojące przy szklanej balustradzie tuż nad wodą.\" /></p>\n<olela-narrative>\nPodobno\n</olela-narrative>\n<p>Obecnie Fuerteventura jest zielona. Rozejrzałam się dookoła w poszukiwaniu owej flory. Dostrzegłam parę palm, których dominującym kolorem wcale nie był zielony, tylko coś, co jako malarz nazwałabym rozbieloną umbrą. Dalej mój wzrok napotkał aloes. No i tutaj rzeczywiście mam do czynienia z odcieniem zieleni, problem w tym, że zieleń ta nie jest zielenią nasyconą, nie krzyczy do mnie swoją soczystością, nie wywołuje nadprogramowej produkcji śliny w moich ustach, czy też dodatkowej porcji endorfin w mózgu. Ta zieleń też ma w sobie dużo bieli, świeci szarością. A może to wszystko przez afrykańskie słońce? Może to właśnie tak mocne światło sprawia, że widzę wszystko jak przez blendę. Szukam dalej.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6242486/ello-optimized-5d0f0df6.jpg\" alt=\"Zdjęcie przedstawia opuncję figową, trzy doniczki z kwiatami stojące na ziemi po prawej stronie, stolik wykonany ze szpuli po lewej, na stoliku stoją trzy małe doniczki z kwiatkami. Wszystko na tle ściany.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6242499/ello-optimized-ede9ae43.jpg\" alt=\"Zdjęcie przedstawia zbliżenie na opuncję figową.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6242420/ello-optimized-d45dfd3c.jpg\" alt=\"Zdjęcie przedstawia kompozycje z dwóch plam czerwonej barwy i dwóch plam czarnych, wszystko łączone cienką czarną linią.\" /></p>\n<p>No i jest wreszcie, wreszcie kolor. Okrążam dookoła opuncję figową, pamiętając, żeby nie dotykać owoców. Zbieram delikatnie za pomocą palców białe, maleńkie robaczki, jakby pokryte pszenną mąką poznańską. Rozgniatam jednego (w głowie powtarzając mantrę ‘ w imię sztuki, w imię sztuki!’), oto jest – czerwień koszelinowa. Fuerteventura jest czerwona.</p>\n<olela-narrative>\nNa pewno kiedyś tam wrócę.\n</olela-narrative>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6242407/ello-optimized-d9c1ce8f.jpg\" alt=\"Zdjęcie przedstawia kolaż geometrycznych elementów na czerwonym tle. Z lewej strony widzimy małe kobiece usta.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6242416/ello-optimized-05d3d3e1.jpg\" alt=\"Zdjęcie przedstawia kolaż białych elementów na czerwonym tle, ułożonych na samym środku na kształt płomieni.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6242529/ello-optimized-b9d42098.jpg\" alt=\"Zdjęcie przedstawia górzysty krajobraz w ciepłych kolorach. Widać białe budynki i palmy.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6242531/ello-optimized-8b85d610.jpg\" alt=\"Zdjęcie przedstawia widok z góry na plażę z czarnym piaskiem, na którym opalają się ludzie, po prawej stronie stoją kolorowe łódki, a w oddali widać góry.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6242530/ello-optimized-59a66b0b.jpg\" alt=\"Zdjęcie przedstawia widok z góry na plażę z czarnym piaskiem, w oddali widać góry, po prawej stronie znajduje się woda.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6243115/ello-optimized-32987e2b.jpg\" alt=\"Zdjęcie przedstawia obraz namalowany tuszami w kolorze czarnym, czerwonym i niebieskim. Obraz ma charakter abstrakcyjny.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6235694/ello-optimized-6e539694.jpg\" alt=\"Zdjęcie przedstawia portret młodej kobiety w kapeluszu i okularach przeciwsłonecznych. W tle widać palmy.\" /></p>\n";
 var raw = exports.raw = "\n![Zdjęcie centralnie przedstawia roślinę z rodziny kaktusowatych, rosnącą w szarej glebie na tle jasnej ściany.](https://assets0.ello.co/uploads/asset/attachment/6235681/ello-optimized-4ab7553c.jpg)\n![Zdjęcie przedstawia szkic wykonany tuszem z elementami kolażu. Z lewego górnego i prawego dolnego rogu wyrasta roślina, a elementy geometryczne są czerwone.](https://assets2.ello.co/uploads/asset/attachment/6242404/ello-optimized-dbcead22.jpg)\n\n<olela-narrative>\nPodobno\n</olela-narrative>\n\nNa początku była Atlantyda. Cudowna kraina, w której diamenty występowały tak często, jak warzywa czy zioła. Góry odgradzały ziemie od nieprzyjaznych wiatrów. Mieszkańcy żyli w harmonii z naturą i sobą nawzajem. Mierzyli do dwóch metrów wzrostu, oczy ich były niebieskie, a włosy jasne , dotknięte słońcem. Nie wiadomo jak znaleźli się na wyspie, gdyż powszechnie znany był ich wstręt do wody, nie potrafili także budować łodzi. Istnieje hipoteza, że byli potomkami jednego z odgałęzień Celtów, oni bowiem oraz plemiona germańskie odbywały odległe podróże jeszcze przed erą rzymską.\n\n![Zdjęcie przedstawia plażę ze śladami odciśniętymi w piasku, w oddali widać wodę i góry.](https://assets1.ello.co/uploads/asset/attachment/6235695/ello-optimized-50fa876a.jpg)\n![Zdjęcie przedstawia piasek z odciśniętymi śladami stóp.](https://assets0.ello.co/uploads/asset/attachment/6235697/ello-optimized-62f6ec60.jpg)\n![Zdjęcie przedstawia piasek z odciśniętymi śladami stóp, po lewej stronie w oddali widać dwie sylwetki ludzkie.](https://assets0.ello.co/uploads/asset/attachment/6235698/ello-optimized-ca951166.jpg)\n![Zdjęcie przedstawia krajobraz gór, w oddali widać wodę, a na pierwszym planie żółtą tabliczkę z czarnym znakiem wiewiórki.](https://assets0.ello.co/uploads/asset/attachment/6235700/ello-optimized-c11e111e.jpg)\n\nJean de Béthencourt dotarł do wybrzeży Wysp Kanaryjskich 1 czerwca 1402 r. i w zaledwie 4 lata zdobył Fuerteventurę, Lanzarotę, La Gomerę, El Hierro. Utworzone przez niego miasteczko Betancuria (istniejące do dziś) przez wiele lat było stolicą Fuerteventury. Pozostałe wyspy – Gran Canaria, La Palma i Teneryfa zostały podbite przez Alonso Fernández de Lugo . Liczne, krwawe walki doszczętnie zniszczyły kulturę i społeczeństwo Guanczów – niebieskookich blondynów, wysokich na dwa metry. Tak oto zginęły ostatnie, żywe dowody istnienia mitycznej krainy.\n\n![Zdjęcie przedstawia pomnik mężczyzny z brązu, trzymającego włócznię, w ujęciu od dołu.](https://assets2.ello.co/uploads/asset/attachment/6242475/ello-optimized-d8a5d13e.jpg)\n![Zdjęcie przedstawia połowę pomnika mężczyzny z brązu, trzymającego włócznię, w ujęciu od dołu](https://assets0.ello.co/uploads/asset/attachment/6242478/ello-optimized-c40dcdd8.jpg)\n![Zdjęcie przedstawia dłoń pomnika mężczyzny wykonanego z brązu, a w tle górski krajobraz.](https://assets0.ello.co/uploads/asset/attachment/6242481/ello-optimized-480397f0.jpg)\n![Zdjęcie przedstawia dwa pomniki mężczyzn z brązu, obaj trzymają w dłoniach włócznię.](https://assets1.ello.co/uploads/asset/attachment/6242483/ello-optimized-9531724e.jpg)\n\n<olela-narrative>\nPodobno\n</olela-narrative>\n\nNa Fuerteventurze mieszka 100 tysięcy ludzi, a 150 tysięcy kóz. Podczas naszej tygodniowej wyprawy kozy widziałam tylko dwa razy. W pomarańczowych skałach dostrzegłam o wiele więcej chartów kanaryjskich, gdyż na wyspie trwa sezon polowań na króliki. Owszem, próbowałam kozich serów, które przyznaje z ręką na sercu, były najpyszniejsze jakie w życiu jadłam. Kozy żywią się bowiem głównie ziołami i porostami. Sery dzięki temu mają posmak tymianku, migdałów, dzikiego miodu - Coś niesamowitego! Najlepiej smakują w połączeniu z dżemem figowym lub słodkim gofio (rodzaj mączki wyrabianej z uprażonych ziaren jęczmienia, kukurydzy i innych zbóż, która w połączeniu z wodą lub mlekiem daje konsystencje zbliżoną do chałwy). Udało nam się przywieźć trzy różne gatunki sera z lokalnej wytwórni. Żałuję, że nie kupiłam gofio, w Polsce jest je niesamowicie ciężko dostać. \n\n![Zdjęcie przedstawia górski krajobraz z zieloną rośliną na pierwszym palnie.](https://assets0.ello.co/uploads/asset/attachment/6242470/ello-optimized-49f44a2b.jpg)\n![Zdjęcie przedstawia górę z drogą po środku, na tle niebieskiego nieba.](https://assets0.ello.co/uploads/asset/attachment/6242493/ello-optimized-03c9d495.jpg)\n![Zdjęcie jest kolażem geometrycznych czerwono-niebieskich elementów z dwiema czarnymi liniami.](https://assets1.ello.co/uploads/asset/attachment/6242384/ello-optimized-247979b7.jpg)\n![Zdjęcie jest kolażem geometrycznych elementów, na czerwonym tle, elementy są białe i niebieskie, a z lewej strony widzimy element roślinny.](https://assets2.ello.co/uploads/asset/attachment/6242412/ello-optimized-c8dd3711.jpg)\n![Zdjęcie przedstawia żółto-biały budynek z szyldem na górze. Na pierwszym planie znajdują się rośliny w donicach i szklana balustrada.](https://assets2.ello.co/uploads/asset/attachment/6242502/ello-optimized-c7e3e36f.jpg)\n![Zdjęcie przedstawia ulicę z białym budynkiem po prawej, na którego ścianie znajduje się mural przedstawiający dziewczynkę w pomarańczowej sukience z falbankami podlewającą kwiat w kształcie serca.](https://assets1.ello.co/uploads/asset/attachment/6242521/ello-optimized-753d42b0.jpg)\n![Zdjęcie przedstawia ulicę, przy której stoi budynek o zielonych oknach i drzwiach, a na niebie są białe chmury.](https://assets2.ello.co/uploads/asset/attachment/6242514/ello-optimized-212ccd8b.jpg)\n![Zdjęcie przedstawia ulicę, przy której z lewej strony stoją samochody i rosną palmy, w tle widać biały budynek.](https://assets1.ello.co/uploads/asset/attachment/6242506/ello-optimized-34aa198e.jpg)\n![Zdjęcie przedstawia prawy bok mężczyzny siedzącego w samochodzie. Mężczyzna ma niebieski kapelusz na głowie, czerwoną koszulkę i okulary, a w tle widać palmy i niebieskie niebo.](https://assets0.ello.co/uploads/asset/attachment/6242503/ello-optimized-090a1c7e.jpg)\n![Zdjęcie przedstawia drogę z żółtymi pasami, którą jadą samochody. Po bokach widzimy góry, a po prawej stronie żółty znak drogowy z liczbą 60.](https://assets1.ello.co/uploads/asset/attachment/6242527/ello-optimized-c8f56a61.jpg)\n\n\n<olela-narrative>\nPodobno\n</olela-narrative>\n\nNazwa Fuerteventura pochodzi od mocno (fuerte) wiejących tu wiatrów (viento). Nic nie jest w stanie ich zatrzymać, gdyż wyspa w najwyższym punkcie ma zaledwie 807m wysokości. Bardziej wietrzna jest zachodnia strona wyspy, to istny raj dla surferów. Odbywają się tu Mistrzostwa Świata w Windsurfingu i Kiteboardingu.\n\n![Zdjęcie przedstawia postać ubraną na biało w kapeluszu stojącą tyłem na plaży. W oddali z prawej strony widać budynki, a z lewej na niebie unoszą się latawce.](https://assets1.ello.co/uploads/asset/attachment/6242538/ello-optimized-0e2b067e.jpg)\n![Zdjęcie przedstawia kolaż złożony z czarnych linii jednego niebiesko-czerwonego elementu w prawym górnym rogu.](https://assets0.ello.co/uploads/asset/attachment/6242392/ello-optimized-3c4cd600.jpg)\n\nCzasami zdarza się też, że wiatry niosą ze sobą zjawiska, takie jak ‘kalima’. Mieliśmy okazję ją zobaczyć i doświadczyć w pierwsze dwa dni naszego pobytu na wyspie. Kiedy lądowaliśmy miałam wrażenie, że cały czas znajdujemy się w chmurze lub we mgle. ‘Kalima’ wiąże się z burzami piaskowymi nad Saharą i transportem pyłu przez wschodnie wiatry. To tak jakby ‘kanaryjski smog’. Pył zawieszony w powietrzu znacząco utrudnia widoczność, powietrze staje się suche, a temperatura wzrasta średnio do 40 stopni. Na szczęście furte vientos dość prędko uporały się z kalimą i prawdziwe kolory krajobrazów zaistniały na horyzoncie.\n\n\n![Zdjęcie przedstawia samolot lecący nad piaszczystym krajobrazem. W oddali widać budynki.](https://assets0.ello.co/uploads/asset/attachment/6235691/ello-optimized-ab4b9031.jpg)\n![Zdjęcie przedstawia samochód marki toyota stojący tyłem. W oddali widać góry.](https://assets2.ello.co/uploads/asset/attachment/6242487/ello-optimized-5c9f0b2a.jpg)\n![Zdjęcie przedstawia ulicę z budynkami po bokach i samochodami stojącymi po bokach. Na ulicy z prawej strony widoczny jest cień osoby fotografującej.](https://assets1.ello.co/uploads/asset/attachment/6242526/ello-optimized-be05e84e.jpg)\n![Zdjęcie przedstawia okrągłe okno przez które widać morze i skały.](https://assets2.ello.co/uploads/asset/attachment/6235686/ello-optimized-257bf96a.jpg)\n![Zdjęcie przedstawia białe krzesła i stoliki stojące przy szklanej balustradzie tuż nad wodą.](https://assets1.ello.co/uploads/asset/attachment/6235684/ello-optimized-10f89506.jpg)\n\n\n<olela-narrative>\nPodobno\n</olela-narrative>\n\nObecnie Fuerteventura jest zielona. Rozejrzałam się dookoła w poszukiwaniu owej flory. Dostrzegłam parę palm, których dominującym kolorem wcale nie był zielony, tylko coś, co jako malarz nazwałabym rozbieloną umbrą. Dalej mój wzrok napotkał aloes. No i tutaj rzeczywiście mam do czynienia z odcieniem zieleni, problem w tym, że zieleń ta nie jest zielenią nasyconą, nie krzyczy do mnie swoją soczystością, nie wywołuje nadprogramowej produkcji śliny w moich ustach, czy też dodatkowej porcji endorfin w mózgu. Ta zieleń też ma w sobie dużo bieli, świeci szarością. A może to wszystko przez afrykańskie słońce? Może to właśnie tak mocne światło sprawia, że widzę wszystko jak przez blendę. Szukam dalej.\n\n![Zdjęcie przedstawia opuncję figową, trzy doniczki z kwiatami stojące na ziemi po prawej stronie, stolik wykonany ze szpuli po lewej, na stoliku stoją trzy małe doniczki z kwiatkami. Wszystko na tle ściany.](https://assets0.ello.co/uploads/asset/attachment/6242486/ello-optimized-5d0f0df6.jpg)\n![Zdjęcie przedstawia zbliżenie na opuncję figową.](https://assets0.ello.co/uploads/asset/attachment/6242499/ello-optimized-ede9ae43.jpg)\n![Zdjęcie przedstawia kompozycje z dwóch plam czerwonej barwy i dwóch plam czarnych, wszystko łączone cienką czarną linią.](https://assets2.ello.co/uploads/asset/attachment/6242420/ello-optimized-d45dfd3c.jpg)\n\n\nNo i jest wreszcie, wreszcie kolor. Okrążam dookoła opuncję figową, pamiętając, żeby nie dotykać owoców. Zbieram delikatnie za pomocą palców białe, maleńkie robaczki, jakby pokryte pszenną mąką poznańską. Rozgniatam jednego (w głowie powtarzając mantrę ‘ w imię sztuki, w imię sztuki!’), oto jest – czerwień koszelinowa. Fuerteventura jest czerwona.\n\n<olela-narrative>\nNa pewno kiedyś tam wrócę.\n</olela-narrative>\n\n![Zdjęcie przedstawia kolaż geometrycznych elementów na czerwonym tle. Z lewej strony widzimy małe kobiece usta.](https://assets1.ello.co/uploads/asset/attachment/6242407/ello-optimized-d9c1ce8f.jpg)\n![Zdjęcie przedstawia kolaż białych elementów na czerwonym tle, ułożonych na samym środku na kształt płomieni.](https://assets1.ello.co/uploads/asset/attachment/6242416/ello-optimized-05d3d3e1.jpg)\n![Zdjęcie przedstawia górzysty krajobraz w ciepłych kolorach. Widać białe budynki i palmy.](https://assets2.ello.co/uploads/asset/attachment/6242529/ello-optimized-b9d42098.jpg)\n![Zdjęcie przedstawia widok z góry na plażę z czarnym piaskiem, na którym opalają się ludzie, po prawej stronie stoją kolorowe łódki, a w oddali widać góry.](https://assets0.ello.co/uploads/asset/attachment/6242531/ello-optimized-8b85d610.jpg)\n![Zdjęcie przedstawia widok z góry na plażę z czarnym piaskiem, w oddali widać góry, po prawej stronie znajduje się woda.](https://assets1.ello.co/uploads/asset/attachment/6242530/ello-optimized-59a66b0b.jpg)\n![Zdjęcie przedstawia obraz namalowany tuszami w kolorze czarnym, czerwonym i niebieskim. Obraz ma charakter abstrakcyjny.](https://assets0.ello.co/uploads/asset/attachment/6243115/ello-optimized-32987e2b.jpg)\n![Zdjęcie przedstawia portret młodej kobiety w kapeluszu i okularach przeciwsłonecznych. W tle widać palmy.](https://assets0.ello.co/uploads/asset/attachment/6235694/ello-optimized-6e539694.jpg)";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 68 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3302,7 +3374,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -3389,10 +3461,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Make-up inspirowany obrazem. M10_by_Wojciech Fangor", "date": "2017-09-21T16:49:00.000Z", "categories": ["Sztuka Makijażu"], "tags": ["fangor", "makeup", "makijaż", "dzieło", "obraz", "kreacja", "artysta", "art", "sztuka"] };
 var body = exports.body = "<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6256758/ello-optimized-b16160dc.jpg\" alt=\"Zdjęcie przedstawia twarz młodej kobiety na żółtym tle. Kobieta ma kolczyki koła i lekko rozchylone usta.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6256764/ello-optimized-4c7473ad.jpg\" alt=\"Zdjęcie przedstawia twarz młodej dziewczyny w makijażu na żółtym tle. Dziewczyna ma kolczyki koła i czarne ramiączka od bluzki.\" /></p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6256776/ello-optimized-75875f88.jpg\" alt=\"Zdjęcie podzielone jest na sześć części. Widzimy oczy pomalowane na żółto-fioletowo, połowę twarzy młodek kobiety na żółtym tle, a dwie środkowe części przedstawiają żółto-fioletowe rozmyte okręgi na szarym tle.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6256766/ello-optimized-a6b7fb74.jpg\" alt=\"Zdjęcie przedstawia twarz młodej kobiety w mocnym makijażu na żółtym tle. Kobieta ma kolczyki koła i niebieskie oczy.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6256769/ello-optimized-39312ab0.jpg\" alt=\"Zdjęcie przedstawia zbliżenie na oko kobiety w żółto-fioletowym makijażu.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6256785/ello-optimized-d0da4c12.jpg\" alt=\"Zdjęcie przedstawia przedmioty leżące na kolorowym podłożu. Widzimy kawałek materiału, pudełko z napisami i pędzle.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6256787/ello-optimized-2f878d13.jpg\" alt=\"Zdjęcie przedstawia martwą naturę ułożoną z kolorowego materiału, pędzli i czarnego pudełka ze złotymi napisami. Całość na pomarańczowo-żółtym podłożu.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6256790/ello-optimized-045c9718.jpg\" alt=\"Zdjęcie przedstawia przedmioty sfotografowane z góry. Widzimy paletkę do makijażu, pędzle, kolorową tkaninę. Całość na pomarańczowym, żółtym i różowym podłożu.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6256792/ello-optimized-69787484.jpg\" alt=\"Zdjęcie podzielone jest na dwie części i przedstawia przedmioty sfotografowane z góry. Widzimy paletkę do makijażu, pędzle, kolorową tkaninę. Całość na pomarańczowym, żółtym i różowym podłożu.\" /></p>\n<olela-narrative>\nDo wykonania makijażu użyłam:\n</olela-narrative>\n<ul>\n<li>Paleta cieni Revolution ‘Colour Chaos’</li>\n<li>Tusz do rzęs Pupa Vamp</li>\n<li>Baza pod cienie (również maskowanie brwi) MAC Paint Pot odcień ‘Soft Ochre’</li>\n<li>konturowanie twarzy L’oreal Infallible Sculpt</li>\n<li>rozświetlacz pod oczy Dr Irena Eris ProVoke nr 2</li>\n<li>róż Bourjois nr 15 ‘Rose Eclat’</li>\n<li>podkład Bourjois ‘123 Perfect’ odcień nr 52 Vanilla</li>\n<li>puder fixujący Wibo</li>\n<li>pomadka MAC z serii frost odcień ‘Pick me, Pick me!’</li>\n</ul>\n";
 var raw = exports.raw = "\n![Zdjęcie przedstawia twarz młodej kobiety na żółtym tle. Kobieta ma kolczyki koła i lekko rozchylone usta.](https://assets0.ello.co/uploads/asset/attachment/6256758/ello-optimized-b16160dc.jpg)\n![Zdjęcie przedstawia twarz młodej dziewczyny w makijażu na żółtym tle. Dziewczyna ma kolczyki koła i czarne ramiączka od bluzki.](https://assets2.ello.co/uploads/asset/attachment/6256764/ello-optimized-4c7473ad.jpg)\n\n\n![Zdjęcie podzielone jest na sześć części. Widzimy oczy pomalowane na żółto-fioletowo, połowę twarzy młodek kobiety na żółtym tle, a dwie środkowe części przedstawiają żółto-fioletowe rozmyte okręgi na szarym tle.](https://assets1.ello.co/uploads/asset/attachment/6256776/ello-optimized-75875f88.jpg)\n![Zdjęcie przedstawia twarz młodej kobiety w mocnym makijażu na żółtym tle. Kobieta ma kolczyki koła i niebieskie oczy.](https://assets0.ello.co/uploads/asset/attachment/6256766/ello-optimized-a6b7fb74.jpg)\n![Zdjęcie przedstawia zbliżenie na oko kobiety w żółto-fioletowym makijażu.](https://assets2.ello.co/uploads/asset/attachment/6256769/ello-optimized-39312ab0.jpg)\n![Zdjęcie przedstawia przedmioty leżące na kolorowym podłożu. Widzimy kawałek materiału, pudełko z napisami i pędzle.](https://assets1.ello.co/uploads/asset/attachment/6256785/ello-optimized-d0da4c12.jpg)\n![Zdjęcie przedstawia martwą naturę ułożoną z kolorowego materiału, pędzli i czarnego pudełka ze złotymi napisami. Całość na pomarańczowo-żółtym podłożu.](https://assets2.ello.co/uploads/asset/attachment/6256787/ello-optimized-2f878d13.jpg)\n![Zdjęcie przedstawia przedmioty sfotografowane z góry. Widzimy paletkę do makijażu, pędzle, kolorową tkaninę. Całość na pomarańczowym, żółtym i różowym podłożu.](https://assets2.ello.co/uploads/asset/attachment/6256790/ello-optimized-045c9718.jpg)\n![Zdjęcie podzielone jest na dwie części i przedstawia przedmioty sfotografowane z góry. Widzimy paletkę do makijażu, pędzle, kolorową tkaninę. Całość na pomarańczowym, żółtym i różowym podłożu.](https://assets2.ello.co/uploads/asset/attachment/6256792/ello-optimized-69787484.jpg)\n\n<olela-narrative>\nDo wykonania makijażu użyłam:\n</olela-narrative>\n\n* Paleta cieni Revolution 'Colour Chaos'\n* Tusz do rzęs Pupa Vamp\n* Baza pod cienie (również maskowanie brwi) MAC Paint Pot odcień 'Soft Ochre'\n* konturowanie twarzy L'oreal Infallible Sculpt\n* rozświetlacz pod oczy Dr Irena Eris ProVoke nr 2\n* róż Bourjois nr 15 'Rose Eclat'\n* podkład Bourjois '123 Perfect' odcień nr 52 Vanilla\n* puder fixujący Wibo\n* pomadka MAC z serii frost odcień 'Pick me, Pick me!'\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 69 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3415,7 +3487,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -3494,10 +3566,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Podlewaj_swoje_kwiaty.", "date": "2017-09-25T16:19:00.000Z", "categories": ["Sztuka Ubioru"], "tags": ["stylizacja", "moda", "kwiat", "art", "sztuka", "kreacja"] };
 var body = exports.body = "<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6273381/ello-optimized-aaf18cbf.jpg\" alt=\"Zdjęcie przedstawia kobietę ubraną na biało, na żółtym tle. Kobieta trzyma w ręku srebrne naczynie i podlewa roślinę, która znajduje się z lewej strony.\" /></p>\n<p>Przez całe swoje życie odczuwam paniczny lęk przed odebraniem telefonu. Przed wykonaniem zresztą też. Kiedy tylko na ekranie pojawiają się nieznane cyferki wewnątrz mojego brzucha rodzi się uczucie ścisku, podobne do tego, kiedy owijasz (dla zabawy) cienką nitką swój palec wskazujący. Kiedy wiem, że muszę do kogoś zatelefonować (i nieważne czy jest to ktoś znajomy, czy nie) dokładnie analizuje treść zdań, które wypowiem. Po cichu, w środku głowy symuluje rozmowę. Muszę być przygotowana na każdy z ewentualnych biegów zdarzeń. Zawsze najbardziej lubię ten, kiedy druga strona nie odpowiada. Wtedy mogę odłożyć niedoszłą rozmowę na później i  wrócić do swoich obecnych zajęć, przynajmniej przez moment nie będąc zmuszona pisać telefonicznych scenariuszy.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6273369/ello-optimized-81fb1e90.jpg\" alt=\"Zdjęcie przedstawia żółte tło, z lewej strony widać kawałek rośliny, a w prawym górnym rogu kawałek białej tkaniny.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6273371/ello-optimized-12671c19.jpg\" alt=\"Zdjęcie podzielone jest na dwie części. Z lewej strony widzimy białą tkaninę ze srebrnym kółkiem, a z prawej roślinę na żółtym tle.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6273367/ello-optimized-ecc7f386.jpg\" alt=\"Zdjęcie przedstawia zbliżenie na szyję człowiek ubranego w białą koszulę, z tyłu widać żółte tło.\" /></p>\n<olela-narrative>\nPodobno 1 litr na 30kg masy ciała. Możesz też podzielić swoją wagę przez 30, np. 60kg : 30 = 2, czyli powinieneś pić 2 litry wody dziennie.\n</olela-narrative>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6273366/ello-optimized-b2f1da19.jpg\" alt=\"Zdjęcie przedstawia zbliżenie na popiersie kobiety z fioletowymi ustami. Kobieta ma białą koszulę i ozdobę na szyi, widzimy żółte tło, a z lewej strony wzór złożony z ust.\" /></p>\n<p>Może to wcale nie jest tak, że Martyna nie dzwoni, bo mnie nie lubi. Może po prostu ma dużo na głowie i w natłoku tych spraw nie pamięta... W sumie, to Marcina też już dawno nie słyszałam… To niemożliwe, żeby wszyscy Ci ludzie łączyli się ze mną w telelęku. Od zawsze powtarzano mi, że muszę o wszystkie swoje sprawy zatroszczyć się sama, nikt inny za mnie tego nie zrobi. Jak nie podlejesz swoich kwiatków to uschną.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6273373/ello-optimized-25b3bbe8.jpg\" alt=\"Zdjęcie przedstawia młodą kobietę ubraną na biało ze srebrnym naczyniem w ręce. Kobieta podlewa kwiat znajdujący się z lewej strony na krześle. Tło jest żółte.\" /></p>\n<p>Tak właśnie za sprawą głupiej obawy usłyszenia w dziwnym prostokątnym urządzeniu niewidzialnego głosu, głosu mechanicznie zmodyfikowanego, usychają moje znajomości i przyjaźnie. Widząc osobę na żywo, w głowie automatycznie przewija mi się tysiąc sytuacji, obrazów, dźwięków i zapachów z nią związanych. Zawsze towarzyszą temu spotkaniu emocje. Dobre emocje, bo te złe mam zwyczaj wypierać. Z tych wszystkich wspaniałych bodźców, pieszczot zmysłów, słuchawka telefonu oferuje nam tylko… głos. Nic dziwnego, że jest przyczyną nieporozumień, sprzeczek, kłótni. Nie widzę przecież Twojej twarzy, mimiki, źle odczytałam intonację słów (i vice versa). Rzuciłyśmy słuchawkami, a teraz żadna z nas, z uwagi na swoją dumę, nie zadzwoni.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6273374/ello-optimized-5deed9bb.jpg\" alt=\"Zdjęcie podzielone jest na dwie części, z lewej strony widzimy kształt liścia, a z prawej fragment postaci ubranej na biało, na żółym tle.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6273376/ello-optimized-b03f2b23.jpg\" alt=\"Zdjęcie podzielone jest na dwie części, z prawej strony widzimy rozmazany fioletowy kształt, a z lewej rozmazane zdjęcie kobiety z fioletowymi ustami, ubranej na biało, na żółtym tle.\" /></p>\n<olela-narrative>\nDziś wypiłam tylko połowę dziennej dawki. Drugą przeznaczyłam na podlanie kwiatów. Narazie odżył tylko jeden listek, ale jeśli będę to robić codziennie to na pewno wkrótce zaowocuje.\n</olela-narrative>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6273531/ello-optimized-ddbdc8a6.jpg\" alt=\"Zdjęcie przedstawia fioletowe usta ułożone w linię.\" /></p>\n<p>spódnica: Stradivarius / bluzka: Zara / choker: Stradivarius</p>\n";
 var raw = exports.raw = "\n![Zdjęcie przedstawia kobietę ubraną na biało, na żółtym tle. Kobieta trzyma w ręku srebrne naczynie i podlewa roślinę, która znajduje się z lewej strony.](https://assets2.ello.co/uploads/asset/attachment/6273381/ello-optimized-aaf18cbf.jpg)\n\nPrzez całe swoje życie odczuwam paniczny lęk przed odebraniem telefonu. Przed wykonaniem zresztą też. Kiedy tylko na ekranie pojawiają się nieznane cyferki wewnątrz mojego brzucha rodzi się uczucie ścisku, podobne do tego, kiedy owijasz (dla zabawy) cienką nitką swój palec wskazujący. Kiedy wiem, że muszę do kogoś zatelefonować (i nieważne czy jest to ktoś znajomy, czy nie) dokładnie analizuje treść zdań, które wypowiem. Po cichu, w środku głowy symuluje rozmowę. Muszę być przygotowana na każdy z ewentualnych biegów zdarzeń. Zawsze najbardziej lubię ten, kiedy druga strona nie odpowiada. Wtedy mogę odłożyć niedoszłą rozmowę na później i  wrócić do swoich obecnych zajęć, przynajmniej przez moment nie będąc zmuszona pisać telefonicznych scenariuszy.\n\n![Zdjęcie przedstawia żółte tło, z lewej strony widać kawałek rośliny, a w prawym górnym rogu kawałek białej tkaniny.](https://assets1.ello.co/uploads/asset/attachment/6273369/ello-optimized-81fb1e90.jpg)\n![Zdjęcie podzielone jest na dwie części. Z lewej strony widzimy białą tkaninę ze srebrnym kółkiem, a z prawej roślinę na żółtym tle.](https://assets1.ello.co/uploads/asset/attachment/6273371/ello-optimized-12671c19.jpg)\n![Zdjęcie przedstawia zbliżenie na szyję człowiek ubranego w białą koszulę, z tyłu widać żółte tło.](https://assets2.ello.co/uploads/asset/attachment/6273367/ello-optimized-ecc7f386.jpg)\n\n<olela-narrative>\nPodobno 1 litr na 30kg masy ciała. Możesz też podzielić swoją wagę przez 30, np. 60kg : 30 = 2, czyli powinieneś pić 2 litry wody dziennie.\n</olela-narrative>\n\n![Zdjęcie przedstawia zbliżenie na popiersie kobiety z fioletowymi ustami. Kobieta ma białą koszulę i ozdobę na szyi, widzimy żółte tło, a z lewej strony wzór złożony z ust.](https://assets2.ello.co/uploads/asset/attachment/6273366/ello-optimized-b2f1da19.jpg)\n\nMoże to wcale nie jest tak, że Martyna nie dzwoni, bo mnie nie lubi. Może po prostu ma dużo na głowie i w natłoku tych spraw nie pamięta… W sumie, to Marcina też już dawno nie słyszałam… To niemożliwe, żeby wszyscy Ci ludzie łączyli się ze mną w telelęku. Od zawsze powtarzano mi, że muszę o wszystkie swoje sprawy zatroszczyć się sama, nikt inny za mnie tego nie zrobi. Jak nie podlejesz swoich kwiatków to uschną. \n\n![Zdjęcie przedstawia młodą kobietę ubraną na biało ze srebrnym naczyniem w ręce. Kobieta podlewa kwiat znajdujący się z lewej strony na krześle. Tło jest żółte.](https://assets0.ello.co/uploads/asset/attachment/6273373/ello-optimized-25b3bbe8.jpg)\n\nTak właśnie za sprawą głupiej obawy usłyszenia w dziwnym prostokątnym urządzeniu niewidzialnego głosu, głosu mechanicznie zmodyfikowanego, usychają moje znajomości i przyjaźnie. Widząc osobę na żywo, w głowie automatycznie przewija mi się tysiąc sytuacji, obrazów, dźwięków i zapachów z nią związanych. Zawsze towarzyszą temu spotkaniu emocje. Dobre emocje, bo te złe mam zwyczaj wypierać. Z tych wszystkich wspaniałych bodźców, pieszczot zmysłów, słuchawka telefonu oferuje nam tylko… głos. Nic dziwnego, że jest przyczyną nieporozumień, sprzeczek, kłótni. Nie widzę przecież Twojej twarzy, mimiki, źle odczytałam intonację słów (i vice versa). Rzuciłyśmy słuchawkami, a teraz żadna z nas, z uwagi na swoją dumę, nie zadzwoni.\n\n![Zdjęcie podzielone jest na dwie części, z lewej strony widzimy kształt liścia, a z prawej fragment postaci ubranej na biało, na żółym tle.](https://assets0.ello.co/uploads/asset/attachment/6273374/ello-optimized-5deed9bb.jpg)\n![Zdjęcie podzielone jest na dwie części, z prawej strony widzimy rozmazany fioletowy kształt, a z lewej rozmazane zdjęcie kobiety z fioletowymi ustami, ubranej na biało, na żółtym tle.](https://assets1.ello.co/uploads/asset/attachment/6273376/ello-optimized-b03f2b23.jpg)\n\n<olela-narrative>\nDziś wypiłam tylko połowę dziennej dawki. Drugą przeznaczyłam na podlanie kwiatów. Narazie odżył tylko jeden listek, ale jeśli będę to robić codziennie to na pewno wkrótce zaowocuje.\n</olela-narrative>\n\n![Zdjęcie przedstawia fioletowe usta ułożone w linię.](https://assets1.ello.co/uploads/asset/attachment/6273531/ello-optimized-ddbdc8a6.jpg)\n\nspódnica: Stradivarius / bluzka: Zara / choker: Stradivarius";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 70 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3520,7 +3592,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -3574,10 +3646,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Neoplastycyzm [moodboard]", "date": "2017-09-28T17:15:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["neoplasticism", "moodboard", "art", "sztuka", "artysta", "kierunek"] };
 var body = exports.body = "<p>W latach 1917-1928 Theo van Doesburg wydawał w Holandii czasopismo “De Stijl” (po niderlandzku ‘styl’). W pierwszym numerze wydrukowany został manifest malarza Piet’a Mondrian’a. Przedstawiał on zarys nowego programu artystycznego. ‘Neoplastycyzm’ zakładał oddziaływanie poprzez przeciwieństwa, piony vs poziomy, siła aktywna na przeciw biernej. W neoplastycyzmie wyróżniamy:</p>\n<ul>\n<li>dwie podstawowe linie: wertykalną i horyzontalną</li>\n<li>trzy kolory zasadnicze: żółty, czerwony, niebieski</li>\n<li>trzy niekolory: biel, czerń, szarość</li>\n</ul>\n<p>Dodatkowo, każda barwa nacechowana jest inną ekspresją dynamiczną: żółty opisuje piony, niebieski poziomy, a czerwień łączy dwa poprzednie równoważąc je. Mondrian coraz bardziej upraszczając swoje kompozycje dotarł do zupełnej geometryzacji przestrzeni.\nNeoplastycyzm silnie podziałał na architekturę i wzornictwo, oraz na Bauhaus (uczelnię artystyczno-rzemieślniczą powstałą w Weimarze w 1919 r. z połączenia Akademii Sztuk Pięknych i Szkoły Rzemiosł Artystycznych. Sama idea Bauhaus’u zakładała zniesienie podziału pomiędzy artystą, architektem, przemysłowcem i rzemieślnikiem, stąd tak wiele projektów ‘podchwyca’ mondrianowskie założenia). Do dziś widzimy jego wpływy niemal we wszystkich dziedzinach, przez modę, architekturę, wzornictwo po charakteryzację i kuchnię.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6288152/ello-optimized-1e1c821b.jpg\" alt=\"Zdjęcie przedstawia elementy geometryczne w kolorach czerwonych, żółtych i niebieskich, oraz okładki magazynów.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6288160/ello-optimized-f9b0b767.jpg\" alt=\"Zdjęcie przedstawia elementy geometryczne w kolorach czerwonych, żółtych i niebieskich. Widzimy sukienkę, obuwie, dłoń z prawej strony, oraz stronę z czasopisma.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6288164/ello-optimized-5b64a55f.jpg\" alt=\"Zdjęcie przedstawia elementy geometryczne w kolorach czerwonych, żółtych i niebieskich. Widzimy damską dłoń trzymającą torebkę, panią ubrana na czarno i trzy kwadraty w kolorze żółtym, niebieskim i czerwonym.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6288167/ello-optimized-c8623486.jpg\" alt=\"Zdjęcie przedstawia elementy geometryczne w kolorach czerwonych, żółtych i niebieskich. Widzimy krzesła i elementy architektoniczne.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6288168/ello-optimized-f5c7f35c.jpg\" alt=\"Zdjęcie przedstawia elementy geometryczne w kolorach czerwonych, żółtych i niebieskich, oraz ciasto i białe napisy na czerwonym tle.\" /></p>\n";
 var raw = exports.raw = "\nW latach 1917-1928 Theo van Doesburg wydawał w Holandii czasopismo \"De Stijl\" (po niderlandzku 'styl'). W pierwszym numerze wydrukowany został manifest malarza Piet'a Mondrian'a. Przedstawiał on zarys nowego programu artystycznego. 'Neoplastycyzm' zakładał oddziaływanie poprzez przeciwieństwa, piony vs poziomy, siła aktywna na przeciw biernej. W neoplastycyzmie wyróżniamy:\n\n* dwie podstawowe linie: wertykalną i horyzontalną\n* trzy kolory zasadnicze: żółty, czerwony, niebieski\n* trzy niekolory: biel, czerń, szarość\n\n\nDodatkowo, każda barwa nacechowana jest inną ekspresją dynamiczną: żółty opisuje piony, niebieski poziomy, a czerwień łączy dwa poprzednie równoważąc je. Mondrian coraz bardziej upraszczając swoje kompozycje dotarł do zupełnej geometryzacji przestrzeni.\nNeoplastycyzm silnie podziałał na architekturę i wzornictwo, oraz na Bauhaus (uczelnię artystyczno-rzemieślniczą powstałą w Weimarze w 1919 r. z połączenia Akademii Sztuk Pięknych i Szkoły Rzemiosł Artystycznych. Sama idea Bauhaus'u zakładała zniesienie podziału pomiędzy artystą, architektem, przemysłowcem i rzemieślnikiem, stąd tak wiele projektów 'podchwyca' mondrianowskie założenia). Do dziś widzimy jego wpływy niemal we wszystkich dziedzinach, przez modę, architekturę, wzornictwo po charakteryzację i kuchnię. \n\n\n![Zdjęcie przedstawia elementy geometryczne w kolorach czerwonych, żółtych i niebieskich, oraz okładki magazynów.](https://assets1.ello.co/uploads/asset/attachment/6288152/ello-optimized-1e1c821b.jpg)\n![Zdjęcie przedstawia elementy geometryczne w kolorach czerwonych, żółtych i niebieskich. Widzimy sukienkę, obuwie, dłoń z prawej strony, oraz stronę z czasopisma.](https://assets1.ello.co/uploads/asset/attachment/6288160/ello-optimized-f9b0b767.jpg)\n![Zdjęcie przedstawia elementy geometryczne w kolorach czerwonych, żółtych i niebieskich. Widzimy damską dłoń trzymającą torebkę, panią ubrana na czarno i trzy kwadraty w kolorze żółtym, niebieskim i czerwonym.](https://assets2.ello.co/uploads/asset/attachment/6288164/ello-optimized-5b64a55f.jpg)\n![Zdjęcie przedstawia elementy geometryczne w kolorach czerwonych, żółtych i niebieskich. Widzimy krzesła i elementy architektoniczne.](https://assets2.ello.co/uploads/asset/attachment/6288167/ello-optimized-c8623486.jpg)\n![Zdjęcie przedstawia elementy geometryczne w kolorach czerwonych, żółtych i niebieskich, oraz ciasto i białe napisy na czerwonym tle.](https://assets2.ello.co/uploads/asset/attachment/6288168/ello-optimized-f5c7f35c.jpg)";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 71 */
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3600,7 +3672,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -3711,10 +3783,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Cała_Ta_J...", "date": "2017-10-03T17:18:00.000Z", "categories": ["Sztuka Ubioru"], "tags": ["jesień", "stylizacja", "moda", "sztuka", "kreacja", "artysta", "dzieło"] };
 var body = exports.body = "<olela-narrative>\nPrzyszła.\n</olela-narrative>\n<p>Nie przegoniły jej długie wieczory z przyjaciółmi na Placu Zbawiciela przy białym winie. Ona rozlała czerwone.</p>\n<olela-narrative>\nPrzyszła.\n</olela-narrative>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6311178/ello-optimized-1d7944a6.jpg\" alt=\"Zdjęcie przedstawia młodą kobietę ubraną w żółtą pikowaną kurtkę, która trzyma się za brzuch. Kobieta ma pomarańczowe usta, całość na żółtym tle.\" /></p>\n<p>Na nasze cienkie ramiączka zarzuciła szare swetry. Dobrze, że miałyśmy szanse poprosić ją o parę broszek, choć jej brwi zmarszczyły się wtedy groźnie. Przyszła, a wraz z nią w powietrzu zaczęło pachnieć wanilią, pieprzem, kardamonem i ryżem.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6311192/ello-optimized-12af601b.jpg\" alt=\"Zdjęcie przedstawia młodą, uśmiechniętą kobietę ubraną w żółtą pikowaną kurtkę. Kobieta ma czarny beret na głowie, brązową torebkę i jasnoszare włosy, całość na żółtym tle.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6311203/ello-optimized-6c4751bf.jpg\" alt=\"Zdjęcie przedstawia torebkę ze skóry z kolorowym paskiem na żółtym tle.\" /></p>\n<p>Codziennie rano trzyma moje powieki tak mocno, że z trudem udaje mi się otworzyć oczy. Przestawia mój budzik o godzinę do przodu, dlatego z góry skazana jestem na spóźnienie. Jakimś magicznym sposobem odejmuje porcję kofeiny z kawy, w której nie wyczuwam już mocy, jaką czułam jeszcze miesiąc temu.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6311208/ello-optimized-055790ec.jpg\" alt=\"Zdjęcie podzielone jest na dwie części i przedstawia rozmazane sylwetki kobiet w czarnych beretach na żółtym tle.\" /></p>\n<p>Czasami, w środku dnia uda mi się włączyć ulubiony, taneczny utwór, a Ona wtedy traktuje to jako wyzwanie i zaczyna wygrywać melodie uderzając kroplami deszczu o parapet. W co Ty pogrywasz? - pytam. To jakiś Free Jazz? Podgłaśniam swoje brzmienie tak, że głośniki zaczynają trzeszczeć. Skaczę jak głupia po pokoju próbując o niej zapomnieć. Nagle orientuję się, że nie słyszę już ulubionej melodii, że nie wiem właściwie, co słyszę, że w sumie mogłabym to porównać do Możdżera, Bacha i Rammsteina zmiksowanych razem na gładką papkę w blenderze marki Bosch. Zaraz oszaleje! Wyłączam wszystkie sprzęty, oprócz czajnika, bo nastawiłam właśnie wodę na napar z imbiru, kurkumy, mięty, cytryny i miodu. Tak, tak jak chciałaś. Zadowolona? Chowam się pod koc, w ręku trzymam kubek naparu wielkości wiaderka, na głowie mam wełnianą czapkę, a na stopach ciepłe skarpety.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6311234/ello-optimized-2662cd58.jpg\" alt=\"Zdjęcie przedstawia zbliżenie na dłonie zapinające złote guziki żółtej kurtki. Na dłoniach jest dużo złotych pierścionków, a paznokcie są koloru srebrnego, widać też szare włosy.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6311216/ello-optimized-fcca9d40.jpg\" alt=\"Zdjęcie podzielone jest na cztery części i przedstawia dłonie ze złotymi pierścionkami i srebrnymi paznokciami, całość na żółtym tle.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6311212/ello-optimized-c8bc9119.jpg\" alt=\"Zdjęcie przedstawia twarz młodej kobiety oświetloną czerwonym światłem, kobieta ma na głowie czarny beret.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6311175/ello-optimized-adff9eaf.jpg\" alt=\"Zdjęcie przedstawia młodą kobietę ubraną w żółtą pikowaną kurtkę, kobieta ma czarny beret na głowie, pomarańczowe usta, całość na żółtym tle.\" /></p>\n<p>I nagle staje się coś, czego się nie spodziewałam. Przestaje padać, zza chmur przebija słońce, którego promienie ‘zapalają’ kolory liści. Żółcień kadmowa, pomarańcz, cynober, karmin, tyle odcieni, mieni się, wznosi za podmuchem wiatru, opada zgodnie z ziemskim prawem. No – mówię – może się jakoś dogadamy. Skinęła głową, odwróciła się i odeszła stukając spiczastymi botkami z czarnego zamszu o granitową posadzkę chodnika, a klasyczny beżowy trencz z obniżonym stanem budował jej posągowość. Z ławki po lewej stronie alejki zapomniała zabrać kaszkietu i szalika. Szybko złapałam dodatki sezonu i pobiegłam za nią.</p>\n<olela-narrative>\nAh, Cała Ta Jesień.\n</olela-narrative>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6311198/ello-optimized-d7b56e67.jpg\" alt=\"Zdjęcie przedstawia młodą kobietę ubraną w skórzaną spódnicę i czerwoną kurtkę. Kobieta ma na głowie beret i podpiera się rękami pod boki, całość na niebieskim tle.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6311206/ello-optimized-1f445bc2.jpg\" alt=\"Zdjęcie przedstawia kobietę w skórzanej spódnicy i czerwonej kurtce obróconą tyłem. Kobieta ma na głowie beret i ręce podniesione do góry, całość na niebieskim tle.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6311214/ello-optimized-264c6711.jpg\" alt=\"Zdjęcie przedstawia młodą kobietę ubraną w skórzaną spódnicę i czerwoną kurtkę. Kobieta ma na głowie beret, jasnoszare włosy, a jej ciało jest wychylone do boku, całość na niebieskim tle.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6311220/ello-optimized-08690ebd.jpg\" alt=\"Zdjęcie przedstawia fragment ubioru, widać pasek z metalową klamrą i czerwoną kurtkę.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6311232/ello-optimized-83b24ae9.jpg\" alt=\"Zdjęcie przedstawia zbliżenie na fragment ubioru, widać pasek z metalową klamrą i czerwoną kurtkę.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6311242/ello-optimized-76446cc8.jpg\" alt=\"Zdjęcie przedstawia twarz młodej kobiety z jasnoszarymi włosami w czarnym berecie na niebieskim tle. Twarz oświetlona jest czerwonym światłem, całość na niebieskim tle.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6311427/ello-optimized-3456356e.jpg\" alt=\"Zdjęcie przedstawia fioletowe i żółte koła ułożone w linię.\" /></p>\n<p>Stylizacja 1.:</p>\n<p>kurtka: The House Of Bruar / beret: Stradivarius / torebka: Tania Odzież x Olela / biżuteria: Yes, H&amp;M</p>\n<p>Stylizacja 2.:</p>\n<p>kurtka: Ochnik / spódnica: Reserved / beret: Stradivarius / pasek: TK Maxx</p>\n";
 var raw = exports.raw = "\n<olela-narrative>\nPrzyszła.\n</olela-narrative>\n\nNie przegoniły jej długie wieczory z przyjaciółmi na Placu Zbawiciela przy białym winie. Ona rozlała czerwone. \n\n<olela-narrative>\nPrzyszła.\n</olela-narrative>\n\n![Zdjęcie przedstawia młodą kobietę ubraną w żółtą pikowaną kurtkę, która trzyma się za brzuch. Kobieta ma pomarańczowe usta, całość na żółtym tle.](https://assets1.ello.co/uploads/asset/attachment/6311178/ello-optimized-1d7944a6.jpg)\n\nNa nasze cienkie ramiączka zarzuciła szare swetry. Dobrze, że miałyśmy szanse poprosić ją o parę broszek, choć jej brwi zmarszczyły się wtedy groźnie. Przyszła, a wraz z nią w powietrzu zaczęło pachnieć wanilią, pieprzem, kardamonem i ryżem.\n\n![Zdjęcie przedstawia młodą, uśmiechniętą kobietę ubraną w żółtą pikowaną kurtkę. Kobieta ma czarny beret na głowie, brązową torebkę i jasnoszare włosy, całość na żółtym tle.](https://assets1.ello.co/uploads/asset/attachment/6311192/ello-optimized-12af601b.jpg)\n![Zdjęcie przedstawia torebkę ze skóry z kolorowym paskiem na żółtym tle.](https://assets0.ello.co/uploads/asset/attachment/6311203/ello-optimized-6c4751bf.jpg)\n\nCodziennie rano trzyma moje powieki tak mocno, że z trudem udaje mi się otworzyć oczy. Przestawia mój budzik o godzinę do przodu, dlatego z góry skazana jestem na spóźnienie. Jakimś magicznym sposobem odejmuje porcję kofeiny z kawy, w której nie wyczuwam już mocy, jaką czułam jeszcze miesiąc temu.\n\n![Zdjęcie podzielone jest na dwie części i przedstawia rozmazane sylwetki kobiet w czarnych beretach na żółtym tle.](https://assets0.ello.co/uploads/asset/attachment/6311208/ello-optimized-055790ec.jpg)\n\nCzasami, w środku dnia uda mi się włączyć ulubiony, taneczny utwór, a Ona wtedy traktuje to jako wyzwanie i zaczyna wygrywać melodie uderzając kroplami deszczu o parapet. W co Ty pogrywasz? - pytam. To jakiś Free Jazz? Podgłaśniam swoje brzmienie tak, że głośniki zaczynają trzeszczeć. Skaczę jak głupia po pokoju próbując o niej zapomnieć. Nagle orientuję się, że nie słyszę już ulubionej melodii, że nie wiem właściwie, co słyszę, że w sumie mogłabym to porównać do Możdżera, Bacha i Rammsteina zmiksowanych razem na gładką papkę w blenderze marki Bosch. Zaraz oszaleje! Wyłączam wszystkie sprzęty, oprócz czajnika, bo nastawiłam właśnie wodę na napar z imbiru, kurkumy, mięty, cytryny i miodu. Tak, tak jak chciałaś. Zadowolona? Chowam się pod koc, w ręku trzymam kubek naparu wielkości wiaderka, na głowie mam wełnianą czapkę, a na stopach ciepłe skarpety.\n\n![Zdjęcie przedstawia zbliżenie na dłonie zapinające złote guziki żółtej kurtki. Na dłoniach jest dużo złotych pierścionków, a paznokcie są koloru srebrnego, widać też szare włosy.](https://assets1.ello.co/uploads/asset/attachment/6311234/ello-optimized-2662cd58.jpg)\n![Zdjęcie podzielone jest na cztery części i przedstawia dłonie ze złotymi pierścionkami i srebrnymi paznokciami, całość na żółtym tle.](https://assets2.ello.co/uploads/asset/attachment/6311216/ello-optimized-fcca9d40.jpg)\n![Zdjęcie przedstawia twarz młodej kobiety oświetloną czerwonym światłem, kobieta ma na głowie czarny beret.](https://assets2.ello.co/uploads/asset/attachment/6311212/ello-optimized-c8bc9119.jpg)\n![Zdjęcie przedstawia młodą kobietę ubraną w żółtą pikowaną kurtkę, kobieta ma czarny beret na głowie, pomarańczowe usta, całość na żółtym tle.](https://assets2.ello.co/uploads/asset/attachment/6311175/ello-optimized-adff9eaf.jpg)\n\nI nagle staje się coś, czego się nie spodziewałam. Przestaje padać, zza chmur przebija słońce, którego promienie ‘zapalają’ kolory liści. Żółcień kadmowa, pomarańcz, cynober, karmin, tyle odcieni, mieni się, wznosi za podmuchem wiatru, opada zgodnie z ziemskim prawem. No – mówię – może się jakoś dogadamy. Skinęła głową, odwróciła się i odeszła stukając spiczastymi botkami z czarnego zamszu o granitową posadzkę chodnika, a klasyczny beżowy trencz z obniżonym stanem budował jej posągowość. Z ławki po lewej stronie alejki zapomniała zabrać kaszkietu i szalika. Szybko złapałam dodatki sezonu i pobiegłam za nią.\n\n<olela-narrative>\nAh, Cała Ta Jesień.\n</olela-narrative>\n\n![Zdjęcie przedstawia młodą kobietę ubraną w skórzaną spódnicę i czerwoną kurtkę. Kobieta ma na głowie beret i podpiera się rękami pod boki, całość na niebieskim tle.](https://assets2.ello.co/uploads/asset/attachment/6311198/ello-optimized-d7b56e67.jpg)\n![Zdjęcie przedstawia kobietę w skórzanej spódnicy i czerwonej kurtce obróconą tyłem. Kobieta ma na głowie beret i ręce podniesione do góry, całość na niebieskim tle.](https://assets0.ello.co/uploads/asset/attachment/6311206/ello-optimized-1f445bc2.jpg)\n![Zdjęcie przedstawia młodą kobietę ubraną w skórzaną spódnicę i czerwoną kurtkę. Kobieta ma na głowie beret, jasnoszare włosy, a jej ciało jest wychylone do boku, całość na niebieskim tle.](https://assets1.ello.co/uploads/asset/attachment/6311214/ello-optimized-264c6711.jpg)\n![Zdjęcie przedstawia fragment ubioru, widać pasek z metalową klamrą i czerwoną kurtkę.](https://assets0.ello.co/uploads/asset/attachment/6311220/ello-optimized-08690ebd.jpg)\n![Zdjęcie przedstawia zbliżenie na fragment ubioru, widać pasek z metalową klamrą i czerwoną kurtkę.](https://assets2.ello.co/uploads/asset/attachment/6311232/ello-optimized-83b24ae9.jpg)\n![Zdjęcie przedstawia twarz młodej kobiety z jasnoszarymi włosami w czarnym berecie na niebieskim tle. Twarz oświetlona jest czerwonym światłem, całość na niebieskim tle.](https://assets0.ello.co/uploads/asset/attachment/6311242/ello-optimized-76446cc8.jpg)\n![Zdjęcie przedstawia fioletowe i żółte koła ułożone w linię.](https://assets1.ello.co/uploads/asset/attachment/6311427/ello-optimized-3456356e.jpg)\n\nStylizacja 1.:\n\nkurtka: The House Of Bruar / beret: Stradivarius / torebka: Tania Odzież x Olela / biżuteria: Yes, H&M\n\nStylizacja 2.:\n\nkurtka: Ochnik / spódnica: Reserved / beret: Stradivarius / pasek: TK Maxx\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 72 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3737,7 +3809,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -3762,10 +3834,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "KOŁO [moodboard]", "date": "2017-10-05T17:33:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["circle", "koło", "symbol", "moodboard", "art", "sztuka", "artysta"], "description": "Koło Moodboard by Olela Krawczyk" };
 var body = exports.body = "<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6321789/ello-optimized-10c170fc.jpg\" alt=\"Obrazek przedstawia cztery zdjęcia kobiet w strojach o kształcie koła, na tle geometrycznych czarno-białych figur.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6321790/ello-optimized-bd9371a6.jpg\" alt=\"Obrazek przedstawia zdjęcia postaci ubranych w stroje w kropki, na tle różnobarwnych kropek, całość na czarno-biały, geometrycznym tle.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6321719/ello-optimized-77db47fb.jpg\" alt=\"Obrazek przedstawia zdjęcia obrazów, tortu, butów, fragment paletki do makijażu, dookoła widać czarne okręgi różnej wielkości.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6321725/ello-optimized-7a107f6a.jpg\" alt=\"Obrazek przedstawia zdjęcia dzieł różnych artystów, widzimy rzeźby w przestrzeni i budowle w kształcie koła. Na tle znajduje się czarne koło i małe białe kółka.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6321726/ello-optimized-e9af3234.jpg\" alt=\"Obrazek przedstawia białe napisy na czarnym tle.\" /></p>\n";
 var raw = exports.raw = "\n![Obrazek przedstawia cztery zdjęcia kobiet w strojach o kształcie koła, na tle geometrycznych czarno-białych figur.](https://assets0.ello.co/uploads/asset/attachment/6321789/ello-optimized-10c170fc.jpg)\n![Obrazek przedstawia zdjęcia postaci ubranych w stroje w kropki, na tle różnobarwnych kropek, całość na czarno-biały, geometrycznym tle.](https://assets1.ello.co/uploads/asset/attachment/6321790/ello-optimized-bd9371a6.jpg)\n![Obrazek przedstawia zdjęcia obrazów, tortu, butów, fragment paletki do makijażu, dookoła widać czarne okręgi różnej wielkości.](https://assets2.ello.co/uploads/asset/attachment/6321719/ello-optimized-77db47fb.jpg)\n![Obrazek przedstawia zdjęcia dzieł różnych artystów, widzimy rzeźby w przestrzeni i budowle w kształcie koła. Na tle znajduje się czarne koło i małe białe kółka.](https://assets1.ello.co/uploads/asset/attachment/6321725/ello-optimized-7a107f6a.jpg)\n![Obrazek przedstawia białe napisy na czarnym tle.](https://assets1.ello.co/uploads/asset/attachment/6321726/ello-optimized-e9af3234.jpg)\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 73 */
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3788,7 +3860,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -3892,10 +3964,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Make-up inspirowany obrazem. 'Flying_Eyes'_by_Yayoi Kusama", "date": "2017-10-10T16:25:00.000Z", "categories": ["Sztuka Makijażu"], "tags": ["kusama", "yayoi", "makeup", "makijaż", "dzieło", "obraz", "kreacja", "artysta", "art", "sztuka"] };
 var body = exports.body = "<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6343928/ello-optimized-62e000e7.jpg\" alt=\"Zdjęcie przedstawia młodą kobietę w mocnym makijażu, czerwonej bluzce na niebiesko-żółtym tle. Dookoła prostokątne elementy.\" /></p>\n<p>Kiedyś pewien profesor czytając kawałek mojej pracy semestralnej powiedział: „Jako artystka może być pani wariatką, ale nie jako studentka.”, po czym odesłał mnie z kwitkiem (bez oceny) do domu. Kiedy myślę o wariactwach w sztuce, to zaraz obok postaci Witkacego maluje mi się twarz Yayoi Kusama. Jej przepełnione obsesją oczy wibrują w przestrzeni niczym część jej artystycznych instalacji.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6343935/ello-optimized-abf52d73.jpg\" alt=\"Zdjęcie podzielone jest na dwie części i obie przedstawiają oko w makijażu, po lewej stronie otwarte, po prawej zamknięte.\" /></p>\n<p>Yayoi liczy 88 wiosen i od wielu, wielu lat mieszka w tokijskim szpitalu psychiatrycznym. Jak sama mówi uprawia ‘sztukę obsesyjną’ , która jest także częścią jej terapii. Artystka cierpi na zaawansowaną nerwicę, zaburzenia obsesyjno-kompulsywne, stany lękowe, halucynacje, a kropkowe obrazy są moim zdaniem swoistą rejestracją szumu, który nieustannie jej towarzyszy (choć sama twierdzi, że kropki to sposób na przekazanie światu przesłania miłości...).</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6343937/ello-optimized-a0fc07cd.jpg\" alt=\"Zdjęcie przedstawia kobiece oko w mocnym makijażu, oko znajduje się w czarnym konturze na środku obrazka.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6343944/ello-optimized-bd8f8e89.jpg\" alt=\"Obrazek przedstawia czerwone koło z czarnym kołem wewnątrz, oraz trzy niezidentyfikowane kształty obok kół.\" /></p>\n<p>Działania Yayoi sięgają poprzez malarstwo, rzeźbę, instalację, literaturę po sztukę performance. Jest ona także aktywistką polityczną – sensację wywołał list, który wysłała do ówczesnego prezydenta Stanów Zjednoczonych Richarda Nixona oferując mu seks w zamian za zakończenie wojny w Wietnamie. Podobno jej ojciec, pomimo małżeństwa, nie stronił od pięknych kobiet, a Yayoi nieraz widziała go w dwuznacznych sytuacjach. To obudziło w niej wstręt do miłości w wymiarze fizycznym. Nigdy nie wyszła za mąż. Przez długi czas związana była z artystą impotentem. W jej sztuce wielokrotnie pojawiają się falliczne kształty, np. w instalacji pt.: ‘Aggregation: One Thousand Boats Show’, gdzie na środku pomieszczenia stoi łódź wypełniona, a wręcz zbudowana z penisów. Widzimy więc metaforę świadomego umysłu, dryfującego ponad nieświadomą głębią. Jednakże tutaj pełnia umysłu została wypełniona, a wręcz oblężona erotycznymi symbolami. Scenę dopełniają fotografie łodzi znajdujące się na ścianach dookoła (pomysł multiplikacji w formie tapety zapożyczy od artystki Andy Warhol). Żywy obiekt kontrastuje ze swoim przedstawieniem, jawiąc się nam jeszcze bardziej prawdziwym.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6343943/ello-optimized-ba04c6d0.jpg\" alt=\"Zdjęcie przedstawia młodą kobietę w mocnym makijażu w czerwonej bluzce, na żółto-niebieskim tle. Dookoła kobiety widzimy czerwone koła.\" /></p>\n<p>Podobno Kusama już jako dziecko miewała halucynacje. Pierwszym z zapamiętanych przez nią obrazów jest przemawiająca do niej dynia. Był to też jej ulubiony obiekt ćwiczeń rysunkowych:\n<olela-narrative>\n„Gdy słońce wschodziło ponad Higashiyamą, stawałam przed dynią, zapominając o całym świecie, koncentrowałam całkowicie swój umysł na formie, która znajdowała się przede mną. Podobnie jak Bodhidharma [pierwszy patriarcha buddyzmu zen], który spędził dziesięć lat, zwracając się w stronę kamiennej ściany, spędziłam miesiąc na konfrontacji z pojedynczą dynią. Żałowałam nawet czasu na sen”\n</olela-narrative></p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6343945/ello-optimized-308e262c.jpg\" alt=\"Zdjęcie przedstawia połowę twarzy młodej kobiety z czerwonymi ustami, druga połowa jest domalowana czarną kreską na białym tle.\" /></p>\n<p>Dla mnie Kusama jest artystką doskonałą, przede wszystkim dlatego, że pozostaje sobą. Ona nie musi  mówić, że ‘wierzy’ w swoją twórczość, bo ona po prostu nią jest. Nie szuka na siłę sławy i rozgłosu, a swoje pomysły dostosowuje do odpowiedniego medium wyrazu, co czyni ją wszechstronną i uniwersalną. Wszystkie działania są jednak niezwykle nasiąknięte nią samą. Czy to chodząc w wykreowaną przez nią przestrzeń, czy patrząc na jeden z obrazów, czy nawet nosząc ubranie z kolekcji Louis Vuitton (artystka współpracowała z marką w 2012 roku tworząc kolekcję, oczywiście… całą w kropki) stajemy się jakby współistniejącymi z umysłem Yayoi, przejmujemy i przyjmujemy odrobinę jej szaleństwa. Bo w szaleństwie przecież jest metoda.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6343955/ello-optimized-f6f25833.jpg\" alt=\"Zdjęcie przedstawia zbliżenie na twarz kobiety w mocnym makijażu, kobieta ma czerwone usta i czerwoną bluzkę.\" /></p>\n<p>Teksty, z których korzystałam:</p>\n<ul>\n<li><a href=\"http://www.criticismism.com/2012/02/08/yoyoi-kusama-aggregation-one-thousand-boats-show-1963/#sthash.oiVQePyq.dpbs\">http://www.criticismism.com/2012/02/08/yoyoi-kusama-aggregation-one-thousand-boats-show-1963/#sthash.oiVQePyq.dpbs</a></li>\n<li><a href=\"http://www.wysokieobcasy.pl/wysokie-obcasy/7,127763,21151809,yayoi-kusama-rozwiazla-krolowa-hipisow.html?disableRedirects=true\">http://www.wysokieobcasy.pl/wysokie-obcasy/7,127763,21151809,yayoi-kusama-rozwiazla-krolowa-hipisow.html?disableRedirects=true</a></li>\n</ul>\n";
 var raw = exports.raw = "\n![Zdjęcie przedstawia młodą kobietę w mocnym makijażu, czerwonej bluzce na niebiesko-żółtym tle. Dookoła prostokątne elementy.](https://assets2.ello.co/uploads/asset/attachment/6343928/ello-optimized-62e000e7.jpg)\n\n\nKiedyś pewien profesor czytając kawałek mojej pracy semestralnej powiedział: „Jako artystka może być pani wariatką, ale nie jako studentka.”, po czym odesłał mnie z kwitkiem (bez oceny) do domu. Kiedy myślę o wariactwach w sztuce, to zaraz obok postaci Witkacego maluje mi się twarz Yayoi Kusama. Jej przepełnione obsesją oczy wibrują w przestrzeni niczym część jej artystycznych instalacji. \n\n![Zdjęcie podzielone jest na dwie części i obie przedstawiają oko w makijażu, po lewej stronie otwarte, po prawej zamknięte.](https://assets1.ello.co/uploads/asset/attachment/6343935/ello-optimized-abf52d73.jpg)\n\nYayoi liczy 88 wiosen i od wielu, wielu lat mieszka w tokijskim szpitalu psychiatrycznym. Jak sama mówi uprawia ‘sztukę obsesyjną’ , która jest także częścią jej terapii. Artystka cierpi na zaawansowaną nerwicę, zaburzenia obsesyjno-kompulsywne, stany lękowe, halucynacje, a kropkowe obrazy są moim zdaniem swoistą rejestracją szumu, który nieustannie jej towarzyszy (choć sama twierdzi, że kropki to sposób na przekazanie światu przesłania miłości…).\n\n![Zdjęcie przedstawia kobiece oko w mocnym makijażu, oko znajduje się w czarnym konturze na środku obrazka.](https://assets1.ello.co/uploads/asset/attachment/6343937/ello-optimized-a0fc07cd.jpg)\n![Obrazek przedstawia czerwone koło z czarnym kołem wewnątrz, oraz trzy niezidentyfikowane kształty obok kół.](https://assets1.ello.co/uploads/asset/attachment/6343944/ello-optimized-bd8f8e89.jpg)\n\nDziałania Yayoi sięgają poprzez malarstwo, rzeźbę, instalację, literaturę po sztukę performance. Jest ona także aktywistką polityczną – sensację wywołał list, który wysłała do ówczesnego prezydenta Stanów Zjednoczonych Richarda Nixona oferując mu seks w zamian za zakończenie wojny w Wietnamie. Podobno jej ojciec, pomimo małżeństwa, nie stronił od pięknych kobiet, a Yayoi nieraz widziała go w dwuznacznych sytuacjach. To obudziło w niej wstręt do miłości w wymiarze fizycznym. Nigdy nie wyszła za mąż. Przez długi czas związana była z artystą impotentem. W jej sztuce wielokrotnie pojawiają się falliczne kształty, np. w instalacji pt.: ‘Aggregation: One Thousand Boats Show’, gdzie na środku pomieszczenia stoi łódź wypełniona, a wręcz zbudowana z penisów. Widzimy więc metaforę świadomego umysłu, dryfującego ponad nieświadomą głębią. Jednakże tutaj pełnia umysłu została wypełniona, a wręcz oblężona erotycznymi symbolami. Scenę dopełniają fotografie łodzi znajdujące się na ścianach dookoła (pomysł multiplikacji w formie tapety zapożyczy od artystki Andy Warhol). Żywy obiekt kontrastuje ze swoim przedstawieniem, jawiąc się nam jeszcze bardziej prawdziwym.\n\n![Zdjęcie przedstawia młodą kobietę w mocnym makijażu w czerwonej bluzce, na żółto-niebieskim tle. Dookoła kobiety widzimy czerwone koła.](https://assets0.ello.co/uploads/asset/attachment/6343943/ello-optimized-ba04c6d0.jpg)\n\nPodobno Kusama już jako dziecko miewała halucynacje. Pierwszym z zapamiętanych przez nią obrazów jest przemawiająca do niej dynia. Był to też jej ulubiony obiekt ćwiczeń rysunkowych: \n<olela-narrative>\n„Gdy słońce wschodziło ponad Higashiyamą, stawałam przed dynią, zapominając o całym świecie, koncentrowałam całkowicie swój umysł na formie, która znajdowała się przede mną. Podobnie jak Bodhidharma [pierwszy patriarcha buddyzmu zen], który spędził dziesięć lat, zwracając się w stronę kamiennej ściany, spędziłam miesiąc na konfrontacji z pojedynczą dynią. Żałowałam nawet czasu na sen” \n</olela-narrative>\n\n\n![Zdjęcie przedstawia połowę twarzy młodej kobiety z czerwonymi ustami, druga połowa jest domalowana czarną kreską na białym tle.](https://assets0.ello.co/uploads/asset/attachment/6343945/ello-optimized-308e262c.jpg)\n\n\nDla mnie Kusama jest artystką doskonałą, przede wszystkim dlatego, że pozostaje sobą. Ona nie musi  mówić, że ‘wierzy’ w swoją twórczość, bo ona po prostu nią jest. Nie szuka na siłę sławy i rozgłosu, a swoje pomysły dostosowuje do odpowiedniego medium wyrazu, co czyni ją wszechstronną i uniwersalną. Wszystkie działania są jednak niezwykle nasiąknięte nią samą. Czy to chodząc w wykreowaną przez nią przestrzeń, czy patrząc na jeden z obrazów, czy nawet nosząc ubranie z kolekcji Louis Vuitton (artystka współpracowała z marką w 2012 roku tworząc kolekcję, oczywiście… całą w kropki) stajemy się jakby współistniejącymi z umysłem Yayoi, przejmujemy i przyjmujemy odrobinę jej szaleństwa. Bo w szaleństwie przecież jest metoda. \n\n![Zdjęcie przedstawia zbliżenie na twarz kobiety w mocnym makijażu, kobieta ma czerwone usta i czerwoną bluzkę.](https://assets1.ello.co/uploads/asset/attachment/6343955/ello-optimized-f6f25833.jpg)\n\nTeksty, z których korzystałam:\n* http://www.criticismism.com/2012/02/08/yoyoi-kusama-aggregation-one-thousand-boats-show-1963/#sthash.oiVQePyq.dpbs\n* http://www.wysokieobcasy.pl/wysokie-obcasy/7,127763,21151809,yayoi-kusama-rozwiazla-krolowa-hipisow.html?disableRedirects=true\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 74 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3918,7 +3990,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -3966,10 +4038,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "POP-ART [moodboard]", "date": "2017-10-12T14:47:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["popart", "pop", "art", "moodboard", "sztuka", "kierunek", "artist", "artysta"] };
 var body = exports.body = "<p>POPular ART... czyli kierunek w sztuce, któremu w ukształtowaniu się pomógł konsumpcyjny charakter zachodniej cywilizacji.\nTermin ten po raz pierwszy użyty został przez angielskiego krytyka sztuki Lawrence’a Allowaya w „Przeglądzie Architektonicznym” („Architectural Digest”) z 1952 r. Artyści pop-artu czerpali inspiracje z surrealizmu, dadaizmu, naturalizmu, wywyższając świadectwa kultury masowej do rangi sztuki. Początkowo nurt objął malarstwo, grafikę, później również rzeźbę, obiekt, instalację, asamblaż, kolaż…</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6354483/ello-optimized-42b4b370.jpg\" alt=\"Obraz przedstawia różne zdjęcia na niebieskim tle w otoczeniu graficznych czarnych i żółtych elementów, widzimy postać Marilyn Monroe, puszkę, kobiecą twarz zbudowaną z kropek z żółtymi włosami.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6354488/ello-optimized-75a8c10d.jpg\" alt=\"Obraz przedstawia różne zdjęcia na niebieskim tle w otoczeniu białych i czarnych elementów. Widzimy torebkę, buty, marynarkę, sukienkę, kolczyki w kształcie oczu, twarz kobiety w mocnym makijażu, modelki pozujące w sukienkach.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6355050/ello-optimized-867aed6a.jpg\" alt=\"Obraz przedstawia różne zdjęcia na niebieskim tle w otoczeniu biało-czarno-żółtych elementów graficznych. Widzimy kobietę siedzącą, dwa krzesła, obraz ust palących papierosa, kanapę w kształcie ust.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6354494/ello-optimized-4b7f690d.jpg\" alt=\"Obraz przedstawia różne zdjęcia na niebieskim tle, widzimy komiksową chmurkę, hot doga, rękę trzymającą różowego banana, wielką rzeźbę loda na dachu budynku, kolaż znanego artysty.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6355045/ello-optimized-7c317b81.jpg\" alt=\"Obraz przedstawia różne zdjęcia na niebieskim tle w otoczeniu żółtych elementów, widzimy kolaż znanego artysty, fotografię przedstawiającą postać oblepioną produktami spożywczymi, zdjęcie kolorowego budynku, na samym dole znajdują się białe napisy na niebieskim tle.\" /></p>\n<p>Zajrzyjcie do NINATEKI na odcinek ‘Przewodnika po sztuce’</p>\n<ul>\n<li><a href=\"http://ninateka.pl/film/przewodnik-po-sztuce-odc-4-pop-art\">http://ninateka.pl/film/przewodnik-po-sztuce-odc-4-pop-art</a></li>\n</ul>\n";
 var raw = exports.raw = "\nPOPular ART... czyli kierunek w sztuce, któremu w ukształtowaniu się pomógł konsumpcyjny charakter zachodniej cywilizacji.\nTermin ten po raz pierwszy użyty został przez angielskiego krytyka sztuki Lawrence’a Allowaya w „Przeglądzie Architektonicznym” („Architectural Digest”) z 1952 r. Artyści pop-artu czerpali inspiracje z surrealizmu, dadaizmu, naturalizmu, wywyższając świadectwa kultury masowej do rangi sztuki. Początkowo nurt objął malarstwo, grafikę, później również rzeźbę, obiekt, instalację, asamblaż, kolaż...\n\n![Obraz przedstawia różne zdjęcia na niebieskim tle w otoczeniu graficznych czarnych i żółtych elementów, widzimy postać Marilyn Monroe, puszkę, kobiecą twarz zbudowaną z kropek z żółtymi włosami.](https://assets0.ello.co/uploads/asset/attachment/6354483/ello-optimized-42b4b370.jpg)\n![Obraz przedstawia różne zdjęcia na niebieskim tle w otoczeniu białych i czarnych elementów. Widzimy torebkę, buty, marynarkę, sukienkę, kolczyki w kształcie oczu, twarz kobiety w mocnym makijażu, modelki pozujące w sukienkach.](https://assets0.ello.co/uploads/asset/attachment/6354488/ello-optimized-75a8c10d.jpg)\n![Obraz przedstawia różne zdjęcia na niebieskim tle w otoczeniu biało-czarno-żółtych elementów graficznych. Widzimy kobietę siedzącą, dwa krzesła, obraz ust palących papierosa, kanapę w kształcie ust.](https://assets2.ello.co/uploads/asset/attachment/6355050/ello-optimized-867aed6a.jpg)\n![Obraz przedstawia różne zdjęcia na niebieskim tle, widzimy komiksową chmurkę, hot doga, rękę trzymającą różowego banana, wielką rzeźbę loda na dachu budynku, kolaż znanego artysty.](https://assets2.ello.co/uploads/asset/attachment/6354494/ello-optimized-4b7f690d.jpg)\n![Obraz przedstawia różne zdjęcia na niebieskim tle w otoczeniu żółtych elementów, widzimy kolaż znanego artysty, fotografię przedstawiającą postać oblepioną produktami spożywczymi, zdjęcie kolorowego budynku, na samym dole znajdują się białe napisy na niebieskim tle.](https://assets2.ello.co/uploads/asset/attachment/6355045/ello-optimized-7c317b81.jpg)\n\nZajrzyjcie do NINATEKI na odcinek 'Przewodnika po sztuce'\n\n* http://ninateka.pl/film/przewodnik-po-sztuce-odc-4-pop-art";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 75 */
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3992,7 +4064,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -4143,10 +4215,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Stylizacje za grosze, czyli pokochaj lumpeksy!", "date": "2017-10-18T08:22:00.000Z", "categories": ["Sztuka Ubioru"], "tags": ["taniaodzież", "lumpeks", "tania", "stylizacja", "moda", "fashion", "sztuka", "art", "artysta", "artist"] };
 var body = exports.body = "<p>W swoim życiu nie spotkałam kobiety, która nie lubiłaby ciuchów. Wygląd przecież nie tylko świadczy o nas samych, ale też jest wyrazem szacunku dla drugiego człowieka. Poza tym, dzięki dobrze dopasowanym ubraniom można świetnie się czuć, co przekłada się tak naprawdę na nasze życie. Salvador Dali mawiał „Podstawą wielkich zwycięstw jest ubranie.” I my, na co dzień odnosimy takie swoje małe zwycięstwa, kiedy uda nam się ubrać zgodnie z sobą samym, bo dzięki temu promieniujemy dobrą energią. Żeby dobrze się ubrać wcale nie trzeba ślepo podążać za trendami. Jeśli danego sezonu modnym kolorem zostaje okrzyknięty kanarkowy żółty, a Ty porostu nie znosisz tego koloru, a on nie znosi Ciebie, to przecież nikt nie zmusza Cię do noszenia żółtego swetra. Trzeba zrozumieć naturę trendów – one tak jak kolejna wiosna, przeminą (na dodatek mają tendencje do powtarzania się). Dlatego w całej tej modowej gonitwie trzeba szukać przede wszystkim siebie. Mamy dziś nieograniczone możliwości, bo w sklepach znajdziemy praktycznie wszystko. W tym czuję się świetnie, ale też wyglądam w tym świetnie, uwielbiam soczystą zieleń, rozkloszowane spódnice, retro łączone z futurą, i super!</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6379870/ello-optimized-d3d63468.jpg\" alt=\"Obraz przedstawia dwa zdjęcia, na lewym widzimy postać kobiety w szarej spódnicy z brązowym paskiem, koszuli w paski, na różowym tle. Po prawej stronie znajduje się zbliżenie paska.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6379877/ello-optimized-2a8b6ae3.jpg\" alt=\"Obraz przedstawia zdjęcie kobiecych nóg w białych skarpetach i czarnych butach, całość na różowym tle. W górnej części zdjęcia widzimy fragment materiału w czarno-białe paski.\" /></p>\n<p>Chyba każda z nas marzyła kiedyś lub marzy o rzeczy od ‘znanego projektanta’, nie każdą z nas niestety na nie stać. Dlatego właśnie wymyślono tanią odzież, potocznie: lumpeksy, lumpy, szmateksy, ciucholandy itp. Osobiście jestem wielką zwolenniczką tego typu sklepów. Dlaczego? Nie tylko dlatego, że można tam upolować niezłe skarby, ale przede wszystkim dlatego, że kupuję tam rzeczy z historią i dokładam do nich kawałek swojej historii. Nieraz zdarza się też, że znajduję ubranie zupełnie nowe, z metką, nienoszone, a na dodatek dobrej jakości i za 1zł. Poza tym uwielbiam sam rytuał szukania, przeglądania ubrań, myślenia  z czym można daną rzecz połączyć, jak ewentualnie przerobić za duże spodnie czy bluzkę (nazywam to kreatywnością). Nigdy też nie wyrzucam ubrań na śmietnik, tylko daję komuś, komu się przydadzą, albo oddaję do domów opieki lub wrzucam do kontenera.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6379902/ello-optimized-28fb577d.jpg\" alt=\"Obraz przedstawia dwa zdjęcia, po lewej stronie widzimy kobietę w krótkiej spódniczce i kurtce na niebieskim tle, po prawej stronie widzimy zdjęcie czarnego buta na niebieskim tle.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6379891/ello-optimized-337c06d0.jpg\" alt=\"Zdjęcie przedstawia młodą kobietę na niebieskim tle, kobieta ubrana jest w spódniczkę, kurtkę, ma mocno pomalowane usta, a włosy związane w dwa koki.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6380128/ello-optimized-df7a57b7.jpg\" alt=\"Zdjęcie przedstawia zbliżenie na zegarek, scena oświetlona chłodnym światłem.\" /></p>\n<h2>Poliester poliestrowi nierówny</h2>\n<p>Żyjemy w świecie, który coraz bardziej pędzi. Chcemy więcej, szybciej, taniej. Dzisiejszym luksusem nie są już same materiały, lecz sposób ich obróbki. Rzeczy wykonane ręcznie z olbrzymią precyzją są świetne jakościowo, ale też drogie. Nie każdy może pozwolić sobie na szafę jedwabnych kreacji najwyższej jakości. Dlatego powstały sieciówki, tam znajdziemy modne fasony za niewielką cenę. Niestety takie sklepy często robią nas w przysłowiowego ‘konia’, gdyż chcąc zminimalizować koszty produkcji, a zmaksymalizować dochód, oszczędzają na materiałach i produkcji, a my zwyczajnie przepłacamy. Nie jest jednak z góry powiedziane, że wszystkie rzeczy wykonane z poliestru są marnej jakości. Czasami do włókien naturalnych dodaję się syntetyk, aby przedłużyć jego trwałość lub np. spowodować, że materiał nie będzie wymagał prasowania. Jak uniknąć przepłacania? Kupować taniej, kupować bardzo tanio – kupować w taniej odzieży!</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6379894/ello-optimized-21606a53.jpg\" alt=\"Obraz przedstawia dwa zdjęcia, z lewej strony na mniejszym zdjęciu widzimy kobiecą postać odwróconą tyłem, w krótkiej spódniczce, białych skarpetkach, czarnych butach, całość na niebieskim tle. Z prawej strony, też na niebieskim tle, zbliżenie na postać ze zdjęcia po lewej stronie.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6380026/ello-optimized-5b18d0cb.jpg\" alt=\"Zdjęcie przedstawia młodą kobietę w tanecznej pozie na niebieskim tle, kobieta ubrana jest w krótką spódniczkę, kurtkę, białe skarpety, czarne buty, włosy ma zebrane w dwa koczki, a usta pomalowane na ciemny kolor.\" /></p>\n<p>Przygotowałam parę wskazówek, na co warto zwracać uwagę w sklepach z tanią odzieżą. Dlatego jeśli jeszcze nie próbowałeś tego typu ‘łowów’, albo boisz się pierwszego razu – koniecznie przeczytaj, zanotuj i zapamiętaj!</p>\n<ol>\n<li>Nie zawężaj swoich poszukiwań. Nie nastawiaj się, że dziś kupisz spódnicę, albo szukasz tylko torebki. Moje najlepsze zdobycze pochodzą z dni, kiedy ‘wstąpiłam’ po drodze zobaczyć czy znajdę coś ciekawego, a wyszłam z torebką marki Furla i spodenkami od Calvin’a Klein’a.</li>\n<li>Niczego nie omijaj. Zajmij swój umysł przewracaniem kolejnych wieszaków. Ciekawe skarby zazwyczaj czają się wciśnięte gdzieś pomiędzy, dlatego tak ciężko je dostrzec. Nie oglądaj, tylko dotykaj, przewracaj -  działaj!</li>\n<li>Jeśli już w Twoich dłoniach znajdzie zainteresowanie jakiś okaz koniecznie sprawdź z jakiego materiału jest zrobiony. Ja zazwyczaj czytam skład na metce. Jeśli nie ma metki chwilę go ‘miętoszę’ i pocieram, aby sprawdzić, czy aby na pewno jest to dobry gatunek, czy nie będzie się zbijał w grudki, czy nie jest sztuczny i czy po prostu jest przyjemny w dotyku. Jeśli na oku mam torebkę koniecznie upewniam się czy jest wykonana ze skóry (można poznać po zapachu).</li>\n<li>Poświęć chwilę na zastanowienie się nad krojem. Najlepiej zmierz daną rzecz. Jeśli gdzieś coś odstaje, zagina się w dziwny sposób, marszczy, to może świadczyć o złym skrojeniu lub też najzwyczajniej może nie pasować do Twojego typu sylwetki.</li>\n<li>Sprawdź koniecznie szwy – mają być gęste, a nitka ma ‘nie pracować’, nie rozłazić się. Jeśli nogawka spodni jest zszyta po skosie to niestety, ale nie pomoże jej żadne pranie, wyciąganie itp. Ona po prostu będzie się zawijać na nodze już zawsze.</li>\n<li>Sprawdź jeszcze markę na metce. Jeśli nie jest Ci znana, to wygoogluj w internecie, poczytaj opinie, pooglądaj kolekcje. Uważam, że na rynku po prostu są sprawdzone marki, w które warto inwestować, mam też swoich faworytów, których jakość wyrobów przetestowałam na własnej skórze i je cenię, pora byś też odnalazła swoich.</li>\n</ol>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6380130/ello-optimized-4d890809.jpg\" alt=\"Zdjęcie przedstawia młodą kobietę ubraną w sukienkę, pomarańczową bluzkę, rękawiczki i torebkę w kolorze bluzki, kobieta ma niebieski beret na głowie i patrzy w lewą stronę. Całość na niebieskim tle oświetlonym ciepłym światłem.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6380022/ello-optimized-7a6ace59.jpg\" alt=\"Obraz przedstawia dwa zdjęcia, z lewej strony widzimy kobietę w ruchu, kobieta ma na sobie sukienkę, pomarańczową bluzkę i rękawiczki, niebieski beret na głowie. Z lewej strony zdjęcie przedstawia dłoń w pomarańczowej rękawiczce na niebieskim tle oświetlonym ciepłym światłem.\" /></p>\n<p>Jeśli przeszłaś przez wszystkie powyższe punkty i nadal nosisz daną rzecz w koszyku, to znaczy, że pora zapytać o cenę. W większości sklepów z tanią odzieżą towar sprzedaje się na wagę. To oznacza, że np. w poniedziałek kupimy kilogram ubrań za 70zł, a w środę już za 30zł. Zdarzają się sklepy, w których jednego dnia tygodnia wszystko kosztuje 1zł (nazywam to ‘czystki’, ponieważ właściciele w ten sposób pozbywają się większości rzeczy, robiąc miejsce na nową dostawę. Działa tutaj zasada: „Tylko złotówka? Kupuję!”). Istnieją też miejsca, gdzie odzież jest z góry wyceniona. Są to zazwyczaj sklepy, gdzie znajdziemy ubrania nie noszące zbytniej ilości śladów użytkowania, niezniszczone, czasami też nowe. Odłamem ‘taniej odzieży’ są tzw. ‘komisy’. Tam mamy pewność, że ubrania będą dobrej jakości, od dobrych projektantów lecz używane lub też sprzed kilku/kilkunastu sezonów. Cena ubrań w komisach nie jest już taka niska i nieraz sięga kilkuset złotych.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6380120/ello-optimized-5c2e8832.jpg\" alt=\"Obraz przedstawia dwa zdjęcia, z lewej strony widzimy młodą kobietę, która wykonuje gest trzymania za czapkę. Kobieta ma na sobie sukienkę we wzory, pomarańczowy golf, rękawiczki, niebieski beret. Z prawej strony widzimy zdjęcie pomarańczowej rękawiczki.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6380118/ello-optimized-ac07f0ca.jpg\" alt=\"Zdjęcie przedstawia młodą kobietę ubraną w sukienkę we wzory, pomarańczowy golf, rękawiczki, niebieski beret. Kobieta jest na niebieskim tle oświetlonym ciepłym światłem.\" /></p>\n<p>Okej. Przyjmijmy, że znajdujesz się w sklepie, gdzie wszystko jest na wagę. Jeśli wybrana przez Ciebie rzecz jest zrobiona z aksamitu, czy też bawełny to zapewne zapłacisz stosunkowo niewiele, bo waga tych tkanin jest niewielka. Jeśli z kolei wybrałaś rzecz, która ma zamki błyskawiczne, ćwieki, sprzączki, czy inne metalowe elementy, wtedy możesz spodziewać się wyższej ceny. Od Ciebie zależy decyzja, czy jesteś w stanie wydać określoną sumę pieniędzy w zamian za daną rzecz. Nawet jeśli okaże się, że dana torebka kosztuje 80zł, a Ty masz pewność, że jest to oryginalna torebka od Versace to wtedy myślę, że wybór jest prosty. Nigdzie indziej nie znajdziesz jej za taką cenę.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6380028/ello-optimized-fceec68e.jpg\" alt=\"Obraz przedstawia kwadraty w jednej linii, w trzech kolorach.\" /></p>\n<olela-narrative>\nStylizacja 1:\n</olela-narrative>\n<p>koszula: Ralph Lauren (tania odzież) / pasek: Ralph Lauren (tania odzież) / spódnica: Ankra handmade (uszyta z dresówki) / skarpetki: Nessi sportswear / buty: Stradivarius / czapka: H&amp;M</p>\n<olela-narrative>\nStylizacja 2:\n</olela-narrative>\n<p>spódnica: Diesel (tania odzież) / bluzka: Vila (tania odzież) / kurtka: no name (tania odzież x Olela) / rajstopy: Gatta / skarpetki: Nessi sportswear / buty: Zara / zegarek: Timex / choker: Stradivarius</p>\n<olela-narrative>\nStylizacja 3:\n</olela-narrative>\n<p>sukienka: Papaya (tania odzież) / golf: promod / rękawiczki: Edmins / beret: Liz Claiborne (tania odzież) / torebka: no name (tania odzież) / rajstopy: Gatta / buty: Badura</p>\n";
 var raw = exports.raw = "\n W swoim życiu nie spotkałam kobiety, która nie lubiłaby ciuchów. Wygląd przecież nie tylko świadczy o nas samych, ale też jest wyrazem szacunku dla drugiego człowieka. Poza tym, dzięki dobrze dopasowanym ubraniom można świetnie się czuć, co przekłada się tak naprawdę na nasze życie. Salvador Dali mawiał „Podstawą wielkich zwycięstw jest ubranie.” I my, na co dzień odnosimy takie swoje małe zwycięstwa, kiedy uda nam się ubrać zgodnie z sobą samym, bo dzięki temu promieniujemy dobrą energią. Żeby dobrze się ubrać wcale nie trzeba ślepo podążać za trendami. Jeśli danego sezonu modnym kolorem zostaje okrzyknięty kanarkowy żółty, a Ty porostu nie znosisz tego koloru, a on nie znosi Ciebie, to przecież nikt nie zmusza Cię do noszenia żółtego swetra. Trzeba zrozumieć naturę trendów – one tak jak kolejna wiosna, przeminą (na dodatek mają tendencje do powtarzania się). Dlatego w całej tej modowej gonitwie trzeba szukać przede wszystkim siebie. Mamy dziś nieograniczone możliwości, bo w sklepach znajdziemy praktycznie wszystko. W tym czuję się świetnie, ale też wyglądam w tym świetnie, uwielbiam soczystą zieleń, rozkloszowane spódnice, retro łączone z futurą, i super!\n\n![Obraz przedstawia dwa zdjęcia, na lewym widzimy postać kobiety w szarej spódnicy z brązowym paskiem, koszuli w paski, na różowym tle. Po prawej stronie znajduje się zbliżenie paska.](https://assets1.ello.co/uploads/asset/attachment/6379870/ello-optimized-d3d63468.jpg)\n![Obraz przedstawia zdjęcie kobiecych nóg w białych skarpetach i czarnych butach, całość na różowym tle. W górnej części zdjęcia widzimy fragment materiału w czarno-białe paski.](https://assets0.ello.co/uploads/asset/attachment/6379877/ello-optimized-2a8b6ae3.jpg)\n\nChyba każda z nas marzyła kiedyś lub marzy o rzeczy od ‘znanego projektanta’, nie każdą z nas niestety na nie stać. Dlatego właśnie wymyślono tanią odzież, potocznie: lumpeksy, lumpy, szmateksy, ciucholandy itp. Osobiście jestem wielką zwolenniczką tego typu sklepów. Dlaczego? Nie tylko dlatego, że można tam upolować niezłe skarby, ale przede wszystkim dlatego, że kupuję tam rzeczy z historią i dokładam do nich kawałek swojej historii. Nieraz zdarza się też, że znajduję ubranie zupełnie nowe, z metką, nienoszone, a na dodatek dobrej jakości i za 1zł. Poza tym uwielbiam sam rytuał szukania, przeglądania ubrań, myślenia  z czym można daną rzecz połączyć, jak ewentualnie przerobić za duże spodnie czy bluzkę (nazywam to kreatywnością). Nigdy też nie wyrzucam ubrań na śmietnik, tylko daję komuś, komu się przydadzą, albo oddaję do domów opieki lub wrzucam do kontenera. \n\n![Obraz przedstawia dwa zdjęcia, po lewej stronie widzimy kobietę w krótkiej spódniczce i kurtce na niebieskim tle, po prawej stronie widzimy zdjęcie czarnego buta na niebieskim tle.](https://assets0.ello.co/uploads/asset/attachment/6379902/ello-optimized-28fb577d.jpg)\n![Zdjęcie przedstawia młodą kobietę na niebieskim tle, kobieta ubrana jest w spódniczkę, kurtkę, ma mocno pomalowane usta, a włosy związane w dwa koki.](https://assets0.ello.co/uploads/asset/attachment/6379891/ello-optimized-337c06d0.jpg)\n![Zdjęcie przedstawia zbliżenie na zegarek, scena oświetlona chłodnym światłem.](https://assets2.ello.co/uploads/asset/attachment/6380128/ello-optimized-df7a57b7.jpg)\n\n## Poliester poliestrowi nierówny\n\nŻyjemy w świecie, który coraz bardziej pędzi. Chcemy więcej, szybciej, taniej. Dzisiejszym luksusem nie są już same materiały, lecz sposób ich obróbki. Rzeczy wykonane ręcznie z olbrzymią precyzją są świetne jakościowo, ale też drogie. Nie każdy może pozwolić sobie na szafę jedwabnych kreacji najwyższej jakości. Dlatego powstały sieciówki, tam znajdziemy modne fasony za niewielką cenę. Niestety takie sklepy często robią nas w przysłowiowego ‘konia’, gdyż chcąc zminimalizować koszty produkcji, a zmaksymalizować dochód, oszczędzają na materiałach i produkcji, a my zwyczajnie przepłacamy. Nie jest jednak z góry powiedziane, że wszystkie rzeczy wykonane z poliestru są marnej jakości. Czasami do włókien naturalnych dodaję się syntetyk, aby przedłużyć jego trwałość lub np. spowodować, że materiał nie będzie wymagał prasowania. Jak uniknąć przepłacania? Kupować taniej, kupować bardzo tanio – kupować w taniej odzieży!\n\n![Obraz przedstawia dwa zdjęcia, z lewej strony na mniejszym zdjęciu widzimy kobiecą postać odwróconą tyłem, w krótkiej spódniczce, białych skarpetkach, czarnych butach, całość na niebieskim tle. Z prawej strony, też na niebieskim tle, zbliżenie na postać ze zdjęcia po lewej stronie.](https://assets0.ello.co/uploads/asset/attachment/6379894/ello-optimized-21606a53.jpg)\n![Zdjęcie przedstawia młodą kobietę w tanecznej pozie na niebieskim tle, kobieta ubrana jest w krótką spódniczkę, kurtkę, białe skarpety, czarne buty, włosy ma zebrane w dwa koczki, a usta pomalowane na ciemny kolor.](https://assets1.ello.co/uploads/asset/attachment/6380026/ello-optimized-5b18d0cb.jpg)\n\n\nPrzygotowałam parę wskazówek, na co warto zwracać uwagę w sklepach z tanią odzieżą. Dlatego jeśli jeszcze nie próbowałeś tego typu ‘łowów’, albo boisz się pierwszego razu – koniecznie przeczytaj, zanotuj i zapamiętaj!\n\n1. Nie zawężaj swoich poszukiwań. Nie nastawiaj się, że dziś kupisz spódnicę, albo szukasz tylko torebki. Moje najlepsze zdobycze pochodzą z dni, kiedy ‘wstąpiłam’ po drodze zobaczyć czy znajdę coś ciekawego, a wyszłam z torebką marki Furla i spodenkami od Calvin’a Klein’a.\n2. Niczego nie omijaj. Zajmij swój umysł przewracaniem kolejnych wieszaków. Ciekawe skarby zazwyczaj czają się wciśnięte gdzieś pomiędzy, dlatego tak ciężko je dostrzec. Nie oglądaj, tylko dotykaj, przewracaj -  działaj!\n3. Jeśli już w Twoich dłoniach znajdzie zainteresowanie jakiś okaz koniecznie sprawdź z jakiego materiału jest zrobiony. Ja zazwyczaj czytam skład na metce. Jeśli nie ma metki chwilę go ‘miętoszę’ i pocieram, aby sprawdzić, czy aby na pewno jest to dobry gatunek, czy nie będzie się zbijał w grudki, czy nie jest sztuczny i czy po prostu jest przyjemny w dotyku. Jeśli na oku mam torebkę koniecznie upewniam się czy jest wykonana ze skóry (można poznać po zapachu).\n4. Poświęć chwilę na zastanowienie się nad krojem. Najlepiej zmierz daną rzecz. Jeśli gdzieś coś odstaje, zagina się w dziwny sposób, marszczy, to może świadczyć o złym skrojeniu lub też najzwyczajniej może nie pasować do Twojego typu sylwetki. \n5. Sprawdź koniecznie szwy – mają być gęste, a nitka ma ‘nie pracować’, nie rozłazić się. Jeśli nogawka spodni jest zszyta po skosie to niestety, ale nie pomoże jej żadne pranie, wyciąganie itp. Ona po prostu będzie się zawijać na nodze już zawsze. \n6. Sprawdź jeszcze markę na metce. Jeśli nie jest Ci znana, to wygoogluj w internecie, poczytaj opinie, pooglądaj kolekcje. Uważam, że na rynku po prostu są sprawdzone marki, w które warto inwestować, mam też swoich faworytów, których jakość wyrobów przetestowałam na własnej skórze i je cenię, pora byś też odnalazła swoich.\n\n![Zdjęcie przedstawia młodą kobietę ubraną w sukienkę, pomarańczową bluzkę, rękawiczki i torebkę w kolorze bluzki, kobieta ma niebieski beret na głowie i patrzy w lewą stronę. Całość na niebieskim tle oświetlonym ciepłym światłem.](https://assets0.ello.co/uploads/asset/attachment/6380130/ello-optimized-4d890809.jpg)\n![Obraz przedstawia dwa zdjęcia, z lewej strony widzimy kobietę w ruchu, kobieta ma na sobie sukienkę, pomarańczową bluzkę i rękawiczki, niebieski beret na głowie. Z lewej strony zdjęcie przedstawia dłoń w pomarańczowej rękawiczce na niebieskim tle oświetlonym ciepłym światłem.](https://assets2.ello.co/uploads/asset/attachment/6380022/ello-optimized-7a6ace59.jpg)\n\nJeśli przeszłaś przez wszystkie powyższe punkty i nadal nosisz daną rzecz w koszyku, to znaczy, że pora zapytać o cenę. W większości sklepów z tanią odzieżą towar sprzedaje się na wagę. To oznacza, że np. w poniedziałek kupimy kilogram ubrań za 70zł, a w środę już za 30zł. Zdarzają się sklepy, w których jednego dnia tygodnia wszystko kosztuje 1zł (nazywam to ‘czystki’, ponieważ właściciele w ten sposób pozbywają się większości rzeczy, robiąc miejsce na nową dostawę. Działa tutaj zasada: „Tylko złotówka? Kupuję!”). Istnieją też miejsca, gdzie odzież jest z góry wyceniona. Są to zazwyczaj sklepy, gdzie znajdziemy ubrania nie noszące zbytniej ilości śladów użytkowania, niezniszczone, czasami też nowe. Odłamem ‘taniej odzieży’ są tzw. ‘komisy’. Tam mamy pewność, że ubrania będą dobrej jakości, od dobrych projektantów lecz używane lub też sprzed kilku/kilkunastu sezonów. Cena ubrań w komisach nie jest już taka niska i nieraz sięga kilkuset złotych.\n\n![Obraz przedstawia dwa zdjęcia, z lewej strony widzimy młodą kobietę, która wykonuje gest trzymania za czapkę. Kobieta ma na sobie sukienkę we wzory, pomarańczowy golf, rękawiczki, niebieski beret. Z prawej strony widzimy zdjęcie pomarańczowej rękawiczki.](https://assets1.ello.co/uploads/asset/attachment/6380120/ello-optimized-5c2e8832.jpg)\n![Zdjęcie przedstawia młodą kobietę ubraną w sukienkę we wzory, pomarańczowy golf, rękawiczki, niebieski beret. Kobieta jest na niebieskim tle oświetlonym ciepłym światłem.](https://assets1.ello.co/uploads/asset/attachment/6380118/ello-optimized-ac07f0ca.jpg)\n\nOkej. Przyjmijmy, że znajdujesz się w sklepie, gdzie wszystko jest na wagę. Jeśli wybrana przez Ciebie rzecz jest zrobiona z aksamitu, czy też bawełny to zapewne zapłacisz stosunkowo niewiele, bo waga tych tkanin jest niewielka. Jeśli z kolei wybrałaś rzecz, która ma zamki błyskawiczne, ćwieki, sprzączki, czy inne metalowe elementy, wtedy możesz spodziewać się wyższej ceny. Od Ciebie zależy decyzja, czy jesteś w stanie wydać określoną sumę pieniędzy w zamian za daną rzecz. Nawet jeśli okaże się, że dana torebka kosztuje 80zł, a Ty masz pewność, że jest to oryginalna torebka od Versace to wtedy myślę, że wybór jest prosty. Nigdzie indziej nie znajdziesz jej za taką cenę.\n\n![Obraz przedstawia kwadraty w jednej linii, w trzech kolorach.](https://assets0.ello.co/uploads/asset/attachment/6380028/ello-optimized-fceec68e.jpg)\n\n<olela-narrative>\nStylizacja 1:\n</olela-narrative>\n\nkoszula: Ralph Lauren (tania odzież) / pasek: Ralph Lauren (tania odzież) / spódnica: Ankra handmade (uszyta z dresówki) / skarpetki: Nessi sportswear / buty: Stradivarius / czapka: H&M\n\n<olela-narrative>\nStylizacja 2:\n</olela-narrative>\n\nspódnica: Diesel (tania odzież) / bluzka: Vila (tania odzież) / kurtka: no name (tania odzież x Olela) / rajstopy: Gatta / skarpetki: Nessi sportswear / buty: Zara / zegarek: Timex / choker: Stradivarius\n\n<olela-narrative>\nStylizacja 3:\n</olela-narrative>\n\nsukienka: Papaya (tania odzież) / golf: promod / rękawiczki: Edmins / beret: Liz Claiborne (tania odzież) / torebka: no name (tania odzież) / rajstopy: Gatta / buty: Badura\n\n\n\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 76 */
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4169,7 +4241,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -4221,10 +4293,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Minimalizm [moodboard]", "date": "2017-10-19T15:40:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["minimalizm", "minimalism", "minimal", "art", "moodboard", "sztuka", "artist", "artysta", "kreacja"] };
 var body = exports.body = "<p>Minimalizm (lata 60te XX wieku)... Jak sama nazwa wskazuje artyści sztuki minimalnej dążyli do redukcji w dziele sztuki. Operowali uproszczoną bryłą, geometrycznymi kształtami, płaszczyznami i skalą. Daleko było im do ekspresji, do jakiegokolwiek przejawu subiektywu w dziele. Eliminowano ślad autorski, zapraszając w ten sposób odbiorcę do spotkania z anonimowym charakterem pracy.\nMinimalizm cechuje pokrewna postawa do konstruktywizmu w odniesieniu do dyscypliny formalnej, oraz do konceptualizmu na warstwie ideowej.\nJednak rozmawiać o nim możemy nie tylko w kręgach sztuk wizualnych. Praktycznie równorzędnie na osi czasu zaznacza się minimalizm w muzyce współczesnej (nazywany też muzyką repetycyjną, co jednak trochę spłaszcza całą ideę ). W założeniu minimalizm odrzucał skomplikowanie muzyki współczesnej (biorąc pod uwagę przeciętnego odbiorcę). Stawiał na prostotę materiału melodycznego, harmonię, eksponowanie struktur rytmicznych. Myślę, że warto tutaj wspomnieć o postaci John’a Cage’a, którego utwór ‘4’33’ stanowi moim zdaniem kwintesencję minimalizmu w ogóle.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6385513/ello-optimized-a0405c31.jpg\" alt=\"Obraz przedstawia kartkę z narysowaną pięciolinią.\" />\n(<a href=\"http://www.kylegann.com/Miami-CageTalk.html\">http://www.kylegann.com/Miami-CageTalk.html</a>)</p>\n<p>W literaturze znów - kiedy mówimy o redukcji środków wyrazu, ekonomii słów, powierzchowności przekazu, kontekstem koniecznym do zrozumienia sytuacji przedstawianej -  mówimy o minimaliźmie. Postaci w powieściach minimalistycznych są nieprzewidywalni w swoich działaniach, jednak kreują się na przeciętnego człowieka.</p>\n<p>Ostatnio minimalistyczny styl życia święci swoje triumfy. Powstają różne artykuły, ba, całe blogi o tematyce minimalistycznej. Kobiety radzą nam jak ograniczyć zawartość swojej szafy do niezbędnych 'basic’ów, jak po prostu żyć minimalistycznie, z maksymą ‘mniej znaczy więcej’ na ustach i w głowie. Warto pamiętać, że minimalizm to nie tylko ograniczanie ‘rzeczy’, kształtów i kolorów, ale przede wszystkim mocne podłoże ideowe, a w odniesieniu do życia - duchowe. Spotkanie z dziełem sztuki minimalistycznej to medytacja, spokój, to przeżycie transcendentne. Wkraczanie w jego obszar to spacer po ogrodzie zen, a ten, każdy z nas musi odnaleźć sam.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6381375/ello-optimized-88c1a139.jpg\" alt=\"Obraz przedstawia różne zdjęcia na białym tle. Widzimy biało-czarne figury geometryczne w paski, geometryczne rzeźby, postaci ubrane w białe koszule, biżuterię.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6381378/ello-optimized-6dc1ba0b.jpg\" alt=\"Obraz przedstawia różne zdjęcia na białym tle. Widzimy geometryczne rzeźby, czarno-białe fotografie, głośniki, butelki, czekoladę.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6381383/ello-optimized-74ce6d95.jpg\" alt=\"Obraz przedstawia różne zdjęcia na białym tle. Widzimy fotografię białego budynku na tle nieba, wnętrza różnych pomieszczeń.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6381385/ello-optimized-d90f3f41.jpg\" alt=\"Obraz przedstawia różne zdjęcia na białym tle. Widzimy neony powieszone na ścianach, tort weselny i talerz z posiłkiem w perspektywie z lotu ptaka.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6381386/ello-optimized-0ace10db.jpg\" alt=\"Obraz przedstawia czarne napisy na białym tle.\" /></p>\n";
 var raw = exports.raw = "\nMinimalizm (lata 60te XX wieku)... Jak sama nazwa wskazuje artyści sztuki minimalnej dążyli do redukcji w dziele sztuki. Operowali uproszczoną bryłą, geometrycznymi kształtami, płaszczyznami i skalą. Daleko było im do ekspresji, do jakiegokolwiek przejawu subiektywu w dziele. Eliminowano ślad autorski, zapraszając w ten sposób odbiorcę do spotkania z anonimowym charakterem pracy.\nMinimalizm cechuje pokrewna postawa do konstruktywizmu w odniesieniu do dyscypliny formalnej, oraz do konceptualizmu na warstwie ideowej.\nJednak rozmawiać o nim możemy nie tylko w kręgach sztuk wizualnych. Praktycznie równorzędnie na osi czasu zaznacza się minimalizm w muzyce współczesnej (nazywany też muzyką repetycyjną, co jednak trochę spłaszcza całą ideę ). W założeniu minimalizm odrzucał skomplikowanie muzyki współczesnej (biorąc pod uwagę przeciętnego odbiorcę). Stawiał na prostotę materiału melodycznego, harmonię, eksponowanie struktur rytmicznych. Myślę, że warto tutaj wspomnieć o postaci John'a Cage'a, którego utwór '4'33' stanowi moim zdaniem kwintesencję minimalizmu w ogóle.\n\n![Obraz przedstawia kartkę z narysowaną pięciolinią.](https://assets1.ello.co/uploads/asset/attachment/6385513/ello-optimized-a0405c31.jpg)\n(http://www.kylegann.com/Miami-CageTalk.html)\n\n\n\nW literaturze znów - kiedy mówimy o redukcji środków wyrazu, ekonomii słów, powierzchowności przekazu, kontekstem koniecznym do zrozumienia sytuacji przedstawianej -  mówimy o minimaliźmie. Postaci w powieściach minimalistycznych są nieprzewidywalni w swoich działaniach, jednak kreują się na przeciętnego człowieka.\n\nOstatnio minimalistyczny styl życia święci swoje triumfy. Powstają różne artykuły, ba, całe blogi o tematyce minimalistycznej. Kobiety radzą nam jak ograniczyć zawartość swojej szafy do niezbędnych 'basic'ów, jak po prostu żyć minimalistycznie, z maksymą 'mniej znaczy więcej' na ustach i w głowie. Warto pamiętać, że minimalizm to nie tylko ograniczanie 'rzeczy', kształtów i kolorów, ale przede wszystkim mocne podłoże ideowe, a w odniesieniu do życia - duchowe. Spotkanie z dziełem sztuki minimalistycznej to medytacja, spokój, to przeżycie transcendentne. Wkraczanie w jego obszar to spacer po ogrodzie zen, a ten, każdy z nas musi odnaleźć sam.\n\n\n\n![Obraz przedstawia różne zdjęcia na białym tle. Widzimy biało-czarne figury geometryczne w paski, geometryczne rzeźby, postaci ubrane w białe koszule, biżuterię.](https://assets0.ello.co/uploads/asset/attachment/6381375/ello-optimized-88c1a139.jpg)\n![Obraz przedstawia różne zdjęcia na białym tle. Widzimy geometryczne rzeźby, czarno-białe fotografie, głośniki, butelki, czekoladę.](https://assets0.ello.co/uploads/asset/attachment/6381378/ello-optimized-6dc1ba0b.jpg)\n![Obraz przedstawia różne zdjęcia na białym tle. Widzimy fotografię białego budynku na tle nieba, wnętrza różnych pomieszczeń.](https://assets2.ello.co/uploads/asset/attachment/6381383/ello-optimized-74ce6d95.jpg)\n![Obraz przedstawia różne zdjęcia na białym tle. Widzimy neony powieszone na ścianach, tort weselny i talerz z posiłkiem w perspektywie z lotu ptaka.](https://assets0.ello.co/uploads/asset/attachment/6381385/ello-optimized-d90f3f41.jpg)\n![Obraz przedstawia czarne napisy na białym tle.](https://assets2.ello.co/uploads/asset/attachment/6381386/ello-optimized-0ace10db.jpg)";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 77 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4247,7 +4319,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -4301,10 +4373,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Smaki_Jesieni vol._3. Geometryczna_szarlotka.", "date": "2017-10-23T16:22:00.000Z", "categories": ["Sztuka Gotowania"], "tags": ["przepis", "deser", "szarlotka", "jabłka", "jesień", "kuchnia", "kompozycja", "kreacja", "sztuka", "artysta"] };
 var body = exports.body = "<olela-narrative>\nW oryginale 'szarlotka babci Czesi'. Przepis jest bardzo klasyczny, stary (w rodzinie od pokoleń) i dobry. To ciasto zawsze wychodzi. Dodatkowo zostawia pole do popisu Twojej wyobraźni - ja na wierzch ciasta położyłam pasy ciasta, tworząc kratę. A Ty? Może masz pomysł na inne kształty? Możesz także oprószyć całość cukrem lub cynamonem. Podaj kawałek szarlotki na ciepło z gałką lodów waniliowych, a jesienna chandra minie jak ręką odjął!\n</olela-narrative>\n<div>\n  <Recipe\n    title='Geometryczna szarlotka'\n    time='120 minut'\n    level='łatwy'\n    mealFor='15 osób'\n    photo='https://assets2.ello.co/uploads/asset/attachment/6401877/ello-optimized-acbac144.jpg'\n    altText='Zdjęcie przedstawia czerwony talerz na jasnym tle z perspektywy lotu ptaka. Na talerzu znajduje się ciasto z jabłkami.'\n  >\n    <Ingredient title='jabłka' quantity='10 średnich' />\n    <Ingredient title='mąka pszenna' quantity='3 i 1/2 szklanki' />\n    <Ingredient title='cukier puder' quantity='1/2 szklanki' />\n    <Ingredient title='cukier brązowy' quantity='3 łyżki' />\n    <Ingredient title='masło' quantity='1 kostka' />\n    <Ingredient title='jaja' quantity='4' />\n    <Ingredient title='proszek do pieczenia' quantity='2 łyżeczki' />\n    <Method>\nObieram wszystkie jabłka (u mnie odmiana 'ligol') i kroję w drobną kostkę. Wrzucam do garnka, zalewam odrobiną wody, kropię sokiem z cytryny, zasypuję brązowym cukrem i duszę do miękkości. W międzyczasie przygotowuję ciasto. Mieszam mąkę z proszkiem do pieczenia, cukrem pudrem i zimnym masłem (dokładnie tak, jak zagniata się kruche ciasto). Wbijam jaja i wyrabiam rękoma. Dzielę na dwie równe części i wsadzam na pół godziny do lodówki. Po tym czasie jedną z części rozwałkowuje i wykładam do blachy o średnicy 25 x 40 cm. Wykładam uduszone jabłka i przykrywam drugą częścią ciasta.Tak przygotowane ciasto ląduje na ok. 45 min. do nagrzanego do 180°C. Voilà - najlepiej smakuje na ciepło z lodami waniliowymi.\n    </Method>\n  </Recipe>\n</div>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6401889/ello-optimized-f23c386a.jpg\" alt=\"Zdjęcie przedstawia ciasto z jabłkami na czerwonym talerzu.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6401901/ello-optimized-01997911.jpg\" alt=\"Zdjęcie przedstawia zbliżenie na ciasto z jabłkami na czerwonym talerzu.\" /></p>\n";
 var raw = exports.raw = "\n<olela-narrative>\nW oryginale 'szarlotka babci Czesi'. Przepis jest bardzo klasyczny, stary (w rodzinie od pokoleń) i dobry. To ciasto zawsze wychodzi. Dodatkowo zostawia pole do popisu Twojej wyobraźni - ja na wierzch ciasta położyłam pasy ciasta, tworząc kratę. A Ty? Może masz pomysł na inne kształty? Możesz także oprószyć całość cukrem lub cynamonem. Podaj kawałek szarlotki na ciepło z gałką lodów waniliowych, a jesienna chandra minie jak ręką odjął!\n</olela-narrative>\n\n<div>\n  <Recipe\n    title='Geometryczna szarlotka'\n    time='120 minut'\n    level='łatwy'\n    mealFor='15 osób'\n    photo='https://assets2.ello.co/uploads/asset/attachment/6401877/ello-optimized-acbac144.jpg'\n    altText='Zdjęcie przedstawia czerwony talerz na jasnym tle z perspektywy lotu ptaka. Na talerzu znajduje się ciasto z jabłkami.'\n  >\n    <Ingredient title='jabłka' quantity='10 średnich' />\n    <Ingredient title='mąka pszenna' quantity='3 i 1/2 szklanki' />\n    <Ingredient title='cukier puder' quantity='1/2 szklanki' />\n    <Ingredient title='cukier brązowy' quantity='3 łyżki' />\n    <Ingredient title='masło' quantity='1 kostka' />\n    <Ingredient title='jaja' quantity='4' />\n    <Ingredient title='proszek do pieczenia' quantity='2 łyżeczki' />\n    <Method>\nObieram wszystkie jabłka (u mnie odmiana 'ligol') i kroję w drobną kostkę. Wrzucam do garnka, zalewam odrobiną wody, kropię sokiem z cytryny, zasypuję brązowym cukrem i duszę do miękkości. W międzyczasie przygotowuję ciasto. Mieszam mąkę z proszkiem do pieczenia, cukrem pudrem i zimnym masłem (dokładnie tak, jak zagniata się kruche ciasto). Wbijam jaja i wyrabiam rękoma. Dzielę na dwie równe części i wsadzam na pół godziny do lodówki. Po tym czasie jedną z części rozwałkowuje i wykładam do blachy o średnicy 25 x 40 cm. Wykładam uduszone jabłka i przykrywam drugą częścią ciasta.Tak przygotowane ciasto ląduje na ok. 45 min. do nagrzanego do 180°C. Voilà - najlepiej smakuje na ciepło z lodami waniliowymi.\n    </Method>\n  </Recipe>\n</div>\n\n![Zdjęcie przedstawia ciasto z jabłkami na czerwonym talerzu.](https://assets1.ello.co/uploads/asset/attachment/6401889/ello-optimized-f23c386a.jpg)\n![Zdjęcie przedstawia zbliżenie na ciasto z jabłkami na czerwonym talerzu.](https://assets2.ello.co/uploads/asset/attachment/6401901/ello-optimized-01997911.jpg)";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 78 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4327,7 +4399,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -4387,10 +4459,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Kolaż_okładek.", "date": "2017-10-25T11:22:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["kolaż", "sztuka", "art", "artysta", "kreacja"] };
 var body = exports.body = "<p>Znalazłam się w miejscu, do którego przeciętny śmiertelnik zwykł przychodzić z nadzieją magicznego uzdrowienia. Liczy on bowiem na to, że dwie krople brunatnego napoju znajdujące się na dnie białej filiżanki są w stanie zdjąć z niego chroniczne zmęczenie i odejmą z jego, i tak już ujemnego bilansu snu, parę godzin. A on w te bonusowe godzinki będzie mógł oddać się swojej pasji, na którą przez ostatnie dwa lata swojego życia zwyczajnie nie miał czasu, bo praca, bo dom, bo dzieci. Tak... większość z nas przychodzących do kawiarni oczekuje nie tylko wytwornego smaku, ale też efektów. Niektórzy od lat mają w ciągu dnia zaplanowany czas na kawę. Niektórzy piją ją do śniadania, później po obiedzie, do deseru, a wieczorem odmawiają sobie nektaru bogów, mówiąc po cichu w myślach, że to już późna godzina i że nie będą w stanie zasnąć. Inni bezkarnie łamią przepisy, które wymyślili Ci pierwsi i piją w nocy o północy, bez większych problemów oddając się późnej sennym marzeniom. Są też tacy, którzy nigdy nie piją. Tych ostatnich należy zapytać, czy aby na pewno poznali prawdziwy smak życia?</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6410495/ello-optimized-9e2aa655.jpg\" alt=\"Zdjęcie przedstawia rozłożony różowy zeszyt z powycinanymi elementami z gazet.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6410499/ello-optimized-7c015584.jpg\" alt=\"Obraz przedstawia kolaż na różowym tle, widzimy postać, która zamiast głowy ma brązowe włosy, jedno oko, jest ubrana w różowy sweter.\" /></p>\n<p>Na przeciwko mnie przy okrągłym stoliku siedziała kobieta, lat ok. 35, przed sobą miała ekran zgrabnego komputera nowej generacji, przy uchu telefon, a w dłoni serwetkę. Była bardzo emocjonalnie zaangażowana w rozmowę, gestykulowała chudymi jak patyki rękami, co chwilę udało jej się nawet podnieść głos do tego stopnia, że sąsiedzi ze stolików obok zamierali na chwilę w swoich aktywnościach. Kiedy tylko skończyła rozmawiać, natychmiast wróciła do miętoszenia kawiarnianej serwetki. Jej szczęki zaciskały się z częstotliwością 40stu razy na minutę, a serwetka uległa doszczętnej destrukcji po około dwóch minutach.\nPółtora metra w lewo stolik przysunięty był do ściany, a miejsce przy niej zajmował mężczyzna o solidnej budowie ciała. Miał na sobie sweter w szkocką kratę, z domieszką prawdziwej wełny ( co chwilę drapał się swoimi tłuściutkimi paluszkami po szyi) a przed sobą trzymał książkę, chyba z gatunku fantasy, bo na okładce widniał bohater ze spiczastymi uszami. Mężczyzna ów bacznie przyglądał się włosom kobiety, która siedziała do niego tyłem przy przeciwległym stoliku. Jej włosy były idealne. Długie, o naturalnie słomkowym kolorze, lśniące, falujące z każdym ruchem jej drobnej głowy. Kobieta zajęta była rozmową ze swoją koleżanką, zachowanie wskazywało na to, że znają się od wieków.</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6410502/ello-optimized-6a04ecb3.jpg\" alt=\"Zdjęcie przedstawia rozłożony pomarańczowy zeszyt z powycinanymi elementami z gazet.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6410516/ello-optimized-1a3e20ec.jpg\" alt=\"Obraz przedstawia kolaż z elementów zdjęć, widzimy spodenki, zielony sweter, kolorowy sweter zamiast twarzy.\" /></p>\n<p>Razem ze swoim małym americano ukryliśmy się w głębi sali. Fotel był wygodny, miękki, duży i czerwony. Wymieniałam spojrzenia między panem w pseudo-wełnianym swetrze, rozemocjonowaną bizneswoman, a okładką magazynu dla kobiet. Okładki zdradzają większość prawdy o całej gazecie. Jeśli zobaczysz na niej sylwetkę wysportowanej dziewczyny –  na 90% znajdziesz wewnątrz przepisy i zestaw domowych ćwiczeń, który pomoże Ci w osiągnięciu wymarzonego ciała. Jeśli jednak przedstawia ona twarz dojrzałej, wpływowej kobiety, to prawdopodobnie masz do czynienia z pismem dla Pań o nieco wygórowanych wymaganiach, dlatego przeczytasz tam całkiem niezłe felietony przeplatane reklamami gabinetów medycyny estetycznej. Kiedyś widziałam w internecie film z eksperymentu, w którym z kobiecych pism wyrywano strony z reklamami i okazywało się, że ‘czytania’ wystarczy nam akurat na łyk porannej kawy (tyle, że łykiem możemy delektować się jednak nieco dłużej). Wpadłam więc na pomysł, że skupię się na tej nieczytelnej części, czyli na obrazach, z którymi spotykamy się zaraz po starannym przyjrzeniu się okładce.</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6410522/ello-optimized-2f35c947.jpg\" alt=\"Zdjęcie przedstawia czerwony karton, na którym leżą elementy powycinane z gazet, tworząc kolaż.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6410526/ello-optimized-9e87789e.jpg\" alt=\"Obraz przedstawia kolaż na czerwonym tle. Widzimy fragment kobiety ubranej w czerwoną sukienkę, kawałek niebieskiego nieba, głowę pozbawioną twarzy.\" /></p>\n<p>Tak jak bacznie przyglądałam się osobom w kawiarni, zaczęłam analizować twarze i ciała w gazetach. Zauważyłam miękki gest dłoni w reklamie lakieru do paznokci, subtelne spojrzenie dziewczyny ubranej w cekinowy kombinezon, perfekcyjny podmuch wiatru na tiulowej spódnicy reprezentującej nową kolekcję od znanego projektanta. Czym prędzej wyjęłam z torebki nożyczki i zaczęłam wycinać poszczególne elementy. Przykładałam je do siebie, dopasowywałam jak puzzle. Kiedy już wykorzystałam większość zdjęć z gazety spojrzałam jeszcze raz na wszystkie kompozycje. Nadal czegoś brakowało, nie mogłam tylko zrozumieć czego. Wtedy podniosłam głowę i zobaczyłam, że kobieta , która jeszcze przed chwilą rozrywała serwetkę na strzępy uspokoiła się, jej oczy złagodniały i wpatrywały się w ceglaną ścianę. Gruby mężczyzna nie czytał już swoich fantastycznych opowieści, a przyjaciółki ze stolika naprzeciwko nie zwierzały się sobie z najskrytszych sekretów. Wszystko jakby zamarło w bezruchu, a ja odnalazłam swoje brakujące elementy. Zaczęłam przykładać papierowe wycinki do żywych postaci, robiłam to mrużąc jedno oko, tak jak malarz podczas kadrowania sceny. Falujące, słomkowe włosy, szkocka krata swetra, kościste dłonie i strzępki serwetki dopełniły scenę. Stworzyłam kolaż z prawdziwych okładek, okładek, które sami projektujemy, nie zdając sobie sprawy, że owa zaciskająca szczękę kobieta to mama czwórki dzieci, porzucona przez męża, który zdradzał ją latami, próbująca rozkręcić i utrzymać firmę za wszelką cenę. Mężczyzna w swetrze to poeta z wieloma nagrodami literackimi na swoim koncie, otwarcie przyznający się do nocnego konsumowania obłędnej ilości ciastek z kremem. Wszystkie okładki połączyły się we wspólnym kolażu i wyznały wspólną miłość do (jak się wkrótce okaże) jedynego, mającego w życiu sens, nałogu… – kawy.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6410771/ello-optimized-e3b188ea.jpg\" alt=\"Zdjęcie przedstawia elementy powycinane z gazet położone na brązowym kartonie.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6410769/ello-optimized-a37c9988.jpg\" alt=\"Zdjęcie przedstawia kolaż na brązowym tle, widzimy element w czarno-białe pasy i płaszcz.\" /></p>\n";
 var raw = exports.raw = "\nZnalazłam się w miejscu, do którego przeciętny śmiertelnik zwykł przychodzić z nadzieją magicznego uzdrowienia. Liczy on bowiem na to, że dwie krople brunatnego napoju znajdujące się na dnie białej filiżanki są w stanie zdjąć z niego chroniczne zmęczenie i odejmą z jego, i tak już ujemnego bilansu snu, parę godzin. A on w te bonusowe godzinki będzie mógł oddać się swojej pasji, na którą przez ostatnie dwa lata swojego życia zwyczajnie nie miał czasu, bo praca, bo dom, bo dzieci. Tak… większość z nas przychodzących do kawiarni oczekuje nie tylko wytwornego smaku, ale też efektów. Niektórzy od lat mają w ciągu dnia zaplanowany czas na kawę. Niektórzy piją ją do śniadania, później po obiedzie, do deseru, a wieczorem odmawiają sobie nektaru bogów, mówiąc po cichu w myślach, że to już późna godzina i że nie będą w stanie zasnąć. Inni bezkarnie łamią przepisy, które wymyślili Ci pierwsi i piją w nocy o północy, bez większych problemów oddając się późnej sennym marzeniom. Są też tacy, którzy nigdy nie piją. Tych ostatnich należy zapytać, czy aby na pewno poznali prawdziwy smak życia?\n\n![Zdjęcie przedstawia rozłożony różowy zeszyt z powycinanymi elementami z gazet.](https://assets0.ello.co/uploads/asset/attachment/6410495/ello-optimized-9e2aa655.jpg)\n![Obraz przedstawia kolaż na różowym tle, widzimy postać, która zamiast głowy ma brązowe włosy, jedno oko, jest ubrana w różowy sweter.](https://assets2.ello.co/uploads/asset/attachment/6410499/ello-optimized-7c015584.jpg)\n\nNa przeciwko mnie przy okrągłym stoliku siedziała kobieta, lat ok. 35, przed sobą miała ekran zgrabnego komputera nowej generacji, przy uchu telefon, a w dłoni serwetkę. Była bardzo emocjonalnie zaangażowana w rozmowę, gestykulowała chudymi jak patyki rękami, co chwilę udało jej się nawet podnieść głos do tego stopnia, że sąsiedzi ze stolików obok zamierali na chwilę w swoich aktywnościach. Kiedy tylko skończyła rozmawiać, natychmiast wróciła do miętoszenia kawiarnianej serwetki. Jej szczęki zaciskały się z częstotliwością 40stu razy na minutę, a serwetka uległa doszczętnej destrukcji po około dwóch minutach. \nPółtora metra w lewo stolik przysunięty był do ściany, a miejsce przy niej zajmował mężczyzna o solidnej budowie ciała. Miał na sobie sweter w szkocką kratę, z domieszką prawdziwej wełny ( co chwilę drapał się swoimi tłuściutkimi paluszkami po szyi) a przed sobą trzymał książkę, chyba z gatunku fantasy, bo na okładce widniał bohater ze spiczastymi uszami. Mężczyzna ów bacznie przyglądał się włosom kobiety, która siedziała do niego tyłem przy przeciwległym stoliku. Jej włosy były idealne. Długie, o naturalnie słomkowym kolorze, lśniące, falujące z każdym ruchem jej drobnej głowy. Kobieta zajęta była rozmową ze swoją koleżanką, zachowanie wskazywało na to, że znają się od wieków.\n\n![Zdjęcie przedstawia rozłożony pomarańczowy zeszyt z powycinanymi elementami z gazet.](https://assets2.ello.co/uploads/asset/attachment/6410502/ello-optimized-6a04ecb3.jpg)\n![Obraz przedstawia kolaż z elementów zdjęć, widzimy spodenki, zielony sweter, kolorowy sweter zamiast twarzy.](https://assets0.ello.co/uploads/asset/attachment/6410516/ello-optimized-1a3e20ec.jpg)\n\nRazem ze swoim małym americano ukryliśmy się w głębi sali. Fotel był wygodny, miękki, duży i czerwony. Wymieniałam spojrzenia między panem w pseudo-wełnianym swetrze, rozemocjonowaną bizneswoman, a okładką magazynu dla kobiet. Okładki zdradzają większość prawdy o całej gazecie. Jeśli zobaczysz na niej sylwetkę wysportowanej dziewczyny –  na 90% znajdziesz wewnątrz przepisy i zestaw domowych ćwiczeń, który pomoże Ci w osiągnięciu wymarzonego ciała. Jeśli jednak przedstawia ona twarz dojrzałej, wpływowej kobiety, to prawdopodobnie masz do czynienia z pismem dla Pań o nieco wygórowanych wymaganiach, dlatego przeczytasz tam całkiem niezłe felietony przeplatane reklamami gabinetów medycyny estetycznej. Kiedyś widziałam w internecie film z eksperymentu, w którym z kobiecych pism wyrywano strony z reklamami i okazywało się, że ‘czytania’ wystarczy nam akurat na łyk porannej kawy (tyle, że łykiem możemy delektować się jednak nieco dłużej). Wpadłam więc na pomysł, że skupię się na tej nieczytelnej części, czyli na obrazach, z którymi spotykamy się zaraz po starannym przyjrzeniu się okładce.\n\n![Zdjęcie przedstawia czerwony karton, na którym leżą elementy powycinane z gazet, tworząc kolaż.](https://assets2.ello.co/uploads/asset/attachment/6410522/ello-optimized-2f35c947.jpg)\n![Obraz przedstawia kolaż na czerwonym tle. Widzimy fragment kobiety ubranej w czerwoną sukienkę, kawałek niebieskiego nieba, głowę pozbawioną twarzy.](https://assets1.ello.co/uploads/asset/attachment/6410526/ello-optimized-9e87789e.jpg)\n\nTak jak bacznie przyglądałam się osobom w kawiarni, zaczęłam analizować twarze i ciała w gazetach. Zauważyłam miękki gest dłoni w reklamie lakieru do paznokci, subtelne spojrzenie dziewczyny ubranej w cekinowy kombinezon, perfekcyjny podmuch wiatru na tiulowej spódnicy reprezentującej nową kolekcję od znanego projektanta. Czym prędzej wyjęłam z torebki nożyczki i zaczęłam wycinać poszczególne elementy. Przykładałam je do siebie, dopasowywałam jak puzzle. Kiedy już wykorzystałam większość zdjęć z gazety spojrzałam jeszcze raz na wszystkie kompozycje. Nadal czegoś brakowało, nie mogłam tylko zrozumieć czego. Wtedy podniosłam głowę i zobaczyłam, że kobieta , która jeszcze przed chwilą rozrywała serwetkę na strzępy uspokoiła się, jej oczy złagodniały i wpatrywały się w ceglaną ścianę. Gruby mężczyzna nie czytał już swoich fantastycznych opowieści, a przyjaciółki ze stolika naprzeciwko nie zwierzały się sobie z najskrytszych sekretów. Wszystko jakby zamarło w bezruchu, a ja odnalazłam swoje brakujące elementy. Zaczęłam przykładać papierowe wycinki do żywych postaci, robiłam to mrużąc jedno oko, tak jak malarz podczas kadrowania sceny. Falujące, słomkowe włosy, szkocka krata swetra, kościste dłonie i strzępki serwetki dopełniły scenę. Stworzyłam kolaż z prawdziwych okładek, okładek, które sami projektujemy, nie zdając sobie sprawy, że owa zaciskająca szczękę kobieta to mama czwórki dzieci, porzucona przez męża, który zdradzał ją latami, próbująca rozkręcić i utrzymać firmę za wszelką cenę. Mężczyzna w swetrze to poeta z wieloma nagrodami literackimi na swoim koncie, otwarcie przyznający się do nocnego konsumowania obłędnej ilości ciastek z kremem. Wszystkie okładki połączyły się we wspólnym kolażu i wyznały wspólną miłość do (jak się wkrótce okaże) jedynego, mającego w życiu sens, nałogu… – kawy.\n\n![Zdjęcie przedstawia elementy powycinane z gazet położone na brązowym kartonie.](https://assets0.ello.co/uploads/asset/attachment/6410771/ello-optimized-e3b188ea.jpg)\n![Zdjęcie przedstawia kolaż na brązowym tle, widzimy element w czarno-białe pasy i płaszcz.](https://assets2.ello.co/uploads/asset/attachment/6410769/ello-optimized-a37c9988.jpg)";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 79 */
+/* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4413,7 +4485,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -4496,10 +4568,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Kubizm [moodboard]", "date": "2017-10-26T14:08:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["kubizm", "cubism", "moodboard", "art", "sztuka", "artysta", "kreacja"] };
 var body = exports.body = "<olela-narrative>\nWyobraźcie sobie pewien zestaw przedmiotów stojących na stole. Niech to będzie wazon, miska z owocami, nóż i poranna gazeta. Przedmioty te oświetlone są dziennym światłem, którego źródłem jest okno z lewej strony. Patrzycie na martwą naturę jako na całość, na zjawisko jedności. Teraz, skupcie się na poszczególnych elementach i niech zaistnieją w waszym umyśle jako figury geometryczne. Nóż to stożek, misa jawi się walcem, a gazeta to sześcian. Dobrze. Teraz macie do dyspozycji różne źródła światła – niech to będzie kilka lampek. Ustawcie lampki tak, by każda z nich w odmienny sposób oświetlała dany przedmiot (nie zapominajcie w trakcie, że przedmioty przybrały formę geometryczną). Dobrze. Teraz to namalujcie. Jeśli skończyliście ćwiczenie z martwą naturą pora przejść do żywego modelu. Wpiszcie twarz w sześcian, a następnie rozbijcie na mniejsze, geometryczne części. Malujcie, nie przestawajcie malować. Zerwijcie z tradycyjną zasadą perspektywy.\n</olela-narrative>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6416631/ello-optimized-d59ec2a0.jpg\" alt=\"Obraz przedstawia różne zdjęcia na białym tle w otoczeniu geometrycznych granatowych elementów. Widzimy obrazy znanych artystów i rzeźbę głowy.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6416638/ello-optimized-f69f7e37.jpg\" alt=\"Obraz przedstawia różne zdjęcia na białym tle w otoczeniu geometrycznych granatowych elementów. Widzimy fotografie modelek ubranych w geometryczne stroje, twarze w artystycznym makijażu i rzeźbę.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6416644/ello-optimized-ebd98038.jpg\" alt=\"Obraz przedstawia różne zdjęcia na białym tle w otoczeniu geometrycznych granatowych elementów. Widzimy wazon, torebkę, modelki na wybiegu, ceramiczną wazę, obrazy znanych malarzy.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6416649/ello-optimized-32ffc370.jpg\" alt=\"Obraz przedstawia różne zdjęcia na białym tle w otoczeniu geometrycznych granatowych elementów. Widzimy dwa zdjęcia budynków, a na samym dole białe napisy na granatowym tle.\" /></p>\n<p>„Portret Gertrudy Stein’ Picassa to jeden z pierwszych przejawów nadejścia kubizmu. Przypatrzcie się twarzy kobiety. Zaznacza się na niej charakterystyczna geometryzacja i delikatne przesunięcie elementów. Z tłem również coś się stało, jakby zostało spłaszczone i wykazuje impresjonistyczny charakter. Ten etap rozwoju kubizmu zostanie później nazwany ‘prekubizmem’.\nNastępnie przyszedł moment na ‘kubizm analityczny’ (1907 – 1912 r.). Jego charakterystyczną cechą jest monochromatyczna paleta, ograniczająca się do brązów, czerni i szarości. Obiekty na obrazach są jakby ‘pryzmatyczne’, rozbite na drobne elementy. Artyści w pewnym sense odrzucili oko, jako jedyne źródło prawdy o obrazie i zwrócili się w stronę umysłu, który to, przecież nie widzi przedmiotu tylko z jednej strony. Odwoływali się do intelektu widza, włączając w swoje płótna także element czasu. ‘Portret Ambrose Vollard’ (1910 r.) stanowi idealny przykład fragmentu tej osi czasu.\nPóźniej przyszedł moment, kiedy to artyści nieco się zagalopowali i ich prace zaczęły mocno uciekać w stronę abstrakcji (nie można się było doszukać fragmentów przypominających rzeczywistość), co ich przestraszyło i zaczęli poszukiwać nowych sposobów obrazowania, bez konieczności doszczętnego zacierania śladów fizyczności. Okres hermetyczny (1912- 1913 r.) to czas kiedy kontury obiektu są ledwo widoczne, geometryczne kształty wzajemnie się przenikają, a dla podtrzymania formalnego charakteru zaczęto dodawać do obrazów drukowane litery. W następnym czasie dojdzie do włączenia wycinków z gazet w obraz. Kolażowanie to już cecha kubizmu syntetycznego (1914 – lata 20ste).</p>\n<p>Swój wkład w rozwój kubizmu wnieśli:</p>\n<ul>\n<li>Juan Gris</li>\n<li>Georges Braque</li>\n<li>Fernand Léger</li>\n<li>Pablo Picasso</li>\n<li>Francis Picabia</li>\n<li>Jean Metzinger</li>\n<li>Albert Gleizes</li>\n<li>Louis Marcoussis</li>\n</ul>\n";
 var raw = exports.raw = "\n<olela-narrative>\nWyobraźcie sobie pewien zestaw przedmiotów stojących na stole. Niech to będzie wazon, miska z owocami, nóż i poranna gazeta. Przedmioty te oświetlone są dziennym światłem, którego źródłem jest okno z lewej strony. Patrzycie na martwą naturę jako na całość, na zjawisko jedności. Teraz, skupcie się na poszczególnych elementach i niech zaistnieją w waszym umyśle jako figury geometryczne. Nóż to stożek, misa jawi się walcem, a gazeta to sześcian. Dobrze. Teraz macie do dyspozycji różne źródła światła – niech to będzie kilka lampek. Ustawcie lampki tak, by każda z nich w odmienny sposób oświetlała dany przedmiot (nie zapominajcie w trakcie, że przedmioty przybrały formę geometryczną). Dobrze. Teraz to namalujcie. Jeśli skończyliście ćwiczenie z martwą naturą pora przejść do żywego modelu. Wpiszcie twarz w sześcian, a następnie rozbijcie na mniejsze, geometryczne części. Malujcie, nie przestawajcie malować. Zerwijcie z tradycyjną zasadą perspektywy.\n</olela-narrative>\n\n![Obraz przedstawia różne zdjęcia na białym tle w otoczeniu geometrycznych granatowych elementów. Widzimy obrazy znanych artystów i rzeźbę głowy.](https://assets2.ello.co/uploads/asset/attachment/6416631/ello-optimized-d59ec2a0.jpg)\n![Obraz przedstawia różne zdjęcia na białym tle w otoczeniu geometrycznych granatowych elementów. Widzimy fotografie modelek ubranych w geometryczne stroje, twarze w artystycznym makijażu i rzeźbę.](https://assets1.ello.co/uploads/asset/attachment/6416638/ello-optimized-f69f7e37.jpg)\n![Obraz przedstawia różne zdjęcia na białym tle w otoczeniu geometrycznych granatowych elementów. Widzimy wazon, torebkę, modelki na wybiegu, ceramiczną wazę, obrazy znanych malarzy.](https://assets1.ello.co/uploads/asset/attachment/6416644/ello-optimized-ebd98038.jpg)\n![Obraz przedstawia różne zdjęcia na białym tle w otoczeniu geometrycznych granatowych elementów. Widzimy dwa zdjęcia budynków, a na samym dole białe napisy na granatowym tle.](https://assets1.ello.co/uploads/asset/attachment/6416649/ello-optimized-32ffc370.jpg)\n\n„Portret Gertrudy Stein’ Picassa to jeden z pierwszych przejawów nadejścia kubizmu. Przypatrzcie się twarzy kobiety. Zaznacza się na niej charakterystyczna geometryzacja i delikatne przesunięcie elementów. Z tłem również coś się stało, jakby zostało spłaszczone i wykazuje impresjonistyczny charakter. Ten etap rozwoju kubizmu zostanie później nazwany ‘prekubizmem’.\nNastępnie przyszedł moment na ‘kubizm analityczny’ (1907 – 1912 r.). Jego charakterystyczną cechą jest monochromatyczna paleta, ograniczająca się do brązów, czerni i szarości. Obiekty na obrazach są jakby ‘pryzmatyczne’, rozbite na drobne elementy. Artyści w pewnym sense odrzucili oko, jako jedyne źródło prawdy o obrazie i zwrócili się w stronę umysłu, który to, przecież nie widzi przedmiotu tylko z jednej strony. Odwoływali się do intelektu widza, włączając w swoje płótna także element czasu. ‘Portret Ambrose Vollard’ (1910 r.) stanowi idealny przykład fragmentu tej osi czasu.\nPóźniej przyszedł moment, kiedy to artyści nieco się zagalopowali i ich prace zaczęły mocno uciekać w stronę abstrakcji (nie można się było doszukać fragmentów przypominających rzeczywistość), co ich przestraszyło i zaczęli poszukiwać nowych sposobów obrazowania, bez konieczności doszczętnego zacierania śladów fizyczności. Okres hermetyczny (1912- 1913 r.) to czas kiedy kontury obiektu są ledwo widoczne, geometryczne kształty wzajemnie się przenikają, a dla podtrzymania formalnego charakteru zaczęto dodawać do obrazów drukowane litery. W następnym czasie dojdzie do włączenia wycinków z gazet w obraz. Kolażowanie to już cecha kubizmu syntetycznego (1914 – lata 20ste).\n\nSwój wkład w rozwój kubizmu wnieśli:\n* Juan Gris\n* Georges Braque\n* Fernand Léger\n* Pablo Picasso\n* Francis Picabia\n* Jean Metzinger\n* Albert Gleizes\n* Louis Marcoussis";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 80 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4522,7 +4594,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -4686,10 +4758,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Surrealizm [moodboard]", "date": "2017-11-02T14:12:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["surrealizm", "surrealism", "nadrealizm", "moodboard", "sztuka", "artysta", "art", "kreacja"] };
 var body = exports.body = "<olela-narrative>\nAndré Breton, 'Manifest surrealizmu' (1924 r.), fragmenty:\n</olela-narrative>\n<blockquote>\n<p>Droga wyobraźnio, najbardziej w tobie kocham to,\nże nie przebaczasz.</p>\n</blockquote>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6434565/ello-optimized-6114c15d.jpg\" alt=\"Obraz przedstawia różne elementy i zdjęcia na blado-różowym tle. Widzimy kawałek pizzy, fotografię portretową i zdjęcia obrazów.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6434569/ello-optimized-4f732112.jpg\" alt=\"Obraz przedstawia zdjęcia różnych dzieł sztuki na blado-różowym tle.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6434571/ello-optimized-76db7fec.jpg\" alt=\"Obraz przedstawia różne zdjęcia na blado-różowym tle. Widzimy sukienkę, kapelusz w kształcie buta, czarno-białe fotografie damskich twarzy, obraz.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6434572/ello-optimized-291ac1d4.jpg\" alt=\"Obraz przedstawia różne zdjęcia na blado-różowym tle. Widzimy kobietę w czerwonej sukni, naszyjnik na białym manekinie, obraz, filiżankę.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6434576/ello-optimized-e3632a97.jpg\" alt=\"Obraz przedstawia różne zdjęcia na blado-różowym tle. Widzimy zdjęcia różnych budynków, fotografię, obraz z gołębiem.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6434577/ello-optimized-fba91b4c.jpg\" alt=\"Zdjęcie przedstawia ciemno-brązowe napisy na beżowym tle.\" /></p>\n<blockquote>\n<p>Mógłbym spędzić życie na zachęcaniu wariatów do zwierzeń.\nSą to ludzie nieposzlakowanej uczciwości, których prostoduszność może się równać tylko z moją.\nDla odkrycia Ameryki trzeba było, ażeby Kolumb wybrał się w drogę z kupą wariatów. I spójrzcie, jak to wariactwo wcieliło się w życie i trwa po dzień dzisiejszy.</p>\n</blockquote>\n<blockquote>\n<p>Strach przed obłędem nie zmusi nas do zatrzymania sztandaru wyobraźni w połowie masztu.</p>\n</blockquote>\n<blockquote>\n<p>Jeżeli w głębinach naszego umysłu kryją się dziwne siły, zdolne do pomnażania sił na powierzchni,\nalbo do staczania z nimi zwycięskiej walki, to jak najbardziej warto je schwytać, przede wszystkim schwytać, aby potem,\njeżeli zdołamy, poddać je kontroli naszego umysłu.</p>\n</blockquote>\n<blockquote>\n<p>Umysł człowieka śniącego jest całkowicie zadowolony z tego, co się dzieje. Nie wyłania się niepokojące pytanie,\nco jest, a co nie jest możliwe. Zabijaj, szybuj w powietrzu, kochaj, ile zechcesz. A jeśli umierasz, czy nie masz pewności,\nże powstaniesz z martwych? Pozwól się prowadzić,\ntwoja zwłoka nie zwolni biegu wydarzeń. Nie masz imienia.\nWszystko przychodzi z nieocenioną łatwością.</p>\n</blockquote>\n<blockquote>\n<p>Wierzę w to, że te dwa na pozór tak przeciwstawne sobie stany, jak sen i jawa, w przyszłości stopią się w pewnego rodzaju rzeczywistość absolutną, w nadrealność, jeśli to można tak nazwać. Wyruszam na jej zdobycie, pewien, że jej nie osiągnę,\nale tak mało myślę o swojej śmierci, że jednak po trosze liczę na radość tego osiągnięcia.</p>\n</blockquote>\n<blockquote>\n<p>Surrealizm; Czysty automatyzm psychiczny, który ma służyć do wyrażenia bądź w słowie, bądź w piśmie, bądź innym sposobem, rzeczywistego funkcjonowania myśli.\nDyktowanie myśli wolne od wszelkiej kontroli umysłu, poza wszelkimi względami estetycznymi czy moralnymi. (...)\nSurrealizm opiera się na wierze w nadrzędną rzeczywistość pewnych form skojarzeniowych dotąd lekceważonych,\nwe wszechpotęgę marzenia, w bezinteresowną grę myśli.\nDąży do ostatecznego zniszczenia wszelkich innych mechanizmów psychicznych i zajęcia ich miejsca w rozwiązywaniu podstawowych zagadnień życia.</p>\n</blockquote>\n<blockquote>\n<p>Ci, którzy się poświęcają surrealizmowi, nie mogą go porzucić, kiedy im się podoba. Wszystko wskazuje na to, że surrealizm\ndziała jak narkotyk; podobnie jak narkotyk stwarza pewien stan łaknienia i może pchnąć człowieka do straszliwych wybuchów.</p>\n</blockquote>\n<blockquote>\n<p>Z obrazami surrealistycznymi dzieje się tak samo, jak z obrazami wytwarzanymi przez opium, człowiek ich nie przywołuje,\nale “same się nasuwają spontanicznie, narzucają się przemocą. Nie może się ich pozbyć, bo wola jest bezsilna, i nie panuje już nad władzami umysłu”. (cyt. Baudelaire)</p>\n</blockquote>\n<blockquote>\n<p>Tylko słowo wolność potrafi mnie jeszcze porwać.</p>\n</blockquote>\n<olela-narrative>\n~ André Breton ('Manifest surrealizmu' 1924 r.) tłum. Adam Ważyk\n</olela-narrative>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6450689/ello-optimized-8d3c19ae.jpg\" alt=\"Obraz przedstawia trzy kształty przypominające fale w odcieniach beżu.\" /></p>\n<blockquote>\n<p>Surrealizm to ja.</p>\n<p>~ Salvador Dali (o sobie).</p>\n</blockquote>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6450689/ello-optimized-8d3c19ae.jpg\" alt=\"Obraz przedstawia trzy kształty przypominające fale w odcieniach beżu.\" /></p>\n<blockquote>\n<p>(…) wciąż jestem skłonny uważać surrealistów (…) za stuprocentowych wariatów.</p>\n<p>~ Zygmunt Freud (po spotkaniu z Salvadorem Dalim) Źródło: „Przegląd powszechny”, Druk Wł. L. Anczyca i Spółki, 1996, s. 347.</p>\n</blockquote>\n";
 var raw = exports.raw = "\n<olela-narrative>\nAndré Breton, 'Manifest surrealizmu' (1924 r.), fragmenty:\n</olela-narrative>\n\n> Droga wyobraźnio, najbardziej w tobie kocham to, \n> że nie przebaczasz.\n\n![Obraz przedstawia różne elementy i zdjęcia na blado-różowym tle. Widzimy kawałek pizzy, fotografię portretową i zdjęcia obrazów.](https://assets2.ello.co/uploads/asset/attachment/6434565/ello-optimized-6114c15d.jpg)\n![Obraz przedstawia zdjęcia różnych dzieł sztuki na blado-różowym tle.](https://assets0.ello.co/uploads/asset/attachment/6434569/ello-optimized-4f732112.jpg)\n![Obraz przedstawia różne zdjęcia na blado-różowym tle. Widzimy sukienkę, kapelusz w kształcie buta, czarno-białe fotografie damskich twarzy, obraz.](https://assets0.ello.co/uploads/asset/attachment/6434571/ello-optimized-76db7fec.jpg)\n![Obraz przedstawia różne zdjęcia na blado-różowym tle. Widzimy kobietę w czerwonej sukni, naszyjnik na białym manekinie, obraz, filiżankę.](https://assets2.ello.co/uploads/asset/attachment/6434572/ello-optimized-291ac1d4.jpg)\n![Obraz przedstawia różne zdjęcia na blado-różowym tle. Widzimy zdjęcia różnych budynków, fotografię, obraz z gołębiem.](https://assets0.ello.co/uploads/asset/attachment/6434576/ello-optimized-e3632a97.jpg)\n![Zdjęcie przedstawia ciemno-brązowe napisy na beżowym tle.](https://assets2.ello.co/uploads/asset/attachment/6434577/ello-optimized-fba91b4c.jpg)\n\n> Mógłbym spędzić życie na zachęcaniu wariatów do zwierzeń. \n> Są to ludzie nieposzlakowanej uczciwości, których prostoduszność może się równać tylko z moją. \n> Dla odkrycia Ameryki trzeba było, ażeby Kolumb wybrał się w drogę z kupą wariatów. I spójrzcie, jak to wariactwo wcieliło się w życie i trwa po dzień dzisiejszy.\n\n> Strach przed obłędem nie zmusi nas do zatrzymania sztandaru wyobraźni w połowie masztu.\n\n> Jeżeli w głębinach naszego umysłu kryją się dziwne siły, zdolne do pomnażania sił na powierzchni, \n> albo do staczania z nimi zwycięskiej walki, to jak najbardziej warto je schwytać, przede wszystkim schwytać, aby potem, \n> jeżeli zdołamy, poddać je kontroli naszego umysłu.\n\n> Umysł człowieka śniącego jest całkowicie zadowolony z tego, co się dzieje. Nie wyłania się niepokojące pytanie, \n> co jest, a co nie jest możliwe. Zabijaj, szybuj w powietrzu, kochaj, ile zechcesz. A jeśli umierasz, czy nie masz pewności, \n> że powstaniesz z martwych? Pozwól się prowadzić, \n> twoja zwłoka nie zwolni biegu wydarzeń. Nie masz imienia.\n> Wszystko przychodzi z nieocenioną łatwością.\n\n> Wierzę w to, że te dwa na pozór tak przeciwstawne sobie stany, jak sen i jawa, w przyszłości stopią się w pewnego rodzaju rzeczywistość absolutną, w nadrealność, jeśli to można tak nazwać. Wyruszam na jej zdobycie, pewien, że jej nie osiągnę, \n> ale tak mało myślę o swojej śmierci, że jednak po trosze liczę na radość tego osiągnięcia.\n\n> Surrealizm; Czysty automatyzm psychiczny, który ma służyć do wyrażenia bądź w słowie, bądź w piśmie, bądź innym sposobem, rzeczywistego funkcjonowania myśli. \nDyktowanie myśli wolne od wszelkiej kontroli umysłu, poza wszelkimi względami estetycznymi czy moralnymi. (...)\nSurrealizm opiera się na wierze w nadrzędną rzeczywistość pewnych form skojarzeniowych dotąd lekceważonych, \nwe wszechpotęgę marzenia, w bezinteresowną grę myśli. \n> Dąży do ostatecznego zniszczenia wszelkich innych mechanizmów psychicznych i zajęcia ich miejsca w rozwiązywaniu podstawowych zagadnień życia.\n\n> Ci, którzy się poświęcają surrealizmowi, nie mogą go porzucić, kiedy im się podoba. Wszystko wskazuje na to, że surrealizm \n> działa jak narkotyk; podobnie jak narkotyk stwarza pewien stan łaknienia i może pchnąć człowieka do straszliwych wybuchów.\n\n> Z obrazami surrealistycznymi dzieje się tak samo, jak z obrazami wytwarzanymi przez opium, człowiek ich nie przywołuje,\n> ale \"same się nasuwają spontanicznie, narzucają się przemocą. Nie może się ich pozbyć, bo wola jest bezsilna, i nie panuje już nad władzami umysłu\". (cyt. Baudelaire)\n\n>Tylko słowo wolność potrafi mnie jeszcze porwać.\n\n<olela-narrative>\n~ André Breton ('Manifest surrealizmu' 1924 r.) tłum. Adam Ważyk\n</olela-narrative>\n\n![Obraz przedstawia trzy kształty przypominające fale w odcieniach beżu.](https://assets0.ello.co/uploads/asset/attachment/6450689/ello-optimized-8d3c19ae.jpg)\n\n> Surrealizm to ja.\n>\n> ~ Salvador Dali (o sobie).\n\n![Obraz przedstawia trzy kształty przypominające fale w odcieniach beżu.](https://assets0.ello.co/uploads/asset/attachment/6450689/ello-optimized-8d3c19ae.jpg)\n\n> (…) wciąż jestem skłonny uważać surrealistów (…) za stuprocentowych wariatów.\n>\n> ~ Zygmunt Freud (po spotkaniu z Salvadorem Dalim) Źródło: „Przegląd powszechny”, Druk Wł. L. Anczyca i Spółki, 1996, s. 347.\n\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 81 */
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4712,7 +4784,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -4857,10 +4929,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Make-up inspirowany obrazem. 'Czarny_kwadrat_na_białym_tle' by Kazimierz Malewicz", "date": "2017-11-07T13:44:00.000Z", "categories": ["Sztuka Makijażu"], "tags": ["malewicz", "suprematyzm", "kwadrat", "makeup", "makijaż", "dzieło", "obraz", "kreacja", "artysta", "art", "sztuka"] };
 var body = exports.body = "<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6474036/ello-optimized-b7d22d41.jpg\" alt=\"Zdjęcie przedstawia kobietę ubraną na biało, na białym tle. Kobieta ma szare włosy, a na ustach ma namalowany czarny kwadrat.\" /></p>\n<olela-narrative>\n‘Phi! Takie coś to pięcioletnie dziecko potrafi namalować!’ Ty też słyszałeś podobne stwierdzenia w galerii sztuki współczesnej? Zapewne zastanowiłeś się, czy to ignorancja, czy niezrozumienie. W moim rozumieniu chodzi o to drugie. Wielu osobom ‘sztuka’ kojarzy się tylko i wyłącznie z wysoko rozwiniętym warsztatem, niejednokrotnie, a wręcz przeważnie, dotyka ono wątków realistycznych. Jeśli coś jest namalowane dobrze, odwzorowuje rzeczywistość w sposób dokładny, to wtedy można nazwać to sztuką. Problem w tym, że podstawowe pytanie jakie powinniśmy sobie zadać przełamując wieki naszych art studies to ‘Co’, a nie ‘Jak’. Ach, no i oczywiście najważniejsza kwestia – zapytaj, czy jesteś gotów zapytać.\n</olela-narrative>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6474732/ello-optimized-780c137a.jpg\" alt=\"Obraz przedstawia dwa zdjęcia twarzy kobiety, która ma na ustach namalowany czarny kwadrat. Kobieta ma na jednym zdjęciu otwarte oczy a na drugim zamknięte.\" /></p>\n<p>Kazimierz Malewicz urodził się w 1879 roku w Kijowie. Przez wiele lat pracował nad własną teorią sztuki. Szukał takiej formy komunikacji, która byłaby bezpośrednim wyrazem duchowej natury rzeczywistości. ‘Czarny kwadrat na białym tle’ po raz pierwszy pokazano w 1915 r. Obraz ten stanowi najmniejszy malarski atom, jednocześnie nie odsyła nas do żadnego innego obiektu, poza nim samym. Jest składnikiem wszystkiego i wszystkim zarazem. Jego moc oddziaływania równa jest mocy ikony. Obraz ten jest pierwszą próbą ujęcia świata w ramy bezprzedmiotowości. W następstwach, po okresie czarnym przyjdzie czas na okres barwny i biały. Szczytowym osiągnięciem okresu białego (1918 – 1919 r.), a zarazem punktem gdzie kończy i zaczyna się suprematyzm jest dzieło ‘Biały kwadrat na białym tle’. W rozumieniu artysty jest to kres malarstwa. Tu kończy się poznanie – idealna czystość, nicość, pustka, bezgraniczna przestrzeń, uniwersum, absolut. Jedyną formą artystycznego wyrazu miała od tej pory stać się filozofia.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6474045/ello-optimized-4f16c7c7.jpg\" alt=\"Zdjęcie przedstawia twarz kobiety z szarymi włosami patrzącej w prawą stronę. Kobieta ma na ustach namalowany czarny kwadrat.\" /></p>\n<blockquote>\n<p>Nie wystawiłem »pustego kwadratu«, lecz wrażenie nieprzedmiotowości. Zrozumiałem, że »przedmiot« i [jego] »wyobrażenie« były niesłusznie brane za\nodzwierciedlenie wrażenia, i zobaczyłem, jak nieprawdziwy był ten świat przedstawień i pragnień. (...)\nCzarny kwadrat na białym tle był pierwszą formą wyrażającą doznanie nieprzedmiotowości: kwadrat = wrażenie,\nbiałe tło = »nicość« poza tym wrażeniem”</p>\n<p>~ (Malewicz Kazimierz 2006, Świat bezprzedmiotowy, tłum. S. Fijałkowski, Słowo/Obraz Terytoria, Gdańsk: 66, 74)</p>\n</blockquote>\n<p>Więc chodzi o wrażenie z jakim pozostawia nas artysta. Jedynie świat bezprzedmiotowy jest światem realnym, wolnym od wyobrażeń, czystym. Sztuka przedstawiająca pełna jest złudzeń. Abstrakcja jest natomiast ‘wyrazem czystego doznania’. Kwadraty stają się nośnikiem metafizycznych treści.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6475049/ello-optimized-8670ac71.jpg\" alt=\"Obraz przedstawia zdjęcie ust pomalowanych na czarno i czarny kwadrat na białym tle z prawej strony.\" /></p>\n<p>Suprematyzm wierzy w możliwość dotarcia do Prawdy, do prawdziwej wiedzy. Instrumentem poznawczym czyni Malewicz intuicję. Tylko ona bowiem pozwala odczuć jedność. ‘Bóg, Dusza, Życie, Religia, Technika, Sztuka, Nauka, Intelekt, Wizja świata, Praca, Ruch, Przestrzeń, Czas = 0’ [1]. Zero w tym wypadku symbolizuje istotę rzeczywistości, do której dotrzeć można tylko poprzez prawdę. W transformacji naszej świadomości na poziomie poznawczym ma pomóc suprematyzm.</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6474055/ello-optimized-11c8424b.jpg\" alt=\"Obraz przedstawia dwa zdjęcia różnej wielkości. Na zdjęciach przedstawiona jest kobieta w białej bluzce z czarnym kwadratem na ustach. Zdjęcie z prawej strony jest mniejsze.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6474060/ello-optimized-c85f9324.jpg\" alt=\"Zdjęcie przedstawia portret kobiety w geometrycznymi elementami. Kobieta ma usta pomalowane na czarno, szare włosy i białą bluzkę. Całość w czarnej ramce.\" /></p>\n<p>Za pomocą nowoczesnej aparatury rentgenowskiej i mikroskopów ujawniono tajemnicę obrazu ‘Czarny kwadrat na białym tle’. Pod tym, co na pierwszy rzut oka widać na płótnie kryją się dwie barwne kompozycje. Warstwa umieszczona najniżej to obraz w kubistycznym klimacie. Na nim natomiast (warstwa pośrodku) znajduje się kompozycje protosuprematyczna. Szczerze wątpię w celowość tego zabiegu. Malewicz zapewne, jak każdy artysta, poszukiwał właściwych środków wyrazu zamalowując nieudane kompozycje. Z doświadczenia wiem, że ten zabieg często stosuję się z czystej oszczędności. Myślę jednak, że stanowi to wartość dodaną dzieła. Teoria suprematyzmu w  odniesieniu do warstwowego charakteru nabiera dla mnie dodatkowej mocy przekazu.</p>\n<blockquote>\n<p>Za przyczyną suprematyzmu sztuka doszła do teraz do samej siebie – do swej czystej, nieutylitarnej formy – i poznała\noczywistość bezprzedmiotowego doznania, to w konsekwencji próbuje ustanowić nowy, prawdziwy porządek świata oraz nowy światopogląd.</p>\n<p>~ (Kazimierz Malewicz, Świat bezprzedmiotowy, Słowo/Obraz/Terytoria, Gdańsk 2006, s. 98)</p>\n</blockquote>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6474062/ello-optimized-5aca4f04.jpg\" alt=\"Obraz przedstawia czarne kwadraty na białym tle ustawione obok siebie w linii.\" /></p>\n<ol>\n<li>Kazimierz Malewicz, Suprematystyczne zwierciadło [w:] Andrzej Turowski, Między sztuką a komuną: teksty awangardy rosyjskiej 1910-1932, Universitas, Kraków 1998, s. 178</li>\n</ol>\n<p>Korzystałam z tekstów:</p>\n<ul>\n<li>Paweł Możdżyński „Inicjacje i transgresje. Antystrukturalność sztuki XX i XXI wieku w oczach socjologa”, Wydawnictwa Uniwersytetu Warszawskiego, Warszawa 2011 (rozdział pt.: „Abstrakcja”).</li>\n<li>Przemysław Chodań „Suprematyzm Kazimierza Malewicza jako przykład awangardowej utopii” (<a href=\"http://teksty.bunkier.art.pl/?id=46\">http://teksty.bunkier.art.pl/?id=46</a>)</li>\n<li>(<a href=\"http://rynekisztuka.pl/2015/11/18/dwie-kompozycje-ukryte-pod-czarnym-kwadratem-malewicza/\">rynekisztuka.pl/2015/11/18/dwie-kompozycje-ukryte-pod-czarnym-kwadratem-malewicza/</a>)</li>\n</ul>\n";
 var raw = exports.raw = "\n![Zdjęcie przedstawia kobietę ubraną na biało, na białym tle. Kobieta ma szare włosy, a na ustach ma namalowany czarny kwadrat.](https://assets2.ello.co/uploads/asset/attachment/6474036/ello-optimized-b7d22d41.jpg)\n\n<olela-narrative>\n‘Phi! Takie coś to pięcioletnie dziecko potrafi namalować!’ Ty też słyszałeś podobne stwierdzenia w galerii sztuki współczesnej? Zapewne zastanowiłeś się, czy to ignorancja, czy niezrozumienie. W moim rozumieniu chodzi o to drugie. Wielu osobom ‘sztuka’ kojarzy się tylko i wyłącznie z wysoko rozwiniętym warsztatem, niejednokrotnie, a wręcz przeważnie, dotyka ono wątków realistycznych. Jeśli coś jest namalowane dobrze, odwzorowuje rzeczywistość w sposób dokładny, to wtedy można nazwać to sztuką. Problem w tym, że podstawowe pytanie jakie powinniśmy sobie zadać przełamując wieki naszych art studies to ‘Co’, a nie ‘Jak’. Ach, no i oczywiście najważniejsza kwestia – zapytaj, czy jesteś gotów zapytać.\n</olela-narrative>\n\n![Obraz przedstawia dwa zdjęcia twarzy kobiety, która ma na ustach namalowany czarny kwadrat. Kobieta ma na jednym zdjęciu otwarte oczy a na drugim zamknięte.](https://assets2.ello.co/uploads/asset/attachment/6474732/ello-optimized-780c137a.jpg)\n\nKazimierz Malewicz urodził się w 1879 roku w Kijowie. Przez wiele lat pracował nad własną teorią sztuki. Szukał takiej formy komunikacji, która byłaby bezpośrednim wyrazem duchowej natury rzeczywistości. ‘Czarny kwadrat na białym tle’ po raz pierwszy pokazano w 1915 r. Obraz ten stanowi najmniejszy malarski atom, jednocześnie nie odsyła nas do żadnego innego obiektu, poza nim samym. Jest składnikiem wszystkiego i wszystkim zarazem. Jego moc oddziaływania równa jest mocy ikony. Obraz ten jest pierwszą próbą ujęcia świata w ramy bezprzedmiotowości. W następstwach, po okresie czarnym przyjdzie czas na okres barwny i biały. Szczytowym osiągnięciem okresu białego (1918 – 1919 r.), a zarazem punktem gdzie kończy i zaczyna się suprematyzm jest dzieło ‘Biały kwadrat na białym tle’. W rozumieniu artysty jest to kres malarstwa. Tu kończy się poznanie – idealna czystość, nicość, pustka, bezgraniczna przestrzeń, uniwersum, absolut. Jedyną formą artystycznego wyrazu miała od tej pory stać się filozofia.\n\n![Zdjęcie przedstawia twarz kobiety z szarymi włosami patrzącej w prawą stronę. Kobieta ma na ustach namalowany czarny kwadrat.](https://assets1.ello.co/uploads/asset/attachment/6474045/ello-optimized-4f16c7c7.jpg)\n\n> Nie wystawiłem »pustego kwadratu«, lecz wrażenie nieprzedmiotowości. Zrozumiałem, że »przedmiot« i [jego] »wyobrażenie« były niesłusznie brane za \nodzwierciedlenie wrażenia, i zobaczyłem, jak nieprawdziwy był ten świat przedstawień i pragnień. (...)\n> Czarny kwadrat na białym tle był pierwszą formą wyrażającą doznanie nieprzedmiotowości: kwadrat = wrażenie,\nbiałe tło = »nicość« poza tym wrażeniem”\n>\n> ~ (Malewicz Kazimierz 2006, Świat bezprzedmiotowy, tłum. S. Fijałkowski, Słowo/Obraz Terytoria, Gdańsk: 66, 74)\n\nWięc chodzi o wrażenie z jakim pozostawia nas artysta. Jedynie świat bezprzedmiotowy jest światem realnym, wolnym od wyobrażeń, czystym. Sztuka przedstawiająca pełna jest złudzeń. Abstrakcja jest natomiast ‘wyrazem czystego doznania’. Kwadraty stają się nośnikiem metafizycznych treści.\n\n![Obraz przedstawia zdjęcie ust pomalowanych na czarno i czarny kwadrat na białym tle z prawej strony.](https://assets1.ello.co/uploads/asset/attachment/6475049/ello-optimized-8670ac71.jpg)\n\nSuprematyzm wierzy w możliwość dotarcia do Prawdy, do prawdziwej wiedzy. Instrumentem poznawczym czyni Malewicz intuicję. Tylko ona bowiem pozwala odczuć jedność. ‘Bóg, Dusza, Życie, Religia, Technika, Sztuka, Nauka, Intelekt, Wizja świata, Praca, Ruch, Przestrzeń, Czas = 0’ [1]. Zero w tym wypadku symbolizuje istotę rzeczywistości, do której dotrzeć można tylko poprzez prawdę. W transformacji naszej świadomości na poziomie poznawczym ma pomóc suprematyzm.\n\n![Obraz przedstawia dwa zdjęcia różnej wielkości. Na zdjęciach przedstawiona jest kobieta w białej bluzce z czarnym kwadratem na ustach. Zdjęcie z prawej strony jest mniejsze.](https://assets2.ello.co/uploads/asset/attachment/6474055/ello-optimized-11c8424b.jpg)\n![Zdjęcie przedstawia portret kobiety w geometrycznymi elementami. Kobieta ma usta pomalowane na czarno, szare włosy i białą bluzkę. Całość w czarnej ramce.](https://assets1.ello.co/uploads/asset/attachment/6474060/ello-optimized-c85f9324.jpg)\n\nZa pomocą nowoczesnej aparatury rentgenowskiej i mikroskopów ujawniono tajemnicę obrazu ‘Czarny kwadrat na białym tle’. Pod tym, co na pierwszy rzut oka widać na płótnie kryją się dwie barwne kompozycje. Warstwa umieszczona najniżej to obraz w kubistycznym klimacie. Na nim natomiast (warstwa pośrodku) znajduje się kompozycje protosuprematyczna. Szczerze wątpię w celowość tego zabiegu. Malewicz zapewne, jak każdy artysta, poszukiwał właściwych środków wyrazu zamalowując nieudane kompozycje. Z doświadczenia wiem, że ten zabieg często stosuję się z czystej oszczędności. Myślę jednak, że stanowi to wartość dodaną dzieła. Teoria suprematyzmu w  odniesieniu do warstwowego charakteru nabiera dla mnie dodatkowej mocy przekazu.\n\n> Za przyczyną suprematyzmu sztuka doszła do teraz do samej siebie – do swej czystej, nieutylitarnej formy – i poznała\n> oczywistość bezprzedmiotowego doznania, to w konsekwencji próbuje ustanowić nowy, prawdziwy porządek świata oraz nowy światopogląd.\n>\n> ~ (Kazimierz Malewicz, Świat bezprzedmiotowy, Słowo/Obraz/Terytoria, Gdańsk 2006, s. 98)\n\n\n![Obraz przedstawia czarne kwadraty na białym tle ustawione obok siebie w linii.](https://assets1.ello.co/uploads/asset/attachment/6474062/ello-optimized-5aca4f04.jpg)\n\n1. Kazimierz Malewicz, Suprematystyczne zwierciadło [w:] Andrzej Turowski, Między sztuką a komuną: teksty awangardy rosyjskiej 1910-1932, Universitas, Kraków 1998, s. 178\n\n\nKorzystałam z tekstów:\n\n* Paweł Możdżyński „Inicjacje i transgresje. Antystrukturalność sztuki XX i XXI wieku w oczach socjologa”, Wydawnictwa Uniwersytetu Warszawskiego, Warszawa 2011 (rozdział pt.: „Abstrakcja”).\n* Przemysław Chodań „Suprematyzm Kazimierza Malewicza jako przykład awangardowej utopii” (http://teksty.bunkier.art.pl/?id=46)\n* (rynekisztuka.pl/2015/11/18/dwie-kompozycje-ukryte-pod-czarnym-kwadratem-malewicza/)\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 82 */
+/* 85 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4883,7 +4955,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -4921,10 +4993,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Action_Painting [moodboard]", "date": "2017-11-09T18:05:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["action", "painting", "moodboard", "pollock", "art", "artysta", "sztuka"] };
 var body = exports.body = "<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6479007/ello-optimized-273a25d5.jpg\" alt=\"Obraz przedstawia fotografie na szarym tle, widzimy modelki na wybiegu, talerze z daniami, obrazy słynnych artystów.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6479014/ello-optimized-a08915bf.jpg\" alt=\"Obraz przedstawia fotografie na szarym tle z elementami przypominającymi chlapnięcia farby. Widzimy portret kobiety w farbie, sukienkę, zegarek, paznokcie, tatuaż.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6479020/ello-optimized-5a140bef.jpg\" alt=\"Obraz przedstawia fotografie na szarym tle z elementami przypominającymi chlapnięcia farby. Widzimy obuwie, talerz, tabliczkę czekolady.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6479025/ello-optimized-a6f32712.jpg\" alt=\"Obraz przedstawia fotografie na szarym tle z elementami przypominającymi chlapnięcia farby. Widzimy obraz, modelkę na wybiegu, artystę przy pracy i czarne napisy na dole.\" /></p>\n<blockquote>\n<p>Moje malarstwo to\nmoja egzystencja.</p>\n<p>~ Jackson Pollock</p>\n</blockquote>\n";
 var raw = exports.raw = "\n![Obraz przedstawia fotografie na szarym tle, widzimy modelki na wybiegu, talerze z daniami, obrazy słynnych artystów.](https://assets2.ello.co/uploads/asset/attachment/6479007/ello-optimized-273a25d5.jpg)\n![Obraz przedstawia fotografie na szarym tle z elementami przypominającymi chlapnięcia farby. Widzimy portret kobiety w farbie, sukienkę, zegarek, paznokcie, tatuaż.](https://assets1.ello.co/uploads/asset/attachment/6479014/ello-optimized-a08915bf.jpg)\n![Obraz przedstawia fotografie na szarym tle z elementami przypominającymi chlapnięcia farby. Widzimy obuwie, talerz, tabliczkę czekolady.](https://assets1.ello.co/uploads/asset/attachment/6479020/ello-optimized-5a140bef.jpg)\n![Obraz przedstawia fotografie na szarym tle z elementami przypominającymi chlapnięcia farby. Widzimy obraz, modelkę na wybiegu, artystę przy pracy i czarne napisy na dole.](https://assets2.ello.co/uploads/asset/attachment/6479025/ello-optimized-a6f32712.jpg)\n\n> Moje malarstwo to \n> moja egzystencja.\n>\n> ~ Jackson Pollock";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 83 */
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4947,7 +5019,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -5052,10 +5124,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Wystawa: Pablo_Picasso – wizerunek wielokrotny", "date": "2017-11-13T18:32:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["wystawa", "exhibition", "picasso", "lublin", "recenzja", "artysta", "art", "sztuka", "kreacja", "grafika"] };
 var body = exports.body = "<p>Z tą ekspozycją wiązałam dość duże nadzieje. Pablo Picasso na Zamku w Lublinie! Ostatnia wystawa Picassa w tym mieście miała miejsce w 1969 roku i na pewno nie była tak obszerna jak tegoroczna. Bowiem w 2017 roku mamy w ramach niej okazję zobaczyć ponad 300 dzieł. Większość z nich przeżywa swój pierwszy raz ‘oko w oko’ z lubelską publicznością. Okazy pochodzące z prywatnych kolekcji, jak i z pierwszego na świecie, powstałego jeszcze za życia mistrza, muzeum jemu poświęconemu - Musee Picasso Antibes. ‘Ekspozycja ukaże różnorodność tematów i technik stosowanych przez Picassa’ czytamy na stronie Muzeum Lubelskiego. Czy aby na pewno? Jakie są moje wrażenia po obejrzeniu wystawy przeczytacie w dzisiejszym poście.</p>\n<h2>Przestrzeń i światło</h2>\n<p>Wchodzimy na wystawę razem z mamą. W wejściu wita nas sympatyczna Pani wyjaśniająca gdzie mamy się kierować i co znajdziemy na poszczególnych piętrach. Wspomina także, że zaraz za rogiem czeka na nas możliwość odwzorowania poszczególnych prac Picassa na kalce przy użyciu kolorowych kredek. Idziemy zatem. Na początku światło jest nieco przygaszone, co stwarza tajemniczy klimat. Mijamy ceramiczne talerze ozdobione ręką artysty, niesamowite kolory przykuwają wzrok. Picasso pozostał bardzo płodnym artystą przez całe swoje życie i działał na wielu polach sztuki – od ceramiki przez rzeźbę, grafikę, rysunek, malarstwo. Znajdujemy kącik, w którym na podświetlonym stole znajdują się wydruki prac, obok leżą kredki i kalki. Przez chwilę zamieniamy się w dzieci i odrysowujemy z precyzją i zaangażowaniem. Rysunków jednak nie zabieramy ze sobą, zostawiamy na półce i idziemy dalej.\nW kolejnej sali wita nas pokaźny zbiór grafik. Głównie są to litografie monochromatyczne i barwne, akwaforty oraz akwatinty. Pomimo tego, że prace są świetne, niewiele udaje nam się zobaczyć, a wszystko za sprawą światła... Całość ekspozycji jest bardzo słabo oświetlona, co zauważają także odwiedzający obok nas i również narzekają na zastaną sytuację. Moja mama z wielką dokładnością ogląda ‘Suitę Vollarda’, w której to królują wątki antyczne. Jesteśmy zmuszone bardzo mocno wytężać wzrok, ale pomimo tego fascynuje nas wielokrotnie poruszany przez Picassa temat rodziny cyrkowców i świata torreadorów. Prace o wspomnianej tematyce umiejscowione zostały pośrodku korytarza na specjalnie skonstruowanych stelażach przypominających kubistyczne rzeźby. Są one również większych formatów (ok. A3, B3) niż te zawieszone na ścianach (ok. A5). Fascynacja jednak przemija, kiedy spotykamy się z kolejnym utrudnieniem dotyczącym kontemplacji dzieł. Wszystkie prace prezentowane są za szybą, a co za tym idzie, jeśli odpowiednio wysoko zostaną one zawieszone, osoby o niższym wzroście zamiast zobaczyć pracę dostrzegą jedynie refleksy światła odbijające się w szkle. Niestety, bardzo zawiodłam się na organizacji przestrzennej tej ekspozycji. Wystawa bowiem powinna nie tylko być zbiorem prac, ale przede wszystkim przestrzenią umożliwiającą odwiedzającym najlepsze doświadczenie owych dzieł. W tym wypadku ta kwesta została zupełnie zaniedbana, albo w ogóle nie dostrzeżona. Szkoda.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6511870/ello-optimized-8332e89c.jpg\" alt=\"Na zdjęciu widzimy trzymaną przez kogoś kartkę papieru z rysunkiem, w tle mocne światło.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6511877/ello-optimized-e74c582c.jpg\" alt=\"Zdjęcie jest mocno zaciemnione, widzimy dłoń trzymającą kubek z kredkami, w tle mocne światło.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6511882/ello-optimized-7650857d.jpg\" alt=\"Zdjęcie przedstawia kobietę z krótkimi włosami oglądającą obraz Pabla Picassa.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6511890/ello-optimized-457d8010.jpg\" alt=\"Zdjęcie przedstawia jedną z grafik znanego artysty Pabla Picassa. Grafika przedstawia portret kobiety.\" /></p>\n<h2>Piętro II</h2>\n<p>Na drugim piętrze ciąg dalszy. Światło zdaje się być trochę mocniejsze. Ciemne ściany z niewielkich rozmiarów pracami, które są reinterpretacją słynnego dzieła hiszpańskiego malarza Diego Velázquez’a ‘Las Meninas’, czyli ‘Panny dworskie’. Jest to seria 58 prac, które Pablo Picasso namalował w 1957 r. Znajdują się obecnie w <a href=\"http://www.museupicasso.bcn.cat/\">Museo Picasso</a> Barcelonie i jest to jedyna kompletna seria obrazów, która zachowała się w całości. Chwila, chwila. Skoro, prace są w Barcelonie, to z czym mamy do czynienia na wystawie, na której się znajdujemy? Otóż z wydrukami… Tak, wydruki niewielkich rozmiarów zostały umieszczone w ramkach i powieszone na ścianie. Niekiedy ukazują one fragmenty, zbliżenia, detale poszczególnych prac z cyklu. Drugie piętro przeszłyśmy zdecydowanie szybciej od pierwszego.</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6511885/ello-optimized-795df6ec.jpg\" alt=\"Zdjęcie przedstawia rysunek kobiety podpierającej głowę ręką.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6511896/ello-optimized-fea2288d.jpg\" alt=\"Zdjęcie przedstawia dwie prace wykonane w technice graficznej, powieszone na czarnej ścianie.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6511900/ello-optimized-0e903f20.jpg\" alt=\"Zdjęcie przedstawia serię siedmiu prac wykonanych w technice graficznej, zawieszonych na białej ścianie.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6511904/ello-optimized-9f75a68a.jpg\" alt=\"Zdjęcie przedstawia trzy rysunki oprawione w ramki, na których widzimy ludzi grających na instrumentach, człowieka z bykiem i byka.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6511905/ello-optimized-4503451a.jpg\" alt=\"Zdjęcie przedstawia pracę znanego artysty Pabla Picassa zawieszoną na czarnej ścianie.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6511910/ello-optimized-380747e1.jpg\" alt=\"Zdjęcie przedstawia trzy rysunki znanego artysty Pabla Picassa. Rysunki mają charakter abstrakcyjny.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6511913/ello-optimized-1ccf30c0.jpg\" alt=\"Zdjęcie przedstawia otwartą księgę z tekstem i rysunkiem w środku.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6511915/ello-optimized-36de745d.jpg\" alt=\"Zdjęcie przedstawia dwa rysunki znanego artysty Pabla Picassa. Rysunki są oprawione w ramki i mają charakter abstrakcyjny.\" /></p>\n<h2>Pikasy</h2>\n<p>Zdecydowanie jedna z ciekawszych części ekspozycji. W gablotach znajdziemy tu porcelanowe figurki z Ćmielowa, figurki projektowane przez <a href=\"http://www.iwp.com.pl/figurki_sprzedaz_galeria\">IWP</a> przedstawiające głównie zwierzęta i ludzi o uproszczonych kształtach, jednak niesamowicie oddające charakter postaci (szczególnie wpadł mi w oko indyk). Wzory inspirowane twórczością Picassa, oraz inne cuda lat 60tych. Moja mama jest miłośniczką polskiego designu i jego kolekcjonerką, dlatego od razu poznała komplety z zakładów w Chodzieży, Wałbrzycha, czy pruszkowski porcelit. Całkiem nieźle bawiłam się wymyślając miejsca na owe okazy w moim domu. Cieszyło mnie to, że mimo tego, że Picasso odwiedził Polskę tylko raz, potrafiliśmy złożyć mu hołd w tak wspaniale twórczy sposób.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6511919/ello-optimized-6572a6dd.jpg\" alt=\"Zdjęcie przedstawia plakat powieszony na czarnej ścianie. Plakat przedstawia gołębia, widzimy kolor niebieski i żółty akcent.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6511923/ello-optimized-4342ffc2.jpg\" alt=\"Zdjęcie przedstawia serię pięciu prac znanego artysty Pabla Picassa zawieszonych na czarnej ścianie. Prace przedstawiają proste formy.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6511888/ello-optimized-4503c7e3.jpg\" alt=\"Zdjęcie przedstawia pracę znanego artysty Pabla Picassa. Praca wykonana jest w graficznej technice, widzimy postaci i ekspresyjny czerwony kolor.\" /></p>\n<h2>Wnioski końcowe</h2>\n<p>Niestety wyszłam z tej wystawy zawiedziona. Być może szum, który powstał na długo przed jej otwarciem zwiastował w moim rozumieniu coś o wiele lepszego. No cóż. Nie spotkałam rozmaitości dzieł Picassa (spodziewałam się chociaż jednego obrazu), a wydruki prac w ramkach dopełniły czarę rozczarowania. Owszem, zawsze warto zobaczyć na żywo prace tak wybitnego artysty (dodam tylko, że większość prezentowanych tam odbitek to odbitki nieautorskie), jednak to nie one przyczyniły się do mojej opinii. W tym wypadku chodzi głównie o przestrzeń wystawienniczą, światło, sposób rozmieszczenia prac. Zdecydowanie nie jest to wystawa, na którą chciałabym wrócić. Podsumowując:</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6511925/ello-optimized-469d64bb.jpg\" alt=\"Zdjęcie przedstawia rysunek, widzimy czarną zaokrągloną kreskę i kropkę na białym tle.\" /></p>\n";
 var raw = exports.raw = "\nZ tą ekspozycją wiązałam dość duże nadzieje. Pablo Picasso na Zamku w Lublinie! Ostatnia wystawa Picassa w tym mieście miała miejsce w 1969 roku i na pewno nie była tak obszerna jak tegoroczna. Bowiem w 2017 roku mamy w ramach niej okazję zobaczyć ponad 300 dzieł. Większość z nich przeżywa swój pierwszy raz ‘oko w oko’ z lubelską publicznością. Okazy pochodzące z prywatnych kolekcji, jak i z pierwszego na świecie, powstałego jeszcze za życia mistrza, muzeum jemu poświęconemu - Musee Picasso Antibes. ‘Ekspozycja ukaże różnorodność tematów i technik stosowanych przez Picassa’ czytamy na stronie Muzeum Lubelskiego. Czy aby na pewno? Jakie są moje wrażenia po obejrzeniu wystawy przeczytacie w dzisiejszym poście.\n\n## Przestrzeń i światło\nWchodzimy na wystawę razem z mamą. W wejściu wita nas sympatyczna Pani wyjaśniająca gdzie mamy się kierować i co znajdziemy na poszczególnych piętrach. Wspomina także, że zaraz za rogiem czeka na nas możliwość odwzorowania poszczególnych prac Picassa na kalce przy użyciu kolorowych kredek. Idziemy zatem. Na początku światło jest nieco przygaszone, co stwarza tajemniczy klimat. Mijamy ceramiczne talerze ozdobione ręką artysty, niesamowite kolory przykuwają wzrok. Picasso pozostał bardzo płodnym artystą przez całe swoje życie i działał na wielu polach sztuki – od ceramiki przez rzeźbę, grafikę, rysunek, malarstwo. Znajdujemy kącik, w którym na podświetlonym stole znajdują się wydruki prac, obok leżą kredki i kalki. Przez chwilę zamieniamy się w dzieci i odrysowujemy z precyzją i zaangażowaniem. Rysunków jednak nie zabieramy ze sobą, zostawiamy na półce i idziemy dalej.\nW kolejnej sali wita nas pokaźny zbiór grafik. Głównie są to litografie monochromatyczne i barwne, akwaforty oraz akwatinty. Pomimo tego, że prace są świetne, niewiele udaje nam się zobaczyć, a wszystko za sprawą światła… Całość ekspozycji jest bardzo słabo oświetlona, co zauważają także odwiedzający obok nas i również narzekają na zastaną sytuację. Moja mama z wielką dokładnością ogląda ‘Suitę Vollarda’, w której to królują wątki antyczne. Jesteśmy zmuszone bardzo mocno wytężać wzrok, ale pomimo tego fascynuje nas wielokrotnie poruszany przez Picassa temat rodziny cyrkowców i świata torreadorów. Prace o wspomnianej tematyce umiejscowione zostały pośrodku korytarza na specjalnie skonstruowanych stelażach przypominających kubistyczne rzeźby. Są one również większych formatów (ok. A3, B3) niż te zawieszone na ścianach (ok. A5). Fascynacja jednak przemija, kiedy spotykamy się z kolejnym utrudnieniem dotyczącym kontemplacji dzieł. Wszystkie prace prezentowane są za szybą, a co za tym idzie, jeśli odpowiednio wysoko zostaną one zawieszone, osoby o niższym wzroście zamiast zobaczyć pracę dostrzegą jedynie refleksy światła odbijające się w szkle. Niestety, bardzo zawiodłam się na organizacji przestrzennej tej ekspozycji. Wystawa bowiem powinna nie tylko być zbiorem prac, ale przede wszystkim przestrzenią umożliwiającą odwiedzającym najlepsze doświadczenie owych dzieł. W tym wypadku ta kwesta została zupełnie zaniedbana, albo w ogóle nie dostrzeżona. Szkoda.\n\n![Na zdjęciu widzimy trzymaną przez kogoś kartkę papieru z rysunkiem, w tle mocne światło.](https://assets1.ello.co/uploads/asset/attachment/6511870/ello-optimized-8332e89c.jpg)\n![Zdjęcie jest mocno zaciemnione, widzimy dłoń trzymającą kubek z kredkami, w tle mocne światło.](https://assets1.ello.co/uploads/asset/attachment/6511877/ello-optimized-e74c582c.jpg)\n![Zdjęcie przedstawia kobietę z krótkimi włosami oglądającą obraz Pabla Picassa.](https://assets0.ello.co/uploads/asset/attachment/6511882/ello-optimized-7650857d.jpg)\n![Zdjęcie przedstawia jedną z grafik znanego artysty Pabla Picassa. Grafika przedstawia portret kobiety.](https://assets2.ello.co/uploads/asset/attachment/6511890/ello-optimized-457d8010.jpg)\n\n## Piętro II\nNa drugim piętrze ciąg dalszy. Światło zdaje się być trochę mocniejsze. Ciemne ściany z niewielkich rozmiarów pracami, które są reinterpretacją słynnego dzieła hiszpańskiego malarza Diego Velázquez’a ‘Las Meninas’, czyli ‘Panny dworskie’. Jest to seria 58 prac, które Pablo Picasso namalował w 1957 r. Znajdują się obecnie w [Museo Picasso](http://www.museupicasso.bcn.cat/) Barcelonie i jest to jedyna kompletna seria obrazów, która zachowała się w całości. Chwila, chwila. Skoro, prace są w Barcelonie, to z czym mamy do czynienia na wystawie, na której się znajdujemy? Otóż z wydrukami… Tak, wydruki niewielkich rozmiarów zostały umieszczone w ramkach i powieszone na ścianie. Niekiedy ukazują one fragmenty, zbliżenia, detale poszczególnych prac z cyklu. Drugie piętro przeszłyśmy zdecydowanie szybciej od pierwszego.\n\n![Zdjęcie przedstawia rysunek kobiety podpierającej głowę ręką.](https://assets2.ello.co/uploads/asset/attachment/6511885/ello-optimized-795df6ec.jpg)\n![Zdjęcie przedstawia dwie prace wykonane w technice graficznej, powieszone na czarnej ścianie.](https://assets1.ello.co/uploads/asset/attachment/6511896/ello-optimized-fea2288d.jpg)\n![Zdjęcie przedstawia serię siedmiu prac wykonanych w technice graficznej, zawieszonych na białej ścianie.](https://assets1.ello.co/uploads/asset/attachment/6511900/ello-optimized-0e903f20.jpg)\n![Zdjęcie przedstawia trzy rysunki oprawione w ramki, na których widzimy ludzi grających na instrumentach, człowieka z bykiem i byka.](https://assets1.ello.co/uploads/asset/attachment/6511904/ello-optimized-9f75a68a.jpg)\n![Zdjęcie przedstawia pracę znanego artysty Pabla Picassa zawieszoną na czarnej ścianie.](https://assets1.ello.co/uploads/asset/attachment/6511905/ello-optimized-4503451a.jpg)\n![Zdjęcie przedstawia trzy rysunki znanego artysty Pabla Picassa. Rysunki mają charakter abstrakcyjny.](https://assets1.ello.co/uploads/asset/attachment/6511910/ello-optimized-380747e1.jpg)\n![Zdjęcie przedstawia otwartą księgę z tekstem i rysunkiem w środku.](https://assets0.ello.co/uploads/asset/attachment/6511913/ello-optimized-1ccf30c0.jpg)\n![Zdjęcie przedstawia dwa rysunki znanego artysty Pabla Picassa. Rysunki są oprawione w ramki i mają charakter abstrakcyjny.](https://assets2.ello.co/uploads/asset/attachment/6511915/ello-optimized-36de745d.jpg)\n\n## Pikasy\nZdecydowanie jedna z ciekawszych części ekspozycji. W gablotach znajdziemy tu porcelanowe figurki z Ćmielowa, figurki projektowane przez [IWP](http://www.iwp.com.pl/figurki_sprzedaz_galeria) przedstawiające głównie zwierzęta i ludzi o uproszczonych kształtach, jednak niesamowicie oddające charakter postaci (szczególnie wpadł mi w oko indyk). Wzory inspirowane twórczością Picassa, oraz inne cuda lat 60tych. Moja mama jest miłośniczką polskiego designu i jego kolekcjonerką, dlatego od razu poznała komplety z zakładów w Chodzieży, Wałbrzycha, czy pruszkowski porcelit. Całkiem nieźle bawiłam się wymyślając miejsca na owe okazy w moim domu. Cieszyło mnie to, że mimo tego, że Picasso odwiedził Polskę tylko raz, potrafiliśmy złożyć mu hołd w tak wspaniale twórczy sposób.\n\n![Zdjęcie przedstawia plakat powieszony na czarnej ścianie. Plakat przedstawia gołębia, widzimy kolor niebieski i żółty akcent.](https://assets0.ello.co/uploads/asset/attachment/6511919/ello-optimized-6572a6dd.jpg)\n![Zdjęcie przedstawia serię pięciu prac znanego artysty Pabla Picassa zawieszonych na czarnej ścianie. Prace przedstawiają proste formy.](https://assets2.ello.co/uploads/asset/attachment/6511923/ello-optimized-4342ffc2.jpg)\n![Zdjęcie przedstawia pracę znanego artysty Pabla Picassa. Praca wykonana jest w graficznej technice, widzimy postaci i ekspresyjny czerwony kolor.](https://assets0.ello.co/uploads/asset/attachment/6511888/ello-optimized-4503c7e3.jpg)\n\n## Wnioski końcowe\nNiestety wyszłam z tej wystawy zawiedziona. Być może szum, który powstał na długo przed jej otwarciem zwiastował w moim rozumieniu coś o wiele lepszego. No cóż. Nie spotkałam rozmaitości dzieł Picassa (spodziewałam się chociaż jednego obrazu), a wydruki prac w ramkach dopełniły czarę rozczarowania. Owszem, zawsze warto zobaczyć na żywo prace tak wybitnego artysty (dodam tylko, że większość prezentowanych tam odbitek to odbitki nieautorskie), jednak to nie one przyczyniły się do mojej opinii. W tym wypadku chodzi głównie o przestrzeń wystawienniczą, światło, sposób rozmieszczenia prac. Zdecydowanie nie jest to wystawa, na którą chciałabym wrócić. Podsumowując:\n\n![Zdjęcie przedstawia rysunek, widzimy czarną zaokrągloną kreskę i kropkę na białym tle.](https://assets2.ello.co/uploads/asset/attachment/6511925/ello-optimized-469d64bb.jpg)";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 84 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5078,7 +5150,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -5102,10 +5174,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Impresjonizm [moodboard]", "date": "2017-11-16T16:36:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["impresjonizm", "impressionism", "moodboard", "monet", "artist", "artysta", "sztuka"], "description": "Impressionism moodboard by Olela Krawczyk" };
 var body = exports.body = "<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6535912/ello-optimized-1ea87931.jpg\" alt=\"Obraz przedstawia fotografie na niebieskim tle. Widzimy torebkę, obrazy znanego artysty, modelki w sukniach.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6535917/ello-optimized-9b34446d.jpg\" alt=\"Obraz przedstawia fotografie na niebieskim tle. Widzimy oko z mocnym makijażem, dwa talerze z potrawami sfotografowane z lotu ptaka, obrazy znanego artysty, trzy modelki.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6535922/ello-optimized-70b26f57.jpg\" alt=\"Obraz przedstawia fotografie na niebieskim tle. Widzimy rzeźbę baletnicy, kobietę pozującą na wzór rzeźby, obrazy znanego artysty, talerz z potrawą, fotografie przedstawiającą siedzącą kobietę z torebką.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6535926/ello-optimized-96d43544.jpg\" alt=\"Obraz przedstawia trzy fotografie obrazów znanych artystów oraz napisy, wszystko na niebieskim tle.\" /></p>\n";
 var raw = exports.raw = "\n![Obraz przedstawia fotografie na niebieskim tle. Widzimy torebkę, obrazy znanego artysty, modelki w sukniach.](https://assets2.ello.co/uploads/asset/attachment/6535912/ello-optimized-1ea87931.jpg)\n![Obraz przedstawia fotografie na niebieskim tle. Widzimy oko z mocnym makijażem, dwa talerze z potrawami sfotografowane z lotu ptaka, obrazy znanego artysty, trzy modelki.](https://assets0.ello.co/uploads/asset/attachment/6535917/ello-optimized-9b34446d.jpg)\n![Obraz przedstawia fotografie na niebieskim tle. Widzimy rzeźbę baletnicy, kobietę pozującą na wzór rzeźby, obrazy znanego artysty, talerz z potrawą, fotografie przedstawiającą siedzącą kobietę z torebką.](https://assets0.ello.co/uploads/asset/attachment/6535922/ello-optimized-70b26f57.jpg)\n![Obraz przedstawia trzy fotografie obrazów znanych artystów oraz napisy, wszystko na niebieskim tle.](https://assets1.ello.co/uploads/asset/attachment/6535926/ello-optimized-96d43544.jpg)\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 85 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5128,7 +5200,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -5291,10 +5363,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "DIY 1. Edycja zimowa", "date": "2017-11-22T11:10:00.000Z", "categories": ["Sztuka Ubioru"], "tags": ["diy", "fashion", "moda", "sztuka", "stylizacja", "kreacja", "trendy", "zima", "2017"] };
 var body = exports.body = "<olela-narrative>\nCzy wiecie, jak niewiele trzeba aby odmienić stare ubranie? Pisząc ‘niewiele’ mam na myśli niewiele wysiłku, niewiele czasu i oczywiście niewiele pieniędzy. Jedyne czego potrzeba to inspiracji, a te akurat znajdziemy bez problemu oglądając zdjęcia w internecie, czy przechadzając się po sklepach. Wiadomo też, jak to jest z ciuchami – stare się nudzą, ale jeśli poświęcimy im odrobinę uwagi i włączymy swoją kreatywność, odmienimy je i pokochamy na nowo. Zatem do dzieła artystki!\n</olela-narrative>\n<p><img src=\"https://ello-direct-uploads.s3.amazonaws.com/uploads/f1be1d0e-8b70-454f-be77-72c5831c97e0/ello-8ee042b5-0e7f-4c70-b90a-5c2de358430e.jpeg\" alt=\"Zdjęcie przedstawia młodą kobietę na niebieskim tle. Kobieta ubrana jest w koszulę z paskiem, ma czerwone usta i szare włosy, a przez środek zdjęcia przechodzi czarna linia.\" /></p>\n<h2>Winter Trends 2017</h2>\n<p>Sieciowe sklepy serwują nam tzw. „szybką modę”. To znaczy, że odpowiadają na główne tendencje pojawiające się na wybiegach i wprowadzają modele, które przypominają nam kreacje znanych projektantów, a my możemy nabyć je za niską ceną. Tej zimy w sklepach typu Stradivarius, Zara, Mango znalazłam sporo podobieństw. Oto główne trendy i jednocześnie Must Have’y zimy 2017 r.:</p>\n<ol>\n<li>Perły. Wszechobecne, zawłaszczające prawie każdy skrawek materiału. Są na jeansach, bluzach, swetrach, bluzkach, sukienkach, w różnych rozmiarach i kolorach. Dodają ubraniu romantyczny, imprezowy charakter (w końcu sylwester tuż, tuż!).</li>\n<li>Futro. Futrzane kamizelki, kurtki, obszycia kapturów, ale również obszycia bluz przy rękawach, kołnierzykach.</li>\n<li>Beret. Taki w stylu francuskim. Skórzany, wełniany, noszony lekko na bok lub zsunięty na tył glowy.</li>\n<li>‘Wielka czapka’. Wygląda jakby była wyjęta z większego świata, o grubym splocie, często kolorowa i z pomponem.</li>\n<li>Krata. Tak, to zdecydowanie pattern nr 1. Znajdziemy ją na płaszczach, spodniach, kamizelkach. Stylizować kratkę możemy na milion sposobów – od elegancji po sport.</li>\n<li>Butelkowa zieleń. Przepiękny kolor głębokiego szmaragdu. Wygląda super w total look’u lub jako pojedynczy akcent.</li>\n<li>Wymieniać można jeszcze wiele: Oversizowe kurtki puchowe, bardzo wysokie kozaki (sięgające wręcz połowy uda), swetry z wielkim golfem, jednak chciałam skupić się na tych trendach, które w bardzo łatwy sposób możemy wcielić w naszą garderobę niekoniecznie kupując nowe rzeczy. Zobaczcie sami, co udało mi się wyczarować.</li>\n</ol>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6573107/ello-optimized-c2a4b0f9.jpg\" alt=\"Zdjęcie przedstawia kobietę w koszuli z paskiem na niebieskim tle. Kobieta patrzy do góry, ma siwe włosy i czerwone usta, a przez środek zdjęcia przebiega czarna linia.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6573109/ello-optimized-60b8b9ad.jpg\" alt=\"Zdjęcie przedstawia kobietę w koszuli z paskiem na niebieskim tle. Kobieta przekrzywia głowę w lewą stronę, ma szare włosy i czerwone usta, a przez środek zdjęcia przebiega czarna linia.\" /></p>\n<h2>Koszula z dwóch koszul + perły</h2>\n<p>Ostatnio mój chłopak robił porządki w swojej szafie i znalazł kilka niepotrzebnych koszul. Położył je na mojej półce z myślą, że zostaną przeze mnie wykorzystane w pracowni jako ubranie robocze. Przeleżały tam trochę czasu, dopóki nie spojrzałam na nie w kreatywny sposób. Oto, co zrobić, aby zyskać nową koszulę z dwóch starych koszul:</p>\n<ol>\n<li>Przymierz i zadecyduj, która z koszul będzie Twoim ‘body’, a która rękawami. Istotny jest tutaj krój, ale też kolor i wzór.</li>\n<li>W obu koszulach utnij rękawy tuż za linią szwu.</li>\n<li>Wywróć swoje body i rękawy na lewą stronę i zszyj szew przy szwie, tak, by nitka nie była widoczna po właściwej stronie.</li>\n<li>Kup woreczek perełek w pasmanterii (koszt ok. 5 zł) i przyszyj do koszuli w różnych miejscach. Możesz przyszyć je na rękawach, przy kołnierzyku lub zastąpić nimi guziki.\nVoilà! Prawda, że proste? Mi cała robota zajęła dwa wieczory przy okazji oglądania ulubionego serialu :).</li>\n</ol>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6573330/ello-optimized-a4f6ddd7.jpg\" alt=\"Obraz przedstawia dwa zdjęcia, z lewej strony widzimy fragment materiału z koralikami, a z prawej kobietę o czerwonych ustach ubraną w koszulę z paskiem.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6573331/ello-optimized-ba4ef117.jpg\" alt=\"Obraz przedstawia dwa zdjęcia, z lewej widzimy fragment materiału, a z prawej kobietę o siwych, długich włosach odwróconą tyłem i trzymającą pasek z napisem.\" /></p>\n<h2>Perłowa czapa i beret</h2>\n<p>Czapki i berety oferowane przez sieciówki to koszt od ok. 50 zł do 150 zł. Materiał z których te nakrycia głowy są wykonane to często akryl, poliester, wiskoza, a aplikacje nie są przyszywane, tylko naklejane. Zawsze zależy mi na jakości materiałów, które noszę, dlatego nie mogłam zdecydować się na żadną zaproponowaną akrylową opcję. Jednak na tyle spodobał mi się trend beretu i pereł, że postanowiłam zostać bereciarą po swojemu. Wełniany, doskonałej jakości beret kupiłam na targu za 20 zł. (można się targować, a co!), a perełki, jak już wspominałam, to koszt ok. 5 zł za 50 sztuk. Całość wyniosła mnie zatem 25 zł. A efekt ciepły, wytrzymały i przyjemnie modny.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6573112/ello-optimized-a662d1a3.jpg\" alt=\"Obraz przedstawia dwa zdjęcia różnej wielkości. Z lewej strony widzimy kobietę z różowymi ustami, siwymi włosami i czarną czapką, która zasłania jej oczy. Z prawej strony widzimy zbliżenie na czapkę.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6573116/ello-optimized-8d89fded.jpg\" alt=\"Zdjęcie przedstawia portret kobiety w czarnej czapce. Kobieta ma szare włosy, różowe usta i uśmiecha się. Całość na niebieskim tle.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6575280/ello-optimized-097d7025.jpg\" alt=\"Obraz podzielony jest na dwie części, z lewej strony widzimy duże zdjęcie kobiety w czarnym berecie na niebieskim tle, a z prawej mniejsze zdjęcie beretu i fragmentu twarzy kobiety.\" /></p>\n<p>Na czapce widzicie jeszcze agrafkę kupioną za 6 zł w pasmanterii. Czapkę kupiłam rok temu w h&amp;m, bo była jedyną w pełni bawełnianą czapką jaką wtedy znalazłam.</p>\n<h2>Satynowe sznurówki</h2>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6573125/ello-optimized-8bb0c604.jpg\" alt=\"Obraz przedstawia zdjęcia butów. Z lewej strony widzimy jednego czarnego buta z niebieskimi sznurówkami i w niebieskiej ramce, a z prawej parę butów.\" /></p>\n<p>Wstążkowe sznurówki akurat nie łapią się w tegoroczne trendy, ale to najprostszy możliwy sposób na odmianę butów. Wystarczy kupić odpowiedniej długości wstążki w pasmanterii. Do wyboru macie setki (dosłownie!) propozycji kolorystycznych i materiałowych. Mogą być niebieskie satynowe, czerwone aksamitne, taśmy plecione, rypsowe, gładkie, we wzory itd. itd. Wybierz odpowiednią dla swojej osobowości, modelu butów i innych ubrań, do których zakładać będziesz ‘odpimpowane’ buty. Czasami lubię też nosić w jednym bucie inny kolor niż w drugim. Oryginalnie, artystycznie i z humorem – na pewno zwrócisz na siebie uwagę!</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6573120/ello-optimized-fdcfd45b.jpg\" alt=\"Zdjęcie przedstawia czarne skórzane buty z niebieskimi sznurówkami na jasnym tle.\" /></p>\n";
 var raw = exports.raw = "\n<olela-narrative>\nCzy wiecie, jak niewiele trzeba aby odmienić stare ubranie? Pisząc ‘niewiele’ mam na myśli niewiele wysiłku, niewiele czasu i oczywiście niewiele pieniędzy. Jedyne czego potrzeba to inspiracji, a te akurat znajdziemy bez problemu oglądając zdjęcia w internecie, czy przechadzając się po sklepach. Wiadomo też, jak to jest z ciuchami – stare się nudzą, ale jeśli poświęcimy im odrobinę uwagi i włączymy swoją kreatywność, odmienimy je i pokochamy na nowo. Zatem do dzieła artystki!\n</olela-narrative>\n\n![Zdjęcie przedstawia młodą kobietę na niebieskim tle. Kobieta ubrana jest w koszulę z paskiem, ma czerwone usta i szare włosy, a przez środek zdjęcia przechodzi czarna linia.](https://ello-direct-uploads.s3.amazonaws.com/uploads/f1be1d0e-8b70-454f-be77-72c5831c97e0/ello-8ee042b5-0e7f-4c70-b90a-5c2de358430e.jpeg)\n\n## Winter Trends 2017\n\nSieciowe sklepy serwują nam tzw. „szybką modę”. To znaczy, że odpowiadają na główne tendencje pojawiające się na wybiegach i wprowadzają modele, które przypominają nam kreacje znanych projektantów, a my możemy nabyć je za niską ceną. Tej zimy w sklepach typu Stradivarius, Zara, Mango znalazłam sporo podobieństw. Oto główne trendy i jednocześnie Must Have’y zimy 2017 r.:\n\n1. Perły. Wszechobecne, zawłaszczające prawie każdy skrawek materiału. Są na jeansach, bluzach, swetrach, bluzkach, sukienkach, w różnych rozmiarach i kolorach. Dodają ubraniu romantyczny, imprezowy charakter (w końcu sylwester tuż, tuż!).\n2. Futro. Futrzane kamizelki, kurtki, obszycia kapturów, ale również obszycia bluz przy rękawach, kołnierzykach.\n3. Beret. Taki w stylu francuskim. Skórzany, wełniany, noszony lekko na bok lub zsunięty na tył glowy.\n4. ‘Wielka czapka’. Wygląda jakby była wyjęta z większego świata, o grubym splocie, często kolorowa i z pomponem.\n5. Krata. Tak, to zdecydowanie pattern nr 1. Znajdziemy ją na płaszczach, spodniach, kamizelkach. Stylizować kratkę możemy na milion sposobów – od elegancji po sport.\n6. Butelkowa zieleń. Przepiękny kolor głębokiego szmaragdu. Wygląda super w total look’u lub jako pojedynczy akcent. \n7. Wymieniać można jeszcze wiele: Oversizowe kurtki puchowe, bardzo wysokie kozaki (sięgające wręcz połowy uda), swetry z wielkim golfem, jednak chciałam skupić się na tych trendach, które w bardzo łatwy sposób możemy wcielić w naszą garderobę niekoniecznie kupując nowe rzeczy. Zobaczcie sami, co udało mi się wyczarować.\n\n![Zdjęcie przedstawia kobietę w koszuli z paskiem na niebieskim tle. Kobieta patrzy do góry, ma siwe włosy i czerwone usta, a przez środek zdjęcia przebiega czarna linia.](https://assets0.ello.co/uploads/asset/attachment/6573107/ello-optimized-c2a4b0f9.jpg)\n![Zdjęcie przedstawia kobietę w koszuli z paskiem na niebieskim tle. Kobieta przekrzywia głowę w lewą stronę, ma szare włosy i czerwone usta, a przez środek zdjęcia przebiega czarna linia.](https://assets0.ello.co/uploads/asset/attachment/6573109/ello-optimized-60b8b9ad.jpg)\n\n## Koszula z dwóch koszul + perły \n\nOstatnio mój chłopak robił porządki w swojej szafie i znalazł kilka niepotrzebnych koszul. Położył je na mojej półce z myślą, że zostaną przeze mnie wykorzystane w pracowni jako ubranie robocze. Przeleżały tam trochę czasu, dopóki nie spojrzałam na nie w kreatywny sposób. Oto, co zrobić, aby zyskać nową koszulę z dwóch starych koszul:\n1. Przymierz i zadecyduj, która z koszul będzie Twoim ‘body’, a która rękawami. Istotny jest tutaj krój, ale też kolor i wzór.\n2. W obu koszulach utnij rękawy tuż za linią szwu.\n3. Wywróć swoje body i rękawy na lewą stronę i zszyj szew przy szwie, tak, by nitka nie była widoczna po właściwej stronie.\n4. Kup woreczek perełek w pasmanterii (koszt ok. 5 zł) i przyszyj do koszuli w różnych miejscach. Możesz przyszyć je na rękawach, przy kołnierzyku lub zastąpić nimi guziki.\nVoilà! Prawda, że proste? Mi cała robota zajęła dwa wieczory przy okazji oglądania ulubionego serialu :).\n\n![Obraz przedstawia dwa zdjęcia, z lewej strony widzimy fragment materiału z koralikami, a z prawej kobietę o czerwonych ustach ubraną w koszulę z paskiem.](https://assets0.ello.co/uploads/asset/attachment/6573330/ello-optimized-a4f6ddd7.jpg)\n![Obraz przedstawia dwa zdjęcia, z lewej widzimy fragment materiału, a z prawej kobietę o siwych, długich włosach odwróconą tyłem i trzymającą pasek z napisem.](https://assets1.ello.co/uploads/asset/attachment/6573331/ello-optimized-ba4ef117.jpg)\n\n## Perłowa czapa i beret\n\nCzapki i berety oferowane przez sieciówki to koszt od ok. 50 zł do 150 zł. Materiał z których te nakrycia głowy są wykonane to często akryl, poliester, wiskoza, a aplikacje nie są przyszywane, tylko naklejane. Zawsze zależy mi na jakości materiałów, które noszę, dlatego nie mogłam zdecydować się na żadną zaproponowaną akrylową opcję. Jednak na tyle spodobał mi się trend beretu i pereł, że postanowiłam zostać bereciarą po swojemu. Wełniany, doskonałej jakości beret kupiłam na targu za 20 zł. (można się targować, a co!), a perełki, jak już wspominałam, to koszt ok. 5 zł za 50 sztuk. Całość wyniosła mnie zatem 25 zł. A efekt ciepły, wytrzymały i przyjemnie modny.\n\n![Obraz przedstawia dwa zdjęcia różnej wielkości. Z lewej strony widzimy kobietę z różowymi ustami, siwymi włosami i czarną czapką, która zasłania jej oczy. Z prawej strony widzimy zbliżenie na czapkę.](https://assets0.ello.co/uploads/asset/attachment/6573112/ello-optimized-a662d1a3.jpg)\n![Zdjęcie przedstawia portret kobiety w czarnej czapce. Kobieta ma szare włosy, różowe usta i uśmiecha się. Całość na niebieskim tle.](https://assets1.ello.co/uploads/asset/attachment/6573116/ello-optimized-8d89fded.jpg)\n![Obraz podzielony jest na dwie części, z lewej strony widzimy duże zdjęcie kobiety w czarnym berecie na niebieskim tle, a z prawej mniejsze zdjęcie beretu i fragmentu twarzy kobiety.](https://assets1.ello.co/uploads/asset/attachment/6575280/ello-optimized-097d7025.jpg)\n\nNa czapce widzicie jeszcze agrafkę kupioną za 6 zł w pasmanterii. Czapkę kupiłam rok temu w h&m, bo była jedyną w pełni bawełnianą czapką jaką wtedy znalazłam.\n\n## Satynowe sznurówki\n\n![Obraz przedstawia zdjęcia butów. Z lewej strony widzimy jednego czarnego buta z niebieskimi sznurówkami i w niebieskiej ramce, a z prawej parę butów.](https://assets2.ello.co/uploads/asset/attachment/6573125/ello-optimized-8bb0c604.jpg)\n\nWstążkowe sznurówki akurat nie łapią się w tegoroczne trendy, ale to najprostszy możliwy sposób na odmianę butów. Wystarczy kupić odpowiedniej długości wstążki w pasmanterii. Do wyboru macie setki (dosłownie!) propozycji kolorystycznych i materiałowych. Mogą być niebieskie satynowe, czerwone aksamitne, taśmy plecione, rypsowe, gładkie, we wzory itd. itd. Wybierz odpowiednią dla swojej osobowości, modelu butów i innych ubrań, do których zakładać będziesz 'odpimpowane' buty. Czasami lubię też nosić w jednym bucie inny kolor niż w drugim. Oryginalnie, artystycznie i z humorem – na pewno zwrócisz na siebie uwagę!\n\n![Zdjęcie przedstawia czarne skórzane buty z niebieskimi sznurówkami na jasnym tle.](https://assets1.ello.co/uploads/asset/attachment/6573120/ello-optimized-fdcfd45b.jpg)\n\n\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 86 */
+/* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5317,7 +5389,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -5429,10 +5501,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Make-up inspirowany obrazem. 'Figure, Dog, Birds' by Joan_Miró", "date": "2017-11-30T19:32:00.000Z", "categories": ["Sztuka Makijażu"], "tags": ["Miro", "surrealism", "makeup", "makijaż", "dzieło", "obraz", "kreacja", "artysta", "sztuka"] };
 var body = exports.body = "<olela-narrative>\nKiedy patrzysz na obraz budzi on w Tobie emocje. Jedne płótna niosą ze sobą smutek, namawiają do nostalgii, inne cieszą się razem z Tobą, wnosząc w życie kolor. Przy płótnach Salvadora śniłam koszmary. Miałam wrażenie, że cała rzeczywistość i czas rozpływają się niczym karmelowy chupa-chups w piekarniku nagrzanym do 180°C . Max Ernst niósł ze sobą widmo apokalipsy. Krajobrazy zbudowane z pumeksu w ciemnych barwach prowadzą do świata zaprzyszłego, gdzie ludzkie formy życia to niezwykła rzadkość. Zupełnie inaczej jest z Miró. On jest malarzem uśmiechu. W jego dziełach znajduję niewinną radość. Z każdym razem gdy zerkam na obraz spotykam się z dzieckiem o duszy stulatka. Tym razem też śnię, ale z tego snu nie chcę się wybudzić.\n</olela-narrative>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6623239/ello-optimized-f916976a.jpg\" alt=\"Zdjęcie przedstawia portret młodej kobiety w artystycznym makijażu i siwych włosach oraz abstrakcyjny czarno-niebieski kształt.\" /></p>\n<p>Joan Miró urodził się 20-tego kwietnia 1893 r. w Barcelonie. Kształcił się w kierunku biznesu, jednocześnie uczęszczając na lekcje sztuki w La Lonja’s Escuela Superior de Artes Industriales y Bellas Artes. Po trzech latach nauki objął stanowisko urzędnika, by zaraz potem przejść załamanie nerwowe, po którym na dobre porzucił biznes i wznowił studia artystyczne. W latach 1912-1915  kształcił się w Francesc Galí’s Escola d’Art w Barcelonie, w tym samym mieście miał również miejsce pierwszy solowy pokaz jego prac w galerii José Dalmau w 1918 r. (rok wcześniej młody malarz poznaje Francis’a Picabia, artystę z kręgu dadaistów i surrealistów).</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6623243/ello-optimized-b221decb.jpg\" alt=\"Zdjęcie przedstawia portret młodej kobiety na szarym tle w artystycznym makijażu. Kobieta ma zamknięte oczy i siwe włosy.\" /></p>\n<p>W 1920 r. Joan po raz pierwszy odwiedza Paryż i poznaje Pabla Picassa. Od tego momentu jego życie toczy się pomiędzy Hiszpanią a Francją. Jednoczy się z francuskimi poetami zapoznając się z ruchem Dada, by niedługo później dołączyć do Surrealistów i w 1925 r. brać udział w pierwszej w pełni poświęconej Surrealizmowi wystawie w Galerie Pierre w Paryżu. Kolejne lata obfitują w artystyczne poszukiwania. Miró zgłębia technikę kolażu. W 1929 r. eksperymentuje z litografią, pracuje także nad rzeźbami z pomalowanych kamieni i znalezionych obiektów. Rzeźbą większych rozmiarów zajmie się w latach 60tych.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6623246/ello-optimized-17f72946.jpg\" alt=\"Zdjęcie przedstawia zbliżenie na usta pomalowane czerwoną pomadką oraz czerwony owalny kształt na białym tle.\" /></p>\n<p>W 1980 r. Miró został odznaczony Złotym Medalem Sztuk Pięknych z rąk samego króla Hiszpanii Juana Carlosa.</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6623247/ello-optimized-6a354477.jpg\" alt=\"Zdjęcie przedstawia zbliżenie na oko pomalowane w geometryczne czarno-niebieskie kształty.\" /></p>\n<p>Pod koniec swojego życia artysta odkrył technikę ceramiki i pozostawił nam w spadku setki ceramicznych prac. Zmarł 25-tego grudnia 1983 r. w Palma de Mallorca, prawdopodobnie na skutek choroby serca i problemów z oddychaniem.\nPodobno jako człowiek Miró był skromny, zdyscyplinowany, pracowity i zawsze punktualny. Swoim wyglądem nie przypominał artysty, lecz klasycznego burżuja.</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6623250/ello-optimized-78ec0c1c.jpg\" alt=\"Zdjęcie przedstawia portret kobiety w artystycznym makijażu na szarym tle. Kobieta ma czerwone usta i niebiesko-czarne kształty na powiekach.\" /></p>\n<blockquote>\n<p>Ważniejszy od samego dzieła jest efekt, jaki ono wywołuje.\nSztuka może umrzeć, obraz może ulec zniszczeniu. Istotne jest ziarno, które zostało zasiane.</p>\n<p>~ (Joan Miró)</p>\n</blockquote>\n<blockquote>\n<p>Pocieszny i okrutny, radośnie i niewinnie skandaliczny styl magiczny Miró zbija z tropu i przekonuje jak słowa dziecka.</p>\n<p>~ (Jean Marcel; Źródło: Krystyna Janicka, Surrealizm, Wydawnictwa Artystyczne i Filmowe, Warszawa 1985, s. 148.)</p>\n</blockquote>\n<p>Korzystałam z tekstu:</p>\n<ul>\n<li><a href=\"https://www.guggenheim.org/artwork/artist/joan-miro\">https://www.guggenheim.org/artwork/artist/joan-miro</a></li>\n</ul>\n";
 var raw = exports.raw = "\n<olela-narrative>\nKiedy patrzysz na obraz budzi on w Tobie emocje. Jedne płótna niosą ze sobą smutek, namawiają do nostalgii, inne cieszą się razem z Tobą, wnosząc w życie kolor. Przy płótnach Salvadora śniłam koszmary. Miałam wrażenie, że cała rzeczywistość i czas rozpływają się niczym karmelowy chupa-chups w piekarniku nagrzanym do 180°C . Max Ernst niósł ze sobą widmo apokalipsy. Krajobrazy zbudowane z pumeksu w ciemnych barwach prowadzą do świata zaprzyszłego, gdzie ludzkie formy życia to niezwykła rzadkość. Zupełnie inaczej jest z Miró. On jest malarzem uśmiechu. W jego dziełach znajduję niewinną radość. Z każdym razem gdy zerkam na obraz spotykam się z dzieckiem o duszy stulatka. Tym razem też śnię, ale z tego snu nie chcę się wybudzić.\n</olela-narrative>\n\n![Zdjęcie przedstawia portret młodej kobiety w artystycznym makijażu i siwych włosach oraz abstrakcyjny czarno-niebieski kształt.](https://assets0.ello.co/uploads/asset/attachment/6623239/ello-optimized-f916976a.jpg)\n\nJoan Miró urodził się 20-tego kwietnia 1893 r. w Barcelonie. Kształcił się w kierunku biznesu, jednocześnie uczęszczając na lekcje sztuki w La Lonja’s Escuela Superior de Artes Industriales y Bellas Artes. Po trzech latach nauki objął stanowisko urzędnika, by zaraz potem przejść załamanie nerwowe, po którym na dobre porzucił biznes i wznowił studia artystyczne. W latach 1912-1915  kształcił się w Francesc Galí’s Escola d’Art w Barcelonie, w tym samym mieście miał również miejsce pierwszy solowy pokaz jego prac w galerii José Dalmau w 1918 r. (rok wcześniej młody malarz poznaje Francis’a Picabia, artystę z kręgu dadaistów i surrealistów).\n\n![Zdjęcie przedstawia portret młodej kobiety na szarym tle w artystycznym makijażu. Kobieta ma zamknięte oczy i siwe włosy.](https://assets0.ello.co/uploads/asset/attachment/6623243/ello-optimized-b221decb.jpg)\n\nW 1920 r. Joan po raz pierwszy odwiedza Paryż i poznaje Pabla Picassa. Od tego momentu jego życie toczy się pomiędzy Hiszpanią a Francją. Jednoczy się z francuskimi poetami zapoznając się z ruchem Dada, by niedługo później dołączyć do Surrealistów i w 1925 r. brać udział w pierwszej w pełni poświęconej Surrealizmowi wystawie w Galerie Pierre w Paryżu. Kolejne lata obfitują w artystyczne poszukiwania. Miró zgłębia technikę kolażu. W 1929 r. eksperymentuje z litografią, pracuje także nad rzeźbami z pomalowanych kamieni i znalezionych obiektów. Rzeźbą większych rozmiarów zajmie się w latach 60tych.\n\n![Zdjęcie przedstawia zbliżenie na usta pomalowane czerwoną pomadką oraz czerwony owalny kształt na białym tle.](https://assets0.ello.co/uploads/asset/attachment/6623246/ello-optimized-17f72946.jpg)\n\nW 1980 r. Miró został odznaczony Złotym Medalem Sztuk Pięknych z rąk samego króla Hiszpanii Juana Carlosa.\n\n![Zdjęcie przedstawia zbliżenie na oko pomalowane w geometryczne czarno-niebieskie kształty.](https://assets2.ello.co/uploads/asset/attachment/6623247/ello-optimized-6a354477.jpg)\n\nPod koniec swojego życia artysta odkrył technikę ceramiki i pozostawił nam w spadku setki ceramicznych prac. Zmarł 25-tego grudnia 1983 r. w Palma de Mallorca, prawdopodobnie na skutek choroby serca i problemów z oddychaniem. \nPodobno jako człowiek Miró był skromny, zdyscyplinowany, pracowity i zawsze punktualny. Swoim wyglądem nie przypominał artysty, lecz klasycznego burżuja.\n\n![Zdjęcie przedstawia portret kobiety w artystycznym makijażu na szarym tle. Kobieta ma czerwone usta i niebiesko-czarne kształty na powiekach.](https://assets2.ello.co/uploads/asset/attachment/6623250/ello-optimized-78ec0c1c.jpg)\n\n> Ważniejszy od samego dzieła jest efekt, jaki ono wywołuje. \n> Sztuka może umrzeć, obraz może ulec zniszczeniu. Istotne jest ziarno, które zostało zasiane.\n>\n> ~ (Joan Miró)\n\n> Pocieszny i okrutny, radośnie i niewinnie skandaliczny styl magiczny Miró zbija z tropu i przekonuje jak słowa dziecka.\n>\n> ~ (Jean Marcel; Źródło: Krystyna Janicka, Surrealizm, Wydawnictwa Artystyczne i Filmowe, Warszawa 1985, s. 148.)\n\n\nKorzystałam z tekstu:\n* https://www.guggenheim.org/artwork/artist/joan-miro";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 87 */
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5455,7 +5527,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -5482,10 +5554,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Op-art [moodboard]", "date": "2017-12-07T16:37:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["opart", "optical", "art", "moodboard", "artist", "artysta", "sztuka"], "description": "Op Art Moodboard by Olela Krawczyk" };
 var body = exports.body = "<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6664021/ello-optimized-55517a7b.jpg\" alt=\"Obraz przedstawia fotografie różnych dzieł znanych artystów. Wszystko na ciemno-szarym tle.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6664023/ello-optimized-6953652c.jpg\" alt=\"Obraz przedstawia fotografie modelek w czarno-białych kostiumach, sportowe buty. Wszystko na ciemno-szarym tle.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6664024/ello-optimized-716d3f05.jpg\" alt=\"Obraz przedstawia fotografie dwóch obrazów znanych artystów. Wszystko na ciemno-szarym tle.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6664025/ello-optimized-9ef158dc.jpg\" alt=\"Obraz przedstawia zdjęcia pomalowanych paznokci, twarzy w makijażu, modelek w czarno-białych kostiumach. Wszystko na ciemno-szarym tle.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6664026/ello-optimized-55f1e869.jpg\" alt=\"Obraz przedstawia fotografie prac znanych artystów, widzimy też zdjęcie modelki na wybiegu ubranej w suknie w czarno-czerwone pasy.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6663927/ello-optimized-979dc213.jpg\" alt=\"Obraz przedstawia fotografie budynków. Widzimy też prace znanych artystów, wszystko na ciemno-szarym tle.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6663928/ello-optimized-5054382c.jpg\" alt=\"Obraz przedstawia jasne napisy na ciemno-szarym tle, oraz zdjęcie budynku.\" /></p>\n";
 var raw = exports.raw = "\n![Obraz przedstawia fotografie różnych dzieł znanych artystów. Wszystko na ciemno-szarym tle.](https://assets0.ello.co/uploads/asset/attachment/6664021/ello-optimized-55517a7b.jpg)\n![Obraz przedstawia fotografie modelek w czarno-białych kostiumach, sportowe buty. Wszystko na ciemno-szarym tle.](https://assets1.ello.co/uploads/asset/attachment/6664023/ello-optimized-6953652c.jpg)\n![Obraz przedstawia fotografie dwóch obrazów znanych artystów. Wszystko na ciemno-szarym tle.](https://assets1.ello.co/uploads/asset/attachment/6664024/ello-optimized-716d3f05.jpg)\n![Obraz przedstawia zdjęcia pomalowanych paznokci, twarzy w makijażu, modelek w czarno-białych kostiumach. Wszystko na ciemno-szarym tle.](https://assets1.ello.co/uploads/asset/attachment/6664025/ello-optimized-9ef158dc.jpg)\n![Obraz przedstawia fotografie prac znanych artystów, widzimy też zdjęcie modelki na wybiegu ubranej w suknie w czarno-czerwone pasy.](https://assets2.ello.co/uploads/asset/attachment/6664026/ello-optimized-55f1e869.jpg)\n![Obraz przedstawia fotografie budynków. Widzimy też prace znanych artystów, wszystko na ciemno-szarym tle.](https://assets2.ello.co/uploads/asset/attachment/6663927/ello-optimized-979dc213.jpg)\n![Obraz przedstawia jasne napisy na ciemno-szarym tle, oraz zdjęcie budynku.](https://assets2.ello.co/uploads/asset/attachment/6663928/ello-optimized-5054382c.jpg)\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 88 */
+/* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5508,7 +5580,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -5697,10 +5769,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Wystawa: Inny Trans-Atlantyk. Sztuka kinetyczna i op-art w Europie Wschodniej i Ameryce Łacińskiej w latach 50. – 70.", "date": "2017-12-11T18:15:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["wystawa", "exhibition", "opart", "kineticart", "recenzja", "sztuka", "artysta", "muzeum"] };
 var body = exports.body = "<olela-narrative>\nW marcu tego roku otworzył swoje drzwi pawilon Muzeum Sztuki Nowoczesnej nad Wisłą. Pawilon ten jest tymczasowy, a jego istnienie w roli przestrzeni wystawienniczej szacuje się na około cztery lata. Pierwszą wystawą, jaka miała tam miejsce była ‘Syrena herbem twym zwodnicza’ (tytuł zaczerpnięty został z wiersza Cypriana Kamila Norwida). Była to ekspozycja dość adekwatna, co o miejsca i czasu, pawilon bowiem nie tyko stoi w Warszawie, ale też bardzo blisko samego symbolu tego miasta – pomnika Warszawskiej Syrenki tuż nad brzegiem Wisły. Samo otwarcie było wielkim dwudniowym wydarzeniem naszpikowanym różnego rodzaju atrakcjami dodatkowymi. Mogliśmy uczestniczyć w oprowadzaniu, warsztatach, wspólnym malowaniu muralu, a nawet koncertach. Pamiętam, że dookoła pawilonu stały bardzo modne obecnie ‘foodtracki’ z pysznymi różnościami - od kuchni indyjskiej po polskie pierogi. Przez to klimat zdawał się być nieco festynowo-festiwalowy, ale może to dobry pomysł, aby ludzie przy okazji spędzania miło czasu z przyjaciółmi i rodziną posmakowali nie tylko pikantnego curry, ale też uszczknęli co nieco tematu sztuki. \n</olela-narrative>\n<h2>Początek</h2>\n<p>Wystawę ‘Inny Trans-Atlantyk. Sztuka kinetyczna i op-art w Europie Wschodniej i Ameryce Łacińskiej w latach 50. – 70.’ planowałam zobaczyć już od dłuższego czasu. Korzystając z wolnego dnia i (już) zimowej pogody przespacerowałam spokojnie brzegiem rzeki, z wełnianą ciepłą czapą na głowie prosto do pawilonu Muzeum Sztuki Nowoczesnej. Przy wejściu powitały mnie dwie instalacje/rzeźby. Jedną z nich było ‘Penetrable BBL Blue’ Jesús’a Rafael’a Soto. Sporych rozmiarów stalowa konstrukcja o kształcie sześcianu, z której ‘zwisały’ niebieskie (myślę, że gumowe lub plastikowe) sznurki (nie wiem, czy bardziej obrazowo nie podziałało by tutaj słowo: makaron). Moja wyprawa miała miejsce w dość chłodny i wietrzny dzień, toteż ów makaron poruszał się razem z wiatrem, przez co obraz za nim zdawał się ‘migotać’, żyć odbiciem własnego szumu. Dłuższe wpatrywanie się w niego doprowadziło mnie do lekkich zawrotów głowy i powidoku. Ze zmarzniętym nosem i chwiejnym krokiem otworzyłam drzwi Muzeum.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6690686/ello-optimized-14031b74.jpg\" alt=\"Zdjęcie przedstawia geometryczną czerwono-czarną rzeźbę stojącą na śniegu na tle budynku ozdobionego rysunkami.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6690680/ello-optimized-96bc6563.jpg\" alt=\"Zdjęcie przedstawia krajobraz. Widzimy biało-niebieską rzeźbę i budynek w tle. Ziemię pokrywa śnieg.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6690691/ello-optimized-618944d8.jpg\" alt=\"Zdjęcie przedstawia ziemię pokrytą roztopionym śniegiem,do ziemi przytwierdzona jest tabliczka z napisem. Widzimy też fragment nogi w czarnym obuwiu.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6690702/ello-optimized-baf931ef.jpg\" alt=\"Zdjęcie przedstawia obraz widziany poprzez niebieskie pionowe linie.\" /></p>\n<h2>Otwarcie</h2>\n<p>W momencie, kiedy tylko weszłam do środka totalnie zakochałam się w przestrzeni. Przede wszystkim to miejsce wydaje się być olbrzymie, a to za sprawą wysokości pawilonu. Wewnątrz ‘można oddychać’, a co z tym idzie również poszczególne prace oddychają i nie przeszkadzają sobie wzajemnie w odbiorze.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6690610/ello-optimized-9f4adbba.jpg\" alt=\"Zdjęcie przedstawia pomieszczenie z białymi ścianami. Na ścianach wiszą obrazy, a na podłodze stoją rzeźby.\" /></p>\n<p>Na wystawie zobaczymy dzieła ponad 30stu artystów związanych z op-artem i sztuką kinetyczną. Gwoli wyjaśnienia:</p>\n<ol>\n<li>Op-art, czyli ang. ‘optical art’ - sztuka optyczna, inaczej: wizualizm. Kierunek w malarstwie, grafice, sztuce użytkowej, modzie, którego głównym założeniem było oddziaływać na oko widza (zobacz koniecznie <a href=\"http://sztukauniwersalna.pl/2017-12-07-op-art-moodboard\">moodboard op-art</a>). Prace op-artu wciągają nas w iluzje optyczne, ‘trenują’ nasz narząd wzroku, proponują grę złudzeń pozorując trójwymiarowość. Pionierem tego kierunku jest Victor Vasarely – Węgier, który już w latach 30’ eksperymentował z geometryczną abstrakcją, która zaprowadziła go do późniejszych fascynacji teoriami percepcji i aktem widzenia (jedną serigrafię Victor’a pt.:’Caracas’ z 1956 r. zobaczymy na wystawie ‘Inny Trans-Atlantyk’). Op-art jest często utożsamiany ze sztuką wizualnych trików, która nie ma na celu wzbudzać większych refleksji. Jednak można go porównać do dziedziny nauki zajmującej się badaniem aparatu widzenia. Najbardziej intensywny czas rozwoju op-art’u przypadł na lata 50. i 60. XX wieku.</li>\n<li>Sztuka kinetyczna - (z gr. kinēma ‘ruch’) kierunek w sztuce koncentrujący się na zagadnieniu ruchu – rzeczywistym lub pozornym. W prostym wyjaśnieniu, to sztuka wykorzystująca pewne mechanizmy (naturalne lub sztuczne) dla oddania ruchu lub jego wrażenia. Tak, jak np. w przypadku wyżej opisanej instalacji Jesús’a Rafael’a Soto – który dzięki naturalnemu czynnikowi, jakim jest wiatr, stwarza w obiekcie ruch, który to z kolei buduje obraz.</li>\n</ol>\n<h2>Naścienne</h2>\n<p>Wystawę zaczynam oglądać kierując się w prawą stronę. Pierwszą pracą jaką napotykam na swojej drodze jest ‘Physichromie No. 1025’ Carlos’a Cruz-Diez z 1975 r. Wenezuelski artysta każe nam poruszać się oglądając jego prace. Z lewej na prawą, z prawej na lewą, z nogi na nogę, tańczymy wokół dzieła, które odwzajemnia taniec i ukazuje nam coraz to nowe oblicza siebie. Sam autor twierdzi w jednym z wywiadów: „Przyzwyczailiśmy się do tego, by kolor uznawać za właściwość przypisaną obiektom – coś, co istnieje dzięki określaniu czegoś innego. Kolory jednak są nie tyle własnościami rzeczy, ile autonomicznymi istnościami, które zamiast towarzyszyć bytom, warunkują ich postrzeganie”.Carlos chciał zrewolucjonizować malarstwo, które według niego od setek lat polega na nakładaniu farby na płótno. Artysta odnalazł swój autorski styl w technice wycinania pasków z tektury, malowania ich na konkretny kolor i doklejania do płaszczyzny płótna. W ten sposób obraz zmienia się wraz ze zmiana perspektywy widza. Ujawniają się coraz to nowe kolory i figury geometryczne, ruch pojawia się w samym obrazie. Nie wiem, czy organizatorzy wystawy świadomie zawiesili obraz tuż pod kratkami wentylacyjnymi, ale to połączenie zachwyca podobieństwami!</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6690631/ello-optimized-456cc20b.jpg\" alt=\"Obraz przedstawia dwa zdjęcia, które ukazują obraz znanego artysty zawieszony na białej ścianie.\" /></p>\n<p>Dziełem, które przykuło moja uwagę na ok. pół godziny był ‘Obiekt kinetyczny KK 9a ‘ Abraham’a Palatnik’a (1966-2009). Tutaj mamy odwrotną sytuację w stosunku do poprzednika. Carlos Cruz-Diez liczył na ruch widza, Abraham z kolei włącza ruch w strukturę dzieł. Jego prace żyją – za pomocą mechanizmu ożywają i ruszają się. ‘Obiekt kinetyczny KK 9a ‘ to geometryczne kształty w różnych kolorach zamontowane na prostych lub łukowatych metalowych pręcikach. Nie mam pojęcia za pomocą jakiego silnika artysta osiągną taki efekt (podobno nauczył się budować silniki o zapłonie iskrowym), ale ruch tej pracy zdaje się oddychać razem z nami. Poszczególne elementy poruszają się dość ‘ospale’ wprawiając nas w stan bliski medytacji. Według Palatnika to właśnie wynalazki pozwalają nam zobaczyć świat w zupełnie nowy sposób. W pewnym momencie krytycy zaczęli nazywać artystę konstruktorem, a nową formę tworzenia obrazów – malarstwem maszynowym.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6690623/ello-optimized-36c24433.jpg\" alt=\"Obraz przedstawia dwa zdjęcia rzeźby składającej się z patyczków, na których końcach zamieszczone są figury geometryczne.\" /></p>\n<h2>Przestrzenne</h2>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6690639/ello-optimized-3502d85e.jpg\" alt=\"Obraz przedstawia trzy fotografie. Na zdjęciach z prawej strony widzimy sylwetki ludzkie, z lewej pracę artystyczną przedstawiającą figury geometryczne czarne i czerwone.\" /></p>\n<p>Oprócz prac ‘ściennych’ - obrazów i reliefów (Henryk Stażewski - zdjęcie powyżej) możemy też na wystawie „Inny Trans-Atlantyk ‘ doświadczyć obiektów w przestrzeni. Za słowo ‘obiekt’ zapewne obraziłaby się Lygia Clark – artystka wizualna, rzeźbiarka, performerka, która swoje prace nazywała „quasi-ciałami”. Jej quasi-ciało ‘Stwór ptak z przestrzeni’ to rzeźba z aluminium, którą widz może dowolnie kształtować. Specjalnie zamontowane zawiasy pozwalają na zmianę kierunku płaszczyzn dzieła. Lygia zaznacza, że chciała nie tylko ożywić dzieło sztuki, ale też zaangażować odbiorców w akt twórczy.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6690627/ello-optimized-1ac23d9d.jpg\" alt=\"Obraz przedstawia dwa zdjęcia. Na zdjęciu po lewej stronie widzimy obraz na białej ścianie, na zdjęciu po prawej rzeźbę z metalu, a w tle obrazy na białej ścianie.\" /></p>\n<p>Mira Schendel z kolei proponuje nam spacer dookoła ‘Zatrzymane fale prawdopodobieństwa’. Ta instalacja to swoisty paradoks – pojedyncza żyłka nylonowa jest dla ludzkiego oka niewidoczna, dopiero po pomnożeniu jej przez 20 000 zaczyna zawłaszczać przestrzeń, w której się znajduje, a my na własnej skórze odczuwamy siłę w jej transparentności. Całości towarzyszy cytat z Biblii: ‘Wtedy rzekł: «Wyjdź, aby stanąć na górze wobec Pana!» A oto Pan przechodził. Gwałtowna wichura rozwalająca góry i druzgocąca skały [szła] przed Panem; ale Pan nie był w wichurze. A po wichurze - trzęsienie ziemi: Pan nie był w trzęsieniu ziemi. Po trzęsieniu ziemi powstał ogień: Pan nie był w ogniu. A po tym ogniu - szmer łagodnego powiewu.’ (Stary Testament; I Księga Królewska; 19: 11-12). Ta instalacja została specjalnie przygotowana przez artystkę na X Biennale w São Paulo w 1969 roku jako komentarz do represyjnej polityki kulturalnej i rządów dyktatury w Brazylii tamtego czasu.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6690645/ello-optimized-b6bcdaf1.jpg\" alt=\"Obraz przedstawia dwa zdjęcia. Z lewej strony widzimy fotografię ukazującą fragment nóg osób stojących za białą ścianą, całość przykrywa biały szum. Z prawej strony widzimy oświetlone pomieszczenie z napisem na ścianie.\" /></p>\n<p>Mniej więcej w środku zwiedzania wystawy „Inny Trans-Atlantyk’ napotykamy na tajemniczą kotarę, za którą znajduje się ciemne pomieszczenie, a w nim... Chwilę po adaptacji naszego wzroku napotykamy na pudełko ze źródłem światła. Nad nim na suficie zawieszone zostały metalowe płytki o różnych kształtach. Rozglądamy się dookoła dostrzegając refleksy świetlne na ścianach, które w poruszają się w subtelny sposób. Ruchu nie dostrzeżemy nigdzie indziej, tylko w ‘zajączkach na ścianach. Wydaje mi się, że artysta w sprytny sposób wykorzystał cyrkulację powietrza tak, aby wprawić w drżenie metalowe płytki. Julio Le Parc znany jest ze swoich eksperymentów ze światłem w roli głównej.</p>\n<h2>Wnioski końcowe</h2>\n<p>Wystawa ‘Inny Trans-Atlantyk. Sztuka kinetyczna i op-art w Europie Wschodniej i Ameryce Łacińskiej w latach 50. – 70.’ jest po prostu świetna. Wyważenie przestrzenne, wzajemne stosunki dzieł, odległości zostały wyszukane w 100%. Możemy oglądać prace w przez nas samych wyznaczonym kierunku i na każdym kroku zaskoczy nas coś niesamowitego. Zaraz obok obrazu znajdziemy obiekt, stół z materiałami prasowymi, filmem, a jeśli spojrzymy w górę dostrzeżemy kształty zawieszone tuż nad sufitem. Wystawa jest spójna, a jednocześnie pełna niespodzianek. Doświadczanie dzieł każdy z nas musi zainicjować, niczym innym jak… ruchem. Prawdziwy wydźwięk tej ekspozycji dostrzeżemy tylko wtedy, kiedy będziemy w nieustannym ruchu. Myślę, że jest to też genialna propozycja dla osób, które nie mają wielkiego pojęcia o sztuce, a chcą dowiedzieć się czym jest op-art i sztuka kinetyczna. Przyjdź, doświadcz, zrozum!</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6690581/ello-optimized-16c83662.jpg\" alt=\"Zdjęcie przedstawia czarno-biały obraz zawieszony w rogu białej sali.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6690596/ello-optimized-015ee129.jpg\" alt=\"Obraz przedstawia dwa zdjęcia. Z lewej strony widzimy czarny kwadratowy obiekt z wyciętymi kołami, z lewej transparentny obiekt złożony z soczewek i zawieszony w przestrzeni.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6690591/ello-optimized-82903d8c.jpg\" alt=\"Zdjęcie przedstawia zbliżenie na obiekt zbudowany ze szklanych soczewek.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6690604/ello-optimized-566ddc3a.jpg\" alt=\"Zdjęcie przedstawia obraz wiszący na białej ścianie. Na obrazie widzimy czarno-białe koło.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6690613/ello-optimized-a8b1bdcd.jpg\" alt=\"Obraz przedstawia dwa zdjęcia. Z lewej strony widzimy obrazek przedstawiający kwadratowe linie. Z prawej strony widzimy trzy obrazki w ramkach przedstawiające kwadraty różnych rozmiarów.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6690620/ello-optimized-2e713fd1.jpg\" alt=\"Zdjęcie przedstawia metalową konstrukcję, przez którą możemy dostrzec resztę pomieszczenia.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6690633/ello-optimized-050ee119.jpg\" alt=\"Obraz przedstawia dwa zdjęcia. Z lewej strony na pierwszym planie widzimy złotą rzeźbę, a w tle obraz. Z prawej strony widzimy kwadratowy obraz przedstawiający małe kółka.\" /></p>\n<p>Wystawa trwa od 17.11.2017 r. do 11.02.2018 r. i można jej doświadczyć od wtorku do piątku w godz. 12:00-20:00, w sobotę od 11:00-20:00 i niedzielę od 11:00-18:00.</p>\n<ul>\n<li>Wstęp na wystawę jest DARMOWY.</li>\n<li>MUZEUM nad Wisłą - Wybrzeże Kościuszkowskie 22 (Skwer Kpt. S. Skibniewskiego “Cubryny”),</li>\n<li>Więcej informacji o wystawie, artystach i dodatkowych wydarzeniach znajdziecie <a href=\"http://transatlantic.artmuseum.pl/pl\">tutaj</a></li>\n</ul>\n";
 var raw = exports.raw = "\n<olela-narrative>\nW marcu tego roku otworzył swoje drzwi pawilon Muzeum Sztuki Nowoczesnej nad Wisłą. Pawilon ten jest tymczasowy, a jego istnienie w roli przestrzeni wystawienniczej szacuje się na około cztery lata. Pierwszą wystawą, jaka miała tam miejsce była ‘Syrena herbem twym zwodnicza’ (tytuł zaczerpnięty został z wiersza Cypriana Kamila Norwida). Była to ekspozycja dość adekwatna, co o miejsca i czasu, pawilon bowiem nie tyko stoi w Warszawie, ale też bardzo blisko samego symbolu tego miasta – pomnika Warszawskiej Syrenki tuż nad brzegiem Wisły. Samo otwarcie było wielkim dwudniowym wydarzeniem naszpikowanym różnego rodzaju atrakcjami dodatkowymi. Mogliśmy uczestniczyć w oprowadzaniu, warsztatach, wspólnym malowaniu muralu, a nawet koncertach. Pamiętam, że dookoła pawilonu stały bardzo modne obecnie ‘foodtracki’ z pysznymi różnościami - od kuchni indyjskiej po polskie pierogi. Przez to klimat zdawał się być nieco festynowo-festiwalowy, ale może to dobry pomysł, aby ludzie przy okazji spędzania miło czasu z przyjaciółmi i rodziną posmakowali nie tylko pikantnego curry, ale też uszczknęli co nieco tematu sztuki. \n</olela-narrative>\n\n## Początek\n\nWystawę ‘Inny Trans-Atlantyk. Sztuka kinetyczna i op-art w Europie Wschodniej i Ameryce Łacińskiej w latach 50. – 70.’ planowałam zobaczyć już od dłuższego czasu. Korzystając z wolnego dnia i (już) zimowej pogody przespacerowałam spokojnie brzegiem rzeki, z wełnianą ciepłą czapą na głowie prosto do pawilonu Muzeum Sztuki Nowoczesnej. Przy wejściu powitały mnie dwie instalacje/rzeźby. Jedną z nich było ‘Penetrable BBL Blue’ Jesús’a Rafael’a Soto. Sporych rozmiarów stalowa konstrukcja o kształcie sześcianu, z której ‘zwisały’ niebieskie (myślę, że gumowe lub plastikowe) sznurki (nie wiem, czy bardziej obrazowo nie podziałało by tutaj słowo: makaron). Moja wyprawa miała miejsce w dość chłodny i wietrzny dzień, toteż ów makaron poruszał się razem z wiatrem, przez co obraz za nim zdawał się ‘migotać’, żyć odbiciem własnego szumu. Dłuższe wpatrywanie się w niego doprowadziło mnie do lekkich zawrotów głowy i powidoku. Ze zmarzniętym nosem i chwiejnym krokiem otworzyłam drzwi Muzeum.\n\n![Zdjęcie przedstawia geometryczną czerwono-czarną rzeźbę stojącą na śniegu na tle budynku ozdobionego rysunkami.](https://assets1.ello.co/uploads/asset/attachment/6690686/ello-optimized-14031b74.jpg)\n![Zdjęcie przedstawia krajobraz. Widzimy biało-niebieską rzeźbę i budynek w tle. Ziemię pokrywa śnieg.](https://assets2.ello.co/uploads/asset/attachment/6690680/ello-optimized-96bc6563.jpg)\n![Zdjęcie przedstawia ziemię pokrytą roztopionym śniegiem,do ziemi przytwierdzona jest tabliczka z napisem. Widzimy też fragment nogi w czarnym obuwiu.](https://assets0.ello.co/uploads/asset/attachment/6690691/ello-optimized-618944d8.jpg)\n![Zdjęcie przedstawia obraz widziany poprzez niebieskie pionowe linie.](https://assets0.ello.co/uploads/asset/attachment/6690702/ello-optimized-baf931ef.jpg)\n\n## Otwarcie\n\nW momencie, kiedy tylko weszłam do środka totalnie zakochałam się w przestrzeni. Przede wszystkim to miejsce wydaje się być olbrzymie, a to za sprawą wysokości pawilonu. Wewnątrz ‘można oddychać’, a co z tym idzie również poszczególne prace oddychają i nie przeszkadzają sobie wzajemnie w odbiorze.\n\n![Zdjęcie przedstawia pomieszczenie z białymi ścianami. Na ścianach wiszą obrazy, a na podłodze stoją rzeźby.](https://assets0.ello.co/uploads/asset/attachment/6690610/ello-optimized-9f4adbba.jpg)\n\nNa wystawie zobaczymy dzieła ponad 30stu artystów związanych z op-artem i sztuką kinetyczną. Gwoli wyjaśnienia:\n1. Op-art, czyli ang. ‘optical art’ - sztuka optyczna, inaczej: wizualizm. Kierunek w malarstwie, grafice, sztuce użytkowej, modzie, którego głównym założeniem było oddziaływać na oko widza (zobacz koniecznie [moodboard op-art](http://sztukauniwersalna.pl/2017-12-07-op-art-moodboard)). Prace op-artu wciągają nas w iluzje optyczne, ‘trenują’ nasz narząd wzroku, proponują grę złudzeń pozorując trójwymiarowość. Pionierem tego kierunku jest Victor Vasarely – Węgier, który już w latach 30’ eksperymentował z geometryczną abstrakcją, która zaprowadziła go do późniejszych fascynacji teoriami percepcji i aktem widzenia (jedną serigrafię Victor’a pt.:’Caracas’ z 1956 r. zobaczymy na wystawie ‘Inny Trans-Atlantyk’). Op-art jest często utożsamiany ze sztuką wizualnych trików, która nie ma na celu wzbudzać większych refleksji. Jednak można go porównać do dziedziny nauki zajmującej się badaniem aparatu widzenia. Najbardziej intensywny czas rozwoju op-art’u przypadł na lata 50. i 60. XX wieku.\n2. Sztuka kinetyczna - (z gr. kinēma 'ruch') kierunek w sztuce koncentrujący się na zagadnieniu ruchu – rzeczywistym lub pozornym. W prostym wyjaśnieniu, to sztuka wykorzystująca pewne mechanizmy (naturalne lub sztuczne) dla oddania ruchu lub jego wrażenia. Tak, jak np. w przypadku wyżej opisanej instalacji Jesús’a Rafael’a Soto – który dzięki naturalnemu czynnikowi, jakim jest wiatr, stwarza w obiekcie ruch, który to z kolei buduje obraz.\n\n## Naścienne\n\nWystawę zaczynam oglądać kierując się w prawą stronę. Pierwszą pracą jaką napotykam na swojej drodze jest ‘Physichromie No. 1025’ Carlos’a Cruz-Diez z 1975 r. Wenezuelski artysta każe nam poruszać się oglądając jego prace. Z lewej na prawą, z prawej na lewą, z nogi na nogę, tańczymy wokół dzieła, które odwzajemnia taniec i ukazuje nam coraz to nowe oblicza siebie. Sam autor twierdzi w jednym z wywiadów: „Przyzwyczailiśmy się do tego, by kolor uznawać za właściwość przypisaną obiektom – coś, co istnieje dzięki określaniu czegoś innego. Kolory jednak są nie tyle własnościami rzeczy, ile autonomicznymi istnościami, które zamiast towarzyszyć bytom, warunkują ich postrzeganie”.Carlos chciał zrewolucjonizować malarstwo, które według niego od setek lat polega na nakładaniu farby na płótno. Artysta odnalazł swój autorski styl w technice wycinania pasków z tektury, malowania ich na konkretny kolor i doklejania do płaszczyzny płótna. W ten sposób obraz zmienia się wraz ze zmiana perspektywy widza. Ujawniają się coraz to nowe kolory i figury geometryczne, ruch pojawia się w samym obrazie. Nie wiem, czy organizatorzy wystawy świadomie zawiesili obraz tuż pod kratkami wentylacyjnymi, ale to połączenie zachwyca podobieństwami!\n\n![Obraz przedstawia dwa zdjęcia, które ukazują obraz znanego artysty zawieszony na białej ścianie.](https://assets2.ello.co/uploads/asset/attachment/6690631/ello-optimized-456cc20b.jpg)\n\nDziełem, które przykuło moja uwagę na ok. pół godziny był ‘Obiekt kinetyczny KK 9a ‘ Abraham’a Palatnik’a (1966-2009). Tutaj mamy odwrotną sytuację w stosunku do poprzednika. Carlos Cruz-Diez liczył na ruch widza, Abraham z kolei włącza ruch w strukturę dzieł. Jego prace żyją – za pomocą mechanizmu ożywają i ruszają się. ‘Obiekt kinetyczny KK 9a ‘ to geometryczne kształty w różnych kolorach zamontowane na prostych lub łukowatych metalowych pręcikach. Nie mam pojęcia za pomocą jakiego silnika artysta osiągną taki efekt (podobno nauczył się budować silniki o zapłonie iskrowym), ale ruch tej pracy zdaje się oddychać razem z nami. Poszczególne elementy poruszają się dość ‘ospale’ wprawiając nas w stan bliski medytacji. Według Palatnika to właśnie wynalazki pozwalają nam zobaczyć świat w zupełnie nowy sposób. W pewnym momencie krytycy zaczęli nazywać artystę konstruktorem, a nową formę tworzenia obrazów – malarstwem maszynowym.\n\n![Obraz przedstawia dwa zdjęcia rzeźby składającej się z patyczków, na których końcach zamieszczone są figury geometryczne.](https://assets1.ello.co/uploads/asset/attachment/6690623/ello-optimized-36c24433.jpg)\n\n## Przestrzenne\n\n![Obraz przedstawia trzy fotografie. Na zdjęciach z prawej strony widzimy sylwetki ludzkie, z lewej pracę artystyczną przedstawiającą figury geometryczne czarne i czerwone.](https://assets2.ello.co/uploads/asset/attachment/6690639/ello-optimized-3502d85e.jpg)\n\nOprócz prac ‘ściennych’ - obrazów i reliefów (Henryk Stażewski - zdjęcie powyżej) możemy też na wystawie „Inny Trans-Atlantyk ‘ doświadczyć obiektów w przestrzeni. Za słowo ‘obiekt’ zapewne obraziłaby się Lygia Clark – artystka wizualna, rzeźbiarka, performerka, która swoje prace nazywała „quasi-ciałami”. Jej quasi-ciało ‘Stwór ptak z przestrzeni’ to rzeźba z aluminium, którą widz może dowolnie kształtować. Specjalnie zamontowane zawiasy pozwalają na zmianę kierunku płaszczyzn dzieła. Lygia zaznacza, że chciała nie tylko ożywić dzieło sztuki, ale też zaangażować odbiorców w akt twórczy.\n\n![Obraz przedstawia dwa zdjęcia. Na zdjęciu po lewej stronie widzimy obraz na białej ścianie, na zdjęciu po prawej rzeźbę z metalu, a w tle obrazy na białej ścianie.](https://assets1.ello.co/uploads/asset/attachment/6690627/ello-optimized-1ac23d9d.jpg)\n\nMira Schendel z kolei proponuje nam spacer dookoła ‘Zatrzymane fale prawdopodobieństwa’. Ta instalacja to swoisty paradoks – pojedyncza żyłka nylonowa jest dla ludzkiego oka niewidoczna, dopiero po pomnożeniu jej przez 20 000 zaczyna zawłaszczać przestrzeń, w której się znajduje, a my na własnej skórze odczuwamy siłę w jej transparentności. Całości towarzyszy cytat z Biblii: ‘Wtedy rzekł: «Wyjdź, aby stanąć na górze wobec Pana!» A oto Pan przechodził. Gwałtowna wichura rozwalająca góry i druzgocąca skały [szła] przed Panem; ale Pan nie był w wichurze. A po wichurze - trzęsienie ziemi: Pan nie był w trzęsieniu ziemi. Po trzęsieniu ziemi powstał ogień: Pan nie był w ogniu. A po tym ogniu - szmer łagodnego powiewu.’ (Stary Testament; I Księga Królewska; 19: 11-12). Ta instalacja została specjalnie przygotowana przez artystkę na X Biennale w São Paulo w 1969 roku jako komentarz do represyjnej polityki kulturalnej i rządów dyktatury w Brazylii tamtego czasu.\n\n![Obraz przedstawia dwa zdjęcia. Z lewej strony widzimy fotografię ukazującą fragment nóg osób stojących za białą ścianą, całość przykrywa biały szum. Z prawej strony widzimy oświetlone pomieszczenie z napisem na ścianie.](https://assets0.ello.co/uploads/asset/attachment/6690645/ello-optimized-b6bcdaf1.jpg)\n\nMniej więcej w środku zwiedzania wystawy „Inny Trans-Atlantyk’ napotykamy na tajemniczą kotarę, za którą znajduje się ciemne pomieszczenie, a w nim… Chwilę po adaptacji naszego wzroku napotykamy na pudełko ze źródłem światła. Nad nim na suficie zawieszone zostały metalowe płytki o różnych kształtach. Rozglądamy się dookoła dostrzegając refleksy świetlne na ścianach, które w poruszają się w subtelny sposób. Ruchu nie dostrzeżemy nigdzie indziej, tylko w ‘zajączkach na ścianach. Wydaje mi się, że artysta w sprytny sposób wykorzystał cyrkulację powietrza tak, aby wprawić w drżenie metalowe płytki. Julio Le Parc znany jest ze swoich eksperymentów ze światłem w roli głównej.\n\n## Wnioski końcowe\n\nWystawa ‘Inny Trans-Atlantyk. Sztuka kinetyczna i op-art w Europie Wschodniej i Ameryce Łacińskiej w latach 50. – 70.’ jest po prostu świetna. Wyważenie przestrzenne, wzajemne stosunki dzieł, odległości zostały wyszukane w 100%. Możemy oglądać prace w przez nas samych wyznaczonym kierunku i na każdym kroku zaskoczy nas coś niesamowitego. Zaraz obok obrazu znajdziemy obiekt, stół z materiałami prasowymi, filmem, a jeśli spojrzymy w górę dostrzeżemy kształty zawieszone tuż nad sufitem. Wystawa jest spójna, a jednocześnie pełna niespodzianek. Doświadczanie dzieł każdy z nas musi zainicjować, niczym innym jak… ruchem. Prawdziwy wydźwięk tej ekspozycji dostrzeżemy tylko wtedy, kiedy będziemy w nieustannym ruchu. Myślę, że jest to też genialna propozycja dla osób, które nie mają wielkiego pojęcia o sztuce, a chcą dowiedzieć się czym jest op-art i sztuka kinetyczna. Przyjdź, doświadcz, zrozum!\n\n![Zdjęcie przedstawia czarno-biały obraz zawieszony w rogu białej sali.](https://assets2.ello.co/uploads/asset/attachment/6690581/ello-optimized-16c83662.jpg)\n![Obraz przedstawia dwa zdjęcia. Z lewej strony widzimy czarny kwadratowy obiekt z wyciętymi kołami, z lewej transparentny obiekt złożony z soczewek i zawieszony w przestrzeni.](https://assets0.ello.co/uploads/asset/attachment/6690596/ello-optimized-015ee129.jpg)\n![Zdjęcie przedstawia zbliżenie na obiekt zbudowany ze szklanych soczewek.](https://assets2.ello.co/uploads/asset/attachment/6690591/ello-optimized-82903d8c.jpg)\n![Zdjęcie przedstawia obraz wiszący na białej ścianie. Na obrazie widzimy czarno-białe koło.](https://assets0.ello.co/uploads/asset/attachment/6690604/ello-optimized-566ddc3a.jpg)\n![Obraz przedstawia dwa zdjęcia. Z lewej strony widzimy obrazek przedstawiający kwadratowe linie. Z prawej strony widzimy trzy obrazki w ramkach przedstawiające kwadraty różnych rozmiarów.](https://assets0.ello.co/uploads/asset/attachment/6690613/ello-optimized-a8b1bdcd.jpg)\n![Zdjęcie przedstawia metalową konstrukcję, przez którą możemy dostrzec resztę pomieszczenia.](https://assets2.ello.co/uploads/asset/attachment/6690620/ello-optimized-2e713fd1.jpg)\n![Obraz przedstawia dwa zdjęcia. Z lewej strony na pierwszym planie widzimy złotą rzeźbę, a w tle obraz. Z prawej strony widzimy kwadratowy obraz przedstawiający małe kółka.](https://assets1.ello.co/uploads/asset/attachment/6690633/ello-optimized-050ee119.jpg)\n\nWystawa trwa od 17.11.2017 r. do 11.02.2018 r. i można jej doświadczyć od wtorku do piątku w godz. 12:00-20:00, w sobotę od 11:00-20:00 i niedzielę od 11:00-18:00.\n* Wstęp na wystawę jest DARMOWY.\n* MUZEUM nad Wisłą - Wybrzeże Kościuszkowskie 22 (Skwer Kpt. S. Skibniewskiego \"Cubryny\"), \n* Więcej informacji o wystawie, artystach i dodatkowych wydarzeniach znajdziecie [tutaj](http://transatlantic.artmuseum.pl/pl)";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 89 */
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5723,7 +5795,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -5851,10 +5923,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "O kolorach: Fiolet", "date": "2017-12-17T18:40:00.000Z", "categories": ["Sztuka Makijażu"], "tags": ["kolor", "fiolet", "pantone", "cmyk", "rgb", "sztuka", "art", "artysta", "makeup"] };
 var body = exports.body = "<p>Tak! Już jest! Kolorem roku 2018 według Pantone został ‘Ultra Violet 18-3838’!  Cieszę się niezmiernie, bo to jeden z moich ulubionych kolorów. Fiolet kryje w sobie twórczy potencjał, inspiruje do kreatywnego działania. Nie bez powodu nazywa się go kolorem artystów. Działa na nasze zmysły kojąco, uspokaja, sprzyja medytacji. Mam też wrażenie, że jest symbolem tajemnicy, kojarzy się z luksusem, gdyż kiedyś drogocennym purpurowym barwnikiem farbowano szaty władców. W identyfikacjach wizualnych marek pojawia się dość rzadko, gdyż wymaga umiejętnego użycia. Zazwyczaj możemy go zobaczyć w reklamach ekskluzywnych perfum, na opakowaniach kosmetyków, ale też np. w salonach pewnej znanej firmy telekomunikacyjnej. Jedno jest pewne – dobrze wykorzystany na pewno sprzyja wszystkim dookoła.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6766577/ello-optimized-8277c488.jpg\" alt=\"Obraz przedstawia dwa zdjęcia lewego oka obok siebie. Oko ma pomalowane rzęsy na niebiesko i z lewej strony pada na twarz fioletowe światło.\" /></p>\n<h2>Colour the system</h2>\n<p>Czym tak naprawdę jest Pantone? Pantone to w zasadzie dwie rzeczy:</p>\n<ol>\n<li>To firma założona w 1962 r. przez Lawrence’a Herberta. Jej siedziba mieści się w Carlstadt w stanie New Jersey.</li>\n<li>Pantone to system identyfikacji kolorów. Firma opracowała i wydała swoją unikatową skalę kolorów, która stanowi wzorzec barw nazwany ‘skalą Pantone’. Każdy kolor oznaczany jest odpowiednim numerem. Przypisuje się im także dodatkowe cechy takie jak: metaliczność, fluorescencja etc. W podstawowej skali Pantone znajduje się 1761 odcieni, zmieszanych także z wykorzystaniem bieli i czerni.</li>\n</ol>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6766578/ello-optimized-f653b42a.jpg\" alt=\"Obraz przedstawia 3 fotografie różnych wielkości. Z lewej strony widzimy największe zdjęcie przedstawiające portret kobiety na fioletowym tle. Kobieta ma pomalowane usta i oczy i patrzy w lewą stronę. Po lewej stronie widzimy dwa mniejsze zdjęcia oczu i usta tej samej kobiety.\" /></p>\n<p>Warto wspomnieć jeszcze o dwóch innych skalach kolorystycznych, a mianowicie CMYK i RGB, gdyż odwzorowanie danego koloru ze skali Pantone w cmyk’u na przykład może okazać się... nie do końca trafione. Dlaczego?</p>\n<ol>\n<li>CMYK – Cyan, Magenta, Yellow, Black – jest to zestaw czterech podstawowych kolorów FARB DRUKARSKICH. To oznacza, że ta skala została specjalnie wymyślona na potrzeby druku (warto to zapamiętać młodzi projektanci! Pliki do druku zawsze przygotowujcie w cmyk’u ;). Na wyżej wymienione kolory mówi się także ‘kolory procesowe’ lub ‘kolory triadowe’. Oczywiście kolory farb poszczególnych producentów mogą się różnić!</li>\n<li>RGB – Red, Green, Blue – to pojęcie dotyczy wiązek światła, które po nałożeniu na siebie dają wrażenie widzenia pełnego spektrum barwnego. Także jest to model przestrzeni barw opisywany współrzędnymi RGB. Model ten znalazł szerokie zastosowanie w urządzeniach analogowych i cyfrowych takich jak różnego rodzaju skanery, aparaty cyfrowe (urządzenia analizujące), czy ekrany komputerowe, telewizory (urządzenia wyświetlające). Ten model stosuje się w zapisie plików graficznych, czy html. Najczęściej stosowany jest 24-bitowy system zapisu, czyli po 8-bitów na każdą barwę. Odcieni danej barwy jest 256 - 256 odcieni czerwonego, 256 odcieni zielonego i 256 odcieni niebieskiego – z prostej matematyki wynika, że po działaniu mnożenia 256x256x256 otrzymamy pełną paletę barw w 24-bitach.</li>\n</ol>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6766579/ello-optimized-2c58aa88.jpg\" alt=\"Obraz przedstawia dwa zdjęcia. Z lewej strony widzimy twarz kobiety pochyloną w prawą stronę, z lewej natomiast na mniejszym zdjęciu widzimy fragment twarzy i oko w mocnym makijażu.\" /></p>\n<p>Pantone kilka lat temu opracował system swoich odpowiedników dla kolorów cmyk i rgb, jednak prace nad nim zostały zatrzymane, a kolory nie są ogólnodostępne, dlatego warto zaopatrzyć się w papierowy próbnik kolorów tzw. ‘pantoniarkę’. Oczywiście zapłacimy za nią odpowiednią sumę, ale wtedy będziemy mogli ‘namacalnie’ wybrać kolor do naszego projektu. W programach graficznych takich jak np. Adobe Illustrator mamy możliwość używania palety kolorów Pantone (przypominam: kolory na ekranie zawsze będą różnić się od tych ‘na kartce’, niezależnie od tego jak świetnie skalibrowany jest nasz monitor). Pantone pokusił się o skonstruowanie specjalnego, kompaktowego urządzenia, dzięki któremu możliwe jest zeskanowanie i identyfikacja koloru z dowolnej rzeczy np. ze swetra! Wyobraź sobie, że Twoja koleżanka przyszła do Ciebie w odwiedziny w swetrze o pięknej chabrowej barwie, w Ty właśnie o takim kolorze myślałaś przy okazji projektowania nowego logo. Nic prostszego – urządzenie o wdzięcznej nazwie ‘Capsure’ jednym kliknięciem dopasuje kolor swetra do odpowiedniego koloru ze skali i wyświetli jego numer. Mało tego – robot specjalnie dla Ciebie wybierze również barwy harmoniczne dla Twojego ‘chabra’.</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6766582/ello-optimized-87ef3fd0.jpg\" alt=\"Zdjęcie przedstawia portret kobiety na fioletowym tle. Kobieta ma mocny makijaż i włosy siwego koloru.\" /></p>\n<h2>Ach, ten fiolet!</h2>\n<p>Barwa fioletowa powstaje z połączenia czerwonego z niebieskim. Jest to kolor rzadko spotykany w przyrodzie. Jego pozyskiwanie wiązało i nadal wiąże się z pewnym pracochłonnym i drogocennym procesem, dlatego niegdyś tylko ludzie zamożni mogli sobie na niego pozwolić.\nW religii chrześcijańskiej purpura to kolor męki Chrystusa, dlatego w okresie Wielkiego Postu kapłani przybierają szaty w tym odcieniu. Śmierć i żałoba – to także symbole fioletu. W imperialnej Anglii był jedynym kolorem, którym można było dopełniać czarne i szare ubrania żałobne. W Tajlandii jest on nadal kolorem żałoby dla wdów. Fioletowy trójkąt nosili na opasce ramiennej więźniowie (świadkowie Jehowy) w nazistowskich obozach koncentracyjnych.\nW latach 60-tych kolor ten przeżył pewnego rodzaju ‘refreshment’ i wrócił jako symbol buntu, przemian, wolności i poszukiwania własnej drogi.</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6766583/ello-optimized-28fb65f7.jpg\" alt=\"Obraz przedstawia dwa zdjęcie fragmentu kobiecej twarzy wraz z okiem w fioletowym makijażu. Na zdjęciu po prawej powieka jest zamknięta.\" /></p>\n<p>Podobno przebywanie w kolorze fioletowym sprzyja koncentracji i twórczej energii do pracy. Impresjoniści odnajdywali jego odcienie w cieniach drzew, projektanci mody wykorzystują potencjał zarówno ciemnej śliwki jak i delikatnego, romantycznego lila.\nMoschino na wiosnę 2018 serwuje głęboki fiolet tiulowych spódnic w połączeniu ze skórzanym ostrym charakterem. W projketach domu mody Balenciaga, odkąd dyrektorem kreatywnym został Demna Gvasalia, zobaczymy mocne zestawienie fioletu z różem, pomarańczem, czerwienią. MiuMiu z kolei w wiosennej kolekcji postawiło na akcenty fioletu na wełnianych kamizelkach. Jedno jest pewne – fiolet to kolor ekstrawagancki, noszony z rozwagą doda charakteru każdej stylizacji, noszony z odwagą sprawi, że zabłyśniesz. A co fiolet może zaoferować kucharzom? Odmiana kalafiora w tej barwie doda malarskiego sznytu każdej potrawie. Ziemniaki truflowe mają  piękną fioletową barwę, a kopytka z ich udziałem smakują prawie tak dobrze, jak wyglądają. Czerwona kapusta daje mnóstwo możliwości przygotowania fioletowych pyszności (można np. użyć jej soku do barwienia składników dania). Przykłady można mnożyć, ale królem warzyw tego koloru pozostanie bakłażan, który jest bogaty w witaminy i minerały (C, B, A, E, K, wapń, żelazo, magnez, fosfor, potas, sód, cynk), a jego skórka (wiemy, jak piękny ma kolor!) działa antyrakowo.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6766585/ello-optimized-d7e2233f.jpg\" alt=\"Obraz przedstawia zdjęcie fragmentu kobiecej twarzy w makijażu oraz geometryczne fioletowe kształty na białym tle.\" /></p>\n<blockquote>\n<p>Oto jest fiolet – drzewa cień idący żwirem,\nfiolet łączący miłość czerwieni z szafirem.</p>\n<p>~ Maria Pawlikowska-Jasnorzewska; Barwy</p>\n</blockquote>\n";
 var raw = exports.raw = "\nTak! Już jest! Kolorem roku 2018 według Pantone został ‘Ultra Violet 18-3838’!  Cieszę się niezmiernie, bo to jeden z moich ulubionych kolorów. Fiolet kryje w sobie twórczy potencjał, inspiruje do kreatywnego działania. Nie bez powodu nazywa się go kolorem artystów. Działa na nasze zmysły kojąco, uspokaja, sprzyja medytacji. Mam też wrażenie, że jest symbolem tajemnicy, kojarzy się z luksusem, gdyż kiedyś drogocennym purpurowym barwnikiem farbowano szaty władców. W identyfikacjach wizualnych marek pojawia się dość rzadko, gdyż wymaga umiejętnego użycia. Zazwyczaj możemy go zobaczyć w reklamach ekskluzywnych perfum, na opakowaniach kosmetyków, ale też np. w salonach pewnej znanej firmy telekomunikacyjnej. Jedno jest pewne – dobrze wykorzystany na pewno sprzyja wszystkim dookoła.\n\n![Obraz przedstawia dwa zdjęcia lewego oka obok siebie. Oko ma pomalowane rzęsy na niebiesko i z lewej strony pada na twarz fioletowe światło.](https://assets0.ello.co/uploads/asset/attachment/6766577/ello-optimized-8277c488.jpg)\n\n## Colour the system\n\nCzym tak naprawdę jest Pantone? Pantone to w zasadzie dwie rzeczy:\n1. To firma założona w 1962 r. przez Lawrence’a Herberta. Jej siedziba mieści się w Carlstadt w stanie New Jersey.\n2. Pantone to system identyfikacji kolorów. Firma opracowała i wydała swoją unikatową skalę kolorów, która stanowi wzorzec barw nazwany ‘skalą Pantone’. Każdy kolor oznaczany jest odpowiednim numerem. Przypisuje się im także dodatkowe cechy takie jak: metaliczność, fluorescencja etc. W podstawowej skali Pantone znajduje się 1761 odcieni, zmieszanych także z wykorzystaniem bieli i czerni.\n\n![Obraz przedstawia 3 fotografie różnych wielkości. Z lewej strony widzimy największe zdjęcie przedstawiające portret kobiety na fioletowym tle. Kobieta ma pomalowane usta i oczy i patrzy w lewą stronę. Po lewej stronie widzimy dwa mniejsze zdjęcia oczu i usta tej samej kobiety.](https://assets2.ello.co/uploads/asset/attachment/6766578/ello-optimized-f653b42a.jpg)\n\nWarto wspomnieć jeszcze o dwóch innych skalach kolorystycznych, a mianowicie CMYK i RGB, gdyż odwzorowanie danego koloru ze skali Pantone w cmyk’u na przykład może okazać się… nie do końca trafione. Dlaczego?\n1. CMYK – Cyan, Magenta, Yellow, Black – jest to zestaw czterech podstawowych kolorów FARB DRUKARSKICH. To oznacza, że ta skala została specjalnie wymyślona na potrzeby druku (warto to zapamiętać młodzi projektanci! Pliki do druku zawsze przygotowujcie w cmyk’u ;). Na wyżej wymienione kolory mówi się także ‘kolory procesowe’ lub ‘kolory triadowe’. Oczywiście kolory farb poszczególnych producentów mogą się różnić!\n2. RGB – Red, Green, Blue – to pojęcie dotyczy wiązek światła, które po nałożeniu na siebie dają wrażenie widzenia pełnego spektrum barwnego. Także jest to model przestrzeni barw opisywany współrzędnymi RGB. Model ten znalazł szerokie zastosowanie w urządzeniach analogowych i cyfrowych takich jak różnego rodzaju skanery, aparaty cyfrowe (urządzenia analizujące), czy ekrany komputerowe, telewizory (urządzenia wyświetlające). Ten model stosuje się w zapisie plików graficznych, czy html. Najczęściej stosowany jest 24-bitowy system zapisu, czyli po 8-bitów na każdą barwę. Odcieni danej barwy jest 256 - 256 odcieni czerwonego, 256 odcieni zielonego i 256 odcieni niebieskiego – z prostej matematyki wynika, że po działaniu mnożenia 256x256x256 otrzymamy pełną paletę barw w 24-bitach.\n\n![Obraz przedstawia dwa zdjęcia. Z lewej strony widzimy twarz kobiety pochyloną w prawą stronę, z lewej natomiast na mniejszym zdjęciu widzimy fragment twarzy i oko w mocnym makijażu.](https://assets1.ello.co/uploads/asset/attachment/6766579/ello-optimized-2c58aa88.jpg)\n\nPantone kilka lat temu opracował system swoich odpowiedników dla kolorów cmyk i rgb, jednak prace nad nim zostały zatrzymane, a kolory nie są ogólnodostępne, dlatego warto zaopatrzyć się w papierowy próbnik kolorów tzw. ‘pantoniarkę’. Oczywiście zapłacimy za nią odpowiednią sumę, ale wtedy będziemy mogli ‘namacalnie’ wybrać kolor do naszego projektu. W programach graficznych takich jak np. Adobe Illustrator mamy możliwość używania palety kolorów Pantone (przypominam: kolory na ekranie zawsze będą różnić się od tych ‘na kartce’, niezależnie od tego jak świetnie skalibrowany jest nasz monitor). Pantone pokusił się o skonstruowanie specjalnego, kompaktowego urządzenia, dzięki któremu możliwe jest zeskanowanie i identyfikacja koloru z dowolnej rzeczy np. ze swetra! Wyobraź sobie, że Twoja koleżanka przyszła do Ciebie w odwiedziny w swetrze o pięknej chabrowej barwie, w Ty właśnie o takim kolorze myślałaś przy okazji projektowania nowego logo. Nic prostszego – urządzenie o wdzięcznej nazwie ‘Capsure’ jednym kliknięciem dopasuje kolor swetra do odpowiedniego koloru ze skali i wyświetli jego numer. Mało tego – robot specjalnie dla Ciebie wybierze również barwy harmoniczne dla Twojego ‘chabra’.\n\n![Zdjęcie przedstawia portret kobiety na fioletowym tle. Kobieta ma mocny makijaż i włosy siwego koloru.](https://assets2.ello.co/uploads/asset/attachment/6766582/ello-optimized-87ef3fd0.jpg)\n\n## Ach, ten fiolet!\n\nBarwa fioletowa powstaje z połączenia czerwonego z niebieskim. Jest to kolor rzadko spotykany w przyrodzie. Jego pozyskiwanie wiązało i nadal wiąże się z pewnym pracochłonnym i drogocennym procesem, dlatego niegdyś tylko ludzie zamożni mogli sobie na niego pozwolić. \nW religii chrześcijańskiej purpura to kolor męki Chrystusa, dlatego w okresie Wielkiego Postu kapłani przybierają szaty w tym odcieniu. Śmierć i żałoba – to także symbole fioletu. W imperialnej Anglii był jedynym kolorem, którym można było dopełniać czarne i szare ubrania żałobne. W Tajlandii jest on nadal kolorem żałoby dla wdów. Fioletowy trójkąt nosili na opasce ramiennej więźniowie (świadkowie Jehowy) w nazistowskich obozach koncentracyjnych.\nW latach 60-tych kolor ten przeżył pewnego rodzaju ‘refreshment’ i wrócił jako symbol buntu, przemian, wolności i poszukiwania własnej drogi.\n\n![Obraz przedstawia dwa zdjęcie fragmentu kobiecej twarzy wraz z okiem w fioletowym makijażu. Na zdjęciu po prawej powieka jest zamknięta.](https://assets2.ello.co/uploads/asset/attachment/6766583/ello-optimized-28fb65f7.jpg)\n\nPodobno przebywanie w kolorze fioletowym sprzyja koncentracji i twórczej energii do pracy. Impresjoniści odnajdywali jego odcienie w cieniach drzew, projektanci mody wykorzystują potencjał zarówno ciemnej śliwki jak i delikatnego, romantycznego lila.\nMoschino na wiosnę 2018 serwuje głęboki fiolet tiulowych spódnic w połączeniu ze skórzanym ostrym charakterem. W projketach domu mody Balenciaga, odkąd dyrektorem kreatywnym został Demna Gvasalia, zobaczymy mocne zestawienie fioletu z różem, pomarańczem, czerwienią. MiuMiu z kolei w wiosennej kolekcji postawiło na akcenty fioletu na wełnianych kamizelkach. Jedno jest pewne – fiolet to kolor ekstrawagancki, noszony z rozwagą doda charakteru każdej stylizacji, noszony z odwagą sprawi, że zabłyśniesz. A co fiolet może zaoferować kucharzom? Odmiana kalafiora w tej barwie doda malarskiego sznytu każdej potrawie. Ziemniaki truflowe mają  piękną fioletową barwę, a kopytka z ich udziałem smakują prawie tak dobrze, jak wyglądają. Czerwona kapusta daje mnóstwo możliwości przygotowania fioletowych pyszności (można np. użyć jej soku do barwienia składników dania). Przykłady można mnożyć, ale królem warzyw tego koloru pozostanie bakłażan, który jest bogaty w witaminy i minerały (C, B, A, E, K, wapń, żelazo, magnez, fosfor, potas, sód, cynk), a jego skórka (wiemy, jak piękny ma kolor!) działa antyrakowo. \n\n![Obraz przedstawia zdjęcie fragmentu kobiecej twarzy w makijażu oraz geometryczne fioletowe kształty na białym tle.](https://assets0.ello.co/uploads/asset/attachment/6766585/ello-optimized-d7e2233f.jpg)\n\n> Oto jest fiolet – drzewa cień idący żwirem,\n> fiolet łączący miłość czerwieni z szafirem.\n>\n> ~ Maria Pawlikowska-Jasnorzewska; Barwy\n\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 90 */
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5877,7 +5949,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -6020,10 +6092,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Moje wybory: grudzień", "date": "2017-12-21T14:33:00.000Z", "categories": ["Sztuka Ubioru"], "tags": ["wybory", "inspiracje", "zima", "perfumy", "książka", "kosmetyk", "torebka"] };
 var body = exports.body = "<olela-narrative>\nZima to czas, kiedy wszystko w przyrodzie zasypia, aby wraz z nadejściem wiosny obudzić się w pełni sił. Podobnie jest np. z naszą skórą, dlatego tak ważne jest, aby odpowiednio o nią zadbać. Niech nie zwiodą naszych zmysłów te ciemne miesiące, pobudźmy je aromatem świątecznych potraw i zapachem ulubionych perfum. Czas spędzony w gronie najbliższych niech będzie czasem wzajemnych inspiracji i opowieści o niedawno przeczytanych książkach i obejrzanych filmach. Sen jest teraz niezwykle ważnym elementem dobrego samopoczucia, dlatego wysypiajmy swoje ciało zgodnie z jego potrzebami. Słuchajmy nie tylko swoich najbliższych, ale przede wszystkim siebie, siebie wewnętrznego. Jest jednak jedna rzecz, której za wszelką cenę nie możemy dać zasnąć: nasza ciekawość. Niech budzi się w Nas coraz większa każdego dnia. Razem z nią odkrywajmy uroki życia.\n</olela-narrative>\n<h2>Zapach</h2>\n<p>Zima to zdecydowanie okres cięższych, słodszych zapachów. Z białymi wieczorami kojarzą mi się: wanilia, piżmo, drzewo sandałowe, migdał, ale też pomarańcza. Idealnym połączeniem świeżości cytrusów, które przypominają nam o minionym lecie i subtelnej melancholii coraz to niższych temperatur jest w moim odczuciu zapach ‘Because It’s You’ Emporio Armani marki Giorgio Armani. Na pierwszym spotkaniu są wyraźnie cytrusowo-kwiatowe, nutami głowy jest malina, cytryna, neroli. Jednak już za chwilę jesteśmy w stanie bardzo wyraźnie odczuć ich bazę: wanilię, drzewo bursztynowe i piżmo. Tworzą idealne połączenie z kaszmirowym swetrem jak i wieczorową sukienką. Polecam zimowo.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6785630/ello-optimized-d88d7dd9.jpg\" alt=\"Zdjęcie przedstawia dwa flakony perfum leżące na jasnej płaszczyźnie. Jedne perfumy mają kolor pomarańczowy, drugie kolor żółty.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6785631/ello-optimized-f49a2a4e.jpg\" alt=\"Zdjęcie przedstawia flakony perfum leżące na jasnym podłożu, kadr zdjęcia przebiega po skosie.\" /></p>\n<h2>Lektura</h2>\n<p>„Barbara Hulanicki. Judyta Fibiger rozmawia z kultową projektantką mody.” - to pozycja nie tylko dla wielbicieli mody. Z obszernego wywiadu z założycielką kultowej marki ‘Biba’ dowiemy się wiele o życiu i kulturze swingującego Londynu lat 60-tych. Kiedy światem zawładnął bunt wolności, młodzi mogli w końcu pozwolić sobie na kupowanie ubrań – jest to moment, kiedy moda zaczyna powstawać specjalnie z myślą o nich. Triumf świętują małe butiki z ubraniami od projektantów. Powstaje coś, do czego dziś przywiązuje się olbrzymią wagę w sferze marketingu internetowego, a mianowicie ‘UX’ (User Experience). Pojęcia obecnie używa się głównie w odniesieniu do sfery wszelkich urządzeń elektronicznych i programowania, ale w tamtych czasach doświadczenie budowało się poprzez samą przestrzeń, w której klient spotykał się z produktem. Właśnie w takich miejscach jak butik ‘Biby’ chciało się przebywać. To było coś więcej niż tylko sklep, to była idea. „Uosobieniem filozofii Biby stały się ‘Biba girls’, pracujące tam dziewczyny. Swoim wyglądem i postawą manifestowały absolutną niezależność. Były wyniosłe, bardzo szczupłe, wyzwolone, ‘twarde jak skała’.” (str. 87) W skrócie: szaleli za nimi mężczyźni, a wszystkie kobiety chciały być takie jak one.\nCiemne wnętrza butików (czwarty sklep Biby był już monumentalnym domem towarowym, w którym można było kupić ubrania, jedzenie, kosmetyki, meble, książki...) sprawiały wrażenie świątyń tajemnicy, a głośna muzyka czyniła miejsce handlu miejscem spotkań, miejscem, w którym ‘należało się pokazać’.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6785633/ello-optimized-94b8a939.jpg\" alt=\"Zdjęcie przedstawia książkę postawioną pionowo na tle niebiesko-bordowym.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6785636/ello-optimized-db196dda.jpg\" alt=\"Obraz przedstawia dwa zdjęcia rozłożonej książki leżącej na niebiesko-bordowym podłożu.\" /></p>\n<blockquote>\n<p>Wielki przebłysk jej geniuszu polega na tworzeniu nie\ntylko mody, ale całego wizerunku.\nZupełnie nowego świata.</p>\n<p>~ The London Collections Magazine, lata 80-te, Brazylia; str. 230</p>\n</blockquote>\n<h2>Kosmetyk</h2>\n<p>Teint Miracle Lancôme – podkład rozświetlający idealny na zimę. Doskonale nawilżający, pozostawia cerę promienną i odżywioną na cały dzień. Wysoka koncentracja wody i 10 razy mniej pudrowych substancji wypełniających niż w innych podkładach tej marki. Zdarza się, że nie stosuję dodatkowego kremu na skórę, bo właściwości nawilżające podkładu w zupełności wystarczają, aby moja skóra czuła się komfortowo przez cały dzień (mam suchą cerę). Często nie utrwalam też całości pudrem, chcąc zachować efekt ‘świetlistości’. Podkład po całym dniu wygląda bardzo dobrze (nawet kiedy używasz chusteczki do nosa, ściera się w praktycznie niezauważalny sposób). Ważne: do aplikacji użyj specjalnego pędzla tzw. ‘stippling brush’ - zamocz go w odrobinie podkładu i delikatnie omiataj nim twarz, dzięki temu uzyskasz naturalny efekt drugiej skóry.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6785639/ello-optimized-ea156e4c.jpg\" alt=\"Zdjęcie przedstawia flakonik podkładu leżący na białych piórach, całość na jasno-żółtym tle.\" /></p>\n<h2>Torebka</h2>\n<p>Idealne wykończenie każdej stylizacji… Nieodłączny element kobiecej garderoby, niezastąpiona na co dzień i od święta. Duże shopperki na zakupy z przyjaciółką, małe kopertówki na randkę wieczorową porą. Pokaż mi zawartość swojej torebki, a powiem Ci jaka jesteś. Czy znacie kobietę, która nie nosi torebki?!\nModel Palermo by Sabrina Pilewicz to pudełkowa klasyka. Ma w sobie niewinność ‘zabawki’ dla dużej dziewczynki, a jednocześnie jest niezwykle kobieca. Klasa sama w sobie. Wykonana z grubej skóry, na regulowanym łańcuszku stwarza możliwość kombinacji jej noszenia. Grudzień to świąteczny czas spotkań z rodziną i przyjaciółmi, ale i czas szalonej zabawy sylwestrowej – te okazje to doskonały moment na wybór tej torebki. Mroźnego charakteru dodaje jej kolor pierwszego śniegu i srebrne wykończenia. Czuje, że stanie się ona moją ulubienicą na kolejne 3 miesiące.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6785640/ello-optimized-e664d092.jpg\" alt=\"Zdjęcie przedstawia białą małą torebkę na zielonym tle. Obok widzimy trzy białe dekoracyjne elementy w kształcie gwiazdek.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6785642/ello-optimized-be9a28d0.jpg\" alt=\"Zdjęcie przedstawia zbliżenie na fragment białej torebki ze srebrnym łańcuszkiem, która leży na zielonym podłożu.\" /></p>\n<p>Shop My Choices</p>\n<ul>\n<li><a href=\"https://m.douglas.pl/Perfumy-Perfumy%20damskie-Perfumy-Giorgio-Armani-Because-it%27s-you-Stronger-with-you-Because-it%27s-you_productbrand_3000082426.html\">Because It’s You Emporio Armani</a></li>\n<li><a href=\"http://www.empik.com/barbara-hulanicki-fibiger-judyta,p1138911653,ksiazka-p\">Barbara Hulanicki. Judyta Fibiger rozmawia z kultową projektantką mody</a></li>\n<li><a href=\"https://www.douglas.pl/productbrand_781291.html?wt_cc4=marin_bid&amp;wt_cc1=&amp;mkwid=sIbFnvtay_dc&amp;pcrid=85015148776&amp;pkw=&amp;pmt=&amp;trac=pl.01psh.goo.3915227426.781291.22752209536.000000\">Teint Miracle Lancôme</a></li>\n<li><a href=\"http://www.sklep.sabrinapilewicz.com/index.php?do_search=true\">Palermo Bag by Sabrina Pilewicz</a></li>\n</ul>\n";
 var raw = exports.raw = "\n<olela-narrative>\nZima to czas, kiedy wszystko w przyrodzie zasypia, aby wraz z nadejściem wiosny obudzić się w pełni sił. Podobnie jest np. z naszą skórą, dlatego tak ważne jest, aby odpowiednio o nią zadbać. Niech nie zwiodą naszych zmysłów te ciemne miesiące, pobudźmy je aromatem świątecznych potraw i zapachem ulubionych perfum. Czas spędzony w gronie najbliższych niech będzie czasem wzajemnych inspiracji i opowieści o niedawno przeczytanych książkach i obejrzanych filmach. Sen jest teraz niezwykle ważnym elementem dobrego samopoczucia, dlatego wysypiajmy swoje ciało zgodnie z jego potrzebami. Słuchajmy nie tylko swoich najbliższych, ale przede wszystkim siebie, siebie wewnętrznego. Jest jednak jedna rzecz, której za wszelką cenę nie możemy dać zasnąć: nasza ciekawość. Niech budzi się w Nas coraz większa każdego dnia. Razem z nią odkrywajmy uroki życia.\n</olela-narrative>\n\n## Zapach\n\nZima to zdecydowanie okres cięższych, słodszych zapachów. Z białymi wieczorami kojarzą mi się: wanilia, piżmo, drzewo sandałowe, migdał, ale też pomarańcza. Idealnym połączeniem świeżości cytrusów, które przypominają nam o minionym lecie i subtelnej melancholii coraz to niższych temperatur jest w moim odczuciu zapach 'Because It’s You' Emporio Armani marki Giorgio Armani. Na pierwszym spotkaniu są wyraźnie cytrusowo-kwiatowe, nutami głowy jest malina, cytryna, neroli. Jednak już za chwilę jesteśmy w stanie bardzo wyraźnie odczuć ich bazę: wanilię, drzewo bursztynowe i piżmo. Tworzą idealne połączenie z kaszmirowym swetrem jak i wieczorową sukienką. Polecam zimowo.\n\n![Zdjęcie przedstawia dwa flakony perfum leżące na jasnej płaszczyźnie. Jedne perfumy mają kolor pomarańczowy, drugie kolor żółty.](https://assets1.ello.co/uploads/asset/attachment/6785630/ello-optimized-d88d7dd9.jpg)\n![Zdjęcie przedstawia flakony perfum leżące na jasnym podłożu, kadr zdjęcia przebiega po skosie.](https://assets1.ello.co/uploads/asset/attachment/6785631/ello-optimized-f49a2a4e.jpg)\n\n## Lektura\n\n„Barbara Hulanicki. Judyta Fibiger rozmawia z kultową projektantką mody.” - to pozycja nie tylko dla wielbicieli mody. Z obszernego wywiadu z założycielką kultowej marki ‘Biba’ dowiemy się wiele o życiu i kulturze swingującego Londynu lat 60-tych. Kiedy światem zawładnął bunt wolności, młodzi mogli w końcu pozwolić sobie na kupowanie ubrań – jest to moment, kiedy moda zaczyna powstawać specjalnie z myślą o nich. Triumf świętują małe butiki z ubraniami od projektantów. Powstaje coś, do czego dziś przywiązuje się olbrzymią wagę w sferze marketingu internetowego, a mianowicie ‘UX’ (User Experience). Pojęcia obecnie używa się głównie w odniesieniu do sfery wszelkich urządzeń elektronicznych i programowania, ale w tamtych czasach doświadczenie budowało się poprzez samą przestrzeń, w której klient spotykał się z produktem. Właśnie w takich miejscach jak butik ‘Biby’ chciało się przebywać. To było coś więcej niż tylko sklep, to była idea. „Uosobieniem filozofii Biby stały się ‘Biba girls’, pracujące tam dziewczyny. Swoim wyglądem i postawą manifestowały absolutną niezależność. Były wyniosłe, bardzo szczupłe, wyzwolone, ‘twarde jak skała’.” (str. 87) W skrócie: szaleli za nimi mężczyźni, a wszystkie kobiety chciały być takie jak one. \nCiemne wnętrza butików (czwarty sklep Biby był już monumentalnym domem towarowym, w którym można było kupić ubrania, jedzenie, kosmetyki, meble, książki…) sprawiały wrażenie świątyń tajemnicy, a głośna muzyka czyniła miejsce handlu miejscem spotkań, miejscem, w którym ‘należało się pokazać’.\n\n![Zdjęcie przedstawia książkę postawioną pionowo na tle niebiesko-bordowym.](https://assets1.ello.co/uploads/asset/attachment/6785633/ello-optimized-94b8a939.jpg)\n![Obraz przedstawia dwa zdjęcia rozłożonej książki leżącej na niebiesko-bordowym podłożu.](https://assets2.ello.co/uploads/asset/attachment/6785636/ello-optimized-db196dda.jpg)\n\n> Wielki przebłysk jej geniuszu polega na tworzeniu nie \n> tylko mody, ale całego wizerunku. \n> Zupełnie nowego świata.\n>\n> ~ The London Collections Magazine, lata 80-te, Brazylia; str. 230\n\n## Kosmetyk\n\nTeint Miracle Lancôme – podkład rozświetlający idealny na zimę. Doskonale nawilżający, pozostawia cerę promienną i odżywioną na cały dzień. Wysoka koncentracja wody i 10 razy mniej pudrowych substancji wypełniających niż w innych podkładach tej marki. Zdarza się, że nie stosuję dodatkowego kremu na skórę, bo właściwości nawilżające podkładu w zupełności wystarczają, aby moja skóra czuła się komfortowo przez cały dzień (mam suchą cerę). Często nie utrwalam też całości pudrem, chcąc zachować efekt ‘świetlistości’. Podkład po całym dniu wygląda bardzo dobrze (nawet kiedy używasz chusteczki do nosa, ściera się w praktycznie niezauważalny sposób). Ważne: do aplikacji użyj specjalnego pędzla tzw. ‘stippling brush’ - zamocz go w odrobinie podkładu i delikatnie omiataj nim twarz, dzięki temu uzyskasz naturalny efekt drugiej skóry.\n\n![Zdjęcie przedstawia flakonik podkładu leżący na białych piórach, całość na jasno-żółtym tle.](https://assets1.ello.co/uploads/asset/attachment/6785639/ello-optimized-ea156e4c.jpg)\n\n## Torebka\n\nIdealne wykończenie każdej stylizacji… Nieodłączny element kobiecej garderoby, niezastąpiona na co dzień i od święta. Duże shopperki na zakupy z przyjaciółką, małe kopertówki na randkę wieczorową porą. Pokaż mi zawartość swojej torebki, a powiem Ci jaka jesteś. Czy znacie kobietę, która nie nosi torebki?!\nModel Palermo by Sabrina Pilewicz to pudełkowa klasyka. Ma w sobie niewinność ‘zabawki’ dla dużej dziewczynki, a jednocześnie jest niezwykle kobieca. Klasa sama w sobie. Wykonana z grubej skóry, na regulowanym łańcuszku stwarza możliwość kombinacji jej noszenia. Grudzień to świąteczny czas spotkań z rodziną i przyjaciółmi, ale i czas szalonej zabawy sylwestrowej – te okazje to doskonały moment na wybór tej torebki. Mroźnego charakteru dodaje jej kolor pierwszego śniegu i srebrne wykończenia. Czuje, że stanie się ona moją ulubienicą na kolejne 3 miesiące.\n\n![Zdjęcie przedstawia białą małą torebkę na zielonym tle. Obok widzimy trzy białe dekoracyjne elementy w kształcie gwiazdek.](https://assets0.ello.co/uploads/asset/attachment/6785640/ello-optimized-e664d092.jpg)\n![Zdjęcie przedstawia zbliżenie na fragment białej torebki ze srebrnym łańcuszkiem, która leży na zielonym podłożu.](https://assets2.ello.co/uploads/asset/attachment/6785642/ello-optimized-be9a28d0.jpg)\n\nShop My Choices\n* [Because It's You Emporio Armani](https://m.douglas.pl/Perfumy-Perfumy%20damskie-Perfumy-Giorgio-Armani-Because-it%27s-you-Stronger-with-you-Because-it%27s-you_productbrand_3000082426.html)\n* [Barbara Hulanicki. Judyta Fibiger rozmawia z kultową projektantką mody](http://www.empik.com/barbara-hulanicki-fibiger-judyta,p1138911653,ksiazka-p)\n* [Teint Miracle Lancôme](https://www.douglas.pl/productbrand_781291.html?wt_cc4=marin_bid&wt_cc1=&mkwid=sIbFnvtay_dc&pcrid=85015148776&pkw=&pmt=&trac=pl.01psh.goo.3915227426.781291.22752209536.000000)\n* [Palermo Bag by Sabrina Pilewicz](http://www.sklep.sabrinapilewicz.com/index.php?do_search=true)";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 91 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6046,7 +6118,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -6135,10 +6207,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Kolagen", "date": "2017-12-31T17:08:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["kolagen", "kobieta", "sztuka", "kreacja", "portret", "kolaż"] };
 var body = exports.body = "<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6824416/ello-optimized-7218aa5a.jpg\" alt=\"Zdjęcie przedstawia portret młodej kobiety. Prawa część twarzy oświetlona jest różowym światłem, kobieta ma przyklejone usta z papieru, całość na żółtym tle.\" /></p>\n<p>Tego dnia budzik nie zadzwonił. Choć dało się ulec wrażeniu, że śpi twardo jak kamień, jej sen przypominał raczej kłębek króliczych włosów wyczesanych nerwowo Tangle Teezer’em. A we śnie działo się wszystko to, czego nie mogła doświadczyć na jawie. Spadała w dół, lecz owe spadanie było jak najpiękniejszy lot. Unosiły ją niewidzialne skrzydła, wiatr delikatnie muskał rumiany policzek. A kiedy już przyszło do upadku, po którym większość z nas wraca z powrotem do realnego świata, ona zanurzyła się w ogromnej satynowej poduszce, miękkością swą przypominającej cumulusa. Satyna to była niebylejaka – błękitna, odcieniem stała blisko kobaltu, lecz dotyku nie sposób opisać słowami. Dookoła pachniało baklawą i miodem z orzeszkami.\nPrzetarła oczy wierzchem dłoni i natychmiast zorientowała się, że płynie wraz z prądem rzeki, na tej poduszce - tratwie. Było to coś, przypominające podziemną jaskinię. Jednak ze ścian zamiast wody spływały warkocze lśniących włosów. Niewiele myśląc chwyciła jeden z nich.<br/>\n— Jak dobrze, że byłam parę razy w życiu na ściance wspinaczkowej – pomyślała w duchu.<br/>\nMocnym chwytem zręcznej dłoni wspinała się coraz wyżej i wyżej. Coraz wyżej i wyżej... Podróż zdała się nie mieć końca, kiedy to nagle szum wody ustał, a po chwili tej kompletnej ciszy rozległ się głośny dźwięk puzonu. Zaraz obok puzonu dało się słyszeć werbel, o którym ostentacyjnie swoją mowę wygłosiła stopa. Puzon zamilkł speszony, a sytuacje wykorzystała trąbka malując swoją polirytmię na kształt kubistycznego dzieła sztuki. Z każdą sekundą tej muzycznej orgii, niczym nieprzypominającej harmonijnego utworu, traciła zmysły. Zmysły zmieniały się w szklane kule i ulatywały do góry, żeby zaraz pęknąć niczym mydlana bańka, do produkcji której użyto marnej jakości płynu do mycia naczyń. Wraz z pęknięciem największej bańki pękł także sen.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6824418/ello-optimized-4a08c53a.jpg\" alt=\"Obraz przedstawia dwa zdjęcia różnej wielkości, na jednym widzimy twarz kobiety oświetloną czerwonym światłem. Na mniejszym, podłużnym zdjęciu poniżej widzimy czerwone usta.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6824419/ello-optimized-c9772241.jpg\" alt=\"Zdjęcie przedstawia fragment twarzy kobiety z dużymi czerwonymi ustami.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6824421/ello-optimized-d65abc91.jpg\" alt=\"Zdjęcie przedstawia portret kobiety z długimi włosami. Połowę jej twarzy oświetla czerwone światło. Całość na żółtym tle.\" /></p>\n<p>Zerknęła na zegarek – była godzina 10:00. Wstała, zarzuciła na siebie szlafrok i udała się w stronę łazienki, aby tam dokończyć pobudkę.<br/>\n— A więc to dziś… - pomyślała i spojrzała w lustro – dziś jest dzień, w którym warto coś zmienić.<br/>\nChwyciła grzebień do włosów z pobliskiej półki i zaczęła zaczesywać grzywkę z lewej strony (od zawsze nosiła przedziałek po tej stronie głowy) na prawą. Włosy były niesforne. Po tak długim czasie noszenia jednej i tej samej fryzury było je bardzo ciężko przekonać do nowej pozycji. Wreszcie z drobną pomocą lakieru do włosów (utrwalenie poziom hard) udało się zaczesać grzywkę na prawą stronę.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6824422/ello-optimized-e467d529.jpg\" alt=\"Obraz przedstawia fragment twarzy kobiety z naklejonymi oczami z papieru. Pod zdjęciem widzimy geometryczny kształt oka.\" /></p>\n<p>Przyjrzała się dokładnie odbiciu swojej twarzy w lustrze. Niby nic się nie zmieniło, pociągły nos nadal zdawał się grać pierwsze skrzypce w tej osobliwej mozaice. Policzki od zawsze były gładkie i nieskazitelne (kiedyś nawet kosmetyczka wyprosiła ją z salonu twierdząc, że jest posiadaczką cery ‘niemowlaka’ i żaden zabieg na razie nie jest jej potrzebny). Ale jednak coś było nie tak. W oczach, w których do tej pory tlił się ogień młodzieńczej głupoty dostrzegła zmianę. Ich błękit zastygł w iluzji dojrzałości. Zerkając nieco powyżej linii brwi również coś się zmieniło. Na czole pojawiły się delikatne linie czasu.<br/>\n— No masz… Zaczęło się.<br/></p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6824425/ello-optimized-7f549682.jpg\" alt=\"Obraz przedstawia dwa zdjęcia. Na większym widzimy młodą kobietę, która przysłania sobie twarz kawałkiem zdjęcia innej twarzy. Na dole na małym fragmencie zdjęcia widzimy ustai palec.\" /></p>\n<p>Pobiegła czym prędzej do komputera szukać w drogeriach internetowych kremów na pierwsze oznaki starzenia się skóry.<br/>\n— Ten zawiera skoncentrowaną dawkę witaminy E, ten z kolei kolagen i morskie proteiny, a tamten komórki macierzyste. Ile?! 300 zł za buteleczkę recepty na wieczną młodość? Pięć lat temu nikt by mnie nie namówił na tak drogą ‘przyjemność’, ale teraz… W końcu w przyszłej perspektywie korzystania z zabiegów medycyny estetycznej to i tak niewielki koszt… Biorę.<br/>\nZa chwilę telefon leżący na stole wydał z siebie serię krótkich sygnałów dźwiękowych, co oznaczało urodzinowe sms’y. Jedne z nich były ze sklepu, w którym kartę stałego klienta założyła zaledwie tydzień temu, drugie z drogerii, w której zaopatruje się regularnie, a trzecie łączyły się z atrakcyjną ofertą kredytu.<br/>\n— Z roku na rok ubywa znajomych, a Ty uświadamiasz sobie, że Twoim najwierniejszym przyjacielem jest sklep, w którym bywasz częściej niż w mieszkaniu przyjaciółki. - pomyślała.<br/></p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6824426/ello-optimized-e01328c7.jpg\" alt=\"Zdjęcie przedstawia kobietę o długich, siwych włosach, która dotyka dłonią twarzy. Na twarzy ma naklejone fragmenty gazet.\" /></p>\n<p>Zadzwonił budzik. Obudziłam się gwałtownie. Postawiłam bose stopy na zimnej podłodze w łazience i spojrzałam w lustro. Przypomniał mi się sen o satynowej poduszce i linach z włosów, a w głowie zagrała muzyka. Przez moment zatęskniłam za magiczną krainą. W tamtym śnie obchodziłam 27-dme urodziny.<br/>\n— Dobrze, że to był tylko sen… - pomyślałam w duchu i zaczęłam zakładać na siebie jeansy. Kiedy wyszłam z domu pomaszerowałam prosto do drogerii. Kupiłam matową pomadkę w kolorze lila i krem z kolagenem.<br/></p>\n";
 var raw = exports.raw = "\n![Zdjęcie przedstawia portret młodej kobiety. Prawa część twarzy oświetlona jest różowym światłem, kobieta ma przyklejone usta z papieru, całość na żółtym tle.](https://assets1.ello.co/uploads/asset/attachment/6824416/ello-optimized-7218aa5a.jpg)\n\nTego dnia budzik nie zadzwonił. Choć dało się ulec wrażeniu, że śpi twardo jak kamień, jej sen przypominał raczej kłębek króliczych włosów wyczesanych nerwowo Tangle Teezer’em. A we śnie działo się wszystko to, czego nie mogła doświadczyć na jawie. Spadała w dół, lecz owe spadanie było jak najpiękniejszy lot. Unosiły ją niewidzialne skrzydła, wiatr delikatnie muskał rumiany policzek. A kiedy już przyszło do upadku, po którym większość z nas wraca z powrotem do realnego świata, ona zanurzyła się w ogromnej satynowej poduszce, miękkością swą przypominającej cumulusa. Satyna to była niebylejaka – błękitna, odcieniem stała blisko kobaltu, lecz dotyku nie sposób opisać słowami. Dookoła pachniało baklawą i miodem z orzeszkami.\nPrzetarła oczy wierzchem dłoni i natychmiast zorientowała się, że płynie wraz z prądem rzeki, na tej poduszce - tratwie. Było to coś, przypominające podziemną jaskinię. Jednak ze ścian zamiast wody spływały warkocze lśniących włosów. Niewiele myśląc chwyciła jeden z nich.<br/>\n&mdash; Jak dobrze, że byłam parę razy w życiu na ściance wspinaczkowej – pomyślała w duchu.<br/>\nMocnym chwytem zręcznej dłoni wspinała się coraz wyżej i wyżej. Coraz wyżej i wyżej… Podróż zdała się nie mieć końca, kiedy to nagle szum wody ustał, a po chwili tej kompletnej ciszy rozległ się głośny dźwięk puzonu. Zaraz obok puzonu dało się słyszeć werbel, o którym ostentacyjnie swoją mowę wygłosiła stopa. Puzon zamilkł speszony, a sytuacje wykorzystała trąbka malując swoją polirytmię na kształt kubistycznego dzieła sztuki. Z każdą sekundą tej muzycznej orgii, niczym nieprzypominającej harmonijnego utworu, traciła zmysły. Zmysły zmieniały się w szklane kule i ulatywały do góry, żeby zaraz pęknąć niczym mydlana bańka, do produkcji której użyto marnej jakości płynu do mycia naczyń. Wraz z pęknięciem największej bańki pękł także sen.\n\n![Obraz przedstawia dwa zdjęcia różnej wielkości, na jednym widzimy twarz kobiety oświetloną czerwonym światłem. Na mniejszym, podłużnym zdjęciu poniżej widzimy czerwone usta.](https://assets1.ello.co/uploads/asset/attachment/6824418/ello-optimized-4a08c53a.jpg)\n![Zdjęcie przedstawia fragment twarzy kobiety z dużymi czerwonymi ustami.](https://assets2.ello.co/uploads/asset/attachment/6824419/ello-optimized-c9772241.jpg)\n![Zdjęcie przedstawia portret kobiety z długimi włosami. Połowę jej twarzy oświetla czerwone światło. Całość na żółtym tle.](https://assets0.ello.co/uploads/asset/attachment/6824421/ello-optimized-d65abc91.jpg)\n\nZerknęła na zegarek – była godzina 10:00. Wstała, zarzuciła na siebie szlafrok i udała się w stronę łazienki, aby tam dokończyć pobudkę.<br/>\n&mdash; A więc to dziś… - pomyślała i spojrzała w lustro – dziś jest dzień, w którym warto coś zmienić.<br/>\nChwyciła grzebień do włosów z pobliskiej półki i zaczęła zaczesywać grzywkę z lewej strony (od zawsze nosiła przedziałek po tej stronie głowy) na prawą. Włosy były niesforne. Po tak długim czasie noszenia jednej i tej samej fryzury było je bardzo ciężko przekonać do nowej pozycji. Wreszcie z drobną pomocą lakieru do włosów (utrwalenie poziom hard) udało się zaczesać grzywkę na prawą stronę.\n\n![Obraz przedstawia fragment twarzy kobiety z naklejonymi oczami z papieru. Pod zdjęciem widzimy geometryczny kształt oka.](https://assets1.ello.co/uploads/asset/attachment/6824422/ello-optimized-e467d529.jpg)\n\nPrzyjrzała się dokładnie odbiciu swojej twarzy w lustrze. Niby nic się nie zmieniło, pociągły nos nadal zdawał się grać pierwsze skrzypce w tej osobliwej mozaice. Policzki od zawsze były gładkie i nieskazitelne (kiedyś nawet kosmetyczka wyprosiła ją z salonu twierdząc, że jest posiadaczką cery ‘niemowlaka’ i żaden zabieg na razie nie jest jej potrzebny). Ale jednak coś było nie tak. W oczach, w których do tej pory tlił się ogień młodzieńczej głupoty dostrzegła zmianę. Ich błękit zastygł w iluzji dojrzałości. Zerkając nieco powyżej linii brwi również coś się zmieniło. Na czole pojawiły się delikatne linie czasu.<br/>\n&mdash; No masz… Zaczęło się.<br/>\n\n![Obraz przedstawia dwa zdjęcia. Na większym widzimy młodą kobietę, która przysłania sobie twarz kawałkiem zdjęcia innej twarzy. Na dole na małym fragmencie zdjęcia widzimy usta\ni palec.](https://assets0.ello.co/uploads/asset/attachment/6824425/ello-optimized-7f549682.jpg)\n\nPobiegła czym prędzej do komputera szukać w drogeriach internetowych kremów na pierwsze oznaki starzenia się skóry.<br/>\n&mdash; Ten zawiera skoncentrowaną dawkę witaminy E, ten z kolei kolagen i morskie proteiny, a tamten komórki macierzyste. Ile?! 300 zł za buteleczkę recepty na wieczną młodość? Pięć lat temu nikt by mnie nie namówił na tak drogą ‘przyjemność’, ale teraz... W końcu w przyszłej perspektywie korzystania z zabiegów medycyny estetycznej to i tak niewielki koszt… Biorę.<br/>\nZa chwilę telefon leżący na stole wydał z siebie serię krótkich sygnałów dźwiękowych, co oznaczało urodzinowe sms’y. Jedne z nich były ze sklepu, w którym kartę stałego klienta założyła zaledwie tydzień temu, drugie z drogerii, w której zaopatruje się regularnie, a trzecie łączyły się z atrakcyjną ofertą kredytu.<br/>\n&mdash; Z roku na rok ubywa znajomych, a Ty uświadamiasz sobie, że Twoim najwierniejszym przyjacielem jest sklep, w którym bywasz częściej niż w mieszkaniu przyjaciółki. - pomyślała.<br/>\n\n![Zdjęcie przedstawia kobietę o długich, siwych włosach, która dotyka dłonią twarzy. Na twarzy ma naklejone fragmenty gazet.](https://assets0.ello.co/uploads/asset/attachment/6824426/ello-optimized-e01328c7.jpg)\n\nZadzwonił budzik. Obudziłam się gwałtownie. Postawiłam bose stopy na zimnej podłodze w łazience i spojrzałam w lustro. Przypomniał mi się sen o satynowej poduszce i linach z włosów, a w głowie zagrała muzyka. Przez moment zatęskniłam za magiczną krainą. W tamtym śnie obchodziłam 27-dme urodziny.<br/>\n&mdash; Dobrze, że to był tylko sen… - pomyślałam w duchu i zaczęłam zakładać na siebie jeansy. Kiedy wyszłam z domu pomaszerowałam prosto do drogerii. Kupiłam matową pomadkę w kolorze lila i krem z kolagenem.<br/>";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 92 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6161,7 +6233,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
   return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -6229,10 +6301,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Ekspresjonizm_abstrakcyjny [moodboard]", "date": "2018-01-04T11:27:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["ekspresjonizm", "abstrakcyjny", "moodboard", "ekspresja", "abstrakcja", "szkoła nowojorska", "sztuka", "artysta", "kreacja"] };
 var body = exports.body = "<p>Nazwa złożona z dwóch nazw – ekspresjonizm abstrakcyjny. Ekspresja (łac. exspressio – wyciskanie soku), czyli uzewnętrznienie, wyraz. Obecna od najmłodszych lat, często nieuświadomiona – ekspresja mimiki, ekspresja słowna, wszystkie gesty składające się na obraz naszych emocji i wewnętrznych przeżyć.</p>\n<p>Abstrakcja (łac. abstractio – oderwanie ), forma pozbawiona cech ilustracyjności, nieprzedstawiająca. W jednym zdaniu: ekspresjonizm abstrakcyjny to spontaniczny (w pewnym sensie również automatyczny/podświadomy) akt twórczy, łączący w sobie chęć samowyrażenia z antyfiguratywną estetyką. Termin ten dotyczy głównie tzw. „Szkoły Nowojorskiej”, gdzie w latach 40-tych XX wieku miał szansę zaistnieć pod wpływem nowoczesnego malarstwa europejskiego.</p>\n<p>W jej obrębie wyróżniamy główne nurty tj:</p>\n<ol>\n<li><a href=\"http://sztukauniwersalna.pl/2017-11-09-action-painting-moodboard\">Action painting</a> – malarstwo gestu. Słynne ‘chlapanie po płótnie’ Jacksona Pollocka. Odwołuje się do spontanicznej łaski tworzenia i podświadomej siły wyrazu artysty.<br/></li>\n<li><a href=\"https://pl.wikipedia.org/wiki/Color_field_painting\">Color field painting</a> - malarstwo płaszczyzn, którego królem jest Mark Rothko. Barwy rozpościerające swoją energię na wielkich płaszczyznach (polach) płótna. Kiedy stoi się przed dziełem w odpowiedniej odległości ma się wrażenie ‘zawłaszczenia’ przez dzieło, a pozornie jednolita płaszczyzna zaczyna wibrować i przybliża nas do swoistego rodzaju uczucia transcendencji.</li>\n</ol>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6832049/ello-optimized-5f9bd386.jpg\" alt=\"Obraz przedstawia zdjęcia dzieł znanych artystów, widzimy także modelkę na wybiegu, całość na fioletowym tle.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6832050/ello-optimized-43ae6d90.jpg\" alt=\"Obraz przedstawia trzy fotografie na fioletowym tle. Widzimy talerz z daniem oraz obrazy znanych artystów.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6832051/ello-optimized-26df2553.jpg\" alt=\"Obraz przedstawia pięć zdjęć na fioletowym tle, z czego dwa to zdjęcia dań na talerzach, a trzy to zdjęcia obrazów znanych artystów.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6832054/ello-optimized-60b1e3cc.jpg\" alt=\"Obraz przedstawia dwa zdjęcia na fioletowym tle. Jedno z nich przedstawia czarno-biały obraz olejny, a drugie modelkę w kolorowych ubraniach.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6832055/ello-optimized-e70d1a99.jpg\" alt=\"Zdjęcie przedstawia fotografię modelki w kolorowych ubraniach, która w ręku trzyma torebkę. Dookoła znajduje się fioletowa ramka.\" />\n<img src=\"https://assets3.ello.co/uploads/asset/attachment/6832059/ello-optimized-ca60c562.jpg\" alt=\"Obraz przedstawia pięć fotografii. Na dwóch z nich widzimy obrazy znanych artystów, a na trzech pozostałych modelki na wybiegu. Całość na fioletowym tle.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6832060/ello-optimized-1a5b7620.jpg\" alt=\"Obraz przedstawia cztery zdjęcia, z czego dwa pokazują obrazy abstrakcyjne, a dwa pozostałe to kobiece portrety. Całość na fioletowym tle.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6832061/ello-optimized-806e0255.jpg\" alt=\"Zdjęcie przedstawia jasne napisy na fioletowym tle.\" /></p>\n";
 var raw = exports.raw = "\nNazwa złożona z dwóch nazw – ekspresjonizm abstrakcyjny. Ekspresja (łac. exspressio – wyciskanie soku), czyli uzewnętrznienie, wyraz. Obecna od najmłodszych lat, często nieuświadomiona – ekspresja mimiki, ekspresja słowna, wszystkie gesty składające się na obraz naszych emocji i wewnętrznych przeżyć.\n\nAbstrakcja (łac. abstractio – oderwanie ), forma pozbawiona cech ilustracyjności, nieprzedstawiająca. W jednym zdaniu: ekspresjonizm abstrakcyjny to spontaniczny (w pewnym sensie również automatyczny/podświadomy) akt twórczy, łączący w sobie chęć samowyrażenia z antyfiguratywną estetyką. Termin ten dotyczy głównie tzw. „Szkoły Nowojorskiej”, gdzie w latach 40-tych XX wieku miał szansę zaistnieć pod wpływem nowoczesnego malarstwa europejskiego.\n\nW jej obrębie wyróżniamy główne nurty tj:\n\n1. [Action painting](http://sztukauniwersalna.pl/2017-11-09-action-painting-moodboard) – malarstwo gestu. Słynne ‘chlapanie po płótnie’ Jacksona Pollocka. Odwołuje się do spontanicznej łaski tworzenia i podświadomej siły wyrazu artysty.<br/>\n2. [Color field painting](https://pl.wikipedia.org/wiki/Color_field_painting) - malarstwo płaszczyzn, którego królem jest Mark Rothko. Barwy rozpościerające swoją energię na wielkich płaszczyznach (polach) płótna. Kiedy stoi się przed dziełem w odpowiedniej odległości ma się wrażenie ‘zawłaszczenia’ przez dzieło, a pozornie jednolita płaszczyzna zaczyna wibrować i przybliża nas do swoistego rodzaju uczucia transcendencji.\n\n![Obraz przedstawia zdjęcia dzieł znanych artystów, widzimy także modelkę na wybiegu, całość na fioletowym tle.](https://assets0.ello.co/uploads/asset/attachment/6832049/ello-optimized-5f9bd386.jpg)\n![Obraz przedstawia trzy fotografie na fioletowym tle. Widzimy talerz z daniem oraz obrazy znanych artystów.](https://assets1.ello.co/uploads/asset/attachment/6832050/ello-optimized-43ae6d90.jpg)\n![Obraz przedstawia pięć zdjęć na fioletowym tle, z czego dwa to zdjęcia dań na talerzach, a trzy to zdjęcia obrazów znanych artystów.](https://assets0.ello.co/uploads/asset/attachment/6832051/ello-optimized-26df2553.jpg)\n![Obraz przedstawia dwa zdjęcia na fioletowym tle. Jedno z nich przedstawia czarno-biały obraz olejny, a drugie modelkę w kolorowych ubraniach.](https://assets0.ello.co/uploads/asset/attachment/6832054/ello-optimized-60b1e3cc.jpg)\n![Zdjęcie przedstawia fotografię modelki w kolorowych ubraniach, która w ręku trzyma torebkę. Dookoła znajduje się fioletowa ramka.](https://assets0.ello.co/uploads/asset/attachment/6832055/ello-optimized-e70d1a99.jpg)\n![Obraz przedstawia pięć fotografii. Na dwóch z nich widzimy obrazy znanych artystów, a na trzech pozostałych modelki na wybiegu. Całość na fioletowym tle.](https://assets3.ello.co/uploads/asset/attachment/6832059/ello-optimized-ca60c562.jpg)\n![Obraz przedstawia cztery zdjęcia, z czego dwa pokazują obrazy abstrakcyjne, a dwa pozostałe to kobiece portrety. Całość na fioletowym tle.](https://assets0.ello.co/uploads/asset/attachment/6832060/ello-optimized-1a5b7620.jpg)\n![Zdjęcie przedstawia jasne napisy na fioletowym tle.](https://assets1.ello.co/uploads/asset/attachment/6832061/ello-optimized-806e0255.jpg)\n\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 93 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6255,7 +6327,7 @@ var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-global.__data = __webpack_require__(1).default;
+global.__data = __webpack_require__(2).default;
 
 var code = global.__data.map(function (entry, index) {
     return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
@@ -6340,10 +6412,10 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Smaki_Zimy_vol._1. Kaczka z sosem pomarańczowym i jabłkami w tymianku", "date": "2018-01-05T08:09:00.000Z", "categories": ["Sztuka Gotowania"], "tags": ["przepis", "kaczka", "jabłka", "tymianek", "pomarańcze", "zima", "kuchnia", "kompozycja", "kreacja", "sztuka", "artysta"] };
 var body = exports.body = "<olela-narrative>\nSezon na pomarańcze w pełni. Chociaż według medycyny chińskiej ten owoc o pięknej barwie jest produktem wychładzającym, to jednak w połączeniu z mięsem kaczki stanowi duet idealny na chłodne dni. Zima to czas, kiedy nasz organizm na wszelkie sposoby poszukuje ciepła. Zauważyliście, że właśnie na początku i w trakcie zimy mamy zwiększony apetyt? Dlatego, właśnie teraz warto jest jeść dobrze rozgrzewające potrawy. Nie żałujmy także przypraw. Imbir, pieprz, kurkuma, papryka, czosnek - pomogą nam utrzymać ciepło i wzmocnić układ odpornościowy. A jabłka? Wiadomo - \"An apple a day keeps the doctor away\" (ang. Jedno jabłko dziennie utrzyma Cię z dala od lekarza\").\n</olela-narrative>\n<div>\n  <Recipe\n    title='Kaczka z sosem pomarańczowym i jabłkami w tymianku'\n    time='60 minut'\n    level='średni'\n    mealFor='2 osoby'\n    photo='https://assets1.ello.co/uploads/asset/attachment/6845527/ello-optimized-6cca09d3.jpg'\n    altText='Zdjęcie przedstawia biały kwadratowy talerz z perspektywy lotu ptaka, na talerzu znajdują się kawałki mięsa, pomarańcze, jabłka, żółty sos. Całość na białym tle.'\n  >\n    <Ingredient title='filety z piersi kaczki' quantity='2' />\n    <Ingredient title='jabłko' quantity='1 średnie' />\n    <Ingredient title='pomarańcze' quantity='2+1 do dekoracji' />\n    <Ingredient title='czosnek' quantity='4 ząbki' />\n    <Ingredient title='masło' quantity='1 łyżeczka' />\n    <Ingredient title='miód' quantity='1 łyżka' />\n    <Ingredient title='świeży imbir' quantity='kawałek' />\n    <Ingredient title='sól, pieprz, tymianek, kurkuma' />\n    <Method>\nZaczynam od sparzenia wrzątkiem dwóch pomarańczy. Z jednej obieram skórkę i siekam na drobne kawałki. Siekam także kawałek imbiru. Sok z obu owoców wyciskam do małego rondelka i dodaję od razu łyżkę miodu (u mnie rzepakowy), oraz odrobinę pieprzu i soli. Tak przygotowany rondelek i posiekaną skórkę z imbirem odstawiam na bok.\n    </Method>\n    <Method>\nPrzygotowuję blachę pod mięso – wykładam ją papierem do pieczenia i wyciskam na niego czosnek w miejsca, gdzie później umieszczę filety. Posypuję go odrobiną tymianku.\n    </Method>\n    <Method>\nFilety z kaczki myję pod ZIMNĄ (ważne!) wodą i usuwam (jeśli są) piórka pincetką (można tez opalić palnikiem). Skórę nacinam delikatnie, uważając by nie przyciąć mięsa, a samo mięso przyprawiam świeżo mielonym pieprzem. Kładę na SUCHĄ (ważne!) patelnie od strony skóry, smażę tak do momentu zrumienienia, odwracam na stronę mięsa i smażę podobną ilość czasu. Zrumienione filety wykładam na wcześniej przygotowaną blachę wprost na czosnek z tymiankiem (w ten sposób aromaty przypraw wnikną w mięso) i wkładam do piekarnika nagrzanego do 180°C na 8-10 minut (długość czasu zarówno obsmażania filetów, jak i pieczenia zależy od ich wielkości. Moje były dość spore, dlatego pozwoliłam im posiedzieć w cieple trochę dłużej. Tradycyjnie powinny tam przebywać 6-8 minut.).\n    </Method>\n    <Method>\nPodczas kiedy mięso ‘dochodzi w piekarniku’ kroję jabłko w półksiężyce i wrzucam na ciepły tłuszcz wytopiony wcześniej z kaczki. Chwilę podsmażam posypując całość tymiankiem. Zdejmuję na osobny talerz.\n    </Method>\n    <Method>\nPrzygotowany wcześniej rondelek z sokiem z pomarańczy i miodem wstawiam na niewielki gaz i doprowadzam do wrzenia. Następnie wrzucam posiekaną skórkę pomarańczową z imbirem. Pozwalam tej mieszance chwilę się pogotować i następnie wlewam na patelnię, na której przed chwilą smażyłam jabłka. Dodaję łyżeczkę masła, szczyptę kurkumy i redukuję całość. Kiedy sos zgęstnieje przecedzam go przez drobne sitko do miseczki.\nMięso po wyjęciu z piekarnika powinno chwilę odpocząć. Dlatego, zanim zaczniemy wykładać danie na talerz odczekajmy około 5-8 min.\n    </Method>\n    <Method>\nPo tym czasie zaczynamy serwować. Malujemy sosem po talerzu, nań kładziemy kawałki mięsa, obok jabłka z tymiankiem, a całość świetnie dopełnią świeże kawałki pomarańczy. Niech talerz będzie Twoim płótnem. Zdecyduj o kompozycji – centralna, zamknięta, otwarta, dynamiczna? Je się przecież przede wszystkim oczami...\nPS. Do dekoracji możesz również użyć skórek pomarańczowych z imbirem, które zostały Ci po przecedzeniu sosu. Rzuć też zielony akcent (u mnie koperek).\n    </Method>\n    <Method>\nSmacznego!\n    </Method>\n  </Recipe>\n</div>\n<p><img src=\"https://assets3.ello.co/uploads/asset/attachment/6842177/ello-optimized-3659e865.jpg\" alt=\"Zdjęcie przedstawia talerz ujęty z perspektywy lotu ptaka. Na talerzu znajdziemy mięso, pomarańczę, jabłka, koper, żółty sos. Talerz jest kwadratowy i biały, a tło ma odcień pomarańczu.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6845526/ello-optimized-088a9070.jpg\" alt=\"Zdjęcie przedstawia potrawę złożoną z mięsa, jabłek, żółtego sosu. Całość na białym talerzu.\" /></p>\n";
 var raw = exports.raw = "\n<olela-narrative>\nSezon na pomarańcze w pełni. Chociaż według medycyny chińskiej ten owoc o pięknej barwie jest produktem wychładzającym, to jednak w połączeniu z mięsem kaczki stanowi duet idealny na chłodne dni. Zima to czas, kiedy nasz organizm na wszelkie sposoby poszukuje ciepła. Zauważyliście, że właśnie na początku i w trakcie zimy mamy zwiększony apetyt? Dlatego, właśnie teraz warto jest jeść dobrze rozgrzewające potrawy. Nie żałujmy także przypraw. Imbir, pieprz, kurkuma, papryka, czosnek - pomogą nam utrzymać ciepło i wzmocnić układ odpornościowy. A jabłka? Wiadomo - \"An apple a day keeps the doctor away\" (ang. Jedno jabłko dziennie utrzyma Cię z dala od lekarza\").\n</olela-narrative>\n\n<div>\n  <Recipe\n    title='Kaczka z sosem pomarańczowym i jabłkami w tymianku'\n    time='60 minut'\n    level='średni'\n    mealFor='2 osoby'\n    photo='https://assets1.ello.co/uploads/asset/attachment/6845527/ello-optimized-6cca09d3.jpg'\n    altText='Zdjęcie przedstawia biały kwadratowy talerz z perspektywy lotu ptaka, na talerzu znajdują się kawałki mięsa, pomarańcze, jabłka, żółty sos. Całość na białym tle.'\n  >\n    <Ingredient title='filety z piersi kaczki' quantity='2' />\n    <Ingredient title='jabłko' quantity='1 średnie' />\n    <Ingredient title='pomarańcze' quantity='2+1 do dekoracji' />\n    <Ingredient title='czosnek' quantity='4 ząbki' />\n    <Ingredient title='masło' quantity='1 łyżeczka' />\n    <Ingredient title='miód' quantity='1 łyżka' />\n    <Ingredient title='świeży imbir' quantity='kawałek' />\n    <Ingredient title='sól, pieprz, tymianek, kurkuma' />\n    <Method>\nZaczynam od sparzenia wrzątkiem dwóch pomarańczy. Z jednej obieram skórkę i siekam na drobne kawałki. Siekam także kawałek imbiru. Sok z obu owoców wyciskam do małego rondelka i dodaję od razu łyżkę miodu (u mnie rzepakowy), oraz odrobinę pieprzu i soli. Tak przygotowany rondelek i posiekaną skórkę z imbirem odstawiam na bok.\n    </Method>\n    <Method>\nPrzygotowuję blachę pod mięso – wykładam ją papierem do pieczenia i wyciskam na niego czosnek w miejsca, gdzie później umieszczę filety. Posypuję go odrobiną tymianku.\n    </Method>\n    <Method>\nFilety z kaczki myję pod ZIMNĄ (ważne!) wodą i usuwam (jeśli są) piórka pincetką (można tez opalić palnikiem). Skórę nacinam delikatnie, uważając by nie przyciąć mięsa, a samo mięso przyprawiam świeżo mielonym pieprzem. Kładę na SUCHĄ (ważne!) patelnie od strony skóry, smażę tak do momentu zrumienienia, odwracam na stronę mięsa i smażę podobną ilość czasu. Zrumienione filety wykładam na wcześniej przygotowaną blachę wprost na czosnek z tymiankiem (w ten sposób aromaty przypraw wnikną w mięso) i wkładam do piekarnika nagrzanego do 180°C na 8-10 minut (długość czasu zarówno obsmażania filetów, jak i pieczenia zależy od ich wielkości. Moje były dość spore, dlatego pozwoliłam im posiedzieć w cieple trochę dłużej. Tradycyjnie powinny tam przebywać 6-8 minut.).\n    </Method>\n    <Method>\nPodczas kiedy mięso ‘dochodzi w piekarniku’ kroję jabłko w półksiężyce i wrzucam na ciepły tłuszcz wytopiony wcześniej z kaczki. Chwilę podsmażam posypując całość tymiankiem. Zdejmuję na osobny talerz.\n    </Method>\n    <Method>\nPrzygotowany wcześniej rondelek z sokiem z pomarańczy i miodem wstawiam na niewielki gaz i doprowadzam do wrzenia. Następnie wrzucam posiekaną skórkę pomarańczową z imbirem. Pozwalam tej mieszance chwilę się pogotować i następnie wlewam na patelnię, na której przed chwilą smażyłam jabłka. Dodaję łyżeczkę masła, szczyptę kurkumy i redukuję całość. Kiedy sos zgęstnieje przecedzam go przez drobne sitko do miseczki.\nMięso po wyjęciu z piekarnika powinno chwilę odpocząć. Dlatego, zanim zaczniemy wykładać danie na talerz odczekajmy około 5-8 min.\n    </Method>\n    <Method>\nPo tym czasie zaczynamy serwować. Malujemy sosem po talerzu, nań kładziemy kawałki mięsa, obok jabłka z tymiankiem, a całość świetnie dopełnią świeże kawałki pomarańczy. Niech talerz będzie Twoim płótnem. Zdecyduj o kompozycji – centralna, zamknięta, otwarta, dynamiczna? Je się przecież przede wszystkim oczami…\nPS. Do dekoracji możesz również użyć skórek pomarańczowych z imbirem, które zostały Ci po przecedzeniu sosu. Rzuć też zielony akcent (u mnie koperek).\n    </Method>\n    <Method>\nSmacznego!\n    </Method>\n  </Recipe>\n</div>\n\n![Zdjęcie przedstawia talerz ujęty z perspektywy lotu ptaka. Na talerzu znajdziemy mięso, pomarańczę, jabłka, koper, żółty sos. Talerz jest kwadratowy i biały, a tło ma odcień pomarańczu.](https://assets3.ello.co/uploads/asset/attachment/6842177/ello-optimized-3659e865.jpg)\n![Zdjęcie przedstawia potrawę złożoną z mięsa, jabłek, żółtego sosu. Całość na białym talerzu.](https://assets2.ello.co/uploads/asset/attachment/6845526/ello-optimized-088a9070.jpg)\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 94 */
+/* 97 */
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -6352,15 +6424,15 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 94;
+webpackEmptyContext.id = 97;
 
 /***/ }),
-/* 95 */
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./ParrotLayout.js": 20,
-	"./default.js": 20
+	"./ParrotLayout.js": 23,
+	"./default.js": 23
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -6376,19 +6448,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 95;
+webpackContext.id = 98;
 
 /***/ }),
-/* 96 */
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(97);
+module.exports = __webpack_require__(100);
 
 /***/ }),
-/* 97 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6406,7 +6478,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(98);
+var _propTypes = __webpack_require__(101);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -6610,13 +6682,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 98 */
+/* 101 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_98__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_101__;
 
 /***/ }),
-/* 99 */
+/* 102 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6630,7 +6702,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 100 */
+/* 103 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6638,7 +6710,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 101 */
+/* 104 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6651,7 +6723,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 102 */
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6685,7 +6757,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 103 */
+/* 106 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6698,7 +6770,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 104 */
+/* 107 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6707,7 +6779,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 105 */
+/* 108 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6715,7 +6787,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 106 */
+/* 109 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6723,7 +6795,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 107 */
+/* 110 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6738,7 +6810,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 108 */
+/* 111 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6753,7 +6825,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 109 */
+/* 112 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6768,7 +6840,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 110 */
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6792,7 +6864,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(111);
+var s = __webpack_require__(114);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -6810,7 +6882,7 @@ var FacebookLike = /** @class */function (_super) {
             share: false,
             height: 21
         };
-        return React.createElement("div", { className: s.like }, React.createElement("iframe", { src: FB_PLUGINS_SERVICE + "?" + urlParamsToString(params), scrolling: 'no', allowTransparency: true }));
+        return React.createElement("div", { className: s.like }, React.createElement("iframe", { src: FB_PLUGINS_SERVICE + "?" + urlParamsToString(params), scrolling: 'no' }));
     };
     return FacebookLike;
 }(React.Component);
@@ -6823,7 +6895,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 111 */
+/* 114 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6831,26 +6903,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 112 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", { value: true });
-var dataLayer = self.dataLayer = self.dataLayer || [];
-function gtag(action) {
-    var params = [];
-    for (var _i = 1; _i < arguments.length; _i++) {
-        params[_i - 1] = arguments[_i];
-    }
-    dataLayer.push(arguments);
-}
-exports.gtag = gtag;
-exports.default = gtag;
-
-/***/ }),
-/* 113 */
+/* 115 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6874,7 +6927,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 114 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6899,8 +6952,8 @@ var __rest = undefined && undefined.__rest || function (s, e) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var Tile_1 = __webpack_require__(28);
-var TableOfContents_1 = __webpack_require__(29);
+var Tile_1 = __webpack_require__(31);
+var TableOfContents_1 = __webpack_require__(32);
 ;
 function Feed(_a) {
     var website = _a.website,
@@ -6925,7 +6978,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 115 */
+/* 117 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6933,7 +6986,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 116 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6942,7 +6995,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(117);
+var s = __webpack_require__(119);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -6975,7 +7028,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 117 */
+/* 119 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6985,22 +7038,65 @@ module.exports = {
 };
 
 /***/ }),
-/* 118 */
+/* 120 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", { value: true });
+var React = __webpack_require__(0);
+var DeferredScripts_1 = __webpack_require__(18);
+var DeferredStyles_1 = __webpack_require__(19);
+function Root(_a) {
+    var website = _a.website,
+        page = _a.page,
+        localBundles = _a.localBundles,
+        externalBundles = _a.externalBundles;
+    var gtagConfigScript = getGtagConfigBundle(localBundles.js);
+    var deferredScripts = externalBundles.js.concat(removeGtagConfigBundle(localBundles.js));
+    var deferredStyles = externalBundles.css;
+    return React.createElement("html", null, React.createElement("head", null, React.createElement("title", null, page.title, " | ", website.title), React.createElement("meta", { name: 'keywords', content: page.tags.join(', ') }), React.createElement("meta", { name: 'description', content: page.description }), React.createElement("meta", { name: 'viewport', content: 'width=device-width; initial-scale=1.0' }), React.createElement("script", { async: true, type: 'text/javascript', src: "https://www.googletagmanager.com/gtag/js?id=" + "UA-110945340-1" }), React.createElement("script", { type: 'text/javascript', src: gtagConfigScript }), localBundles.css.map(function (url) {
+        return React.createElement("link", { type: 'text/css', rel: 'stylesheet', href: url, key: url });
+    }), React.createElement("meta", { property: 'og:url', content: "" + website.baseUrl + page.url }), React.createElement("meta", { property: 'og:title', content: page.title }), page.image !== null ? React.createElement("meta", { property: 'og:image', content: page.image }) : null, React.createElement("meta", { property: 'og:description', content: page.description }), React.createElement("meta", { property: 'og:locale', content: website.locale }), React.createElement("meta", { property: 'og:type', content: page.url === '/' ? 'website' : 'article' })), React.createElement("body", null, React.createElement("div", { id: 'root' }, "%%%BODY%%%"), React.createElement(DeferredScripts_1.default, { srcs: deferredScripts }), React.createElement(DeferredStyles_1.default, { hrefs: deferredStyles })));
+}
+exports.Root = Root;
+exports.default = Root;
+function getGtagConfigBundle(bundles) {
+    var found = bundles.filter(function (src) {
+        return src.indexOf('gtagConfig') !== -1;
+    });
+    if (found.length === 0) {
+        throw new Error('gtagConfig script bundle is missing');
+    }
+    if (found.length !== 1) {
+        throw new Error("found more than one (" + found.length + ") gtagConfig script bundle");
+    }
+    return found[0];
+}
+function removeGtagConfigBundle(bundles) {
+    var gtagBundle = getGtagConfigBundle(bundles);
+    var index = bundles.indexOf(gtagBundle);
+    return bundles.slice(0, index).concat(bundles.slice(index + 1));
+}
+
+/***/ }),
+/* 121 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 119 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 120,
-	"./Feed.js": 121,
-	"./Ingredient.js": 122,
-	"./Method.js": 123,
-	"./Recipe.js": 124,
-	"./TableOfContents.js": 125
+	"./Crumbs.js": 123,
+	"./Feed.js": 124,
+	"./Ingredient.js": 125,
+	"./Method.js": 126,
+	"./Recipe.js": 127,
+	"./TableOfContents.js": 128
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -7016,10 +7112,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 119;
+webpackContext.id = 122;
 
 /***/ }),
-/* 120 */
+/* 123 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7034,7 +7130,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 121 */
+/* 124 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7049,7 +7145,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 122 */
+/* 125 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7064,7 +7160,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 123 */
+/* 126 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7079,7 +7175,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 124 */
+/* 127 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7094,7 +7190,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 125 */
+/* 128 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7109,16 +7205,16 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 126 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var models_1 = __webpack_require__(6);
-var pages_1 = __webpack_require__(30);
-var categories_1 = __webpack_require__(31);
-var website = new models_1.Website('', '', '', '', '');
+var pages_1 = __webpack_require__(33);
+var categories_1 = __webpack_require__(34);
+var website = new models_1.Website('', '', '', '');
 pages_1.default.forEach(function (page) { return website.addPage(page); });
 var tagPage = website.getPageOfUrl('/tag', 'all tags');
 function urlFromTitle(title) {
@@ -7133,14 +7229,14 @@ exports.default = tags;
 
 
 /***/ }),
-/* 127 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var models_1 = __webpack_require__(6);
-var config = __webpack_require__(15);
+var config = __webpack_require__(16);
 function checkIsArray(value, name) {
     if (!(value instanceof Array)) {
         throw new Error(name + " must be an array; got " + typeof value);
