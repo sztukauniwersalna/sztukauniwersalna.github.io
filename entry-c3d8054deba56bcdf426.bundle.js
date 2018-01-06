@@ -709,20 +709,22 @@ function DeferredScripts(_a) {
 exports.DeferredScripts = DeferredScripts;
 exports.default = DeferredScripts;
 function loadScripts(srcs) {
-    var head = document.getElementsByTagName('head')[0];
-    function load(src, onLoad) {
-        var script = document.createElement('script');
-        script.setAttribute('type', 'text/javascript');
-        script.setAttribute('src', src);
-        script.onload = onLoad;
-        head.appendChild(script);
-    }
-    function loadNext() {
-        var src = srcs.shift();
-        var onLoad = srcs.length === 0 ? function () { } : loadNext;
-        load(src, onLoad);
-    }
-    loadNext();
+    window.addEventListener('load', function () {
+        var head = document.getElementsByTagName('head')[0];
+        function load(src, onLoad) {
+            var script = document.createElement('script');
+            script.setAttribute('type', 'text/javascript');
+            script.setAttribute('src', src);
+            script.onload = onLoad;
+            head.appendChild(script);
+        }
+        function loadNext() {
+            var src = srcs.shift();
+            var onLoad = srcs.length === 0 ? function () { } : loadNext;
+            load(src, onLoad);
+        }
+        loadNext();
+    });
 }
 
 
@@ -743,13 +745,15 @@ function DeferredStyles(_a) {
 exports.DeferredStyles = DeferredStyles;
 exports.default = DeferredStyles;
 function loadStyles(hrefs) {
-    var head = document.getElementsByTagName('head')[0];
-    hrefs.forEach(function (href) {
-        var link = document.createElement('link');
-        link.setAttribute('href', href);
-        link.setAttribute('type', 'text/css');
-        link.setAttribute('rel', 'stylesheet');
-        head.appendChild(link);
+    window.addEventListener('load', function () {
+        var head = document.getElementsByTagName('head')[0];
+        hrefs.forEach(function (href) {
+            var link = document.createElement('link');
+            link.setAttribute('href', href);
+            link.setAttribute('type', 'text/css');
+            link.setAttribute('rel', 'stylesheet');
+            head.appendChild(link);
+        });
     });
 }
 
