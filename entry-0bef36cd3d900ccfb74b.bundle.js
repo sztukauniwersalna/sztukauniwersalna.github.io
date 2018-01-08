@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_101__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_102__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(116);
+var Feed_1 = __webpack_require__(117);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(118);
+var Recipe_1 = __webpack_require__(119);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(120);
+var Root_1 = __webpack_require__(121);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(102);
+var s = __webpack_require__(103);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(103);
+var s = __webpack_require__(104);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,9 +457,9 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-ROOT: __webpack_require__(97),
-LAYOUTS: __webpack_require__(98),
-INCLUDES: __webpack_require__(122)};
+ROOT: __webpack_require__(98),
+LAYOUTS: __webpack_require__(99),
+INCLUDES: __webpack_require__(123)};
 
 
 /***/ }),
@@ -471,7 +471,7 @@ INCLUDES: __webpack_require__(122)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(104);
+var s = __webpack_require__(105);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -521,7 +521,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(108);
+var s = __webpack_require__(109);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -854,7 +854,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(121);
+__webpack_require__(122);
 
 
 
@@ -894,7 +894,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(99);
+var react_disqus_comments_1 = __webpack_require__(100);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -904,8 +904,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(113);
-var s = __webpack_require__(115);
+var FacebookLike_1 = __webpack_require__(114);
+var s = __webpack_require__(116);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1017,8 +1017,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(105);
-var s = __webpack_require__(106);
+__webpack_require__(106);
+var s = __webpack_require__(107);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1048,7 +1048,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(107);
+var s = __webpack_require__(108);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1093,7 +1093,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(110);
+var s = __webpack_require__(111);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1127,7 +1127,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(109);
+var s = __webpack_require__(110);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1172,7 +1172,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(111);
+var s = __webpack_require__(112);
 function Item(props) {
     return null;
 }
@@ -1255,7 +1255,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(112);
+var s = __webpack_require__(113);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1279,7 +1279,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(117);
+var s = __webpack_require__(118);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1682,8 +1682,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(129);
-var menu_1 = __webpack_require__(130);
+var tags_1 = __webpack_require__(130);
+var menu_1 = __webpack_require__(131);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2658,7 +2658,8 @@ var map = {
 	"./2017-12-21-moje-wybory-grudzien.markdown": 93,
 	"./2017-12-31-kolagen.markdown": 94,
 	"./2018-01-04-ekspresjonizm-abstrakcyjny-moodboard.markdown": 95,
-	"./2018-01-05-smaki-zimy-vol-dot-1-kaczka-z-sosem-pomaranczowym-i-jablkami-w-tymianku.markdown": 96
+	"./2018-01-05-smaki-zimy-vol-dot-1-kaczka-z-sosem-pomaranczowym-i-jablkami-w-tymianku.markdown": 96,
+	"./2018-01-08-smaki-zimy-vol-dot-2-bezglutenowy-chlebek-czekoladowo-korzenny-z-sosem-truskawkowo-rozmarynowym.markdown": 97
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -6420,6 +6421,104 @@ var raw = exports.raw = "\n<olela-narrative>\nSezon na pomarańcze w pełni. Cho
 
 /***/ }),
 /* 97 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'olela-narrative',
+      null,
+      '\u015Awi\u0119ta, \u015Bwi\u0119ta i po \u015Bwi\u0119tach. Makowce, pierniki i inne ciasta zosta\u0142y spa\u0142aszowane (zazdroszcz\u0119 tym, kt\xF3rzy cz\u0119\u015B\u0107 \u015Bwi\u0105tecznej uczty zamrozili i mog\u0105 w dowolnej chwili przypomnie\u0107 sobie smak tego cudownego czasu). U mnie wszystko by\u0142o tak pyszne, \u017Ce znikn\u0119\u0142o w mgnieniu oka. Korzenny smak piernika tak za mn\u0105 \'chodzi\u0142\', \u017Ce postanowi\u0142am upiec go z lekkim \'twistem\'. Po pierwsze: bez m\u0105ki pszennej. Po drugie: nie w wersji ciasta, a chlebka, kt\xF3ry smakuje dobrze zar\xF3wno sam, jak i z dodatkami. Mo\u017Cemy pola\u0107 go sosem truskawkowo-rozmarynowym (lekko ostrym) lub posmarowa\u0107 serkiem \u015Bmietankowym i wpa\u0142aszowa\u0107 w roli kanapki.'
+    ),
+    _react2.default.createElement(
+      'div',
+      null,
+      _react2.default.createElement(
+        Recipe,
+        {
+          title: 'Bezglutenowy chlebek czekoladowo - korzenny z sosem truskawkowo - rozmarynowym',
+          time: '60 minut',
+          level: '\u0142atwy',
+          mealFor: '10 os\xF3b',
+          photo: 'https://assets1.ello.co/uploads/asset/attachment/6861748/ello-optimized-ec60c049.jpg',
+          altText: 'Zdj\u0119cie przedstawia bia\u0142y kwadratowy talerz z perspektywy lotu ptaka, na talerzu znajduje si\u0119 kawa\u0142ek ciasta czekoladowego, czerwony sos, zielone listki. Ca\u0142o\u015B\u0107 na bia\u0142ym tle.'
+        },
+        _react2.default.createElement(Ingredient, { title: 'm\u0105ka kokosowa', quantity: 'p\xF3\u0142 szklanki' }),
+        _react2.default.createElement(Ingredient, { title: 'maka jaglana', quantity: 'p\xF3\u0142 szklanki' }),
+        _react2.default.createElement(Ingredient, { title: 'm\u0105ka kukurydziana', quantity: 'p\xF3\u0142 szklanki' }),
+        _react2.default.createElement(Ingredient, { title: 'm\u0105ka z tapioki lub ziemniaczana', quantity: 'p\xF3\u0142 szklanki' }),
+        _react2.default.createElement(Ingredient, { title: 'kakao naturalne', quantity: '3 czubate \u0142y\u017Cki' }),
+        _react2.default.createElement(Ingredient, { title: 'soda oczyszczona', quantity: '2 \u0142y\u017Ceczki' }),
+        _react2.default.createElement(Ingredient, { title: 'przyprawa do piernika', quantity: '2 \u0142y\u017Cki' }),
+        _react2.default.createElement(Ingredient, { title: 'mleko sojowe', quantity: 'szklanka' }),
+        _react2.default.createElement(Ingredient, { title: 'jajka', quantity: '2 sztuki' }),
+        _react2.default.createElement(Ingredient, { title: 'olej kokosowy', quantity: '3 \u0142y\u017Cki' }),
+        _react2.default.createElement(Ingredient, { title: 'mi\xF3d', quantity: '2 czubate \u0142y\u017Cki' }),
+        _react2.default.createElement(Ingredient, { title: 'cukier br\u0105zowy', quantity: '3 \u0142y\u017Cki+1 \u0142y\u017Cka do sosu' }),
+        _react2.default.createElement(Ingredient, { title: 'mro\u017Cone truskawki', quantity: 'gar\u015B\u0107' }),
+        _react2.default.createElement(Ingredient, { title: 's\xF3l, rozmaryn, ostra mielona papryka', quantity: 'szczypta' }),
+        _react2.default.createElement(
+          Method,
+          null,
+          'W ma\u0142ym rondelku rozpuszczam olej kokosowy z miodem (u mnie rzepakowy) i cukrem. W osobnej misce \u0142\u0105cz\u0119 ze sob\u0105 suche sk\u0142adniki (m\u0105ki, sod\u0119, kakao, przypraw\u0119 do piernika, s\xF3l), po czym dodaj\u0119 2 jaja, mleko sojowe i zawarto\u015B\u0107 rondelka. Ca\u0142o\u015B\u0107 energicznie mieszam, a\u017C wszystkie sk\u0142adniki dok\u0142adnie si\u0119 po\u0142\u0105cz\u0105, a wszelkie grudki znikn\u0105. Przek\u0142adam zawarto\u015B\u0107 do blaszki (12x30 cm) wysmarowanej wcze\u015Bniej olejem kokosowym i posypanej m\u0105k\u0105 kokosow\u0105. Tak przygotowane ciasto l\u0105duje w piekarniku nagrzanym do 180\xB0C na ok. godzin\u0119.'
+        ),
+        _react2.default.createElement(
+          Method,
+          null,
+          'W tym czasie przygotowuje sos. W garnku rozmro\u017Cone wcze\u015Bniej truskawki zalewam odrobin\u0105 wody, dodaj\u0119 br\u0105zowy cukier (\u0142y\u017Ck\u0119 lub dwie), rozmaryn i ca\u0142o\u015B\u0107 gotuj\u0119 na najmniejszym ogniu (ok. 10 min). Odstawiam na chwil\u0119 garnek na bok i daj\u0119 truskawkom spokojnie \u2018odparowa\u0107\u2019. Po tym czasie blenduj\u0119 wszystko na g\u0142adko i przecedzam przez sitko (po blendowaniu na sosie zbierze si\u0119 piana, kt\xF3rej nie chcemy). Na samym ko\u0144cu dodaj\u0119 odrobin\u0119 ostrej, mielonej papryki. Gotowy sos odstawiam do ostygni\u0119cia.'
+        ),
+        _react2.default.createElement(
+          Method,
+          null,
+          'Kiedy ciasto ostygnie kroj\u0119 kawa\u0142ek i uk\u0142adam na talerzu dekoruj\u0105c sosem, bazyli\u0105 i ostr\u0105 papryk\u0105.'
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/6861750/ello-optimized-d64bbd39.jpg', alt: 'Zdj\u0119cie przedstawia kawa\u0142ek ciasta czekoladowego na bia\u0142ym talerzu w otoczeniu listk\xF3w zielonej bazylii i kawa\u0142k\xF3w czerwonej papryki.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/6861751/ello-optimized-cfccf60b.jpg', alt: 'Zdj\u0119cie przedstawia zbli\u017Cenie na kawa\u0142ek ciasta czekoladowego na bia\u0142ym talerzu w otoczeniu listk\xF3w zielonej bazylii i kawa\u0142k\xF3w czerwonej papryki.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/6861758/ello-optimized-7881fc21.jpg', alt: 'Zdj\u0119cie przedstawia talerz z perspektywy lotu ptaka. Talerz jest kwadratowy i bia\u0142y, a na nim znajduj\u0105 si\u0119 resztki jedzenia. Ca\u0142o\u015B\u0107 na bordowym tle. Po bokach wida\u0107 jasne pasy.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Smaki_Zimy_vol._2. Bezglutenowy chlebek czekoladowo - korzenny z sosem truskawkowo - rozmarynowym", "date": "2018-01-08T19:26:00.000Z", "categories": ["Sztuka Gotowania"], "tags": ["przepis", "ciasto", "chlebek", "czekolada", "piernik", "sos", "truskawki", "rozmaryn", "kompozycja", "sztuka"] };
+var body = exports.body = "<olela-narrative>\nŚwięta, święta i po świętach. Makowce, pierniki i inne ciasta zostały spałaszowane (zazdroszczę tym, którzy część świątecznej uczty zamrozili i mogą w dowolnej chwili przypomnieć sobie smak tego cudownego czasu). U mnie wszystko było tak pyszne, że zniknęło w mgnieniu oka. Korzenny smak piernika tak za mną 'chodził', że postanowiłam upiec go z lekkim 'twistem'. Po pierwsze: bez mąki pszennej. Po drugie: nie w wersji ciasta, a chlebka, który smakuje dobrze zarówno sam, jak i z dodatkami. Możemy polać go sosem truskawkowo-rozmarynowym (lekko ostrym) lub posmarować serkiem śmietankowym i wpałaszować w roli kanapki.\n</olela-narrative>\n<div>\n  <Recipe\n    title='Bezglutenowy chlebek czekoladowo - korzenny z sosem truskawkowo - rozmarynowym'\n    time='60 minut'\n    level='łatwy'\n    mealFor='10 osób'\n    photo='https://assets1.ello.co/uploads/asset/attachment/6861748/ello-optimized-ec60c049.jpg'\n    altText='Zdjęcie przedstawia biały kwadratowy talerz z perspektywy lotu ptaka, na talerzu znajduje się kawałek ciasta czekoladowego, czerwony sos, zielone listki. Całość na białym tle.'\n  >\n    <Ingredient title='mąka kokosowa' quantity='pół szklanki' />\n    <Ingredient title='maka jaglana' quantity='pół szklanki' />\n    <Ingredient title='mąka kukurydziana' quantity='pół szklanki' />\n    <Ingredient title='mąka z tapioki lub ziemniaczana' quantity='pół szklanki' />\n    <Ingredient title='kakao naturalne' quantity='3 czubate łyżki' />\n    <Ingredient title='soda oczyszczona' quantity='2 łyżeczki' />\n    <Ingredient title='przyprawa do piernika' quantity='2 łyżki' />\n    <Ingredient title='mleko sojowe' quantity='szklanka' />\n    <Ingredient title='jajka' quantity='2 sztuki' />\n    <Ingredient title='olej kokosowy' quantity='3 łyżki' />\n    <Ingredient title='miód' quantity='2 czubate łyżki' />\n    <Ingredient title='cukier brązowy' quantity='3 łyżki+1 łyżka do sosu' />\n    <Ingredient title='mrożone truskawki' quantity='garść' />\n    <Ingredient title='sól, rozmaryn, ostra mielona papryka' quantity='szczypta' />\n    <Method>\nW małym rondelku rozpuszczam olej kokosowy z miodem (u mnie rzepakowy) i cukrem. W osobnej misce łączę ze sobą suche składniki (mąki, sodę, kakao, przyprawę do piernika, sól), po czym dodaję 2 jaja, mleko sojowe i zawartość rondelka. Całość energicznie mieszam, aż wszystkie składniki dokładnie się połączą, a wszelkie grudki znikną. Przekładam zawartość do blaszki (12x30 cm) wysmarowanej wcześniej olejem kokosowym i posypanej mąką kokosową. Tak przygotowane ciasto ląduje w piekarniku nagrzanym do 180°C na ok. godzinę.\n    </Method>\n    <Method>\nW tym czasie przygotowuje sos. W garnku rozmrożone wcześniej truskawki zalewam odrobiną wody, dodaję brązowy cukier (łyżkę lub dwie), rozmaryn i całość gotuję na najmniejszym ogniu (ok. 10 min). Odstawiam na chwilę garnek na bok i daję truskawkom spokojnie ‘odparować’. Po tym czasie blenduję wszystko na gładko i przecedzam przez sitko (po blendowaniu na sosie zbierze się piana, której nie chcemy). Na samym końcu dodaję odrobinę ostrej, mielonej papryki. Gotowy sos odstawiam do ostygnięcia.\n    </Method>\n    <Method>\nKiedy ciasto ostygnie kroję kawałek i układam na talerzu dekorując sosem, bazylią i ostrą papryką.\n    </Method>\n  </Recipe>\n</div>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6861750/ello-optimized-d64bbd39.jpg\" alt=\"Zdjęcie przedstawia kawałek ciasta czekoladowego na białym talerzu w otoczeniu listków zielonej bazylii i kawałków czerwonej papryki.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6861751/ello-optimized-cfccf60b.jpg\" alt=\"Zdjęcie przedstawia zbliżenie na kawałek ciasta czekoladowego na białym talerzu w otoczeniu listków zielonej bazylii i kawałków czerwonej papryki.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6861758/ello-optimized-7881fc21.jpg\" alt=\"Zdjęcie przedstawia talerz z perspektywy lotu ptaka. Talerz jest kwadratowy i biały, a na nim znajdują się resztki jedzenia. Całość na bordowym tle. Po bokach widać jasne pasy.\" /></p>\n";
+var raw = exports.raw = "\n<olela-narrative>\nŚwięta, święta i po świętach. Makowce, pierniki i inne ciasta zostały spałaszowane (zazdroszczę tym, którzy część świątecznej uczty zamrozili i mogą w dowolnej chwili przypomnieć sobie smak tego cudownego czasu). U mnie wszystko było tak pyszne, że zniknęło w mgnieniu oka. Korzenny smak piernika tak za mną 'chodził', że postanowiłam upiec go z lekkim 'twistem'. Po pierwsze: bez mąki pszennej. Po drugie: nie w wersji ciasta, a chlebka, który smakuje dobrze zarówno sam, jak i z dodatkami. Możemy polać go sosem truskawkowo-rozmarynowym (lekko ostrym) lub posmarować serkiem śmietankowym i wpałaszować w roli kanapki.\n</olela-narrative>\n\n<div>\n  <Recipe\n    title='Bezglutenowy chlebek czekoladowo - korzenny z sosem truskawkowo - rozmarynowym'\n    time='60 minut'\n    level='łatwy'\n    mealFor='10 osób'\n    photo='https://assets1.ello.co/uploads/asset/attachment/6861748/ello-optimized-ec60c049.jpg'\n    altText='Zdjęcie przedstawia biały kwadratowy talerz z perspektywy lotu ptaka, na talerzu znajduje się kawałek ciasta czekoladowego, czerwony sos, zielone listki. Całość na białym tle.'\n  >\n    <Ingredient title='mąka kokosowa' quantity='pół szklanki' />\n    <Ingredient title='maka jaglana' quantity='pół szklanki' />\n    <Ingredient title='mąka kukurydziana' quantity='pół szklanki' />\n    <Ingredient title='mąka z tapioki lub ziemniaczana' quantity='pół szklanki' />\n    <Ingredient title='kakao naturalne' quantity='3 czubate łyżki' />\n    <Ingredient title='soda oczyszczona' quantity='2 łyżeczki' />\n    <Ingredient title='przyprawa do piernika' quantity='2 łyżki' />\n    <Ingredient title='mleko sojowe' quantity='szklanka' />\n    <Ingredient title='jajka' quantity='2 sztuki' />\n    <Ingredient title='olej kokosowy' quantity='3 łyżki' />\n    <Ingredient title='miód' quantity='2 czubate łyżki' />\n    <Ingredient title='cukier brązowy' quantity='3 łyżki+1 łyżka do sosu' />\n    <Ingredient title='mrożone truskawki' quantity='garść' />\n    <Ingredient title='sól, rozmaryn, ostra mielona papryka' quantity='szczypta' />\n    <Method>\nW małym rondelku rozpuszczam olej kokosowy z miodem (u mnie rzepakowy) i cukrem. W osobnej misce łączę ze sobą suche składniki (mąki, sodę, kakao, przyprawę do piernika, sól), po czym dodaję 2 jaja, mleko sojowe i zawartość rondelka. Całość energicznie mieszam, aż wszystkie składniki dokładnie się połączą, a wszelkie grudki znikną. Przekładam zawartość do blaszki (12x30 cm) wysmarowanej wcześniej olejem kokosowym i posypanej mąką kokosową. Tak przygotowane ciasto ląduje w piekarniku nagrzanym do 180°C na ok. godzinę.\n    </Method>\n    <Method>\nW tym czasie przygotowuje sos. W garnku rozmrożone wcześniej truskawki zalewam odrobiną wody, dodaję brązowy cukier (łyżkę lub dwie), rozmaryn i całość gotuję na najmniejszym ogniu (ok. 10 min). Odstawiam na chwilę garnek na bok i daję truskawkom spokojnie ‘odparować’. Po tym czasie blenduję wszystko na gładko i przecedzam przez sitko (po blendowaniu na sosie zbierze się piana, której nie chcemy). Na samym końcu dodaję odrobinę ostrej, mielonej papryki. Gotowy sos odstawiam do ostygnięcia.\n    </Method>\n    <Method>\nKiedy ciasto ostygnie kroję kawałek i układam na talerzu dekorując sosem, bazylią i ostrą papryką.\n    </Method>\n  </Recipe>\n</div>\n\n![Zdjęcie przedstawia kawałek ciasta czekoladowego na białym talerzu w otoczeniu listków zielonej bazylii i kawałków czerwonej papryki.](https://assets1.ello.co/uploads/asset/attachment/6861750/ello-optimized-d64bbd39.jpg)\n![Zdjęcie przedstawia zbliżenie na kawałek ciasta czekoladowego na białym talerzu w otoczeniu listków zielonej bazylii i kawałków czerwonej papryki.](https://assets0.ello.co/uploads/asset/attachment/6861751/ello-optimized-cfccf60b.jpg)\n![Zdjęcie przedstawia talerz z perspektywy lotu ptaka. Talerz jest kwadratowy i biały, a na nim znajdują się resztki jedzenia. Całość na bordowym tle. Po bokach widać jasne pasy.](https://assets1.ello.co/uploads/asset/attachment/6861758/ello-optimized-7881fc21.jpg)\n ";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
+
+/***/ }),
+/* 98 */
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -6428,10 +6527,10 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 97;
+webpackEmptyContext.id = 98;
 
 /***/ }),
-/* 98 */
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -6452,19 +6551,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 98;
+webpackContext.id = 99;
 
 /***/ }),
-/* 99 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(100);
+module.exports = __webpack_require__(101);
 
 /***/ }),
-/* 100 */
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6482,7 +6581,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(101);
+var _propTypes = __webpack_require__(102);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -6686,13 +6785,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 101 */
+/* 102 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_101__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_102__;
 
 /***/ }),
-/* 102 */
+/* 103 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6706,7 +6805,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 103 */
+/* 104 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6714,7 +6813,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 104 */
+/* 105 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6727,7 +6826,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 105 */
+/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6761,7 +6860,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 106 */
+/* 107 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6774,7 +6873,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 107 */
+/* 108 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6783,7 +6882,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6791,7 +6890,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6799,7 +6898,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6814,7 +6913,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6829,7 +6928,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6844,7 +6943,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6868,7 +6967,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(114);
+var s = __webpack_require__(115);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -6899,7 +6998,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6907,7 +7006,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6931,7 +7030,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6982,7 +7081,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6990,7 +7089,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6999,7 +7098,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(119);
+var s = __webpack_require__(120);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -7032,7 +7131,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7042,7 +7141,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7085,22 +7184,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 123,
-	"./Feed.js": 124,
-	"./Ingredient.js": 125,
-	"./Method.js": 126,
-	"./Recipe.js": 127,
-	"./TableOfContents.js": 128
+	"./Crumbs.js": 124,
+	"./Feed.js": 125,
+	"./Ingredient.js": 126,
+	"./Method.js": 127,
+	"./Recipe.js": 128,
+	"./TableOfContents.js": 129
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -7116,10 +7215,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 122;
+webpackContext.id = 123;
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7134,7 +7233,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7149,7 +7248,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7164,7 +7263,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7179,7 +7278,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7194,7 +7293,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7209,7 +7308,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7233,7 +7332,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
