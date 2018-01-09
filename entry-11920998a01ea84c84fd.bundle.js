@@ -557,9 +557,11 @@ function gtag(action) {
 }
 exports.gtag = gtag;
 exports.default = gtag;
-gtag('js', new Date());
-gtag('config', "UA-110945340-1");
-window.addEventListener('load', sendPageviewOnLocationChange);
+if (true) {
+    gtag('js', new Date());
+    gtag('config', "UA-110945340-1");
+    window.addEventListener('load', sendPageviewOnLocationChange);
+}
 function sendPageviewOnLocationChange() {
     var page_path = location.pathname;
     global.setInterval(function () {
@@ -1424,7 +1426,12 @@ var clientRender = function () {
     react_dom_1.render(app, container);
 };
 if (typeof window !== 'undefined') {
-    window.addEventListener('load', clientRender);
+    if (document.readyState === 'complete') {
+        clientRender();
+    }
+    else {
+        window.addEventListener('load', clientRender);
+    }
 }
 exports.default = serverRender;
 if (false) {
@@ -7151,6 +7158,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var DeferredScripts_1 = __webpack_require__(18);
 var DeferredStyles_1 = __webpack_require__(19);
+var GTAG_API_URL = "https://www.googletagmanager.com/gtag/js?id=" + "UA-110945340-1";
 function Root(_a) {
     var website = _a.website,
         page = _a.page,
@@ -7159,9 +7167,9 @@ function Root(_a) {
     var gtagConfigScript = getGtagConfigBundle(localBundles.js);
     var deferredScripts = externalBundles.js.concat(removeGtagConfigBundle(localBundles.js));
     var deferredStyles = externalBundles.css;
-    return React.createElement("html", null, React.createElement("head", null, React.createElement("title", null, page.title, " | ", website.title), React.createElement("meta", { name: 'keywords', content: page.tags.join(', ') }), React.createElement("meta", { name: 'description', content: page.description }), React.createElement("meta", { name: 'viewport', content: 'width=device-width; initial-scale=1.0' }), React.createElement("script", { async: true, type: 'text/javascript', src: "https://www.googletagmanager.com/gtag/js?id=" + "UA-110945340-1" }), React.createElement("script", { type: 'text/javascript', src: gtagConfigScript }), localBundles.css.map(function (url) {
+    return React.createElement("html", null, React.createElement("head", null, React.createElement("title", null, page.title, " | ", website.title), React.createElement("meta", { name: 'keywords', content: page.tags.join(', ') }), React.createElement("meta", { name: 'description', content: page.description }), React.createElement("meta", { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }), React.createElement("script", { async: true, type: 'text/javascript', src: GTAG_API_URL }), React.createElement("script", { type: 'text/javascript', src: gtagConfigScript }), React.createElement("style", { type: 'text/css', dangerouslySetInnerHTML: { __html: 'body { opacity: 0; transition: opacity 300ms ease-in; } ' + 'body.ready { opacity: 1; }' } }), React.createElement("script", { async: true, type: 'text/javascript', dangerouslySetInnerHTML: { __html: 'document.addEventListener(\'DOMContentLoaded\', function() { ' + 'document.body.setAttribute(\'class\', \'ready\'); ' + '});' } }), React.createElement("meta", { property: 'og:url', content: "" + website.baseUrl + page.url }), React.createElement("meta", { property: 'og:title', content: page.title }), page.image !== null ? React.createElement("meta", { property: 'og:image', content: page.image }) : null, React.createElement("meta", { property: 'og:description', content: page.description }), React.createElement("meta", { property: 'og:locale', content: website.locale }), React.createElement("meta", { property: 'og:type', content: page.url === '/' ? 'website' : 'article' }), localBundles.css.map(function (url) {
         return React.createElement("link", { type: 'text/css', rel: 'stylesheet', href: url, key: url });
-    }), React.createElement("meta", { property: 'og:url', content: "" + website.baseUrl + page.url }), React.createElement("meta", { property: 'og:title', content: page.title }), page.image !== null ? React.createElement("meta", { property: 'og:image', content: page.image }) : null, React.createElement("meta", { property: 'og:description', content: page.description }), React.createElement("meta", { property: 'og:locale', content: website.locale }), React.createElement("meta", { property: 'og:type', content: page.url === '/' ? 'website' : 'article' })), React.createElement("body", null, React.createElement("div", { id: 'root' }, "%%%BODY%%%"), React.createElement(DeferredScripts_1.default, { srcs: deferredScripts }), React.createElement(DeferredStyles_1.default, { hrefs: deferredStyles })));
+    })), React.createElement("body", null, React.createElement("div", { id: 'root' }, "%%%BODY%%%"), React.createElement(DeferredScripts_1.default, { srcs: deferredScripts }), React.createElement(DeferredStyles_1.default, { hrefs: deferredStyles })));
 }
 exports.Root = Root;
 exports.default = Root;

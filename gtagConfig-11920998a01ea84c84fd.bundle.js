@@ -128,9 +128,11 @@ function gtag(action) {
 }
 exports.gtag = gtag;
 exports.default = gtag;
-gtag('js', new Date());
-gtag('config', "UA-110945340-1");
-window.addEventListener('load', sendPageviewOnLocationChange);
+if (true) {
+    gtag('js', new Date());
+    gtag('config', "UA-110945340-1");
+    window.addEventListener('load', sendPageviewOnLocationChange);
+}
 function sendPageviewOnLocationChange() {
     var page_path = location.pathname;
     global.setInterval(function () {
