@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_102__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_103__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(117);
+var Feed_1 = __webpack_require__(118);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(119);
+var Recipe_1 = __webpack_require__(120);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(121);
+var Root_1 = __webpack_require__(122);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(103);
+var s = __webpack_require__(104);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(104);
+var s = __webpack_require__(105);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,9 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-ROOT: __webpack_require__(98),
-LAYOUTS: __webpack_require__(99),
-INCLUDES: __webpack_require__(123)};
+UPLOADS: __webpack_require__(98),
+ROOT: __webpack_require__(99),
+LAYOUTS: __webpack_require__(100),
+INCLUDES: __webpack_require__(124)};
 
 
 /***/ }),
@@ -471,7 +472,7 @@ INCLUDES: __webpack_require__(123)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(105);
+var s = __webpack_require__(106);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -521,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(109);
+var s = __webpack_require__(110);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -631,9 +632,7 @@ function titleFromUrl(url, requiredBy) {
     return title;
 }
 function urlFromTitle(title, requiredBy) {
-    var url = "/" + title.toLowerCase().replace(/ /g, '-');
-    console.warn(requiredBy + ".url is not defined; defaulting to " + url);
-    return url;
+    return "/" + title.toLowerCase().replace(/ /g, '-');
 }
 function parseCollection(key, cfg) {
     var requiredBy = "collections['" + key + "']";
@@ -653,12 +652,16 @@ function createPage(role, title, description, url, layout, body, image, output, 
             throw new Error("unrecognized role: " + role + " in " + requiredBy);
     }
 }
+var TITLE_LENGTH_WARN = 60;
 function parsePage(name, body, frontMatter, defaultLayout) {
     var requiredBy = "pages['" + name + "']";
     var page = createPage(checkIsString(frontMatter.role || 'page', requiredBy + ".role"), checkIsString(frontMatter.title || titleFromUrl(name, requiredBy), requiredBy + ".title"), checkIsString(frontMatter.description || '', requiredBy + ".description"), checkIsString(frontMatter.permalink || urlFromTitle(name, requiredBy), requiredBy + ".url"), website.getLayoutOfName(checkIsString(frontMatter.layout || defaultLayout, requiredBy + ".layout"), requiredBy), body, checkIsOptionalString(frontMatter.image || null, requiredBy + ".image"), frontMatter.output != false, new Date(checkIsString(frontMatter.date, requiredBy + ".date")), checkIsArray(frontMatter.categories || [], requiredBy + ".categories")
         .concat(frontMatter.category !== undefined
         ? [checkIsString(frontMatter.category, requiredBy + ".category")]
         : []), checkIsArray(frontMatter.tags || [], requiredBy + ".tags"), checkIsOptionalBoolean(frontMatter.feed, true, requiredBy + ".feed"), requiredBy);
+    if (page.title.length > TITLE_LENGTH_WARN) {
+        console.warn(requiredBy + ".url is to long (" + page.title.length + " > " + TITLE_LENGTH_WARN + ")");
+    }
     return page;
 }
 function createCollection(key, cfg, context) {
@@ -685,7 +688,7 @@ exports.default = collections;
 /* 16 */
 /***/ (function(module, exports) {
 
-module.exports = {"title":"SztukaUniwersalna.pl","timezone":"Europe/Warsaw","collections":{"categories":{"title":"Categories","output":false,"layout":"ParrotLayout"},"drafts":{"title":"Drafts","output":false,"layout":"ParrotLayout"},"pages":{"title":"Pages","output":false,"layout":"ParrotLayout"},"posts":{"title":"Posts","output":true,"layout":"ParrotLayout"},"uploads":{"title":"Uploads","output":false}},"baseUrl":"http://sztukauniwersalna.pl","image":"http://sztukauniwersalna.pl/logo-gradient.png","locale":"pl_PL","menu":[{"title":"Sztuka Ubioru","short":"Moda","url":"/sztuka-ubioru","icon":"content_cut"},{"title":"Sztuka Makijażu","short":"Makijaż","url":"/sztuka-makijazu","icon":"remove_red_eye"},{"title":"Sztuka Gotowania","short":"Kuchnia","url":"/sztuka-gotowania","icon":"restaurant"},{"title":"Sztuka dla Sztuki","short":"Sztuka","url":"/sztuka-dla-sztuki","icon":"palette"},{"title":"Kim jest Olela?","short":"O mnie","url":"/kim-jest-olela","icon":"mood"}]};
+module.exports = {"title":"SztukaUniwersalna.pl","timezone":"Europe/Warsaw","collections":{"categories":{"title":"Categories","output":false,"layout":"ParrotLayout"},"pages":{"title":"Pages","output":false,"layout":"ParrotLayout"},"posts":{"title":"Posts","output":true,"layout":"ParrotLayout"},"uploads":{"title":"Uploads","output":false}},"baseUrl":"http://sztukauniwersalna.pl","image":"http://sztukauniwersalna.pl/logo-gradient.png","locale":"pl_PL","menu":[{"title":"Sztuka Ubioru","short":"Moda","url":"/sztuka-ubioru","icon":"content_cut"},{"title":"Sztuka Makijażu","short":"Makijaż","url":"/sztuka-makijazu","icon":"remove_red_eye"},{"title":"Sztuka Gotowania","short":"Kuchnia","url":"/sztuka-gotowania","icon":"restaurant"},{"title":"Sztuka dla Sztuki","short":"Sztuka","url":"/sztuka-dla-sztuki","icon":"palette"},{"title":"Kim jest Olela?","short":"O mnie","url":"/kim-jest-olela","icon":"mood"}]};
 
 
 /***/ }),
@@ -856,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(122);
+__webpack_require__(123);
 
 
 
@@ -896,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(100);
+var react_disqus_comments_1 = __webpack_require__(101);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -906,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(114);
-var s = __webpack_require__(116);
+var FacebookLike_1 = __webpack_require__(115);
+var s = __webpack_require__(117);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1019,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(106);
-var s = __webpack_require__(107);
+__webpack_require__(107);
+var s = __webpack_require__(108);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1050,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(108);
+var s = __webpack_require__(109);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1095,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(111);
+var s = __webpack_require__(112);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1129,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(110);
+var s = __webpack_require__(111);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1174,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(112);
+var s = __webpack_require__(113);
 function Item(props) {
     return null;
 }
@@ -1257,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(113);
+var s = __webpack_require__(114);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1281,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(118);
+var s = __webpack_require__(119);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1689,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(130);
-var menu_1 = __webpack_require__(131);
+var tags_1 = __webpack_require__(131);
+var menu_1 = __webpack_require__(132);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -1762,10 +1765,10 @@ pages_1.default.forEach(function (page) {
 function descriptionFromContent(page) {
     var element = react_1.createElement(page.body, { website: website, page: page, respectLimit: true });
     var router = react_1.createElement(react_router_dom_1.StaticRouter, { location: page.url, context: {} }, element);
-    return utils_1.stripTags(server_1.renderToStaticMarkup(router));
+    return removeEntities(utils_1.stripTags(server_1.renderToStaticMarkup(router)));
 }
 function descriptionFromPages(page) {
-    return index.title + " " + page.title + ": " + page.pages.map(function (p) { return p.title; }).join(', ');
+    return removeEntities(index.title + " " + page.title + ": " + page.pages.map(function (p) { return p.title; }).join(', '));
 }
 function imageFromContent(page) {
     var element = react_1.createElement(page.body, { website: website, page: page, respectLimit: false });
@@ -1783,6 +1786,11 @@ function checkIsString(value, name) {
         throw new Error(name + " must be a string; got " + value + " (" + typeof value + ")");
     }
     return value;
+}
+function removeEntities(str) {
+    return str
+        .replace(/&nbsp;/g, ' ')
+        .replace(/&[^\s;]+;/g, '');
 }
 
 
@@ -2395,7 +2403,7 @@ var component = exports.component = function component(data) {
     )
   );
 };
-var frontMatter = exports.frontMatter = { "title": "Sztuka Uniwersalna", "date": "2017-07-15T20:12:00.000Z", "permalink": "/", "tags": ["index", "sztuka", "uniwersalna", "moda", "makijaż", "gotowanie", "codzienność", "współczesna", "abstrakcja", "inspiracje"], "description": "Sztuka w codzienności. Aleksandra Krawczyk prezentuje sposoby na odnalezienie odrobiny sztuki w codziennych czynnościach takich jak gotowanie, makijaż, oraz moda. Sztuka współczesna, sztuka abstrakcyjna, inspiracje dziełami wielkich twórców.", "feed": false };
+var frontMatter = exports.frontMatter = { "title": "Sztuka Uniwersalna", "date": "2017-07-15T20:12:00.000Z", "permalink": "/", "tags": ["index", "sztuka", "uniwersalna", "kreacja", "moda", "makijaż", "gotowanie", "moodboard", "artysta", "art"], "description": "Sztuka w codzienności. Znajdź sposoby na odnalezienie odrobiny sztuki w codziennych czynnościach takich jak gotowanie, makijaż, oraz moda. Sztuka współczesna, sztuka abstrakcyjna, inspiracje dziełami wielkich twórców.", "feed": false };
 var body = exports.body = "<div>\n  <Feed {...data} feed={ data.website.getCollectionOfTitle('Posts').pages } />\n</div>\n";
 var raw = exports.raw = "\n<div>\n  <Feed {...data} feed={ data.website.getCollectionOfTitle('Posts').pages } />\n</div>\n\n";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
@@ -6538,6 +6546,18 @@ webpackEmptyContext.id = 98;
 
 /***/ }),
 /* 99 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 99;
+
+/***/ }),
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -6558,19 +6578,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 99;
+webpackContext.id = 100;
 
 /***/ }),
-/* 100 */
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(101);
+module.exports = __webpack_require__(102);
 
 /***/ }),
-/* 101 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6588,7 +6608,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(102);
+var _propTypes = __webpack_require__(103);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -6792,13 +6812,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 102 */
+/* 103 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_102__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_103__;
 
 /***/ }),
-/* 103 */
+/* 104 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6812,7 +6832,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 104 */
+/* 105 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6820,7 +6840,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 105 */
+/* 106 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6833,7 +6853,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 106 */
+/* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6867,7 +6887,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 107 */
+/* 108 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6880,7 +6900,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6889,7 +6909,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6897,7 +6917,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6905,7 +6925,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6920,7 +6940,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6935,7 +6955,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6950,7 +6970,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6974,7 +6994,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(115);
+var s = __webpack_require__(116);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -7005,7 +7025,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7013,7 +7033,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7037,7 +7057,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7088,7 +7108,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7096,7 +7116,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7105,7 +7125,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(120);
+var s = __webpack_require__(121);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -7138,7 +7158,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7148,7 +7168,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7192,22 +7212,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 124,
-	"./Feed.js": 125,
-	"./Ingredient.js": 126,
-	"./Method.js": 127,
-	"./Recipe.js": 128,
-	"./TableOfContents.js": 129
+	"./Crumbs.js": 125,
+	"./Feed.js": 126,
+	"./Ingredient.js": 127,
+	"./Method.js": 128,
+	"./Recipe.js": 129,
+	"./TableOfContents.js": 130
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -7223,10 +7243,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 123;
+webpackContext.id = 124;
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7241,7 +7261,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7256,7 +7276,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7271,7 +7291,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7286,7 +7306,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7301,7 +7321,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7316,7 +7336,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7340,7 +7360,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
