@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_103__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_104__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(118);
+var Feed_1 = __webpack_require__(119);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(120);
+var Recipe_1 = __webpack_require__(121);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(122);
+var Root_1 = __webpack_require__(123);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(104);
+var s = __webpack_require__(105);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(105);
+var s = __webpack_require__(106);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(98),
-ROOT: __webpack_require__(99),
-LAYOUTS: __webpack_require__(100),
-INCLUDES: __webpack_require__(124)};
+UPLOADS: __webpack_require__(99),
+ROOT: __webpack_require__(100),
+LAYOUTS: __webpack_require__(101),
+INCLUDES: __webpack_require__(125)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(124)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(106);
+var s = __webpack_require__(107);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(110);
+var s = __webpack_require__(111);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(123);
+__webpack_require__(124);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(101);
+var react_disqus_comments_1 = __webpack_require__(102);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(115);
-var s = __webpack_require__(117);
+var FacebookLike_1 = __webpack_require__(116);
+var s = __webpack_require__(118);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(107);
-var s = __webpack_require__(108);
+__webpack_require__(108);
+var s = __webpack_require__(109);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(109);
+var s = __webpack_require__(110);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(112);
+var s = __webpack_require__(113);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(111);
+var s = __webpack_require__(112);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(113);
+var s = __webpack_require__(114);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(114);
+var s = __webpack_require__(115);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(119);
+var s = __webpack_require__(120);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(131);
-var menu_1 = __webpack_require__(132);
+var tags_1 = __webpack_require__(132);
+var menu_1 = __webpack_require__(133);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2674,7 +2674,8 @@ var map = {
 	"./2017-12-31-kolagen.markdown": 94,
 	"./2018-01-04-ekspresjonizm-abstrakcyjny-moodboard.markdown": 95,
 	"./2018-01-05-smaki-zimy-vol-dot-1-kaczka-z-sosem-pomaranczowym-i-jablkami-w-tymianku.markdown": 96,
-	"./2018-01-08-smaki-zimy-vol-dot-2-bezglutenowy-chlebek-czekoladowo-korzenny-z-sosem-truskawkowo-rozmarynowym.markdown": 97
+	"./2018-01-08-smaki-zimy-vol-dot-2-bezglutenowy-chlebek-czekoladowo-korzenny-z-sosem-truskawkowo-rozmarynowym.markdown": 97,
+	"./2018-01-14-o-kolorach-czerwien-cz-dot-1.markdown": 98
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -6534,15 +6535,69 @@ var raw = exports.raw = "\n<olela-narrative>\nŚwięta, święta i po świętach
 
 /***/ }),
 /* 98 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 98;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Czerwie\u0144... Mi\u0142o\u015B\u0107, nami\u0119tno\u015B\u0107, po\u017C\u0105danie. Kolor kochank\xF3w. Czerwie\u0144 wywo\u0142uje silniejsze reakcje naszej pod\u015Bwiadomo\u015Bci ni\u017C inne kolory. We wschodniej kulturze jest symbolem szcz\u0119\u015Bcia. Panny m\u0142ode z Indii, Chin i Wietnamu zak\u0142adaj\u0105 j\u0105 na siebie w dniu swojego \u015Blubu. W czerwieni pe\u0142no jest tak\u017Ce opozycji \u2013 krwi, nienawi\u015Bci, niebezpiecze\u0144stwa. Przoduje rewolucji, nastraja do walki. R\xF3\u017C na ustach i policzkach m\u0142odej dziewczyny daj\u0105 efekt \u2018dziewiczego rumie\u0144ca\u2019, kt\xF3ry rozsy\u0142a dooko\u0142a sygna\u0142y erotyczne. Ze wzgl\u0119du na sw\xF3j \u0142adunek emocjonalny czerwie\u0144 jest bardzo cz\u0119sto stosowana w reklamie. Ma za zadanie przyku\u0107 uwag\u0119 odbiorcy. Zwr\xF3ci\u0142e\u015B uwag\u0119, \u017Ce wszelkie napisy typu \u2018promocje\u2019, \u2018rabaty\u2019, \u2018wyprzeda\u017C\u2019 pisane s\u0105 zazwyczaj kolorem czerwonym? D\u0142u\u017Csze przebywanie w czerwonym pomieszczeniu mo\u017Ce rozprasza\u0107, denerwowa\u0107, dezorientowa\u0107. Jest to kolor niezwykle dynamiczny, dlatego je\u015Bli chodzi o pomieszczenia \u015Bwietnie sprawdzi si\u0119 w holach, korytarzach tzw.: \u2018miejscach przej\u015Bciowych\u2019 lub np. w salach do \u0107wicze\u0144 fizycznych.'
+    ),
+    _react2.default.createElement(
+      'blockquote',
+      null,
+      _react2.default.createElement(
+        'p',
+        null,
+        'Jako obcego zawcze\u015Bnie ujrza\u0142am! Jako lubego zap\xF3\u017Ano pozna\u0142am! Dziwny mi\u0142o\u015Bci traf si\u0119 na mnie i\u015Bci, \u017Be musz\u0119 kocha\u0107 przedmiot nienawi\u015Bci.'
+      ),
+      _react2.default.createElement(
+        'p',
+        null,
+        '~ Romeo i Julia. akt I, sc. 5, wyd. Gebethner i Wolff 1913, s. 26, t\u0142um. J\xF3zef Paszkowski.'
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/6897099/ello-optimized-2adb5b90.jpg', alt: 'Zdj\u0119cie przedstawia portret m\u0142odej kobiety w mocnym makija\u017Cu. \u015Awiat\u0142o na zdj\u0119ciu jest mocno czerwone.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "O kolorach: Czerwień, cz.1", "date": "2018-01-14T16:53:00.000Z", "categories": ["Sztuka Makijażu"], "tags": ["kolor", "czerwień", "czerwony", "makeup", "makijaż", "sztuka", "art", "artysta", "kreacja"] };
+var body = exports.body = "<p>Czerwień... Miłość, namiętność, pożądanie. Kolor kochanków. Czerwień wywołuje silniejsze reakcje naszej podświadomości niż inne kolory. We wschodniej kulturze jest symbolem szczęścia. Panny młode z Indii, Chin i Wietnamu zakładają ją na siebie w dniu swojego ślubu. W czerwieni pełno jest także opozycji – krwi, nienawiści, niebezpieczeństwa. Przoduje rewolucji, nastraja do walki. Róż na ustach i policzkach młodej dziewczyny dają efekt ‘dziewiczego rumieńca’, który rozsyła dookoła sygnały erotyczne. Ze względu na swój ładunek emocjonalny czerwień jest bardzo często stosowana w reklamie. Ma za zadanie przykuć uwagę odbiorcy. Zwróciłeś uwagę, że wszelkie napisy typu ‘promocje’, ‘rabaty’, ‘wyprzedaż’ pisane są zazwyczaj kolorem czerwonym? Dłuższe przebywanie w czerwonym pomieszczeniu może rozpraszać, denerwować, dezorientować. Jest to kolor niezwykle dynamiczny, dlatego jeśli chodzi o pomieszczenia świetnie sprawdzi się w holach, korytarzach tzw.: ‘miejscach przejściowych’ lub np. w salach do ćwiczeń fizycznych.</p>\n<blockquote>\n<p>Jako obcego zawcześnie ujrzałam!\nJako lubego zapóźno poznałam!\nDziwny miłości traf się na mnie iści,\nŻe muszę kochać przedmiot nienawiści.</p>\n<p>~ Romeo i Julia. akt I, sc. 5, wyd. Gebethner i Wolff 1913, s. 26, tłum. Józef Paszkowski.</p>\n</blockquote>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6897099/ello-optimized-2adb5b90.jpg\" alt=\"Zdjęcie przedstawia portret młodej kobiety w mocnym makijażu. Światło na zdjęciu jest mocno czerwone.\" /></p>\n";
+var raw = exports.raw = "\nCzerwień… Miłość, namiętność, pożądanie. Kolor kochanków. Czerwień wywołuje silniejsze reakcje naszej podświadomości niż inne kolory. We wschodniej kulturze jest symbolem szczęścia. Panny młode z Indii, Chin i Wietnamu zakładają ją na siebie w dniu swojego ślubu. W czerwieni pełno jest także opozycji – krwi, nienawiści, niebezpieczeństwa. Przoduje rewolucji, nastraja do walki. Róż na ustach i policzkach młodej dziewczyny dają efekt ‘dziewiczego rumieńca’, który rozsyła dookoła sygnały erotyczne. Ze względu na swój ładunek emocjonalny czerwień jest bardzo często stosowana w reklamie. Ma za zadanie przykuć uwagę odbiorcy. Zwróciłeś uwagę, że wszelkie napisy typu ‘promocje’, ‘rabaty’, ‘wyprzedaż’ pisane są zazwyczaj kolorem czerwonym? Dłuższe przebywanie w czerwonym pomieszczeniu może rozpraszać, denerwować, dezorientować. Jest to kolor niezwykle dynamiczny, dlatego jeśli chodzi o pomieszczenia świetnie sprawdzi się w holach, korytarzach tzw.: ‘miejscach przejściowych’ lub np. w salach do ćwiczeń fizycznych.\n\n> Jako obcego zawcześnie ujrzałam!\n> Jako lubego zapóźno poznałam!\n> Dziwny miłości traf się na mnie iści,\n> Że muszę kochać przedmiot nienawiści.\n> \n> ~ Romeo i Julia. akt I, sc. 5, wyd. Gebethner i Wolff 1913, s. 26, tłum. Józef Paszkowski.\n\n![Zdjęcie przedstawia portret młodej kobiety w mocnym makijażu. Światło na zdjęciu jest mocno czerwone.](https://assets2.ello.co/uploads/asset/attachment/6897099/ello-optimized-2adb5b90.jpg)";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 99 */
@@ -6558,6 +6613,18 @@ webpackEmptyContext.id = 99;
 
 /***/ }),
 /* 100 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 100;
+
+/***/ }),
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -6578,19 +6645,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 100;
+webpackContext.id = 101;
 
 /***/ }),
-/* 101 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(102);
+module.exports = __webpack_require__(103);
 
 /***/ }),
-/* 102 */
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6608,7 +6675,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(103);
+var _propTypes = __webpack_require__(104);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -6812,13 +6879,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 103 */
+/* 104 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_103__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_104__;
 
 /***/ }),
-/* 104 */
+/* 105 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6832,7 +6899,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 105 */
+/* 106 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6840,7 +6907,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 106 */
+/* 107 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6853,7 +6920,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 107 */
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6887,7 +6954,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6900,7 +6967,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6909,7 +6976,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6917,7 +6984,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6925,7 +6992,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6940,7 +7007,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6955,7 +7022,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6970,7 +7037,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6994,7 +7061,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(116);
+var s = __webpack_require__(117);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -7025,7 +7092,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7033,7 +7100,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7057,7 +7124,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7108,7 +7175,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7116,7 +7183,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7125,7 +7192,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(121);
+var s = __webpack_require__(122);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -7158,7 +7225,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7168,7 +7235,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7212,22 +7279,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 125,
-	"./Feed.js": 126,
-	"./Ingredient.js": 127,
-	"./Method.js": 128,
-	"./Recipe.js": 129,
-	"./TableOfContents.js": 130
+	"./Crumbs.js": 126,
+	"./Feed.js": 127,
+	"./Ingredient.js": 128,
+	"./Method.js": 129,
+	"./Recipe.js": 130,
+	"./TableOfContents.js": 131
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -7243,10 +7310,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 124;
+webpackContext.id = 125;
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7261,7 +7328,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7276,7 +7343,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7291,7 +7358,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7306,7 +7373,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7321,7 +7388,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7336,7 +7403,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7360,7 +7427,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
