@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_104__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_105__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(119);
+var Feed_1 = __webpack_require__(120);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(121);
+var Recipe_1 = __webpack_require__(122);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(123);
+var Root_1 = __webpack_require__(124);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(105);
+var s = __webpack_require__(106);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(106);
+var s = __webpack_require__(107);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(99),
-ROOT: __webpack_require__(100),
-LAYOUTS: __webpack_require__(101),
-INCLUDES: __webpack_require__(125)};
+UPLOADS: __webpack_require__(100),
+ROOT: __webpack_require__(101),
+LAYOUTS: __webpack_require__(102),
+INCLUDES: __webpack_require__(126)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(125)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(107);
+var s = __webpack_require__(108);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(111);
+var s = __webpack_require__(112);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(124);
+__webpack_require__(125);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(102);
+var react_disqus_comments_1 = __webpack_require__(103);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(116);
-var s = __webpack_require__(118);
+var FacebookLike_1 = __webpack_require__(117);
+var s = __webpack_require__(119);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(108);
-var s = __webpack_require__(109);
+__webpack_require__(109);
+var s = __webpack_require__(110);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(110);
+var s = __webpack_require__(111);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(113);
+var s = __webpack_require__(114);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(112);
+var s = __webpack_require__(113);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(114);
+var s = __webpack_require__(115);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(115);
+var s = __webpack_require__(116);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(120);
+var s = __webpack_require__(121);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(132);
-var menu_1 = __webpack_require__(133);
+var tags_1 = __webpack_require__(133);
+var menu_1 = __webpack_require__(134);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2675,7 +2675,8 @@ var map = {
 	"./2018-01-04-ekspresjonizm-abstrakcyjny-moodboard.markdown": 95,
 	"./2018-01-05-smaki-zimy-vol-dot-1-kaczka-z-sosem-pomaranczowym-i-jablkami-w-tymianku.markdown": 96,
 	"./2018-01-08-smaki-zimy-vol-dot-2-bezglutenowy-chlebek-czekoladowo-korzenny-z-sosem-truskawkowo-rozmarynowym.markdown": 97,
-	"./2018-01-14-o-kolorach-czerwien-cz-dot-1.markdown": 98
+	"./2018-01-14-o-kolorach-czerwien-cz-dot-1.markdown": 98,
+	"./2018-01-22-make-up-inspirowany-obrazem-tutti-frutti-by-helen-frankenthaler.markdown": 99
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -6676,15 +6677,66 @@ var raw = exports.raw = "\nCzerwień… Miłość, namiętność, pożądanie. K
 
 /***/ }),
 /* 99 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 99;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Helen Frankenthaler \u2013 jedna z niewielu kobiet ameryka\u0144skiego malarstwa, kt\xF3ra mia\u0142a faktyczny wp\u0142yw na jego rozw\xF3j. Pionierka \u2018color field painting\u2019, rozszerza\u0142a mo\u017Cliwo\u015Bci malarstwa abstrakcyjnego odnosz\u0105c si\u0119 w niebezpo\u015Bredni spos\xF3b do figuracji i pejza\u017Cu. Imponuje i inspiruje do tej pory.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/6960376/ello-optimized-f6c8c2b3.jpg', alt: 'Obraz przedstawia r\xF3\u017Cnokolorowe plamy oraz zdj\u0119cie oka w mocnym makija\u017Cu.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/6960377/ello-optimized-093df884.jpg', alt: 'Obraz przedstawia plamy w kolorze czerwonym, pomara\u0144czowym i \u017C\xF3\u0142tym oraz makija\u017C oka w tych samych barwach.' })
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Urodzi\u0142a si\u0119 12 grudnia 1928 roku w Nowym Jorku i tam te\u017C dorasta\u0142a. Jej kariera zacz\u0119\u0142a si\u0119 w 1950 roku, kiedy to Adolph Gottlieb wybra\u0142 jej obraz \u2018Pla\u017Ca\u2019 do zaprezentowania na wystawie pt.; \u2018Pi\u0119tna\u015Bcie Nieznanych: Selekcji dokonali Arty\u015Bci Galerii Kootz\u2019. Pierwsza solowa wystawa Helen mia\u0142a miejsce rok p\xF3\u017Aniej w nowojorskiej Tibor de Nagy Gallery. W 1952 tworzy prze\u0142omowy dla ekspresjonizmu abstrakcyjnego obraz \u2018G\xF3ry i morze\u2019. U\u017Cywa do tego swojej innowacyjnej techniki \u2018wsi\u0105kaj\u0105cej plamy\u2019 - maluje na niezagruntowanym p\u0142\xF3tnie, pozwalaj\u0105c farbie swobodnie wnikn\u0105\u0107 w jego powierzchnie. Pracowa\u0142a podobnie jak Jackson Pollock - rozk\u0142adaj\u0105c powierzchnie p\u0142\xF3tna na pod\u0142odze. Ta\u0144cz\u0105c dooko\u0142a niego \u2018manipulowa\u0142a\u2019 plam\u0105 tworz\u0105c niesamowite kompozycje. Opr\xF3cz malarstwa na p\u0142\xF3tnie i papierze uprawia\u0142a tak\u017Ce inne techniki \u2013 rze\u017Ab\u0119, ceramik\u0119, tapiseri\u0119, grafik\u0119 warsztatow\u0105.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/6960379/ello-optimized-657d8a69.jpg', alt: 'Zdj\u0119cie przedstawia zamkni\u0119te oczy w mocnym, kolorowym makija\u017Cu.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Make-up inspirowany obrazem. 'Tutti Frutti' by Helen Frankenthaler", "date": "2018-01-22T16:38:00.000Z", "categories": ["Sztuka Makijażu"], "tags": ["ekspresjonizm", "abstrakcyjny", "helen frankenthaler", "makeup", "makijaż", "dzieło", "obraz", "artysta", "art", "sztuka"] };
+var body = exports.body = "<p>Helen Frankenthaler – jedna z niewielu kobiet amerykańskiego malarstwa, która miała faktyczny wpływ na jego rozwój. Pionierka ‘color field painting’, rozszerzała możliwości malarstwa abstrakcyjnego odnosząc się w niebezpośredni sposób do figuracji i pejzażu. Imponuje i inspiruje do tej pory.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6960376/ello-optimized-f6c8c2b3.jpg\" alt=\"Obraz przedstawia różnokolorowe plamy oraz zdjęcie oka w mocnym makijażu.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6960377/ello-optimized-093df884.jpg\" alt=\"Obraz przedstawia plamy w kolorze czerwonym, pomarańczowym i żółtym oraz makijaż oka w tych samych barwach.\" /></p>\n<p>Urodziła się 12 grudnia 1928 roku w Nowym Jorku i tam też dorastała. Jej kariera zaczęła się w 1950 roku, kiedy to Adolph Gottlieb wybrał jej obraz ‘Plaża’ do zaprezentowania na wystawie pt.; ‘Piętnaście Nieznanych: Selekcji dokonali Artyści Galerii Kootz’. Pierwsza solowa wystawa Helen miała miejsce rok później w nowojorskiej Tibor de Nagy Gallery. W 1952 tworzy przełomowy dla ekspresjonizmu abstrakcyjnego obraz ‘Góry i morze’. Używa do tego swojej innowacyjnej techniki ‘wsiąkającej plamy’ - maluje na niezagruntowanym płótnie, pozwalając farbie swobodnie wniknąć w jego powierzchnie. Pracowała podobnie jak Jackson Pollock - rozkładając powierzchnie płótna na podłodze. Tańcząc dookoła niego ‘manipulowała’ plamą tworząc niesamowite kompozycje. Oprócz malarstwa na płótnie i papierze uprawiała także inne techniki – rzeźbę, ceramikę, tapiserię, grafikę warsztatową.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6960379/ello-optimized-657d8a69.jpg\" alt=\"Zdjęcie przedstawia zamknięte oczy w mocnym, kolorowym makijażu.\" /></p>\n";
+var raw = exports.raw = "\nHelen Frankenthaler – jedna z niewielu kobiet amerykańskiego malarstwa, która miała faktyczny wpływ na jego rozwój. Pionierka ‘color field painting’, rozszerzała możliwości malarstwa abstrakcyjnego odnosząc się w niebezpośredni sposób do figuracji i pejzażu. Imponuje i inspiruje do tej pory.\n\n![Obraz przedstawia różnokolorowe plamy oraz zdjęcie oka w mocnym makijażu.](https://assets1.ello.co/uploads/asset/attachment/6960376/ello-optimized-f6c8c2b3.jpg)\n![Obraz przedstawia plamy w kolorze czerwonym, pomarańczowym i żółtym oraz makijaż oka w tych samych barwach.](https://assets0.ello.co/uploads/asset/attachment/6960377/ello-optimized-093df884.jpg)\n\nUrodziła się 12 grudnia 1928 roku w Nowym Jorku i tam też dorastała. Jej kariera zaczęła się w 1950 roku, kiedy to Adolph Gottlieb wybrał jej obraz ‘Plaża’ do zaprezentowania na wystawie pt.; ‘Piętnaście Nieznanych: Selekcji dokonali Artyści Galerii Kootz’. Pierwsza solowa wystawa Helen miała miejsce rok później w nowojorskiej Tibor de Nagy Gallery. W 1952 tworzy przełomowy dla ekspresjonizmu abstrakcyjnego obraz ‘Góry i morze’. Używa do tego swojej innowacyjnej techniki ‘wsiąkającej plamy’ - maluje na niezagruntowanym płótnie, pozwalając farbie swobodnie wniknąć w jego powierzchnie. Pracowała podobnie jak Jackson Pollock - rozkładając powierzchnie płótna na podłodze. Tańcząc dookoła niego ‘manipulowała’ plamą tworząc niesamowite kompozycje. Oprócz malarstwa na płótnie i papierze uprawiała także inne techniki – rzeźbę, ceramikę, tapiserię, grafikę warsztatową.\n\n![Zdjęcie przedstawia zamknięte oczy w mocnym, kolorowym makijażu.](https://assets0.ello.co/uploads/asset/attachment/6960379/ello-optimized-657d8a69.jpg)\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 100 */
@@ -6700,6 +6752,18 @@ webpackEmptyContext.id = 100;
 
 /***/ }),
 /* 101 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 101;
+
+/***/ }),
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -6720,19 +6784,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 101;
+webpackContext.id = 102;
 
 /***/ }),
-/* 102 */
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(103);
+module.exports = __webpack_require__(104);
 
 /***/ }),
-/* 103 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6750,7 +6814,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(104);
+var _propTypes = __webpack_require__(105);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -6954,13 +7018,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 104 */
+/* 105 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_104__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_105__;
 
 /***/ }),
-/* 105 */
+/* 106 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6974,7 +7038,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 106 */
+/* 107 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6982,7 +7046,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 107 */
+/* 108 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -6995,7 +7059,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7029,7 +7093,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7042,7 +7106,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7051,7 +7115,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7059,7 +7123,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7067,7 +7131,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7082,7 +7146,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7097,7 +7161,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7112,7 +7176,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7136,7 +7200,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(117);
+var s = __webpack_require__(118);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -7167,7 +7231,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7175,7 +7239,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7199,7 +7263,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7250,7 +7314,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7258,7 +7322,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7267,7 +7331,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(122);
+var s = __webpack_require__(123);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -7300,7 +7364,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7310,7 +7374,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7354,22 +7418,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 126,
-	"./Feed.js": 127,
-	"./Ingredient.js": 128,
-	"./Method.js": 129,
-	"./Recipe.js": 130,
-	"./TableOfContents.js": 131
+	"./Crumbs.js": 127,
+	"./Feed.js": 128,
+	"./Ingredient.js": 129,
+	"./Method.js": 130,
+	"./Recipe.js": 131,
+	"./TableOfContents.js": 132
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -7385,10 +7449,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 125;
+webpackContext.id = 126;
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7403,7 +7467,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7418,7 +7482,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7433,7 +7497,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7448,7 +7512,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7463,7 +7527,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7478,7 +7542,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7502,7 +7566,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
