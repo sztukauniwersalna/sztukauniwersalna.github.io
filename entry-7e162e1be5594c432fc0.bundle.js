@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_105__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_106__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(120);
+var Feed_1 = __webpack_require__(121);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(122);
+var Recipe_1 = __webpack_require__(123);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(124);
+var Root_1 = __webpack_require__(125);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(106);
+var s = __webpack_require__(107);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(107);
+var s = __webpack_require__(108);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(100),
-ROOT: __webpack_require__(101),
-LAYOUTS: __webpack_require__(102),
-INCLUDES: __webpack_require__(126)};
+UPLOADS: __webpack_require__(101),
+ROOT: __webpack_require__(102),
+LAYOUTS: __webpack_require__(103),
+INCLUDES: __webpack_require__(127)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(126)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(108);
+var s = __webpack_require__(109);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(112);
+var s = __webpack_require__(113);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(125);
+__webpack_require__(126);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(103);
+var react_disqus_comments_1 = __webpack_require__(104);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(117);
-var s = __webpack_require__(119);
+var FacebookLike_1 = __webpack_require__(118);
+var s = __webpack_require__(120);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(109);
-var s = __webpack_require__(110);
+__webpack_require__(110);
+var s = __webpack_require__(111);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(111);
+var s = __webpack_require__(112);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(114);
+var s = __webpack_require__(115);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(113);
+var s = __webpack_require__(114);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(115);
+var s = __webpack_require__(116);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(116);
+var s = __webpack_require__(117);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(121);
+var s = __webpack_require__(122);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(133);
-var menu_1 = __webpack_require__(134);
+var tags_1 = __webpack_require__(134);
+var menu_1 = __webpack_require__(135);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2676,7 +2676,8 @@ var map = {
 	"./2018-01-05-smaki-zimy-vol-dot-1-kaczka-z-sosem-pomaranczowym-i-jablkami-w-tymianku.markdown": 96,
 	"./2018-01-08-smaki-zimy-vol-dot-2-bezglutenowy-chlebek-czekoladowo-korzenny-z-sosem-truskawkowo-rozmarynowym.markdown": 97,
 	"./2018-01-14-o-kolorach-czerwien-cz-dot-1.markdown": 98,
-	"./2018-01-22-make-up-inspirowany-obrazem-tutti-frutti-by-helen-frankenthaler.markdown": 99
+	"./2018-01-22-make-up-inspirowany-obrazem-tutti-frutti-by-helen-frankenthaler.markdown": 99,
+	"./2018-01-24-moje-wybory-styczen.markdown": 100
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -6761,15 +6762,74 @@ var raw = exports.raw = "\nHelen Frankenthaler – jedna z niewielu kobiet amery
 
 /***/ }),
 /* 100 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 100;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'olela-narrative',
+      null,
+      'Przez moment mia\u0142am wra\u017Cenie, \u017Ce \u015Bnieg w tym roku nie spadnie. Na pocz\u0105tku stycznia temperatury plasowa\u0142y si\u0119 powy\u017Cej zera. \u015Arodek stycznia mia\u0142 nam do zaoferowania lekki opad. Koniec stycznia \u2013 nareszcie! Obudzi\u0142am si\u0119 pewnej spokojnej soboty i wyjrza\u0142am przez okno, a tam... z nieba spada\u0142y p\u0142atki \u015Bniegu wielko\u015Bci mandarynek. W takie dni nie tylko ulice s\u0105 bia\u0142e, ale te\u017C ca\u0142e niebo spowija aura jasnej szaro\u015Bci. Zupe\u0142nie jakby jaki\u015B Naczelny Grafik \u015Awiata przesun\u0105\u0142 \u015Brodkowy suwak \u2018poziom\xF3w\u2019 w lew\u0105 stron\u0119. Dopiero teraz zat\u0119skni\u0142am za aromatem \u015Bwi\u0105t. Przypomnia\u0142 mi si\u0119 s\u0142odki smak klusek z makiem i kompotu z suszu. Jedyne, co mia\u0142am w domu, co mog\u0142o przybli\u017Cy\u0107 mi miniony czas to torebka mi\u0119towej herbaty (po \u015Bwi\u0105tecznych \u015Bniadaniach, obiadkach i kolacjach ratuje ludzkie brzuchy). Zaparzy\u0142am fili\u017Cank\u0119 i delektowa\u0142am si\u0119 ni\u0105 patrz\u0105c na rozbielony krajobraz.'
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Kosmetyk'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Nowo\u015B\u0107 \u2013 paletka Mint Chocolate od Make Up Revolution. Kolory w tej palecie s\u0105 inspirowane odcieniami z palety Subculture by Anastasia Beverly Hills (test i por\xF3wnanie tych dw\xF3ch palet przygotowa\u0142a dla Was ',
+      _react2.default.createElement(
+        'a',
+        { href: 'https://www.youtube.com/watch?v=bPeJ1FKyLZA' },
+        'Adrianna Grotkowska Make Up na kanale youtube'
+      ),
+      '). Przepi\u0119kne opakowanie, kt\xF3re ma si\u0119 ochot\u0119 schrupa\u0107. W \u015Brodku znajdziemy 16 cieni (co, w stosunku do ceny ca\u0142o\u015Bci, daje nam niewiele ponad 3 z\u0142 za cie\u0144) + dwustronn\u0105 pacynk\u0119 do aplikacji i du\u017Ce lusterko. 7 z odcieni ma matowe wyko\u0144czenie, reszta pozwala na uzyskanie na powiece wr\u0119cz \u2018foliowego\u2019 efektu. Jedyne, czego brakuje mi w tej palecie w por\xF3wnaniu do Subculture ABH to ciep\u0142y, matowy \u017C\xF3\u0142ty odcie\u0144, kt\xF3ry w Mint Chocolate zast\u0105piony zosta\u0142 rodzajem jasnej sjeny. Poza tym, cienie z \u2018Czekoladki\u2019 maj\u0105 naprawd\u0119 niez\u0142\u0105 jako\u015B\u0107, dobrze si\u0119 ze sob\u0105 mieszaj\u0105 i buduj\u0105. A na dodatek pachn\u0105 mi\u0119towo! Mniam!'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/6975381/ello-optimized-a6226126.jpg', alt: 'Zdj\u0119cie przedstawia kompozycj\u0119 przedmiot\xF3w na zielonym tle. Widzimy bia\u0142\u0105 tkanin\u0119 w kolorowe kwiaty, p\u0119dzle, li\u015B\u0107.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/6975382/ello-optimized-37784789.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia, na kt\xF3rych przedstawione s\u0105 kompozycje przedmiot\xF3w z perspektywy lotu ptaka. Widzimy bia\u0142\u0105 tkanin\u0119 w kolorowe kwiaty, li\u015B\u0107, czekolad\u0119.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/6975384/ello-optimized-cd4bfb05.jpg', alt: 'Zdj\u0119cie przedstawia otwart\u0105 palet\u0119 z cieniami do makija\u017Cu oczu, obok le\u017C\u0105 p\u0119dzle kosmetyczne, bia\u0142a tkanina w kolorowe kwiaty, li\u015B\u0107.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/6975385/ello-optimized-4472875e.jpg', alt: 'Zdj\u0119cie przedstawia paletk\u0119 z cieniami do makija\u017Cu oczu. Ca\u0142o\u015B\u0107 na r\xF3\u017Cowym tle uj\u0119ta z perspektywy lotu ptaka. Dooko\u0142a znajduj\u0105 si\u0119 strza\u0142ki i napisy.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Moje wybory: styczeń", "date": "2018-01-24T13:00:00.000Z", "categories": ["Sztuka Ubioru"], "tags": ["wybory", "inspiracje", "zima", "styczeń", "kosmetyk", "perfumy", "książka", "akcesoria"] };
+var body = exports.body = "<olela-narrative>\nPrzez moment miałam wrażenie, że śnieg w tym roku nie spadnie. Na początku stycznia temperatury plasowały się powyżej zera. Środek stycznia miał nam do zaoferowania lekki opad. Koniec stycznia – nareszcie! Obudziłam się pewnej spokojnej soboty i wyjrzałam przez okno, a tam... z nieba spadały płatki śniegu wielkości mandarynek. W takie dni nie tylko ulice są białe, ale też całe niebo spowija aura jasnej szarości. Zupełnie jakby jakiś Naczelny Grafik Świata przesunął środkowy suwak ‘poziomów’ w lewą stronę. Dopiero teraz zatęskniłam za aromatem świąt. Przypomniał mi się słodki smak klusek z makiem i kompotu z suszu. Jedyne, co miałam w domu, co mogło przybliżyć mi miniony czas to torebka miętowej herbaty (po świątecznych śniadaniach, obiadkach i kolacjach ratuje ludzkie brzuchy). Zaparzyłam filiżankę i delektowałam się nią patrząc na rozbielony krajobraz.\n</olela-narrative>\n<h2>Kosmetyk</h2>\n<p>Nowość – paletka Mint Chocolate od Make Up Revolution. Kolory w tej palecie są inspirowane odcieniami z palety Subculture by Anastasia Beverly Hills (test i porównanie tych dwóch palet przygotowała dla Was <a href=\"https://www.youtube.com/watch?v=bPeJ1FKyLZA\">Adrianna Grotkowska Make Up na kanale youtube</a>). Przepiękne opakowanie, które ma się ochotę schrupać. W środku znajdziemy 16 cieni (co, w stosunku do ceny całości, daje nam niewiele ponad 3 zł za cień) + dwustronną pacynkę do aplikacji i duże lusterko. 7 z odcieni ma matowe wykończenie, reszta pozwala na uzyskanie na powiece wręcz ‘foliowego’ efektu. Jedyne, czego brakuje mi w tej palecie w porównaniu do Subculture ABH to ciepły, matowy żółty odcień, który w Mint Chocolate zastąpiony został rodzajem jasnej sjeny. Poza tym, cienie z ‘Czekoladki’ mają naprawdę niezłą jakość, dobrze się ze sobą mieszają i budują. A na dodatek pachną miętowo! Mniam!</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6975381/ello-optimized-a6226126.jpg\" alt=\"Zdjęcie przedstawia kompozycję przedmiotów na zielonym tle. Widzimy białą tkaninę w kolorowe kwiaty, pędzle, liść.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6975382/ello-optimized-37784789.jpg\" alt=\"Obraz przedstawia dwa zdjęcia, na których przedstawione są kompozycje przedmiotów z perspektywy lotu ptaka. Widzimy białą tkaninę w kolorowe kwiaty, liść, czekoladę.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6975384/ello-optimized-cd4bfb05.jpg\" alt=\"Zdjęcie przedstawia otwartą paletę z cieniami do makijażu oczu, obok leżą pędzle kosmetyczne, biała tkanina w kolorowe kwiaty, liść.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6975385/ello-optimized-4472875e.jpg\" alt=\"Zdjęcie przedstawia paletkę z cieniami do makijażu oczu. Całość na różowym tle ujęta z perspektywy lotu ptaka. Dookoła znajdują się strzałki i napisy.\" /></p>\n";
+var raw = exports.raw = "\n<olela-narrative>\nPrzez moment miałam wrażenie, że śnieg w tym roku nie spadnie. Na początku stycznia temperatury plasowały się powyżej zera. Środek stycznia miał nam do zaoferowania lekki opad. Koniec stycznia – nareszcie! Obudziłam się pewnej spokojnej soboty i wyjrzałam przez okno, a tam… z nieba spadały płatki śniegu wielkości mandarynek. W takie dni nie tylko ulice są białe, ale też całe niebo spowija aura jasnej szarości. Zupełnie jakby jakiś Naczelny Grafik Świata przesunął środkowy suwak ‘poziomów’ w lewą stronę. Dopiero teraz zatęskniłam za aromatem świąt. Przypomniał mi się słodki smak klusek z makiem i kompotu z suszu. Jedyne, co miałam w domu, co mogło przybliżyć mi miniony czas to torebka miętowej herbaty (po świątecznych śniadaniach, obiadkach i kolacjach ratuje ludzkie brzuchy). Zaparzyłam filiżankę i delektowałam się nią patrząc na rozbielony krajobraz.\n</olela-narrative>\n\n## Kosmetyk\n\nNowość – paletka Mint Chocolate od Make Up Revolution. Kolory w tej palecie są inspirowane odcieniami z palety Subculture by Anastasia Beverly Hills (test i porównanie tych dwóch palet przygotowała dla Was [Adrianna Grotkowska Make Up na kanale youtube](https://www.youtube.com/watch?v=bPeJ1FKyLZA)). Przepiękne opakowanie, które ma się ochotę schrupać. W środku znajdziemy 16 cieni (co, w stosunku do ceny całości, daje nam niewiele ponad 3 zł za cień) + dwustronną pacynkę do aplikacji i duże lusterko. 7 z odcieni ma matowe wykończenie, reszta pozwala na uzyskanie na powiece wręcz ‘foliowego’ efektu. Jedyne, czego brakuje mi w tej palecie w porównaniu do Subculture ABH to ciepły, matowy żółty odcień, który w Mint Chocolate zastąpiony został rodzajem jasnej sjeny. Poza tym, cienie z ‘Czekoladki’ mają naprawdę niezłą jakość, dobrze się ze sobą mieszają i budują. A na dodatek pachną miętowo! Mniam!\n\n![Zdjęcie przedstawia kompozycję przedmiotów na zielonym tle. Widzimy białą tkaninę w kolorowe kwiaty, pędzle, liść.](https://assets2.ello.co/uploads/asset/attachment/6975381/ello-optimized-a6226126.jpg)\n![Obraz przedstawia dwa zdjęcia, na których przedstawione są kompozycje przedmiotów z perspektywy lotu ptaka. Widzimy białą tkaninę w kolorowe kwiaty, liść, czekoladę.](https://assets0.ello.co/uploads/asset/attachment/6975382/ello-optimized-37784789.jpg)\n![Zdjęcie przedstawia otwartą paletę z cieniami do makijażu oczu, obok leżą pędzle kosmetyczne, biała tkanina w kolorowe kwiaty, liść.](https://assets2.ello.co/uploads/asset/attachment/6975384/ello-optimized-cd4bfb05.jpg)\n![Zdjęcie przedstawia paletkę z cieniami do makijażu oczu. Całość na różowym tle ujęta z perspektywy lotu ptaka. Dookoła znajdują się strzałki i napisy.](https://assets2.ello.co/uploads/asset/attachment/6975385/ello-optimized-4472875e.jpg)\n\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 101 */
@@ -6785,6 +6845,18 @@ webpackEmptyContext.id = 101;
 
 /***/ }),
 /* 102 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 102;
+
+/***/ }),
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -6805,19 +6877,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 102;
+webpackContext.id = 103;
 
 /***/ }),
-/* 103 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(104);
+module.exports = __webpack_require__(105);
 
 /***/ }),
-/* 104 */
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6835,7 +6907,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(105);
+var _propTypes = __webpack_require__(106);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -7039,13 +7111,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 105 */
+/* 106 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_105__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_106__;
 
 /***/ }),
-/* 106 */
+/* 107 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7059,7 +7131,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 107 */
+/* 108 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7067,7 +7139,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7080,7 +7152,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7114,7 +7186,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7127,7 +7199,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7136,7 +7208,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7144,7 +7216,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7152,7 +7224,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7167,7 +7239,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7182,7 +7254,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7197,7 +7269,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7221,7 +7293,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(118);
+var s = __webpack_require__(119);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -7252,7 +7324,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7260,7 +7332,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7284,7 +7356,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7335,7 +7407,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7343,7 +7415,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7352,7 +7424,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(123);
+var s = __webpack_require__(124);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -7385,7 +7457,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7395,7 +7467,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7439,22 +7511,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 127,
-	"./Feed.js": 128,
-	"./Ingredient.js": 129,
-	"./Method.js": 130,
-	"./Recipe.js": 131,
-	"./TableOfContents.js": 132
+	"./Crumbs.js": 128,
+	"./Feed.js": 129,
+	"./Ingredient.js": 130,
+	"./Method.js": 131,
+	"./Recipe.js": 132,
+	"./TableOfContents.js": 133
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -7470,10 +7542,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 126;
+webpackContext.id = 127;
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7488,7 +7560,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7503,7 +7575,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7518,7 +7590,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7533,7 +7605,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7548,7 +7620,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7563,7 +7635,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7587,7 +7659,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
