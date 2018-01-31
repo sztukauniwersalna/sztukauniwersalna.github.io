@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_106__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_107__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(121);
+var Feed_1 = __webpack_require__(122);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(123);
+var Recipe_1 = __webpack_require__(124);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(125);
+var Root_1 = __webpack_require__(126);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(107);
+var s = __webpack_require__(108);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(108);
+var s = __webpack_require__(109);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(101),
-ROOT: __webpack_require__(102),
-LAYOUTS: __webpack_require__(103),
-INCLUDES: __webpack_require__(127)};
+UPLOADS: __webpack_require__(102),
+ROOT: __webpack_require__(103),
+LAYOUTS: __webpack_require__(104),
+INCLUDES: __webpack_require__(128)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(127)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(109);
+var s = __webpack_require__(110);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(113);
+var s = __webpack_require__(114);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(126);
+__webpack_require__(127);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(104);
+var react_disqus_comments_1 = __webpack_require__(105);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(118);
-var s = __webpack_require__(120);
+var FacebookLike_1 = __webpack_require__(119);
+var s = __webpack_require__(121);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(110);
-var s = __webpack_require__(111);
+__webpack_require__(111);
+var s = __webpack_require__(112);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(112);
+var s = __webpack_require__(113);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(115);
+var s = __webpack_require__(116);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(114);
+var s = __webpack_require__(115);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(116);
+var s = __webpack_require__(117);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(117);
+var s = __webpack_require__(118);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(122);
+var s = __webpack_require__(123);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(134);
-var menu_1 = __webpack_require__(135);
+var tags_1 = __webpack_require__(135);
+var menu_1 = __webpack_require__(136);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2677,7 +2677,8 @@ var map = {
 	"./2018-01-08-smaki-zimy-vol-dot-2-bezglutenowy-chlebek-czekoladowo-korzenny-z-sosem-truskawkowo-rozmarynowym.markdown": 97,
 	"./2018-01-14-o-kolorach-czerwien-cz-dot-1.markdown": 98,
 	"./2018-01-22-make-up-inspirowany-obrazem-tutti-frutti-by-helen-frankenthaler.markdown": 99,
-	"./2018-01-24-moje-wybory-styczen.markdown": 100
+	"./2018-01-24-moje-wybory-styczen.markdown": 100,
+	"./2018-01-31-wystawa-david-lynch-silence-and-dynamism.markdown": 101
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -6896,15 +6897,60 @@ var raw = exports.raw = "\n<olela-narrative>\nPrzez moment miałam wrażenie, ż
 
 /***/ }),
 /* 101 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 101;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7022117/ello-optimized-fdb62922.jpg', alt: 'Czarno-bia\u0142a fotografia przedstawia wn\u0119trze z du\u017Cym czarnym napisem na bia\u0142ej \u015Bcianie.' })
+    ),
+    _react2.default.createElement(
+      'olela-narrative',
+      null,
+      'Musia\u0142am och\u0142on\u0105\u0107. Min\u0119\u0142y trzy dni od wizyty na wystawie \u2018David Lynch. Silence and Dynamism\u2019 w [Centrum Sztuki Wsp\xF3\u0142czesnej w Toruniu](http://csw.torun.pl/). Nadal rodz\u0105 si\u0119 we mnie refleksje, wracaj\u0105 obrazy, w g\u0142owie k\u0142\u0119bi\u0105 si\u0119 my\u015Bli. Cz\u0142owiek, kt\xF3rego dot\u0105d kojarzy\u0142am tylko i wy\u0142\u0105cznie z produkcji filmowych (w tym uwielbianego przeze mnie \u2018Miasteczko Twin Peaks\u2019) okaza\u0142 si\u0119 by\u0107 wszechstronnym artyst\u0105 z w\u0142asn\u0105 wizj\u0105. W\u0141ASN\u0104 \u2013 no w\u0142a\u015Bnie. Z podobn\u0105 narracj\u0105 na p\u0142\xF3tnach (David praktycznie na ka\u017Cdej pracy dopisuje pe\u0142ne zdania, podpisuje poszczeg\xF3lne elementy u\u017Cywaj\u0105c w tym celu dziecinnego, \u2018pisanego\u2019 liternictwa) spotka\u0142am si\u0119 przy pracach Basquiat\u2019a. Jednak u Lynch\u2019a buduje ona zupe\u0142nie inny charakter. Nie ma nic wsp\xF3lnego ze street-art\'owymi tagami, lecz z brutalizmem i surrealizmem grozy. Ogl\u0105daj\u0105c dzie\u0142a z pewnej odleg\u0142o\u015Bci zaprzyja\u017Ania\u0142am si\u0119 z nimi. Podchodz\u0105c bli\u017Cej i zdaj\u0105c sobie spraw\u0119 z obrzydliwo\u015Bci materia\u0142\xF3w, z kt\xF3rych zosta\u0142y wykonane nienawidzi\u0142am ich ca\u0142ym sercem. Czy jednak w\u0142a\u015Bnie To nie jest zadaniem sztuki, by budzi\u0107 skrajne emocje?'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/7022198/ello-optimized-62e544a2.jpg', alt: 'Zdj\u0119cie w p\xF3\u0142mroku przedstawia czerwone zas\u0142ony i czarno-bia\u0142\u0105 pod\u0142og\u0119.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Wystawa: David Lynch. Silence And Dynamism", "date": "2018-01-31T14:08:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["wystawa", "exhibition", "david lynch", "lynch", "toruń", "csw", "sztuka", "recenzja"] };
+var body = exports.body = "<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/7022117/ello-optimized-fdb62922.jpg\" alt=\"Czarno-biała fotografia przedstawia wnętrze z dużym czarnym napisem na białej ścianie.\" /></p>\n<olela-narrative>\nMusiałam ochłonąć. Minęły trzy dni od wizyty na wystawie ‘David Lynch. Silence and Dynamism’ w [Centrum Sztuki Współczesnej w Toruniu](http://csw.torun.pl/). Nadal rodzą się we mnie refleksje, wracają obrazy, w głowie kłębią się myśli. Człowiek, którego dotąd kojarzyłam tylko i wyłącznie z produkcji filmowych (w tym uwielbianego przeze mnie ‘Miasteczko Twin Peaks’) okazał się być wszechstronnym artystą z własną wizją. WŁASNĄ – no właśnie. Z podobną narracją na płótnach (David praktycznie na każdej pracy dopisuje pełne zdania, podpisuje poszczególne elementy używając w tym celu dziecinnego, ‘pisanego’ liternictwa) spotkałam się przy pracach Basquiat’a. Jednak u Lynch’a buduje ona zupełnie inny charakter. Nie ma nic wspólnego ze street-art'owymi tagami, lecz z brutalizmem i surrealizmem grozy. Oglądając dzieła z pewnej odległości zaprzyjaźniałam się z nimi. Podchodząc bliżej i zdając sobie sprawę z obrzydliwości materiałów, z których zostały wykonane nienawidziłam ich całym sercem. Czy jednak właśnie To nie jest zadaniem sztuki, by budzić skrajne emocje?\n</olela-narrative>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/7022198/ello-optimized-62e544a2.jpg\" alt=\"Zdjęcie w półmroku przedstawia czerwone zasłony i czarno-białą podłogę.\" /></p>\n";
+var raw = exports.raw = "\n![Czarno-biała fotografia przedstawia wnętrze z dużym czarnym napisem na białej ścianie.](https://assets1.ello.co/uploads/asset/attachment/7022117/ello-optimized-fdb62922.jpg)\n\n<olela-narrative>\nMusiałam ochłonąć. Minęły trzy dni od wizyty na wystawie ‘David Lynch. Silence and Dynamism’ w [Centrum Sztuki Współczesnej w Toruniu](http://csw.torun.pl/). Nadal rodzą się we mnie refleksje, wracają obrazy, w głowie kłębią się myśli. Człowiek, którego dotąd kojarzyłam tylko i wyłącznie z produkcji filmowych (w tym uwielbianego przeze mnie ‘Miasteczko Twin Peaks’) okazał się być wszechstronnym artystą z własną wizją. WŁASNĄ – no właśnie. Z podobną narracją na płótnach (David praktycznie na każdej pracy dopisuje pełne zdania, podpisuje poszczególne elementy używając w tym celu dziecinnego, ‘pisanego’ liternictwa) spotkałam się przy pracach Basquiat’a. Jednak u Lynch’a buduje ona zupełnie inny charakter. Nie ma nic wspólnego ze street-art'owymi tagami, lecz z brutalizmem i surrealizmem grozy. Oglądając dzieła z pewnej odległości zaprzyjaźniałam się z nimi. Podchodząc bliżej i zdając sobie sprawę z obrzydliwości materiałów, z których zostały wykonane nienawidziłam ich całym sercem. Czy jednak właśnie To nie jest zadaniem sztuki, by budzić skrajne emocje?\n</olela-narrative>\n\n![Zdjęcie w półmroku przedstawia czerwone zasłony i czarno-białą podłogę.](https://assets0.ello.co/uploads/asset/attachment/7022198/ello-optimized-62e544a2.jpg)\n\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 102 */
@@ -6920,6 +6966,18 @@ webpackEmptyContext.id = 102;
 
 /***/ }),
 /* 103 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 103;
+
+/***/ }),
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -6940,19 +6998,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 103;
+webpackContext.id = 104;
 
 /***/ }),
-/* 104 */
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(105);
+module.exports = __webpack_require__(106);
 
 /***/ }),
-/* 105 */
+/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6970,7 +7028,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(106);
+var _propTypes = __webpack_require__(107);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -7174,13 +7232,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 106 */
+/* 107 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_106__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_107__;
 
 /***/ }),
-/* 107 */
+/* 108 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7194,7 +7252,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7202,7 +7260,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7215,7 +7273,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7249,7 +7307,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7262,7 +7320,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7271,7 +7329,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7279,7 +7337,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7287,7 +7345,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7302,7 +7360,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7317,7 +7375,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7332,7 +7390,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7356,7 +7414,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(119);
+var s = __webpack_require__(120);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -7387,7 +7445,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7395,7 +7453,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7419,7 +7477,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7470,7 +7528,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7478,7 +7536,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7487,7 +7545,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(124);
+var s = __webpack_require__(125);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -7520,7 +7578,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7530,7 +7588,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7574,22 +7632,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 128,
-	"./Feed.js": 129,
-	"./Ingredient.js": 130,
-	"./Method.js": 131,
-	"./Recipe.js": 132,
-	"./TableOfContents.js": 133
+	"./Crumbs.js": 129,
+	"./Feed.js": 130,
+	"./Ingredient.js": 131,
+	"./Method.js": 132,
+	"./Recipe.js": 133,
+	"./TableOfContents.js": 134
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -7605,10 +7663,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 127;
+webpackContext.id = 128;
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7623,7 +7681,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7638,7 +7696,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7653,7 +7711,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7668,7 +7726,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7683,7 +7741,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7698,7 +7756,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7722,7 +7780,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
