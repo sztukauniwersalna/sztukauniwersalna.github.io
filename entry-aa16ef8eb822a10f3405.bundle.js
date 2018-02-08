@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_107__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_108__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(122);
+var Feed_1 = __webpack_require__(123);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(124);
+var Recipe_1 = __webpack_require__(125);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(126);
+var Root_1 = __webpack_require__(127);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(108);
+var s = __webpack_require__(109);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(109);
+var s = __webpack_require__(110);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(102),
-ROOT: __webpack_require__(103),
-LAYOUTS: __webpack_require__(104),
-INCLUDES: __webpack_require__(128)};
+UPLOADS: __webpack_require__(103),
+ROOT: __webpack_require__(104),
+LAYOUTS: __webpack_require__(105),
+INCLUDES: __webpack_require__(129)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(128)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(110);
+var s = __webpack_require__(111);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(114);
+var s = __webpack_require__(115);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(127);
+__webpack_require__(128);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(105);
+var react_disqus_comments_1 = __webpack_require__(106);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(119);
-var s = __webpack_require__(121);
+var FacebookLike_1 = __webpack_require__(120);
+var s = __webpack_require__(122);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(111);
-var s = __webpack_require__(112);
+__webpack_require__(112);
+var s = __webpack_require__(113);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(113);
+var s = __webpack_require__(114);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(116);
+var s = __webpack_require__(117);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(115);
+var s = __webpack_require__(116);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(117);
+var s = __webpack_require__(118);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(118);
+var s = __webpack_require__(119);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(123);
+var s = __webpack_require__(124);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(135);
-var menu_1 = __webpack_require__(136);
+var tags_1 = __webpack_require__(136);
+var menu_1 = __webpack_require__(137);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2678,7 +2678,8 @@ var map = {
 	"./2018-01-14-o-kolorach-czerwien-cz-dot-1.markdown": 98,
 	"./2018-01-22-make-up-inspirowany-obrazem-tutti-frutti-by-helen-frankenthaler.markdown": 99,
 	"./2018-01-24-moje-wybory-styczen.markdown": 100,
-	"./2018-01-31-wystawa-david-lynch-silence-and-dynamism.markdown": 101
+	"./2018-01-31-wystawa-david-lynch-silence-and-dynamism.markdown": 101,
+	"./2018-02-08-rokoko-moodboard.markdown": 102
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -7112,15 +7113,95 @@ var raw = exports.raw = "\n![Czarno-biała fotografia przedstawia wnętrze z du�
 
 /***/ }),
 /* 102 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 102;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/7093581/ello-optimized-bd88ef01.jpg', alt: 'Obraz przedstawia trzy fotografie, na kt\xF3rych wida\u0107 modelki w r\xF3\u017Cnych strojach. Ca\u0142o\u015B\u0107 na jasnym tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/7093585/ello-optimized-2bfb1875.jpg', alt: 'Obraz przedstawia trzy fotografie na jasnobe\u017Cowym tle. Widzimy XVIII wieczne obrazy olejne.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/7093589/ello-optimized-2ffff1ab.jpg', alt: 'Obraz przedstawia pi\u0119\u0107 zdj\u0119\u0107 na jasnobe\u017Cowym tle. Widzimy rze\u017Ab\u0119, kanap\u0119 w stylu rokoko, aktork\u0119, porcelanowy dzbanek, ornament bia\u0142o-z\u0142oty.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/7093595/ello-optimized-21bfe35e.jpg', alt: 'Obraz przedstawia pi\u0119\u0107 zdj\u0119\u0107 na jasnobe\u017Cowym tle. Widzimy modelki pozuj\u0105ce w r\xF3\u017Cnych strojach i torty artystyczne.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7093603/ello-optimized-5361a4cd.jpg', alt: 'Obraz przedstawia cztery zdj\u0119cia. Widzimy budynki, kobiec\u0105 twarz pomalowan\u0105 na bia\u0142o oraz wn\u0119trze w stylu rokoka.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/7093606/ello-optimized-8bc14b41.jpg', alt: 'Obraz przedstawia cztery zdj\u0119cia. Widzimy stoliki, figurk\u0119 z porcelany i wn\u0119trze pa\u0142acu w stylu rokoka.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/7093608/ello-optimized-c27a7ff8.jpg', alt: 'Obraz przedstawia dwie fotografie i tekst. Na zdj\u0119ciach widzimy modelki na wybiegu. Ca\u0142o\u015B\u0107 na jasnobe\u017Cowym tle.' })
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Niekt\xF3rzy nazywaj\u0105 ten okres schy\u0142kowym czasem Baroku. Jednak styl rokoko subtelnie r\xF3\u017Cni si\u0119 od \u2018ci\u0119\u017Caru\u2019 swojego poprzednika.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Kolebk\u0105 rokoko jest Francja. Wraz ze \u015Bmierci\u0105 Ludwika XIV w 1715 roku rz\u0105dy przejmuje (5-cio letni w\xF3wczas) Ludwik XV. Z racji ma\u0142oletno\u015Bci kr\xF3la do 1723 roku za pa\u0144stwowe stery chwyci Filip Orlea\u0144ski. To w\u0142a\u015Bnie czasy jego regencji wi\u0105\u017Ce si\u0119 z pocz\u0105tkiem stylu, kt\xF3ry do tej pory nieprzerwanie inspiruje najwi\u0119kszych kreator\xF3w mody, wiza\u017Cyst\xF3w, ludzi sztuki.',
+      _react2.default.createElement('br', null),
+      'Atmosfera rokoka by\u0142a delikatniejsza od ci\u0119\u017Ckich kotar, bardziej \u2018uwolniona\u2019. O\u017Cywione \u017Cycie towarzyskie Pary\u017Ca sz\u0142o w parze z duchem erotyzmu. Rokoko to czas kobiety. Wa\u017Cnym elementem stroju i wyznacznikiem statusu staje si\u0119 makija\u017C. Puder i r\xF3\u017C id\u0105 w parze z groteskowo du\u017Cymi \u015Bnie\u017Cnobia\u0142ymi perukami.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Nazwa \u2018rokoko\u2019 pochodzi od nazwy ornamentu obficie obecnego w tamtym czasie. \u2018Rocaille\u2019 przypomina przekr\xF3j muszli z kogucim grzebieniem u g\xF3ry. U\u017Cywano go w architekturze jak i przy okazji zdobie\u0144 mebli. Wszystko musia\u0142o by\u0107 \u2018przesadnie nieprzesadne\u2019 tzn. ilo\u015B\u0107 zdobie\u0144 by\u0142a ogromna, ale jednocze\u015Bnie nie sprawia\u0142a wra\u017Cenia \u2018ci\u0119\u017Caru\u2019, wr\u0119cz uosabia\u0142a lekko\u015B\u0107, delikatno\u015B\u0107, romantyczny powiew. We wn\u0119trzach zamieszczano lustra, sztukaterie, boazerie, plafony. Dominowa\u0142y barwy pastelowe, delikatne.',
+      _react2.default.createElement('br', null),
+      'Nurt utrzyma\u0142 si\u0119 do mniej wi\u0119cej 1790 roku. Z Francji rozprzestrzeni\u0142 si\u0119 na inne kraje ',
+      _react2.default.createElement(
+        'a',
+        { href: 'http://m.in' },
+        'm.in'
+      ),
+      '.: Austri\u0119, Rosj\u0119, Bawari\u0119, Saksoni\u0119, Czechy, Polsk\u0119.'
+    ),
+    _react2.default.createElement(
+      'blockquote',
+      null,
+      _react2.default.createElement(
+        'p',
+        null,
+        'R\xF3\u017Cnica pomi\u0119dzy barokiem a rokokiem polega na sublimacji. Faza p\xF3\u017Aniejsza jest jasna, gdy wcze\u015Bniejsza jest ciemna; jest > delikatna, gdy tamta by\u0142a pot\u0119\u017Cna; jest radosna, gdy tamta by\u0142a nami\u0119tna. Lecz jest ona r\xF3wnie ruchliwa (mouvemenet\xE9e), r\xF3wnie \u017Cywa, r\xF3wnie zmys\u0142owa jak barok'
+      ),
+      _react2.default.createElement(
+        'p',
+        null,
+        '~ Nikolaus Pevsner'
+      )
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Rokoko [moodboard]", "date": "2018-02-08T13:48:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["rokoko", "rococo", "moodboard", "sztuka", "artysta", "nurt", "kierunek"] };
+var body = exports.body = "<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/7093581/ello-optimized-bd88ef01.jpg\" alt=\"Obraz przedstawia trzy fotografie, na których widać modelki w różnych strojach. Całość na jasnym tle.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/7093585/ello-optimized-2bfb1875.jpg\" alt=\"Obraz przedstawia trzy fotografie na jasnobeżowym tle. Widzimy XVIII wieczne obrazy olejne.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/7093589/ello-optimized-2ffff1ab.jpg\" alt=\"Obraz przedstawia pięć zdjęć na jasnobeżowym tle. Widzimy rzeźbę, kanapę w stylu rokoko, aktorkę, porcelanowy dzbanek, ornament biało-złoty.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/7093595/ello-optimized-21bfe35e.jpg\" alt=\"Obraz przedstawia pięć zdjęć na jasnobeżowym tle. Widzimy modelki pozujące w różnych strojach i torty artystyczne.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/7093603/ello-optimized-5361a4cd.jpg\" alt=\"Obraz przedstawia cztery zdjęcia. Widzimy budynki, kobiecą twarz pomalowaną na biało oraz wnętrze w stylu rokoka.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/7093606/ello-optimized-8bc14b41.jpg\" alt=\"Obraz przedstawia cztery zdjęcia. Widzimy stoliki, figurkę z porcelany i wnętrze pałacu w stylu rokoka.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/7093608/ello-optimized-c27a7ff8.jpg\" alt=\"Obraz przedstawia dwie fotografie i tekst. Na zdjęciach widzimy modelki na wybiegu. Całość na jasnobeżowym tle.\" /></p>\n<p>Niektórzy nazywają ten okres schyłkowym czasem Baroku. Jednak styl rokoko subtelnie różni się od ‘ciężaru’ swojego poprzednika.</p>\n<p>Kolebką rokoko jest Francja. Wraz ze śmiercią Ludwika XIV w 1715 roku rządy przejmuje (5-cio letni wówczas) Ludwik XV. Z racji małoletności króla do 1723 roku za państwowe stery chwyci Filip Orleański. To właśnie czasy jego regencji wiąże się z początkiem stylu, który do tej pory nieprzerwanie inspiruje największych kreatorów mody, wizażystów, ludzi sztuki.<br/>\nAtmosfera rokoka była delikatniejsza od ciężkich kotar, bardziej ‘uwolniona’. Ożywione życie towarzyskie Paryża szło w parze z duchem erotyzmu. Rokoko to czas kobiety. Ważnym elementem stroju i wyznacznikiem statusu staje się makijaż. Puder i róż idą w parze z groteskowo dużymi śnieżnobiałymi perukami.</p>\n<p>Nazwa ‘rokoko’ pochodzi od nazwy ornamentu obficie obecnego w tamtym czasie. ‘Rocaille’ przypomina przekrój muszli z kogucim grzebieniem u góry. Używano go w architekturze jak i przy okazji zdobień mebli. Wszystko musiało być ‘przesadnie nieprzesadne’ tzn. ilość zdobień była ogromna, ale jednocześnie nie sprawiała wrażenia ‘ciężaru’, wręcz uosabiała lekkość, delikatność, romantyczny powiew. We wnętrzach zamieszczano lustra, sztukaterie, boazerie, plafony. Dominowały barwy pastelowe, delikatne.<br/>\nNurt utrzymał się do mniej więcej 1790 roku. Z Francji rozprzestrzenił się na inne kraje <a href=\"http://m.in\">m.in</a>.: Austrię, Rosję, Bawarię, Saksonię, Czechy, Polskę.</p>\n<blockquote>\n<p>Różnica pomiędzy barokiem a rokokiem polega na sublimacji.\nFaza późniejsza jest jasna, gdy wcześniejsza jest ciemna; jest > delikatna, gdy tamta była potężna; jest radosna, gdy tamta była namiętna. Lecz jest ona równie ruchliwa (mouvemenetée), równie żywa, równie zmysłowa jak barok</p>\n<p>~ Nikolaus Pevsner</p>\n</blockquote>\n";
+var raw = exports.raw = "\n![Obraz przedstawia trzy fotografie, na których widać modelki w różnych strojach. Całość na jasnym tle.](https://assets2.ello.co/uploads/asset/attachment/7093581/ello-optimized-bd88ef01.jpg)\n![Obraz przedstawia trzy fotografie na jasnobeżowym tle. Widzimy XVIII wieczne obrazy olejne.](https://assets0.ello.co/uploads/asset/attachment/7093585/ello-optimized-2bfb1875.jpg)\n![Obraz przedstawia pięć zdjęć na jasnobeżowym tle. Widzimy rzeźbę, kanapę w stylu rokoko, aktorkę, porcelanowy dzbanek, ornament biało-złoty.](https://assets2.ello.co/uploads/asset/attachment/7093589/ello-optimized-2ffff1ab.jpg)\n![Obraz przedstawia pięć zdjęć na jasnobeżowym tle. Widzimy modelki pozujące w różnych strojach i torty artystyczne.](https://assets0.ello.co/uploads/asset/attachment/7093595/ello-optimized-21bfe35e.jpg)\n![Obraz przedstawia cztery zdjęcia. Widzimy budynki, kobiecą twarz pomalowaną na biało oraz wnętrze w stylu rokoka.](https://assets1.ello.co/uploads/asset/attachment/7093603/ello-optimized-5361a4cd.jpg)\n![Obraz przedstawia cztery zdjęcia. Widzimy stoliki, figurkę z porcelany i wnętrze pałacu w stylu rokoka.](https://assets2.ello.co/uploads/asset/attachment/7093606/ello-optimized-8bc14b41.jpg)\n![Obraz przedstawia dwie fotografie i tekst. Na zdjęciach widzimy modelki na wybiegu. Całość na jasnobeżowym tle.](https://assets0.ello.co/uploads/asset/attachment/7093608/ello-optimized-c27a7ff8.jpg)\n\n\n\nNiektórzy nazywają ten okres schyłkowym czasem Baroku. Jednak styl rokoko subtelnie różni się od ‘ciężaru’ swojego poprzednika. \n\nKolebką rokoko jest Francja. Wraz ze śmiercią Ludwika XIV w 1715 roku rządy przejmuje (5-cio letni wówczas) Ludwik XV. Z racji małoletności króla do 1723 roku za państwowe stery chwyci Filip Orleański. To właśnie czasy jego regencji wiąże się z początkiem stylu, który do tej pory nieprzerwanie inspiruje największych kreatorów mody, wizażystów, ludzi sztuki.<br/>\nAtmosfera rokoka była delikatniejsza od ciężkich kotar, bardziej ‘uwolniona’. Ożywione życie towarzyskie Paryża szło w parze z duchem erotyzmu. Rokoko to czas kobiety. Ważnym elementem stroju i wyznacznikiem statusu staje się makijaż. Puder i róż idą w parze z groteskowo dużymi śnieżnobiałymi perukami.\n\nNazwa ‘rokoko’ pochodzi od nazwy ornamentu obficie obecnego w tamtym czasie. ‘Rocaille’ przypomina przekrój muszli z kogucim grzebieniem u góry. Używano go w architekturze jak i przy okazji zdobień mebli. Wszystko musiało być ‘przesadnie nieprzesadne’ tzn. ilość zdobień była ogromna, ale jednocześnie nie sprawiała wrażenia ‘ciężaru’, wręcz uosabiała lekkość, delikatność, romantyczny powiew. We wnętrzach zamieszczano lustra, sztukaterie, boazerie, plafony. Dominowały barwy pastelowe, delikatne.<br/>\nNurt utrzymał się do mniej więcej 1790 roku. Z Francji rozprzestrzenił się na inne kraje m.in.: Austrię, Rosję, Bawarię, Saksonię, Czechy, Polskę.\n\n> Różnica pomiędzy barokiem a rokokiem polega na sublimacji. \n> Faza późniejsza jest jasna, gdy wcześniejsza jest ciemna; jest > delikatna, gdy tamta była potężna; jest radosna, gdy tamta była namiętna. Lecz jest ona równie ruchliwa (mouvemenetée), równie żywa, równie zmysłowa jak barok\n>\n> ~ Nikolaus Pevsner";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 103 */
@@ -7136,6 +7217,18 @@ webpackEmptyContext.id = 103;
 
 /***/ }),
 /* 104 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 104;
+
+/***/ }),
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -7156,19 +7249,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 104;
+webpackContext.id = 105;
 
 /***/ }),
-/* 105 */
+/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(106);
+module.exports = __webpack_require__(107);
 
 /***/ }),
-/* 106 */
+/* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7186,7 +7279,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(107);
+var _propTypes = __webpack_require__(108);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -7390,13 +7483,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 107 */
+/* 108 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_107__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_108__;
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7410,7 +7503,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7418,7 +7511,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7431,7 +7524,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7465,7 +7558,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7478,7 +7571,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7487,7 +7580,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7495,7 +7588,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7503,7 +7596,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7518,7 +7611,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7533,7 +7626,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7548,7 +7641,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7572,7 +7665,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(120);
+var s = __webpack_require__(121);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -7603,7 +7696,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7611,7 +7704,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7635,7 +7728,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7686,7 +7779,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7694,7 +7787,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7703,7 +7796,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(125);
+var s = __webpack_require__(126);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -7736,7 +7829,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7746,7 +7839,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7790,22 +7883,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 129,
-	"./Feed.js": 130,
-	"./Ingredient.js": 131,
-	"./Method.js": 132,
-	"./Recipe.js": 133,
-	"./TableOfContents.js": 134
+	"./Crumbs.js": 130,
+	"./Feed.js": 131,
+	"./Ingredient.js": 132,
+	"./Method.js": 133,
+	"./Recipe.js": 134,
+	"./TableOfContents.js": 135
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -7821,10 +7914,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 128;
+webpackContext.id = 129;
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7839,7 +7932,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7854,7 +7947,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7869,7 +7962,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7884,7 +7977,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7899,7 +7992,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7914,7 +8007,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7938,7 +8031,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
