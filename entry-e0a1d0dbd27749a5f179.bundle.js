@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_108__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_109__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(123);
+var Feed_1 = __webpack_require__(124);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(125);
+var Recipe_1 = __webpack_require__(126);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(127);
+var Root_1 = __webpack_require__(128);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(109);
+var s = __webpack_require__(110);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(110);
+var s = __webpack_require__(111);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(103),
-ROOT: __webpack_require__(104),
-LAYOUTS: __webpack_require__(105),
-INCLUDES: __webpack_require__(129)};
+UPLOADS: __webpack_require__(104),
+ROOT: __webpack_require__(105),
+LAYOUTS: __webpack_require__(106),
+INCLUDES: __webpack_require__(130)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(129)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(111);
+var s = __webpack_require__(112);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(115);
+var s = __webpack_require__(116);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(128);
+__webpack_require__(129);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(106);
+var react_disqus_comments_1 = __webpack_require__(107);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(120);
-var s = __webpack_require__(122);
+var FacebookLike_1 = __webpack_require__(121);
+var s = __webpack_require__(123);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(112);
-var s = __webpack_require__(113);
+__webpack_require__(113);
+var s = __webpack_require__(114);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(114);
+var s = __webpack_require__(115);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(117);
+var s = __webpack_require__(118);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(116);
+var s = __webpack_require__(117);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(118);
+var s = __webpack_require__(119);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(119);
+var s = __webpack_require__(120);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(124);
+var s = __webpack_require__(125);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(136);
-var menu_1 = __webpack_require__(137);
+var tags_1 = __webpack_require__(137);
+var menu_1 = __webpack_require__(138);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2679,7 +2679,8 @@ var map = {
 	"./2018-01-22-make-up-inspirowany-obrazem-tutti-frutti-by-helen-frankenthaler.markdown": 99,
 	"./2018-01-24-moje-wybory-styczen.markdown": 100,
 	"./2018-01-31-wystawa-david-lynch-silence-and-dynamism.markdown": 101,
-	"./2018-02-08-rokoko-moodboard.markdown": 102
+	"./2018-02-08-rokoko-moodboard.markdown": 102,
+	"./2018-02-11-make-up-inspirowany-obrazem-dove-with-sun-by-pablo-picasso.markdown": 103
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -7233,15 +7234,75 @@ var raw = exports.raw = "\n![Obraz przedstawia trzy fotografie, na których wida
 
 /***/ }),
 /* 103 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 103;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'olela-narrative',
+      null,
+      'S\u0105 wsz\u0119dzie. S\u0105 upierdliwe i s\u0105 wsz\u0119dzie. \u0141a\u017C\u0105 takie szare po szarych chodnikach. Kiwaj\u0105 przy tym g\u0142\xF3wkami jak te s\u0142ynne samochodowe pieski. I gruchaj\u0105. Oj, jak one gruchaj\u0105. Nie mo\u017Cna si\u0119 op\u0119dzi\u0107 od ich gruchania. Gruchanie rano, w po\u0142udnie i wieczorem. Non stop gruchanie, jedzenie i sr***. A jak ju\u017C taka kupa wyl\u0105duje na Twoim \u017Cakiecie to mo\u017Cesz si\u0119 z nim po\u017Cegna\u0107 na zawsze. Go\u0142\u0119bie kupy maj\u0105 w\u0142a\u015Bciwo\u015Bci \u2018\u017Cr\u0105ce\u2019 i je\u015Bli od razu upapranej rzeczy nie zapierzesz (a przecie\u017C nie zapierzesz, bo nie masz jak, bo w\u0142a\u015Bnie jeste\u015B na randce z ch\u0142opakiem) to ten fragment materia\u0142u (z samego przodu oczywi\u015Bcie, w najbardziej widocznym miejscu) pozostanie na zawsze ja\u015Bniejszy. Masz do dyspozycji dwa wyj\u015Bcia: 1. Nienawidzi\u0107 ich szczerym uczuciem do ko\u0144ca \u017Cycia, albo (2.) zaakceptowa\u0107 fakt, \u017Ce dzi\u0119ki nim zatarte zosta\u0142y podzia\u0142y pomi\u0119dzy sfer\u0105 wy\u017Csz\u0105 a ni\u017Csz\u0105 \u2013 plama przecie\u017C wygl\u0105da tak samo obrzydliwie, zar\xF3wno w przypadku \u017Cakietu od Chanel, czy tego z sieci\xF3wkowej wyprzeda\u017Cy.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7123615/ello-optimized-079106f0.jpg', alt: 'Obraz przedstawia zdj\u0119cie twarzy kobiety, a obok graficzny element czarnej linii i \u017C\xF3\u0142tego ko\u0142a. Kobieta ma na sobie artystyczny makija\u017C.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Symbol'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'W Chrze\u015Bcija\u0144stwie go\u0142\u0119bica jest symbolem Ducha \u015Awi\u0119tego. Objawi\u0142 si\u0119 on mi\u0119dzy innymi podczas chrztu Jezusa. W Starym Testamencie go\u0142\u0105b przynosi Noemu zielon\u0105 ga\u0142\u0105zk\u0119 w dziobie, zwiastuj\u0105c tym samym koniec potopu. Go\u0142\u0105b (hebr. jonah) jest bardzo cz\u0119sto wspominanym symbolem w Pi\u015Bmie \u015Awi\u0119tym (pojawia si\u0119 ok. 50 razy).'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'To w\u0142a\u015Bnie tego ptaka uwa\u017Ca si\u0119 za pierwszego udomowionego skrzydlatego przyjaciela. Od dawnych czas\xF3w go\u0142\u0119bie pocztowe pomaga\u0142y cz\u0142owiekowi w dostarczaniu wiadomo\u015Bci. W mitologii Greckiej pod postaci\u0105 go\u0142\u0119bicy kry\u0142a si\u0119 posta\u0107 Afrodyty. Na dalekim wschodzie ptak ten jest symbolem d\u0142ugiego \u017Cycia, w Indiach natomiast jego ciemne upierzenie zwiastuje \u015Bmier\u0107.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Go\u0142\u0119biem pokoju nazywa si\u0119 wizerunek bia\u0142ej go\u0142\u0119bicy z zielon\u0105 ga\u0142\u0105zk\u0105 oliwn\u0105 w dziobie. By\u0142 on stosowany w celach propagandowych przez komunist\xF3w po II wojnie \u015Bwiatowej. W czasie VI Festiwalu M\u0142odzie\u017Cy w Moskwie w 1957 roku wypuszczono z klatek par\u0119 tysi\u0119cy go\u0142\u0119bi. Nie przewidziano, \u017Ce ptaki te rozmna\u017Caj\u0105 si\u0119 bardzo szybko. W dwa lata p\xF3\u017Aniej naliczono w stolicy ponad 35 tysi\u0119cy go\u0142\u0119bi tego gatunku...'
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Make-up inspirowany obrazem. 'Dove with Sun' by Pablo_Picasso", "date": "2018-02-11T11:56:00.000Z", "categories": ["Sztuka Makijażu"], "tags": ["pablo picasso", "picasso", "dove", "makeup", "makijaż", "artysta", "sztuka", "dzieło"] };
+var body = exports.body = "<olela-narrative>\nSą wszędzie. Są upierdliwe i są wszędzie. Łażą takie szare po szarych chodnikach. Kiwają przy tym główkami jak te słynne samochodowe pieski. I gruchają. Oj, jak one gruchają. Nie można się opędzić od ich gruchania. Gruchanie rano, w południe i wieczorem. Non stop gruchanie, jedzenie i sr***. A jak już taka kupa wyląduje na Twoim żakiecie to możesz się z nim pożegnać na zawsze. Gołębie kupy mają właściwości ‘żrące’ i jeśli od razu upapranej rzeczy nie zapierzesz (a przecież nie zapierzesz, bo nie masz jak, bo właśnie jesteś na randce z chłopakiem) to ten fragment materiału (z samego przodu oczywiście, w najbardziej widocznym miejscu) pozostanie na zawsze jaśniejszy. Masz do dyspozycji dwa wyjścia: 1. Nienawidzić ich szczerym uczuciem do końca życia, albo (2.) zaakceptować fakt, że dzięki nim zatarte zostały podziały pomiędzy sferą wyższą a niższą – plama przecież wygląda tak samo obrzydliwie, zarówno w przypadku żakietu od Chanel, czy tego z sieciówkowej wyprzedaży.\n</olela-narrative>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/7123615/ello-optimized-079106f0.jpg\" alt=\"Obraz przedstawia zdjęcie twarzy kobiety, a obok graficzny element czarnej linii i żółtego koła. Kobieta ma na sobie artystyczny makijaż.\" /></p>\n<h2>Symbol</h2>\n<p>W Chrześcijaństwie gołębica jest symbolem Ducha Świętego. Objawił się on między innymi podczas chrztu Jezusa. W Starym Testamencie gołąb przynosi Noemu zieloną gałązkę w dziobie, zwiastując tym samym koniec potopu. Gołąb (hebr. jonah) jest bardzo często wspominanym symbolem w Piśmie Świętym (pojawia się ok. 50 razy).</p>\n<p>To właśnie tego ptaka uważa się za pierwszego udomowionego skrzydlatego przyjaciela. Od dawnych czasów gołębie pocztowe pomagały człowiekowi w dostarczaniu wiadomości. W mitologii Greckiej pod postacią gołębicy kryła się postać Afrodyty. Na dalekim wschodzie ptak ten jest symbolem długiego życia, w Indiach natomiast jego ciemne upierzenie zwiastuje śmierć.</p>\n<p>Gołębiem pokoju nazywa się wizerunek białej gołębicy z zieloną gałązką oliwną w dziobie. Był on stosowany w celach propagandowych przez komunistów po II wojnie światowej. W czasie VI Festiwalu Młodzieży w Moskwie w 1957 roku wypuszczono z klatek parę tysięcy gołębi. Nie przewidziano, że ptaki te rozmnażają się bardzo szybko. W dwa lata później naliczono w stolicy ponad 35 tysięcy gołębi tego gatunku...</p>\n";
+var raw = exports.raw = "\n<olela-narrative>\nSą wszędzie. Są upierdliwe i są wszędzie. Łażą takie szare po szarych chodnikach. Kiwają przy tym główkami jak te słynne samochodowe pieski. I gruchają. Oj, jak one gruchają. Nie można się opędzić od ich gruchania. Gruchanie rano, w południe i wieczorem. Non stop gruchanie, jedzenie i sr***. A jak już taka kupa wyląduje na Twoim żakiecie to możesz się z nim pożegnać na zawsze. Gołębie kupy mają właściwości ‘żrące’ i jeśli od razu upapranej rzeczy nie zapierzesz (a przecież nie zapierzesz, bo nie masz jak, bo właśnie jesteś na randce z chłopakiem) to ten fragment materiału (z samego przodu oczywiście, w najbardziej widocznym miejscu) pozostanie na zawsze jaśniejszy. Masz do dyspozycji dwa wyjścia: 1. Nienawidzić ich szczerym uczuciem do końca życia, albo (2.) zaakceptować fakt, że dzięki nim zatarte zostały podziały pomiędzy sferą wyższą a niższą – plama przecież wygląda tak samo obrzydliwie, zarówno w przypadku żakietu od Chanel, czy tego z sieciówkowej wyprzedaży.\n</olela-narrative>\n\n![Obraz przedstawia zdjęcie twarzy kobiety, a obok graficzny element czarnej linii i żółtego koła. Kobieta ma na sobie artystyczny makijaż.](https://assets1.ello.co/uploads/asset/attachment/7123615/ello-optimized-079106f0.jpg)\n\n## Symbol\n\nW Chrześcijaństwie gołębica jest symbolem Ducha Świętego. Objawił się on między innymi podczas chrztu Jezusa. W Starym Testamencie gołąb przynosi Noemu zieloną gałązkę w dziobie, zwiastując tym samym koniec potopu. Gołąb (hebr. jonah) jest bardzo często wspominanym symbolem w Piśmie Świętym (pojawia się ok. 50 razy). \n\nTo właśnie tego ptaka uważa się za pierwszego udomowionego skrzydlatego przyjaciela. Od dawnych czasów gołębie pocztowe pomagały człowiekowi w dostarczaniu wiadomości. W mitologii Greckiej pod postacią gołębicy kryła się postać Afrodyty. Na dalekim wschodzie ptak ten jest symbolem długiego życia, w Indiach natomiast jego ciemne upierzenie zwiastuje śmierć.\n\nGołębiem pokoju nazywa się wizerunek białej gołębicy z zieloną gałązką oliwną w dziobie. Był on stosowany w celach propagandowych przez komunistów po II wojnie światowej. W czasie VI Festiwalu Młodzieży w Moskwie w 1957 roku wypuszczono z klatek parę tysięcy gołębi. Nie przewidziano, że ptaki te rozmnażają się bardzo szybko. W dwa lata później naliczono w stolicy ponad 35 tysięcy gołębi tego gatunku…";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 104 */
@@ -7257,6 +7318,18 @@ webpackEmptyContext.id = 104;
 
 /***/ }),
 /* 105 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 105;
+
+/***/ }),
+/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -7277,19 +7350,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 105;
+webpackContext.id = 106;
 
 /***/ }),
-/* 106 */
+/* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(107);
+module.exports = __webpack_require__(108);
 
 /***/ }),
-/* 107 */
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7307,7 +7380,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(108);
+var _propTypes = __webpack_require__(109);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -7511,13 +7584,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_108__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_109__;
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7531,7 +7604,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7539,7 +7612,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7552,7 +7625,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7586,7 +7659,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7599,7 +7672,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7608,7 +7681,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7616,7 +7689,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7624,7 +7697,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7639,7 +7712,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7654,7 +7727,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7669,7 +7742,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7693,7 +7766,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(121);
+var s = __webpack_require__(122);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -7724,7 +7797,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7732,7 +7805,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7756,7 +7829,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7807,7 +7880,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7815,7 +7888,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7824,7 +7897,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(126);
+var s = __webpack_require__(127);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -7857,7 +7930,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7867,7 +7940,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7911,22 +7984,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 130,
-	"./Feed.js": 131,
-	"./Ingredient.js": 132,
-	"./Method.js": 133,
-	"./Recipe.js": 134,
-	"./TableOfContents.js": 135
+	"./Crumbs.js": 131,
+	"./Feed.js": 132,
+	"./Ingredient.js": 133,
+	"./Method.js": 134,
+	"./Recipe.js": 135,
+	"./TableOfContents.js": 136
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -7942,10 +8015,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 129;
+webpackContext.id = 130;
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7960,7 +8033,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7975,7 +8048,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -7990,7 +8063,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8005,7 +8078,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8020,7 +8093,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8035,7 +8108,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8059,7 +8132,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
