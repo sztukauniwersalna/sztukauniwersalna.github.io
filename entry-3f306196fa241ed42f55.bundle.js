@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_109__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_110__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(124);
+var Feed_1 = __webpack_require__(125);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(126);
+var Recipe_1 = __webpack_require__(127);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(128);
+var Root_1 = __webpack_require__(129);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(110);
+var s = __webpack_require__(111);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(111);
+var s = __webpack_require__(112);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(104),
-ROOT: __webpack_require__(105),
-LAYOUTS: __webpack_require__(106),
-INCLUDES: __webpack_require__(130)};
+UPLOADS: __webpack_require__(105),
+ROOT: __webpack_require__(106),
+LAYOUTS: __webpack_require__(107),
+INCLUDES: __webpack_require__(131)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(130)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(112);
+var s = __webpack_require__(113);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(116);
+var s = __webpack_require__(117);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(129);
+__webpack_require__(130);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(107);
+var react_disqus_comments_1 = __webpack_require__(108);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(121);
-var s = __webpack_require__(123);
+var FacebookLike_1 = __webpack_require__(122);
+var s = __webpack_require__(124);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(113);
-var s = __webpack_require__(114);
+__webpack_require__(114);
+var s = __webpack_require__(115);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(115);
+var s = __webpack_require__(116);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(118);
+var s = __webpack_require__(119);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(117);
+var s = __webpack_require__(118);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(119);
+var s = __webpack_require__(120);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(120);
+var s = __webpack_require__(121);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(125);
+var s = __webpack_require__(126);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(137);
-var menu_1 = __webpack_require__(138);
+var tags_1 = __webpack_require__(138);
+var menu_1 = __webpack_require__(139);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2680,7 +2680,8 @@ var map = {
 	"./2018-01-24-moje-wybory-styczen.markdown": 100,
 	"./2018-01-31-wystawa-david-lynch-silence-and-dynamism.markdown": 101,
 	"./2018-02-08-rokoko-moodboard.markdown": 102,
-	"./2018-02-11-make-up-inspirowany-obrazem-dove-with-sun-by-pablo-picasso.markdown": 103
+	"./2018-02-11-make-up-inspirowany-obrazem-dove-with-sun-by-pablo-picasso.markdown": 103,
+	"./2018-02-13-smaki-zimy-vol-dot-3-omlet-francuski-z-cheddarem-i-czarnuszka.markdown": 104
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -7341,15 +7342,95 @@ var raw = exports.raw = "\n<olela-narrative>\nSą wszędzie. Są upierdliwe i s�
 
 /***/ }),
 /* 104 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 104;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'olela-narrative',
+      null,
+      'Sprawdzony przepis na po\u017Cywne, zimowe \u015Bniadania. Omlet, kt\xF3ry zazwyczaj go\u015Bci na moim stole sk\u0142ada si\u0119 z 4-ech jaj i jemy go na p\xF3\u0142 z Ma\u0107kiem. G\u0142odnieje dopiero po paru dobrych godzinach! A to wszystko za spraw\u0105 jajek, kt\xF3re s\u0105 niesamowicie zdrowe i syc\u0105 na d\u0142ugo. Jaja sk\u0142adaj\u0105 si\u0119 z bia\u0142ka i t\u0142uszczy. Maj\u0105 zerowy indeks glikemiczny, dlatego nie podnosz\u0105 gwa\u0142townie poziomu insuliny (w przeciwie\u0144stwie do s\u0142odkich przysmak\xF3w), a przy tym maj\u0105 do\u015B\u0107 sporo wit. A, E, D, K). Nie ma co si\u0119 dziwi\u0107, w ko\u0144cu jajko zawiera wszystkie potrzebne sk\u0142adniki, aby m\xF3g\u0142 rozwin\u0105\u0107 si\u0119 nowy organizm. Zawsze wybierajcie jajka \u2018zer\xF3wki\u2019, czyli te od \u2018szcz\u0119\u015Bliwych kurek\u2019. Macie wtedy pewno\u015B\u0107, \u017Ce znajdzie si\u0119 w nich wi\u0119cej dobrych dla Was w\u0142a\u015Bciwo\u015Bci, ni\u017C w jajach z chowu klatkowego. Niestety... To realia wsp\xF3\u0142czesno\u015Bci \u2013 ch\xF3w masowy. A, co za tym idzie? Coraz mniej dla nas tego \u2018dobrego\u2019 w po\u017Cywieniu. Smak niby ten sam, ale poza nim r\xF3\u017Cnice s\u0105 diametralne.'
+    ),
+    _react2.default.createElement(
+      'div',
+      null,
+      _react2.default.createElement(
+        Recipe,
+        {
+          title: 'Omlet francuski z cheddarem i czarnuszk\u0105',
+          time: '15 minut',
+          level: '\u0142atwy',
+          mealFor: '2 osoby',
+          photo: 'https://assets0.ello.co/uploads/asset/attachment/7141510/ello-optimized-b8df05b2.jpg',
+          altText: 'Zdj\u0119cie przedstawia ciemny talerz z perspektywy lotu ptaka, na talerzu znajduje si\u0119 omlet jajeczny, bia\u0142y sos, zielone listki. Ca\u0142o\u015B\u0107 na bia\u0142ym tle.'
+        },
+        _react2.default.createElement(Ingredient, { title: 'jaja', quantity: '4 sztuki' }),
+        _react2.default.createElement(Ingredient, { title: 'mas\u0142o', quantity: '\u0142y\u017Ceczka' }),
+        _react2.default.createElement(Ingredient, { title: 'ser typu cheddar', quantity: '3 plastry' }),
+        _react2.default.createElement(Ingredient, { title: 'czarnuszka', quantity: 'szczypta' }),
+        _react2.default.createElement(Ingredient, { title: 's\xF3l, pieprz', quantity: 'szczypta' }),
+        _react2.default.createElement(
+          Method,
+          null,
+          'Klasyczny omlet francuski sk\u0142ada si\u0119 tylko z jajek i mas\u0142a. Jest delikatny, mi\u0119kki, wilgotny w \u015Brodku. Na zewn\u0105trz ma by\u0107 blady, bez fragment\xF3w zbr\u0105zowienia. Jego kszta\u0142t przypomina w\u0105ski migda\u0142. Kiedy\u015B widzia\u0142am jak szef kuchni jedn\u0105 r\u0119k\u0105 zawija\u0142 jaja na patelni. R\u0119ki u\u017Cywa\u0142 tylko i wy\u0142\u0105cznie do trzymania patelni. Manewrowa\u0142 ni\u0105 w powietrzu w ten spos\xF3b, \u017Ce omlet zawija\u0142 si\u0119 raz i dwa. Robi\u0142 to z niesamowit\u0105 wpraw\u0105. Ja pomagam sobie klasyczn\u0105 szpatu\u0142k\u0105.'
+        ),
+        _react2.default.createElement(
+          Method,
+          null,
+          'Najpierw wbij wszystkie jaja do miski. Trzeba je ubi\u0107 trzepaczk\u0105 lub je\u015Bli nie posiadasz takiego sprz\u0119tu \u2018rozk\u0142\xF3ci\u0107; widelcem. Jajek nie sol\u0119 w trakcie przyrz\u0105dzania omletu, tylko na ko\u0144cu, jak danie l\u0105duje a talerzu. Na patelni rozgrzej \u0142y\u017Ceczk\u0119 mas\u0142a, pozw\xF3l mu si\u0119 spieni\u0107 i wlej jaja. Od razu posyp ca\u0142o\u015B\u0107 odrobin\u0105 czarnuszki. W oryginalnym omlecie francuskim powinno si\u0119 w tym momencie zacz\u0105\u0107 miesza\u0107 jaja, jak ma to miejsce w przypadku jajecznicy. Omijam ten moment (w tym czasie mog\u0119 zaparzy\u0107 kaw\u0119 lub wytuszowa\u0107 rz\u0119sy). Musimy by\u0107 bardzo uwa\u017Cni i wyczu\u0107 moment, kiedy sp\xF3d omletu jest \u015Bci\u0119ty, a g\xF3ra p\u0142ynna. Jest to moment, w kt\xF3rym zaczynamy zawija\u0107 nasz omlet. Podk\u0142adam szpatu\u0142k\u0119 zaczynaj\u0105c od prawego brzegu patelni i zawijam kawa\u0142ek, a nast\u0119pnie ca\u0142o\u015B\u0107 podsuwam na miejsce, kt\xF3re powsta\u0142o po pierwszym zawini\u0119ciu. W ten spos\xF3b \u2018p\u0142ynna\u2019 cz\u0119\u015B\u0107 wylewa si\u0119 na miejsce zrobione po podsuni\u0119ciu omletu. Chodzi o to, \u017Ceby uzyska\u0107 wi\u0119cej zawini\u0119\u0107 ni\u017C pozwala nam na to standardowy rozmiar patelni, oraz \u017Ceby poszczeg\xF3lne warstwy by\u0142y cienkie. Mniej wi\u0119cej po dw\xF3ch zawini\u0119ciach uk\u0142adam wzd\u0142u\u017C kawa\u0142ki sera i zawijam tak, aby znalaz\u0142 si\u0119 w \u015Brodku. Czynno\u015B\u0107 zawijania i podsuwania omletu powtarzam tyle razy, a\u017C omlet stanie si\u0119 pi\u0119knym zawijaskiem. Wyk\u0142adam na talerz, sol\u0119, pieprz\u0119 i dekoruj\u0119 r\u0119cznie robionym majonezem i konfitur\u0105 z fig (do dekoracji mo\u017Cesz u\u017Cy\u0107 dowolnie wybranego sosu).'
+        ),
+        _react2.default.createElement(
+          Method,
+          null,
+          'Pami\u0119taj, \u017Ce jemy przede wszystkim oczami, dlatego zach\u0119cam do tworzenia smacznych kompozycji na talerzu. W\u0142a\u015Bciwie omlet w tej postaci mo\u017Cna robi\u0107 na wiele sposob\xF3w. Dla mi\u0142o\u015Bnik\xF3w s\u0142odko\u015Bci polecam wersj\u0119 z bananem i cynamonem.'
+        ),
+        _react2.default.createElement(
+          Method,
+          null,
+          'Mniam!'
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      '![]('
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Smaki_Zimy_vol._3. Omlet francuski z cheddarem i czarnuszką", "date": "2018-02-13T11:33:00.000Z", "categories": ["Sztuka Gotowania"], "tags": ["przepis", "omlet", "francuski", "śniadanie", "kompozycja", "sztuka"] };
+var body = exports.body = "<olela-narrative>\nSprawdzony przepis na pożywne, zimowe śniadania. Omlet, który zazwyczaj gości na moim stole składa się z 4-ech jaj i jemy go na pół z Maćkiem. Głodnieje dopiero po paru dobrych godzinach! A to wszystko za sprawą jajek, które są niesamowicie zdrowe i sycą na długo. Jaja składają się z białka i tłuszczy. Mają zerowy indeks glikemiczny, dlatego nie podnoszą gwałtownie poziomu insuliny (w przeciwieństwie do słodkich przysmaków), a przy tym mają dość sporo wit. A, E, D, K). Nie ma co się dziwić, w końcu jajko zawiera wszystkie potrzebne składniki, aby mógł rozwinąć się nowy organizm. Zawsze wybierajcie jajka ‘zerówki’, czyli te od ‘szczęśliwych kurek’. Macie wtedy pewność, że znajdzie się w nich więcej dobrych dla Was właściwości, niż w jajach z chowu klatkowego. Niestety... To realia współczesności – chów masowy. A, co za tym idzie? Coraz mniej dla nas tego ‘dobrego’ w pożywieniu. Smak niby ten sam, ale poza nim różnice są diametralne.\n</olela-narrative>\n<div>\n  <Recipe\n    title='Omlet francuski z cheddarem i czarnuszką'\n    time='15 minut'\n    level='łatwy'\n    mealFor='2 osoby'\n    photo='https://assets0.ello.co/uploads/asset/attachment/7141510/ello-optimized-b8df05b2.jpg'\n    altText='Zdjęcie przedstawia ciemny talerz z perspektywy lotu ptaka, na talerzu znajduje się omlet jajeczny, biały sos, zielone listki. Całość na białym tle.'\n  >\n    <Ingredient title='jaja' quantity='4 sztuki' />\n    <Ingredient title='masło' quantity='łyżeczka' />\n    <Ingredient title='ser typu cheddar' quantity='3 plastry' />\n    <Ingredient title='czarnuszka' quantity='szczypta' />\n    <Ingredient title='sól, pieprz' quantity='szczypta' />\n    <Method>\nKlasyczny omlet francuski składa się tylko z jajek i masła. Jest delikatny, miękki, wilgotny w środku. Na zewnątrz ma być blady, bez fragmentów zbrązowienia. Jego kształt przypomina wąski migdał. Kiedyś widziałam jak szef kuchni jedną ręką zawijał jaja na patelni. Ręki używał tylko i wyłącznie do trzymania patelni. Manewrował nią w powietrzu w ten sposób, że omlet zawijał się raz i dwa. Robił to z niesamowitą wprawą. Ja pomagam sobie klasyczną szpatułką.\n    </Method>\n    <Method>\nNajpierw wbij wszystkie jaja do miski. Trzeba je ubić trzepaczką lub jeśli nie posiadasz takiego sprzętu ‘rozkłócić; widelcem. Jajek nie solę w trakcie przyrządzania omletu, tylko na końcu, jak danie ląduje a talerzu. Na patelni rozgrzej łyżeczkę masła, pozwól mu się spienić i wlej jaja. Od razu posyp całość odrobiną czarnuszki. W oryginalnym omlecie francuskim powinno się w tym momencie zacząć mieszać jaja, jak ma to miejsce w przypadku jajecznicy. Omijam ten moment (w tym czasie mogę zaparzyć kawę lub wytuszować rzęsy). Musimy być bardzo uważni i wyczuć moment, kiedy spód omletu jest ścięty, a góra płynna. Jest to moment, w którym zaczynamy zawijać nasz omlet. Podkładam szpatułkę zaczynając od prawego brzegu patelni i zawijam kawałek, a następnie całość podsuwam na miejsce, które powstało po pierwszym zawinięciu. W ten sposób ‘płynna’ część wylewa się na miejsce zrobione po podsunięciu omletu. Chodzi o to, żeby uzyskać więcej zawinięć niż pozwala nam na to standardowy rozmiar patelni, oraz żeby poszczególne warstwy były cienkie. Mniej więcej po dwóch zawinięciach układam wzdłuż kawałki sera i zawijam tak, aby znalazł się w środku. Czynność zawijania i podsuwania omletu powtarzam tyle razy, aż omlet stanie się pięknym zawijaskiem. Wykładam na talerz, solę, pieprzę i dekoruję ręcznie robionym majonezem i konfiturą z fig (do dekoracji możesz użyć dowolnie wybranego sosu). \n    </Method>\n    <Method>\nPamiętaj, że jemy przede wszystkim oczami, dlatego zachęcam do tworzenia smacznych kompozycji na talerzu. Właściwie omlet w tej postaci można robić na wiele sposobów. Dla miłośników słodkości polecam wersję z bananem i cynamonem. \n    </Method>\n    <Method>\nMniam!\n    </Method>\n  </Recipe>\n</div>\n<p>![](</p>\n";
+var raw = exports.raw = "\n<olela-narrative>\nSprawdzony przepis na pożywne, zimowe śniadania. Omlet, który zazwyczaj gości na moim stole składa się z 4-ech jaj i jemy go na pół z Maćkiem. Głodnieje dopiero po paru dobrych godzinach! A to wszystko za sprawą jajek, które są niesamowicie zdrowe i sycą na długo. Jaja składają się z białka i tłuszczy. Mają zerowy indeks glikemiczny, dlatego nie podnoszą gwałtownie poziomu insuliny (w przeciwieństwie do słodkich przysmaków), a przy tym mają dość sporo wit. A, E, D, K). Nie ma co się dziwić, w końcu jajko zawiera wszystkie potrzebne składniki, aby mógł rozwinąć się nowy organizm. Zawsze wybierajcie jajka ‘zerówki’, czyli te od ‘szczęśliwych kurek’. Macie wtedy pewność, że znajdzie się w nich więcej dobrych dla Was właściwości, niż w jajach z chowu klatkowego. Niestety… To realia współczesności – chów masowy. A, co za tym idzie? Coraz mniej dla nas tego ‘dobrego’ w pożywieniu. Smak niby ten sam, ale poza nim różnice są diametralne.\n</olela-narrative>\n\n<div>\n  <Recipe\n    title='Omlet francuski z cheddarem i czarnuszką'\n    time='15 minut'\n    level='łatwy'\n    mealFor='2 osoby'\n    photo='https://assets0.ello.co/uploads/asset/attachment/7141510/ello-optimized-b8df05b2.jpg'\n    altText='Zdjęcie przedstawia ciemny talerz z perspektywy lotu ptaka, na talerzu znajduje się omlet jajeczny, biały sos, zielone listki. Całość na białym tle.'\n  >\n    <Ingredient title='jaja' quantity='4 sztuki' />\n    <Ingredient title='masło' quantity='łyżeczka' />\n    <Ingredient title='ser typu cheddar' quantity='3 plastry' />\n    <Ingredient title='czarnuszka' quantity='szczypta' />\n    <Ingredient title='sól, pieprz' quantity='szczypta' />\n    <Method>\nKlasyczny omlet francuski składa się tylko z jajek i masła. Jest delikatny, miękki, wilgotny w środku. Na zewnątrz ma być blady, bez fragmentów zbrązowienia. Jego kształt przypomina wąski migdał. Kiedyś widziałam jak szef kuchni jedną ręką zawijał jaja na patelni. Ręki używał tylko i wyłącznie do trzymania patelni. Manewrował nią w powietrzu w ten sposób, że omlet zawijał się raz i dwa. Robił to z niesamowitą wprawą. Ja pomagam sobie klasyczną szpatułką.\n    </Method>\n    <Method>\nNajpierw wbij wszystkie jaja do miski. Trzeba je ubić trzepaczką lub jeśli nie posiadasz takiego sprzętu ‘rozkłócić; widelcem. Jajek nie solę w trakcie przyrządzania omletu, tylko na końcu, jak danie ląduje a talerzu. Na patelni rozgrzej łyżeczkę masła, pozwól mu się spienić i wlej jaja. Od razu posyp całość odrobiną czarnuszki. W oryginalnym omlecie francuskim powinno się w tym momencie zacząć mieszać jaja, jak ma to miejsce w przypadku jajecznicy. Omijam ten moment (w tym czasie mogę zaparzyć kawę lub wytuszować rzęsy). Musimy być bardzo uważni i wyczuć moment, kiedy spód omletu jest ścięty, a góra płynna. Jest to moment, w którym zaczynamy zawijać nasz omlet. Podkładam szpatułkę zaczynając od prawego brzegu patelni i zawijam kawałek, a następnie całość podsuwam na miejsce, które powstało po pierwszym zawinięciu. W ten sposób ‘płynna’ część wylewa się na miejsce zrobione po podsunięciu omletu. Chodzi o to, żeby uzyskać więcej zawinięć niż pozwala nam na to standardowy rozmiar patelni, oraz żeby poszczególne warstwy były cienkie. Mniej więcej po dwóch zawinięciach układam wzdłuż kawałki sera i zawijam tak, aby znalazł się w środku. Czynność zawijania i podsuwania omletu powtarzam tyle razy, aż omlet stanie się pięknym zawijaskiem. Wykładam na talerz, solę, pieprzę i dekoruję ręcznie robionym majonezem i konfiturą z fig (do dekoracji możesz użyć dowolnie wybranego sosu). \n    </Method>\n    <Method>\nPamiętaj, że jemy przede wszystkim oczami, dlatego zachęcam do tworzenia smacznych kompozycji na talerzu. Właściwie omlet w tej postaci można robić na wiele sposobów. Dla miłośników słodkości polecam wersję z bananem i cynamonem. \n    </Method>\n    <Method>\nMniam!\n    </Method>\n  </Recipe>\n</div>\n\n![](";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 105 */
@@ -7365,6 +7446,18 @@ webpackEmptyContext.id = 105;
 
 /***/ }),
 /* 106 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 106;
+
+/***/ }),
+/* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -7385,19 +7478,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 106;
+webpackContext.id = 107;
 
 /***/ }),
-/* 107 */
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(108);
+module.exports = __webpack_require__(109);
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7415,7 +7508,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(109);
+var _propTypes = __webpack_require__(110);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -7619,13 +7712,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_109__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_110__;
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7639,7 +7732,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7647,7 +7740,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7660,7 +7753,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7694,7 +7787,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7707,7 +7800,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7716,7 +7809,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7724,7 +7817,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7732,7 +7825,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7747,7 +7840,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7762,7 +7855,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7777,7 +7870,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7801,7 +7894,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(122);
+var s = __webpack_require__(123);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -7832,7 +7925,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7840,7 +7933,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7864,7 +7957,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7915,7 +8008,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7923,7 +8016,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7932,7 +8025,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(127);
+var s = __webpack_require__(128);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -7965,7 +8058,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7975,7 +8068,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8019,22 +8112,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 131,
-	"./Feed.js": 132,
-	"./Ingredient.js": 133,
-	"./Method.js": 134,
-	"./Recipe.js": 135,
-	"./TableOfContents.js": 136
+	"./Crumbs.js": 132,
+	"./Feed.js": 133,
+	"./Ingredient.js": 134,
+	"./Method.js": 135,
+	"./Recipe.js": 136,
+	"./TableOfContents.js": 137
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -8050,10 +8143,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 130;
+webpackContext.id = 131;
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8068,7 +8161,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8083,7 +8176,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8098,7 +8191,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8113,7 +8206,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8128,7 +8221,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8143,7 +8236,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8167,7 +8260,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
