@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_110__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_111__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(125);
+var Feed_1 = __webpack_require__(126);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(127);
+var Recipe_1 = __webpack_require__(128);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(129);
+var Root_1 = __webpack_require__(130);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(111);
+var s = __webpack_require__(112);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(112);
+var s = __webpack_require__(113);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(105),
-ROOT: __webpack_require__(106),
-LAYOUTS: __webpack_require__(107),
-INCLUDES: __webpack_require__(131)};
+UPLOADS: __webpack_require__(106),
+ROOT: __webpack_require__(107),
+LAYOUTS: __webpack_require__(108),
+INCLUDES: __webpack_require__(132)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(131)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(113);
+var s = __webpack_require__(114);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(117);
+var s = __webpack_require__(118);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(130);
+__webpack_require__(131);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(108);
+var react_disqus_comments_1 = __webpack_require__(109);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(122);
-var s = __webpack_require__(124);
+var FacebookLike_1 = __webpack_require__(123);
+var s = __webpack_require__(125);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(114);
-var s = __webpack_require__(115);
+__webpack_require__(115);
+var s = __webpack_require__(116);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(116);
+var s = __webpack_require__(117);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(119);
+var s = __webpack_require__(120);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(118);
+var s = __webpack_require__(119);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(120);
+var s = __webpack_require__(121);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(121);
+var s = __webpack_require__(122);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(126);
+var s = __webpack_require__(127);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(138);
-var menu_1 = __webpack_require__(139);
+var tags_1 = __webpack_require__(139);
+var menu_1 = __webpack_require__(140);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2681,7 +2681,8 @@ var map = {
 	"./2018-01-31-wystawa-david-lynch-silence-and-dynamism.markdown": 101,
 	"./2018-02-08-rokoko-moodboard.markdown": 102,
 	"./2018-02-11-make-up-inspirowany-obrazem-dove-with-sun-by-pablo-picasso.markdown": 103,
-	"./2018-02-13-smaki-zimy-vol-dot-3-omlet-francuski-z-cheddarem-i-czarnuszka.markdown": 104
+	"./2018-02-13-smaki-zimy-vol-dot-3-omlet-francuski-z-cheddarem-i-czarnuszka.markdown": 104,
+	"./2018-02-18-o-narkotykach-xxi-wieku.markdown": 105
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -7434,15 +7435,75 @@ var raw = exports.raw = "\n<olela-narrative>\nSprawdzony przepis na pożywne, zi
 
 /***/ }),
 /* 105 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 105;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7175481/ello-optimized-02748f16.jpg', alt: 'Zdj\u0119cie przedstawia litery u\u0142o\u017Cone z kolorowego brokatu na r\xF3\u017Cowym tle.' })
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Benjamin Franklin przepowiedzia\u0142 kiedy\u015B, \u017Ce sklepy stan\u0105 si\u0119 narkotykiem XXI wieku. Nie myli\u0142 si\u0119. Do sklep\xF3w chodzimy ju\u017C nie tylko w celu zakupienia POTRZEBNYCH nam rzeczy, lecz upatrujemy w rzeczach naszych pragnie\u0144 i marze\u0144. \u017Byjemy z\u0142udzeniem, \u017Ce to one, te wszystkie kusz\u0105ce cude\u0144ka w pi\u0119knych opakowaniach s\u0105 nam niezb\u0119dne do \u017Cycia, \u017Ce dzi\u0119ki nim osi\u0105gniemy stan szcz\u0119\u015Bliwy. Ma\u0142o nam. Wraz z jednym szcz\u0119\u015Bciem przychodzi ochota na kolejne i kolejne. Taki paradoks \u2018\u0142adnych rzeczy\u2019. Chcemy otacza\u0107 si\u0119 nimi z ka\u017Cdej strony. A je\u015Bli nadarzy si\u0119 okazja, \u017Ceby \u0142adn\u0105 rzecz naby\u0107 taniej? Bardzo tanio? Oczywi\u015Bcie, \u017Ce kupujemy! Kupujemy du\u017Co, bez opami\u0119tania, a p\xF3\u017Aniej zwracamy, bo zakup \u2018nieprzemy\u015Blany\u2019. W ten spos\xF3b tracimy czas nie tylko na zakupy, ale te\u017C na zwroty. A Benjamin co\u015B o czasie wiedzia\u0142 i powtarza\u0142: \u2018Czas to pieni\u0105dz\u2019. Czas i pieni\u0105dz, kt\xF3ry my tracimy na potrzeby nam niepotrzebne (Mark Twain) i pieni\u0105dz, kt\xF3ry zyskuj\u0105 w ten spos\xF3b wielkie korporacje.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/7175482/ello-optimized-46549723.jpg', alt: 'Zdj\u0119cie przedstawia kobiet\u0119 pochylon\u0105 nad r\xF3\u017Cowym sto\u0142em. Kobieta trzyma co' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Historia wyprzeda\u017Cy'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Jak najlepiej zach\u0119ci\u0107 klienta do kupna danego produktu? Atrakcyjn\u0105 cen\u0105 oczywi\u015Bcie! A historia obni\u017Cek cen i wyprzeda\u017Cy si\u0119ga XIX wieku. Ka\u017Cdego roku, w ostatni czwartek listopada wypada tzw. \u2018\u015Bwi\u0119to Dzi\u0119kczynienia\u2019 ustanowione przez Abrahama Lincolna (stanowi ono pami\u0105tk\u0119 pierwszych do\u017Cynek mieszka\u0144c\xF3w kolonii Plymouth w 1621). Jest to czas, kiedy Amerykanie wyprawiaj\u0105 uroczyste kolacje, aby spotka\u0107 si\u0119 z rodzin\u0105 i bliskimi i podzi\u0119kowa\u0107 sobie nawzajem za wszystkie wspania\u0142o\u015Bci, kt\xF3re spotka\u0142y ich w danym roku. Ten dzie\u0144 jest ustawowo dniem wolnym od pracy. Nast\u0119pnego dnia (pi\u0105tek) oficjalnie rozpoczyna si\u0119 okres przed\u015Bwi\u0105tecznych zakup\xF3w. Podobno nazwy \u2018czarny pi\u0105tek\u2019 po raz pierwszy u\u017Cyli policjanci z Filadelfii, kiedy musieli interweniowa\u0107 w zwi\u0105zku z zat\u0142oczeniem ulic. Czarny pi\u0105tek dla sprzedawc\xF3w jest zazwyczaj najbardziej dochodowym dniem w roku. Tego jednego dnia sklepy s\u0105 czynne w dodatkowych godzinach (nieraz ca\u0142\u0105 dob\u0119) i oferuj\u0105 olbrzymie rabaty. Chyba nikogo ju\u017C nie zdziwi zas\u0142yszany w wiadomo\u015Bciach news o b\xF3jce w sklepie, czy przepychance przy wej\u015Bciu. Ba, nikogo nie zdziwi nowina, \u017Ce stratowano staruszk\u0119 wraz z godzin\u0105 otwarcia \u2018\u015Bwiata \u0142adnych (i tanich) rzeczy\u2019.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      '![]('
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "O narkotykach XXI wieku", "date": "2018-02-18T11:25:00.000Z", "categories": ["Sztuka Ubioru"], "tags": ["sale", "wyprzedaż", "zakupy", "shopping", "glitter", "art"] };
+var body = exports.body = "<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/7175481/ello-optimized-02748f16.jpg\" alt=\"Zdjęcie przedstawia litery ułożone z kolorowego brokatu na różowym tle.\" /></p>\n<p>Benjamin Franklin przepowiedział kiedyś, że sklepy staną się narkotykiem XXI wieku. Nie mylił się. Do sklepów chodzimy już nie tylko w celu zakupienia POTRZEBNYCH nam rzeczy, lecz upatrujemy w rzeczach naszych pragnień i marzeń. Żyjemy złudzeniem, że to one, te wszystkie kuszące cudeńka w pięknych opakowaniach są nam niezbędne do życia, że dzięki nim osiągniemy stan szczęśliwy. Mało nam. Wraz z jednym szczęściem przychodzi ochota na kolejne i kolejne. Taki paradoks ‘ładnych rzeczy’. Chcemy otaczać się nimi z każdej strony. A jeśli nadarzy się okazja, żeby ładną rzecz nabyć taniej? Bardzo tanio? Oczywiście, że kupujemy! Kupujemy dużo, bez opamiętania, a później zwracamy, bo zakup ‘nieprzemyślany’. W ten sposób tracimy czas nie tylko na zakupy, ale też na zwroty. A Benjamin coś o czasie wiedział i powtarzał: ‘Czas to pieniądz’. Czas i pieniądz, który my tracimy na potrzeby nam niepotrzebne (Mark Twain) i pieniądz, który zyskują w ten sposób wielkie korporacje.</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/7175482/ello-optimized-46549723.jpg\" alt=\"Zdjęcie przedstawia kobietę pochyloną nad różowym stołem. Kobieta trzyma co\" /></p>\n<h2>Historia wyprzedaży</h2>\n<p>Jak najlepiej zachęcić klienta do kupna danego produktu? Atrakcyjną ceną oczywiście! A historia obniżek cen i wyprzedaży sięga XIX wieku. Każdego roku, w ostatni czwartek listopada wypada tzw. ‘święto Dziękczynienia’ ustanowione przez Abrahama Lincolna (stanowi ono pamiątkę pierwszych dożynek mieszkańców kolonii Plymouth w 1621). Jest to czas, kiedy Amerykanie wyprawiają uroczyste kolacje, aby spotkać się z rodziną i bliskimi i podziękować sobie nawzajem za wszystkie wspaniałości, które spotkały ich w danym roku. Ten dzień jest ustawowo dniem wolnym od pracy. Następnego dnia (piątek) oficjalnie rozpoczyna się okres przedświątecznych zakupów. Podobno nazwy ‘czarny piątek’ po raz pierwszy użyli policjanci z Filadelfii, kiedy musieli interweniować w związku z zatłoczeniem ulic. Czarny piątek dla sprzedawców jest zazwyczaj najbardziej dochodowym dniem w roku. Tego jednego dnia sklepy są czynne w dodatkowych godzinach (nieraz całą dobę) i oferują olbrzymie rabaty. Chyba nikogo już nie zdziwi zasłyszany w wiadomościach news o bójce w sklepie, czy przepychance przy wejściu. Ba, nikogo nie zdziwi nowina, że stratowano staruszkę wraz z godziną otwarcia ‘świata ładnych (i tanich) rzeczy’.</p>\n<p>![](</p>\n";
+var raw = exports.raw = "\n![Zdjęcie przedstawia litery ułożone z kolorowego brokatu na różowym tle.](https://assets1.ello.co/uploads/asset/attachment/7175481/ello-optimized-02748f16.jpg)\n\nBenjamin Franklin przepowiedział kiedyś, że sklepy staną się narkotykiem XXI wieku. Nie mylił się. Do sklepów chodzimy już nie tylko w celu zakupienia POTRZEBNYCH nam rzeczy, lecz upatrujemy w rzeczach naszych pragnień i marzeń. Żyjemy złudzeniem, że to one, te wszystkie kuszące cudeńka w pięknych opakowaniach są nam niezbędne do życia, że dzięki nim osiągniemy stan szczęśliwy. Mało nam. Wraz z jednym szczęściem przychodzi ochota na kolejne i kolejne. Taki paradoks ‘ładnych rzeczy’. Chcemy otaczać się nimi z każdej strony. A jeśli nadarzy się okazja, żeby ładną rzecz nabyć taniej? Bardzo tanio? Oczywiście, że kupujemy! Kupujemy dużo, bez opamiętania, a później zwracamy, bo zakup ‘nieprzemyślany’. W ten sposób tracimy czas nie tylko na zakupy, ale też na zwroty. A Benjamin coś o czasie wiedział i powtarzał: ‘Czas to pieniądz’. Czas i pieniądz, który my tracimy na potrzeby nam niepotrzebne (Mark Twain) i pieniądz, który zyskują w ten sposób wielkie korporacje.\n\n![Zdjęcie przedstawia kobietę pochyloną nad różowym stołem. Kobieta trzyma co](https://assets2.ello.co/uploads/asset/attachment/7175482/ello-optimized-46549723.jpg)\n\n## Historia wyprzedaży\n\nJak najlepiej zachęcić klienta do kupna danego produktu? Atrakcyjną ceną oczywiście! A historia obniżek cen i wyprzedaży sięga XIX wieku. Każdego roku, w ostatni czwartek listopada wypada tzw. ‘święto Dziękczynienia’ ustanowione przez Abrahama Lincolna (stanowi ono pamiątkę pierwszych dożynek mieszkańców kolonii Plymouth w 1621). Jest to czas, kiedy Amerykanie wyprawiają uroczyste kolacje, aby spotkać się z rodziną i bliskimi i podziękować sobie nawzajem za wszystkie wspaniałości, które spotkały ich w danym roku. Ten dzień jest ustawowo dniem wolnym od pracy. Następnego dnia (piątek) oficjalnie rozpoczyna się okres przedświątecznych zakupów. Podobno nazwy ‘czarny piątek’ po raz pierwszy użyli policjanci z Filadelfii, kiedy musieli interweniować w związku z zatłoczeniem ulic. Czarny piątek dla sprzedawców jest zazwyczaj najbardziej dochodowym dniem w roku. Tego jednego dnia sklepy są czynne w dodatkowych godzinach (nieraz całą dobę) i oferują olbrzymie rabaty. Chyba nikogo już nie zdziwi zasłyszany w wiadomościach news o bójce w sklepie, czy przepychance przy wejściu. Ba, nikogo nie zdziwi nowina, że stratowano staruszkę wraz z godziną otwarcia ‘świata ładnych (i tanich) rzeczy’.\n\n![](";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 106 */
@@ -7458,6 +7519,18 @@ webpackEmptyContext.id = 106;
 
 /***/ }),
 /* 107 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 107;
+
+/***/ }),
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -7478,19 +7551,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 107;
+webpackContext.id = 108;
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(109);
+module.exports = __webpack_require__(110);
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7508,7 +7581,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(110);
+var _propTypes = __webpack_require__(111);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -7712,13 +7785,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_110__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_111__;
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7732,7 +7805,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7740,7 +7813,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7753,7 +7826,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7787,7 +7860,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7800,7 +7873,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7809,7 +7882,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7817,7 +7890,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7825,7 +7898,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7840,7 +7913,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7855,7 +7928,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7870,7 +7943,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7894,7 +7967,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(123);
+var s = __webpack_require__(124);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -7925,7 +7998,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7933,7 +8006,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7957,7 +8030,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8008,7 +8081,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8016,7 +8089,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8025,7 +8098,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(128);
+var s = __webpack_require__(129);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -8058,7 +8131,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8068,7 +8141,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8112,22 +8185,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 132,
-	"./Feed.js": 133,
-	"./Ingredient.js": 134,
-	"./Method.js": 135,
-	"./Recipe.js": 136,
-	"./TableOfContents.js": 137
+	"./Crumbs.js": 133,
+	"./Feed.js": 134,
+	"./Ingredient.js": 135,
+	"./Method.js": 136,
+	"./Recipe.js": 137,
+	"./TableOfContents.js": 138
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -8143,10 +8216,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 131;
+webpackContext.id = 132;
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8161,7 +8234,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8176,7 +8249,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8191,7 +8264,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8206,7 +8279,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8221,7 +8294,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8236,7 +8309,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8260,7 +8333,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
