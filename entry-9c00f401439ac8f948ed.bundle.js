@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_111__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_112__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(126);
+var Feed_1 = __webpack_require__(127);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(128);
+var Recipe_1 = __webpack_require__(129);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(130);
+var Root_1 = __webpack_require__(131);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(112);
+var s = __webpack_require__(113);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(113);
+var s = __webpack_require__(114);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(106),
-ROOT: __webpack_require__(107),
-LAYOUTS: __webpack_require__(108),
-INCLUDES: __webpack_require__(132)};
+UPLOADS: __webpack_require__(107),
+ROOT: __webpack_require__(108),
+LAYOUTS: __webpack_require__(109),
+INCLUDES: __webpack_require__(133)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(132)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(114);
+var s = __webpack_require__(115);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(118);
+var s = __webpack_require__(119);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(131);
+__webpack_require__(132);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(109);
+var react_disqus_comments_1 = __webpack_require__(110);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(123);
-var s = __webpack_require__(125);
+var FacebookLike_1 = __webpack_require__(124);
+var s = __webpack_require__(126);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(115);
-var s = __webpack_require__(116);
+__webpack_require__(116);
+var s = __webpack_require__(117);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(117);
+var s = __webpack_require__(118);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(120);
+var s = __webpack_require__(121);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(119);
+var s = __webpack_require__(120);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(121);
+var s = __webpack_require__(122);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(122);
+var s = __webpack_require__(123);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(127);
+var s = __webpack_require__(128);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(139);
-var menu_1 = __webpack_require__(140);
+var tags_1 = __webpack_require__(140);
+var menu_1 = __webpack_require__(141);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2682,7 +2682,8 @@ var map = {
 	"./2018-02-08-rokoko-moodboard.markdown": 102,
 	"./2018-02-11-make-up-inspirowany-obrazem-dove-with-sun-by-pablo-picasso.markdown": 103,
 	"./2018-02-13-smaki-zimy-vol-dot-3-omlet-francuski-z-cheddarem-i-czarnuszka.markdown": 104,
-	"./2018-02-18-o-narkotykach-xxi-wieku.markdown": 105
+	"./2018-02-18-o-narkotykach-xxi-wieku.markdown": 105,
+	"./2018-02-21-o-kolorach-biel-cz-dot-1.markdown": 106
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -7586,15 +7587,62 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia litery ułożone z kolorowego 
 
 /***/ }),
 /* 106 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 106;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Kolor jest \u015Bwiat\u0142em'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Chyba ka\u017Cdy z nas kojarzy szklan\u0105 piramid\u0119 zwan\u0105 pryzmatem. To Newton jako pierwszy stwierdzi\u0142, \u017Ce uzyskiwane barwy nie s\u0105 cech\u0105 pryzmat\xF3w, lecz \u015Bwiat\u0142a, kt\xF3re mo\u017Cna rozdziela\u0107 i ponownie \u0142\u0105czy\u0107, uzyskuj\u0105c \u015Bwiat\u0142o bia\u0142e. Barwa to tak naprawd\u0119 wra\u017Cenie psychiczne wywo\u0142ywane w naszym m\xF3zgu, gdy oko odbiera promieniowanie elektromagnetyczne z zakresu \u015Bwiat\u0142a. Barwa bia\u0142a odbierana jest przez cz\u0142owieka jako najja\u015Bniejsza w otoczeniu odmiana szaro\u015Bci (przyk\u0142ad: kiedy fragment bia\u0142ego t\u0142a o\u015Bwietlimy mocniejszym \u015Bwiat\u0142em, wtedy jedna z powierzchni stanie si\u0119 ciemniejsza, czyli jasnoszara). Nie istnieje jedna, konkretna barwa bia\u0142a. Odcienie bieli dzielimy na ciep\u0142e i ch\u0142odne (czyli takie, w kt\xF3rych przewa\u017Ca delikatne za\u017C\xF3\u0142cenie lub zaniebieszczenie), nale\u017Cy jednak pami\u0119ta\u0107, \u017Ce to poj\u0119cie jest umowne. Wra\u017Cenie/odbi\xF3r czystej bieli zale\u017Cne jest od naszych cech indywidualnych (wiek, stan zdrowia, samopoczucie) jak i od si\u0142y \u015Bwiat\u0142a. Istnieje r\xF3wnie\u017C taki parametr jak temperatura barwowa i tutaj \u017Ar\xF3d\u0142a \u015Bwiat\u0142a bia\u0142ego dzieli si\u0119 kolejno na: ciep\u0142e, neutralne, ch\u0142odne, dzienne, dzienne ch\u0142odne. Jednak ta sama warto\u015B\u0107 temperatury barwowej mo\u017Ce by\u0107 r\xF3\u017Cnie okre\u015Blana w zale\u017Cno\u015Bci od producenta produkt\xF3w o\u015Bwietleniowych. Co ciekawe, im wy\u017Csza temperatura barwowa, tym ch\u0142odniejsza biel.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7195724/ello-optimized-14ad1146.jpg', alt: 'Zdj\u0119cie przedstawia cz\u0142owieka pomalowanego bia\u0142\u0105 farb\u0105, kt\xF3ry wystawia j\u0119zyk.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/7195726/ello-optimized-448f2521.jpg', alt: 'Zdj\u0119cie przedstawia fragment pogniecionej bia\u0142ej tkaniny, na kt\xF3r\u0105 pada \u015Bwiat\u0142o s\u0142oneczne.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/7195727/ello-optimized-34cf6c64.jpg', alt: 'Zdj\u0119cie przedstawia cz\u0142owieka pomalowanego bia\u0142\u0105 farb\u0105, kt\xF3ry przekrzywia g\u0142ow\u0119 i usta.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "O kolorach: Biel, cz.1", "date": "2018-02-21T12:51:00.000Z", "categories": ["Sztuka Makijażu"], "tags": ["kolor", "biel", "biały", "makeup", "makijaż", "sztuka", "artysta", "kreacja"] };
+var body = exports.body = "<h2>Kolor jest światłem</h2>\n<p>Chyba każdy z nas kojarzy szklaną piramidę zwaną pryzmatem. To Newton jako pierwszy stwierdził, że uzyskiwane barwy nie są cechą pryzmatów, lecz światła, które można rozdzielać i ponownie łączyć, uzyskując światło białe. Barwa to tak naprawdę wrażenie psychiczne wywoływane w naszym mózgu, gdy oko odbiera promieniowanie elektromagnetyczne z zakresu światła. Barwa biała odbierana jest przez człowieka jako najjaśniejsza w otoczeniu odmiana szarości (przykład: kiedy fragment białego tła oświetlimy mocniejszym światłem, wtedy jedna z powierzchni stanie się ciemniejsza, czyli jasnoszara). Nie istnieje jedna, konkretna barwa biała. Odcienie bieli dzielimy na ciepłe i chłodne (czyli takie, w których przeważa delikatne zażółcenie lub zaniebieszczenie), należy jednak pamiętać, że to pojęcie jest umowne. Wrażenie/odbiór czystej bieli zależne jest od naszych cech indywidualnych (wiek, stan zdrowia, samopoczucie) jak i od siły światła.\nIstnieje również taki parametr jak temperatura barwowa i tutaj źródła światła białego dzieli się kolejno na: ciepłe, neutralne, chłodne, dzienne, dzienne chłodne. Jednak ta sama wartość temperatury barwowej może być różnie określana w zależności od producenta produktów oświetleniowych. Co ciekawe, im wyższa temperatura barwowa, tym chłodniejsza biel.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/7195724/ello-optimized-14ad1146.jpg\" alt=\"Zdjęcie przedstawia człowieka pomalowanego białą farbą, który wystawia język.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/7195726/ello-optimized-448f2521.jpg\" alt=\"Zdjęcie przedstawia fragment pogniecionej białej tkaniny, na którą pada światło słoneczne.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/7195727/ello-optimized-34cf6c64.jpg\" alt=\"Zdjęcie przedstawia człowieka pomalowanego białą farbą, który przekrzywia głowę i usta.\" /></p>\n";
+var raw = exports.raw = "\n## Kolor jest światłem\n\nChyba każdy z nas kojarzy szklaną piramidę zwaną pryzmatem. To Newton jako pierwszy stwierdził, że uzyskiwane barwy nie są cechą pryzmatów, lecz światła, które można rozdzielać i ponownie łączyć, uzyskując światło białe. Barwa to tak naprawdę wrażenie psychiczne wywoływane w naszym mózgu, gdy oko odbiera promieniowanie elektromagnetyczne z zakresu światła. Barwa biała odbierana jest przez człowieka jako najjaśniejsza w otoczeniu odmiana szarości (przykład: kiedy fragment białego tła oświetlimy mocniejszym światłem, wtedy jedna z powierzchni stanie się ciemniejsza, czyli jasnoszara). Nie istnieje jedna, konkretna barwa biała. Odcienie bieli dzielimy na ciepłe i chłodne (czyli takie, w których przeważa delikatne zażółcenie lub zaniebieszczenie), należy jednak pamiętać, że to pojęcie jest umowne. Wrażenie/odbiór czystej bieli zależne jest od naszych cech indywidualnych (wiek, stan zdrowia, samopoczucie) jak i od siły światła.\nIstnieje również taki parametr jak temperatura barwowa i tutaj źródła światła białego dzieli się kolejno na: ciepłe, neutralne, chłodne, dzienne, dzienne chłodne. Jednak ta sama wartość temperatury barwowej może być różnie określana w zależności od producenta produktów oświetleniowych. Co ciekawe, im wyższa temperatura barwowa, tym chłodniejsza biel.\n\n\n![Zdjęcie przedstawia człowieka pomalowanego białą farbą, który wystawia język.](https://assets1.ello.co/uploads/asset/attachment/7195724/ello-optimized-14ad1146.jpg)\n![Zdjęcie przedstawia fragment pogniecionej białej tkaniny, na którą pada światło słoneczne.](https://assets0.ello.co/uploads/asset/attachment/7195726/ello-optimized-448f2521.jpg)\n![Zdjęcie przedstawia człowieka pomalowanego białą farbą, który przekrzywia głowę i usta.](https://assets2.ello.co/uploads/asset/attachment/7195727/ello-optimized-34cf6c64.jpg)";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 107 */
@@ -7610,6 +7658,18 @@ webpackEmptyContext.id = 107;
 
 /***/ }),
 /* 108 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 108;
+
+/***/ }),
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -7630,19 +7690,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 108;
+webpackContext.id = 109;
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(110);
+module.exports = __webpack_require__(111);
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7660,7 +7720,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(111);
+var _propTypes = __webpack_require__(112);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -7864,13 +7924,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_111__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_112__;
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7884,7 +7944,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7892,7 +7952,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7905,7 +7965,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7939,7 +7999,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7952,7 +8012,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7961,7 +8021,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7969,7 +8029,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7977,7 +8037,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -7992,7 +8052,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8007,7 +8067,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8022,7 +8082,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8046,7 +8106,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(124);
+var s = __webpack_require__(125);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -8077,7 +8137,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8085,7 +8145,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8109,7 +8169,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8160,7 +8220,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8168,7 +8228,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8177,7 +8237,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(129);
+var s = __webpack_require__(130);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -8210,7 +8270,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8220,7 +8280,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8264,22 +8324,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 133,
-	"./Feed.js": 134,
-	"./Ingredient.js": 135,
-	"./Method.js": 136,
-	"./Recipe.js": 137,
-	"./TableOfContents.js": 138
+	"./Crumbs.js": 134,
+	"./Feed.js": 135,
+	"./Ingredient.js": 136,
+	"./Method.js": 137,
+	"./Recipe.js": 138,
+	"./TableOfContents.js": 139
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -8295,10 +8355,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 132;
+webpackContext.id = 133;
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8313,7 +8373,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8328,7 +8388,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8343,7 +8403,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8358,7 +8418,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8373,7 +8433,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8388,7 +8448,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8412,7 +8472,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
