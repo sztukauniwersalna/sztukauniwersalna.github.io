@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_112__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_113__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(127);
+var Feed_1 = __webpack_require__(128);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(129);
+var Recipe_1 = __webpack_require__(130);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(131);
+var Root_1 = __webpack_require__(132);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(113);
+var s = __webpack_require__(114);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(114);
+var s = __webpack_require__(115);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(107),
-ROOT: __webpack_require__(108),
-LAYOUTS: __webpack_require__(109),
-INCLUDES: __webpack_require__(133)};
+UPLOADS: __webpack_require__(108),
+ROOT: __webpack_require__(109),
+LAYOUTS: __webpack_require__(110),
+INCLUDES: __webpack_require__(134)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(133)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(115);
+var s = __webpack_require__(116);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(119);
+var s = __webpack_require__(120);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(132);
+__webpack_require__(133);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(110);
+var react_disqus_comments_1 = __webpack_require__(111);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(124);
-var s = __webpack_require__(126);
+var FacebookLike_1 = __webpack_require__(125);
+var s = __webpack_require__(127);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(116);
-var s = __webpack_require__(117);
+__webpack_require__(117);
+var s = __webpack_require__(118);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(118);
+var s = __webpack_require__(119);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(121);
+var s = __webpack_require__(122);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(120);
+var s = __webpack_require__(121);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(122);
+var s = __webpack_require__(123);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(123);
+var s = __webpack_require__(124);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(128);
+var s = __webpack_require__(129);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(140);
-var menu_1 = __webpack_require__(141);
+var tags_1 = __webpack_require__(141);
+var menu_1 = __webpack_require__(142);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2683,7 +2683,8 @@ var map = {
 	"./2018-02-11-make-up-inspirowany-obrazem-dove-with-sun-by-pablo-picasso.markdown": 103,
 	"./2018-02-13-smaki-zimy-vol-dot-3-omlet-francuski-z-cheddarem-i-czarnuszka.markdown": 104,
 	"./2018-02-18-o-narkotykach-xxi-wieku.markdown": 105,
-	"./2018-02-21-o-kolorach-biel-cz-dot-1.markdown": 106
+	"./2018-02-21-o-kolorach-biel-cz-dot-1.markdown": 106,
+	"./2018-02-26-moje-wybory-luty.markdown": 107
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -7749,15 +7750,71 @@ var raw = exports.raw = "\n## Kolor jest światłem\n\nChyba każdy z nas kojarz
 
 /***/ }),
 /* 107 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 107;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'olela-narrative',
+      null,
+      'W nocy w Warszawie termometr ma pokaza\u0107 -15\xB0C. Nieosi\u0105galnym wydaje si\u0119 spacer po parku, bez uprzedniego za\u0142o\u017Cenia na siebie podkoszulki, koszulki, koszulki z d\u0142ugim r\u0119kawem, swetra, kurtki puchowej. Dodatkowo koniecznym jest opatulenie szyi (wraz z nosem) we\u0142nianym szalem. Nosiciele okular\xF3w korekcyjnych w takie dni jak ten widz\u0105 \u015Bwiat bardziej zamazanym ni\u017C zdaj\u0119 si\u0119 on by\u0107 bez szkie\u0142 (szk\u0142a paruj\u0105 pod wp\u0142ywem wydychanego, gor\u0105cego powietrza). Ca\u0142y obrz\u0105dek opatulania trwa d\u0142u\u017Cej ni\u017C standardowy spacer do sklepu. Istnieje jednak bardzo szybki spos\xF3b na otulenie swojej sk\xF3ry piel\u0119gnacj\u0105 nawil\u017Caj\u0105c\u0105 \u2013 olejek myj\u0105cy). Istnieje te\u017C cudowny spos\xF3b na otulenie zmys\u0142\xF3w \u2013 zapach. Na rozgrzanie duszy natomiast zadzia\u0142a dobra lektura pod ciep\u0142ym kocem i herbata z miodem w ulubionym kubku w rozmiarze XXL.'
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Bi\u017Cuteria'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Te delikatne cude\u0144ka w kszta\u0142cie pszczo\u0142y i plastra miodu to kolekcja \u2018Queen B\u2019 marki Yes. Uwielbiam je nie tylko za niesamowicie precyzyjne i szlachetne wykonanie, ale przede wszystkim za design. Inspiracja drzemie w ka\u017Cdym, najmniejszym listku, kt\xF3ry spotykamy po drodze. Trzeba umie\u0107 go zauwa\u017Cy\u0107. Wizerunek pszczo\u0142y przypomina mi o wio\u015Bnie w te d\u0142ugie lutowe wieczory, a plaster miodu przywidzi na my\u015Bl s\u0142odkawy smak z\u0142otego nektaru. Bransoletki cudnie wygl\u0105daj\u0105 zar\xF3wno w po\u0142\u0105czeniu z wieczorow\u0105 kreacj\u0105, jak i codziennym casual\u2019owym strojem. A  ja ju\u017C czaj\u0119 si\u0119 na kolejny element kolekcji... Mo\u017Ce naszyjnik?'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/7228043/ello-optimized-6d4c08d7.jpg', alt: 'Zdj\u0119cie przedstawia z\u0142ot\u0105 bi\u017Cuteri\u0119 w otwartym pude\u0142ku. Na oko\u0142o zielona wst\u0105\u017Cka i z\u0142ote ozdobne gwiazdki' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/7228045/ello-optimized-e6371a95.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia, na jednym widzimy d\u0142o\u0144 ze z\u0142otymi bransoletkami, a na drugim bransoletki w pude\u0142ku.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Zapach'
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Moje wybory: luty", "date": "2018-02-26T11:20:00.000Z", "categories": ["Sztuka Ubioru"], "tags": ["wybory", "inspiracje", "zima", "luty", "perfumy", "książka", "kosmetyk", "biżuteria"] };
+var body = exports.body = "<olela-narrative>\nW nocy w Warszawie termometr ma pokazać -15°C. Nieosiągalnym wydaje się spacer po parku, bez uprzedniego założenia na siebie podkoszulki, koszulki, koszulki z długim rękawem, swetra, kurtki puchowej. Dodatkowo koniecznym jest opatulenie szyi (wraz z nosem) wełnianym szalem. Nosiciele okularów korekcyjnych w takie dni jak ten widzą świat bardziej zamazanym niż zdaję się on być bez szkieł (szkła parują pod wpływem wydychanego, gorącego powietrza). Cały obrządek opatulania trwa dłużej niż standardowy spacer do sklepu. Istnieje jednak bardzo szybki sposób na otulenie swojej skóry pielęgnacją nawilżającą – olejek myjący). Istnieje też cudowny sposób na otulenie zmysłów – zapach. Na rozgrzanie duszy natomiast zadziała dobra lektura pod ciepłym kocem i herbata z miodem w ulubionym kubku w rozmiarze XXL.\n</olela-narrative>\n<h2>Biżuteria</h2>\n<p>Te delikatne cudeńka w kształcie pszczoły i plastra miodu to kolekcja ‘Queen B’ marki Yes. Uwielbiam je nie tylko za niesamowicie precyzyjne i szlachetne wykonanie, ale przede wszystkim za design. Inspiracja drzemie w każdym, najmniejszym listku, który spotykamy po drodze. Trzeba umieć go zauważyć. Wizerunek pszczoły przypomina mi o wiośnie w te długie lutowe wieczory, a plaster miodu przywidzi na myśl słodkawy smak złotego nektaru. Bransoletki cudnie wyglądają zarówno w połączeniu z wieczorową kreacją, jak i codziennym casual’owym strojem. A  ja już czaję się na kolejny element kolekcji... Może naszyjnik?</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/7228043/ello-optimized-6d4c08d7.jpg\" alt=\"Zdjęcie przedstawia złotą biżuterię w otwartym pudełku. Na około zielona wstążka i złote ozdobne gwiazdki\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/7228045/ello-optimized-e6371a95.jpg\" alt=\"Obraz przedstawia dwa zdjęcia, na jednym widzimy dłoń ze złotymi bransoletkami, a na drugim bransoletki w pudełku.\" /></p>\n<h2>Zapach</h2>\n";
+var raw = exports.raw = "\n<olela-narrative>\nW nocy w Warszawie termometr ma pokazać -15°C. Nieosiągalnym wydaje się spacer po parku, bez uprzedniego założenia na siebie podkoszulki, koszulki, koszulki z długim rękawem, swetra, kurtki puchowej. Dodatkowo koniecznym jest opatulenie szyi (wraz z nosem) wełnianym szalem. Nosiciele okularów korekcyjnych w takie dni jak ten widzą świat bardziej zamazanym niż zdaję się on być bez szkieł (szkła parują pod wpływem wydychanego, gorącego powietrza). Cały obrządek opatulania trwa dłużej niż standardowy spacer do sklepu. Istnieje jednak bardzo szybki sposób na otulenie swojej skóry pielęgnacją nawilżającą – olejek myjący). Istnieje też cudowny sposób na otulenie zmysłów – zapach. Na rozgrzanie duszy natomiast zadziała dobra lektura pod ciepłym kocem i herbata z miodem w ulubionym kubku w rozmiarze XXL.\n</olela-narrative>\n\n## Biżuteria\n\nTe delikatne cudeńka w kształcie pszczoły i plastra miodu to kolekcja ‘Queen B’ marki Yes. Uwielbiam je nie tylko za niesamowicie precyzyjne i szlachetne wykonanie, ale przede wszystkim za design. Inspiracja drzemie w każdym, najmniejszym listku, który spotykamy po drodze. Trzeba umieć go zauważyć. Wizerunek pszczoły przypomina mi o wiośnie w te długie lutowe wieczory, a plaster miodu przywidzi na myśl słodkawy smak złotego nektaru. Bransoletki cudnie wyglądają zarówno w połączeniu z wieczorową kreacją, jak i codziennym casual’owym strojem. A  ja już czaję się na kolejny element kolekcji… Może naszyjnik?\n\n![Zdjęcie przedstawia złotą biżuterię w otwartym pudełku. Na około zielona wstążka i złote ozdobne gwiazdki](https://assets0.ello.co/uploads/asset/attachment/7228043/ello-optimized-6d4c08d7.jpg)\n![Obraz przedstawia dwa zdjęcia, na jednym widzimy dłoń ze złotymi bransoletkami, a na drugim bransoletki w pudełku.](https://assets2.ello.co/uploads/asset/attachment/7228045/ello-optimized-e6371a95.jpg)\n\n## Zapach";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 108 */
@@ -7773,6 +7830,18 @@ webpackEmptyContext.id = 108;
 
 /***/ }),
 /* 109 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 109;
+
+/***/ }),
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -7793,19 +7862,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 109;
+webpackContext.id = 110;
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(111);
+module.exports = __webpack_require__(112);
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7823,7 +7892,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(112);
+var _propTypes = __webpack_require__(113);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -8027,13 +8096,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_112__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_113__;
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8047,7 +8116,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8055,7 +8124,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8068,7 +8137,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8102,7 +8171,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8115,7 +8184,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8124,7 +8193,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8132,7 +8201,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8140,7 +8209,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8155,7 +8224,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8170,7 +8239,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8185,7 +8254,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8209,7 +8278,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(125);
+var s = __webpack_require__(126);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -8240,7 +8309,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8248,7 +8317,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8272,7 +8341,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8323,7 +8392,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8331,7 +8400,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8340,7 +8409,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(130);
+var s = __webpack_require__(131);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -8373,7 +8442,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8383,7 +8452,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8427,22 +8496,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 134,
-	"./Feed.js": 135,
-	"./Ingredient.js": 136,
-	"./Method.js": 137,
-	"./Recipe.js": 138,
-	"./TableOfContents.js": 139
+	"./Crumbs.js": 135,
+	"./Feed.js": 136,
+	"./Ingredient.js": 137,
+	"./Method.js": 138,
+	"./Recipe.js": 139,
+	"./TableOfContents.js": 140
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -8458,10 +8527,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 133;
+webpackContext.id = 134;
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8476,7 +8545,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8491,7 +8560,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8506,7 +8575,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8521,7 +8590,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8536,7 +8605,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8551,7 +8620,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8575,7 +8644,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
