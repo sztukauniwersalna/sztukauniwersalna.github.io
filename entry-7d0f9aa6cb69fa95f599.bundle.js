@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_113__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_114__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(128);
+var Feed_1 = __webpack_require__(129);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(130);
+var Recipe_1 = __webpack_require__(131);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(132);
+var Root_1 = __webpack_require__(133);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(114);
+var s = __webpack_require__(115);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(115);
+var s = __webpack_require__(116);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(108),
-ROOT: __webpack_require__(109),
-LAYOUTS: __webpack_require__(110),
-INCLUDES: __webpack_require__(134)};
+UPLOADS: __webpack_require__(109),
+ROOT: __webpack_require__(110),
+LAYOUTS: __webpack_require__(111),
+INCLUDES: __webpack_require__(135)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(134)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(116);
+var s = __webpack_require__(117);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(120);
+var s = __webpack_require__(121);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(133);
+__webpack_require__(134);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(111);
+var react_disqus_comments_1 = __webpack_require__(112);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(125);
-var s = __webpack_require__(127);
+var FacebookLike_1 = __webpack_require__(126);
+var s = __webpack_require__(128);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(117);
-var s = __webpack_require__(118);
+__webpack_require__(118);
+var s = __webpack_require__(119);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(119);
+var s = __webpack_require__(120);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(122);
+var s = __webpack_require__(123);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(121);
+var s = __webpack_require__(122);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(123);
+var s = __webpack_require__(124);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(124);
+var s = __webpack_require__(125);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(129);
+var s = __webpack_require__(130);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(141);
-var menu_1 = __webpack_require__(142);
+var tags_1 = __webpack_require__(142);
+var menu_1 = __webpack_require__(143);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2684,7 +2684,8 @@ var map = {
 	"./2018-02-13-smaki-zimy-vol-dot-3-omlet-francuski-z-cheddarem-i-czarnuszka.markdown": 104,
 	"./2018-02-18-o-narkotykach-xxi-wieku.markdown": 105,
 	"./2018-02-21-o-kolorach-biel-cz-dot-1.markdown": 106,
-	"./2018-02-26-moje-wybory-luty.markdown": 107
+	"./2018-02-26-moje-wybory-luty.markdown": 107,
+	"./2018-02-28-wystawa-przyszlosc-bedzie-inna-wizje-i-praktyki-modernizacji-spolecznych-po-roku-1918.markdown": 108
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -7904,15 +7905,81 @@ var raw = exports.raw = "\n<olela-narrative>\nW nocy w Warszawie termometr ma po
 
 /***/ }),
 /* 108 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 108;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/7244948/ello-optimized-b6208cdf.jpg', alt: 'Czarno-bia\u0142e zdj\u0119cie przedstawia ekran z napisami.' }),
+      _react2.default.createElement(
+        'olela-narrative',
+        null,
+        'W\u0142a\u015Bciwie sama nie wiedzia\u0142am czego spodziewa\u0107 si\u0119 po tej wystawie. Wybrali\u015Bmy si\u0119 na ni\u0105 dzie\u0144 po wernisa\u017Cu, czyli w sobot\u0119. Wydaje mi si\u0119, \u017Ce oczekiwa\u0142am kompletnie innych wra\u017Ce\u0144, czego\u015B wizualnie zachwycaj\u0105cego, a dosta\u0142am porz\u0105dn\u0105 lekcj\u0119 historii. Sama staram si\u0119 nie rozpami\u0119tywa\u0107 przesz\u0142ych zdarze\u0144, jak i nie wspomina\u0107 ubieg\u0142ego wieku w babcinym stylu: \u2018a kiedy\u015B to by\u0142o...\u2019. Jednak ta ekspozycja b\u0119dzie \u015Bwietn\u0105 opcj\u0105 zar\xF3wno dla os\xF3b, kt\xF3re za \u2018komuny\u2019 si\u0119 wychowywa\u0142y, jak i dla millenials\xF3w, kt\xF3rzy \u2018komun\u0119\u2019 znaj\u0105 tylko z opowiada\u0144 (cho\u0107 co\u015B im \u015Bwita). M\u0142odsze pokolenia mog\u0105 t\u0119 wystaw\u0119 uzna\u0107 jednak za nudn\u0105 i czmychn\u0105\u0107 czym pr\u0119dzej do kawiarni na rurk\u0119 z kremem, bo przecie\u017C \u2018biedy na starych zdj\u0119ciach nie b\u0119d\u0105 ogl\u0105da\u0107\u2019. A przecie\u017C w\u0142a\u015Bnie tak by\u0142o po wojnie (wojnach). By\u0142o biednie.'
+      )
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Przysz\u0142o\u015B\u0107'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      '\u2018Przysz\u0142o\u015B\u0107 b\u0119dzie inna\u2019 - to has\u0142o zawiera w sobie stanowczy manifest nadziei jak i westchnienie rezygnacji. Wiara w lepsz\u0105 przysz\u0142o\u015B\u0107 to stan ducha dwudziestolecia mi\u0119dzywojennego. To ulga po horrorze wojny i rado\u015B\u0107, ale te\u017C zmartwienie: \u2018co teraz?\u2019 Wystawa stara si\u0119 pokaza\u0107 momenty (starania) odbudowy zniszczonej pa\u0144stwowo\u015Bci oraz spo\u0142ecze\u0144stwa. Pojawiaj\u0105 si\u0119 nowe koncepcje organizacji \u017Cycia takich grup spo\u0142ecznych jak robotnicy, kobiety, dzieci. Wszystko podzielone jest na segmenty takie jak architektura, urbanistyka, prasa, teatr, sport. W wyj\u0105tkowy spos\xF3b uderza plakat propagandowy, ci\u0105gn\u0105cy si\u0119 przez ca\u0142\u0105 d\u0142ugo\u015B\u0107 \u015Bciany, na kt\xF3rym mo\u017Cemy zobaczy\u0107 por\xF3wnanie tego \u2018jak by\u0142o\u2019 z tym \u2018jak b\u0119dzie\u2019. Problem w tym, \u017Ce zdj\u0119cia ukazuj\u0105ce np. przedszkola (te sprzed i po modernizacji) niczym praktycznie si\u0119 od siebie nie r\xF3\u017Cni\u0105\u2026'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7244906/ello-optimized-9a925292.jpg', alt: 'Zdj\u0119cie przedstawia fragment plakatu ze starymi fotografiami.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/7244918/ello-optimized-25e18827.jpg', alt: 'Zdj\u0119cie przedstawia ok\u0142adk\u0119 starego czasopisma.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'M2'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Pierwsza sala obfituje w obiekty. Mamy przed sob\u0105 stela\u017C, na kt\xF3rym stoj\u0105 r\xF3\u017Cne krzes\u0142a (raj dla wsp\xF3\u0142czesnych dizajner\xF3w!), niekt\xF3re z nich pochodz\u0105 z pracowni W. Strzemi\u0144skiego i K. Kobro. Szklane gabloty wype\u0142niaj\u0105 historyczne magazyny \u2018Dom Osiedle Mieszkanie\u2019 z lat 40-tych (raj dla wsp\xF3\u0142czesnych grafik\xF3w!). Na \u015Bcianach z kolei plakaty promuj\u0105ce sp\xF3\u0142dzielczo\u015B\u0107. Pi\u0119kna jest estetyka tych plakat\xF3w i pi\u0119kne jest to, \u017Ce wi\u0119kszo\u015B\u0107 (jak nie wszystkie) prezentowane na wystawie s\u0105 namalowane r\u0119cznie. Przygl\u0105daj\u0105c si\u0119 z bliska dostrzec mo\u017Cemy czarny tusz po\u0142o\u017Cony z niezwyk\u0142\u0105 precyzj\u0105, bia\u0142\u0105 farbk\u0119, o\u0142\xF3wkowy szkic. Najbardziej fascynuje mnie jednak rekonstrukcja projektu kuchni funkcjonalnej do mieszkania robotniczego. W tak malutkiej przestrzeni, \u017Ce dwie osoby mia\u0142yby problem usi\u0105\u015B\u0107, znajduje si\u0119 biurko, zlew, kuchenka, blat roboczy, szafki\u2026 \u2018Kuchnia przeznaczona dla 5-7 osobowej rodziny, bez s\u0142u\u017C\u0105cej\u2026\u2019 czytam dalej. Jestem w szoku. Projekt po raz pierwszy zrealizowano w 1930 roku w ramach wystawy \u2018mieszkanie najmniejsze\u2019 na \u017Boliborzu. Jestem w ci\u0119\u017Ckim szoku.'
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Wystawa: Przyszłość będzie inna - wizje i praktyki modernizacji społecznych po roku 1918", "date": "2018-02-28T13:59:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["wystawa", "exhibition", "zachęta", "warszawa", "przyszłość", "sztuka"] };
+var body = exports.body = "<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/7244948/ello-optimized-b6208cdf.jpg\" alt=\"Czarno-białe zdjęcie przedstawia ekran z napisami.\" />\n<olela-narrative>\nWłaściwie sama nie wiedziałam czego spodziewać się po tej wystawie. Wybraliśmy się na nią dzień po wernisażu, czyli w sobotę. Wydaje mi się, że oczekiwałam kompletnie innych wrażeń, czegoś wizualnie zachwycającego, a dostałam porządną lekcję historii. Sama staram się nie rozpamiętywać przeszłych zdarzeń, jak i nie wspominać ubiegłego wieku w babcinym stylu: ‘a kiedyś to było...’. Jednak ta ekspozycja będzie świetną opcją zarówno dla osób, które za ‘komuny’ się wychowywały, jak i dla millenialsów, którzy ‘komunę’ znają tylko z opowiadań (choć coś im świta). Młodsze pokolenia mogą tę wystawę uznać jednak za nudną i czmychnąć czym prędzej do kawiarni na rurkę z kremem, bo przecież ‘biedy na starych zdjęciach nie będą oglądać’. A przecież właśnie tak było po wojnie (wojnach). Było biednie.\n</olela-narrative></p>\n<h2>Przyszłość</h2>\n<p>‘Przyszłość będzie inna’ - to hasło zawiera w sobie stanowczy manifest nadziei jak i westchnienie rezygnacji. Wiara w lepszą przyszłość to stan ducha dwudziestolecia międzywojennego. To ulga po horrorze wojny i radość, ale też zmartwienie: ‘co teraz?’ Wystawa stara się pokazać momenty (starania) odbudowy zniszczonej państwowości oraz społeczeństwa. Pojawiają się nowe koncepcje organizacji życia takich grup społecznych jak robotnicy, kobiety, dzieci. Wszystko podzielone jest na segmenty takie jak architektura, urbanistyka, prasa, teatr, sport. W wyjątkowy sposób uderza plakat propagandowy, ciągnący się przez całą długość ściany, na którym możemy zobaczyć porównanie tego ‘jak było’ z tym ‘jak będzie’. Problem w tym, że zdjęcia ukazujące np. przedszkola (te sprzed i po modernizacji) niczym praktycznie się od siebie nie różnią…</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/7244906/ello-optimized-9a925292.jpg\" alt=\"Zdjęcie przedstawia fragment plakatu ze starymi fotografiami.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/7244918/ello-optimized-25e18827.jpg\" alt=\"Zdjęcie przedstawia okładkę starego czasopisma.\" /></p>\n<h2>M2</h2>\n<p>Pierwsza sala obfituje w obiekty. Mamy przed sobą stelaż, na którym stoją różne krzesła (raj dla współczesnych dizajnerów!), niektóre z nich pochodzą z pracowni W. Strzemińskiego i K. Kobro. Szklane gabloty wypełniają historyczne magazyny ‘Dom Osiedle Mieszkanie’ z lat 40-tych (raj dla współczesnych grafików!). Na ścianach z kolei plakaty promujące spółdzielczość. Piękna jest estetyka tych plakatów i piękne jest to, że większość (jak nie wszystkie) prezentowane na wystawie są namalowane ręcznie. Przyglądając się z bliska dostrzec możemy czarny tusz położony z niezwykłą precyzją, białą farbkę, ołówkowy szkic. Najbardziej fascynuje mnie jednak rekonstrukcja projektu kuchni funkcjonalnej do mieszkania robotniczego. W tak malutkiej przestrzeni, że dwie osoby miałyby problem usiąść, znajduje się biurko, zlew, kuchenka, blat roboczy, szafki… ‘Kuchnia przeznaczona dla 5-7 osobowej rodziny, bez służącej…’ czytam dalej. Jestem w szoku. Projekt po raz pierwszy zrealizowano w 1930 roku w ramach wystawy ‘mieszkanie najmniejsze’ na Żoliborzu. Jestem w ciężkim szoku.</p>\n";
+var raw = exports.raw = "\n![Czarno-białe zdjęcie przedstawia ekran z napisami.](https://assets2.ello.co/uploads/asset/attachment/7244948/ello-optimized-b6208cdf.jpg)\n<olela-narrative>\nWłaściwie sama nie wiedziałam czego spodziewać się po tej wystawie. Wybraliśmy się na nią dzień po wernisażu, czyli w sobotę. Wydaje mi się, że oczekiwałam kompletnie innych wrażeń, czegoś wizualnie zachwycającego, a dostałam porządną lekcję historii. Sama staram się nie rozpamiętywać przeszłych zdarzeń, jak i nie wspominać ubiegłego wieku w babcinym stylu: ‘a kiedyś to było...’. Jednak ta ekspozycja będzie świetną opcją zarówno dla osób, które za ‘komuny’ się wychowywały, jak i dla millenialsów, którzy ‘komunę’ znają tylko z opowiadań (choć coś im świta). Młodsze pokolenia mogą tę wystawę uznać jednak za nudną i czmychnąć czym prędzej do kawiarni na rurkę z kremem, bo przecież ‘biedy na starych zdjęciach nie będą oglądać’. A przecież właśnie tak było po wojnie (wojnach). Było biednie.\n</olela-narrative>\n\n\n## Przyszłość\n\n‘Przyszłość będzie inna’ - to hasło zawiera w sobie stanowczy manifest nadziei jak i westchnienie rezygnacji. Wiara w lepszą przyszłość to stan ducha dwudziestolecia międzywojennego. To ulga po horrorze wojny i radość, ale też zmartwienie: ‘co teraz?’ Wystawa stara się pokazać momenty (starania) odbudowy zniszczonej państwowości oraz społeczeństwa. Pojawiają się nowe koncepcje organizacji życia takich grup społecznych jak robotnicy, kobiety, dzieci. Wszystko podzielone jest na segmenty takie jak architektura, urbanistyka, prasa, teatr, sport. W wyjątkowy sposób uderza plakat propagandowy, ciągnący się przez całą długość ściany, na którym możemy zobaczyć porównanie tego ‘jak było’ z tym ‘jak będzie’. Problem w tym, że zdjęcia ukazujące np. przedszkola (te sprzed i po modernizacji) niczym praktycznie się od siebie nie różnią…\n\n![Zdjęcie przedstawia fragment plakatu ze starymi fotografiami.](https://assets1.ello.co/uploads/asset/attachment/7244906/ello-optimized-9a925292.jpg)\n![Zdjęcie przedstawia okładkę starego czasopisma.](https://assets0.ello.co/uploads/asset/attachment/7244918/ello-optimized-25e18827.jpg)\n\n## M2\n\nPierwsza sala obfituje w obiekty. Mamy przed sobą stelaż, na którym stoją różne krzesła (raj dla współczesnych dizajnerów!), niektóre z nich pochodzą z pracowni W. Strzemińskiego i K. Kobro. Szklane gabloty wypełniają historyczne magazyny ‘Dom Osiedle Mieszkanie’ z lat 40-tych (raj dla współczesnych grafików!). Na ścianach z kolei plakaty promujące spółdzielczość. Piękna jest estetyka tych plakatów i piękne jest to, że większość (jak nie wszystkie) prezentowane na wystawie są namalowane ręcznie. Przyglądając się z bliska dostrzec możemy czarny tusz położony z niezwykłą precyzją, białą farbkę, ołówkowy szkic. Najbardziej fascynuje mnie jednak rekonstrukcja projektu kuchni funkcjonalnej do mieszkania robotniczego. W tak malutkiej przestrzeni, że dwie osoby miałyby problem usiąść, znajduje się biurko, zlew, kuchenka, blat roboczy, szafki… ‘Kuchnia przeznaczona dla 5-7 osobowej rodziny, bez służącej...’ czytam dalej. Jestem w szoku. Projekt po raz pierwszy zrealizowano w 1930 roku w ramach wystawy ‘mieszkanie najmniejsze’ na Żoliborzu. Jestem w ciężkim szoku.\n\n\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 109 */
@@ -7928,6 +7995,18 @@ webpackEmptyContext.id = 109;
 
 /***/ }),
 /* 110 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 110;
+
+/***/ }),
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -7948,19 +8027,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 110;
+webpackContext.id = 111;
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(112);
+module.exports = __webpack_require__(113);
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7978,7 +8057,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(113);
+var _propTypes = __webpack_require__(114);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -8182,13 +8261,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_113__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_114__;
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8202,7 +8281,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8210,7 +8289,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8223,7 +8302,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8257,7 +8336,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8270,7 +8349,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8279,7 +8358,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8287,7 +8366,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8295,7 +8374,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8310,7 +8389,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8325,7 +8404,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8340,7 +8419,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8364,7 +8443,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(126);
+var s = __webpack_require__(127);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -8395,7 +8474,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8403,7 +8482,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8427,7 +8506,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8478,7 +8557,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8486,7 +8565,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8495,7 +8574,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(131);
+var s = __webpack_require__(132);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -8528,7 +8607,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8538,7 +8617,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8582,22 +8661,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 135,
-	"./Feed.js": 136,
-	"./Ingredient.js": 137,
-	"./Method.js": 138,
-	"./Recipe.js": 139,
-	"./TableOfContents.js": 140
+	"./Crumbs.js": 136,
+	"./Feed.js": 137,
+	"./Ingredient.js": 138,
+	"./Method.js": 139,
+	"./Recipe.js": 140,
+	"./TableOfContents.js": 141
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -8613,10 +8692,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 134;
+webpackContext.id = 135;
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8631,7 +8710,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8646,7 +8725,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8661,7 +8740,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8676,7 +8755,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8691,7 +8770,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8706,7 +8785,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8730,7 +8809,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
