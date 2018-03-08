@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_114__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_115__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(129);
+var Feed_1 = __webpack_require__(130);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(131);
+var Recipe_1 = __webpack_require__(132);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(133);
+var Root_1 = __webpack_require__(134);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(115);
+var s = __webpack_require__(116);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(116);
+var s = __webpack_require__(117);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(109),
-ROOT: __webpack_require__(110),
-LAYOUTS: __webpack_require__(111),
-INCLUDES: __webpack_require__(135)};
+UPLOADS: __webpack_require__(110),
+ROOT: __webpack_require__(111),
+LAYOUTS: __webpack_require__(112),
+INCLUDES: __webpack_require__(136)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(135)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(117);
+var s = __webpack_require__(118);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(121);
+var s = __webpack_require__(122);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(134);
+__webpack_require__(135);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(112);
+var react_disqus_comments_1 = __webpack_require__(113);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(126);
-var s = __webpack_require__(128);
+var FacebookLike_1 = __webpack_require__(127);
+var s = __webpack_require__(129);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(118);
-var s = __webpack_require__(119);
+__webpack_require__(119);
+var s = __webpack_require__(120);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(120);
+var s = __webpack_require__(121);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(123);
+var s = __webpack_require__(124);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(122);
+var s = __webpack_require__(123);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(124);
+var s = __webpack_require__(125);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(125);
+var s = __webpack_require__(126);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(130);
+var s = __webpack_require__(131);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(142);
-var menu_1 = __webpack_require__(143);
+var tags_1 = __webpack_require__(143);
+var menu_1 = __webpack_require__(144);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2685,7 +2685,8 @@ var map = {
 	"./2018-02-18-o-narkotykach-xxi-wieku.markdown": 105,
 	"./2018-02-21-o-kolorach-biel-cz-dot-1.markdown": 106,
 	"./2018-02-26-moje-wybory-luty.markdown": 107,
-	"./2018-02-28-wystawa-przyszlosc-bedzie-inna-wizje-i-praktyki-modernizacji-spolecznych-po-roku-1918.markdown": 108
+	"./2018-02-28-wystawa-przyszlosc-bedzie-inna-wizje-i-praktyki-modernizacji-spolecznych-po-roku-1918.markdown": 108,
+	"./2018-03-08-socrealizm-moodboard.markdown": 109
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -8077,15 +8078,98 @@ var raw = exports.raw = "\n![Czarno-białe zdjęcie przedstawia ekran z napisami
 
 /***/ }),
 /* 109 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 109;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/7293439/ello-optimized-cd0adf89.jpg', alt: 'Obraz przedstawia trzy zdj\u0119cia obraz\xF3w znanych artyst\xF3w na bordowym tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/7293447/ello-optimized-c4af0aff.jpg', alt: 'Obraz przedstawia cztery fotografie, widzimy obraz i trzy zdj\u0119cia budowli, ca\u0142o\u015B\u0107 na bordowym tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7293450/ello-optimized-c34345a7.jpg', alt: 'Obraz przedstawia fotografie modelek na wybiegu podczas pokazu mody. Ca\u0142o\u015B\u0107 na bordowym tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/7293451/ello-optimized-f4117fab.jpg', alt: 'Obraz przedstawia trzy plakaty propagandowe na bordowym tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/7293453/ello-optimized-950578f1.jpg', alt: 'Obraz przedstawia fotografi\u0119 Pa\u0142acu Kultury i Nauki w Warszawie. Zdj\u0119cie umieszczone na bordowym tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/7293457/ello-optimized-97e839ed.jpg', alt: 'Obraz przedstawia trzy fotografie budynk\xF3w umieszczone na bordowym tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/7293463/ello-optimized-99998996.jpg', alt: 'Obraz przedstawia dwie fotografie budowli i jedno zdj\u0119cie rysunku. Ca\u0142o\u015B\u0107 na bordowym tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/7293465/ello-optimized-36072e78.jpg', alt: 'Obraz przedstawia zdj\u0119cie rysunku i obrazu znanego artysty. Ca\u0142o\u015B\u0107 na bordowym tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/7293466/ello-optimized-899bab3b.jpg', alt: 'Obraz przedstawia fotografi\u0119 wn\u0119trza wype\u0142nionego r\xF3\u017Cnymi rze\u017Abami i obrazami. Pod zdj\u0119ciem na bordowym tle widnieje opis.' })
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Kiedy m\xF3wimy o kierunkach, nurtach w sztuce zazwyczaj mamy do czynienia z szeregiem cech dzie\u0142a, kt\xF3re kszta\u0142tuj\u0105 si\u0119, dojrzewaj\u0105 na przestrzeni czasu. Nurty w sztuce to odpowied\u017A na sytuacj\u0119 w \u015Bwiecie sztuki, to komentarz na temat otaczaj\u0105cego nas \u015Bwiata jednego lub wi\u0119kszej grupy artyst\xF3w. To tak\u017Ce cz\u0119sto indywidualny pogl\u0105d na sztuk\u0119 danej jednostki. W wielu przypadkach rozw\xF3j kierunk\xF3w sztuki to \u2018dzie\u0142o\u2019 jednego artysty, kt\xF3ry potrafi\u0142 przekona\u0107 innych do swojego \u015Bwiatoobrazu. To \u2018dzie\u0142o\u2019 cz\u0142owieka, kt\xF3ry zauwa\u017Cy oryginalne cechy i nazwie je za pomoc\u0105 gi\u0119tkiego j\u0119zyka swoich wypowiedzi. Co raz zostanie nazwane, pozostaje.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Socrealizm jest czym\u015B odmiennym od kierunku. W pewnym sensie kszta\u0142towa\u0142 si\u0119 pod przymusem, wraz z nadej\u015Bciem w\u0142adz komunistycznych. Nazwijmy go zatem \u2018metod\u0105 tw\xF3rcz\u0105\u2019, jedyn\u0105 s\u0142uszn\u0105 metod\u0105 tw\xF3rcz\u0105 w czasie rz\u0105d\xF3w komunistycznych. Sztuka po roku 1934 mia\u0142a bowiem s\u0142u\u017Cy\u0107 celom propagandowym, sta\u0107 si\u0119 narz\u0119dziem partii. Maksim Gorki na Zje\u017Adzie Pisarzy Radzieckich w 1934 roku wypowiada\u0142 si\u0119 na temat dzie\u0142a sztuki \u2013 powinno ono posiada\u0107 realistyczn\u0105 form\u0119 i socjalistyczn\u0105 tre\u015B\u0107 zgodn\u0105 z ideami marksizmu i leninizmu. Socrealizm by\u0142 jednak pe\u0142en sprzeczno\u015Bci i niejasno\u015Bci. G\u0142\xF3wny temat stanowi\u0142 sojusz robotniczo-ch\u0142opski, r\xF3wno\u015B\u0107 klasowa, historia ruchu robotniczego. Arty\u015Bci odmawiaj\u0105cy podporz\u0105dkowania si\u0119 za\u0142o\u017Ceniom jedynej, s\u0142usznej metody tw\xF3rczej nara\u017Ceni byli na represje.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Przyjrzyjmy si\u0119 poszczeg\xF3lnym cechom charakterystycznym dla stylu socrealizmu:'
+    ),
+    _react2.default.createElement(
+      'ol',
+      null,
+      _react2.default.createElement(
+        'li',
+        null,
+        'Architektura mia\u0142a ukazywa\u0107 si\u0142\u0119 i pot\u0119g\u0119 pa\u0144stwa. Budynki z tego czasu cechuje monumentalizm, przeskalowanie, symetria. Znajdziemy elementy zaczerpni\u0119te z architektury klasycznej \u2013 kolumny, attyki, pilastry, ale te\u017C wzorce z ameryka\u0144skich drapaczy chmur (w stylu art d\xE9co lub neogotyckich). Olbrzymie place (np. Plac Centralny w Nowej Hucie w Krakowie) mia\u0142y za zadanie skupia\u0107 \u017Cycie spo\u0142eczne mieszka\u0144c\xF3w.'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'Znaczne przeskalowanie dotyka r\xF3wnie\u017C sztuki figuratywnej od malarstwa po rze\u017Ab\u0119. Postaci s\u0105 monumentalne, o szerokich barkach, charakterystycznie \u2018rozszerzonych\u2019 sylwetkach. Twarze zdaj\u0105 si\u0119 nie ukazywa\u0107 emocji, ubrane w symetrycznie-geometryczn\u0105 form\u0119. Zazwyczaj spotykamy si\u0119 tutaj z gestem pot\u0119gi, w\u0142adzy, uniesionych ramionach jednoznacznie symbolizuj\u0105cych okrzyk \u2018naprz\xF3d!\u2019 czy \u2018do boju!\u2019.'
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Polecam odwiedzi\u0107 ',
+      _react2.default.createElement(
+        'a',
+        { href: 'http://www.muzeumzamoyskich.pl/socrealizm' },
+        'Muzeum Zamoyskich w Koz\u0142\xF3wce'
+      ),
+      '. Znajduj\u0105 si\u0119 tam spore zbiory \u2018socrealistycznych pozosta\u0142o\u015Bci\u2019.'
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Socrealizm [moodboard]", "date": "2018-03-08T17:33:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["socrealizm", "moodboard", "inspiracje", "kreacja", "sztuka", "artysta"] };
+var body = exports.body = "<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/7293439/ello-optimized-cd0adf89.jpg\" alt=\"Obraz przedstawia trzy zdjęcia obrazów znanych artystów na bordowym tle.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/7293447/ello-optimized-c4af0aff.jpg\" alt=\"Obraz przedstawia cztery fotografie, widzimy obraz i trzy zdjęcia budowli, całość na bordowym tle.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/7293450/ello-optimized-c34345a7.jpg\" alt=\"Obraz przedstawia fotografie modelek na wybiegu podczas pokazu mody. Całość na bordowym tle.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/7293451/ello-optimized-f4117fab.jpg\" alt=\"Obraz przedstawia trzy plakaty propagandowe na bordowym tle.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/7293453/ello-optimized-950578f1.jpg\" alt=\"Obraz przedstawia fotografię Pałacu Kultury i Nauki w Warszawie. Zdjęcie umieszczone na bordowym tle.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/7293457/ello-optimized-97e839ed.jpg\" alt=\"Obraz przedstawia trzy fotografie budynków umieszczone na bordowym tle.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/7293463/ello-optimized-99998996.jpg\" alt=\"Obraz przedstawia dwie fotografie budowli i jedno zdjęcie rysunku. Całość na bordowym tle.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/7293465/ello-optimized-36072e78.jpg\" alt=\"Obraz przedstawia zdjęcie rysunku i obrazu znanego artysty. Całość na bordowym tle.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/7293466/ello-optimized-899bab3b.jpg\" alt=\"Obraz przedstawia fotografię wnętrza wypełnionego różnymi rzeźbami i obrazami. Pod zdjęciem na bordowym tle widnieje opis.\" /></p>\n<p>Kiedy mówimy o kierunkach, nurtach w sztuce zazwyczaj mamy do czynienia z szeregiem cech dzieła,\nktóre kształtują się, dojrzewają na przestrzeni czasu. Nurty w sztuce to odpowiedź na sytuację w\nświecie sztuki, to komentarz na temat otaczającego nas świata jednego lub większej grupy artystów.\nTo także często indywidualny pogląd na sztukę danej jednostki. W wielu przypadkach rozwój kierunków\nsztuki to ‘dzieło’ jednego artysty, który potrafił przekonać innych do swojego światoobrazu. To\n‘dzieło’ człowieka, który zauważy oryginalne cechy i nazwie je za pomocą giętkiego języka swoich\nwypowiedzi. Co raz zostanie nazwane, pozostaje.</p>\n<p>Socrealizm jest czymś odmiennym od kierunku. W pewnym sensie kształtował się pod przymusem, wraz z\nnadejściem władz komunistycznych. Nazwijmy go zatem ‘metodą twórczą’, jedyną słuszną metodą twórczą\nw czasie rządów komunistycznych. Sztuka po roku 1934 miała bowiem służyć celom propagandowym, stać\nsię narzędziem partii. Maksim Gorki na Zjeździe Pisarzy Radzieckich w 1934 roku wypowiadał się na\ntemat dzieła sztuki – powinno ono posiadać realistyczną formę i socjalistyczną treść zgodną z ideami\nmarksizmu i leninizmu. Socrealizm był jednak pełen sprzeczności i niejasności. Główny temat stanowił\nsojusz robotniczo-chłopski, równość klasowa, historia ruchu robotniczego. Artyści odmawiający\npodporządkowania się założeniom jedynej, słusznej metody twórczej narażeni byli na represje.</p>\n<p>Przyjrzyjmy się poszczególnym cechom charakterystycznym dla stylu socrealizmu:</p>\n<ol>\n<li>Architektura miała ukazywać siłę i potęgę państwa. Budynki z tego czasu cechuje monumentalizm,\nprzeskalowanie, symetria. Znajdziemy elementy zaczerpnięte z architektury klasycznej – kolumny,\nattyki, pilastry, ale też wzorce z amerykańskich drapaczy chmur (w stylu art déco lub\nneogotyckich). Olbrzymie place (np. Plac Centralny w Nowej Hucie w Krakowie) miały za zadanie\nskupiać życie społeczne mieszkańców.</li>\n<li>Znaczne przeskalowanie dotyka również sztuki figuratywnej od malarstwa po rzeźbę. Postaci są\nmonumentalne, o szerokich barkach, charakterystycznie ‘rozszerzonych’ sylwetkach. Twarze zdają\nsię nie ukazywać emocji, ubrane w symetrycznie-geometryczną formę. Zazwyczaj spotykamy się\ntutaj z gestem potęgi, władzy, uniesionych ramionach jednoznacznie symbolizujących okrzyk\n‘naprzód!’ czy ‘do boju!’.</li>\n</ol>\n<p>Polecam odwiedzić <a href=\"http://www.muzeumzamoyskich.pl/socrealizm\">Muzeum Zamoyskich w Kozłówce</a>.\nZnajdują się tam spore zbiory ‘socrealistycznych pozostałości’.</p>\n";
+var raw = exports.raw = "\n![Obraz przedstawia trzy zdjęcia obrazów znanych artystów na bordowym tle.](https://assets0.ello.co/uploads/asset/attachment/7293439/ello-optimized-cd0adf89.jpg)\n![Obraz przedstawia cztery fotografie, widzimy obraz i trzy zdjęcia budowli, całość na bordowym tle.](https://assets0.ello.co/uploads/asset/attachment/7293447/ello-optimized-c4af0aff.jpg)\n![Obraz przedstawia fotografie modelek na wybiegu podczas pokazu mody. Całość na bordowym tle.](https://assets1.ello.co/uploads/asset/attachment/7293450/ello-optimized-c34345a7.jpg)\n![Obraz przedstawia trzy plakaty propagandowe na bordowym tle.](https://assets0.ello.co/uploads/asset/attachment/7293451/ello-optimized-f4117fab.jpg)\n![Obraz przedstawia fotografię Pałacu Kultury i Nauki w Warszawie. Zdjęcie umieszczone na bordowym tle.](https://assets0.ello.co/uploads/asset/attachment/7293453/ello-optimized-950578f1.jpg)\n![Obraz przedstawia trzy fotografie budynków umieszczone na bordowym tle.](https://assets2.ello.co/uploads/asset/attachment/7293457/ello-optimized-97e839ed.jpg)\n![Obraz przedstawia dwie fotografie budowli i jedno zdjęcie rysunku. Całość na bordowym tle.](https://assets0.ello.co/uploads/asset/attachment/7293463/ello-optimized-99998996.jpg)\n![Obraz przedstawia zdjęcie rysunku i obrazu znanego artysty. Całość na bordowym tle.](https://assets2.ello.co/uploads/asset/attachment/7293465/ello-optimized-36072e78.jpg)\n![Obraz przedstawia fotografię wnętrza wypełnionego różnymi rzeźbami i obrazami. Pod zdjęciem na bordowym tle widnieje opis.](https://assets2.ello.co/uploads/asset/attachment/7293466/ello-optimized-899bab3b.jpg)\n\nKiedy mówimy o kierunkach, nurtach w sztuce zazwyczaj mamy do czynienia z szeregiem cech dzieła,\nktóre kształtują się, dojrzewają na przestrzeni czasu. Nurty w sztuce to odpowiedź na sytuację w\nświecie sztuki, to komentarz na temat otaczającego nas świata jednego lub większej grupy artystów.\nTo także często indywidualny pogląd na sztukę danej jednostki. W wielu przypadkach rozwój kierunków\nsztuki to ‘dzieło’ jednego artysty, który potrafił przekonać innych do swojego światoobrazu. To\n‘dzieło’ człowieka, który zauważy oryginalne cechy i nazwie je za pomocą giętkiego języka swoich\nwypowiedzi. Co raz zostanie nazwane, pozostaje.\n\nSocrealizm jest czymś odmiennym od kierunku. W pewnym sensie kształtował się pod przymusem, wraz z\nnadejściem władz komunistycznych. Nazwijmy go zatem ‘metodą twórczą’, jedyną słuszną metodą twórczą\nw czasie rządów komunistycznych. Sztuka po roku 1934 miała bowiem służyć celom propagandowym, stać\nsię narzędziem partii. Maksim Gorki na Zjeździe Pisarzy Radzieckich w 1934 roku wypowiadał się na\ntemat dzieła sztuki – powinno ono posiadać realistyczną formę i socjalistyczną treść zgodną z ideami\nmarksizmu i leninizmu. Socrealizm był jednak pełen sprzeczności i niejasności. Główny temat stanowił\nsojusz robotniczo-chłopski, równość klasowa, historia ruchu robotniczego. Artyści odmawiający\npodporządkowania się założeniom jedynej, słusznej metody twórczej narażeni byli na represje.\n\nPrzyjrzyjmy się poszczególnym cechom charakterystycznym dla stylu socrealizmu:\n\n1. Architektura miała ukazywać siłę i potęgę państwa. Budynki z tego czasu cechuje monumentalizm,\n   przeskalowanie, symetria. Znajdziemy elementy zaczerpnięte z architektury klasycznej – kolumny,\n   attyki, pilastry, ale też wzorce z amerykańskich drapaczy chmur (w stylu art déco lub\n   neogotyckich). Olbrzymie place (np. Plac Centralny w Nowej Hucie w Krakowie) miały za zadanie\n   skupiać życie społeczne mieszkańców.\n2. Znaczne przeskalowanie dotyka również sztuki figuratywnej od malarstwa po rzeźbę. Postaci są\n   monumentalne, o szerokich barkach, charakterystycznie ‘rozszerzonych’ sylwetkach. Twarze zdają\n   się nie ukazywać emocji, ubrane w symetrycznie-geometryczną formę. Zazwyczaj spotykamy się\n   tutaj z gestem potęgi, władzy, uniesionych ramionach jednoznacznie symbolizujących okrzyk\n   ‘naprzód!’ czy ‘do boju!’.\n\nPolecam odwiedzić [Muzeum Zamoyskich w Kozłówce](http://www.muzeumzamoyskich.pl/socrealizm).\nZnajdują się tam spore zbiory 'socrealistycznych pozostałości'.\n\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 110 */
@@ -8101,6 +8185,18 @@ webpackEmptyContext.id = 110;
 
 /***/ }),
 /* 111 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 111;
+
+/***/ }),
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -8121,19 +8217,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 111;
+webpackContext.id = 112;
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(113);
+module.exports = __webpack_require__(114);
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8151,7 +8247,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(114);
+var _propTypes = __webpack_require__(115);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -8355,13 +8451,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_114__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_115__;
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8375,7 +8471,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8383,7 +8479,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8396,7 +8492,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8430,7 +8526,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8443,7 +8539,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8452,7 +8548,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8460,7 +8556,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8468,7 +8564,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8483,7 +8579,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8498,7 +8594,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8513,7 +8609,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8537,7 +8633,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(127);
+var s = __webpack_require__(128);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -8568,7 +8664,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8576,7 +8672,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8600,7 +8696,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8651,7 +8747,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8659,7 +8755,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8668,7 +8764,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(132);
+var s = __webpack_require__(133);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -8701,7 +8797,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8711,7 +8807,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8755,22 +8851,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 136,
-	"./Feed.js": 137,
-	"./Ingredient.js": 138,
-	"./Method.js": 139,
-	"./Recipe.js": 140,
-	"./TableOfContents.js": 141
+	"./Crumbs.js": 137,
+	"./Feed.js": 138,
+	"./Ingredient.js": 139,
+	"./Method.js": 140,
+	"./Recipe.js": 141,
+	"./TableOfContents.js": 142
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -8786,10 +8882,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 135;
+webpackContext.id = 136;
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8804,7 +8900,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8819,7 +8915,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8834,7 +8930,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8849,7 +8945,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8864,7 +8960,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8879,7 +8975,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8903,7 +8999,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
