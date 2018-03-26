@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_115__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_116__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(130);
+var Feed_1 = __webpack_require__(131);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(132);
+var Recipe_1 = __webpack_require__(133);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(134);
+var Root_1 = __webpack_require__(135);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(116);
+var s = __webpack_require__(117);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(117);
+var s = __webpack_require__(118);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(110),
-ROOT: __webpack_require__(111),
-LAYOUTS: __webpack_require__(112),
-INCLUDES: __webpack_require__(136)};
+UPLOADS: __webpack_require__(111),
+ROOT: __webpack_require__(112),
+LAYOUTS: __webpack_require__(113),
+INCLUDES: __webpack_require__(137)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(136)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(118);
+var s = __webpack_require__(119);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(122);
+var s = __webpack_require__(123);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(135);
+__webpack_require__(136);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(113);
+var react_disqus_comments_1 = __webpack_require__(114);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(127);
-var s = __webpack_require__(129);
+var FacebookLike_1 = __webpack_require__(128);
+var s = __webpack_require__(130);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(119);
-var s = __webpack_require__(120);
+__webpack_require__(120);
+var s = __webpack_require__(121);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(121);
+var s = __webpack_require__(122);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(124);
+var s = __webpack_require__(125);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(123);
+var s = __webpack_require__(124);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(125);
+var s = __webpack_require__(126);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(126);
+var s = __webpack_require__(127);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(131);
+var s = __webpack_require__(132);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(143);
-var menu_1 = __webpack_require__(144);
+var tags_1 = __webpack_require__(144);
+var menu_1 = __webpack_require__(145);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2686,7 +2686,8 @@ var map = {
 	"./2018-02-21-o-kolorach-biel-cz-dot-1.markdown": 106,
 	"./2018-02-26-moje-wybory-luty.markdown": 107,
 	"./2018-02-28-wystawa-przyszlosc-bedzie-inna-wizje-i-praktyki-modernizacji-spolecznych-po-roku-1918.markdown": 108,
-	"./2018-03-08-socrealizm-moodboard.markdown": 109
+	"./2018-03-08-socrealizm-moodboard.markdown": 109,
+	"./2018-03-26-make-up-inspirowany-obrazem-bialy-srodek-zolty-rozowy-lawendowy-by-mark-rothko.markdown": 110
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -8167,21 +8168,61 @@ var component = exports.component = function component(data) {
   );
 };
 var frontMatter = exports.frontMatter = { "title": "Socrealizm [moodboard]", "date": "2018-03-08T17:33:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["socrealizm", "moodboard", "inspiracje", "kreacja", "sztuka", "artysta"] };
-var body = exports.body = "<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/7293439/ello-optimized-cd0adf89.jpg\" alt=\"Obraz przedstawia trzy zdjęcia obrazów znanych artystów na bordowym tle.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/7293447/ello-optimized-c4af0aff.jpg\" alt=\"Obraz przedstawia cztery fotografie, widzimy obraz i trzy zdjęcia budowli, całość na bordowym tle.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/7293450/ello-optimized-c34345a7.jpg\" alt=\"Obraz przedstawia fotografie modelek na wybiegu podczas pokazu mody. Całość na bordowym tle.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/7293451/ello-optimized-f4117fab.jpg\" alt=\"Obraz przedstawia trzy plakaty propagandowe na bordowym tle.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/7293453/ello-optimized-950578f1.jpg\" alt=\"Obraz przedstawia fotografię Pałacu Kultury i Nauki w Warszawie. Zdjęcie umieszczone na bordowym tle.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/7293457/ello-optimized-97e839ed.jpg\" alt=\"Obraz przedstawia trzy fotografie budynków umieszczone na bordowym tle.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/7293463/ello-optimized-99998996.jpg\" alt=\"Obraz przedstawia dwie fotografie budowli i jedno zdjęcie rysunku. Całość na bordowym tle.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/7293465/ello-optimized-36072e78.jpg\" alt=\"Obraz przedstawia zdjęcie rysunku i obrazu znanego artysty. Całość na bordowym tle.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/7293466/ello-optimized-899bab3b.jpg\" alt=\"Obraz przedstawia fotografię wnętrza wypełnionego różnymi rzeźbami i obrazami. Pod zdjęciem na bordowym tle widnieje opis.\" /></p>\n<p>Kiedy mówimy o kierunkach, nurtach w sztuce zazwyczaj mamy do czynienia z szeregiem cech dzieła,\nktóre kształtują się, dojrzewają na przestrzeni czasu. Nurty w sztuce to odpowiedź na sytuację w\nświecie sztuki, to komentarz na temat otaczającego nas świata jednego lub większej grupy artystów.\nTo także często indywidualny pogląd na sztukę danej jednostki. W wielu przypadkach rozwój kierunków\nsztuki to ‘dzieło’ jednego artysty, który potrafił przekonać innych do swojego światoobrazu. To\n‘dzieło’ człowieka, który zauważy oryginalne cechy i nazwie je za pomocą giętkiego języka swoich\nwypowiedzi. Co raz zostanie nazwane, pozostaje.</p>\n<p>Socrealizm jest czymś odmiennym od kierunku. W pewnym sensie kształtował się pod przymusem, wraz z\nnadejściem władz komunistycznych. Nazwijmy go zatem ‘metodą twórczą’, jedyną słuszną metodą twórczą\nw czasie rządów komunistycznych. Sztuka po roku 1934 miała bowiem służyć celom propagandowym, stać\nsię narzędziem partii. Maksim Gorki na Zjeździe Pisarzy Radzieckich w 1934 roku wypowiadał się na\ntemat dzieła sztuki – powinno ono posiadać realistyczną formę i socjalistyczną treść zgodną z ideami\nmarksizmu i leninizmu. Socrealizm był jednak pełen sprzeczności i niejasności. Główny temat stanowił\nsojusz robotniczo-chłopski, równość klasowa, historia ruchu robotniczego. Artyści odmawiający\npodporządkowania się założeniom jedynej, słusznej metody twórczej narażeni byli na represje.</p>\n<p>Przyjrzyjmy się poszczególnym cechom charakterystycznym dla stylu socrealizmu:</p>\n<ol>\n<li>Architektura miała ukazywać siłę i potęgę państwa. Budynki z tego czasu cechuje monumentalizm,\nprzeskalowanie, symetria. Znajdziemy elementy zaczerpnięte z architektury klasycznej – kolumny,\nattyki, pilastry, ale też wzorce z amerykańskich drapaczy chmur (w stylu art déco lub\nneogotyckich). Olbrzymie place (np. Plac Centralny w Nowej Hucie w Krakowie) miały za zadanie\nskupiać życie społeczne mieszkańców.</li>\n<li>Znaczne przeskalowanie dotyka również sztuki figuratywnej od malarstwa po rzeźbę. Postaci są\nmonumentalne, o szerokich barkach, charakterystycznie ‘rozszerzonych’ sylwetkach. Twarze zdają\nsię nie ukazywać emocji, ubrane w symetrycznie-geometryczną formę. Zazwyczaj spotykamy się\ntutaj z gestem potęgi, władzy, uniesionych ramionach jednoznacznie symbolizujących okrzyk\n‘naprzód!’ czy ‘do boju!’.</li>\n</ol>\n<p>Polecam odwiedzić <a href=\"http://www.muzeumzamoyskich.pl/socrealizm\">Muzeum Zamoyskich w Kozłówce</a>.\nZnajdują się tam spore zbiory ‘socrealistycznych pozostałości’.</p>\n";
-var raw = exports.raw = "\n![Obraz przedstawia trzy zdjęcia obrazów znanych artystów na bordowym tle.](https://assets0.ello.co/uploads/asset/attachment/7293439/ello-optimized-cd0adf89.jpg)\n![Obraz przedstawia cztery fotografie, widzimy obraz i trzy zdjęcia budowli, całość na bordowym tle.](https://assets0.ello.co/uploads/asset/attachment/7293447/ello-optimized-c4af0aff.jpg)\n![Obraz przedstawia fotografie modelek na wybiegu podczas pokazu mody. Całość na bordowym tle.](https://assets1.ello.co/uploads/asset/attachment/7293450/ello-optimized-c34345a7.jpg)\n![Obraz przedstawia trzy plakaty propagandowe na bordowym tle.](https://assets0.ello.co/uploads/asset/attachment/7293451/ello-optimized-f4117fab.jpg)\n![Obraz przedstawia fotografię Pałacu Kultury i Nauki w Warszawie. Zdjęcie umieszczone na bordowym tle.](https://assets0.ello.co/uploads/asset/attachment/7293453/ello-optimized-950578f1.jpg)\n![Obraz przedstawia trzy fotografie budynków umieszczone na bordowym tle.](https://assets2.ello.co/uploads/asset/attachment/7293457/ello-optimized-97e839ed.jpg)\n![Obraz przedstawia dwie fotografie budowli i jedno zdjęcie rysunku. Całość na bordowym tle.](https://assets0.ello.co/uploads/asset/attachment/7293463/ello-optimized-99998996.jpg)\n![Obraz przedstawia zdjęcie rysunku i obrazu znanego artysty. Całość na bordowym tle.](https://assets2.ello.co/uploads/asset/attachment/7293465/ello-optimized-36072e78.jpg)\n![Obraz przedstawia fotografię wnętrza wypełnionego różnymi rzeźbami i obrazami. Pod zdjęciem na bordowym tle widnieje opis.](https://assets2.ello.co/uploads/asset/attachment/7293466/ello-optimized-899bab3b.jpg)\n\nKiedy mówimy o kierunkach, nurtach w sztuce zazwyczaj mamy do czynienia z szeregiem cech dzieła,\nktóre kształtują się, dojrzewają na przestrzeni czasu. Nurty w sztuce to odpowiedź na sytuację w\nświecie sztuki, to komentarz na temat otaczającego nas świata jednego lub większej grupy artystów.\nTo także często indywidualny pogląd na sztukę danej jednostki. W wielu przypadkach rozwój kierunków\nsztuki to ‘dzieło’ jednego artysty, który potrafił przekonać innych do swojego światoobrazu. To\n‘dzieło’ człowieka, który zauważy oryginalne cechy i nazwie je za pomocą giętkiego języka swoich\nwypowiedzi. Co raz zostanie nazwane, pozostaje.\n\nSocrealizm jest czymś odmiennym od kierunku. W pewnym sensie kształtował się pod przymusem, wraz z\nnadejściem władz komunistycznych. Nazwijmy go zatem ‘metodą twórczą’, jedyną słuszną metodą twórczą\nw czasie rządów komunistycznych. Sztuka po roku 1934 miała bowiem służyć celom propagandowym, stać\nsię narzędziem partii. Maksim Gorki na Zjeździe Pisarzy Radzieckich w 1934 roku wypowiadał się na\ntemat dzieła sztuki – powinno ono posiadać realistyczną formę i socjalistyczną treść zgodną z ideami\nmarksizmu i leninizmu. Socrealizm był jednak pełen sprzeczności i niejasności. Główny temat stanowił\nsojusz robotniczo-chłopski, równość klasowa, historia ruchu robotniczego. Artyści odmawiający\npodporządkowania się założeniom jedynej, słusznej metody twórczej narażeni byli na represje.\n\nPrzyjrzyjmy się poszczególnym cechom charakterystycznym dla stylu socrealizmu:\n\n1. Architektura miała ukazywać siłę i potęgę państwa. Budynki z tego czasu cechuje monumentalizm,\n   przeskalowanie, symetria. Znajdziemy elementy zaczerpnięte z architektury klasycznej – kolumny,\n   attyki, pilastry, ale też wzorce z amerykańskich drapaczy chmur (w stylu art déco lub\n   neogotyckich). Olbrzymie place (np. Plac Centralny w Nowej Hucie w Krakowie) miały za zadanie\n   skupiać życie społeczne mieszkańców.\n2. Znaczne przeskalowanie dotyka również sztuki figuratywnej od malarstwa po rzeźbę. Postaci są\n   monumentalne, o szerokich barkach, charakterystycznie ‘rozszerzonych’ sylwetkach. Twarze zdają\n   się nie ukazywać emocji, ubrane w symetrycznie-geometryczną formę. Zazwyczaj spotykamy się\n   tutaj z gestem potęgi, władzy, uniesionych ramionach jednoznacznie symbolizujących okrzyk\n   ‘naprzód!’ czy ‘do boju!’.\n\nPolecam odwiedzić [Muzeum Zamoyskich w Kozłówce](http://www.muzeumzamoyskich.pl/socrealizm).\nZnajdują się tam spore zbiory 'socrealistycznych pozostałości'.\n\n";
+var body = exports.body = "<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/7293439/ello-optimized-cd0adf89.jpg\" alt=\"Obraz przedstawia trzy zdjęcia obrazów znanych artystów na bordowym tle.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/7293447/ello-optimized-c4af0aff.jpg\" alt=\"Obraz przedstawia cztery fotografie, widzimy obraz i trzy zdjęcia budowli, całość na bordowym tle.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/7293450/ello-optimized-c34345a7.jpg\" alt=\"Obraz przedstawia fotografie modelek na wybiegu podczas pokazu mody. Całość na bordowym tle.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/7293451/ello-optimized-f4117fab.jpg\" alt=\"Obraz przedstawia trzy plakaty propagandowe na bordowym tle.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/7293453/ello-optimized-950578f1.jpg\" alt=\"Obraz przedstawia fotografię Pałacu Kultury i Nauki w Warszawie. Zdjęcie umieszczone na bordowym tle.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/7293457/ello-optimized-97e839ed.jpg\" alt=\"Obraz przedstawia trzy fotografie budynków umieszczone na bordowym tle.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/7293463/ello-optimized-99998996.jpg\" alt=\"Obraz przedstawia dwie fotografie budowli i jedno zdjęcie rysunku. Całość na bordowym tle.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/7293465/ello-optimized-36072e78.jpg\" alt=\"Obraz przedstawia zdjęcie rysunku i obrazu znanego artysty. Całość na bordowym tle.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/7293466/ello-optimized-899bab3b.jpg\" alt=\"Obraz przedstawia fotografię wnętrza wypełnionego różnymi rzeźbami i obrazami. Pod zdjęciem na bordowym tle widnieje opis.\" /></p>\n<p>Kiedy mówimy o kierunkach, nurtach w sztuce zazwyczaj mamy do czynienia z szeregiem cech dzieła, które kształtują się, dojrzewają na przestrzeni czasu. Nurty w sztuce to odpowiedź na sytuację w świecie sztuki, to komentarz na temat otaczającego nas świata jednego lub większej grupy artystów. To także często indywidualny pogląd na sztukę danej jednostki. W wielu przypadkach rozwój kierunków sztuki to ‘dzieło’ jednego artysty, który potrafił przekonać innych do swojego światoobrazu. To ‘dzieło’ człowieka, który zauważy oryginalne cechy i nazwie je za pomocą giętkiego języka swoich wypowiedzi. Co raz zostanie nazwane, pozostaje.</p>\n<p>Socrealizm jest czymś odmiennym od kierunku. W pewnym sensie kształtował się pod przymusem, wraz z nadejściem władz komunistycznych. Nazwijmy go zatem ‘metodą twórczą’, jedyną słuszną metodą twórczą w czasie rządów komunistycznych. Sztuka po roku 1934 miała bowiem służyć celom propagandowym, stać się narzędziem partii. Maksim Gorki na Zjeździe Pisarzy Radzieckich w 1934 roku wypowiadał się na temat dzieła sztuki – powinno ono posiadać realistyczną formę i socjalistyczną treść zgodną z ideami marksizmu i leninizmu. Socrealizm był jednak pełen sprzeczności i niejasności. Główny temat stanowił sojusz robotniczo-chłopski, równość klasowa, historia ruchu robotniczego. Artyści odmawiający podporządkowania się założeniom jedynej, słusznej metody twórczej narażeni byli na represje.</p>\n<p>Przyjrzyjmy się poszczególnym cechom charakterystycznym dla stylu socrealizmu:</p>\n<ol>\n<li>Architektura miała ukazywać siłę i potęgę państwa. Budynki z tego czasu cechuje monumentalizm, przeskalowanie, symetria. Znajdziemy elementy zaczerpnięte z architektury klasycznej – kolumny, attyki, pilastry, ale też wzorce z amerykańskich drapaczy chmur (w stylu art déco lub neogotyckich). Olbrzymie place (np. Plac Centralny w Nowej Hucie w Krakowie) miały za zadanie skupiać życie społeczne mieszkańców.</li>\n<li>Znaczne przeskalowanie dotyka również sztuki figuratywnej od malarstwa po rzeźbę. Postaci są monumentalne, o szerokich barkach, charakterystycznie ‘rozszerzonych’ sylwetkach. Twarze zdają się nie ukazywać emocji, ubrane w symetrycznie-geometryczną formę. Zazwyczaj spotykamy się tutaj z gestem potęgi, władzy, uniesionych ramionach jednoznacznie symbolizujących okrzyk ‘naprzód!’ czy ‘do boju!’.</li>\n</ol>\n<p>Polecam odwiedzić <a href=\"http://www.muzeumzamoyskich.pl/socrealizm\">Muzeum Zamoyskich w Kozłówce</a>. Znajdują się tam spore zbiory ‘socrealistycznych pozostałości’.</p>\n";
+var raw = exports.raw = "\n![Obraz przedstawia trzy zdjęcia obrazów znanych artystów na bordowym tle.](https://assets0.ello.co/uploads/asset/attachment/7293439/ello-optimized-cd0adf89.jpg)\n![Obraz przedstawia cztery fotografie, widzimy obraz i trzy zdjęcia budowli, całość na bordowym tle.](https://assets0.ello.co/uploads/asset/attachment/7293447/ello-optimized-c4af0aff.jpg)\n![Obraz przedstawia fotografie modelek na wybiegu podczas pokazu mody. Całość na bordowym tle.](https://assets1.ello.co/uploads/asset/attachment/7293450/ello-optimized-c34345a7.jpg)\n![Obraz przedstawia trzy plakaty propagandowe na bordowym tle.](https://assets0.ello.co/uploads/asset/attachment/7293451/ello-optimized-f4117fab.jpg)\n![Obraz przedstawia fotografię Pałacu Kultury i Nauki w Warszawie. Zdjęcie umieszczone na bordowym tle.](https://assets0.ello.co/uploads/asset/attachment/7293453/ello-optimized-950578f1.jpg)\n![Obraz przedstawia trzy fotografie budynków umieszczone na bordowym tle.](https://assets2.ello.co/uploads/asset/attachment/7293457/ello-optimized-97e839ed.jpg)\n![Obraz przedstawia dwie fotografie budowli i jedno zdjęcie rysunku. Całość na bordowym tle.](https://assets0.ello.co/uploads/asset/attachment/7293463/ello-optimized-99998996.jpg)\n![Obraz przedstawia zdjęcie rysunku i obrazu znanego artysty. Całość na bordowym tle.](https://assets2.ello.co/uploads/asset/attachment/7293465/ello-optimized-36072e78.jpg)\n![Obraz przedstawia fotografię wnętrza wypełnionego różnymi rzeźbami i obrazami. Pod zdjęciem na bordowym tle widnieje opis.](https://assets2.ello.co/uploads/asset/attachment/7293466/ello-optimized-899bab3b.jpg)\n\nKiedy mówimy o kierunkach, nurtach w sztuce zazwyczaj mamy do czynienia z szeregiem cech dzieła, które kształtują się, dojrzewają na przestrzeni czasu. Nurty w sztuce to odpowiedź na sytuację w świecie sztuki, to komentarz na temat otaczającego nas świata jednego lub większej grupy artystów. To także często indywidualny pogląd na sztukę danej jednostki. W wielu przypadkach rozwój kierunków sztuki to ‘dzieło’ jednego artysty, który potrafił przekonać innych do swojego światoobrazu. To ‘dzieło’ człowieka, który zauważy oryginalne cechy i nazwie je za pomocą giętkiego języka swoich wypowiedzi. Co raz zostanie nazwane, pozostaje. \n\nSocrealizm jest czymś odmiennym od kierunku. W pewnym sensie kształtował się pod przymusem, wraz z nadejściem władz komunistycznych. Nazwijmy go zatem ‘metodą twórczą’, jedyną słuszną metodą twórczą w czasie rządów komunistycznych. Sztuka po roku 1934 miała bowiem służyć celom propagandowym, stać się narzędziem partii. Maksim Gorki na Zjeździe Pisarzy Radzieckich w 1934 roku wypowiadał się na temat dzieła sztuki – powinno ono posiadać realistyczną formę i socjalistyczną treść zgodną z ideami marksizmu i leninizmu. Socrealizm był jednak pełen sprzeczności i niejasności. Główny temat stanowił sojusz robotniczo-chłopski, równość klasowa, historia ruchu robotniczego. Artyści odmawiający podporządkowania się założeniom jedynej, słusznej metody twórczej narażeni byli na represje.  \n\nPrzyjrzyjmy się poszczególnym cechom charakterystycznym dla stylu socrealizmu:\n\n1. Architektura miała ukazywać siłę i potęgę państwa. Budynki z tego czasu cechuje monumentalizm, przeskalowanie, symetria. Znajdziemy elementy zaczerpnięte z architektury klasycznej – kolumny, attyki, pilastry, ale też wzorce z amerykańskich drapaczy chmur (w stylu art déco lub neogotyckich). Olbrzymie place (np. Plac Centralny w Nowej Hucie w Krakowie) miały za zadanie skupiać życie społeczne mieszkańców.\n2. Znaczne przeskalowanie dotyka również sztuki figuratywnej od malarstwa po rzeźbę. Postaci są monumentalne, o szerokich barkach, charakterystycznie ‘rozszerzonych’ sylwetkach. Twarze zdają się nie ukazywać emocji, ubrane w symetrycznie-geometryczną formę. Zazwyczaj spotykamy się tutaj z gestem potęgi, władzy, uniesionych ramionach jednoznacznie symbolizujących okrzyk ‘naprzód!’ czy ‘do boju!’.\n\nPolecam odwiedzić [Muzeum Zamoyskich w Kozłówce](http://www.muzeumzamoyskich.pl/socrealizm). Znajdują się tam spore zbiory 'socrealistycznych pozostałości'.";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 110 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 110;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'olela-narrative',
+      null,
+      'By\u0142 wczesny poranek pewnej s\u0142onecznej wiosny. \u015Ani\u0142am o skalistych klifach, na kt\xF3rych wierzcho\u0142kach rozk\u0142adam kocyk, siadam i podziwiam widok. Jedynym, co rozpo\u015Bciera\u0142o si\u0119 wtedy przede mn\u0105 by\u0142 ocean, niezmierzony turkus kr\xF3lowej w\xF3d. Podobno woda w \u015Bnie odzwierciedla stan ducha. Kiedy jest ciemna i zm\u0105cona to znaczy, \u017Ce wewn\u0105trz jeste\u015Bmy niespokojni, \u017Ce co\u015B nas trapi, trzyma i nie chce pu\u015Bci\u0107. Moja woda z tego snu by\u0142a bardzo spokojna, niesamowicie niebieska. Mam wr\u0119cz wra\u017Cenie, \u017Ce zobaczy\u0142am kolor, kt\xF3ry jest \u2018niedefiniowalny\u2019, kt\xF3rego w obecnej skali kolor\xF3w nie znajdziemy. Sen przerwa\u0142o jednak pewne wydarzenie, o kt\xF3rym chcia\u0142am Wam opowiedzie\u0107. Patrz\u0105c na wod\u0119 zobaczy\u0142am nagle \u015Bcian\u0119 bia\u0142ego \u015Bwiat\u0142a, kt\xF3re zdawa\u0142o si\u0119 by\u0107 coraz bli\u017Cej mnie, wr\u0119cz poch\u0142on\u0119\u0142o ca\u0142\u0105 przestrze\u0144 dooko\u0142a. Znalaz\u0142am si\u0119 W tym \u015Bwietle ca\u0142\u0105 sob\u0105, ca\u0142ym swoim jestestwem. Niewiele mog\u0142am zrobi\u0107, tote\u017C przez moment spanikowa\u0142am, bo nie wiedzia\u0142am, co si\u0119 dzieje. Po chwili jednak, uspokoi\u0142am si\u0119 i rozejrza\u0142am dooko\u0142a. Nie by\u0142o nic. W zasi\u0119gu mojego wzroku nie by\u0142o niczego, na czym mog\u0142abym go zawiesi\u0107. \u017Badnego przedmiotu, \u017Cadnej \u015Bcie\u017Cki, tylko bia\u0142a, \u015Bwietlista pustka. Czu\u0142am jak ogarnia mnie z ka\u017Cdej strony, jak mnie poch\u0142ania, jak ju\u017C nie czuj\u0119 swojego \u2018ja\u2019. By\u0142o to uczucie przyjemne, bliskie ekstazie, a na pewno spokrewnione z medytacj\u0105. Czy dozna\u0142am o\u015Bwiecenia? Czy w \u015Bnie, siedz\u0105c na klifie medytowa\u0142am? Nie pami\u0119ta\u0142am teraz zbyt wiele. Liczy\u0142o si\u0119 \u2018tu i teraz\u2019. Nagle odwr\xF3ci\u0142am si\u0119 na prawy bok i wszystko znikn\u0119\u0142o. Wtedy w\u0142a\u015Bnie u\u015Bwiadomi\u0142am sobie, co si\u0119 sta\u0142o. Ze snu wybudzi\u0142am si\u0119 ju\u017C dawno i jedyne, co znalaz\u0142o si\u0119 przede mn\u0105 w momencie uniesienia powiek to o\u015Bwietlona s\u0142o\u0144cem bia\u0142a \u015Bciana. Patrzy\u0142am na ni\u0105 przez d\u0142u\u017Csz\u0105 chwil\u0119, nie zdaj\u0105c sobie sprawy z jej istnienia. Transcendentne doznanie jest dok\u0142adnie tym, co znajdziemy (i czego powinni\u015Bmy szuka\u0107) w obrazach jednego z najznakomitszych malarzy XX wieku \u2013 Mark\u2019a Rothko.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7396164/ello-optimized-e4402a1b.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia fragmentu kobiecej twarzy z namalowanym kolorowym prosok\u0105tem na lewej powiece.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Make-up inspirowany obrazem. 'Biały środek (żółty, różowy, lawendowy)' by Mark_Rothko", "date": "2018-03-26T09:28:00.000Z", "categories": ["Sztuka Makijażu"], "tags": ["mark rothko", "makeup", "makijaż", "artysta", "dzieło", "kreacja"] };
+var body = exports.body = "<olela-narrative>\nBył wczesny poranek pewnej słonecznej wiosny. Śniłam o skalistych klifach, na których wierzchołkach rozkładam kocyk, siadam i podziwiam widok. Jedynym, co rozpościerało się wtedy przede mną był ocean, niezmierzony turkus królowej wód. Podobno woda w śnie odzwierciedla stan ducha. Kiedy jest ciemna i zmącona to znaczy, że wewnątrz jesteśmy niespokojni, że coś nas trapi, trzyma i nie chce puścić. Moja woda z tego snu była bardzo spokojna, niesamowicie niebieska. Mam wręcz wrażenie, że zobaczyłam kolor, który jest ‘niedefiniowalny’, którego w obecnej skali kolorów nie znajdziemy. Sen przerwało jednak pewne wydarzenie, o którym chciałam Wam opowiedzieć. Patrząc na wodę zobaczyłam nagle ścianę białego światła, które zdawało się być coraz bliżej mnie, wręcz pochłonęło całą przestrzeń dookoła. Znalazłam się W tym świetle całą sobą, całym swoim jestestwem. Niewiele mogłam zrobić, toteż przez moment spanikowałam, bo nie wiedziałam, co się dzieje. Po chwili jednak, uspokoiłam się i rozejrzałam dookoła. Nie było nic. W zasięgu mojego wzroku nie było niczego, na czym mogłabym go zawiesić. Żadnego przedmiotu, żadnej ścieżki, tylko biała, świetlista pustka. Czułam jak ogarnia mnie z każdej strony, jak mnie pochłania, jak już nie czuję swojego ‘ja’. Było to uczucie przyjemne, bliskie ekstazie, a na pewno spokrewnione z medytacją. Czy doznałam oświecenia? Czy w śnie, siedząc na klifie medytowałam? Nie pamiętałam teraz zbyt wiele. Liczyło się ‘tu i teraz’. Nagle odwróciłam się na prawy bok i wszystko zniknęło. Wtedy właśnie uświadomiłam sobie, co się stało. Ze snu wybudziłam się już dawno i jedyne, co znalazło się przede mną w momencie uniesienia powiek to oświetlona słońcem biała ściana. Patrzyłam na nią przez dłuższą chwilę, nie zdając sobie sprawy z jej istnienia. Transcendentne doznanie jest dokładnie tym, co znajdziemy (i czego powinniśmy szukać) w obrazach jednego z najznakomitszych malarzy XX wieku – Mark’a Rothko.\n</olela-narrative>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/7396164/ello-optimized-e4402a1b.jpg\" alt=\"Obraz przedstawia dwa zdjęcia fragmentu kobiecej twarzy z namalowanym kolorowym prosokątem na lewej powiece.\" /></p>\n";
+var raw = exports.raw = "\n<olela-narrative>\nBył wczesny poranek pewnej słonecznej wiosny. Śniłam o skalistych klifach, na których wierzchołkach rozkładam kocyk, siadam i podziwiam widok. Jedynym, co rozpościerało się wtedy przede mną był ocean, niezmierzony turkus królowej wód. Podobno woda w śnie odzwierciedla stan ducha. Kiedy jest ciemna i zmącona to znaczy, że wewnątrz jesteśmy niespokojni, że coś nas trapi, trzyma i nie chce puścić. Moja woda z tego snu była bardzo spokojna, niesamowicie niebieska. Mam wręcz wrażenie, że zobaczyłam kolor, który jest ‘niedefiniowalny’, którego w obecnej skali kolorów nie znajdziemy. Sen przerwało jednak pewne wydarzenie, o którym chciałam Wam opowiedzieć. Patrząc na wodę zobaczyłam nagle ścianę białego światła, które zdawało się być coraz bliżej mnie, wręcz pochłonęło całą przestrzeń dookoła. Znalazłam się W tym świetle całą sobą, całym swoim jestestwem. Niewiele mogłam zrobić, toteż przez moment spanikowałam, bo nie wiedziałam, co się dzieje. Po chwili jednak, uspokoiłam się i rozejrzałam dookoła. Nie było nic. W zasięgu mojego wzroku nie było niczego, na czym mogłabym go zawiesić. Żadnego przedmiotu, żadnej ścieżki, tylko biała, świetlista pustka. Czułam jak ogarnia mnie z każdej strony, jak mnie pochłania, jak już nie czuję swojego ‘ja’. Było to uczucie przyjemne, bliskie ekstazie, a na pewno spokrewnione z medytacją. Czy doznałam oświecenia? Czy w śnie, siedząc na klifie medytowałam? Nie pamiętałam teraz zbyt wiele. Liczyło się ‘tu i teraz’. Nagle odwróciłam się na prawy bok i wszystko zniknęło. Wtedy właśnie uświadomiłam sobie, co się stało. Ze snu wybudziłam się już dawno i jedyne, co znalazło się przede mną w momencie uniesienia powiek to oświetlona słońcem biała ściana. Patrzyłam na nią przez dłuższą chwilę, nie zdając sobie sprawy z jej istnienia. Transcendentne doznanie jest dokładnie tym, co znajdziemy (i czego powinniśmy szukać) w obrazach jednego z najznakomitszych malarzy XX wieku – Mark’a Rothko.\n</olela-narrative>\n\n![Obraz przedstawia dwa zdjęcia fragmentu kobiecej twarzy z namalowanym kolorowym prosokątem na lewej powiece.](https://assets1.ello.co/uploads/asset/attachment/7396164/ello-optimized-e4402a1b.jpg)\n\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 111 */
@@ -8197,6 +8238,18 @@ webpackEmptyContext.id = 111;
 
 /***/ }),
 /* 112 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 112;
+
+/***/ }),
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -8217,19 +8270,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 112;
+webpackContext.id = 113;
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(114);
+module.exports = __webpack_require__(115);
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8247,7 +8300,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(115);
+var _propTypes = __webpack_require__(116);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -8451,13 +8504,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_115__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_116__;
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8471,7 +8524,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8479,7 +8532,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8492,7 +8545,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8526,7 +8579,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8539,7 +8592,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8548,7 +8601,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8556,7 +8609,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8564,7 +8617,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8579,7 +8632,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8594,7 +8647,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8609,7 +8662,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8633,7 +8686,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(128);
+var s = __webpack_require__(129);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -8664,7 +8717,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8672,7 +8725,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8696,7 +8749,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8747,7 +8800,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8755,7 +8808,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8764,7 +8817,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(133);
+var s = __webpack_require__(134);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -8797,7 +8850,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8807,7 +8860,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8851,22 +8904,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 137,
-	"./Feed.js": 138,
-	"./Ingredient.js": 139,
-	"./Method.js": 140,
-	"./Recipe.js": 141,
-	"./TableOfContents.js": 142
+	"./Crumbs.js": 138,
+	"./Feed.js": 139,
+	"./Ingredient.js": 140,
+	"./Method.js": 141,
+	"./Recipe.js": 142,
+	"./TableOfContents.js": 143
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -8882,10 +8935,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 136;
+webpackContext.id = 137;
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8900,7 +8953,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8915,7 +8968,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8930,7 +8983,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8945,7 +8998,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8960,7 +9013,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8975,7 +9028,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8999,7 +9052,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
