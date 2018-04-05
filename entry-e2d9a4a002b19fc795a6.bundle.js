@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_116__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_117__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(131);
+var Feed_1 = __webpack_require__(132);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(133);
+var Recipe_1 = __webpack_require__(134);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(135);
+var Root_1 = __webpack_require__(136);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(117);
+var s = __webpack_require__(118);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(118);
+var s = __webpack_require__(119);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(111),
-ROOT: __webpack_require__(112),
-LAYOUTS: __webpack_require__(113),
-INCLUDES: __webpack_require__(137)};
+UPLOADS: __webpack_require__(112),
+ROOT: __webpack_require__(113),
+LAYOUTS: __webpack_require__(114),
+INCLUDES: __webpack_require__(138)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(137)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(119);
+var s = __webpack_require__(120);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(123);
+var s = __webpack_require__(124);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(136);
+__webpack_require__(137);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(114);
+var react_disqus_comments_1 = __webpack_require__(115);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(128);
-var s = __webpack_require__(130);
+var FacebookLike_1 = __webpack_require__(129);
+var s = __webpack_require__(131);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(120);
-var s = __webpack_require__(121);
+__webpack_require__(121);
+var s = __webpack_require__(122);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(122);
+var s = __webpack_require__(123);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(125);
+var s = __webpack_require__(126);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(124);
+var s = __webpack_require__(125);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(126);
+var s = __webpack_require__(127);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(127);
+var s = __webpack_require__(128);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(132);
+var s = __webpack_require__(133);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(144);
-var menu_1 = __webpack_require__(145);
+var tags_1 = __webpack_require__(145);
+var menu_1 = __webpack_require__(146);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2687,7 +2687,8 @@ var map = {
 	"./2018-02-26-moje-wybory-luty.markdown": 107,
 	"./2018-02-28-wystawa-przyszlosc-bedzie-inna-wizje-i-praktyki-modernizacji-spolecznych-po-roku-1918.markdown": 108,
 	"./2018-03-08-socrealizm-moodboard.markdown": 109,
-	"./2018-03-26-make-up-inspirowany-obrazem-bialy-srodek-zolty-rozowy-lawendowy-by-mark-rothko.markdown": 110
+	"./2018-03-26-make-up-inspirowany-obrazem-bialy-srodek-zolty-rozowy-lawendowy-by-mark-rothko.markdown": 110,
+	"./2018-04-05-dadaizm-moodboard.markdown": 111
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -8276,15 +8277,87 @@ var raw = exports.raw = "\n<olela-narrative>\nBył wczesny poranek pewnej słone
 
 /***/ }),
 /* 111 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 111;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7444781/ello-optimized-e4ecfaf8.jpg', alt: 'Obraz przedstawia r\xF3\u017Cne fotografie np. przedmiot\xF3w na jasnoszarym tle, oraz czarny napis.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7444784/ello-optimized-5bb23ed7.jpg', alt: 'Obraz przedstawia fotografie na jasnym tle. Widzimy obrazy znanych artyst\xF3w i modela na wybiegu.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7444786/ello-optimized-0948e12c.jpg', alt: 'Obraz przedstawia cztery fotografie. Widzimy trzy prace znanych artyst\xF3w i jedno zdj\u0119cie przedstawiaj\u0105ce pokaz mody.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7444790/ello-optimized-fa26d3a7.jpg', alt: 'Obraz przedstawia dwie fotografie na jasnoszarym tle. Widzimy rud\u0105 kobiet\u0119 trzymaj\u0105c\u0105 lalk\u0119 i czarne buty na obcasie.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7444792/ello-optimized-dd0d04c1.jpg', alt: 'Obraz przedstawia cztery fotografie r\xF3\u017Cnych przedmiot\xF3w oraz graficzny ornament ro\u015Blinny. Wszystko na jasnoszarym tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/7444795/ello-optimized-3558c5ab.jpg', alt: 'Obraz przedstawia trzy zdj\u0119cia. Widzimy jedn\u0105 fotografi\u0119 i dwa obiekty. Obok czarne litery.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/7444797/ello-optimized-061cdae8.jpg', alt: 'Obraz przedstawia trzy zdj\u0119cia na jasnoszarym tle. Widzimy fili\u017Cank\u0119 pokryt\u0105 futrem, pier\u015Bcionek i obraz abstrakcyjny. Obok znajduje si\u0119 czarna litera.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/7444800/ello-optimized-6e248528.jpg', alt: 'Obraz przedstawia napisy na jasnoszarym tle.' })
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'BY NAPISA\u0106 WIERSZ DADAISTYCZNY'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'We\u017A gazet\u0119. We\u017A jakie\u015B no\u017Cyczki. Wybierz z gazety artyku\u0142 odpowiadaj\u0105cy d\u0142ugo\u015Bci Twojego wiersza. Wytnij artyku\u0142. Nast\u0119pnie uwa\u017Cnie wytnij ka\u017Cde s\u0142owo artyku\u0142u i wsyp wszystkie s\u0142owa do worka. Potrz\u0105\u015Bnij delikatnie. Nast\u0119pnie wyjmij kolejno powycinane z gazety s\u0142owa. Wiersz b\u0119dzie podobny do Ciebie. I oto jeste\u015B \u2013 niesko\u0144czenie oryginalny autor czaruj\u0105cej delikatno\u015Bci, cho\u0107 niedoceniony przez wulgarne stado.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'DADA jest dziewiczym drobnoustrojem DADA jest przeciwne wysokim kosztom \u017Cycia DADA limitowana organizacja eksploatacji idei DADA ma 391 r\xF3\u017Cnych postaw i kolor\xF3w nawi\u0105zuj\u0105cych do p\u0142ci prezydenta Zmienia si\u0119 \u2013 potwierdza \u2013 m\xF3wi co\u015B przeciwnego w jednym czasie \u2013 \u017Cadnego znaczenia \u2013 krzyki \u2013 idzie na ryby. Dada jest kameleonem w\u0142asnej gwa\u0142townej zmiany. Dada jest przeciwko przysz\u0142o\u015Bci. Dada nie \u017Cyje. Dada to absurd. \u017Byj d\u0142ugo Dada. Dada nie jest szko\u0142\u0105 literack\u0105, ryk'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Tristan Tzara'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'XVI'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk ryk Kt\xF3ry nadal uznaje siebie za bardzo sympatycznego Tristan Tzara'
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "DADAizm [moodboard]", "date": "2018-04-05T14:09:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["dada", "dadaizm", "moodboard", "sztuka", "artysta", "kreacja"] };
+var body = exports.body = "<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/7444781/ello-optimized-e4ecfaf8.jpg\" alt=\"Obraz przedstawia różne fotografie np. przedmiotów na jasnoszarym tle, oraz czarny napis.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/7444784/ello-optimized-5bb23ed7.jpg\" alt=\"Obraz przedstawia fotografie na jasnym tle. Widzimy obrazy znanych artystów i modela na wybiegu.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/7444786/ello-optimized-0948e12c.jpg\" alt=\"Obraz przedstawia cztery fotografie. Widzimy trzy prace znanych artystów i jedno zdjęcie przedstawiające pokaz mody.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/7444790/ello-optimized-fa26d3a7.jpg\" alt=\"Obraz przedstawia dwie fotografie na jasnoszarym tle. Widzimy rudą kobietę trzymającą lalkę i czarne buty na obcasie.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/7444792/ello-optimized-dd0d04c1.jpg\" alt=\"Obraz przedstawia cztery fotografie różnych przedmiotów oraz graficzny ornament roślinny. Wszystko na jasnoszarym tle.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/7444795/ello-optimized-3558c5ab.jpg\" alt=\"Obraz przedstawia trzy zdjęcia. Widzimy jedną fotografię i dwa obiekty. Obok czarne litery.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/7444797/ello-optimized-061cdae8.jpg\" alt=\"Obraz przedstawia trzy zdjęcia na jasnoszarym tle. Widzimy filiżankę pokrytą futrem, pierścionek i obraz abstrakcyjny. Obok znajduje się czarna litera.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/7444800/ello-optimized-6e248528.jpg\" alt=\"Obraz przedstawia napisy na jasnoszarym tle.\" /></p>\n<p>BY NAPISAĆ WIERSZ DADAISTYCZNY</p>\n<p>Weź gazetę.\nWeź jakieś nożyczki.\nWybierz z gazety artykuł odpowiadający długości Twojego wiersza.\nWytnij artykuł.\nNastępnie uważnie wytnij każde słowo artykułu i wsyp wszystkie słowa do worka.\nPotrząśnij delikatnie.\nNastępnie wyjmij kolejno powycinane z gazety słowa.\nWiersz będzie podobny do Ciebie.\nI oto jesteś – nieskończenie oryginalny autor czarującej delikatności, choć niedoceniony przez wulgarne stado.</p>\n<p>DADA jest dziewiczym drobnoustrojem\nDADA jest przeciwne wysokim kosztom życia\nDADA\nlimitowana organizacja eksploatacji idei\nDADA ma 391 różnych postaw i kolorów nawiązujących do płci prezydenta\nZmienia się – potwierdza – mówi coś przeciwnego w jednym czasie – żadnego znaczenia – krzyki – idzie na ryby.\nDada jest kameleonem własnej gwałtownej zmiany.\nDada jest przeciwko przyszłości. Dada nie żyje. Dada to absurd. Żyj długo Dada. Dada nie jest szkołą literacką, ryk</p>\n<p>Tristan Tzara</p>\n<p>XVI</p>\n<p>ryk ryk ryk ryk ryk ryk ryk ryk\nryk ryk ryk ryk ryk ryk ryk ryk\nryk ryk ryk ryk ryk ryk ryk ryk\nryk ryk ryk ryk ryk ryk ryk ryk\nryk ryk ryk ryk ryk ryk ryk ryk\nryk ryk ryk ryk ryk ryk ryk ryk\nryk ryk ryk ryk ryk ryk ryk ryk\nryk ryk ryk ryk ryk ryk ryk ryk\nryk ryk ryk ryk ryk ryk ryk ryk\nryk ryk ryk ryk ryk ryk ryk ryk\nryk ryk ryk ryk ryk ryk ryk ryk\nryk ryk ryk ryk ryk ryk ryk ryk\nryk ryk ryk ryk ryk ryk ryk ryk\nryk ryk ryk ryk ryk ryk ryk ryk\nKtóry nadal uznaje siebie za bardzo sympatycznego\nTristan Tzara</p>\n";
+var raw = exports.raw = "\n![Obraz przedstawia różne fotografie np. przedmiotów na jasnoszarym tle, oraz czarny napis.](https://assets1.ello.co/uploads/asset/attachment/7444781/ello-optimized-e4ecfaf8.jpg)\n![Obraz przedstawia fotografie na jasnym tle. Widzimy obrazy znanych artystów i modela na wybiegu.](https://assets1.ello.co/uploads/asset/attachment/7444784/ello-optimized-5bb23ed7.jpg)\n![Obraz przedstawia cztery fotografie. Widzimy trzy prace znanych artystów i jedno zdjęcie przedstawiające pokaz mody.](https://assets1.ello.co/uploads/asset/attachment/7444786/ello-optimized-0948e12c.jpg)\n![Obraz przedstawia dwie fotografie na jasnoszarym tle. Widzimy rudą kobietę trzymającą lalkę i czarne buty na obcasie.](https://assets1.ello.co/uploads/asset/attachment/7444790/ello-optimized-fa26d3a7.jpg)\n![Obraz przedstawia cztery fotografie różnych przedmiotów oraz graficzny ornament roślinny. Wszystko na jasnoszarym tle.](https://assets1.ello.co/uploads/asset/attachment/7444792/ello-optimized-dd0d04c1.jpg)\n![Obraz przedstawia trzy zdjęcia. Widzimy jedną fotografię i dwa obiekty. Obok czarne litery.](https://assets2.ello.co/uploads/asset/attachment/7444795/ello-optimized-3558c5ab.jpg)\n![Obraz przedstawia trzy zdjęcia na jasnoszarym tle. Widzimy filiżankę pokrytą futrem, pierścionek i obraz abstrakcyjny. Obok znajduje się czarna litera.](https://assets2.ello.co/uploads/asset/attachment/7444797/ello-optimized-061cdae8.jpg)\n![Obraz przedstawia napisy na jasnoszarym tle.](https://assets2.ello.co/uploads/asset/attachment/7444800/ello-optimized-6e248528.jpg)\n\nBY NAPISAĆ WIERSZ DADAISTYCZNY\n\nWeź gazetę.\nWeź jakieś nożyczki.\nWybierz z gazety artykuł odpowiadający długości Twojego wiersza.\nWytnij artykuł.\nNastępnie uważnie wytnij każde słowo artykułu i wsyp wszystkie słowa do worka.\nPotrząśnij delikatnie.\nNastępnie wyjmij kolejno powycinane z gazety słowa.\nWiersz będzie podobny do Ciebie.\nI oto jesteś – nieskończenie oryginalny autor czarującej delikatności, choć niedoceniony przez wulgarne stado. \n\n\n\nDADA jest dziewiczym drobnoustrojem\nDADA jest przeciwne wysokim kosztom życia\nDADA\nlimitowana organizacja eksploatacji idei\nDADA ma 391 różnych postaw i kolorów nawiązujących do płci prezydenta\nZmienia się – potwierdza – mówi coś przeciwnego w jednym czasie – żadnego znaczenia – krzyki – idzie na ryby.\nDada jest kameleonem własnej gwałtownej zmiany.\nDada jest przeciwko przyszłości. Dada nie żyje. Dada to absurd. Żyj długo Dada. Dada nie jest szkołą literacką, ryk\n\nTristan Tzara\n\nXVI\n\nryk ryk ryk ryk ryk ryk ryk ryk\nryk ryk ryk ryk ryk ryk ryk ryk\nryk ryk ryk ryk ryk ryk ryk ryk\nryk ryk ryk ryk ryk ryk ryk ryk\nryk ryk ryk ryk ryk ryk ryk ryk\nryk ryk ryk ryk ryk ryk ryk ryk\nryk ryk ryk ryk ryk ryk ryk ryk\nryk ryk ryk ryk ryk ryk ryk ryk\nryk ryk ryk ryk ryk ryk ryk ryk\nryk ryk ryk ryk ryk ryk ryk ryk\nryk ryk ryk ryk ryk ryk ryk ryk\nryk ryk ryk ryk ryk ryk ryk ryk\nryk ryk ryk ryk ryk ryk ryk ryk\nryk ryk ryk ryk ryk ryk ryk ryk\nKtóry nadal uznaje siebie za bardzo sympatycznego \nTristan Tzara\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 112 */
@@ -8300,6 +8373,18 @@ webpackEmptyContext.id = 112;
 
 /***/ }),
 /* 113 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 113;
+
+/***/ }),
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -8320,19 +8405,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 113;
+webpackContext.id = 114;
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(115);
+module.exports = __webpack_require__(116);
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8350,7 +8435,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(116);
+var _propTypes = __webpack_require__(117);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -8554,13 +8639,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_116__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_117__;
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8574,7 +8659,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8582,7 +8667,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8595,7 +8680,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8629,7 +8714,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8642,7 +8727,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8651,7 +8736,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8659,7 +8744,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8667,7 +8752,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8682,7 +8767,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8697,7 +8782,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8712,7 +8797,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8736,7 +8821,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(129);
+var s = __webpack_require__(130);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -8767,7 +8852,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8775,7 +8860,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8799,7 +8884,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8850,7 +8935,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8858,7 +8943,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8867,7 +8952,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(134);
+var s = __webpack_require__(135);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -8900,7 +8985,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8910,7 +8995,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8954,22 +9039,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 138,
-	"./Feed.js": 139,
-	"./Ingredient.js": 140,
-	"./Method.js": 141,
-	"./Recipe.js": 142,
-	"./TableOfContents.js": 143
+	"./Crumbs.js": 139,
+	"./Feed.js": 140,
+	"./Ingredient.js": 141,
+	"./Method.js": 142,
+	"./Recipe.js": 143,
+	"./TableOfContents.js": 144
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -8985,10 +9070,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 137;
+webpackContext.id = 138;
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9003,7 +9088,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9018,7 +9103,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9033,7 +9118,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9048,7 +9133,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9063,7 +9148,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9078,7 +9163,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9102,7 +9187,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
