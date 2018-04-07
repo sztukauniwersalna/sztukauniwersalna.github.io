@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_117__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_118__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(132);
+var Feed_1 = __webpack_require__(133);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(134);
+var Recipe_1 = __webpack_require__(135);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(136);
+var Root_1 = __webpack_require__(137);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(118);
+var s = __webpack_require__(119);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(119);
+var s = __webpack_require__(120);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(112),
-ROOT: __webpack_require__(113),
-LAYOUTS: __webpack_require__(114),
-INCLUDES: __webpack_require__(138)};
+UPLOADS: __webpack_require__(113),
+ROOT: __webpack_require__(114),
+LAYOUTS: __webpack_require__(115),
+INCLUDES: __webpack_require__(139)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(138)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(120);
+var s = __webpack_require__(121);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(124);
+var s = __webpack_require__(125);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(137);
+__webpack_require__(138);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(115);
+var react_disqus_comments_1 = __webpack_require__(116);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(129);
-var s = __webpack_require__(131);
+var FacebookLike_1 = __webpack_require__(130);
+var s = __webpack_require__(132);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(121);
-var s = __webpack_require__(122);
+__webpack_require__(122);
+var s = __webpack_require__(123);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(123);
+var s = __webpack_require__(124);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(126);
+var s = __webpack_require__(127);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(125);
+var s = __webpack_require__(126);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(127);
+var s = __webpack_require__(128);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(128);
+var s = __webpack_require__(129);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(133);
+var s = __webpack_require__(134);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(145);
-var menu_1 = __webpack_require__(146);
+var tags_1 = __webpack_require__(146);
+var menu_1 = __webpack_require__(147);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2688,7 +2688,8 @@ var map = {
 	"./2018-02-28-wystawa-przyszlosc-bedzie-inna-wizje-i-praktyki-modernizacji-spolecznych-po-roku-1918.markdown": 108,
 	"./2018-03-08-socrealizm-moodboard.markdown": 109,
 	"./2018-03-26-make-up-inspirowany-obrazem-bialy-srodek-zolty-rozowy-lawendowy-by-mark-rothko.markdown": 110,
-	"./2018-04-05-dadaizm-moodboard.markdown": 111
+	"./2018-04-05-dadaizm-moodboard.markdown": 111,
+	"./2018-04-07-moje-wybory-marzec.markdown": 112
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -8393,15 +8394,71 @@ var raw = exports.raw = "\n![Obraz przedstawia różne fotografie np. przedmiot�
 
 /***/ }),
 /* 112 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 112;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Mam wra\u017Cenie, \u017Ce powiedzenie \u2018w marcu jak w garncu\u2019 nie odnosi si\u0119 tylko do pogody. Jest to bowiem miesi\u0105c pe\u0142en skrajnych nastroi. Z euforii pierwszych promieni lata wpadamy niespodziewanie w jeszcze zimow\u0105 melancholi\u0119. Marzec sprzyja kontemplacji, rozmy\u015Blaniom o nadchodz\u0105cym sezonie i wspominaniu sezonu minionego. W marcu rodz\u0105 si\u0119 koncepcje nowych trend\xF3w \u2018na wiosn\u0119\u2019. Warto w tym celu zajrze\u0107 do drugiego numeru magazynu Vogue Polska. Warto tak\u017Ce zrobi\u0107 sobie przyjemno\u015B\u0107 i zaopatrzy\u0107 si\u0119 w pierwsz\u0105 tej wiosny kwiatow\u0105 sukienk\u0119. Nawet je\u015Bli mia\u0142by j\u0105 zakry\u0107 zimowy (jeszcze) p\u0142aszcz, to poczucie noszenia na sobie pierwszych promieni s\u0142o\u0144ca pozostanie. Lubi\u0119 ten marzec za jego dynamiczne zmiany. Wraz z nim zmienia si\u0119 spos\xF3b piel\u0119gnacji zm\u0119czonej ch\u0142odem cery. Wraz z nim nak\u0142adam na usta ulubiony kolor pomadki i z dumnie podniesion\u0105 g\u0142ow\u0105 wychodz\u0119 ku s\u0142o\u0144cu.'
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Prasa'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Wszyscy rozpisywali si\u0119 o pierwszym numerze polskiego wydania magazynu Vogue. Nic dziwnego, to w ko\u0144cu wydarzenie, kt\xF3re ju\u017C przesz\u0142o do historii. Jedni krytykowali ok\u0142adk\u0119 za jej \u2018krzywy horyzont\u2019, inni twierdzili, \u017Ce \u2018za du\u017Co reklam\u2019. Znale\u017Ali si\u0119 i tacy, co pochwalili - \u017Ce Polska stan\u0119\u0142a na wysoko\u015Bci zadania i (odnosz\u0105c si\u0119 do ok\u0142adki wydania niemieckiego) \u2018da\u0142a rad\u0119\u2019. Kiedy temperatura dooko\u0142a pierwszego numeru nieco ostyg\u0142a, nikt nie zorientowa\u0142 si\u0119, kiedy na p\xF3\u0142ki trafi\u0142 numer drugi. Przyznam si\u0119 szczerze, \u017Ce o ile zdj\u0119cie Juergen\u2019a Teller\u2019a zalewa\u0142o \u2018instagramy\u2019, kwietniow\u0105 ok\u0142adk\u0119 z Ev\u0105 Herzigov\u0105 z\u0142apa\u0142am k\u0105tem oka na koncie jednej z wsp\xF3\u0142tw\xF3rczy\u0144 czasopisma. A przecie\u017C ta ok\u0142adka jest pi\u0119kna, a wn\u0119trze r\xF3wnie ciekawe. W \u015Brodku opr\xF3cz reklam ekskluzywnych marek i przegl\u0105du trend\xF3w na wiosn\u0119 znajdziemy ',
+      _react2.default.createElement(
+        'a',
+        { href: 'http://m.in' },
+        'm.in'
+      ),
+      '. tekst o Jerzym Treutlerze \u2013 tw\xF3rcy plakat\xF3w i s\u0142ynnego logo jask\xF3\u0142ki zaprojektowanego 60 lat temu dla Mody Polskiej, felieton Zuzanny \u0141apickiej (m\xF3j ulubiony),szczery  wywiad z Barbar\u0105 Stuhr, histori\u0119 \u2018Witkiewicz\xF3wki\u2019, czyli domu w kt\xF3rym \u017Cy\u0142 i pracowa\u0142 jeden z najwybitniejszych polskich artyst\xF3w \u2013 Stanis\u0142aw Ignacy Witkiewicz.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7455647/ello-optimized-bd47795e.jpg', alt: 'Zdj\u0119cie przedstawia gazet\u0119 le\u017C\u0105c\u0105 na drewnianym pod\u0142o\u017Cu. Dooko\u0142a widzimy r\xF3\u017Cne przedmioty takie jak okulary przeciws\u0142oneczne czy s\u0142omkowy kapelusz.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Moje wybory: marzec", "date": "2018-04-07T09:31:00.000Z", "categories": ["Sztuka Ubioru"], "tags": ["wybory", "marzec", "vogue", "clochee", "moov", "stradivarius", "wiosna"] };
+var body = exports.body = "<p>Mam wrażenie, że powiedzenie ‘w marcu jak w garncu’ nie odnosi się tylko do pogody. Jest to bowiem miesiąc pełen skrajnych nastroi. Z euforii pierwszych promieni lata wpadamy niespodziewanie w jeszcze zimową melancholię. Marzec sprzyja kontemplacji, rozmyślaniom o nadchodzącym sezonie i wspominaniu sezonu minionego. W marcu rodzą się koncepcje nowych trendów ‘na wiosnę’. Warto w tym celu zajrzeć do drugiego numeru magazynu Vogue Polska. Warto także zrobić sobie przyjemność i zaopatrzyć się w pierwszą tej wiosny kwiatową sukienkę. Nawet jeśli miałby ją zakryć zimowy (jeszcze) płaszcz, to poczucie noszenia na sobie pierwszych promieni słońca pozostanie. Lubię ten marzec za jego dynamiczne zmiany. Wraz z nim zmienia się sposób pielęgnacji zmęczonej chłodem cery. Wraz z nim nakładam na usta ulubiony kolor pomadki i z dumnie podniesioną głową wychodzę ku słońcu.</p>\n<h2>Prasa</h2>\n<p>Wszyscy rozpisywali się o pierwszym numerze polskiego wydania magazynu Vogue. Nic dziwnego, to w końcu wydarzenie, które już przeszło do historii. Jedni krytykowali okładkę za jej ‘krzywy horyzont’, inni twierdzili, że ‘za dużo reklam’. Znaleźli się i tacy, co pochwalili - że Polska stanęła na wysokości zadania i (odnosząc się do okładki wydania niemieckiego) ‘dała radę’. Kiedy temperatura dookoła pierwszego numeru nieco ostygła, nikt nie zorientował się, kiedy na półki trafił numer drugi. Przyznam się szczerze, że o ile zdjęcie Juergen’a Teller’a zalewało ‘instagramy’, kwietniową okładkę z Evą Herzigovą złapałam kątem oka na koncie jednej z współtwórczyń czasopisma. A przecież ta okładka jest piękna, a wnętrze równie ciekawe. W środku oprócz reklam ekskluzywnych marek i przeglądu trendów na wiosnę znajdziemy <a href=\"http://m.in\">m.in</a>. tekst o Jerzym Treutlerze – twórcy plakatów i słynnego logo jaskółki zaprojektowanego 60 lat temu dla Mody Polskiej, felieton Zuzanny Łapickiej (mój ulubiony),szczery  wywiad z Barbarą Stuhr, historię ‘Witkiewiczówki’, czyli domu w którym żył i pracował jeden z najwybitniejszych polskich artystów – Stanisław Ignacy Witkiewicz.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/7455647/ello-optimized-bd47795e.jpg\" alt=\"Zdjęcie przedstawia gazetę leżącą na drewnianym podłożu. Dookoła widzimy różne przedmioty takie jak okulary przeciwsłoneczne czy słomkowy kapelusz.\" /></p>\n";
+var raw = exports.raw = "\nMam wrażenie, że powiedzenie 'w marcu jak w garncu' nie odnosi się tylko do pogody. Jest to bowiem miesiąc pełen skrajnych nastroi. Z euforii pierwszych promieni lata wpadamy niespodziewanie w jeszcze zimową melancholię. Marzec sprzyja kontemplacji, rozmyślaniom o nadchodzącym sezonie i wspominaniu sezonu minionego. W marcu rodzą się koncepcje nowych trendów 'na wiosnę'. Warto w tym celu zajrzeć do drugiego numeru magazynu Vogue Polska. Warto także zrobić sobie przyjemność i zaopatrzyć się w pierwszą tej wiosny kwiatową sukienkę. Nawet jeśli miałby ją zakryć zimowy (jeszcze) płaszcz, to poczucie noszenia na sobie pierwszych promieni słońca pozostanie. Lubię ten marzec za jego dynamiczne zmiany. Wraz z nim zmienia się sposób pielęgnacji zmęczonej chłodem cery. Wraz z nim nakładam na usta ulubiony kolor pomadki i z dumnie podniesioną głową wychodzę ku słońcu.\n\n## Prasa\n\nWszyscy rozpisywali się o pierwszym numerze polskiego wydania magazynu Vogue. Nic dziwnego, to w końcu wydarzenie, które już przeszło do historii. Jedni krytykowali okładkę za jej ‘krzywy horyzont’, inni twierdzili, że ‘za dużo reklam’. Znaleźli się i tacy, co pochwalili - że Polska stanęła na wysokości zadania i (odnosząc się do okładki wydania niemieckiego) ‘dała radę’. Kiedy temperatura dookoła pierwszego numeru nieco ostygła, nikt nie zorientował się, kiedy na półki trafił numer drugi. Przyznam się szczerze, że o ile zdjęcie Juergen’a Teller’a zalewało ‘instagramy’, kwietniową okładkę z Evą Herzigovą złapałam kątem oka na koncie jednej z współtwórczyń czasopisma. A przecież ta okładka jest piękna, a wnętrze równie ciekawe. W środku oprócz reklam ekskluzywnych marek i przeglądu trendów na wiosnę znajdziemy m.in. tekst o Jerzym Treutlerze – twórcy plakatów i słynnego logo jaskółki zaprojektowanego 60 lat temu dla Mody Polskiej, felieton Zuzanny Łapickiej (mój ulubiony),szczery  wywiad z Barbarą Stuhr, historię ‘Witkiewiczówki’, czyli domu w którym żył i pracował jeden z najwybitniejszych polskich artystów – Stanisław Ignacy Witkiewicz.\n\n![Zdjęcie przedstawia gazetę leżącą na drewnianym podłożu. Dookoła widzimy różne przedmioty takie jak okulary przeciwsłoneczne czy słomkowy kapelusz.](https://assets1.ello.co/uploads/asset/attachment/7455647/ello-optimized-bd47795e.jpg)";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 113 */
@@ -8417,6 +8474,18 @@ webpackEmptyContext.id = 113;
 
 /***/ }),
 /* 114 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 114;
+
+/***/ }),
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -8437,19 +8506,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 114;
+webpackContext.id = 115;
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(116);
+module.exports = __webpack_require__(117);
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8467,7 +8536,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(117);
+var _propTypes = __webpack_require__(118);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -8671,13 +8740,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_117__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_118__;
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8691,7 +8760,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8699,7 +8768,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8712,7 +8781,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8746,7 +8815,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8759,7 +8828,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8768,7 +8837,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8776,7 +8845,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8784,7 +8853,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8799,7 +8868,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8814,7 +8883,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8829,7 +8898,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8853,7 +8922,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(130);
+var s = __webpack_require__(131);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -8884,7 +8953,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8892,7 +8961,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8916,7 +8985,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8967,7 +9036,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8975,7 +9044,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8984,7 +9053,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(135);
+var s = __webpack_require__(136);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -9017,7 +9086,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9027,7 +9096,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9071,22 +9140,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 139,
-	"./Feed.js": 140,
-	"./Ingredient.js": 141,
-	"./Method.js": 142,
-	"./Recipe.js": 143,
-	"./TableOfContents.js": 144
+	"./Crumbs.js": 140,
+	"./Feed.js": 141,
+	"./Ingredient.js": 142,
+	"./Method.js": 143,
+	"./Recipe.js": 144,
+	"./TableOfContents.js": 145
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -9102,10 +9171,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 138;
+webpackContext.id = 139;
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9120,7 +9189,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9135,7 +9204,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9150,7 +9219,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9165,7 +9234,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9180,7 +9249,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9195,7 +9264,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9219,7 +9288,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
