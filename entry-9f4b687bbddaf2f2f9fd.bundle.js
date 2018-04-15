@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_118__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_119__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(133);
+var Feed_1 = __webpack_require__(134);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(135);
+var Recipe_1 = __webpack_require__(136);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(137);
+var Root_1 = __webpack_require__(138);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(119);
+var s = __webpack_require__(120);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(120);
+var s = __webpack_require__(121);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(113),
-ROOT: __webpack_require__(114),
-LAYOUTS: __webpack_require__(115),
-INCLUDES: __webpack_require__(139)};
+UPLOADS: __webpack_require__(114),
+ROOT: __webpack_require__(115),
+LAYOUTS: __webpack_require__(116),
+INCLUDES: __webpack_require__(140)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(139)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(121);
+var s = __webpack_require__(122);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(125);
+var s = __webpack_require__(126);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(138);
+__webpack_require__(139);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(116);
+var react_disqus_comments_1 = __webpack_require__(117);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(130);
-var s = __webpack_require__(132);
+var FacebookLike_1 = __webpack_require__(131);
+var s = __webpack_require__(133);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(122);
-var s = __webpack_require__(123);
+__webpack_require__(123);
+var s = __webpack_require__(124);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(124);
+var s = __webpack_require__(125);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(127);
+var s = __webpack_require__(128);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(126);
+var s = __webpack_require__(127);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(128);
+var s = __webpack_require__(129);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(129);
+var s = __webpack_require__(130);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(134);
+var s = __webpack_require__(135);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(146);
-var menu_1 = __webpack_require__(147);
+var tags_1 = __webpack_require__(147);
+var menu_1 = __webpack_require__(148);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2689,7 +2689,8 @@ var map = {
 	"./2018-03-08-socrealizm-moodboard.markdown": 109,
 	"./2018-03-26-make-up-inspirowany-obrazem-bialy-srodek-zolty-rozowy-lawendowy-by-mark-rothko.markdown": 110,
 	"./2018-04-05-dadaizm-moodboard.markdown": 111,
-	"./2018-04-07-moje-wybory-marzec.markdown": 112
+	"./2018-04-07-moje-wybory-marzec.markdown": 112,
+	"./2018-04-15-make-up-inspirowany-obrazem-onement-vi-by-barnett-newman.markdown": 113
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -8549,15 +8550,74 @@ var raw = exports.raw = "\n<olela-narrative>\nMam wrażenie, że powiedzenie 'w 
 
 /***/ }),
 /* 113 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 113;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'olela-narrative',
+      null,
+      'Jest taki moment w \u017Cyciu artysty, \u017Ce nagle wszystko staje si\u0119 jasne. Kreatywny umys\u0142, dr\u0119czony pytaniami o tw\xF3rczo\u015B\u0107 i jej sens nagle ja\u015Bnieje i jak w znanej ka\u017Cdemu bajcie \u2018Pomys\u0142owy Dobromir\u2019 nad g\u0142ow\u0105 utrudzonego malarza pojawia si\u0119 \u015Bwiat\u0142o. Nie jest to byle jakie \u015Bwiat\u0142o. Oznacza ono bowiem prze\u0142om o mocy wi\u0119kszej ni\u017C 100W. To ten moment, kiedy wewn\u0119trzna iskra m\xF3wi Ci \u2018to jest TO\u2019. Od tej pory pozostajesz temu wierny. Mo\u017Ce to by\u0107 idea, kt\xF3ra w pewien spos\xF3b warunkuje \u017Cycie. Mo\u017Ce to by\u0107 praca, z kt\xF3r\u0105 po tylu latach m\u0119ki w ko\u0144cu si\u0119 pogodzi\u0142e\u015B i stwierdzi\u0142e\u015B, \u017Ce przynosi Ci szcz\u0119\u015Bcie, tyle \u017Ce wcze\u015Bniej tego nie WIDZIA\u0141E\u015A. Ten moment zdaje si\u0119 by\u0107 ci\u0119\u017Cki do opisania s\u0142owami. Ten moment prze\u017Cy\u0142 Barnett Newman tworz\u0105c \u2018Onement I\u2019 w 1948 roku.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/7490318/ello-optimized-015d1914.jpg', alt: 'Obraz przedstawia zdj\u0119cie m\u0142odej kobiety z zamkni\u0119tymi oczami na niebieskim tle, kt\xF3ra ma namalowan\u0105 bia\u0142\u0105 lini\u0119 na twarzy i ciele. Obok widzimy prostok\u0105ty w niebieskim kolorze. ' })
+    ),
+    _react2.default.createElement(
+      'blockquote',
+      null,
+      _react2.default.createElement(
+        'p',
+        null,
+        'Czy cz\u0142owiek pragnie zosta\u0107 artyst\u0105, tak jak pragnie si\u0119 zosta\u0107 ksi\u0119dzem czy prawnikiem? Czy \u2018artysta\u2019 to rodzaj profesji? Albo, jak kiedy\u015B sam napisa\u0142em, ka\u017Cdy cz\u0142owiek jest artyst\u0105. Bycie artyst\u0105 to sprawa mego pierwor\xF3dztwa... czego pragn\u0119 w tym \u015Bwiecie, to bycie cz\u0142owiekiem. Maluj\u0119 po to, aby stworzy\u0107 obraz, nie po to, by m\xF3c nazwa\u0107 si\u0119 artyst\u0105. Jestem pobudzony by co\u015B zrobi\u0107, by co\u015B powiedzie\u0107.\u201D'
+      ),
+      _react2.default.createElement(
+        'p',
+        null,
+        '~ (Barnett Newman in:\xA0American Artists,\xA0a 1966 TV Show on New York\u2019s educational television network. Quoted in: Caroline A. Jones (1998)\xA0Machine in the Studio: Constructing the Postwar American Artist.\xA0p. 84)'
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/7490321/ello-optimized-e1c92436.jpg', alt: 'Fotografia przedstawia portret m\u0142odej kobiety, kt\xF3ra patrzy wprost na nas, a przez jej twarz i cia\u0142o biegnie bia\u0142a linia. Ca\u0142o\u015B\u0107 na niebieskim tle.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Make-up inspirowany obrazem. 'Onement VI' by Barnett_Newman", "date": "2018-04-15T10:05:00.000Z", "categories": ["Sztuka Makijażu"], "tags": ["barnett newman", "makeup", "painting", "abstract expressionism", "abstrakcja", "dzieło", "artysta", "kreacja", "zip"] };
+var body = exports.body = "<olela-narrative>\nJest taki moment w życiu artysty, że nagle wszystko staje się jasne. Kreatywny umysł, dręczony pytaniami o twórczość i jej sens nagle jaśnieje i jak w znanej każdemu bajcie ‘Pomysłowy Dobromir’ nad głową utrudzonego malarza pojawia się światło. Nie jest to byle jakie światło. Oznacza ono bowiem przełom o mocy większej niż 100W. To ten moment, kiedy wewnętrzna iskra mówi Ci ‘to jest TO’. Od tej pory pozostajesz temu wierny. Może to być idea, która w pewien sposób warunkuje życie. Może to być praca, z którą po tylu latach męki w końcu się pogodziłeś i stwierdziłeś, że przynosi Ci szczęście, tyle że wcześniej tego nie WIDZIAŁEŚ. Ten moment zdaje się być ciężki do opisania słowami. Ten moment przeżył Barnett Newman tworząc ‘Onement I’ w 1948 roku.\n</olela-narrative>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/7490318/ello-optimized-015d1914.jpg\" alt=\"Obraz przedstawia zdjęcie młodej kobiety z zamkniętymi oczami na niebieskim tle, która ma namalowaną białą linię na twarzy i ciele. Obok widzimy prostokąty w niebieskim kolorze. \" /></p>\n<blockquote>\n<p>Czy człowiek pragnie zostać artystą, tak jak pragnie się zostać księdzem czy prawnikiem? Czy ‘artysta’ to rodzaj profesji? Albo, jak kiedyś sam napisałem, każdy człowiek jest artystą. Bycie artystą to sprawa mego pierworództwa... czego pragnę w tym świecie, to bycie człowiekiem. Maluję po to, aby stworzyć obraz, nie po to, by móc nazwać się artystą. Jestem pobudzony by coś zrobić, by coś powiedzieć.”</p>\n<p>~ (Barnett Newman in: American Artists, a 1966 TV Show on New York’s educational television network. Quoted in: Caroline A. Jones (1998) Machine in the Studio: Constructing the Postwar American Artist. p. 84)</p>\n</blockquote>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/7490321/ello-optimized-e1c92436.jpg\" alt=\"Fotografia przedstawia portret młodej kobiety, która patrzy wprost na nas, a przez jej twarz i ciało biegnie biała linia. Całość na niebieskim tle.\" /></p>\n";
+var raw = exports.raw = "\n<olela-narrative>\nJest taki moment w życiu artysty, że nagle wszystko staje się jasne. Kreatywny umysł, dręczony pytaniami o twórczość i jej sens nagle jaśnieje i jak w znanej każdemu bajcie ‘Pomysłowy Dobromir’ nad głową utrudzonego malarza pojawia się światło. Nie jest to byle jakie światło. Oznacza ono bowiem przełom o mocy większej niż 100W. To ten moment, kiedy wewnętrzna iskra mówi Ci ‘to jest TO’. Od tej pory pozostajesz temu wierny. Może to być idea, która w pewien sposób warunkuje życie. Może to być praca, z którą po tylu latach męki w końcu się pogodziłeś i stwierdziłeś, że przynosi Ci szczęście, tyle że wcześniej tego nie WIDZIAŁEŚ. Ten moment zdaje się być ciężki do opisania słowami. Ten moment przeżył Barnett Newman tworząc ‘Onement I’ w 1948 roku.\n</olela-narrative>\n\n![Obraz przedstawia zdjęcie młodej kobiety z zamkniętymi oczami na niebieskim tle, która ma namalowaną białą linię na twarzy i ciele. Obok widzimy prostokąty w niebieskim kolorze. ](https://assets0.ello.co/uploads/asset/attachment/7490318/ello-optimized-015d1914.jpg)\n\n> Czy człowiek pragnie zostać artystą, tak jak pragnie się zostać księdzem czy prawnikiem? Czy ‘artysta’ to rodzaj profesji? Albo, jak kiedyś sam napisałem, każdy człowiek jest artystą. Bycie artystą to sprawa mego pierworództwa… czego pragnę w tym świecie, to bycie człowiekiem. Maluję po to, aby stworzyć obraz, nie po to, by móc nazwać się artystą. Jestem pobudzony by coś zrobić, by coś powiedzieć.”\n> \n> ~ (Barnett Newman in: American Artists, a 1966 TV Show on New York's educational television network. Quoted in: Caroline A. Jones (1998) Machine in the Studio: Constructing the Postwar American Artist. p. 84)\n\n![Fotografia przedstawia portret młodej kobiety, która patrzy wprost na nas, a przez jej twarz i ciało biegnie biała linia. Całość na niebieskim tle.](https://assets0.ello.co/uploads/asset/attachment/7490321/ello-optimized-e1c92436.jpg)";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 114 */
@@ -8573,6 +8633,18 @@ webpackEmptyContext.id = 114;
 
 /***/ }),
 /* 115 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 115;
+
+/***/ }),
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -8593,19 +8665,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 115;
+webpackContext.id = 116;
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(117);
+module.exports = __webpack_require__(118);
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8623,7 +8695,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(118);
+var _propTypes = __webpack_require__(119);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -8827,13 +8899,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_118__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_119__;
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8847,7 +8919,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8855,7 +8927,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8868,7 +8940,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8902,7 +8974,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8915,7 +8987,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8924,7 +8996,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8932,7 +9004,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8940,7 +9012,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8955,7 +9027,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8970,7 +9042,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8985,7 +9057,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9009,7 +9081,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(131);
+var s = __webpack_require__(132);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -9040,7 +9112,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9048,7 +9120,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9072,7 +9144,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9123,7 +9195,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9131,7 +9203,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9140,7 +9212,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(136);
+var s = __webpack_require__(137);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -9173,7 +9245,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9183,7 +9255,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9227,22 +9299,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 140,
-	"./Feed.js": 141,
-	"./Ingredient.js": 142,
-	"./Method.js": 143,
-	"./Recipe.js": 144,
-	"./TableOfContents.js": 145
+	"./Crumbs.js": 141,
+	"./Feed.js": 142,
+	"./Ingredient.js": 143,
+	"./Method.js": 144,
+	"./Recipe.js": 145,
+	"./TableOfContents.js": 146
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -9258,10 +9330,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 139;
+webpackContext.id = 140;
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9276,7 +9348,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9291,7 +9363,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9306,7 +9378,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9321,7 +9393,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9336,7 +9408,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9351,7 +9423,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9375,7 +9447,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
