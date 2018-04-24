@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_119__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_120__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(134);
+var Feed_1 = __webpack_require__(135);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(136);
+var Recipe_1 = __webpack_require__(137);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(138);
+var Root_1 = __webpack_require__(139);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(120);
+var s = __webpack_require__(121);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(121);
+var s = __webpack_require__(122);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(114),
-ROOT: __webpack_require__(115),
-LAYOUTS: __webpack_require__(116),
-INCLUDES: __webpack_require__(140)};
+UPLOADS: __webpack_require__(115),
+ROOT: __webpack_require__(116),
+LAYOUTS: __webpack_require__(117),
+INCLUDES: __webpack_require__(141)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(140)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(122);
+var s = __webpack_require__(123);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(126);
+var s = __webpack_require__(127);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(139);
+__webpack_require__(140);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(117);
+var react_disqus_comments_1 = __webpack_require__(118);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(131);
-var s = __webpack_require__(133);
+var FacebookLike_1 = __webpack_require__(132);
+var s = __webpack_require__(134);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(123);
-var s = __webpack_require__(124);
+__webpack_require__(124);
+var s = __webpack_require__(125);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(125);
+var s = __webpack_require__(126);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(128);
+var s = __webpack_require__(129);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(127);
+var s = __webpack_require__(128);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(129);
+var s = __webpack_require__(130);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(130);
+var s = __webpack_require__(131);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(135);
+var s = __webpack_require__(136);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(147);
-var menu_1 = __webpack_require__(148);
+var tags_1 = __webpack_require__(148);
+var menu_1 = __webpack_require__(149);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2690,7 +2690,8 @@ var map = {
 	"./2018-03-26-make-up-inspirowany-obrazem-bialy-srodek-zolty-rozowy-lawendowy-by-mark-rothko.markdown": 110,
 	"./2018-04-05-dadaizm-moodboard.markdown": 111,
 	"./2018-04-07-moje-wybory-marzec.markdown": 112,
-	"./2018-04-15-make-up-inspirowany-obrazem-onement-vi-by-barnett-newman.markdown": 113
+	"./2018-04-15-make-up-inspirowany-obrazem-onement-vi-by-barnett-newman.markdown": 113,
+	"./2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest.markdown": 114
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -8685,15 +8686,95 @@ var raw = exports.raw = "\n<olela-narrative>\nJest taki moment w życiu artysty,
 
 /***/ }),
 /* 114 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 114;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Cyryl Polaczek nie chce nazywa\u0107 siebie kuratorem. Na wernisa\u017Cu wystawy pt.: \u201EKomunikacja ze wszystkim, co jest\u201D nie by\u0142o przemowy. Liczni widzowie zostali pozostawieni sobie, sam na sam z pracami m\u0142odych tw\xF3rc\xF3w. Opis\xF3w prac te\u017C nie by\u0142o. Cho\u0107 na ulotce wystawy przeczytamy s\u0142owo \u2018kuratorzy\u2019, Cyryl i Yui Akiyama to raczej organizatorzy, TW\xD3RCY wystawy. Ich prace r\xF3wnie\u017C mo\u017Cemy podziwia\u0107 na bia\u0142ych \u015Bcianach galerii Fundacji Stefana Gierowskiego przy ulicy Kredytowej 9 w Warszawie. Cyryl i Yui dostaj\u0105c od Fundacji propozycj\u0119 zorganizowania wystawy wpadli na pomys\u0142 zaproszenia innych artyst\xF3w m\u0142odego pokolenia do udzia\u0142u w tym przedsi\u0119wzi\u0119ciu. I o ile pomys\u0142 zaprezentowania prac innych (g\u0142\xF3wnie swoich koleg\xF3w) okaza\u0142 si\u0119 trafny, to czy r\xF3wnie dobrym pomys\u0142em by\u0142 brak pomys\u0142u, albo inaczej: pomys\u0142 rodz\u0105cy si\u0119 w trakcie?'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/7554374/ello-optimized-3786eeb4.jpg', alt: 'Zdj\u0119cie przedstawia m\u0119\u017Cczyzn\u0119 spaceruj\u0105cego po galerii sztuki. M\u0119\u017Cczyzna ma na sobie czarn\u0105 czapk\u0119.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Dla kogo?'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Je\u015Bli wybieracie si\u0119 do galerii sztuki z nadziej\u0105 znalezienia tam wizualizacji konkretnych idei lub te\u017C z nadziej\u0105 zmierzenia si\u0119 z pewnymi problemami, kt\xF3re drapi\u0105 artyst\xF3w do tego stopnia, \u017Ce znajduj\u0105 oni rozwi\u0105zanie na nie w postaci dzie\u0142a sztuki (i mam na my\u015Bli problemy natury politycznej, \u015Bwiatowej, og\xF3lnoludzkiej) \u2013 nie id\u017Acie na t\u0119 wystaw\u0119. Je\u015Bli szukacie w malarstwie pi\u0119kna, pi\u0119kna koloru, faktury, zachwytu estetycznego \u2013 nie id\u017Acie na t\u0119 wystaw\u0119. Je\u015Bli natomiast waszym celem jest zmierzenie si\u0119 z sob\u0105 samym naprzeciwko dzie\u0142a \u2013 ta wystawa jest dla Was. Je\u015Bli jeste\u015Bcie lud\u017Ami rozumnymi (zak\u0142adam, \u017Ce inni tego wpisu nie czytaj\u0105) zostaniecie przygnieceni w\u0142asn\u0105 interpretacj\u0105, poczujecie si\u0119 jak w labiryncie pe\u0142nym znacze\u0144 i tre\u015Bci. Wasz umys\u0142 i serce szuka\u0142 b\u0119dzie konotacji pomi\u0119dzy zbudowanym przez Was obrazem rzeczywisto\u015Bci, a obrazem faktycznym - namalowanym.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7554361/ello-optimized-62947128.jpg', alt: 'Zdj\u0119cie przedstawia obraz artysty zawieszony w galerii sztuki.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/7554367/ello-optimized-85274321.jpg', alt: 'Zdj\u0119cie przedstawia wn\u0119trze galerii sztuki z pracami artyst\xF3w.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/7554370/ello-optimized-04ae46f9.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia. Na pierwszym widzimy ma\u0142e plastikowe ludziki le\u017C\u0105ce na pomalowanej farb\u0105 powierzchni. Drugie zdj\u0119cie jest zbli\u017Ceniem pierwszego.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Co?'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Obrazy, obiekty, w pewnym sensie te\u017C instalacje. Arty\u015Bci podczas pracy nad wystaw\u0105 szukali odniesie\u0144 (bardziej lub mniej oczywistych) mi\u0119dzy poszczeg\xF3lnymi pracami - \u201EChcieli\u015Bmy bardziej to ze sob\u0105 wymiesza\u0107, poszuka\u0107 podobie\u0144stw, r\xF3\u017Cnic, zestawia\u0107 kolorystycznie, znaczeniowo, w r\xF3\u017Cny spos\xF3b, cz\u0119sto intuicyjnie\u201D. Dlatego spotkamy si\u0119 tu z \u2018niestandardow\u0105\u2019 ekspozycj\u0105 obraz\xF3w \u2013 niekt\xF3re z nich wisz\u0105 tak blisko siebie, \u017Ce stykaj\u0105 si\u0119 bokami, inne natomiast zawieszone s\u0105 tak nisko, \u017Ce widz zmuszony jest kucn\u0105\u0107, aby prac\u0119 popodziwia\u0107. Uk\u0142ad jest jednak starannie przemy\u015Blany, puste przestrzenie wywa\u017Cone, wszystko zdaje si\u0119 gra\u0107 wsp\xF3ln\u0105 melodi\u0119. Sytuacja w galerii jest w pewnym sensie odzwierciedleniem sytuacji z pracowni, gdzie arty\u015Bci wsp\xF3lnie tworz\u0105, nawzajem si\u0119 inspiruj\u0105c. Ka\u017Cdy z uczestnik\xF3w wystawy mia\u0142 faktyczny wp\u0142yw na wygl\u0105d ekspozycji - \u201EW\u0142a\u015Bnie taka by\u0142a idea, \u017Ceby to wszystko by\u0142o inkluzywne, \u017Ceby\u015Bmy nie \u2018udawali\u2019 kurator\xF3w\u201D m\xF3wi (nie kurator) Cyryl Polaczek.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7554376/ello-optimized-1510b739.jpg', alt: 'Zdj\u0119cie przedstawia dwa obrazy zawieszone na bia\u0142ej \u015Bcianie galerii sztuki.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/7554349/ello-optimized-31c5645c.jpg', alt: 'Zdj\u0119cie przedstawia niewielkich format\xF3w obrazki zawieszone na bia\u0142ej \u015Bcianie bardzo blisko pod\u0142ogi.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/7554332/ello-optimized-77c9d768.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia z obiektem artystycznym w postaci kolorowego popiersia.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7554333/ello-optimized-52f46113.jpg', alt: 'Zdj\u0119cie przedstawia r\xF3\u017Cne przedmioty u\u0142o\u017Cone obok siebie na pod\u0142odze, wszystko na tle bia\u0142ej \u015Bciany.' }),
+      _react2.default.createElement(
+        'a',
+        { href: 'https://assets0.ello.co/uploads/asset/attachment/7554325/ello-optimized-a520f1d2.jpg' },
+        'Zdj\u0119cie przedstawia r\xF3\u017Cne uj\u0119cia czapki z daszkiem pomalowanej kolorowymi farbami.'
+      )
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Wystawa: Komunikacja ze wszystkim, co jest", "date": "2018-04-24T16:35:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["wystawa", "exhibition", "fundacja", "stefan gierowski", "sztuka", "sztuka młodych", "malarstwo"] };
+var body = exports.body = "<p>Cyryl Polaczek nie chce nazywać siebie kuratorem. Na wernisażu wystawy pt.: „Komunikacja ze wszystkim, co jest” nie było przemowy. Liczni widzowie zostali pozostawieni sobie, sam na sam z pracami młodych twórców. Opisów prac też nie było. Choć na ulotce wystawy przeczytamy słowo ‘kuratorzy’, Cyryl i Yui Akiyama to raczej organizatorzy, TWÓRCY wystawy. Ich prace również możemy podziwiać na białych ścianach galerii Fundacji Stefana Gierowskiego przy ulicy Kredytowej 9 w Warszawie. Cyryl i Yui dostając od Fundacji propozycję zorganizowania wystawy wpadli na pomysł zaproszenia innych artystów młodego pokolenia do udziału w tym przedsięwzięciu. I o ile pomysł zaprezentowania prac innych (głównie swoich kolegów) okazał się trafny, to czy równie dobrym pomysłem był brak pomysłu, albo inaczej: pomysł rodzący się w trakcie?</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/7554374/ello-optimized-3786eeb4.jpg\" alt=\"Zdjęcie przedstawia mężczyznę spacerującego po galerii sztuki. Mężczyzna ma na sobie czarną czapkę.\" /></p>\n<h2>Dla kogo?</h2>\n<p>Jeśli wybieracie się do galerii sztuki z nadzieją znalezienia tam wizualizacji konkretnych idei lub też z nadzieją zmierzenia się z pewnymi problemami, które drapią artystów do tego stopnia, że znajdują oni rozwiązanie na nie w postaci dzieła sztuki (i mam na myśli problemy natury politycznej, światowej, ogólnoludzkiej) – nie idźcie na tę wystawę.\nJeśli szukacie w malarstwie piękna, piękna koloru, faktury, zachwytu estetycznego – nie idźcie na tę wystawę.\nJeśli natomiast waszym celem jest zmierzenie się z sobą samym naprzeciwko dzieła – ta wystawa jest dla Was. Jeśli jesteście ludźmi rozumnymi (zakładam, że inni tego wpisu nie czytają) zostaniecie przygnieceni własną interpretacją, poczujecie się jak w labiryncie pełnym znaczeń i treści. Wasz umysł i serce szukał będzie konotacji pomiędzy zbudowanym przez Was obrazem rzeczywistości, a obrazem faktycznym - namalowanym.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/7554361/ello-optimized-62947128.jpg\" alt=\"Zdjęcie przedstawia obraz artysty zawieszony w galerii sztuki.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/7554367/ello-optimized-85274321.jpg\" alt=\"Zdjęcie przedstawia wnętrze galerii sztuki z pracami artystów.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/7554370/ello-optimized-04ae46f9.jpg\" alt=\"Obraz przedstawia dwa zdjęcia. Na pierwszym widzimy małe plastikowe ludziki leżące na pomalowanej farbą powierzchni. Drugie zdjęcie jest zbliżeniem pierwszego.\" /></p>\n<h2>Co?</h2>\n<p>Obrazy, obiekty, w pewnym sensie też instalacje. Artyści podczas pracy nad wystawą szukali odniesień (bardziej lub mniej oczywistych) między poszczególnymi pracami - „Chcieliśmy bardziej to ze sobą wymieszać, poszukać podobieństw, różnic, zestawiać kolorystycznie, znaczeniowo, w różny sposób, często intuicyjnie”. Dlatego spotkamy się tu z ‘niestandardową’ ekspozycją obrazów – niektóre z nich wiszą tak blisko siebie, że stykają się bokami, inne natomiast zawieszone są tak nisko, że widz zmuszony jest kucnąć, aby pracę popodziwiać. Układ jest jednak starannie przemyślany, puste przestrzenie wyważone, wszystko zdaje się grać wspólną melodię. Sytuacja w galerii jest w pewnym sensie odzwierciedleniem sytuacji z pracowni, gdzie artyści wspólnie tworzą, nawzajem się inspirując. Każdy z uczestników wystawy miał faktyczny wpływ na wygląd ekspozycji - „Właśnie taka była idea, żeby to wszystko było inkluzywne, żebyśmy nie ‘udawali’ kuratorów” mówi (nie kurator) Cyryl Polaczek.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/7554376/ello-optimized-1510b739.jpg\" alt=\"Zdjęcie przedstawia dwa obrazy zawieszone na białej ścianie galerii sztuki.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/7554349/ello-optimized-31c5645c.jpg\" alt=\"Zdjęcie przedstawia niewielkich formatów obrazki zawieszone na białej ścianie bardzo blisko podłogi.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/7554332/ello-optimized-77c9d768.jpg\" alt=\"Obraz przedstawia dwa zdjęcia z obiektem artystycznym w postaci kolorowego popiersia.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/7554333/ello-optimized-52f46113.jpg\" alt=\"Zdjęcie przedstawia różne przedmioty ułożone obok siebie na podłodze, wszystko na tle białej ściany.\" />\n<a href=\"https://assets0.ello.co/uploads/asset/attachment/7554325/ello-optimized-a520f1d2.jpg\">Zdjęcie przedstawia różne ujęcia czapki z daszkiem pomalowanej kolorowymi farbami.</a></p>\n";
+var raw = exports.raw = "\nCyryl Polaczek nie chce nazywać siebie kuratorem. Na wernisażu wystawy pt.: „Komunikacja ze wszystkim, co jest” nie było przemowy. Liczni widzowie zostali pozostawieni sobie, sam na sam z pracami młodych twórców. Opisów prac też nie było. Choć na ulotce wystawy przeczytamy słowo ‘kuratorzy’, Cyryl i Yui Akiyama to raczej organizatorzy, TWÓRCY wystawy. Ich prace również możemy podziwiać na białych ścianach galerii Fundacji Stefana Gierowskiego przy ulicy Kredytowej 9 w Warszawie. Cyryl i Yui dostając od Fundacji propozycję zorganizowania wystawy wpadli na pomysł zaproszenia innych artystów młodego pokolenia do udziału w tym przedsięwzięciu. I o ile pomysł zaprezentowania prac innych (głównie swoich kolegów) okazał się trafny, to czy równie dobrym pomysłem był brak pomysłu, albo inaczej: pomysł rodzący się w trakcie?\n\n![Zdjęcie przedstawia mężczyznę spacerującego po galerii sztuki. Mężczyzna ma na sobie czarną czapkę.](https://assets0.ello.co/uploads/asset/attachment/7554374/ello-optimized-3786eeb4.jpg)\n\n## Dla kogo?\n\nJeśli wybieracie się do galerii sztuki z nadzieją znalezienia tam wizualizacji konkretnych idei lub też z nadzieją zmierzenia się z pewnymi problemami, które drapią artystów do tego stopnia, że znajdują oni rozwiązanie na nie w postaci dzieła sztuki (i mam na myśli problemy natury politycznej, światowej, ogólnoludzkiej) – nie idźcie na tę wystawę.\nJeśli szukacie w malarstwie piękna, piękna koloru, faktury, zachwytu estetycznego – nie idźcie na tę wystawę.\nJeśli natomiast waszym celem jest zmierzenie się z sobą samym naprzeciwko dzieła – ta wystawa jest dla Was. Jeśli jesteście ludźmi rozumnymi (zakładam, że inni tego wpisu nie czytają) zostaniecie przygnieceni własną interpretacją, poczujecie się jak w labiryncie pełnym znaczeń i treści. Wasz umysł i serce szukał będzie konotacji pomiędzy zbudowanym przez Was obrazem rzeczywistości, a obrazem faktycznym - namalowanym. \n\n![Zdjęcie przedstawia obraz artysty zawieszony w galerii sztuki.](https://assets1.ello.co/uploads/asset/attachment/7554361/ello-optimized-62947128.jpg)\n![Zdjęcie przedstawia wnętrze galerii sztuki z pracami artystów.](https://assets0.ello.co/uploads/asset/attachment/7554367/ello-optimized-85274321.jpg)\n![Obraz przedstawia dwa zdjęcia. Na pierwszym widzimy małe plastikowe ludziki leżące na pomalowanej farbą powierzchni. Drugie zdjęcie jest zbliżeniem pierwszego.](https://assets0.ello.co/uploads/asset/attachment/7554370/ello-optimized-04ae46f9.jpg)\n\n## Co?\n\nObrazy, obiekty, w pewnym sensie też instalacje. Artyści podczas pracy nad wystawą szukali odniesień (bardziej lub mniej oczywistych) między poszczególnymi pracami - „Chcieliśmy bardziej to ze sobą wymieszać, poszukać podobieństw, różnic, zestawiać kolorystycznie, znaczeniowo, w różny sposób, często intuicyjnie”. Dlatego spotkamy się tu z ‘niestandardową’ ekspozycją obrazów – niektóre z nich wiszą tak blisko siebie, że stykają się bokami, inne natomiast zawieszone są tak nisko, że widz zmuszony jest kucnąć, aby pracę popodziwiać. Układ jest jednak starannie przemyślany, puste przestrzenie wyważone, wszystko zdaje się grać wspólną melodię. Sytuacja w galerii jest w pewnym sensie odzwierciedleniem sytuacji z pracowni, gdzie artyści wspólnie tworzą, nawzajem się inspirując. Każdy z uczestników wystawy miał faktyczny wpływ na wygląd ekspozycji - „Właśnie taka była idea, żeby to wszystko było inkluzywne, żebyśmy nie ‘udawali’ kuratorów” mówi (nie kurator) Cyryl Polaczek.\n\n![Zdjęcie przedstawia dwa obrazy zawieszone na białej ścianie galerii sztuki.](https://assets1.ello.co/uploads/asset/attachment/7554376/ello-optimized-1510b739.jpg)\n![Zdjęcie przedstawia niewielkich formatów obrazki zawieszone na białej ścianie bardzo blisko podłogi.](https://assets0.ello.co/uploads/asset/attachment/7554349/ello-optimized-31c5645c.jpg)\n![Obraz przedstawia dwa zdjęcia z obiektem artystycznym w postaci kolorowego popiersia.](https://assets0.ello.co/uploads/asset/attachment/7554332/ello-optimized-77c9d768.jpg)\n![Zdjęcie przedstawia różne przedmioty ułożone obok siebie na podłodze, wszystko na tle białej ściany.](https://assets1.ello.co/uploads/asset/attachment/7554333/ello-optimized-52f46113.jpg)\n[Zdjęcie przedstawia różne ujęcia czapki z daszkiem pomalowanej kolorowymi farbami.](https://assets0.ello.co/uploads/asset/attachment/7554325/ello-optimized-a520f1d2.jpg)";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 115 */
@@ -8709,6 +8790,18 @@ webpackEmptyContext.id = 115;
 
 /***/ }),
 /* 116 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 116;
+
+/***/ }),
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -8729,19 +8822,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 116;
+webpackContext.id = 117;
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(118);
+module.exports = __webpack_require__(119);
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8759,7 +8852,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(119);
+var _propTypes = __webpack_require__(120);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -8963,13 +9056,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_119__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_120__;
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8983,7 +9076,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -8991,7 +9084,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9004,7 +9097,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9038,7 +9131,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9051,7 +9144,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9060,7 +9153,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9068,7 +9161,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9076,7 +9169,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9091,7 +9184,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9106,7 +9199,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9121,7 +9214,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9145,7 +9238,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(132);
+var s = __webpack_require__(133);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -9176,7 +9269,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9184,7 +9277,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9208,7 +9301,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9259,7 +9352,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9267,7 +9360,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9276,7 +9369,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(137);
+var s = __webpack_require__(138);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -9309,7 +9402,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9319,7 +9412,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9363,22 +9456,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 141,
-	"./Feed.js": 142,
-	"./Ingredient.js": 143,
-	"./Method.js": 144,
-	"./Recipe.js": 145,
-	"./TableOfContents.js": 146
+	"./Crumbs.js": 142,
+	"./Feed.js": 143,
+	"./Ingredient.js": 144,
+	"./Method.js": 145,
+	"./Recipe.js": 146,
+	"./TableOfContents.js": 147
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -9394,10 +9487,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 140;
+webpackContext.id = 141;
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9412,7 +9505,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9427,7 +9520,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9442,7 +9535,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9457,7 +9550,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9472,7 +9565,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9487,7 +9580,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9511,7 +9604,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
