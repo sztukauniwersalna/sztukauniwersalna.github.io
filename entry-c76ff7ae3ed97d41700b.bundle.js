@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_120__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_121__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(135);
+var Feed_1 = __webpack_require__(136);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(137);
+var Recipe_1 = __webpack_require__(138);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(139);
+var Root_1 = __webpack_require__(140);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(121);
+var s = __webpack_require__(122);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(122);
+var s = __webpack_require__(123);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(115),
-ROOT: __webpack_require__(116),
-LAYOUTS: __webpack_require__(117),
-INCLUDES: __webpack_require__(141)};
+UPLOADS: __webpack_require__(116),
+ROOT: __webpack_require__(117),
+LAYOUTS: __webpack_require__(118),
+INCLUDES: __webpack_require__(142)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(141)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(123);
+var s = __webpack_require__(124);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(127);
+var s = __webpack_require__(128);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(140);
+__webpack_require__(141);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(118);
+var react_disqus_comments_1 = __webpack_require__(119);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(132);
-var s = __webpack_require__(134);
+var FacebookLike_1 = __webpack_require__(133);
+var s = __webpack_require__(135);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(124);
-var s = __webpack_require__(125);
+__webpack_require__(125);
+var s = __webpack_require__(126);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(126);
+var s = __webpack_require__(127);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(129);
+var s = __webpack_require__(130);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(128);
+var s = __webpack_require__(129);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(130);
+var s = __webpack_require__(131);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(131);
+var s = __webpack_require__(132);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(136);
+var s = __webpack_require__(137);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(148);
-var menu_1 = __webpack_require__(149);
+var tags_1 = __webpack_require__(149);
+var menu_1 = __webpack_require__(150);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2691,7 +2691,8 @@ var map = {
 	"./2018-04-05-dadaizm-moodboard.markdown": 111,
 	"./2018-04-07-moje-wybory-marzec.markdown": 112,
 	"./2018-04-15-make-up-inspirowany-obrazem-onement-vi-by-barnett-newman.markdown": 113,
-	"./2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest.markdown": 114
+	"./2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest.markdown": 114,
+	"./2018-04-29-stylizacje-w-trendach-ss-2018.markdown": 115
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -8851,15 +8852,77 @@ var raw = exports.raw = "\nCyryl Polaczek nie chce nazywać siebie kuratorem. Na
 
 /***/ }),
 /* 115 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 115;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Trendy, trendy, trendy... To temat, kt\xF3ry nie daje nam spokoju. Nieustannie powraca z miesi\u0105ca na miesi\u0105c inny, od\u015Bwie\u017Cony, powt\xF3rzony. Projektanci prze\u015Bcigaj\u0105 si\u0119 w innowacyjnych rozwi\u0105zaniach, trendsetterzy przewiduj\u0105, CO i JAK b\u0119dzie si\u0119 nosi\u0107 w nadchodz\u0105cym sezonie. Wszystkich tendencji nie spos\xF3b zliczy\u0107. Od lat powracaj\u0105 te same, nienaruszone lub odrobin\u0119 zmodyfikowane lub w zupe\u0142nie nowej ods\u0142onie. Krat\u0119 nosili\u015Bmy w zimie \u2013 nosimy te\u017C wiosn\u0105. Cekiny tylko na zabaw\u0119 sylwestrow\u0105? Cekiny na co dzie\u0144! W zesz\u0142ym roku Anna Sui proponowa\u0142a nam powr\xF3t w stron\u0119 ameryka\u0144skiej tradycji \u2013 w tym roku \u2018Country Girl\u2019 powraca ze zdwojon\u0105 si\u0142\u0105. Zdecydowanie kolory wiosna-lato 2018 to pastele. ;Lodowe\u2019 \u017C\xF3\u0142cienie, zielenie, b\u0142\u0119kity, ale nade wszystko fiolet \u2013 kr\xF3l. Fiolet w wydaniu mocnej \u015Bliwy lub zgaszonego lila to akcent, kt\xF3rego nie mo\u017Ce zabrakn\u0105\u0107 w Twojej garderobie. D\u017Cins natomiast staje si\u0119 idealnym materia\u0142em na marynarki, \u017Cakiety, kostiumy, sukienki\u2026 Z d\u017Cinsu szyje si\u0119 w tym sezonie wszystko. Mugler proponuje d\u017Cinsowe gorsety, Calvin Klein pod sterami Raf\u2019a Simons\u2019a nadrukowuje na kurtki motyw prac Andy Warhol\u2019a. Dzi\u0119ki takim zabiegom przybli\u017Ca posta\u0107 artysty wi\u0119kszej publiczno\u015Bci \u2013 bo czy nie chcemy by\u0107 \u015Bwiadomi czyje dzie\u0142o na sobie nosimy?'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Nadruki na ubraniach id\u0105 w stron\u0119 graficznych historii, kt\xF3re to z kolei cz\u0119sto ukazuj\u0105 malarskie \u2018maziaje\u2019 w abstrakcyjny spos\xF3b. Majowy numer Elle proponuje sesj\u0119 \u2018 Mrs Banksy\u2019, w kt\xF3rej to spodnie wygl\u0105daj\u0105 jak zdj\u0119te z Jackson\u2019a Pollock\u2019a, a ca\u0142o\u015B\u0107 trzyma street-art\u2019owy charakter. Mocnym pattern\u2019em tej wiosny s\u0105 tak\u017Ce paski \u2013 w poziomej wersji na sukienkach by Carolina Herrera, pionowe, cienkie, grube, kolorowe lub te\u017C przecinaj\u0105ce siebie nawzajem jak u Fendi. Najmodniejsze fasony to z kolei sp\xF3dnica 7/8 i szerokie spodnie rodem z lat 70-tych, oraz klasyczny be\u017Cowy trencz w \u2018nieklasycznym\u2019 wydaniu.'
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Oldschool Abstract'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7579929/ello-optimized-fa670b7a.jpg', alt: 'Zdj\u0119cie przedstawia profil kobiety ubranej w kolorow\u0105 bluzk\u0119. Kobieta trzyma w r\u0119ku granatow\u0105 torebk\u0119, w tle wida\u0107 pozosta\u0142e postaci w tej samej bluzce.' })
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Zdecydowanie uwielbiam odwa\u017Cne po\u0142\u0105czenia. W tym zestawieniu bawi\u0119 si\u0119 trendem malarskiego nadruku i old-schoolowymi fasonami, a w zasadzie mieszam ze sob\u0105 trzy dekady. Szerokie spodnie staj\u0105 si\u0119 nawi\u0105zaniem do lat 70-tych, kiedy to prze\u017Cywa\u0142y sw\xF3j wielki czas. Ten konkretny model to bardzo szerokie \u2018kuloty\u2019 z wysokim stanem, z wi\u0105zaniem charakterystycznym dla modelu \u2018paper bag\u2019(kuloty to pewnego rodzaju \u2018sp\xF3dnico-spodnie\u2019, model ten \u0142\u0105czy si\u0119 z procesem emancypacji kobiet, kt\xF3re przejmowa\u0142y dyscypliny zarezerwowane wy\u0142\u0105cznie dla m\u0119\u017Cczyzn). Efekt szerokich ramion (dzi\u0119ki wszytym poduszkom) to lata 80-te, kiedy w ten \u2018odwr\xF3cony\u2019 spos\xF3b buduje si\u0119 sylwetk\u0119. Ca\u0142o\u015B\u0107 dope\u0142niam kuferkow\u0105 torebk\u0105 \u2018do r\u0119ki\u2019, kt\xF3ra kr\xF3luje na wybiegach (zaraz obok torebek-nerek czy torebek-podw\xF3jnych), oraz kocimi okularami rodem z lat 90-tych.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/7579932/ello-optimized-0ed2a1e1.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia kobiety w niebieskich spodniach, kolorowej bluzce, trzymaj\u0105cej granatow\u0105 torebk\u0119. Zdj\u0119cie po prawej stronie to zmniejszony kadr.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/7579934/ello-optimized-22a17c4e.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia kobiety w niebieskich spodniach, kolorowej bluzce, trzymaj\u0105cej granatow\u0105 torebk\u0119. Zdj\u0119cie po prawej to portret kobiety w ciemnych okularach.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7579936/ello-optimized-5fcdfac1.jpg', alt: 'Zdj\u0119cie przedstawia sylwetk\u0119 kobiety w niebieskich spodniach, kolorowej bluzce. Kobieta podnosi nog\u0119 do g\xF3ry, widzimy jej \u017C\xF3\u0142ty but. Na zdj\u0119ciu widnieje czarny napis i graficzne elementy.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Stylizacje w trendach SS 2018", "date": "2018-04-29T16:43:00.000Z", "categories": ["Sztuka Ubioru"], "tags": ["trendy", "ss 2018", "trends", "moda", "stylizacja", "sztuka", "art", "artysta"] };
+var body = exports.body = "<p>Trendy, trendy, trendy... To temat, który nie daje nam spokoju. Nieustannie powraca z miesiąca na miesiąc inny, odświeżony, powtórzony. Projektanci prześcigają się w innowacyjnych rozwiązaniach, trendsetterzy przewidują, CO i JAK będzie się nosić w nadchodzącym sezonie. Wszystkich tendencji nie sposób zliczyć. Od lat powracają te same, nienaruszone lub odrobinę zmodyfikowane lub w zupełnie nowej odsłonie. Kratę nosiliśmy w zimie – nosimy też wiosną. Cekiny tylko na zabawę sylwestrową? Cekiny na co dzień! W zeszłym roku Anna Sui proponowała nam powrót w stronę amerykańskiej tradycji – w tym roku ‘Country Girl’ powraca ze zdwojoną siłą. Zdecydowanie kolory wiosna-lato 2018 to pastele. ;Lodowe’ żółcienie, zielenie, błękity, ale nade wszystko fiolet – król. Fiolet w wydaniu mocnej śliwy lub zgaszonego lila to akcent, którego nie może zabraknąć w Twojej garderobie. Dżins natomiast staje się idealnym materiałem na marynarki, żakiety, kostiumy, sukienki… Z dżinsu szyje się w tym sezonie wszystko. Mugler proponuje dżinsowe gorsety, Calvin Klein pod sterami Raf’a Simons’a nadrukowuje na kurtki motyw prac Andy Warhol’a. Dzięki takim zabiegom przybliża postać artysty większej publiczności – bo czy nie chcemy być świadomi czyje dzieło na sobie nosimy?</p>\n<p>Nadruki na ubraniach idą w stronę graficznych historii, które to z kolei często ukazują malarskie ‘maziaje’ w abstrakcyjny sposób. Majowy numer Elle proponuje sesję ‘ Mrs Banksy’, w której to spodnie wyglądają jak zdjęte z Jackson’a Pollock’a, a całość trzyma street-art’owy charakter. Mocnym pattern’em tej wiosny są także paski – w poziomej wersji na sukienkach by Carolina Herrera, pionowe, cienkie, grube, kolorowe lub też przecinające siebie nawzajem jak u Fendi.\nNajmodniejsze fasony to z kolei spódnica 7/8 i szerokie spodnie rodem z lat 70-tych, oraz klasyczny beżowy trencz w ‘nieklasycznym’ wydaniu.</p>\n<h2>Oldschool Abstract</h2>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/7579929/ello-optimized-fa670b7a.jpg\" alt=\"Zdjęcie przedstawia profil kobiety ubranej w kolorową bluzkę. Kobieta trzyma w ręku granatową torebkę, w tle widać pozostałe postaci w tej samej bluzce.\" /></p>\n<p>Zdecydowanie uwielbiam odważne połączenia. W tym zestawieniu bawię się trendem malarskiego nadruku i old-schoolowymi fasonami, a w zasadzie mieszam ze sobą trzy dekady. Szerokie spodnie stają się nawiązaniem do lat 70-tych, kiedy to przeżywały swój wielki czas. Ten konkretny model to bardzo szerokie ‘kuloty’ z wysokim stanem, z wiązaniem charakterystycznym dla modelu ‘paper bag’(kuloty to pewnego rodzaju ‘spódnico-spodnie’, model ten łączy się z procesem emancypacji kobiet, które przejmowały dyscypliny zarezerwowane wyłącznie dla mężczyzn). Efekt szerokich ramion (dzięki wszytym poduszkom) to lata 80-te, kiedy w ten ‘odwrócony’ sposób buduje się sylwetkę. Całość dopełniam kuferkową torebką ‘do ręki’, która króluje na wybiegach (zaraz obok torebek-nerek czy torebek-podwójnych), oraz kocimi okularami rodem z lat 90-tych.</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/7579932/ello-optimized-0ed2a1e1.jpg\" alt=\"Obraz przedstawia dwa zdjęcia kobiety w niebieskich spodniach, kolorowej bluzce, trzymającej granatową torebkę. Zdjęcie po prawej stronie to zmniejszony kadr.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/7579934/ello-optimized-22a17c4e.jpg\" alt=\"Obraz przedstawia dwa zdjęcia kobiety w niebieskich spodniach, kolorowej bluzce, trzymającej granatową torebkę. Zdjęcie po prawej to portret kobiety w ciemnych okularach.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/7579936/ello-optimized-5fcdfac1.jpg\" alt=\"Zdjęcie przedstawia sylwetkę kobiety w niebieskich spodniach, kolorowej bluzce. Kobieta podnosi nogę do góry, widzimy jej żółty but. Na zdjęciu widnieje czarny napis i graficzne elementy.\" /></p>\n";
+var raw = exports.raw = "\nTrendy, trendy, trendy… To temat, który nie daje nam spokoju. Nieustannie powraca z miesiąca na miesiąc inny, odświeżony, powtórzony. Projektanci prześcigają się w innowacyjnych rozwiązaniach, trendsetterzy przewidują, CO i JAK będzie się nosić w nadchodzącym sezonie. Wszystkich tendencji nie sposób zliczyć. Od lat powracają te same, nienaruszone lub odrobinę zmodyfikowane lub w zupełnie nowej odsłonie. Kratę nosiliśmy w zimie – nosimy też wiosną. Cekiny tylko na zabawę sylwestrową? Cekiny na co dzień! W zeszłym roku Anna Sui proponowała nam powrót w stronę amerykańskiej tradycji – w tym roku ‘Country Girl’ powraca ze zdwojoną siłą. Zdecydowanie kolory wiosna-lato 2018 to pastele. ;Lodowe’ żółcienie, zielenie, błękity, ale nade wszystko fiolet – król. Fiolet w wydaniu mocnej śliwy lub zgaszonego lila to akcent, którego nie może zabraknąć w Twojej garderobie. Dżins natomiast staje się idealnym materiałem na marynarki, żakiety, kostiumy, sukienki… Z dżinsu szyje się w tym sezonie wszystko. Mugler proponuje dżinsowe gorsety, Calvin Klein pod sterami Raf’a Simons’a nadrukowuje na kurtki motyw prac Andy Warhol’a. Dzięki takim zabiegom przybliża postać artysty większej publiczności – bo czy nie chcemy być świadomi czyje dzieło na sobie nosimy? \n\nNadruki na ubraniach idą w stronę graficznych historii, które to z kolei często ukazują malarskie ‘maziaje’ w abstrakcyjny sposób. Majowy numer Elle proponuje sesję ‘ Mrs Banksy’, w której to spodnie wyglądają jak zdjęte z Jackson’a Pollock’a, a całość trzyma street-art’owy charakter. Mocnym pattern’em tej wiosny są także paski – w poziomej wersji na sukienkach by Carolina Herrera, pionowe, cienkie, grube, kolorowe lub też przecinające siebie nawzajem jak u Fendi. \nNajmodniejsze fasony to z kolei spódnica 7/8 i szerokie spodnie rodem z lat 70-tych, oraz klasyczny beżowy trencz w ‘nieklasycznym’ wydaniu. \n\n## Oldschool Abstract\n\n![Zdjęcie przedstawia profil kobiety ubranej w kolorową bluzkę. Kobieta trzyma w ręku granatową torebkę, w tle widać pozostałe postaci w tej samej bluzce.](https://assets1.ello.co/uploads/asset/attachment/7579929/ello-optimized-fa670b7a.jpg)\n\nZdecydowanie uwielbiam odważne połączenia. W tym zestawieniu bawię się trendem malarskiego nadruku i old-schoolowymi fasonami, a w zasadzie mieszam ze sobą trzy dekady. Szerokie spodnie stają się nawiązaniem do lat 70-tych, kiedy to przeżywały swój wielki czas. Ten konkretny model to bardzo szerokie ‘kuloty’ z wysokim stanem, z wiązaniem charakterystycznym dla modelu ‘paper bag’(kuloty to pewnego rodzaju ‘spódnico-spodnie’, model ten łączy się z procesem emancypacji kobiet, które przejmowały dyscypliny zarezerwowane wyłącznie dla mężczyzn). Efekt szerokich ramion (dzięki wszytym poduszkom) to lata 80-te, kiedy w ten ‘odwrócony’ sposób buduje się sylwetkę. Całość dopełniam kuferkową torebką ‘do ręki’, która króluje na wybiegach (zaraz obok torebek-nerek czy torebek-podwójnych), oraz kocimi okularami rodem z lat 90-tych.\n\n![Obraz przedstawia dwa zdjęcia kobiety w niebieskich spodniach, kolorowej bluzce, trzymającej granatową torebkę. Zdjęcie po prawej stronie to zmniejszony kadr.](https://assets2.ello.co/uploads/asset/attachment/7579932/ello-optimized-0ed2a1e1.jpg)\n![Obraz przedstawia dwa zdjęcia kobiety w niebieskich spodniach, kolorowej bluzce, trzymającej granatową torebkę. Zdjęcie po prawej to portret kobiety w ciemnych okularach.](https://assets0.ello.co/uploads/asset/attachment/7579934/ello-optimized-22a17c4e.jpg)\n![Zdjęcie przedstawia sylwetkę kobiety w niebieskich spodniach, kolorowej bluzce. Kobieta podnosi nogę do góry, widzimy jej żółty but. Na zdjęciu widnieje czarny napis i graficzne elementy.](https://assets1.ello.co/uploads/asset/attachment/7579936/ello-optimized-5fcdfac1.jpg)";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 116 */
@@ -8875,6 +8938,18 @@ webpackEmptyContext.id = 116;
 
 /***/ }),
 /* 117 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 117;
+
+/***/ }),
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -8895,19 +8970,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 117;
+webpackContext.id = 118;
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(119);
+module.exports = __webpack_require__(120);
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8925,7 +9000,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(120);
+var _propTypes = __webpack_require__(121);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -9129,13 +9204,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_120__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_121__;
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9149,7 +9224,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9157,7 +9232,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9170,7 +9245,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9204,7 +9279,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9217,7 +9292,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9226,7 +9301,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9234,7 +9309,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9242,7 +9317,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9257,7 +9332,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9272,7 +9347,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9287,7 +9362,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9311,7 +9386,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(133);
+var s = __webpack_require__(134);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -9342,7 +9417,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9350,7 +9425,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9374,7 +9449,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9425,7 +9500,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9433,7 +9508,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9442,7 +9517,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(138);
+var s = __webpack_require__(139);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -9475,7 +9550,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9485,7 +9560,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9529,22 +9604,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 142,
-	"./Feed.js": 143,
-	"./Ingredient.js": 144,
-	"./Method.js": 145,
-	"./Recipe.js": 146,
-	"./TableOfContents.js": 147
+	"./Crumbs.js": 143,
+	"./Feed.js": 144,
+	"./Ingredient.js": 145,
+	"./Method.js": 146,
+	"./Recipe.js": 147,
+	"./TableOfContents.js": 148
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -9560,10 +9635,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 141;
+webpackContext.id = 142;
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9578,7 +9653,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9593,7 +9668,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9608,7 +9683,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9623,7 +9698,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9638,7 +9713,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9653,7 +9728,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9677,7 +9752,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
