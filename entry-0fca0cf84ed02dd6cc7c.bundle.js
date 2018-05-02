@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_121__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_122__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(136);
+var Feed_1 = __webpack_require__(137);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(138);
+var Recipe_1 = __webpack_require__(139);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(140);
+var Root_1 = __webpack_require__(141);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(122);
+var s = __webpack_require__(123);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(123);
+var s = __webpack_require__(124);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(116),
-ROOT: __webpack_require__(117),
-LAYOUTS: __webpack_require__(118),
-INCLUDES: __webpack_require__(142)};
+UPLOADS: __webpack_require__(117),
+ROOT: __webpack_require__(118),
+LAYOUTS: __webpack_require__(119),
+INCLUDES: __webpack_require__(143)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(142)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(124);
+var s = __webpack_require__(125);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(128);
+var s = __webpack_require__(129);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(141);
+__webpack_require__(142);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(119);
+var react_disqus_comments_1 = __webpack_require__(120);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(133);
-var s = __webpack_require__(135);
+var FacebookLike_1 = __webpack_require__(134);
+var s = __webpack_require__(136);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(125);
-var s = __webpack_require__(126);
+__webpack_require__(126);
+var s = __webpack_require__(127);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(127);
+var s = __webpack_require__(128);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(130);
+var s = __webpack_require__(131);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(129);
+var s = __webpack_require__(130);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(131);
+var s = __webpack_require__(132);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(132);
+var s = __webpack_require__(133);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(137);
+var s = __webpack_require__(138);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(149);
-var menu_1 = __webpack_require__(150);
+var tags_1 = __webpack_require__(150);
+var menu_1 = __webpack_require__(151);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2692,7 +2692,8 @@ var map = {
 	"./2018-04-07-moje-wybory-marzec.markdown": 112,
 	"./2018-04-15-make-up-inspirowany-obrazem-onement-vi-by-barnett-newman.markdown": 113,
 	"./2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest.markdown": 114,
-	"./2018-04-29-stylizacje-w-trendach-ss-2018.markdown": 115
+	"./2018-04-29-stylizacje-w-trendach-ss-2018.markdown": 115,
+	"./2018-05-02-moje-wybory-kwiecien.markdown": 116
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -8999,15 +9000,66 @@ var raw = exports.raw = "\nTrendy, trendy, trendy… To temat, który nie daje n
 
 /***/ }),
 /* 116 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 116;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'olela-narrative',
+      null,
+      '\u2018Kwiecie\u0144 plecie\u0144, bo przeplata troch\u0119 zimy, troch\u0119 lata\u2019 - z serii przys\u0142\xF3w, kt\xF3re faktycznie si\u0119 sprawdzaj\u0105. Kwiecie\u0144 zaskoczy\u0142 nas ultrawysok\u0105 temperatur\u0105, aby zaraz nast\u0119pnego dnia opr\xF3szy\u0107 \u015Bniegiem. Pogoda jednak nieustannie zbli\u017Ca si\u0119 w stron\u0119 gor\u0105cego lata, dlatego nie mo\u017Cemy zapomina\u0107 o filtrach przeciws\u0142onecznych. W szczeg\xF3lno\u015Bci, kiedy u\u017Cywamy kosmetyk\xF3w z wysok\u0105 zawarto\u015Bci\u0105 witaminy C (bowiem bez ochrony mo\u017Cemy nabawi\u0107 si\u0119 przebarwie\u0144). Idealnym rozwi\u0105zaniem na nadchodz\u0105ce ciep\u0142e dni s\u0105 kremy BB. Dzi\u0119ki takim kosmetykom sk\xF3ra jest zabezpieczona przez wp\u0142ywem szkodliwego promieniowania, idealnie nawil\u017Cona, a jej koloryt zr\xF3wnowa\u017Cony. Wiosna to czas, kiedy wszystko budzi si\u0119 do \u017Cycia. Dla mnie s\u0142owo \u2018\u015Bwie\u017Co\u015B\u0107\u2019 doskonale opisuje ten moment w roku. Zielone li\u015Bcie, pierwsze kwiaty, poranna rosa. Dlatego te\u017C w tym czasie chc\u0119 tak\u017Ce, aby m\xF3j codzienny makija\u017C odzwierciedla\u0142 stan przyrody. Nie nak\u0142adam na siebie grubej warstwy \u2018tapety\u2019. Na policzki wystarczy odrobina ch\u0142odnego r\xF3\u017Cu, kt\xF3ry tworzy efekt dziewcz\u0119cego, \u2018\u015Bwie\u017Cego rumie\u0144ca\u2019. Aby wyznaczy\u0107 miejsca, na kt\xF3re najlepiej go na\u0142o\u017Cy\u0107, wystarczy si\u0119 u\u015Bmiechn\u0105\u0107 \u2013 podniesiony obszar policzka to w\u0142a\u015Bnie odpowiednie miejsce na r\xF3\u017C.'
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Lektura'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Lily (g\u0142\xF3wna bohaterka) nadal nie mo\u017Ce pogodzi\u0107 si\u0119 ze strat\u0105 m\u0119\u017Ca, cho\u0107 od jego \u015Bmierci min\u0119\u0142y trzy lata. Samotnie wychowuje wspania\u0142e c\xF3rki. Jej wewn\u0119trzna walka z t\u0119sknot\u0105 przeplata si\u0119 ze scenami z \u017Cycia kobiet, takich jak my \u2013 zmagaj\u0105cych si\u0119 z codziennymi obowi\u0105zkami, singielek, matek, kobiet, kt\xF3re krytycznym okiem spogl\u0105daj\u0105 na coraz to wi\u0119ksze worki pod oczami. Lily pracuje jako ilustratorka w ma\u0142ym wydawnictwie. Pewnego dnia dostaje zlecenie  na ilustracje do przewodnika o warzywach i... zaczyna si\u0119 przygoda. Lily dostaje si\u0119 na kurs ogrodniczy, powoli poznaje \u015Bwiat ro\u015Blin i zaczyna docenia\u0107 pi\u0119kno \u017Cycia. Kr\xF3tkie rozdzia\u0142y przeplatane s\u0105 stronami \u2018przepisami\u2019 na upraw\u0119 poszczeg\xF3lnych gatunk\xF3w warzyw. \u015Awietna pozycja dla os\xF3b, kt\xF3re szykuj\u0105 si\u0119 do wiosennej piel\u0119gnacji ro\u015Blin, czy to na balkonie, w domu, czy na dzia\u0142ce. Wci\u0105gaj\u0105ca powie\u015B\u0107 i przewodnik ogrodniczy w jednym. Polecam kobieco.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7599945/ello-optimized-81a8541f.jpg', alt: 'Zdj\u0119cie przedstawia ksi\u0105\u017Ck\u0119 w otoczeniu kwiat\xF3w bzu. Ca\u0142o\u015B\u0107 na zielonym tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/7599946/ello-optimized-bc7008cd.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia ksi\u0105\u017Cki w otoczeniu kwiat\xF3w.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Moje wybory: kwiecień", "date": "2018-05-02T09:39:00.000Z", "categories": ["Sztuka Ubioru"], "tags": ["wybory", "kwiecień", "róż", "kremBB", "kwiaty", "ogród", "paperbag", "stradivarius", "wiosna"] };
+var body = exports.body = "<olela-narrative>\n‘Kwiecień plecień, bo przeplata trochę zimy, trochę lata’ - z serii przysłów, które faktycznie się sprawdzają. Kwiecień zaskoczył nas ultrawysoką temperaturą, aby zaraz następnego dnia oprószyć śniegiem. Pogoda jednak nieustannie zbliża się w stronę gorącego lata, dlatego nie możemy zapominać o filtrach przeciwsłonecznych. W szczególności, kiedy używamy kosmetyków z wysoką zawartością witaminy C (bowiem bez ochrony możemy nabawić się przebarwień). Idealnym rozwiązaniem na nadchodzące ciepłe dni są kremy BB. Dzięki takim kosmetykom skóra jest zabezpieczona przez wpływem szkodliwego promieniowania, idealnie nawilżona, a jej koloryt zrównoważony. \nWiosna to czas, kiedy wszystko budzi się do życia. Dla mnie słowo ‘świeżość’ doskonale opisuje ten moment w roku. Zielone liście, pierwsze kwiaty, poranna rosa. Dlatego też w tym czasie chcę także, aby mój codzienny makijaż odzwierciedlał stan przyrody. Nie nakładam na siebie grubej warstwy ‘tapety’. Na policzki wystarczy odrobina chłodnego różu, który tworzy efekt dziewczęcego, ‘świeżego rumieńca’. Aby wyznaczyć miejsca, na które najlepiej go nałożyć, wystarczy się uśmiechnąć – podniesiony obszar policzka to właśnie odpowiednie miejsce na róż.\n</olela-narrative>\n<h2>Lektura</h2>\n<p>Lily (główna bohaterka) nadal nie może pogodzić się ze stratą męża, choć od jego śmierci minęły trzy lata. Samotnie wychowuje wspaniałe córki. Jej wewnętrzna walka z tęsknotą przeplata się ze scenami z życia kobiet, takich jak my – zmagających się z codziennymi obowiązkami, singielek, matek, kobiet, które krytycznym okiem spoglądają na coraz to większe worki pod oczami. Lily pracuje jako ilustratorka w małym wydawnictwie. Pewnego dnia dostaje zlecenie  na ilustracje do przewodnika o warzywach i... zaczyna się przygoda. Lily dostaje się na kurs ogrodniczy, powoli poznaje świat roślin i zaczyna doceniać piękno życia. Krótkie rozdziały przeplatane są stronami ‘przepisami’ na uprawę poszczególnych gatunków warzyw. Świetna pozycja dla osób, które szykują się do wiosennej pielęgnacji roślin, czy to na balkonie, w domu, czy na działce. Wciągająca powieść i przewodnik ogrodniczy w jednym. Polecam kobieco.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/7599945/ello-optimized-81a8541f.jpg\" alt=\"Zdjęcie przedstawia książkę w otoczeniu kwiatów bzu. Całość na zielonym tle.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/7599946/ello-optimized-bc7008cd.jpg\" alt=\"Obraz przedstawia dwa zdjęcia książki w otoczeniu kwiatów.\" /></p>\n";
+var raw = exports.raw = "\n<olela-narrative>\n‘Kwiecień plecień, bo przeplata trochę zimy, trochę lata’ - z serii przysłów, które faktycznie się sprawdzają. Kwiecień zaskoczył nas ultrawysoką temperaturą, aby zaraz następnego dnia oprószyć śniegiem. Pogoda jednak nieustannie zbliża się w stronę gorącego lata, dlatego nie możemy zapominać o filtrach przeciwsłonecznych. W szczególności, kiedy używamy kosmetyków z wysoką zawartością witaminy C (bowiem bez ochrony możemy nabawić się przebarwień). Idealnym rozwiązaniem na nadchodzące ciepłe dni są kremy BB. Dzięki takim kosmetykom skóra jest zabezpieczona przez wpływem szkodliwego promieniowania, idealnie nawilżona, a jej koloryt zrównoważony. \nWiosna to czas, kiedy wszystko budzi się do życia. Dla mnie słowo ‘świeżość’ doskonale opisuje ten moment w roku. Zielone liście, pierwsze kwiaty, poranna rosa. Dlatego też w tym czasie chcę także, aby mój codzienny makijaż odzwierciedlał stan przyrody. Nie nakładam na siebie grubej warstwy ‘tapety’. Na policzki wystarczy odrobina chłodnego różu, który tworzy efekt dziewczęcego, ‘świeżego rumieńca’. Aby wyznaczyć miejsca, na które najlepiej go nałożyć, wystarczy się uśmiechnąć – podniesiony obszar policzka to właśnie odpowiednie miejsce na róż.\n</olela-narrative>\n\n## Lektura\n\nLily (główna bohaterka) nadal nie może pogodzić się ze stratą męża, choć od jego śmierci minęły trzy lata. Samotnie wychowuje wspaniałe córki. Jej wewnętrzna walka z tęsknotą przeplata się ze scenami z życia kobiet, takich jak my – zmagających się z codziennymi obowiązkami, singielek, matek, kobiet, które krytycznym okiem spoglądają na coraz to większe worki pod oczami. Lily pracuje jako ilustratorka w małym wydawnictwie. Pewnego dnia dostaje zlecenie  na ilustracje do przewodnika o warzywach i... zaczyna się przygoda. Lily dostaje się na kurs ogrodniczy, powoli poznaje świat roślin i zaczyna doceniać piękno życia. Krótkie rozdziały przeplatane są stronami ‘przepisami’ na uprawę poszczególnych gatunków warzyw. Świetna pozycja dla osób, które szykują się do wiosennej pielęgnacji roślin, czy to na balkonie, w domu, czy na działce. Wciągająca powieść i przewodnik ogrodniczy w jednym. Polecam kobieco.\n\n![Zdjęcie przedstawia książkę w otoczeniu kwiatów bzu. Całość na zielonym tle.](https://assets1.ello.co/uploads/asset/attachment/7599945/ello-optimized-81a8541f.jpg)\n![Obraz przedstawia dwa zdjęcia książki w otoczeniu kwiatów.](https://assets0.ello.co/uploads/asset/attachment/7599946/ello-optimized-bc7008cd.jpg)\n\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 117 */
@@ -9023,6 +9075,18 @@ webpackEmptyContext.id = 117;
 
 /***/ }),
 /* 118 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 118;
+
+/***/ }),
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -9043,19 +9107,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 118;
+webpackContext.id = 119;
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(120);
+module.exports = __webpack_require__(121);
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9073,7 +9137,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(121);
+var _propTypes = __webpack_require__(122);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -9277,13 +9341,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_121__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_122__;
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9297,7 +9361,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9305,7 +9369,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9318,7 +9382,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9352,7 +9416,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9365,7 +9429,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9374,7 +9438,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9382,7 +9446,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9390,7 +9454,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9405,7 +9469,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9420,7 +9484,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9435,7 +9499,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9459,7 +9523,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(134);
+var s = __webpack_require__(135);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -9490,7 +9554,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9498,7 +9562,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9522,7 +9586,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9573,7 +9637,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9581,7 +9645,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9590,7 +9654,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(139);
+var s = __webpack_require__(140);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -9623,7 +9687,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9633,7 +9697,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9677,22 +9741,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 143,
-	"./Feed.js": 144,
-	"./Ingredient.js": 145,
-	"./Method.js": 146,
-	"./Recipe.js": 147,
-	"./TableOfContents.js": 148
+	"./Crumbs.js": 144,
+	"./Feed.js": 145,
+	"./Ingredient.js": 146,
+	"./Method.js": 147,
+	"./Recipe.js": 148,
+	"./TableOfContents.js": 149
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -9708,10 +9772,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 142;
+webpackContext.id = 143;
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9726,7 +9790,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9741,7 +9805,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9756,7 +9820,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9771,7 +9835,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9786,7 +9850,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9801,7 +9865,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9825,7 +9889,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
