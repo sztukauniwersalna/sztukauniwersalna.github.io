@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_122__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_123__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(137);
+var Feed_1 = __webpack_require__(138);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(139);
+var Recipe_1 = __webpack_require__(140);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(141);
+var Root_1 = __webpack_require__(142);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(123);
+var s = __webpack_require__(124);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(124);
+var s = __webpack_require__(125);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(117),
-ROOT: __webpack_require__(118),
-LAYOUTS: __webpack_require__(119),
-INCLUDES: __webpack_require__(143)};
+UPLOADS: __webpack_require__(118),
+ROOT: __webpack_require__(119),
+LAYOUTS: __webpack_require__(120),
+INCLUDES: __webpack_require__(144)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(143)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(125);
+var s = __webpack_require__(126);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(129);
+var s = __webpack_require__(130);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(142);
+__webpack_require__(143);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(120);
+var react_disqus_comments_1 = __webpack_require__(121);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(134);
-var s = __webpack_require__(136);
+var FacebookLike_1 = __webpack_require__(135);
+var s = __webpack_require__(137);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(126);
-var s = __webpack_require__(127);
+__webpack_require__(127);
+var s = __webpack_require__(128);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(128);
+var s = __webpack_require__(129);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(131);
+var s = __webpack_require__(132);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(130);
+var s = __webpack_require__(131);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(132);
+var s = __webpack_require__(133);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(133);
+var s = __webpack_require__(134);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(138);
+var s = __webpack_require__(139);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(150);
-var menu_1 = __webpack_require__(151);
+var tags_1 = __webpack_require__(151);
+var menu_1 = __webpack_require__(152);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2693,7 +2693,8 @@ var map = {
 	"./2018-04-15-make-up-inspirowany-obrazem-onement-vi-by-barnett-newman.markdown": 113,
 	"./2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest.markdown": 114,
 	"./2018-04-29-stylizacje-w-trendach-ss-2018.markdown": 115,
-	"./2018-05-02-moje-wybory-kwiecien.markdown": 116
+	"./2018-05-02-moje-wybory-kwiecien.markdown": 116,
+	"./2018-05-10-puentylizm-pointylizm-moodboard.markdown": 117
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -9162,15 +9163,61 @@ var raw = exports.raw = "\n<olela-narrative>\n‘Kwiecień plecień, bo przeplat
 
 /***/ }),
 /* 117 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 117;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Puentylizm lub pointylizm (fr. pointiller \u2013 kropkowa\u0107, punktowa\u0107) jest metod\u0105 tw\xF3rcz\u0105 powsta\u0142\u0105 pod koniec XIX wieku. Za jej tw\xF3rc\u0119 przyjmuje si\u0119  Georges Seurat\u2019a, francuskiego przedstawiciela neoimpresjonizmu. Kompozycja puentylistyczna budowana jest za pomoc\u0105 kropek, ma\u0142ych plamek k\u0142adzionych na powierzchni\u0119 p\u0142\xF3tna czubkiem p\u0119dzla. Czasami plamki przyjmuj\u0105 form\u0119 kwadrat\xF3w, prostok\u0105t\xF3w, nabieraj\u0105 faktury. Obraz posta\u0142y w tej technice zdaje si\u0119 \u2018budowa\u0107\u2019 dopiero po odpowiednim oddaleniu si\u0119 od niego. Technika puentylizmu stanowi w pewien spos\xF3b rozwini\u0119cie dywizjonizmu. Efekt wynikaj\u0105cy z ograniczenia palety barw do jedynie \u2018czystych\u2019 kolor\xF3w stanowi o \u2018\u015Bwietlisto\u015Bci\u2019, wibracji plam ogl\u0105danych z odpowiedniej odleg\u0142o\u015Bci.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7655534/ello-optimized-a584038f.jpg', alt: 'Obraz przedstawia pi\u0119\u0107 fotografii na zielonym tle. Widzimy portret kobiety w kolorowym makija\u017Cu, obraz znanego artysty, ludzkie postaci.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7655537/ello-optimized-dcfa03fe.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia dzie\u0142 znanych artyst\xF3w na zielonym tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7655543/ello-optimized-06926b1d.jpg', alt: 'Obraz przedstawia trzy zdj\u0119cia na zielonym tle. Widzimy fragmenty ubra\u0144 i obraz znanego artysty.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/7655544/ello-optimized-b05dcc9f.jpg', alt: 'Obraz przedstawia pi\u0119\u0107 fotografii na zielonym tle. Widzimy kolorowy fotel, obraz i modelki spaceruj\u0105ce po wybiegu.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7655545/ello-optimized-20df9b65.jpg', alt: 'Obraz przedstawia trzy zdj\u0119cia na zielonym tle. Widzimy damskie twarze w makija\u017Cach oraz modernistyczny stolik.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7655547/ello-optimized-1b69e9cb.jpg', alt: 'Obraz przedstawia pi\u0119\u0107 czarno-bia\u0142ych fotografii. Widzimy rysunki oka, ust, fragment rze\u017Aby i tatua\u017C.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/7655549/ello-optimized-fdb17e46.jpg', alt: 'Zdj\u0119cie przedstawia ciemne napisy na jasno-zielonym tle.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Puentylizm (pointylizm) [moodboard]", "date": "2018-05-10T07:57:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["moodboard", "puentylizm", "pointylizm", "sztuka", "art"] };
+var body = exports.body = "<p>Puentylizm lub pointylizm (fr. pointiller – kropkować, punktować) jest metodą twórczą powstałą pod koniec XIX wieku. Za jej twórcę przyjmuje się  Georges Seurat’a, francuskiego przedstawiciela neoimpresjonizmu. Kompozycja puentylistyczna budowana jest za pomocą kropek, małych plamek kładzionych na powierzchnię płótna czubkiem pędzla. Czasami plamki przyjmują formę kwadratów, prostokątów, nabierają faktury. Obraz postały w tej technice zdaje się ‘budować’ dopiero po odpowiednim oddaleniu się od niego. Technika puentylizmu stanowi w pewien sposób rozwinięcie dywizjonizmu. Efekt wynikający z ograniczenia palety barw do jedynie ‘czystych’ kolorów stanowi o ‘świetlistości’, wibracji plam oglądanych z odpowiedniej odległości.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/7655534/ello-optimized-a584038f.jpg\" alt=\"Obraz przedstawia pięć fotografii na zielonym tle. Widzimy portret kobiety w kolorowym makijażu, obraz znanego artysty, ludzkie postaci.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/7655537/ello-optimized-dcfa03fe.jpg\" alt=\"Obraz przedstawia dwa zdjęcia dzieł znanych artystów na zielonym tle.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/7655543/ello-optimized-06926b1d.jpg\" alt=\"Obraz przedstawia trzy zdjęcia na zielonym tle. Widzimy fragmenty ubrań i obraz znanego artysty.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/7655544/ello-optimized-b05dcc9f.jpg\" alt=\"Obraz przedstawia pięć fotografii na zielonym tle. Widzimy kolorowy fotel, obraz i modelki spacerujące po wybiegu.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/7655545/ello-optimized-20df9b65.jpg\" alt=\"Obraz przedstawia trzy zdjęcia na zielonym tle. Widzimy damskie twarze w makijażach oraz modernistyczny stolik.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/7655547/ello-optimized-1b69e9cb.jpg\" alt=\"Obraz przedstawia pięć czarno-białych fotografii. Widzimy rysunki oka, ust, fragment rzeźby i tatuaż.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/7655549/ello-optimized-fdb17e46.jpg\" alt=\"Zdjęcie przedstawia ciemne napisy na jasno-zielonym tle.\" /></p>\n";
+var raw = exports.raw = "\nPuentylizm lub pointylizm (fr. pointiller – kropkować, punktować) jest metodą twórczą powstałą pod koniec XIX wieku. Za jej twórcę przyjmuje się  Georges Seurat'a, francuskiego przedstawiciela neoimpresjonizmu. Kompozycja puentylistyczna budowana jest za pomocą kropek, małych plamek kładzionych na powierzchnię płótna czubkiem pędzla. Czasami plamki przyjmują formę kwadratów, prostokątów, nabierają faktury. Obraz postały w tej technice zdaje się 'budować' dopiero po odpowiednim oddaleniu się od niego. Technika puentylizmu stanowi w pewien sposób rozwinięcie dywizjonizmu. Efekt wynikający z ograniczenia palety barw do jedynie 'czystych' kolorów stanowi o 'świetlistości', wibracji plam oglądanych z odpowiedniej odległości.\n\n![Obraz przedstawia pięć fotografii na zielonym tle. Widzimy portret kobiety w kolorowym makijażu, obraz znanego artysty, ludzkie postaci.](https://assets1.ello.co/uploads/asset/attachment/7655534/ello-optimized-a584038f.jpg)\n![Obraz przedstawia dwa zdjęcia dzieł znanych artystów na zielonym tle.](https://assets1.ello.co/uploads/asset/attachment/7655537/ello-optimized-dcfa03fe.jpg)\n![Obraz przedstawia trzy zdjęcia na zielonym tle. Widzimy fragmenty ubrań i obraz znanego artysty.](https://assets1.ello.co/uploads/asset/attachment/7655543/ello-optimized-06926b1d.jpg)\n![Obraz przedstawia pięć fotografii na zielonym tle. Widzimy kolorowy fotel, obraz i modelki spacerujące po wybiegu.](https://assets0.ello.co/uploads/asset/attachment/7655544/ello-optimized-b05dcc9f.jpg)\n![Obraz przedstawia trzy zdjęcia na zielonym tle. Widzimy damskie twarze w makijażach oraz modernistyczny stolik.](https://assets1.ello.co/uploads/asset/attachment/7655545/ello-optimized-20df9b65.jpg)\n![Obraz przedstawia pięć czarno-białych fotografii. Widzimy rysunki oka, ust, fragment rzeźby i tatuaż.](https://assets1.ello.co/uploads/asset/attachment/7655547/ello-optimized-1b69e9cb.jpg)\n![Zdjęcie przedstawia ciemne napisy na jasno-zielonym tle.](https://assets2.ello.co/uploads/asset/attachment/7655549/ello-optimized-fdb17e46.jpg)";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 118 */
@@ -9186,6 +9233,18 @@ webpackEmptyContext.id = 118;
 
 /***/ }),
 /* 119 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 119;
+
+/***/ }),
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -9206,19 +9265,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 119;
+webpackContext.id = 120;
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(121);
+module.exports = __webpack_require__(122);
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9236,7 +9295,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(122);
+var _propTypes = __webpack_require__(123);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -9440,13 +9499,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_122__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_123__;
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9460,7 +9519,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9468,7 +9527,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9481,7 +9540,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9515,7 +9574,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9528,7 +9587,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9537,7 +9596,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9545,7 +9604,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9553,7 +9612,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9568,7 +9627,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9583,7 +9642,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9598,7 +9657,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9622,7 +9681,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(135);
+var s = __webpack_require__(136);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -9653,7 +9712,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9661,7 +9720,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9685,7 +9744,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9736,7 +9795,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9744,7 +9803,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9753,7 +9812,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(140);
+var s = __webpack_require__(141);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -9786,7 +9845,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9796,7 +9855,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9840,22 +9899,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 144,
-	"./Feed.js": 145,
-	"./Ingredient.js": 146,
-	"./Method.js": 147,
-	"./Recipe.js": 148,
-	"./TableOfContents.js": 149
+	"./Crumbs.js": 145,
+	"./Feed.js": 146,
+	"./Ingredient.js": 147,
+	"./Method.js": 148,
+	"./Recipe.js": 149,
+	"./TableOfContents.js": 150
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -9871,10 +9930,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 143;
+webpackContext.id = 144;
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9889,7 +9948,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9904,7 +9963,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9919,7 +9978,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9934,7 +9993,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9949,7 +10008,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9964,7 +10023,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9988,7 +10047,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
