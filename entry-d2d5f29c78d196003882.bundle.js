@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_123__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_124__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(138);
+var Feed_1 = __webpack_require__(139);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(140);
+var Recipe_1 = __webpack_require__(141);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(142);
+var Root_1 = __webpack_require__(143);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(124);
+var s = __webpack_require__(125);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(125);
+var s = __webpack_require__(126);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(118),
-ROOT: __webpack_require__(119),
-LAYOUTS: __webpack_require__(120),
-INCLUDES: __webpack_require__(144)};
+UPLOADS: __webpack_require__(119),
+ROOT: __webpack_require__(120),
+LAYOUTS: __webpack_require__(121),
+INCLUDES: __webpack_require__(145)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(144)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(126);
+var s = __webpack_require__(127);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(130);
+var s = __webpack_require__(131);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(143);
+__webpack_require__(144);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(121);
+var react_disqus_comments_1 = __webpack_require__(122);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(135);
-var s = __webpack_require__(137);
+var FacebookLike_1 = __webpack_require__(136);
+var s = __webpack_require__(138);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(127);
-var s = __webpack_require__(128);
+__webpack_require__(128);
+var s = __webpack_require__(129);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(129);
+var s = __webpack_require__(130);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(132);
+var s = __webpack_require__(133);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(131);
+var s = __webpack_require__(132);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(133);
+var s = __webpack_require__(134);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(134);
+var s = __webpack_require__(135);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(139);
+var s = __webpack_require__(140);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(151);
-var menu_1 = __webpack_require__(152);
+var tags_1 = __webpack_require__(152);
+var menu_1 = __webpack_require__(153);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2694,7 +2694,8 @@ var map = {
 	"./2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest.markdown": 114,
 	"./2018-04-29-stylizacje-w-trendach-ss-2018.markdown": 115,
 	"./2018-05-02-moje-wybory-kwiecien.markdown": 116,
-	"./2018-05-10-puentylizm-pointylizm-moodboard.markdown": 117
+	"./2018-05-10-puentylizm-pointylizm-moodboard.markdown": 117,
+	"./2018-05-14-oswoic-lek.markdown": 118
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -9221,15 +9222,138 @@ var raw = exports.raw = "\nPuentylizm lub pointylizm (fr. pointiller – kropkow
 
 /***/ }),
 /* 118 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 118;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/7672904/ello-optimized-d358e42d.jpg', alt: 'Zdj\u0119cie przedstawia zbli\u017Cenie na oko. Na sk\xF3rze widzimy fioletowe kreski.' })
+    ),
+    _react2.default.createElement(
+      'olela-narrative',
+      null,
+      'Ostatnio do\u015B\u0107 cz\u0119st\u0105 j\u0105 spotykam. W porannej drodze do \u0142azienki towarzyszy mi jej ch\u0142odny oddech. Przy lustrze, kiedy wklepuj\u0119 delikatnie jedn\u0105 emulsj\u0119 za drug\u0105, wygl\u0105da ukradkiem zza moich plec\xF3w. Zapewne my\u015Blicie, \u017Ce ze sob\u0105 nie rozmawiamy. O nie... pr\xF3bowa\u0142y\u015Bmy nie raz, nie dwa. W trakcie naszego niezbyt d\u0142ugiego dialogu musia\u0142am zaprzyja\u017Ani\u0107 si\u0119 ze s\u0142ownikiem i wyszukiwa\u0107 znacze\u0144 coraz to bardziej wysublimowanych epitet\xF3w. Ona zdaje si\u0119 by\u0107 przybyszem z planety erudyt\xF3w lub jest po prostu bardzo dojrza\u0142a i \u015Bwiadoma. Nie wiem\u2026 Martwi\u0119 si\u0119, \u017Ce nigdy nie stan\u0119 si\u0119 tak dojrza\u0142\u0105 kobiet\u0105, \u017Ce zawsze b\u0119dzie we mnie dziecko, ale nie to s\u0142odkie, na widok kt\xF3rego gigil\u2019ujemy (s\u0142owo pochodzenia filipi\u0144skiego oznaczaj\u0105ce \u2018pieszczenie\u2019 si\u0119, w szczeg\xF3lno\u015Bci na widok ma\u0142ych dzieci lub piesk\xF3w), tylko \u2018g\xF3wniara\u2019, kt\xF3ra wszystko wie lepiej i nikogo nie s\u0142ucha (w szczeg\xF3lno\u015Bci w\u0142asnej mamy). Obawiam si\u0119, kiedy patrz\u0119 na te wszystkie 20-latki, kt\xF3re w\u0142a\u015Bnie kupi\u0142y nowe mieszkania w centrum Warszawy\u2026 Obawiam si\u0119 o siebie, \u017Ce b\u0119d\u0119 si\u0119 z ni\u0105 widywa\u0107 coraz cz\u0119\u015Bciej i \u017Ce chc\u0105c, nie chc\u0105c b\u0119dziemy musia\u0142y doj\u015B\u0107 do porozumienia. A powiem Wam w tajemnicy, \u017Ce jej nie lubi\u0119.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/7672896/ello-optimized-57f86fe1.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia twarzy. Na twarzy narysowane s\u0105 fioletowe linie przerywane.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Przymierzalnia'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Wybieram si\u0119 na zakupy. Potrzebuj\u0119 paru zwyk\u0142ych-niezwyk\u0142ych t-shirt\xF3w, pary klasycznych spodni i but\xF3w. Tak, wybieram si\u0119 na \u2018shopping\u2019. Je\u015Bli spodoba mi si\u0119 co\u015B, co nie wchodzi w sk\u0142ad bawe\u0142ny widniej\u0105cej na li\u015Bcie, mam zamiar to naby\u0107. Mo\u017Ce b\u0119d\u0105 to koronkowe stringi, albo naszyjnik z diamentami \u2013 mam ochot\u0119 zaszale\u0107. Wchodz\u0105c do pierwszego sklepu mieszcz\u0105cego si\u0119 na bardzo modnej uliczce zauwa\u017Cam solidnie skrojone spodnie o fasonie cygaretek. Prosz\u0119 Pani\u0105 sprzedawczyni\u0119 o m\xF3j rozmiar \u2013 S (36). Przymierzalnia prezentuje si\u0119 r\xF3wnie przyjemnie, co idealny u\u015Bmiech ekspedientki. Zaczynam si\u0119 rozbiera\u0107. Nagle zauwa\u017Cam w lustrze, \u017Ce kto\u015B uchyli\u0142 kotar\u0119 i przygl\u0105da mi si\u0119. -Aaa! Co Ty tu robisz?! Wystraszy\u0142a\u015B mnie! - krzykn\u0119\u0142am odruchowo. Oczywi\u015Bcie ona nic nie odpowiedzia\u0142a. Sta\u0142a tak nadal przygl\u0105daj\u0105c si\u0119 mojej sk\xF3rze na kolanach i udzie. Nie mog\u0142am nie zauwa\u017Cy\u0107, \u017Ce prawa noga wygl\u0105da\u0142a jak pomara\u0144cza darowana w prezencie przez ciotk\u0119 w pierwszy dzie\u0144 \u015Bwi\u0105t. Czym pr\u0119dzej zacz\u0119\u0142am zak\u0142ada\u0107 spodnie. Niestety, szczup\u0142e nogawki zatrzyma\u0142y si\u0119 na wysoko\u015Bci bioder i nie chcia\u0142y przej\u015B\u0107 dalej. Mocowa\u0142am si\u0119 z nimi jeszcze przez 3 minuty po czym zrezygnowana usiad\u0142am na krze\u015Ble. Nie zd\u0105\u017Cy\u0142am zap\u0142aka\u0107, a ona ju\u017C sta\u0142a nade mn\u0105 trzymaj\u0105c w d\u0142oniach spodnie w rozmiarze 40. Nienawidz\u0119 jej.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/7672897/ello-optimized-714844a2.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia twarzy, na kt\xF3rej narysowane s\u0105 fioletowe linie przerywane. Jedno zdj\u0119cie jest mniejsze i przedstawia zbli\u017Cenie na oko.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Impreza'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Dzisiaj pi\u0105tek. Kto nie pracuje na etacie w korporacji nigdy nie zrozumie jakim dniem jest pi\u0105tek. Pi\u0105tek to dzie\u0144 szcz\u0119\u015Bliwy, bowiem w pi\u0105tki odlicza si\u0119 sekundy do startu upragnionego weekendu. Pi\u0105tek to dzie\u0144 radosny, bo po tygodniu har\xF3wy mo\u017Cna, a wr\u0119cz wypada wyrwa\u0107 si\u0119 wieczorem ze znajomymi \u2018na miasto\u2019. No i ja si\u0119 wyrywam i rozrywam w domu jednej z przyjaci\xF3\u0142ek. Posiedzimy, pogadamy, napijemy si\u0119 wina, a je\u015Bli najdzie nas ochota i nag\u0142y przyp\u0142yw m\u0142odzie\u0144czej energii wyjdziemy do klubu. Natalia mieszka w \u015Br\xF3dmie\u015Bciu w modernistycznej kawalerce. Mieszkanie urz\u0105dzone jest schludnie, ze smakiem. Bia\u0142e \u015Bciany uspokajaj\u0105 wisz\u0105ce na nich kolorowe zdj\u0119cia w ramkach, a zielone paprotki przypominaj\u0105 czasy szkolnych \u0142awek. Rozpoczynamy klasycznie od lampki bia\u0142ego wina z lodem.'
+    ),
+    _react2.default.createElement(
+      'ul',
+      null,
+      _react2.default.createElement(
+        'li',
+        null,
+        'Ja nie rozumiem fenomenu tej ca\u0142ej Z*** (nick pewnej s\u0142awnej youtube\u2019rki). Siedzi to dziewcz\u0119 na tle tych brokatowych te\u0142 z aliexpress i pacia swoj\u0105 jeszcze m\u0142od\u0105 sk\xF3r\u0119 specyfikami dla starych bab. No nazwijmy rzeczy po imieniu \u2013 dla starych bab no i ju\u017C. I, \u017Ce niby to ma mnie zach\u0119ci\u0107 do kupna takiego kremiku, czy sztyfciku, co cuda zdzia\u0142a, tylko \u017Ce jak si\u0119 ma te na\u015Bcie to wszystko dzia\u0142a, bo cudem jest ju\u017C samo na\u015Bcie. No \u017Ale m\xF3wi\u0119? Poprawcie mnie dziewczyny, je\u015Bli \u017Ale m\xF3wi\u0119 \u2013 zaczyna sw\xF3j monolog gospodyni m2. K\u0105tem oka zauwa\u017Cam, \u017Ce Magda ukradkiem zerka na telefon, a Ka\u015Bka stoi przy kuchennym blacie skubi\u0105c resztki tarty z rabarbarem. Podchodz\u0119 do Ka\u015Bki zagaduj\u0105c o jej wczorajsze spotkanie z Micha\u0142em. Nagle czuj\u0119 delikatne szarpni\u0119cie za r\u0119kaw mojej jedwabnej bluzki z Zary. Odwracam si\u0119. \u2018No nie\u2019 - mrucz\u0119 cicho. To ona. M\xF3wi do mnie co\u015B niewyra\u017Anie, mamrocze o p\xF3\u017Anej godzinie i obowi\u0105zkach. Dodaje bardziej zrozumia\u0142e zdania o dodatkowej pracy w ten weekend, o pieni\u0105dzach i kredycie. Wspomina, \u017Ce z wiekiem coraz ci\u0119\u017Cej znosi si\u0119 skutki alkoholowych libacji. \u2018Daj mi spok\xF3j \u2013 cedz\u0119 przez z\u0119by \u2013 przecie\u017C to dopiero druga lampka. Nienawidz\u0119 jej.'
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/7672898/ello-optimized-95482a4d.jpg', alt: 'Obraz przedstawia jedno du\u017Ce zdj\u0119cie twarzy w makija\u017Cu i trzy zdj\u0119cia mniejsze. Zdj\u0119cia mniejsze s\u0105 zbli\u017Ceniami na oko i ustawione s\u0105 w pionowej linii.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Bathroom'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Jest wiecz\xF3r, godzina 21:00. Kieruj\u0119 si\u0119 w stron\u0119 \u0142azienki aby tam dokona\u0107 mojego cowieczornego rytua\u0142u. Zaczynam od wody micelarnej na\u0142o\u017Conej na wacik. Bia\u0142e, mi\u0119ciutkie k\xF3\u0142ko przyk\u0142adam do powiek zm\u0119czonych warstw\u0105 cieni, kredek i tuszy. Resztki makija\u017Cu tworz\u0105 na wacikach fascynuj\u0105ce, abstrakcyjne wzory. Nast\u0119pnym krokiem jest oczyszczenie sk\xF3ry olejkiem do demakija\u017Cu. Olejek ma s\u0142odkawy zapach, a jego t\u0142usta konsystencja doskonale radzi sobie z resztkami wodoodpornych cudeniek. Dalej \u2013 korea\u0144ska pianka do oczyszczania twarzy. Pozbywam si\u0119 poprzedniej \u2018t\u0142ustej\u2019 warstwy. Next \u2013 tonik, dla wyr\xF3wnania pH. Dalej w zale\u017Cno\u015Bci od kondycji mojej sk\xF3ry u\u017Cywam 1. Kilku warstw ekstra-nawil\u017Caj\u0105cej esencji lub 2. jednej warstwy ekstra-nawil\u017Caj\u0105cej esencji. Teraz krem. Jest r\xF3\u017Cnica pomi\u0119dzy kremem nawil\u017Caj\u0105cym a nawadniaj\u0105cym. Sk\xF3ra mo\u017Ce by\u0107 dobrze nawil\u017Cona, ale odwodniona przez co szybciej si\u0119 starzeje i traci j\u0119drno\u015B\u0107. Przy nak\u0142adaniu kremu zazwyczaj pojawia si\u0119 Ona. Spogl\u0105da na mnie w lustrze, przybli\u017Caj\u0105c si\u0119 coraz bardziej. Nieraz zwraca\u0142am jej uwag\u0119, \u017Ce zaburza moj\u0105 stref\u0119 komfortu, \u017Ce to, co robi\u0119 w \u0142azience ma charakter intymny i \u017Ceby wi\u0119cej si\u0119 tu nie pokazywa\u0142a. Ale ona nie s\u0142ucha. Pokazuje palcem coraz to nowe za\u0142amania mojej sk\xF3ry pod oczami, podaje kolejne kroki w piel\u0119gnacji. Swoim trudnym j\u0119zykiem t\u0142umaczy, co nale\u017Cy teraz na\u0142o\u017Cy\u0107, abym si\u0119 ni\u0105 nie sta\u0142a. Chwila\u2026 Ale czy ja na pewno nie chc\u0119 ni\u0105 by\u0107? Czy te wszystkie zmarszczki, za\u0142amania, wyostrzone rysy nie dodaj\u0105 charakteru? Czy dzi\u0119ki nim nie wygl\u0105dam, nie CZUJ\u0118 SI\u0118 pewniej? W ko\u0144cu prze\u017Cywam coraz wi\u0119cej, z dnia na dzie\u0144 jestem dojrzalsza, m\u0105drzejsza, bardziej \u015Bwiadoma. Zmarszczki to zapis historii na ciele, historii jedynej w swoim rodzaju, wyj\u0105tkowej.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Odwr\xF3ci\u0142am si\u0119 gwa\u0142townie. Stan\u0119\u0142y\u015Bmy naprzeciw siebie w milczeniu. Wyci\u0105gn\u0119\u0142am otwart\u0105 d\u0142o\u0144 w powitalnym ge\u015Bcie. Ona, na pocz\u0105tku nie\u015Bmia\u0142o, ale po chwili pewnym ruchem u\u015Bcisn\u0119\u0142a j\u0105.'
+    ),
+    _react2.default.createElement(
+      'ul',
+      null,
+      _react2.default.createElement(
+        'li',
+        null,
+        'Mam na imi\u0119 Ola, a Ty?'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'Staro\u015B\u0107. Jestem Staro\u015B\u0107.'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'Witaj. Intuicja podpowiada mi, \u017Ce zostaniemy przyjaci\xF3\u0142kami. Od tej chwili zacz\u0119\u0142y\u015Bmy wsp\xF3\u0142pracowa\u0107. Nasta\u0142a cisza.'
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/7672901/ello-optimized-7d2647e4.jpg', alt: 'Zdj\u0119cie jest czarno-bia\u0142e i przedstawia fragment twarzy, na kt\xF3rej widzimy namalowan\u0105 lini\u0119 przerywan\u0105.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Oswoić lęk", "date": "2018-05-14T13:56:00.000Z", "categories": ["Sztuka Makijażu"], "tags": ["lęk", "fear", "autoterapia", "artysta", "sztuka", "makijaż"] };
+var body = exports.body = "<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/7672904/ello-optimized-d358e42d.jpg\" alt=\"Zdjęcie przedstawia zbliżenie na oko. Na skórze widzimy fioletowe kreski.\" /></p>\n<olela-narrative>\nOstatnio dość częstą ją spotykam. W porannej drodze do łazienki towarzyszy mi jej chłodny oddech. Przy lustrze, kiedy wklepuję delikatnie jedną emulsję za drugą, wygląda ukradkiem zza moich pleców. Zapewne myślicie, że ze sobą nie rozmawiamy. O nie... próbowałyśmy nie raz, nie dwa. W trakcie naszego niezbyt długiego dialogu musiałam zaprzyjaźnić się ze słownikiem i wyszukiwać znaczeń coraz to bardziej wysublimowanych epitetów. Ona zdaje się być przybyszem z planety erudytów lub jest po prostu bardzo dojrzała i świadoma. Nie wiem… Martwię się, że nigdy nie stanę się tak dojrzałą kobietą, że zawsze będzie we mnie dziecko, ale nie to słodkie, na widok którego gigil’ujemy (słowo pochodzenia filipińskiego oznaczające ‘pieszczenie’ się, w szczególności na widok małych dzieci lub piesków), tylko ‘gówniara’, która wszystko wie lepiej i nikogo nie słucha (w szczególności własnej mamy). Obawiam się, kiedy patrzę na te wszystkie 20-latki, które właśnie kupiły nowe mieszkania w centrum Warszawy… Obawiam się o siebie, że będę się z nią widywać coraz częściej i że chcąc, nie chcąc będziemy musiały dojść do porozumienia. A powiem Wam w tajemnicy, że jej nie lubię.\n</olela-narrative>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/7672896/ello-optimized-57f86fe1.jpg\" alt=\"Obraz przedstawia dwa zdjęcia twarzy. Na twarzy narysowane są fioletowe linie przerywane.\" /></p>\n<h2>Przymierzalnia</h2>\n<p>Wybieram się na zakupy. Potrzebuję paru zwykłych-niezwykłych t-shirtów, pary klasycznych spodni i butów. Tak, wybieram się na ‘shopping’. Jeśli spodoba mi się coś, co nie wchodzi w skład bawełny widniejącej na liście, mam zamiar to nabyć. Może będą to koronkowe stringi, albo naszyjnik z diamentami – mam ochotę zaszaleć. Wchodząc do pierwszego sklepu mieszczącego się na bardzo modnej uliczce zauważam solidnie skrojone spodnie o fasonie cygaretek. Proszę Panią sprzedawczynię o mój rozmiar – S (36). Przymierzalnia prezentuje się równie przyjemnie, co idealny uśmiech ekspedientki. Zaczynam się rozbierać. Nagle zauważam w lustrze, że ktoś uchylił kotarę i przygląda mi się.\n-Aaa! Co Ty tu robisz?! Wystraszyłaś mnie! - krzyknęłam odruchowo.\nOczywiście ona nic nie odpowiedziała. Stała tak nadal przyglądając się mojej skórze na kolanach i udzie. Nie mogłam nie zauważyć, że prawa noga wyglądała jak pomarańcza darowana w prezencie przez ciotkę w pierwszy dzień świąt. Czym prędzej zaczęłam zakładać spodnie. Niestety, szczupłe nogawki zatrzymały się na wysokości bioder i nie chciały przejść dalej. Mocowałam się z nimi jeszcze przez 3 minuty po czym zrezygnowana usiadłam na krześle. Nie zdążyłam zapłakać, a ona już stała nade mną trzymając w dłoniach spodnie w rozmiarze 40. Nienawidzę jej.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/7672897/ello-optimized-714844a2.jpg\" alt=\"Obraz przedstawia dwa zdjęcia twarzy, na której narysowane są fioletowe linie przerywane. Jedno zdjęcie jest mniejsze i przedstawia zbliżenie na oko.\" /></p>\n<h2>Impreza</h2>\n<p>Dzisiaj piątek. Kto nie pracuje na etacie w korporacji nigdy nie zrozumie jakim dniem jest piątek. Piątek to dzień szczęśliwy, bowiem w piątki odlicza się sekundy do startu upragnionego weekendu. Piątek to dzień radosny, bo po tygodniu harówy można, a wręcz wypada wyrwać się wieczorem ze znajomymi ‘na miasto’. No i ja się wyrywam i rozrywam w domu jednej z przyjaciółek. Posiedzimy, pogadamy, napijemy się wina, a jeśli najdzie nas ochota i nagły przypływ młodzieńczej energii wyjdziemy do klubu. Natalia mieszka w śródmieściu w modernistycznej kawalerce. Mieszkanie urządzone jest schludnie, ze smakiem. Białe ściany uspokajają wiszące na nich kolorowe zdjęcia w ramkach, a zielone paprotki przypominają czasy szkolnych ławek. Rozpoczynamy klasycznie od lampki białego wina z lodem.</p>\n<ul>\n<li>Ja nie rozumiem fenomenu tej całej Z*** (nick pewnej sławnej youtube’rki). Siedzi to dziewczę na tle tych brokatowych teł z aliexpress i pacia swoją jeszcze młodą skórę specyfikami dla starych bab. No nazwijmy rzeczy po imieniu – dla starych bab no i już. I, że niby to ma mnie zachęcić do kupna takiego kremiku, czy sztyfciku, co cuda zdziała, tylko że jak się ma te naście to wszystko działa, bo cudem jest już samo naście. No źle mówię? Poprawcie mnie dziewczyny, jeśli źle mówię – zaczyna swój monolog gospodyni m2.\nKątem oka zauważam, że Magda ukradkiem zerka na telefon, a Kaśka stoi przy kuchennym blacie skubiąc resztki tarty z rabarbarem. Podchodzę do Kaśki zagadując o jej wczorajsze spotkanie z Michałem. Nagle czuję delikatne szarpnięcie za rękaw mojej jedwabnej bluzki z Zary. Odwracam się. ‘No nie’ - mruczę cicho. To ona. Mówi do mnie coś niewyraźnie, mamrocze o późnej godzinie i obowiązkach. Dodaje bardziej zrozumiałe zdania o dodatkowej pracy w ten weekend, o pieniądzach i kredycie. Wspomina, że z wiekiem coraz ciężej znosi się skutki alkoholowych libacji. ‘Daj mi spokój – cedzę przez zęby – przecież to dopiero druga lampka. Nienawidzę jej.</li>\n</ul>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/7672898/ello-optimized-95482a4d.jpg\" alt=\"Obraz przedstawia jedno duże zdjęcie twarzy w makijażu i trzy zdjęcia mniejsze. Zdjęcia mniejsze są zbliżeniami na oko i ustawione są w pionowej linii.\" /></p>\n<h2>Bathroom</h2>\n<p>Jest wieczór, godzina 21:00. Kieruję się w stronę łazienki aby tam dokonać mojego cowieczornego rytuału. Zaczynam od wody micelarnej nałożonej na wacik. Białe, mięciutkie kółko przykładam do powiek zmęczonych warstwą cieni, kredek i tuszy. Resztki makijażu tworzą na wacikach fascynujące, abstrakcyjne wzory. Następnym krokiem jest oczyszczenie skóry olejkiem do demakijażu. Olejek ma słodkawy zapach, a jego tłusta konsystencja doskonale radzi sobie z resztkami wodoodpornych cudeniek. Dalej – koreańska pianka do oczyszczania twarzy. Pozbywam się poprzedniej ‘tłustej’ warstwy. Next – tonik, dla wyrównania pH. Dalej w zależności od kondycji mojej skóry używam 1. Kilku warstw ekstra-nawilżającej esencji lub 2. jednej warstwy ekstra-nawilżającej esencji. Teraz krem. Jest różnica pomiędzy kremem nawilżającym a nawadniającym. Skóra może być dobrze nawilżona, ale odwodniona przez co szybciej się starzeje i traci jędrność. Przy nakładaniu kremu zazwyczaj pojawia się Ona. Spogląda na mnie w lustrze, przybliżając się coraz bardziej. Nieraz zwracałam jej uwagę, że zaburza moją strefę komfortu, że to, co robię w łazience ma charakter intymny i żeby więcej się tu nie pokazywała. Ale ona nie słucha. Pokazuje palcem coraz to nowe załamania mojej skóry pod oczami, podaje kolejne kroki w pielęgnacji. Swoim trudnym językiem tłumaczy, co należy teraz nałożyć, abym się nią nie stała. Chwila… Ale czy ja na pewno nie chcę nią być? Czy te wszystkie zmarszczki, załamania, wyostrzone rysy nie dodają charakteru? Czy dzięki nim nie wyglądam, nie CZUJĘ SIĘ pewniej? W końcu przeżywam coraz więcej, z dnia na dzień jestem dojrzalsza, mądrzejsza, bardziej świadoma. Zmarszczki to zapis historii na ciele, historii jedynej w swoim rodzaju, wyjątkowej.</p>\n<p>Odwróciłam się gwałtownie. Stanęłyśmy naprzeciw siebie w milczeniu. Wyciągnęłam otwartą dłoń w powitalnym geście. Ona, na początku nieśmiało, ale po chwili pewnym ruchem uścisnęła ją.</p>\n<ul>\n<li>Mam na imię Ola, a Ty?</li>\n<li>Starość. Jestem Starość.</li>\n<li>Witaj. Intuicja podpowiada mi, że zostaniemy przyjaciółkami.\nOd tej chwili zaczęłyśmy współpracować. Nastała cisza.</li>\n</ul>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/7672901/ello-optimized-7d2647e4.jpg\" alt=\"Zdjęcie jest czarno-białe i przedstawia fragment twarzy, na której widzimy namalowaną linię przerywaną.\" /></p>\n";
+var raw = exports.raw = "\n![Zdjęcie przedstawia zbliżenie na oko. Na skórze widzimy fioletowe kreski.](https://assets2.ello.co/uploads/asset/attachment/7672904/ello-optimized-d358e42d.jpg)\n\n<olela-narrative>\nOstatnio dość częstą ją spotykam. W porannej drodze do łazienki towarzyszy mi jej chłodny oddech. Przy lustrze, kiedy wklepuję delikatnie jedną emulsję za drugą, wygląda ukradkiem zza moich pleców. Zapewne myślicie, że ze sobą nie rozmawiamy. O nie… próbowałyśmy nie raz, nie dwa. W trakcie naszego niezbyt długiego dialogu musiałam zaprzyjaźnić się ze słownikiem i wyszukiwać znaczeń coraz to bardziej wysublimowanych epitetów. Ona zdaje się być przybyszem z planety erudytów lub jest po prostu bardzo dojrzała i świadoma. Nie wiem… Martwię się, że nigdy nie stanę się tak dojrzałą kobietą, że zawsze będzie we mnie dziecko, ale nie to słodkie, na widok którego gigil’ujemy (słowo pochodzenia filipińskiego oznaczające ‘pieszczenie’ się, w szczególności na widok małych dzieci lub piesków), tylko ‘gówniara’, która wszystko wie lepiej i nikogo nie słucha (w szczególności własnej mamy). Obawiam się, kiedy patrzę na te wszystkie 20-latki, które właśnie kupiły nowe mieszkania w centrum Warszawy… Obawiam się o siebie, że będę się z nią widywać coraz częściej i że chcąc, nie chcąc będziemy musiały dojść do porozumienia. A powiem Wam w tajemnicy, że jej nie lubię.\n</olela-narrative>\n\n![Obraz przedstawia dwa zdjęcia twarzy. Na twarzy narysowane są fioletowe linie przerywane.](https://assets2.ello.co/uploads/asset/attachment/7672896/ello-optimized-57f86fe1.jpg)\n\n## Przymierzalnia\n\nWybieram się na zakupy. Potrzebuję paru zwykłych-niezwykłych t-shirtów, pary klasycznych spodni i butów. Tak, wybieram się na ‘shopping’. Jeśli spodoba mi się coś, co nie wchodzi w skład bawełny widniejącej na liście, mam zamiar to nabyć. Może będą to koronkowe stringi, albo naszyjnik z diamentami – mam ochotę zaszaleć. Wchodząc do pierwszego sklepu mieszczącego się na bardzo modnej uliczce zauważam solidnie skrojone spodnie o fasonie cygaretek. Proszę Panią sprzedawczynię o mój rozmiar – S (36). Przymierzalnia prezentuje się równie przyjemnie, co idealny uśmiech ekspedientki. Zaczynam się rozbierać. Nagle zauważam w lustrze, że ktoś uchylił kotarę i przygląda mi się. \n-Aaa! Co Ty tu robisz?! Wystraszyłaś mnie! - krzyknęłam odruchowo. \nOczywiście ona nic nie odpowiedziała. Stała tak nadal przyglądając się mojej skórze na kolanach i udzie. Nie mogłam nie zauważyć, że prawa noga wyglądała jak pomarańcza darowana w prezencie przez ciotkę w pierwszy dzień świąt. Czym prędzej zaczęłam zakładać spodnie. Niestety, szczupłe nogawki zatrzymały się na wysokości bioder i nie chciały przejść dalej. Mocowałam się z nimi jeszcze przez 3 minuty po czym zrezygnowana usiadłam na krześle. Nie zdążyłam zapłakać, a ona już stała nade mną trzymając w dłoniach spodnie w rozmiarze 40. Nienawidzę jej.\n\n![Obraz przedstawia dwa zdjęcia twarzy, na której narysowane są fioletowe linie przerywane. Jedno zdjęcie jest mniejsze i przedstawia zbliżenie na oko.](https://assets0.ello.co/uploads/asset/attachment/7672897/ello-optimized-714844a2.jpg)\n\n## Impreza\n\nDzisiaj piątek. Kto nie pracuje na etacie w korporacji nigdy nie zrozumie jakim dniem jest piątek. Piątek to dzień szczęśliwy, bowiem w piątki odlicza się sekundy do startu upragnionego weekendu. Piątek to dzień radosny, bo po tygodniu harówy można, a wręcz wypada wyrwać się wieczorem ze znajomymi ‘na miasto’. No i ja się wyrywam i rozrywam w domu jednej z przyjaciółek. Posiedzimy, pogadamy, napijemy się wina, a jeśli najdzie nas ochota i nagły przypływ młodzieńczej energii wyjdziemy do klubu. Natalia mieszka w śródmieściu w modernistycznej kawalerce. Mieszkanie urządzone jest schludnie, ze smakiem. Białe ściany uspokajają wiszące na nich kolorowe zdjęcia w ramkach, a zielone paprotki przypominają czasy szkolnych ławek. Rozpoczynamy klasycznie od lampki białego wina z lodem.\n- Ja nie rozumiem fenomenu tej całej Z*** (nick pewnej sławnej youtube’rki). Siedzi to dziewczę na tle tych brokatowych teł z aliexpress i pacia swoją jeszcze młodą skórę specyfikami dla starych bab. No nazwijmy rzeczy po imieniu – dla starych bab no i już. I, że niby to ma mnie zachęcić do kupna takiego kremiku, czy sztyfciku, co cuda zdziała, tylko że jak się ma te naście to wszystko działa, bo cudem jest już samo naście. No źle mówię? Poprawcie mnie dziewczyny, jeśli źle mówię – zaczyna swój monolog gospodyni m2.\nKątem oka zauważam, że Magda ukradkiem zerka na telefon, a Kaśka stoi przy kuchennym blacie skubiąc resztki tarty z rabarbarem. Podchodzę do Kaśki zagadując o jej wczorajsze spotkanie z Michałem. Nagle czuję delikatne szarpnięcie za rękaw mojej jedwabnej bluzki z Zary. Odwracam się. ‘No nie’ - mruczę cicho. To ona. Mówi do mnie coś niewyraźnie, mamrocze o późnej godzinie i obowiązkach. Dodaje bardziej zrozumiałe zdania o dodatkowej pracy w ten weekend, o pieniądzach i kredycie. Wspomina, że z wiekiem coraz ciężej znosi się skutki alkoholowych libacji. ‘Daj mi spokój – cedzę przez zęby – przecież to dopiero druga lampka. Nienawidzę jej.\n\n![Obraz przedstawia jedno duże zdjęcie twarzy w makijażu i trzy zdjęcia mniejsze. Zdjęcia mniejsze są zbliżeniami na oko i ustawione są w pionowej linii.](https://assets0.ello.co/uploads/asset/attachment/7672898/ello-optimized-95482a4d.jpg)\n\n## Bathroom\n\nJest wieczór, godzina 21:00. Kieruję się w stronę łazienki aby tam dokonać mojego cowieczornego rytuału. Zaczynam od wody micelarnej nałożonej na wacik. Białe, mięciutkie kółko przykładam do powiek zmęczonych warstwą cieni, kredek i tuszy. Resztki makijażu tworzą na wacikach fascynujące, abstrakcyjne wzory. Następnym krokiem jest oczyszczenie skóry olejkiem do demakijażu. Olejek ma słodkawy zapach, a jego tłusta konsystencja doskonale radzi sobie z resztkami wodoodpornych cudeniek. Dalej – koreańska pianka do oczyszczania twarzy. Pozbywam się poprzedniej ‘tłustej’ warstwy. Next – tonik, dla wyrównania pH. Dalej w zależności od kondycji mojej skóry używam 1. Kilku warstw ekstra-nawilżającej esencji lub 2. jednej warstwy ekstra-nawilżającej esencji. Teraz krem. Jest różnica pomiędzy kremem nawilżającym a nawadniającym. Skóra może być dobrze nawilżona, ale odwodniona przez co szybciej się starzeje i traci jędrność. Przy nakładaniu kremu zazwyczaj pojawia się Ona. Spogląda na mnie w lustrze, przybliżając się coraz bardziej. Nieraz zwracałam jej uwagę, że zaburza moją strefę komfortu, że to, co robię w łazience ma charakter intymny i żeby więcej się tu nie pokazywała. Ale ona nie słucha. Pokazuje palcem coraz to nowe załamania mojej skóry pod oczami, podaje kolejne kroki w pielęgnacji. Swoim trudnym językiem tłumaczy, co należy teraz nałożyć, abym się nią nie stała. Chwila… Ale czy ja na pewno nie chcę nią być? Czy te wszystkie zmarszczki, załamania, wyostrzone rysy nie dodają charakteru? Czy dzięki nim nie wyglądam, nie CZUJĘ SIĘ pewniej? W końcu przeżywam coraz więcej, z dnia na dzień jestem dojrzalsza, mądrzejsza, bardziej świadoma. Zmarszczki to zapis historii na ciele, historii jedynej w swoim rodzaju, wyjątkowej.\n\nOdwróciłam się gwałtownie. Stanęłyśmy naprzeciw siebie w milczeniu. Wyciągnęłam otwartą dłoń w powitalnym geście. Ona, na początku nieśmiało, ale po chwili pewnym ruchem uścisnęła ją.\n- Mam na imię Ola, a Ty?\n- Starość. Jestem Starość.\n- Witaj. Intuicja podpowiada mi, że zostaniemy przyjaciółkami.\nOd tej chwili zaczęłyśmy współpracować. Nastała cisza.\n\n![Zdjęcie jest czarno-białe i przedstawia fragment twarzy, na której widzimy namalowaną linię przerywaną.](https://assets2.ello.co/uploads/asset/attachment/7672901/ello-optimized-7d2647e4.jpg)";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 119 */
@@ -9245,6 +9369,18 @@ webpackEmptyContext.id = 119;
 
 /***/ }),
 /* 120 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 120;
+
+/***/ }),
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -9265,19 +9401,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 120;
+webpackContext.id = 121;
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(122);
+module.exports = __webpack_require__(123);
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9295,7 +9431,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(123);
+var _propTypes = __webpack_require__(124);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -9499,13 +9635,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_123__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_124__;
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9519,7 +9655,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9527,7 +9663,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9540,7 +9676,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9574,7 +9710,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9587,7 +9723,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9596,7 +9732,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9604,7 +9740,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9612,7 +9748,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9627,7 +9763,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9642,7 +9778,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9657,7 +9793,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9681,7 +9817,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(136);
+var s = __webpack_require__(137);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -9712,7 +9848,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9720,7 +9856,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9744,7 +9880,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9795,7 +9931,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9803,7 +9939,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9812,7 +9948,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(141);
+var s = __webpack_require__(142);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -9845,7 +9981,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9855,7 +9991,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9899,22 +10035,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 145,
-	"./Feed.js": 146,
-	"./Ingredient.js": 147,
-	"./Method.js": 148,
-	"./Recipe.js": 149,
-	"./TableOfContents.js": 150
+	"./Crumbs.js": 146,
+	"./Feed.js": 147,
+	"./Ingredient.js": 148,
+	"./Method.js": 149,
+	"./Recipe.js": 150,
+	"./TableOfContents.js": 151
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -9930,10 +10066,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 144;
+webpackContext.id = 145;
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9948,7 +10084,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9963,7 +10099,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9978,7 +10114,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9993,7 +10129,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10008,7 +10144,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10023,7 +10159,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10047,7 +10183,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
