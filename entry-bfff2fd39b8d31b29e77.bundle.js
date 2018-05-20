@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_124__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_125__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(139);
+var Feed_1 = __webpack_require__(140);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(141);
+var Recipe_1 = __webpack_require__(142);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(143);
+var Root_1 = __webpack_require__(144);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(125);
+var s = __webpack_require__(126);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(126);
+var s = __webpack_require__(127);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(119),
-ROOT: __webpack_require__(120),
-LAYOUTS: __webpack_require__(121),
-INCLUDES: __webpack_require__(145)};
+UPLOADS: __webpack_require__(120),
+ROOT: __webpack_require__(121),
+LAYOUTS: __webpack_require__(122),
+INCLUDES: __webpack_require__(146)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(145)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(127);
+var s = __webpack_require__(128);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(131);
+var s = __webpack_require__(132);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(144);
+__webpack_require__(145);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(122);
+var react_disqus_comments_1 = __webpack_require__(123);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(136);
-var s = __webpack_require__(138);
+var FacebookLike_1 = __webpack_require__(137);
+var s = __webpack_require__(139);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(128);
-var s = __webpack_require__(129);
+__webpack_require__(129);
+var s = __webpack_require__(130);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(130);
+var s = __webpack_require__(131);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(133);
+var s = __webpack_require__(134);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(132);
+var s = __webpack_require__(133);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(134);
+var s = __webpack_require__(135);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(135);
+var s = __webpack_require__(136);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(140);
+var s = __webpack_require__(141);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(152);
-var menu_1 = __webpack_require__(153);
+var tags_1 = __webpack_require__(153);
+var menu_1 = __webpack_require__(154);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2695,7 +2695,8 @@ var map = {
 	"./2018-04-29-stylizacje-w-trendach-ss-2018.markdown": 115,
 	"./2018-05-02-moje-wybory-kwiecien.markdown": 116,
 	"./2018-05-10-puentylizm-pointylizm-moodboard.markdown": 117,
-	"./2018-05-14-oswoic-lek.markdown": 118
+	"./2018-05-14-oswoic-lek.markdown": 118,
+	"./2018-05-20-o-kolorach-roz.markdown": 119
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -9341,15 +9342,98 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia zbliżenie na oko. Na skórze 
 
 /***/ }),
 /* 119 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 119;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      'R\xF3\u017C atakuje nas z ka\u017Cdej mo\u017Cliwej strony. R\xF3\u017Cowe s\u0105 reklamy zabawek dla dziewczynek (0,5 \u2013 18 lat), r\xF3\u017Cowe s\u0105 lakiery do paznokci, koronkowe majtki, a ostatnio tak\u017Ce farby do w\u0142os\xF3w. Dlaczego w\u0142a\u015Bnie ten kolor tak mocno przylgn\u0105\u0142 do p\u0142ci pi\u0119knej i czy m\u0119\u017Cczyzna w r\xF3\u017Cowej koszuli jest pass\xE9? W zak\u0142adach karnych w Teksasie i Arizonie \u015Bciany cel pomalowane s\u0105 na r\xF3\u017Cowo, a wi\u0119\u017Aniowie nosz\u0105 uniform\u2019y w tym w\u0142a\u015Bnie s\u0142odkim kolorze. Dlaczego? Podobno r\xF3\u017C wycisza agresj\u0119... Z kolei pewne miasto we wschodnich Indiach ma zosta\u0107 w ca\u0142o\u015Bci pomalowane na r\xF3\u017Cowo, gdy\u017C wi\u0119kszo\u015B\u0107 mieszka\u0144c\xF3w cierpi tam na depresj\u0119. Jak\u017Ce magiczne w\u0142a\u015Bciwo\u015Bci posiada r\xF3\u017C! Jad\u0105c na wie\u015B do rodziny zawsze zastanawia\u0142am si\u0119, dlaczego ca\u0142a izba pomalowana jest na wstr\u0119tny odcie\u0144 r\xF3\u017Cu. Dowiedzia\u0142am si\u0119 od prababci. Staropolskie przes\u0105dy m\xF3wi\u0105, \u017Ce r\xF3\u017Cowego boj\u0105 si\u0119 paj\u0105ki, a wie\u015B jak to wie\u015B \u2013 \u017Cyje w zgodzie z natur\u0105. Mo\u017Ce wiec r\xF3\u017C, z natury, niekt\xF3rych odstraszy, niekt\xF3rych przyci\u0105gnie. Dobrze jednak, je\u015Bli przyci\u0105ga z rozs\u0105dkiem.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7700426/ello-optimized-99ff6751.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia, na jednym widzimy twarz kobiety o\u015Bwietlon\u0105 r\xF3\u017Cowym \u015Bwiat\u0142em, a na drugim zbli\u017Cenie na kwiatek.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Ch\u0142opiec czy dziewczynka?'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Dzi\u015B to w\u0142a\u015Bnie kolor r\xF3\u017Cowy \u2018zarezerwowany\u2019 jest dla p\u0142ci pi\u0119knej. R\xF3\u017C jest pochodn\u0105 koloru czerwonego (uzyskuje si\u0119 go mieszaj\u0105c czerwie\u0144 z biel\u0105), a wi\u0119c barwy pe\u0142nej \u2018ognia\u2019, emocji, mi\u0142o\u015Bci, wojny, nienawi\u015Bci. Mo\u017Ce wyda\u0107 si\u0119 to dziwne, ale to r\xF3\u017C w\u0142a\u015Bnie do niedawna by\u0142 \u2018m\u0119skim\u2019 kolorem. W pewnej publikacji handlowej z XVIII wieku czytamy, \u017Ce \u2018powszechnie akceptowane jest ubieranie ch\u0142opc\xF3w na r\xF3\u017Cowo, a dziewczynek na niebiesko\u2019\u2026 B\u0142\u0119kit kojarzony by\u0142 z delikatno\u015Bci\u0105 i czysto\u015Bci\u0105. Co wi\u0119cej, w dawnych latach nie obowi\u0105zywa\u0142y nawet specjalne kroje dzieci\u0119cych stroj\xF3w odr\xF3\u017Cniaj\u0105cych p\u0142e\u0107. \u015Awiadczy\u0107 o tym mo\u017Ce historyczne zdj\u0119cie dwuletniego Franklina Roosevelt\u2019a, kt\xF3ry ubrany w bia\u0142\u0105 sukienk\u0119 i pantofle przypomina\u2026 przes\u0142odk\u0105 dziewczynk\u0119. Kiedy zasady uleg\u0142y odwr\xF3ceniu? Kiedy do g\u0142osu dosz\u0142y badania marketingowe potwierdzaj\u0105ce wp\u0142yw koloru r\xF3\u017Cowego na kobiety. Okaza\u0142o si\u0119, \u017Ce to w\u0142a\u015Bnie on budzi wi\u0119ksze emocje i jest ch\u0119tniej wybierany przez p\u0142e\u0107 pi\u0119kn\u0105. Na podstawie psychologii zbudowano oferty handlowe skierowane stricte do kobiet. Ponadto, ca\u0142y czas modna personalizacja produktu sprawi\u0142a, \u017Ce spodziewaj\u0105c si\u0119 dziecka ch\u0119tniej kupujemy przedmioty odpowiadaj\u0105ce jego p\u0142ci \u2013 czyli w danym kolorze. S\u0142ynna lalka Barbie (powsta\u0142a w latach 60-tych) ugruntowa\u0142a pozycj\u0119 koloru r\xF3\u017Cowego jako koloru dziewczynek. Zabawki zosta\u0142y podzielone na \u2018r\xF3\u017Cowe ksi\u0119\u017Cniczki\u2019 i \u2018niebieskie samochody\u2019. Podzia\u0142 ten utrzymuje si\u0119 do dzi\u015B, a widok ch\u0142opca z lalk\u0105 w r\u0119ce w\u015Br\xF3d niekt\xF3rych os\xF3b nadal budzi niepok\xF3j.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/7700421/ello-optimized-afe43e55.jpg', alt: 'Obraz przedstawia portret kobiety o\u015Bwietlonej r\xF3\u017Cowym \u015Bwiat\u0142em, oraz fragment ekranu telewizora, na kt\xF3rym le\u017C\u0105 r\xF3\u017Cowe majtki.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'R\xF3\u017C = Kobieta'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Wsp\xF3\u0142czesny \u015Bwiat mocno przyklei\u0142 kolor r\xF3\u017Cowy do wizerunku kobiety. Umiej\u0119tnie noszony jest wyrazem klasy i znajomo\u015Bci trend\xF3w. Zak\u0142adany z przesad\u0105 staje si\u0119 obrazem tandety, kiczu. Na pewno nie raz, nie dwa s\u0142yszeli\u015Bcie okre\u015Blenie \u2018r\xF3\u017Cowa blondyna\u2019\u2026 Niestety epitet ten, najcz\u0119\u015Bciej o zabarwieniu pejoratywnym, odnosi si\u0119 nie tylko do wygl\u0105du, ale dotyka swoj\u0105 mack\u0105 inteligencji danej jednostki. Jednostki kobiecej, rzecz jasna. S\u0105 na szcz\u0119\u015Bcie wok\xF3\u0142 nas artystki/arty\u015Bci, kt\xF3rzy swoimi dzia\u0142aniami wytaczaj\u0105 wojn\u0119 uprzedmiotawianiu kobiet, ich dyskryminacji. Iwona Demko to \u2018r\xF3\u017Cowa artystka\u2019. W projekcie \u2018Waginatyzm\u2019 wyciera tabu i moment za\u017Cenowania, z kt\xF3rym \u0142\u0105czy si\u0119 ju\u017C samo s\u0142owo \u2018wagina\u2019. O projekcie pisze: \u2018Historia pe\u0142na jest rozlicznych przyk\u0142ad\xF3w kultu waginy. Jednak znaczenie kobiecych narz\u0105d\xF3w p\u0142ciowych zdewaluowa\u0142o si\u0119 i w g\u0142\xF3wnej mierze za spraw\u0105 pruderyjnej moralno\u015Bci chrze\u015Bcija\u0144skiej zawiod\u0142o wagin\u0119 od sacrum do profanum. Nadanie s\u0142owu \u201Csrom\u201D znaczenia \u201Cwstydu\u201D oraz powstanie zwrot\xF3w takich jak \u201Csromotny wstyd\u201D, czy \u201Csromotna kl\u0119ska\u201D kt\xF3re pocz\u0105tkowo mia\u0142o na celu opis sytuacji m\u0119skiego tch\xF3rzostwa i ha\u0144by na tyle niegodziwych, \u017Ce zas\u0142uguj\u0105cych na zawstydzenie ich przez kobiety aktem obna\u017Cenia sromu obecnie zosta\u0142y obr\xF3cone przeciwko kobietom.\u2019* Iwona na co dzie\u0144 zak\u0142ada na siebie \u2018szokuj\u0105cy r\xF3\u017C\u2019, podwa\u017Ca stereotypy na temat koloru, kt\xF3ry (z racji tego, \u017Ce przypisany kobietom) zdaje si\u0119 by\u0107 \u2018niepowa\u017Cny\u2019, czy wr\u0119cz \u2018g\u0142upi\u2019. Jej sztuka nazwana zosta\u0142a \u2018waginocentryczn\u0105\u2019.'
+    ),
+    _react2.default.createElement(
+      'ul',
+      null,
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: 'http://www.iwonademko.art.pl/rzezba/waginatyzm/waginatyzm_tekst.html' },
+          '\u017Ar\xF3d\u0142o tekstu'
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/7700419/ello-optimized-29ae42d3.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia. Z lewej strony widzimy le\u017C\u0105ce r\xF3\u017Cowe majtki na drewnianej pod\u0142odze, a z prawej twarz kobiety o\u015Bwietlon\u0105 r\xF3\u017Cowym \u015Bwiat\u0142em.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "O kolorach: Róż", "date": "2018-05-20T10:22:00.000Z" };
+var body = exports.body = "<p>Róż atakuje nas z każdej możliwej strony. Różowe są reklamy zabawek dla dziewczynek (0,5 – 18 lat), różowe są lakiery do paznokci, koronkowe majtki, a ostatnio także farby do włosów. Dlaczego właśnie ten kolor tak mocno przylgnął do płci pięknej i czy mężczyzna w różowej koszuli jest passé? W zakładach karnych w Teksasie i Arizonie ściany cel pomalowane są na różowo, a więźniowie noszą uniform’y w tym właśnie słodkim kolorze. Dlaczego? Podobno róż wycisza agresję... Z kolei pewne miasto we wschodnich Indiach ma zostać w całości pomalowane na różowo, gdyż większość mieszkańców cierpi tam na depresję. Jakże magiczne właściwości posiada róż! Jadąc na wieś do rodziny zawsze zastanawiałam się, dlaczego cała izba pomalowana jest na wstrętny odcień różu. Dowiedziałam się od prababci. Staropolskie przesądy mówią, że różowego boją się pająki, a wieś jak to wieś – żyje w zgodzie z naturą. Może wiec róż, z natury, niektórych odstraszy, niektórych przyciągnie. Dobrze jednak, jeśli przyciąga z rozsądkiem.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/7700426/ello-optimized-99ff6751.jpg\" alt=\"Obraz przedstawia dwa zdjęcia, na jednym widzimy twarz kobiety oświetloną różowym światłem, a na drugim zbliżenie na kwiatek.\" /></p>\n<h2>Chłopiec czy dziewczynka?</h2>\n<p>Dziś to właśnie kolor różowy ‘zarezerwowany’ jest dla płci pięknej. Róż jest pochodną koloru czerwonego (uzyskuje się go mieszając czerwień z bielą), a więc barwy pełnej ‘ognia’, emocji, miłości, wojny, nienawiści. Może wydać się to dziwne, ale to róż właśnie do niedawna był ‘męskim’ kolorem. W pewnej publikacji handlowej z XVIII wieku czytamy, że ‘powszechnie akceptowane jest ubieranie chłopców na różowo, a dziewczynek na niebiesko’… Błękit kojarzony był z delikatnością i czystością. Co więcej, w dawnych latach nie obowiązywały nawet specjalne kroje dziecięcych strojów odróżniających płeć. Świadczyć o tym może historyczne zdjęcie dwuletniego Franklina Roosevelt’a, który ubrany w białą sukienkę i pantofle przypomina… przesłodką dziewczynkę. Kiedy zasady uległy odwróceniu?\nKiedy do głosu doszły badania marketingowe potwierdzające wpływ koloru różowego na kobiety. Okazało się, że to właśnie on budzi większe emocje i jest chętniej wybierany przez płeć piękną. Na podstawie psychologii zbudowano oferty handlowe skierowane stricte do kobiet. Ponadto, cały czas modna personalizacja produktu sprawiła, że spodziewając się dziecka chętniej kupujemy przedmioty odpowiadające jego płci – czyli w danym kolorze. Słynna lalka Barbie (powstała w latach 60-tych) ugruntowała pozycję koloru różowego jako koloru dziewczynek. Zabawki zostały podzielone na ‘różowe księżniczki’ i ‘niebieskie samochody’. Podział ten utrzymuje się do dziś, a widok chłopca z lalką w ręce wśród niektórych osób nadal budzi niepokój.</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/7700421/ello-optimized-afe43e55.jpg\" alt=\"Obraz przedstawia portret kobiety oświetlonej różowym światłem, oraz fragment ekranu telewizora, na którym leżą różowe majtki.\" /></p>\n<h2>Róż = Kobieta</h2>\n<p>Współczesny świat mocno przykleił kolor różowy do wizerunku kobiety. Umiejętnie noszony jest wyrazem klasy i znajomości trendów. Zakładany z przesadą staje się obrazem tandety, kiczu. Na pewno nie raz, nie dwa słyszeliście określenie ‘różowa blondyna’… Niestety epitet ten, najczęściej o zabarwieniu pejoratywnym, odnosi się nie tylko do wyglądu, ale dotyka swoją macką inteligencji danej jednostki. Jednostki kobiecej, rzecz jasna. Są na szczęście wokół nas artystki/artyści, którzy swoimi działaniami wytaczają wojnę uprzedmiotawianiu kobiet, ich dyskryminacji. Iwona Demko to ‘różowa artystka’. W projekcie ‘Waginatyzm’ wyciera tabu i moment zażenowania, z którym łączy się już samo słowo ‘wagina’. O projekcie pisze: ‘Historia pełna jest rozlicznych przykładów kultu waginy. Jednak znaczenie kobiecych narządów płciowych zdewaluowało się i w głównej mierze za sprawą pruderyjnej moralności chrześcijańskiej zawiodło waginę od sacrum do profanum. Nadanie słowu “srom” znaczenia “wstydu” oraz powstanie zwrotów takich jak “sromotny wstyd”, czy “sromotna klęska” które początkowo miało na celu opis sytuacji męskiego tchórzostwa i hańby na tyle niegodziwych, że zasługujących na zawstydzenie ich przez kobiety aktem obnażenia sromu obecnie zostały obrócone przeciwko kobietom.’* Iwona na co dzień zakłada na siebie ‘szokujący róż’, podważa stereotypy na temat koloru, który (z racji tego, że przypisany kobietom) zdaje się być ‘niepoważny’, czy wręcz ‘głupi’. Jej sztuka nazwana została ‘waginocentryczną’.</p>\n<ul>\n<li><a href=\"http://www.iwonademko.art.pl/rzezba/waginatyzm/waginatyzm_tekst.html\">źródło tekstu</a></li>\n</ul>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/7700419/ello-optimized-29ae42d3.jpg\" alt=\"Obraz przedstawia dwa zdjęcia. Z lewej strony widzimy leżące różowe majtki na drewnianej podłodze, a z prawej twarz kobiety oświetloną różowym światłem.\" /></p>\n";
+var raw = exports.raw = "\nRóż atakuje nas z każdej możliwej strony. Różowe są reklamy zabawek dla dziewczynek (0,5 – 18 lat), różowe są lakiery do paznokci, koronkowe majtki, a ostatnio także farby do włosów. Dlaczego właśnie ten kolor tak mocno przylgnął do płci pięknej i czy mężczyzna w różowej koszuli jest passé? W zakładach karnych w Teksasie i Arizonie ściany cel pomalowane są na różowo, a więźniowie noszą uniform’y w tym właśnie słodkim kolorze. Dlaczego? Podobno róż wycisza agresję… Z kolei pewne miasto we wschodnich Indiach ma zostać w całości pomalowane na różowo, gdyż większość mieszkańców cierpi tam na depresję. Jakże magiczne właściwości posiada róż! Jadąc na wieś do rodziny zawsze zastanawiałam się, dlaczego cała izba pomalowana jest na wstrętny odcień różu. Dowiedziałam się od prababci. Staropolskie przesądy mówią, że różowego boją się pająki, a wieś jak to wieś – żyje w zgodzie z naturą. Może wiec róż, z natury, niektórych odstraszy, niektórych przyciągnie. Dobrze jednak, jeśli przyciąga z rozsądkiem.\n\n![Obraz przedstawia dwa zdjęcia, na jednym widzimy twarz kobiety oświetloną różowym światłem, a na drugim zbliżenie na kwiatek.](https://assets1.ello.co/uploads/asset/attachment/7700426/ello-optimized-99ff6751.jpg)\n\n## Chłopiec czy dziewczynka?\n\nDziś to właśnie kolor różowy ‘zarezerwowany’ jest dla płci pięknej. Róż jest pochodną koloru czerwonego (uzyskuje się go mieszając czerwień z bielą), a więc barwy pełnej ‘ognia’, emocji, miłości, wojny, nienawiści. Może wydać się to dziwne, ale to róż właśnie do niedawna był ‘męskim’ kolorem. W pewnej publikacji handlowej z XVIII wieku czytamy, że ‘powszechnie akceptowane jest ubieranie chłopców na różowo, a dziewczynek na niebiesko’… Błękit kojarzony był z delikatnością i czystością. Co więcej, w dawnych latach nie obowiązywały nawet specjalne kroje dziecięcych strojów odróżniających płeć. Świadczyć o tym może historyczne zdjęcie dwuletniego Franklina Roosevelt’a, który ubrany w białą sukienkę i pantofle przypomina… przesłodką dziewczynkę. Kiedy zasady uległy odwróceniu?\nKiedy do głosu doszły badania marketingowe potwierdzające wpływ koloru różowego na kobiety. Okazało się, że to właśnie on budzi większe emocje i jest chętniej wybierany przez płeć piękną. Na podstawie psychologii zbudowano oferty handlowe skierowane stricte do kobiet. Ponadto, cały czas modna personalizacja produktu sprawiła, że spodziewając się dziecka chętniej kupujemy przedmioty odpowiadające jego płci – czyli w danym kolorze. Słynna lalka Barbie (powstała w latach 60-tych) ugruntowała pozycję koloru różowego jako koloru dziewczynek. Zabawki zostały podzielone na ‘różowe księżniczki’ i ‘niebieskie samochody’. Podział ten utrzymuje się do dziś, a widok chłopca z lalką w ręce wśród niektórych osób nadal budzi niepokój.\n\n![Obraz przedstawia portret kobiety oświetlonej różowym światłem, oraz fragment ekranu telewizora, na którym leżą różowe majtki.](https://assets2.ello.co/uploads/asset/attachment/7700421/ello-optimized-afe43e55.jpg)\n\n\n## Róż = Kobieta\n\nWspółczesny świat mocno przykleił kolor różowy do wizerunku kobiety. Umiejętnie noszony jest wyrazem klasy i znajomości trendów. Zakładany z przesadą staje się obrazem tandety, kiczu. Na pewno nie raz, nie dwa słyszeliście określenie ‘różowa blondyna’… Niestety epitet ten, najczęściej o zabarwieniu pejoratywnym, odnosi się nie tylko do wyglądu, ale dotyka swoją macką inteligencji danej jednostki. Jednostki kobiecej, rzecz jasna. Są na szczęście wokół nas artystki/artyści, którzy swoimi działaniami wytaczają wojnę uprzedmiotawianiu kobiet, ich dyskryminacji. Iwona Demko to ‘różowa artystka’. W projekcie ‘Waginatyzm’ wyciera tabu i moment zażenowania, z którym łączy się już samo słowo ‘wagina’. O projekcie pisze: ‘Historia pełna jest rozlicznych przykładów kultu waginy. Jednak znaczenie kobiecych narządów płciowych zdewaluowało się i w głównej mierze za sprawą pruderyjnej moralności chrześcijańskiej zawiodło waginę od sacrum do profanum. Nadanie słowu \"srom\" znaczenia \"wstydu\" oraz powstanie zwrotów takich jak \"sromotny wstyd\", czy \"sromotna klęska\" które początkowo miało na celu opis sytuacji męskiego tchórzostwa i hańby na tyle niegodziwych, że zasługujących na zawstydzenie ich przez kobiety aktem obnażenia sromu obecnie zostały obrócone przeciwko kobietom.’* Iwona na co dzień zakłada na siebie ‘szokujący róż’, podważa stereotypy na temat koloru, który (z racji tego, że przypisany kobietom) zdaje się być ‘niepoważny’, czy wręcz ‘głupi’. Jej sztuka nazwana została ‘waginocentryczną’. \n\n* [źródło tekstu](http://www.iwonademko.art.pl/rzezba/waginatyzm/waginatyzm_tekst.html)\n\n![Obraz przedstawia dwa zdjęcia. Z lewej strony widzimy leżące różowe majtki na drewnianej podłodze, a z prawej twarz kobiety oświetloną różowym światłem.](https://assets0.ello.co/uploads/asset/attachment/7700419/ello-optimized-29ae42d3.jpg)\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 120 */
@@ -9365,6 +9449,18 @@ webpackEmptyContext.id = 120;
 
 /***/ }),
 /* 121 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 121;
+
+/***/ }),
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -9385,19 +9481,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 121;
+webpackContext.id = 122;
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(123);
+module.exports = __webpack_require__(124);
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9415,7 +9511,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(124);
+var _propTypes = __webpack_require__(125);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -9619,13 +9715,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_124__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_125__;
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9639,7 +9735,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9647,7 +9743,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9660,7 +9756,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9694,7 +9790,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9707,7 +9803,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9716,7 +9812,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9724,7 +9820,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9732,7 +9828,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9747,7 +9843,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9762,7 +9858,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9777,7 +9873,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9801,7 +9897,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(137);
+var s = __webpack_require__(138);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -9832,7 +9928,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9840,7 +9936,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9864,7 +9960,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9915,7 +10011,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9923,7 +10019,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9932,7 +10028,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(142);
+var s = __webpack_require__(143);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -9965,7 +10061,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9975,7 +10071,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10019,22 +10115,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 146,
-	"./Feed.js": 147,
-	"./Ingredient.js": 148,
-	"./Method.js": 149,
-	"./Recipe.js": 150,
-	"./TableOfContents.js": 151
+	"./Crumbs.js": 147,
+	"./Feed.js": 148,
+	"./Ingredient.js": 149,
+	"./Method.js": 150,
+	"./Recipe.js": 151,
+	"./TableOfContents.js": 152
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -10050,10 +10146,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 145;
+webpackContext.id = 146;
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10068,7 +10164,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10083,7 +10179,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10098,7 +10194,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10113,7 +10209,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10128,7 +10224,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10143,7 +10239,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10167,7 +10263,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
