@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_125__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_126__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(140);
+var Feed_1 = __webpack_require__(141);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(142);
+var Recipe_1 = __webpack_require__(143);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(144);
+var Root_1 = __webpack_require__(145);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(126);
+var s = __webpack_require__(127);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(127);
+var s = __webpack_require__(128);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(120),
-ROOT: __webpack_require__(121),
-LAYOUTS: __webpack_require__(122),
-INCLUDES: __webpack_require__(146)};
+UPLOADS: __webpack_require__(121),
+ROOT: __webpack_require__(122),
+LAYOUTS: __webpack_require__(123),
+INCLUDES: __webpack_require__(147)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(146)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(128);
+var s = __webpack_require__(129);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(132);
+var s = __webpack_require__(133);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(145);
+__webpack_require__(146);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(123);
+var react_disqus_comments_1 = __webpack_require__(124);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(137);
-var s = __webpack_require__(139);
+var FacebookLike_1 = __webpack_require__(138);
+var s = __webpack_require__(140);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(129);
-var s = __webpack_require__(130);
+__webpack_require__(130);
+var s = __webpack_require__(131);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(131);
+var s = __webpack_require__(132);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(134);
+var s = __webpack_require__(135);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(133);
+var s = __webpack_require__(134);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(135);
+var s = __webpack_require__(136);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(136);
+var s = __webpack_require__(137);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(141);
+var s = __webpack_require__(142);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(153);
-var menu_1 = __webpack_require__(154);
+var tags_1 = __webpack_require__(154);
+var menu_1 = __webpack_require__(155);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2696,7 +2696,8 @@ var map = {
 	"./2018-05-02-moje-wybory-kwiecien.markdown": 116,
 	"./2018-05-10-puentylizm-pointylizm-moodboard.markdown": 117,
 	"./2018-05-14-oswoic-lek.markdown": 118,
-	"./2018-05-20-o-kolorach-roz.markdown": 119
+	"./2018-05-20-o-kolorach-roz.markdown": 119,
+	"./2018-05-29-moje-wybory-maj.markdown": 120
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -9479,15 +9480,90 @@ var raw = exports.raw = '\nR\xF3\u017C atakuje nas z ka\u017Cdej mo\u017Cliwej s
 
 /***/ }),
 /* 120 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 120;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'olela-narrative',
+      null,
+      'Maj obfituje w premiery. Sw\xF3j premierowy pokaz ma S\u0142o\u0144ce, kt\xF3re zachwyca si\u0142\u0105 i blaskiem. Codziennie recytuje drobn\u0105 poezj\u0119 w porannej drodze do pracy, a w po\u0142udnie wygrywa ari\u0119 uderzaj\u0105c z niezr\xF3wnan\u0105 moc\u0105. Premier\u0119 ma tak\u017Ce ksi\u0105\u017Cka Katarzyny Nosowskiej, kt\xF3ra na ok\u0142adce, niczym polska Marilyn Monroe, intryguje zalotnym u\u015Bmieszkiem Mona Lisy. Intryguj\u0105ce i jak\u017Ce prawdziwe s\u0105 tre\u015Bci za jej \u2018warhol\u2019owsk\u0105\u2019 ok\u0142adk\u0105. Nosowska pisze o \u2018rzeczach prostych\u2019 w trudny spos\xF3b. Spogl\u0105da na codzienny \u015Bwiat z perspektywy artysty o wra\u017Cliwej duszy, kt\xF3ry zauwa\u017Ca nieco wi\u0119cej w macierzy\u0144stwie, seksie, mi\u0142o\u015Bci, szo\u0142biznesie, staro\u015Bci. Zazwyczaj spos\xF3b zauwa\u017Cenia jest sarkastyczny, nieco ironiczno-olewaj\u0105cy, ale w rezultacie daj\u0105cy nadziej\u0119. W miesi\u0105cu maju premier\u0119 ma kolekcja kosmetyk\xF3w marki Kat Von D. Kat (a w\u0142a\u015Bciwie Katherine von Drachenberg) jest znan\u0105 na ca\u0142ym \u015Bwiecie artystk\u0105-tatuatork\u0105. Jej unikatowy styl pozwoli\u0142 na zaprojektowanie marki kosmetyk\xF3w, kt\xF3ra zachwyca nie tylko swoj\u0105 jako\u015Bci\u0105, nietestowaniu na zwierz\u0119tach, ale te\u017C przepi\u0119knym dizajnem. Na 10-cio lecie artystka serwuje nam z\u0142ot\u0105 kolekcj\u0119... dos\u0142ownie. Wszystkie opakowania limitowanej kolekcji s\u0105 z\u0142ote, a wewn\u0105trz nich mieszcz\u0105 si\u0119 prawdziwe cuda.'
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Lektura'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Kupi\u0142am w dzie\u0144 premiery, przeczyta\u0142am w dzie\u0144 premiery i na pewno b\u0119d\u0119 wraca\u0107. \u2018A ja \u017Cem jej powiedzia\u0142a\u2019, czyli instagram\u2019owe filmiki w wersji drukowanej. Autorka sama nie podejrzewa\u0142a, jak pot\u0119\u017Cnym medium jest instagram, do momentu kiedy Agata Kulesza pokaza\u0142a jej filmy swojej siostrzenicy kr\u0119cone przy u\u017Cyciu aplikacji. Ogl\u0105daj\u0105c je \u2018tarza\u0142y si\u0119 ze \u015Bmiechu na kanapie\u2019 (cyt. wywiad w radio Czw\xF3rka). Katarzyna postanowi\u0142a nagra\u0107 jeden filmik\u2026 i tak si\u0119 zacz\u0119\u0142o. W ksi\u0105\u017Cce opr\xF3cz historii z \u017Cycia artystki znajdziemy nasze historie \u2013 te pisane przez samo \u017Bycie. Warto potraktowa\u0107 t\u0119 ksi\u0105\u017Ck\u0119 jako \u2018bibli\u0119 z przypowie\u015Bciami\u2019, mo\u017Cemy losowo otworzy\u0107 stron\u0119, przeczyta\u0107 rozdzia\u0142 i zastanowi\u0107 si\u0119 d\u0142u\u017Csz\u0105 (lub kr\xF3tsz\u0105) chwil\u0119 nad tematem, albo czyta\u0107 standardowo \u2018od deski do deski\u2019. Jedno jest pewne \u2013 oba sposoby gwarantuj\u0105 niez\u0142\u0105 dawk\u0119 u\u015Bmiechu.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/7746678/ello-optimized-f7cc20f4.jpg', alt: 'Zdj\u0119cie przedstawia ksi\u0105\u017Ck\u0119 z kolorow\u0105 ok\u0142adk\u0105 na niebieskim tle.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Kosmetyk: piel\u0119gnacja'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Warto po\u015Bwi\u0119ci\u0107 d\u0142u\u017Csz\u0105 chwil\u0119 na oczyszczanie sk\xF3ry twarzy. Cz\u0119sto wydaje nam si\u0119, \u017Ce jeden ruch wacika nas\u0105czonego wod\u0105 micelarn\u0105 wystarczy aby usun\u0105\u0107 kurz i brud dnia codziennego. Dog\u0142\u0119bne oczyszczenie pozostawia nasz\u0105 twarz pe\u0142n\u0105 blasku i jakby\u2026 \u0142adniejsz\u0105, po prostu. Zw\u0119\u017Cone pory, mniej niedoskona\u0142o\u015Bci, \u015Bwietlisto\u015B\u0107. Tego mo\u017Cemy si\u0119 spodziewa\u0107, kiedy przy okazji wieczornego rytua\u0142u wymasujemy twarz naturaln\u0105 szczoteczk\u0105 (Swanicoco) w po\u0142\u0105czeniu z Yum Yum Cleanser marki Skin79. Mus yum yum zawiera wyci\u0105g z nasion \u0142zawicy, nazywanej chi\u0144skim j\u0119czmieniem per\u0142owym. Posiada  silne dzia\u0142anie antyoksydacyjne, przeciwzapalne i antyhistaminowe. Pomo\u017Ce zar\xF3wno cerom z tr\u0105dzikiem, jak i dojrza\u0142ym i suchym. Z kolei szczoteczka wykonana jest z naturalnej, niesamowicie cienkiej we\u0142ny. Sami decydujecie o sile nacisku i d\u0142ugo\u015Bci Waszej \u0142azienkowej medytacji.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7746692/ello-optimized-9f72b349.jpg', alt: 'Zdj\u0119cie przedstawia s\u0142oiczek oparty o bia\u0142y r\u0119cznik, obok le\u017C\u0105 kwiatki i szczotka.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Kosmetyk: kolor\xF3wka'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Co tu du\u017Co m\xF3wi\u0107\u2026 Paleta cieni od Kat Von D jest po prostu wspania\u0142a. Za z\u0142otym okryciem kryje si\u0119 istna magia kolor\xF3w. Szesna\u015Bcie cieni o niesamowitej pigmentacji i damskich imionach budzi kreatywno\u015B\u0107. Ich kolory s\u0105 dobrane tak, aby mo\u017Cna by\u0142o dzi\u0119ki nim stworzy\u0107 dzienny make-up lub bardziej sceniczne charakteryzacje. W limitowanej edycji znalaz\u0142a si\u0119 jeszcze pomadka z serii \u2018studded kiss lipstick\u2019 (oczywi\u015Bcie w z\u0142otym opakowaniu), roz\u015Bwietlacz, liner, pomadka w p\u0142ynie, zestaw p\u0119dzli oraz kuferek. Pomadka, kt\xF3r\u0105 widzicie na zdj\u0119ciach to odcie\u0144 Lolita ze standardowej kolekcji studded kiss. Odcie\u0144 terra cotta pasuje do wi\u0119kszo\u015Bci typ\xF3w urody.'
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Moje wybory: maj", "date": "2018-05-29T19:48:00.000Z", "categories": ["Sztuka Ubioru"], "tags": ["wybory", "choices", "kosmetyki", "kat von d", "skin79", "książka", "nosowska", "kreacja"] };
+var body = exports.body = "<olela-narrative>\nMaj obfituje w premiery. Swój premierowy pokaz ma Słońce, które zachwyca siłą i blaskiem. Codziennie recytuje drobną poezję w porannej drodze do pracy, a w południe wygrywa arię uderzając z niezrównaną mocą. Premierę ma także książka Katarzyny Nosowskiej, która na okładce, niczym polska Marilyn Monroe, intryguje zalotnym uśmieszkiem Mona Lisy. Intrygujące i jakże prawdziwe są treści za jej ‘warhol’owską’ okładką. Nosowska pisze o ‘rzeczach prostych’ w trudny sposób. Spogląda na codzienny świat z perspektywy artysty o wrażliwej duszy, który zauważa nieco więcej w macierzyństwie, seksie, miłości, szołbiznesie, starości. Zazwyczaj sposób zauważenia jest sarkastyczny, nieco ironiczno-olewający, ale w rezultacie dający nadzieję.\nW miesiącu maju premierę ma kolekcja kosmetyków marki Kat Von D. Kat (a właściwie Katherine von Drachenberg) jest znaną na całym świecie artystką-tatuatorką. Jej unikatowy styl pozwolił na zaprojektowanie marki kosmetyków, która zachwyca nie tylko swoją jakością, nietestowaniu na zwierzętach, ale też przepięknym dizajnem. Na 10-cio lecie artystka serwuje nam złotą kolekcję... dosłownie. Wszystkie opakowania limitowanej kolekcji są złote, a wewnątrz nich mieszczą się prawdziwe cuda.\n</olela-narrative>\n<h2>Lektura</h2>\n<p>Kupiłam w dzień premiery, przeczytałam w dzień premiery i na pewno będę wracać. ‘A ja żem jej powiedziała’, czyli instagram’owe filmiki w wersji drukowanej. Autorka sama nie podejrzewała, jak potężnym medium jest instagram, do momentu kiedy Agata Kulesza pokazała jej filmy swojej siostrzenicy kręcone przy użyciu aplikacji. Oglądając je ‘tarzały się ze śmiechu na kanapie’ (cyt. wywiad w radio Czwórka). Katarzyna postanowiła nagrać jeden filmik… i tak się zaczęło. W książce oprócz historii z życia artystki znajdziemy nasze historie – te pisane przez samo Życie. Warto potraktować tę książkę jako ‘biblię z przypowieściami’, możemy losowo otworzyć stronę, przeczytać rozdział i zastanowić się dłuższą (lub krótszą) chwilę nad tematem, albo czytać standardowo ‘od deski do deski’. Jedno jest pewne – oba sposoby gwarantują niezłą dawkę uśmiechu.</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/7746678/ello-optimized-f7cc20f4.jpg\" alt=\"Zdjęcie przedstawia książkę z kolorową okładką na niebieskim tle.\" /></p>\n<h2>Kosmetyk: pielęgnacja</h2>\n<p>Warto poświęcić dłuższą chwilę na oczyszczanie skóry twarzy. Często wydaje nam się, że jeden ruch wacika nasączonego wodą micelarną wystarczy aby usunąć kurz i brud dnia codziennego. Dogłębne oczyszczenie pozostawia naszą twarz pełną blasku i jakby… ładniejszą, po prostu. Zwężone pory, mniej niedoskonałości, świetlistość. Tego możemy się spodziewać, kiedy przy okazji wieczornego rytuału wymasujemy twarz naturalną szczoteczką (Swanicoco) w połączeniu z Yum Yum Cleanser marki Skin79. Mus yum yum zawiera wyciąg z nasion łzawicy, nazywanej chińskim jęczmieniem perłowym. Posiada  silne działanie antyoksydacyjne, przeciwzapalne i antyhistaminowe. Pomoże zarówno cerom z trądzikiem, jak i dojrzałym i suchym. Z kolei szczoteczka wykonana jest z naturalnej, niesamowicie cienkiej wełny. Sami decydujecie o sile nacisku i długości Waszej łazienkowej medytacji.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/7746692/ello-optimized-9f72b349.jpg\" alt=\"Zdjęcie przedstawia słoiczek oparty o biały ręcznik, obok leżą kwiatki i szczotka.\" /></p>\n<h2>Kosmetyk: kolorówka</h2>\n<p>Co tu dużo mówić… Paleta cieni od Kat Von D jest po prostu wspaniała. Za złotym okryciem kryje się istna magia kolorów. Szesnaście cieni o niesamowitej pigmentacji i damskich imionach budzi kreatywność. Ich kolory są dobrane tak, aby można było dzięki nim stworzyć dzienny make-up lub bardziej sceniczne charakteryzacje. W limitowanej edycji znalazła się jeszcze pomadka z serii ‘studded kiss lipstick’ (oczywiście w złotym opakowaniu), rozświetlacz, liner, pomadka w płynie, zestaw pędzli oraz kuferek. Pomadka, którą widzicie na zdjęciach to odcień Lolita ze standardowej kolekcji studded kiss. Odcień terra cotta pasuje do większości typów urody.</p>\n";
+var raw = exports.raw = "\n<olela-narrative>\nMaj obfituje w premiery. Swój premierowy pokaz ma Słońce, które zachwyca siłą i blaskiem. Codziennie recytuje drobną poezję w porannej drodze do pracy, a w południe wygrywa arię uderzając z niezrównaną mocą. Premierę ma także książka Katarzyny Nosowskiej, która na okładce, niczym polska Marilyn Monroe, intryguje zalotnym uśmieszkiem Mona Lisy. Intrygujące i jakże prawdziwe są treści za jej ‘warhol’owską’ okładką. Nosowska pisze o ‘rzeczach prostych’ w trudny sposób. Spogląda na codzienny świat z perspektywy artysty o wrażliwej duszy, który zauważa nieco więcej w macierzyństwie, seksie, miłości, szołbiznesie, starości. Zazwyczaj sposób zauważenia jest sarkastyczny, nieco ironiczno-olewający, ale w rezultacie dający nadzieję.\nW miesiącu maju premierę ma kolekcja kosmetyków marki Kat Von D. Kat (a właściwie Katherine von Drachenberg) jest znaną na całym świecie artystką-tatuatorką. Jej unikatowy styl pozwolił na zaprojektowanie marki kosmetyków, która zachwyca nie tylko swoją jakością, nietestowaniu na zwierzętach, ale też przepięknym dizajnem. Na 10-cio lecie artystka serwuje nam złotą kolekcję… dosłownie. Wszystkie opakowania limitowanej kolekcji są złote, a wewnątrz nich mieszczą się prawdziwe cuda.\n</olela-narrative>\n\n## Lektura\n\nKupiłam w dzień premiery, przeczytałam w dzień premiery i na pewno będę wracać. ‘A ja żem jej powiedziała’, czyli instagram’owe filmiki w wersji drukowanej. Autorka sama nie podejrzewała, jak potężnym medium jest instagram, do momentu kiedy Agata Kulesza pokazała jej filmy swojej siostrzenicy kręcone przy użyciu aplikacji. Oglądając je ‘tarzały się ze śmiechu na kanapie’ (cyt. wywiad w radio Czwórka). Katarzyna postanowiła nagrać jeden filmik… i tak się zaczęło. W książce oprócz historii z życia artystki znajdziemy nasze historie – te pisane przez samo Życie. Warto potraktować tę książkę jako ‘biblię z przypowieściami’, możemy losowo otworzyć stronę, przeczytać rozdział i zastanowić się dłuższą (lub krótszą) chwilę nad tematem, albo czytać standardowo ‘od deski do deski’. Jedno jest pewne – oba sposoby gwarantują niezłą dawkę uśmiechu.\n\n![Zdjęcie przedstawia książkę z kolorową okładką na niebieskim tle.](https://assets2.ello.co/uploads/asset/attachment/7746678/ello-optimized-f7cc20f4.jpg)\n\n## Kosmetyk: pielęgnacja\n\nWarto poświęcić dłuższą chwilę na oczyszczanie skóry twarzy. Często wydaje nam się, że jeden ruch wacika nasączonego wodą micelarną wystarczy aby usunąć kurz i brud dnia codziennego. Dogłębne oczyszczenie pozostawia naszą twarz pełną blasku i jakby… ładniejszą, po prostu. Zwężone pory, mniej niedoskonałości, świetlistość. Tego możemy się spodziewać, kiedy przy okazji wieczornego rytuału wymasujemy twarz naturalną szczoteczką (Swanicoco) w połączeniu z Yum Yum Cleanser marki Skin79. Mus yum yum zawiera wyciąg z nasion łzawicy, nazywanej chińskim jęczmieniem perłowym. Posiada  silne działanie antyoksydacyjne, przeciwzapalne i antyhistaminowe. Pomoże zarówno cerom z trądzikiem, jak i dojrzałym i suchym. Z kolei szczoteczka wykonana jest z naturalnej, niesamowicie cienkiej wełny. Sami decydujecie o sile nacisku i długości Waszej łazienkowej medytacji.\n\n![Zdjęcie przedstawia słoiczek oparty o biały ręcznik, obok leżą kwiatki i szczotka.](https://assets1.ello.co/uploads/asset/attachment/7746692/ello-optimized-9f72b349.jpg)\n\n## Kosmetyk: kolorówka\n\nCo tu dużo mówić… Paleta cieni od Kat Von D jest po prostu wspaniała. Za złotym okryciem kryje się istna magia kolorów. Szesnaście cieni o niesamowitej pigmentacji i damskich imionach budzi kreatywność. Ich kolory są dobrane tak, aby można było dzięki nim stworzyć dzienny make-up lub bardziej sceniczne charakteryzacje. W limitowanej edycji znalazła się jeszcze pomadka z serii ‘studded kiss lipstick’ (oczywiście w złotym opakowaniu), rozświetlacz, liner, pomadka w płynie, zestaw pędzli oraz kuferek. Pomadka, którą widzicie na zdjęciach to odcień Lolita ze standardowej kolekcji studded kiss. Odcień terra cotta pasuje do większości typów urody. \n\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 121 */
@@ -9503,6 +9579,18 @@ webpackEmptyContext.id = 121;
 
 /***/ }),
 /* 122 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 122;
+
+/***/ }),
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -9523,19 +9611,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 122;
+webpackContext.id = 123;
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(124);
+module.exports = __webpack_require__(125);
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9553,7 +9641,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(125);
+var _propTypes = __webpack_require__(126);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -9757,13 +9845,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_125__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_126__;
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9777,7 +9865,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9785,7 +9873,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9798,7 +9886,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9832,7 +9920,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9845,7 +9933,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9854,7 +9942,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9862,7 +9950,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9870,7 +9958,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9885,7 +9973,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9900,7 +9988,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9915,7 +10003,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9939,7 +10027,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(138);
+var s = __webpack_require__(139);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -9970,7 +10058,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9978,7 +10066,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10002,7 +10090,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10053,7 +10141,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10061,7 +10149,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10070,7 +10158,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(143);
+var s = __webpack_require__(144);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -10103,7 +10191,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10113,7 +10201,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10157,22 +10245,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 147,
-	"./Feed.js": 148,
-	"./Ingredient.js": 149,
-	"./Method.js": 150,
-	"./Recipe.js": 151,
-	"./TableOfContents.js": 152
+	"./Crumbs.js": 148,
+	"./Feed.js": 149,
+	"./Ingredient.js": 150,
+	"./Method.js": 151,
+	"./Recipe.js": 152,
+	"./TableOfContents.js": 153
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -10188,10 +10276,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 146;
+webpackContext.id = 147;
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10206,7 +10294,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10221,7 +10309,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10236,7 +10324,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10251,7 +10339,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10266,7 +10354,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10281,7 +10369,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10305,7 +10393,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
