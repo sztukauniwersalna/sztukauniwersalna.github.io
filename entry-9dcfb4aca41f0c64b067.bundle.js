@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_126__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_127__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(141);
+var Feed_1 = __webpack_require__(142);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(143);
+var Recipe_1 = __webpack_require__(144);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(145);
+var Root_1 = __webpack_require__(146);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(127);
+var s = __webpack_require__(128);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(128);
+var s = __webpack_require__(129);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(121),
-ROOT: __webpack_require__(122),
-LAYOUTS: __webpack_require__(123),
-INCLUDES: __webpack_require__(147)};
+UPLOADS: __webpack_require__(122),
+ROOT: __webpack_require__(123),
+LAYOUTS: __webpack_require__(124),
+INCLUDES: __webpack_require__(148)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(147)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(129);
+var s = __webpack_require__(130);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(133);
+var s = __webpack_require__(134);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(146);
+__webpack_require__(147);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(124);
+var react_disqus_comments_1 = __webpack_require__(125);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(138);
-var s = __webpack_require__(140);
+var FacebookLike_1 = __webpack_require__(139);
+var s = __webpack_require__(141);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(130);
-var s = __webpack_require__(131);
+__webpack_require__(131);
+var s = __webpack_require__(132);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(132);
+var s = __webpack_require__(133);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(135);
+var s = __webpack_require__(136);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(134);
+var s = __webpack_require__(135);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(136);
+var s = __webpack_require__(137);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(137);
+var s = __webpack_require__(138);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(142);
+var s = __webpack_require__(143);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(154);
-var menu_1 = __webpack_require__(155);
+var tags_1 = __webpack_require__(155);
+var menu_1 = __webpack_require__(156);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2697,7 +2697,8 @@ var map = {
 	"./2018-05-10-puentylizm-pointylizm-moodboard.markdown": 117,
 	"./2018-05-14-oswoic-lek.markdown": 118,
 	"./2018-05-20-o-kolorach-roz.markdown": 119,
-	"./2018-05-29-moje-wybory-maj.markdown": 120
+	"./2018-05-29-moje-wybory-maj.markdown": 120,
+	"./2018-06-05-jestem-wdzieczna-ci-zycie.markdown": 121
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -9626,15 +9627,92 @@ var raw = exports.raw = "\n<olela-narrative>\nMaj obfituje w premiery. Swój pre
 
 /***/ }),
 /* 121 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 121;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/7782242/ello-optimized-cc36dbfd.jpg', alt: 'Obraz przedstawia zdj\u0119cie kobiety w kolorowym makija\u017Cu. Ca\u0142o\u015B\u0107 na \u017C\xF3\u0142tym tle. Na dole widzimy zbli\u017Cenie na oko kobiety.' })
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Ca\u0142kiem niespodziewanie poczu\u0142am dzi\u015B przyp\u0142yw wdzi\u0119czno\u015Bci. Ogarn\u0119\u0142a mnie ona od \u015Brodka, obla\u0142a moj\u0105 dusz\u0119 mi\u0119kk\u0105 ko\u0142dr\u0105 nibymiodu. Zupe\u0142nie nie rozumiem dlaczego tak si\u0119 sta\u0142o. Ostatnio du\u017Co rozmy\u015Blam o swoim \u017Cyciu. My\u015Bl\u0119 o nim jak o ksi\u0105\u017Cce, w kt\xF3rej wi\u0119kszo\u015B\u0107 dotychczas napisanych rozdzia\u0142\xF3w zajmuje czas edukacji. Najpierw by\u0142o przedszkole, cho\u0107 nigdy nie le\u017Cakowa\u0142am. Potem 6 lat podstaw\xF3wki, pierwsze ko\u015Blawe litery i zdania. W czwartej klasie dosta\u0142am te\u017C pierwsz\u0105 ocen\u0119 nagann\u0105 (z plastyki, o losie!). P\xF3\u017Aniej nasta\u0142 tymczasowy (ca\u0142e szcz\u0119\u015Bcie) wymys\u0142 Ministra Edukacji, czyli gimnazjum. To by\u0142 g\u0142upi, szczeniacki czas wype\u0142niony \u201Enowym\u201D po brzegi. Nowe by\u0142y znajomo\u015Bci, nowe emocje, nowe wszystko. Pierwsze wyj\u015Bcia na koncerty, pierwsze poca\u0142unki i pierwsze rzeczy, o kt\xF3rych mamie si\u0119 nie m\xF3wi\u0142o, i o kt\xF3rych mama nie wie do tej pory. Ten czas szybko przemin\u0105\u0142. Z tamtych dni zosta\u0142y w pami\u0119ci przeb\u0142yski, szybkie flesze, kt\xF3re zdaj\u0105 si\u0119 by\u0107 kadrami z filmu. Nie rozpoznaje w filmie siebie jako postaci pierwszoplanowej, raczej stoj\u0119 gdzie\u015B z boku i obserwuj\u0119. Od rozdzia\u0142u 9-tego ksi\u0105\u017Cki zaczynamy czyta\u0107 o marzeniach.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/7782237/ello-optimized-10d5b5a1.jpg', alt: 'Obraz przedstawia kobiet\u0119 w kolorowym makija\u017Cu, kobieta ma rozchylone usta i siwe w\u0142osy. Po lewej stronie widzimy zbli\u017Cenie na oko kobiety.' })
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Marzeniem sta\u0142a si\u0119 nauka w Liceum Plastycznym. Stres pot\u0119gowa\u0142 si\u0119 z ka\u017Cd\u0105 minut\u0105 nowych kresek czynionych na papierze w formacie B1 w sali martwych natur. Wisia\u0142 niczym chmura gradowa nad niechcianym dzbankiem i wczorajszym jab\u0142kiem. Kiedy ju\u017C opad\u0142 siedzia\u0142am w sali lekcyjnej wraz z innymi \u2018pierwszakami\u2019. Pami\u0119tam dok\u0142adnie zaj\u0119cia z rze\u017Aby. O profesorze kr\u0105\u017Cy\u0142y plotki, \u017Ce wzorowe oceny stawia tylko tym, kt\xF3rzy w swoich pracach przemycali elementy genitali\xF3w. Och, jak on kocha\u0142 te wizerunki ma\u0142p z penisami wi\u0119kszymi od g\u0142owy. Jego jednak niewiele pami\u0119tam. Pami\u0119tam za to fascynuj\u0105c\u0105 materi\u0119 gliny i gipsu. Pami\u0119tam ubrudzone d\u0142onie, ubrania i t\u0105 szczer\u0105 rado\u015B\u0107 wynikaj\u0105c\u0105 z tego brudu. Teraz rozumiem sens powiedzenia \u2018brudne dziecko to szcz\u0119\u015Bliwe dziecko\u2019. To by\u0142 moment, kiedy nie musia\u0142e\u015B si\u0119 pokazywa\u0107, \u015Bwieci\u0107 idealnie bia\u0142ym z\u0119bem i bluzk\u0105. Ca\u0142y \u015Bwiat znika\u0142, bo tworzy\u0142e\u015B. Popiersia powstawa\u0142y z brudnej, szarej masy. By\u0142e\u015B Stw\xF3rc\u0105, Demiurgiem.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'W liceum, opr\xF3cz tw\xF3rczej pot\u0119gi narodzi\u0142a si\u0119 we mnie wielka ambicja. G\u0142\u0119boko wierzy\u0142am w swoj\u0105 wyj\u0105tkowo\u015B\u0107. Wiedzia\u0142am, \u017Ce m\xF3j potencja\u0142 musi zosta\u0107 doceniony. Spe\u0142nia\u0142am si\u0119 na wielu polach. Malowa\u0142am, ta\u0144czy\u0142am, robi\u0142am zdj\u0119cia, rysowa\u0142am. Szuka\u0142am siebie. Po czterech latach projektowania przy komputerze (profil klasy licealnej nosi\u0142 tytu\u0142 \u2018reklama wizualna\u2019) postanowi\u0142am zda\u0107 na malarstwo. Krakowska Akademia wydawa\u0142a si\u0119 marzeniem. W jej murach czu\u0107 by\u0142o Malewicza, a po korytarzach przechadza\u0142 si\u0119 duch Fa\u0142ata. Na egzaminy wyruszy\u0142am wraz z mam\u0105. Mama wspiera mnie od zawsze, jest moj\u0105 najlepsz\u0105 przyjaci\xF3\u0142k\u0105. Ostatni etap (rozmow\u0119 kwalifikacyjn\u0105) odby\u0142am po proszkach uspokajaj\u0105cych, bo moje d\u0142onie na moment przed wej\u015Bciem na egzamin zamieni\u0142y si\u0119 w galaret\u0119. Pytania okaza\u0142y si\u0119 nad niepokoj\u0105co proste, a ja po prostu by\u0142am szczera. Zda\u0142am.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7782245/ello-optimized-38ab7257.jpg', alt: 'Obraz przedstawia dwie twarze kobiety w kolorowym makija\u017Cu. Portrety przeplatane s\u0105 graficznymi elementami. Ca\u0142o\u015B\u0107 na \u017C\xF3\u0142tym tle.' })
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Sami widzicie jak \u0142atwo przychodzi\u0142o mi spe\u0142nia\u0107 marzenia. Przez 13 lat praktycznie \u017Cadne z nich nie zosta\u0142o zdeptane z kretesem. Oczywi\u015Bcie wiele z nich gin\u0119\u0142o \u015Bmierci\u0105 naturaln\u0105, lecz ka\u017Cde za\u0142o\u017Cone cele uda\u0142o mi si\u0119 osi\u0105gn\u0105\u0107. \u015Awiadomie pisz\u0119 o celach w kontek\u015Bcie marze\u0144. Marzenia mog\u0105 by\u0107 r\xF3\u017Cne. Mo\u017Cesz na przyk\u0142ad marzy\u0107 o zegarku z brylantem, jednak dop\xF3ki nie zdob\u0119dziesz na niego \u015Brodk\xF3w pozostanie on na zawsze w sferze marze\u0144. Kiedy znajdziesz spos\xF3b, aby zarobi\u0107 pieni\u0105dze i go kupi\u0107 wtedy staje si\u0119 on Twoim celem, a drog\u0105 do celu jest wykonana praca zarobkowa. Ale najpierw pojawia si\u0119 marzenie, przeb\u0142ysk pragnienia. Uwaga \u2013 niech kolejnych dw\xF3ch linijek nie czytaj\u0105 osoby, kt\xF3rych dra\u017Cni coachingowy styl \u0141ukasza Jakubiaka. Ot\xF3\u017C moi Drodzy tak si\u0119 sk\u0142ada, \u017Ce mo\u017Cemy osi\u0105gn\u0105\u0107 wszystko. Wystarczy tylko odpowiednio nastroi\u0107 swoj\u0105 energi\u0119 w stron\u0119 wyznaczonego celu.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Pi\u0119\u0107 lat krakowskich podboj\xF3w pami\u0119tam bardzo dobrze. Kocha\u0142am zaj\u0119cia z rze\u017Aby, rysunku, struktur wizualnych. Liczne wyr\xF3\u017Cnienia \u015Bwiadczy\u0142y, \u017Ce jestem na w\u0142a\u015Bciwym miejscu we w\u0142a\u015Bciwym czasie. W krakowskiej Akademii istnieje regulamin, wed\u0142ug kt\xF3rego po pierwszym roku edukacji wybiera si\u0119 pracowni\u0119 \u2018mistrzowsk\u0105\u2019. Oznacza to, \u017Ce przez kolejne cztery lata praca przebiega pod okiem wybranego profesora. W\xF3wczas, jako zdeklarowana realistka wiedzia\u0142am, \u017Ce moim mentorem musi zosta\u0107 g\u0142owa pe\u0142na mi\u0142o\u015Bci do malarstwa figuratywnego. Los jednak podkusi\u0142 wyb\xF3r czego\u015B zupe\u0142nie innego . W pracowni, do kt\xF3rej trafi\u0142am panowa\u0142a zasada: \u2018poka\u017C mi, co Ci\u0119 interesuje i porozmawiajmy o tym\u2019. Nikt nie kaza\u0142 wstawa\u0107 o \xF3smej rano i maszerowa\u0107 w stron\u0119 sztalug i malowa\u0107 i maszerowa\u0107 i malowa\u0107 i maszerowa\u0107 armi\u0105 farb. Mog\u0142am wszystko. Mog\u0142am, co chcia\u0142am, ale czego chcia\u0142am? Nasta\u0142a wolno\u015B\u0107, wolno\u015B\u0107 wyboru. Zacz\u0119\u0142y si\u0119 wewn\u0119trzne pytania. Skoro mog\u0119 wszystko, to ja chc\u0119 ta\u0144czy\u0107 \u2013 zadecydowa\u0142am. Przeta\u0144czy\u0142am te lata raz skocznym krokiem quick stepa, a raz wsp\xF3\u0142czesnym slajdem. Nie \u017Ca\u0142uj\u0119 ani minuty straconego czasu, cho\u0107 ca\u0142e trzy lata zabra\u0142a mi choroba. By\u0142o mi to potrzebne, aby zrozumie\u0107 jak kocham \u017Cycie i w ko\u0144cu zacz\u0105\u0107 pracowa\u0107... nad sob\u0105. Jestem wdzi\u0119czna Ci \u017Cycie.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7782247/ello-optimized-43849cdc.jpg', alt: 'Zdj\u0119cie przedstawia popiersie kobiety w kolorowym makija\u017Cu z siwymi w\u0142osami. Dooko\u0142a kolorowe prostok\u0105ty.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/7782250/ello-optimized-d10d213c.jpg', alt: 'Zdj\u0119cie przedstawia usta i szyj\u0119 kobiety w otoczeniu graficznych element\xF3w.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7782251/ello-optimized-12022660.jpg', alt: 'Obraz przedstawia pionowe paseczki w kolorze fioletowym, \u017C\xF3\u0142tym i wielokolorowym.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Jestem wdzięczna Ci Życie", "date": "2018-06-05T15:23:00.000Z", "categories": ["Sztuka Makijażu"], "tags": ["wdzięczność", "post", "tekst", "artysta", "sztuka", "akademia", "marzenia", "cele"] };
+var body = exports.body = "<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/7782242/ello-optimized-cc36dbfd.jpg\" alt=\"Obraz przedstawia zdjęcie kobiety w kolorowym makijażu. Całość na żółtym tle. Na dole widzimy zbliżenie na oko kobiety.\" /></p>\n<p>Całkiem niespodziewanie poczułam dziś przypływ wdzięczności. Ogarnęła mnie ona od środka, oblała moją duszę miękką kołdrą nibymiodu. Zupełnie nie rozumiem dlaczego tak się stało. Ostatnio dużo rozmyślam o swoim życiu. Myślę o nim jak o książce, w której większość dotychczas napisanych rozdziałów zajmuje czas edukacji. Najpierw było przedszkole, choć nigdy nie leżakowałam. Potem 6 lat podstawówki, pierwsze koślawe litery i zdania. W czwartej klasie dostałam też pierwszą ocenę naganną (z plastyki, o losie!). Później nastał tymczasowy (całe szczęście) wymysł Ministra Edukacji, czyli gimnazjum. To był głupi, szczeniacki czas wypełniony „nowym” po brzegi. Nowe były znajomości, nowe emocje, nowe wszystko. Pierwsze wyjścia na koncerty, pierwsze pocałunki i pierwsze rzeczy, o których mamie się nie mówiło, i o których mama nie wie do tej pory. Ten czas szybko przeminął. Z tamtych dni zostały w pamięci przebłyski, szybkie flesze, które zdają się być kadrami z filmu. Nie rozpoznaje w filmie siebie jako postaci pierwszoplanowej, raczej stoję gdzieś z boku i obserwuję. Od rozdziału 9-tego książki zaczynamy czytać o marzeniach.</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/7782237/ello-optimized-10d5b5a1.jpg\" alt=\"Obraz przedstawia kobietę w kolorowym makijażu, kobieta ma rozchylone usta i siwe włosy. Po lewej stronie widzimy zbliżenie na oko kobiety.\" /></p>\n<p>Marzeniem stała się nauka w Liceum Plastycznym. Stres potęgował się z każdą minutą nowych kresek czynionych na papierze w formacie B1 w sali martwych natur. Wisiał niczym chmura gradowa nad niechcianym dzbankiem i wczorajszym jabłkiem. Kiedy już opadł siedziałam w sali lekcyjnej wraz z innymi ‘pierwszakami’. Pamiętam dokładnie zajęcia z rzeźby. O profesorze krążyły plotki, że wzorowe oceny stawia tylko tym, którzy w swoich pracach przemycali elementy genitaliów. Och, jak on kochał te wizerunki małp z penisami większymi od głowy. Jego jednak niewiele pamiętam. Pamiętam za to fascynującą materię gliny i gipsu. Pamiętam ubrudzone dłonie, ubrania i tą szczerą radość wynikającą z tego brudu. Teraz rozumiem sens powiedzenia ‘brudne dziecko to szczęśliwe dziecko’. To był moment, kiedy nie musiałeś się pokazywać, świecić idealnie białym zębem i bluzką. Cały świat znikał, bo tworzyłeś. Popiersia powstawały z brudnej, szarej masy. Byłeś Stwórcą, Demiurgiem.</p>\n<p>W liceum, oprócz twórczej potęgi narodziła się we mnie wielka ambicja. Głęboko wierzyłam w swoją wyjątkowość. Wiedziałam, że mój potencjał musi zostać doceniony. Spełniałam się na wielu polach. Malowałam, tańczyłam, robiłam zdjęcia, rysowałam. Szukałam siebie. Po czterech latach projektowania przy komputerze (profil klasy licealnej nosił tytuł ‘reklama wizualna’) postanowiłam zdać na malarstwo. Krakowska Akademia wydawała się marzeniem. W jej murach czuć było Malewicza, a po korytarzach przechadzał się duch Fałata. Na egzaminy wyruszyłam wraz z mamą. Mama wspiera mnie od zawsze, jest moją najlepszą przyjaciółką. Ostatni etap (rozmowę kwalifikacyjną) odbyłam po proszkach uspokajających, bo moje dłonie na moment przed wejściem na egzamin zamieniły się w galaretę. Pytania okazały się nad niepokojąco proste, a ja po prostu byłam szczera. Zdałam.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/7782245/ello-optimized-38ab7257.jpg\" alt=\"Obraz przedstawia dwie twarze kobiety w kolorowym makijażu. Portrety przeplatane są graficznymi elementami. Całość na żółtym tle.\" /></p>\n<p>Sami widzicie jak łatwo przychodziło mi spełniać marzenia. Przez 13 lat praktycznie żadne z nich nie zostało zdeptane z kretesem. Oczywiście wiele z nich ginęło śmiercią naturalną, lecz każde założone cele udało mi się osiągnąć. Świadomie piszę o celach w kontekście marzeń. Marzenia mogą być różne. Możesz na przykład marzyć o zegarku z brylantem, jednak dopóki nie zdobędziesz na niego środków pozostanie on na zawsze w sferze marzeń. Kiedy znajdziesz sposób, aby zarobić pieniądze i go kupić wtedy staje się on Twoim celem, a drogą do celu jest wykonana praca zarobkowa. Ale najpierw pojawia się marzenie, przebłysk pragnienia. Uwaga – niech kolejnych dwóch linijek nie czytają osoby, których drażni coachingowy styl Łukasza Jakubiaka. Otóż moi Drodzy tak się składa, że możemy osiągnąć wszystko. Wystarczy tylko odpowiednio nastroić swoją energię w stronę wyznaczonego celu.</p>\n<p>Pięć lat krakowskich podbojów pamiętam bardzo dobrze. Kochałam zajęcia z rzeźby, rysunku, struktur wizualnych. Liczne wyróżnienia świadczyły, że jestem na właściwym miejscu we właściwym czasie. W krakowskiej Akademii istnieje regulamin, według którego po pierwszym roku edukacji wybiera się pracownię ‘mistrzowską’. Oznacza to, że przez kolejne cztery lata praca przebiega pod okiem wybranego profesora. Wówczas, jako zdeklarowana realistka wiedziałam, że moim mentorem musi zostać głowa pełna miłości do malarstwa figuratywnego. Los jednak podkusił wybór czegoś zupełnie innego . W pracowni, do której trafiłam panowała zasada: ‘pokaż mi, co Cię interesuje i porozmawiajmy o tym’. Nikt nie kazał wstawać o ósmej rano i maszerować w stronę sztalug i malować i maszerować i malować i maszerować armią farb. Mogłam wszystko. Mogłam, co chciałam, ale czego chciałam? Nastała wolność, wolność wyboru. Zaczęły się wewnętrzne pytania. Skoro mogę wszystko, to ja chcę tańczyć – zadecydowałam.\nPrzetańczyłam te lata raz skocznym krokiem quick stepa, a raz współczesnym slajdem. Nie żałuję ani minuty straconego czasu, choć całe trzy lata zabrała mi choroba. Było mi to potrzebne, aby zrozumieć jak kocham życie i w końcu zacząć pracować... nad sobą. Jestem wdzięczna Ci życie.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/7782247/ello-optimized-43849cdc.jpg\" alt=\"Zdjęcie przedstawia popiersie kobiety w kolorowym makijażu z siwymi włosami. Dookoła kolorowe prostokąty.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/7782250/ello-optimized-d10d213c.jpg\" alt=\"Zdjęcie przedstawia usta i szyję kobiety w otoczeniu graficznych elementów.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/7782251/ello-optimized-12022660.jpg\" alt=\"Obraz przedstawia pionowe paseczki w kolorze fioletowym, żółtym i wielokolorowym.\" /></p>\n";
+var raw = exports.raw = "\n![Obraz przedstawia zdjęcie kobiety w kolorowym makijażu. Całość na żółtym tle. Na dole widzimy zbliżenie na oko kobiety.](https://assets0.ello.co/uploads/asset/attachment/7782242/ello-optimized-cc36dbfd.jpg)\n\nCałkiem niespodziewanie poczułam dziś przypływ wdzięczności. Ogarnęła mnie ona od środka, oblała moją duszę miękką kołdrą nibymiodu. Zupełnie nie rozumiem dlaczego tak się stało. Ostatnio dużo rozmyślam o swoim życiu. Myślę o nim jak o książce, w której większość dotychczas napisanych rozdziałów zajmuje czas edukacji. Najpierw było przedszkole, choć nigdy nie leżakowałam. Potem 6 lat podstawówki, pierwsze koślawe litery i zdania. W czwartej klasie dostałam też pierwszą ocenę naganną (z plastyki, o losie!). Później nastał tymczasowy (całe szczęście) wymysł Ministra Edukacji, czyli gimnazjum. To był głupi, szczeniacki czas wypełniony „nowym” po brzegi. Nowe były znajomości, nowe emocje, nowe wszystko. Pierwsze wyjścia na koncerty, pierwsze pocałunki i pierwsze rzeczy, o których mamie się nie mówiło, i o których mama nie wie do tej pory. Ten czas szybko przeminął. Z tamtych dni zostały w pamięci przebłyski, szybkie flesze, które zdają się być kadrami z filmu. Nie rozpoznaje w filmie siebie jako postaci pierwszoplanowej, raczej stoję gdzieś z boku i obserwuję. Od rozdziału 9-tego książki zaczynamy czytać o marzeniach.\n\n![Obraz przedstawia kobietę w kolorowym makijażu, kobieta ma rozchylone usta i siwe włosy. Po lewej stronie widzimy zbliżenie na oko kobiety.](https://assets2.ello.co/uploads/asset/attachment/7782237/ello-optimized-10d5b5a1.jpg)\n\nMarzeniem stała się nauka w Liceum Plastycznym. Stres potęgował się z każdą minutą nowych kresek czynionych na papierze w formacie B1 w sali martwych natur. Wisiał niczym chmura gradowa nad niechcianym dzbankiem i wczorajszym jabłkiem. Kiedy już opadł siedziałam w sali lekcyjnej wraz z innymi ‘pierwszakami’. Pamiętam dokładnie zajęcia z rzeźby. O profesorze krążyły plotki, że wzorowe oceny stawia tylko tym, którzy w swoich pracach przemycali elementy genitaliów. Och, jak on kochał te wizerunki małp z penisami większymi od głowy. Jego jednak niewiele pamiętam. Pamiętam za to fascynującą materię gliny i gipsu. Pamiętam ubrudzone dłonie, ubrania i tą szczerą radość wynikającą z tego brudu. Teraz rozumiem sens powiedzenia ‘brudne dziecko to szczęśliwe dziecko’. To był moment, kiedy nie musiałeś się pokazywać, świecić idealnie białym zębem i bluzką. Cały świat znikał, bo tworzyłeś. Popiersia powstawały z brudnej, szarej masy. Byłeś Stwórcą, Demiurgiem.\n\nW liceum, oprócz twórczej potęgi narodziła się we mnie wielka ambicja. Głęboko wierzyłam w swoją wyjątkowość. Wiedziałam, że mój potencjał musi zostać doceniony. Spełniałam się na wielu polach. Malowałam, tańczyłam, robiłam zdjęcia, rysowałam. Szukałam siebie. Po czterech latach projektowania przy komputerze (profil klasy licealnej nosił tytuł ‘reklama wizualna’) postanowiłam zdać na malarstwo. Krakowska Akademia wydawała się marzeniem. W jej murach czuć było Malewicza, a po korytarzach przechadzał się duch Fałata. Na egzaminy wyruszyłam wraz z mamą. Mama wspiera mnie od zawsze, jest moją najlepszą przyjaciółką. Ostatni etap (rozmowę kwalifikacyjną) odbyłam po proszkach uspokajających, bo moje dłonie na moment przed wejściem na egzamin zamieniły się w galaretę. Pytania okazały się nad niepokojąco proste, a ja po prostu byłam szczera. Zdałam.\n\n![Obraz przedstawia dwie twarze kobiety w kolorowym makijażu. Portrety przeplatane są graficznymi elementami. Całość na żółtym tle.](https://assets1.ello.co/uploads/asset/attachment/7782245/ello-optimized-38ab7257.jpg)\n\nSami widzicie jak łatwo przychodziło mi spełniać marzenia. Przez 13 lat praktycznie żadne z nich nie zostało zdeptane z kretesem. Oczywiście wiele z nich ginęło śmiercią naturalną, lecz każde założone cele udało mi się osiągnąć. Świadomie piszę o celach w kontekście marzeń. Marzenia mogą być różne. Możesz na przykład marzyć o zegarku z brylantem, jednak dopóki nie zdobędziesz na niego środków pozostanie on na zawsze w sferze marzeń. Kiedy znajdziesz sposób, aby zarobić pieniądze i go kupić wtedy staje się on Twoim celem, a drogą do celu jest wykonana praca zarobkowa. Ale najpierw pojawia się marzenie, przebłysk pragnienia. Uwaga – niech kolejnych dwóch linijek nie czytają osoby, których drażni coachingowy styl Łukasza Jakubiaka. Otóż moi Drodzy tak się składa, że możemy osiągnąć wszystko. Wystarczy tylko odpowiednio nastroić swoją energię w stronę wyznaczonego celu.\n\n\n\nPięć lat krakowskich podbojów pamiętam bardzo dobrze. Kochałam zajęcia z rzeźby, rysunku, struktur wizualnych. Liczne wyróżnienia świadczyły, że jestem na właściwym miejscu we właściwym czasie. W krakowskiej Akademii istnieje regulamin, według którego po pierwszym roku edukacji wybiera się pracownię ‘mistrzowską’. Oznacza to, że przez kolejne cztery lata praca przebiega pod okiem wybranego profesora. Wówczas, jako zdeklarowana realistka wiedziałam, że moim mentorem musi zostać głowa pełna miłości do malarstwa figuratywnego. Los jednak podkusił wybór czegoś zupełnie innego . W pracowni, do której trafiłam panowała zasada: ‘pokaż mi, co Cię interesuje i porozmawiajmy o tym’. Nikt nie kazał wstawać o ósmej rano i maszerować w stronę sztalug i malować i maszerować i malować i maszerować armią farb. Mogłam wszystko. Mogłam, co chciałam, ale czego chciałam? Nastała wolność, wolność wyboru. Zaczęły się wewnętrzne pytania. Skoro mogę wszystko, to ja chcę tańczyć – zadecydowałam. \nPrzetańczyłam te lata raz skocznym krokiem quick stepa, a raz współczesnym slajdem. Nie żałuję ani minuty straconego czasu, choć całe trzy lata zabrała mi choroba. Było mi to potrzebne, aby zrozumieć jak kocham życie i w końcu zacząć pracować… nad sobą. Jestem wdzięczna Ci życie.\n\n![Zdjęcie przedstawia popiersie kobiety w kolorowym makijażu z siwymi włosami. Dookoła kolorowe prostokąty.](https://assets1.ello.co/uploads/asset/attachment/7782247/ello-optimized-43849cdc.jpg)\n![Zdjęcie przedstawia usta i szyję kobiety w otoczeniu graficznych elementów.](https://assets2.ello.co/uploads/asset/attachment/7782250/ello-optimized-d10d213c.jpg)\n![Obraz przedstawia pionowe paseczki w kolorze fioletowym, żółtym i wielokolorowym.](https://assets1.ello.co/uploads/asset/attachment/7782251/ello-optimized-12022660.jpg)";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 122 */
@@ -9650,6 +9728,18 @@ webpackEmptyContext.id = 122;
 
 /***/ }),
 /* 123 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 123;
+
+/***/ }),
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -9670,19 +9760,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 123;
+webpackContext.id = 124;
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(125);
+module.exports = __webpack_require__(126);
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9700,7 +9790,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(126);
+var _propTypes = __webpack_require__(127);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -9904,13 +9994,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_126__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_127__;
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9924,7 +10014,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9932,7 +10022,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9945,7 +10035,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9979,7 +10069,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -9992,7 +10082,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10001,7 +10091,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10009,7 +10099,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10017,7 +10107,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10032,7 +10122,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10047,7 +10137,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10062,7 +10152,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10086,7 +10176,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(139);
+var s = __webpack_require__(140);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -10117,7 +10207,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10125,7 +10215,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10149,7 +10239,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10200,7 +10290,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10208,7 +10298,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10217,7 +10307,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(144);
+var s = __webpack_require__(145);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -10250,7 +10340,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10260,7 +10350,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10304,22 +10394,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 148,
-	"./Feed.js": 149,
-	"./Ingredient.js": 150,
-	"./Method.js": 151,
-	"./Recipe.js": 152,
-	"./TableOfContents.js": 153
+	"./Crumbs.js": 149,
+	"./Feed.js": 150,
+	"./Ingredient.js": 151,
+	"./Method.js": 152,
+	"./Recipe.js": 153,
+	"./TableOfContents.js": 154
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -10335,10 +10425,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 147;
+webpackContext.id = 148;
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10353,7 +10443,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10368,7 +10458,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10383,7 +10473,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10398,7 +10488,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10413,7 +10503,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10428,7 +10518,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10452,7 +10542,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
