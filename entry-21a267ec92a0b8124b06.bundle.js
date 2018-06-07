@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_127__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_128__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(142);
+var Feed_1 = __webpack_require__(143);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(144);
+var Recipe_1 = __webpack_require__(145);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(146);
+var Root_1 = __webpack_require__(147);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(128);
+var s = __webpack_require__(129);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(129);
+var s = __webpack_require__(130);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(122),
-ROOT: __webpack_require__(123),
-LAYOUTS: __webpack_require__(124),
-INCLUDES: __webpack_require__(148)};
+UPLOADS: __webpack_require__(123),
+ROOT: __webpack_require__(124),
+LAYOUTS: __webpack_require__(125),
+INCLUDES: __webpack_require__(149)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(148)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(130);
+var s = __webpack_require__(131);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(134);
+var s = __webpack_require__(135);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(147);
+__webpack_require__(148);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(125);
+var react_disqus_comments_1 = __webpack_require__(126);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(139);
-var s = __webpack_require__(141);
+var FacebookLike_1 = __webpack_require__(140);
+var s = __webpack_require__(142);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(131);
-var s = __webpack_require__(132);
+__webpack_require__(132);
+var s = __webpack_require__(133);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(133);
+var s = __webpack_require__(134);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(136);
+var s = __webpack_require__(137);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(135);
+var s = __webpack_require__(136);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(137);
+var s = __webpack_require__(138);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(138);
+var s = __webpack_require__(139);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(143);
+var s = __webpack_require__(144);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(155);
-var menu_1 = __webpack_require__(156);
+var tags_1 = __webpack_require__(156);
+var menu_1 = __webpack_require__(157);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2698,7 +2698,8 @@ var map = {
 	"./2018-05-14-oswoic-lek.markdown": 118,
 	"./2018-05-20-o-kolorach-roz.markdown": 119,
 	"./2018-05-29-moje-wybory-maj.markdown": 120,
-	"./2018-06-05-jestem-wdzieczna-ci-zycie.markdown": 121
+	"./2018-06-05-jestem-wdzieczna-ci-zycie.markdown": 121,
+	"./2018-06-07-hiperrealizm-moodboard.markdown": 122
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -9756,15 +9757,61 @@ var raw = exports.raw = "\n![Obraz przedstawia zdjęcie kobiety w kolorowym maki
 
 /***/ }),
 /* 122 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 122;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Hiperrealizm (superrealizm lub fotorealizm) to pr\u0119\u017Cnie rozwijaj\u0105cy si\u0119 kierunek w sztuce, pocz\u0105wszy od XX wieku. Artysta \u015Bwiadomie odrzuca wszelk\u0105 indywidualn\u0105 ekspresj\u0119 dzie\u0142a. Punktem wyj\u015Bcia staje si\u0119 fotografia przedstawiaj\u0105ca najcz\u0119\u015Bciej motywy \u015Bwiata codziennego - przedmioty, pejza\u017Ce, portrety. Perfekcyjna szczeg\xF3\u0142owo\u015B\u0107 obrazu lub rze\u017Aby nieraz wywo\u0142uje u nas uczucie podobne do doliny niesamowito\u015Bci. Co\u015B wygl\u0105da nad wyraz prawdziwie, cho\u0107 jeste\u015Bmy \u015Bwiadomi, \u017Ce prawdziwe nie jest. Superrealistyczne rze\u017Aby postaci, cz\u0119sto przeskalowane szokuj\u0105 precyzj\u0105 oddania detali. Paznokcie i w\u0142osy figur wykonane s\u0105 zazwyczaj z surowc\xF3w naturalnych - ludzkich paznokci i w\u0142os\xF3w. Staj\u0105c na przeciwko takiej rze\u017Aby mamy ochot\u0119 co\u015B do niej powiedzie\u0107, zapyta\u0107, pom\xF3c. Musimy ca\u0142y czas powtarza\u0107 w g\u0142\u0119bi ducha \u2018to jest rze\u017Aba, to jest rze\u017Aba\u2019...'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7793133/ello-optimized-ba8c3f3d.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia rysunk\xF3w znanego artysty. Rysunki to portrety bardzo realistyczne.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/7793136/ello-optimized-8342ddae.jpg', alt: 'Obraz przedstawia trzy zdj\u0119cia. Na jednym widzimy ma\u0142\u0105 dziewczynk\u0119 z wielkim obrazem, a na dw\xF3ch pozosta\u0142ych widniej\u0105 rze\u017Aby hiperrealistyczne.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/7793140/ello-optimized-21d68412.jpg', alt: 'Obraz przedstawia trzy zdj\u0119cia. Na dw\xF3ch widzimy obrazy przedstawiaj\u0105ce jedzenie, a na jednym obraz przedstawiaj\u0105cy bia\u0142\u0105 tkanin\u0119 na niebieskim tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/7793142/ello-optimized-241aa730.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia na szarym tle. Na obydwu z nich widzimy postaci ubrane w kolorowe stroje.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7793145/ello-optimized-443c4f28.jpg', alt: 'Obraz przedstawia cztery zdj\u0119cia na szarym tle. Zdj\u0119cia to portrety r\xF3\u017Cnych ludzi.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/7793150/ello-optimized-50ff583e.jpg', alt: 'Obraz przedstawia cztery zdj\u0119cia. Na jednym z nich widzimy sadzone jajko, na innym tatua\u017C, na kolejnym artyst\u0119 w swojej pracowni, a na ostatnim skulon\u0105 ludzk\u0105 posta\u0107.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/7793154/ello-optimized-83d3ddee.jpg', alt: 'Zdj\u0119cie przedstawia czarne napisy na szarym tle.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Hiperrealizm [moodboard]", "date": "2018-06-07T14:40:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["hiperrealizm", "fotorealizm", "superrealizm", "moodboard"] };
+var body = exports.body = "<p>Hiperrealizm (superrealizm lub fotorealizm) to prężnie rozwijający się kierunek w sztuce, począwszy od XX wieku. Artysta świadomie odrzuca wszelką indywidualną ekspresję dzieła. Punktem wyjścia staje się fotografia przedstawiająca najczęściej motywy świata codziennego - przedmioty, pejzaże, portrety. Perfekcyjna szczegółowość obrazu lub rzeźby nieraz wywołuje u nas uczucie podobne do doliny niesamowitości. Coś wygląda nad wyraz prawdziwie, choć jesteśmy świadomi, że prawdziwe nie jest. Superrealistyczne rzeźby postaci, często przeskalowane szokują precyzją oddania detali. Paznokcie i włosy figur wykonane są zazwyczaj z surowców naturalnych - ludzkich paznokci i włosów. Stając na przeciwko takiej rzeźby mamy ochotę coś do niej powiedzieć, zapytać, pomóc. Musimy cały czas powtarzać w głębi ducha ‘to jest rzeźba, to jest rzeźba’...</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/7793133/ello-optimized-ba8c3f3d.jpg\" alt=\"Obraz przedstawia dwa zdjęcia rysunków znanego artysty. Rysunki to portrety bardzo realistyczne.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/7793136/ello-optimized-8342ddae.jpg\" alt=\"Obraz przedstawia trzy zdjęcia. Na jednym widzimy małą dziewczynkę z wielkim obrazem, a na dwóch pozostałych widnieją rzeźby hiperrealistyczne.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/7793140/ello-optimized-21d68412.jpg\" alt=\"Obraz przedstawia trzy zdjęcia. Na dwóch widzimy obrazy przedstawiające jedzenie, a na jednym obraz przedstawiający białą tkaninę na niebieskim tle.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/7793142/ello-optimized-241aa730.jpg\" alt=\"Obraz przedstawia dwa zdjęcia na szarym tle. Na obydwu z nich widzimy postaci ubrane w kolorowe stroje.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/7793145/ello-optimized-443c4f28.jpg\" alt=\"Obraz przedstawia cztery zdjęcia na szarym tle. Zdjęcia to portrety różnych ludzi.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/7793150/ello-optimized-50ff583e.jpg\" alt=\"Obraz przedstawia cztery zdjęcia. Na jednym z nich widzimy sadzone jajko, na innym tatuaż, na kolejnym artystę w swojej pracowni, a na ostatnim skuloną ludzką postać.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/7793154/ello-optimized-83d3ddee.jpg\" alt=\"Zdjęcie przedstawia czarne napisy na szarym tle.\" /></p>\n";
+var raw = exports.raw = "\nHiperrealizm (superrealizm lub fotorealizm) to prężnie rozwijający się kierunek w sztuce, począwszy od XX wieku. Artysta świadomie odrzuca wszelką indywidualną ekspresję dzieła. Punktem wyjścia staje się fotografia przedstawiająca najczęściej motywy świata codziennego - przedmioty, pejzaże, portrety. Perfekcyjna szczegółowość obrazu lub rzeźby nieraz wywołuje u nas uczucie podobne do doliny niesamowitości. Coś wygląda nad wyraz prawdziwie, choć jesteśmy świadomi, że prawdziwe nie jest. Superrealistyczne rzeźby postaci, często przeskalowane szokują precyzją oddania detali. Paznokcie i włosy figur wykonane są zazwyczaj z surowców naturalnych - ludzkich paznokci i włosów. Stając na przeciwko takiej rzeźby mamy ochotę coś do niej powiedzieć, zapytać, pomóc. Musimy cały czas powtarzać w głębi ducha 'to jest rzeźba, to jest rzeźba'...\n\n![Obraz przedstawia dwa zdjęcia rysunków znanego artysty. Rysunki to portrety bardzo realistyczne.](https://assets1.ello.co/uploads/asset/attachment/7793133/ello-optimized-ba8c3f3d.jpg)\n![Obraz przedstawia trzy zdjęcia. Na jednym widzimy małą dziewczynkę z wielkim obrazem, a na dwóch pozostałych widnieją rzeźby hiperrealistyczne.](https://assets0.ello.co/uploads/asset/attachment/7793136/ello-optimized-8342ddae.jpg)\n![Obraz przedstawia trzy zdjęcia. Na dwóch widzimy obrazy przedstawiające jedzenie, a na jednym obraz przedstawiający białą tkaninę na niebieskim tle.](https://assets2.ello.co/uploads/asset/attachment/7793140/ello-optimized-21d68412.jpg)\n![Obraz przedstawia dwa zdjęcia na szarym tle. Na obydwu z nich widzimy postaci ubrane w kolorowe stroje.](https://assets2.ello.co/uploads/asset/attachment/7793142/ello-optimized-241aa730.jpg)\n![Obraz przedstawia cztery zdjęcia na szarym tle. Zdjęcia to portrety różnych ludzi.](https://assets1.ello.co/uploads/asset/attachment/7793145/ello-optimized-443c4f28.jpg)\n![Obraz przedstawia cztery zdjęcia. Na jednym z nich widzimy sadzone jajko, na innym tatuaż, na kolejnym artystę w swojej pracowni, a na ostatnim skuloną ludzką postać.](https://assets0.ello.co/uploads/asset/attachment/7793150/ello-optimized-50ff583e.jpg)\n![Zdjęcie przedstawia czarne napisy na szarym tle.](https://assets2.ello.co/uploads/asset/attachment/7793154/ello-optimized-83d3ddee.jpg)";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 123 */
@@ -9780,6 +9827,18 @@ webpackEmptyContext.id = 123;
 
 /***/ }),
 /* 124 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 124;
+
+/***/ }),
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -9800,19 +9859,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 124;
+webpackContext.id = 125;
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(126);
+module.exports = __webpack_require__(127);
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9830,7 +9889,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(127);
+var _propTypes = __webpack_require__(128);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -10034,13 +10093,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_127__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_128__;
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10054,7 +10113,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10062,7 +10121,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10075,7 +10134,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10109,7 +10168,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10122,7 +10181,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10131,7 +10190,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10139,7 +10198,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10147,7 +10206,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10162,7 +10221,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10177,7 +10236,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10192,7 +10251,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10216,7 +10275,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(140);
+var s = __webpack_require__(141);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -10247,7 +10306,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10255,7 +10314,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10279,7 +10338,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10330,7 +10389,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10338,7 +10397,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10347,7 +10406,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(145);
+var s = __webpack_require__(146);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -10380,7 +10439,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10390,7 +10449,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10434,22 +10493,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 149,
-	"./Feed.js": 150,
-	"./Ingredient.js": 151,
-	"./Method.js": 152,
-	"./Recipe.js": 153,
-	"./TableOfContents.js": 154
+	"./Crumbs.js": 150,
+	"./Feed.js": 151,
+	"./Ingredient.js": 152,
+	"./Method.js": 153,
+	"./Recipe.js": 154,
+	"./TableOfContents.js": 155
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -10465,10 +10524,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 148;
+webpackContext.id = 149;
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10483,7 +10542,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10498,7 +10557,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10513,7 +10572,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10528,7 +10587,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10543,7 +10602,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10558,7 +10617,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10582,7 +10641,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
