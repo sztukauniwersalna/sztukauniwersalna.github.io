@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_128__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_129__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(143);
+var Feed_1 = __webpack_require__(144);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(145);
+var Recipe_1 = __webpack_require__(146);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(147);
+var Root_1 = __webpack_require__(148);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(129);
+var s = __webpack_require__(130);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(130);
+var s = __webpack_require__(131);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(123),
-ROOT: __webpack_require__(124),
-LAYOUTS: __webpack_require__(125),
-INCLUDES: __webpack_require__(149)};
+UPLOADS: __webpack_require__(124),
+ROOT: __webpack_require__(125),
+LAYOUTS: __webpack_require__(126),
+INCLUDES: __webpack_require__(150)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(149)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(131);
+var s = __webpack_require__(132);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(135);
+var s = __webpack_require__(136);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(148);
+__webpack_require__(149);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(126);
+var react_disqus_comments_1 = __webpack_require__(127);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(140);
-var s = __webpack_require__(142);
+var FacebookLike_1 = __webpack_require__(141);
+var s = __webpack_require__(143);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(132);
-var s = __webpack_require__(133);
+__webpack_require__(133);
+var s = __webpack_require__(134);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(134);
+var s = __webpack_require__(135);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(137);
+var s = __webpack_require__(138);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(136);
+var s = __webpack_require__(137);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(138);
+var s = __webpack_require__(139);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(139);
+var s = __webpack_require__(140);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(144);
+var s = __webpack_require__(145);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(156);
-var menu_1 = __webpack_require__(157);
+var tags_1 = __webpack_require__(157);
+var menu_1 = __webpack_require__(158);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2699,7 +2699,8 @@ var map = {
 	"./2018-05-20-o-kolorach-roz.markdown": 119,
 	"./2018-05-29-moje-wybory-maj.markdown": 120,
 	"./2018-06-05-jestem-wdzieczna-ci-zycie.markdown": 121,
-	"./2018-06-07-hiperrealizm-moodboard.markdown": 122
+	"./2018-06-07-hiperrealizm-moodboard.markdown": 122,
+	"./2018-06-27-rgb-trzy-stylizacje-z-mojej-szafy.markdown": 123
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -9815,15 +9816,72 @@ var raw = exports.raw = "\nHiperrealizm (superrealizm lub fotorealizm) to pręż
 
 /***/ }),
 /* 123 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 123;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/7859333/ello-optimized-1776af0a.jpg', alt: 'Zdj\u0119cie przedstawia modelk\u0119 w spodniach w kwiaty i kapeluszu. Ca\u0142o\u015B\u0107 o\u015Bwietlona jest czerwonym \u015Bwiat\u0142em.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Red'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Na planecie Red w uk\u0142adzie Ottona Wielkiego (pierwsza po lewej od gwiazdy zachodniej) \u017Cyj\u0105 Redwetanie. Redwetanin ma w zwyczaju wstawa\u0107 wraz ze wschodem ksi\u0119\u017Cyca planety (co tydzie\u0144 innego, gdy\u017C planeta posiada ich 496, tydzie\u0144 za\u015B ma 9 dni, rok wi\u0119c to 4 464 wschody). Redwetanin, jak sama nazwa wskazuje, ma wiele wsp\xF3lnego z weterynarzem. Na Red na ka\u017Cdym kroku natkn\u0105\u0107 si\u0119 mo\u017Cna na o\u015Brodki weterynarii, kt\xF3re wyrastaj\u0105 z brunatnego, piaszczystego pod\u0142o\u017Ca niczym kwiaty po obfitym deszczu. Jednak miejsca te nie s\u0142u\u017C\u0105 temu, czemu zwyk\u0142y s\u0142u\u017Cy\u0107 na Ziemi. W o\u015Brodkach nie leczy si\u0119 zwierz\u0105t. Budynki te wygl\u0105daj\u0105 jak ameryka\u0144skie restauracje i nimi w istocie s\u0105. Bowiem mi\u0142o\u015B\u0107 Redwetan objawia si\u0119 zjadaniem swoich pupili. Nabywaj\u0105 oni swoje zwierz\u0119ta kupuj\u0105c je w sklepie zoologicznym lub w prywatnych hodowlach. Nie znaj\u0105 schronisk, gdy\u017C nie wyst\u0119puje u nich \u2018nadwy\u017Cka\u2019 zwierzyny. Kiedy ju\u017C Redwetanin (na Red \u017Cyj\u0105 tylko i wy\u0142\u0105cznie m\u0119\u017Cczy\u017Ani) wybierze swojego pupila ten musi odwzajemni\u0107 sympati\u0119. \u015Awiadczy o tym energiczne machanie ogonem tylko w praw\u0105 stron\u0119. Po standardowym rytuale w\u0142a\u015Bciciel nowej uciechy udaje si\u0119 do drugiego pokoju, zwierze za\u015B samo wybiera swoje imi\u0119 tr\u0105caj\u0105c nosem poszczeg\xF3lne litery alfabetu przyczepione do specjalnej tablicy imion. Pewnego razu zdarzy\u0142o si\u0119 jednak, \u017Ce zwierzak wybra\u0142 damskie imi\u0119. Wszyscy zdziwili si\u0119 nad wyraz, bowiem Red jest typowym m\u0119skim cia\u0142em. W\u0142a\u015Bciciel wyda\u0142 si\u0119 by\u0107 zaniepokojony, zaraz jednak pomy\u015Bla\u0142, \u017Ce wybra\u0142 pupila \u2018jedynego w swoim rodzaju\u2019. W miar\u0119 jak zwierze ros\u0142o nabiera\u0142o dziwnych kszta\u0142t\xF3w. Na g\u0142owie wyros\u0142y mu w\u0142osy (w\u015Br\xF3d m\u0119skich osobnik\xF3w nie ma to tutaj miejsca), a cia\u0142o wyd\u0142u\u017Cy\u0142o si\u0119. W\u0142a\u015Bciciel \u2013 pracownik stacji kontroli lot\xF3w \u2013 martwi\u0142 si\u0119, \u017Ce nie b\u0119dzie w stanie na tyle mocno pokocha\u0107 zwierzaka, aby go zje\u015B\u0107. A to przybiera\u0142o coraz to dziwniejsz\u0105 posta\u0107. Uros\u0142o na tyle aby sta\u0107 na dw\xF3ch nogach, lecz niewystarczaj\u0105co aby si\u0119gn\u0105\u0107 po misk\u0119 le\u017C\u0105c\u0105 na wysokiej p\xF3\u0142ce. Biodra zaokr\u0105gli\u0142y si\u0119 na my\u015Bl przywodz\u0105c Kursan, najbardziej ob\u0142y ksi\u0119\u017Cyc planety. Martwi\u0142 si\u0119 biedny kontroler, bo odmawia\u0142o jedzenia mi\u0119sa, a w g\u0142owie by\u0142o mu tylko \u015Bpiewanie. Kocha\u0142, kocha\u0142 bardzo, ca\u0142a sytuacja jednak nie raz wywo\u0142ywa\u0142a w nim frustracj\u0119 i niepewno\u015B\u0107. Tote\u017C kt\xF3rego\u015B dnia otworzy\u0142 drzwi swojej kabiny i pozwoli\u0142 zwierz\u0119ciu wyj\u015B\u0107. Na drog\u0119 podarowa\u0142 mu kapelusz, aby ogniste s\u0142o\u0144ce dnia nie spali\u0142o w\u0142os\xF3w na szary popi\xF3\u0142. Widz\u0105c oddalaj\u0105ce si\u0119 coraz bardziej cia\u0142ko id\u0105ce na dw\xF3ch nogach westchn\u0105\u0142, po\u0142o\u017Cy\u0142 si\u0119 i znikn\u0105\u0142. Niekt\xF3rzy twierdz\u0105, \u017Ce osi\u0105gn\u0105\u0142 \u2018stan wy\u017Cszy\u2019 inni, \u017Ce po prostu umar\u0142 z g\u0142odu. W redweta\u0144skiej wikipedii jego imi\u0119 t\u0142umaczone jest na \u2018ten, kt\xF3ry daje wolno\u015B\u0107\u2019. Legendy za\u015B m\xF3wi\u0105, \u017Ce zwierz\u0119 mia\u0142o na imi\u0119 Ewa.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7859335/ello-optimized-9802da89.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia kobiety w spodniach w kwiaty i s\u0142omkowym kapeluszu. Zdj\u0119cie po prawej stronie jest mniejsze.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/7859336/ello-optimized-6b033db5.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia, zdj\u0119cie z lewej to portret, a z prawej sylwetka kobiety w kolorowych spodniach i kapeluszu na g\u0142owie.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/7859337/ello-optimized-f8971173.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia, zdj\u0119cie z lewej strony to portret u\u015Bmiechni\u0119tej kobiety w kapeluszu, a po prawej stronie widzimy jej ca\u0142\u0105 sylwetk\u0119.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Green'
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "RGB. Trzy stylizacje z mojej szafy.", "date": "2018-06-27T09:04:00.000Z", "categories": ["Sztuka Ubioru"], "tags": ["moda", "fashion", "stylizacja", "sztuka", "art", "artysta", "kreacja", "lem"] };
+var body = exports.body = "<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/7859333/ello-optimized-1776af0a.jpg\" alt=\"Zdjęcie przedstawia modelkę w spodniach w kwiaty i kapeluszu. Całość oświetlona jest czerwonym światłem.\" /></p>\n<h2>Red</h2>\n<p>Na planecie Red w układzie Ottona Wielkiego (pierwsza po lewej od gwiazdy zachodniej) żyją Redwetanie. Redwetanin ma w zwyczaju wstawać wraz ze wschodem księżyca planety (co tydzień innego, gdyż planeta posiada ich 496, tydzień zaś ma 9 dni, rok więc to 4 464 wschody). Redwetanin, jak sama nazwa wskazuje, ma wiele wspólnego z weterynarzem. Na Red na każdym kroku natknąć się można na ośrodki weterynarii, które wyrastają z brunatnego, piaszczystego podłoża niczym kwiaty po obfitym deszczu. Jednak miejsca te nie służą temu, czemu zwykły służyć na Ziemi. W ośrodkach nie leczy się zwierząt. Budynki te wyglądają jak amerykańskie restauracje i nimi w istocie są. Bowiem miłość Redwetan objawia się zjadaniem swoich pupili. Nabywają oni swoje zwierzęta kupując je w sklepie zoologicznym lub w prywatnych hodowlach. Nie znają schronisk, gdyż nie występuje u nich ‘nadwyżka’ zwierzyny. Kiedy już Redwetanin (na Red żyją tylko i wyłącznie mężczyźni) wybierze swojego pupila ten musi odwzajemnić sympatię. Świadczy o tym energiczne machanie ogonem tylko w prawą stronę. Po standardowym rytuale właściciel nowej uciechy udaje się do drugiego pokoju, zwierze zaś samo wybiera swoje imię trącając nosem poszczególne litery alfabetu przyczepione do specjalnej tablicy imion.\nPewnego razu zdarzyło się jednak, że zwierzak wybrał damskie imię. Wszyscy zdziwili się nad wyraz, bowiem Red jest typowym męskim ciałem. Właściciel wydał się być zaniepokojony, zaraz jednak pomyślał, że wybrał pupila ‘jedynego w swoim rodzaju’. W miarę jak zwierze rosło nabierało dziwnych kształtów. Na głowie wyrosły mu włosy (wśród męskich osobników nie ma to tutaj miejsca), a ciało wydłużyło się. Właściciel – pracownik stacji kontroli lotów – martwił się, że nie będzie w stanie na tyle mocno pokochać zwierzaka, aby go zjeść. A to przybierało coraz to dziwniejszą postać. Urosło na tyle aby stać na dwóch nogach, lecz niewystarczająco aby sięgnąć po miskę leżącą na wysokiej półce. Biodra zaokrągliły się na myśl przywodząc Kursan, najbardziej obły księżyc planety. Martwił się biedny kontroler, bo odmawiało jedzenia mięsa, a w głowie było mu tylko śpiewanie. Kochał, kochał bardzo, cała sytuacja jednak nie raz wywoływała w nim frustrację i niepewność. Toteż któregoś dnia otworzył drzwi swojej kabiny i pozwolił zwierzęciu wyjść. Na drogę podarował mu kapelusz, aby ogniste słońce dnia nie spaliło włosów na szary popiół. Widząc oddalające się coraz bardziej ciałko idące na dwóch nogach westchnął, położył się i zniknął. Niektórzy twierdzą, że osiągnął ‘stan wyższy’ inni, że po prostu umarł z głodu. W redwetańskiej wikipedii jego imię tłumaczone jest na ‘ten, który daje wolność’. Legendy zaś mówią, że zwierzę miało na imię Ewa.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/7859335/ello-optimized-9802da89.jpg\" alt=\"Obraz przedstawia dwa zdjęcia kobiety w spodniach w kwiaty i słomkowym kapeluszu. Zdjęcie po prawej stronie jest mniejsze.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/7859336/ello-optimized-6b033db5.jpg\" alt=\"Obraz przedstawia dwa zdjęcia, zdjęcie z lewej to portret, a z prawej sylwetka kobiety w kolorowych spodniach i kapeluszu na głowie.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/7859337/ello-optimized-f8971173.jpg\" alt=\"Obraz przedstawia dwa zdjęcia, zdjęcie z lewej strony to portret uśmiechniętej kobiety w kapeluszu, a po prawej stronie widzimy jej całą sylwetkę.\" /></p>\n<h2>Green</h2>\n";
+var raw = exports.raw = "\n![Zdjęcie przedstawia modelkę w spodniach w kwiaty i kapeluszu. Całość oświetlona jest czerwonym światłem.](https://assets2.ello.co/uploads/asset/attachment/7859333/ello-optimized-1776af0a.jpg)\n\n## Red\n\nNa planecie Red w układzie Ottona Wielkiego (pierwsza po lewej od gwiazdy zachodniej) żyją Redwetanie. Redwetanin ma w zwyczaju wstawać wraz ze wschodem księżyca planety (co tydzień innego, gdyż planeta posiada ich 496, tydzień zaś ma 9 dni, rok więc to 4 464 wschody). Redwetanin, jak sama nazwa wskazuje, ma wiele wspólnego z weterynarzem. Na Red na każdym kroku natknąć się można na ośrodki weterynarii, które wyrastają z brunatnego, piaszczystego podłoża niczym kwiaty po obfitym deszczu. Jednak miejsca te nie służą temu, czemu zwykły służyć na Ziemi. W ośrodkach nie leczy się zwierząt. Budynki te wyglądają jak amerykańskie restauracje i nimi w istocie są. Bowiem miłość Redwetan objawia się zjadaniem swoich pupili. Nabywają oni swoje zwierzęta kupując je w sklepie zoologicznym lub w prywatnych hodowlach. Nie znają schronisk, gdyż nie występuje u nich ‘nadwyżka’ zwierzyny. Kiedy już Redwetanin (na Red żyją tylko i wyłącznie mężczyźni) wybierze swojego pupila ten musi odwzajemnić sympatię. Świadczy o tym energiczne machanie ogonem tylko w prawą stronę. Po standardowym rytuale właściciel nowej uciechy udaje się do drugiego pokoju, zwierze zaś samo wybiera swoje imię trącając nosem poszczególne litery alfabetu przyczepione do specjalnej tablicy imion.\nPewnego razu zdarzyło się jednak, że zwierzak wybrał damskie imię. Wszyscy zdziwili się nad wyraz, bowiem Red jest typowym męskim ciałem. Właściciel wydał się być zaniepokojony, zaraz jednak pomyślał, że wybrał pupila ‘jedynego w swoim rodzaju’. W miarę jak zwierze rosło nabierało dziwnych kształtów. Na głowie wyrosły mu włosy (wśród męskich osobników nie ma to tutaj miejsca), a ciało wydłużyło się. Właściciel – pracownik stacji kontroli lotów – martwił się, że nie będzie w stanie na tyle mocno pokochać zwierzaka, aby go zjeść. A to przybierało coraz to dziwniejszą postać. Urosło na tyle aby stać na dwóch nogach, lecz niewystarczająco aby sięgnąć po miskę leżącą na wysokiej półce. Biodra zaokrągliły się na myśl przywodząc Kursan, najbardziej obły księżyc planety. Martwił się biedny kontroler, bo odmawiało jedzenia mięsa, a w głowie było mu tylko śpiewanie. Kochał, kochał bardzo, cała sytuacja jednak nie raz wywoływała w nim frustrację i niepewność. Toteż któregoś dnia otworzył drzwi swojej kabiny i pozwolił zwierzęciu wyjść. Na drogę podarował mu kapelusz, aby ogniste słońce dnia nie spaliło włosów na szary popiół. Widząc oddalające się coraz bardziej ciałko idące na dwóch nogach westchnął, położył się i zniknął. Niektórzy twierdzą, że osiągnął ‘stan wyższy’ inni, że po prostu umarł z głodu. W redwetańskiej wikipedii jego imię tłumaczone jest na ‘ten, który daje wolność’. Legendy zaś mówią, że zwierzę miało na imię Ewa. \n\n![Obraz przedstawia dwa zdjęcia kobiety w spodniach w kwiaty i słomkowym kapeluszu. Zdjęcie po prawej stronie jest mniejsze.](https://assets1.ello.co/uploads/asset/attachment/7859335/ello-optimized-9802da89.jpg)\n![Obraz przedstawia dwa zdjęcia, zdjęcie z lewej to portret, a z prawej sylwetka kobiety w kolorowych spodniach i kapeluszu na głowie.](https://assets2.ello.co/uploads/asset/attachment/7859336/ello-optimized-6b033db5.jpg)\n![Obraz przedstawia dwa zdjęcia, zdjęcie z lewej strony to portret uśmiechniętej kobiety w kapeluszu, a po prawej stronie widzimy jej całą sylwetkę.](https://assets0.ello.co/uploads/asset/attachment/7859337/ello-optimized-f8971173.jpg)\n\n## Green\n\n\n\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 124 */
@@ -9839,6 +9897,18 @@ webpackEmptyContext.id = 124;
 
 /***/ }),
 /* 125 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 125;
+
+/***/ }),
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -9859,19 +9929,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 125;
+webpackContext.id = 126;
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(127);
+module.exports = __webpack_require__(128);
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9889,7 +9959,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(128);
+var _propTypes = __webpack_require__(129);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -10093,13 +10163,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_128__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_129__;
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10113,7 +10183,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10121,7 +10191,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10134,7 +10204,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10168,7 +10238,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10181,7 +10251,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10190,7 +10260,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10198,7 +10268,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10206,7 +10276,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10221,7 +10291,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10236,7 +10306,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10251,7 +10321,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10275,7 +10345,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(141);
+var s = __webpack_require__(142);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -10306,7 +10376,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10314,7 +10384,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10338,7 +10408,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10389,7 +10459,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10397,7 +10467,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10406,7 +10476,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(146);
+var s = __webpack_require__(147);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -10439,7 +10509,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10449,7 +10519,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10493,22 +10563,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 150,
-	"./Feed.js": 151,
-	"./Ingredient.js": 152,
-	"./Method.js": 153,
-	"./Recipe.js": 154,
-	"./TableOfContents.js": 155
+	"./Crumbs.js": 151,
+	"./Feed.js": 152,
+	"./Ingredient.js": 153,
+	"./Method.js": 154,
+	"./Recipe.js": 155,
+	"./TableOfContents.js": 156
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -10524,10 +10594,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 149;
+webpackContext.id = 150;
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10542,7 +10612,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10557,7 +10627,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10572,7 +10642,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10587,7 +10657,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10602,7 +10672,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10617,7 +10687,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10641,7 +10711,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
