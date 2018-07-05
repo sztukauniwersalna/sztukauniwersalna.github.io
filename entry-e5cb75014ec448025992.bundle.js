@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_129__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_130__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(144);
+var Feed_1 = __webpack_require__(145);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(146);
+var Recipe_1 = __webpack_require__(147);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(148);
+var Root_1 = __webpack_require__(149);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(130);
+var s = __webpack_require__(131);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(131);
+var s = __webpack_require__(132);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(124),
-ROOT: __webpack_require__(125),
-LAYOUTS: __webpack_require__(126),
-INCLUDES: __webpack_require__(150)};
+UPLOADS: __webpack_require__(125),
+ROOT: __webpack_require__(126),
+LAYOUTS: __webpack_require__(127),
+INCLUDES: __webpack_require__(151)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(150)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(132);
+var s = __webpack_require__(133);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(136);
+var s = __webpack_require__(137);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(149);
+__webpack_require__(150);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(127);
+var react_disqus_comments_1 = __webpack_require__(128);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(141);
-var s = __webpack_require__(143);
+var FacebookLike_1 = __webpack_require__(142);
+var s = __webpack_require__(144);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(133);
-var s = __webpack_require__(134);
+__webpack_require__(134);
+var s = __webpack_require__(135);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(135);
+var s = __webpack_require__(136);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(138);
+var s = __webpack_require__(139);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(137);
+var s = __webpack_require__(138);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(139);
+var s = __webpack_require__(140);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(140);
+var s = __webpack_require__(141);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(145);
+var s = __webpack_require__(146);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(157);
-var menu_1 = __webpack_require__(158);
+var tags_1 = __webpack_require__(158);
+var menu_1 = __webpack_require__(159);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2700,7 +2700,8 @@ var map = {
 	"./2018-05-29-moje-wybory-maj.markdown": 120,
 	"./2018-06-05-jestem-wdzieczna-ci-zycie.markdown": 121,
 	"./2018-06-07-hiperrealizm-moodboard.markdown": 122,
-	"./2018-06-27-rgb-trzy-stylizacje-z-mojej-szafy.markdown": 123
+	"./2018-06-27-rgb-trzy-stylizacje-z-mojej-szafy.markdown": 123,
+	"./2018-07-05-abstrakcja-geometryczna-moodboard.markdown": 124
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -9958,15 +9959,68 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia modelkę w spodniach w kwiaty 
 
 /***/ }),
 /* 124 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 124;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      'My\u015Blenie kszta\u0142tem dotyka odleg\u0142ych czas\xF3w odkrycia i wykorzystania ko\u0142a przez cz\u0142owieka. Dany kszta\u0142t ma za zadanie budowa\u0107, okre\u015Bla\u0107 sam siebie, porz\u0105dkowa\u0107 przestrze\u0144 wok\xF3\u0142. W otoczeniu kszta\u0142t\xF3w mo\u017Ce panowa\u0107 chaos, jednak on sam w swojej istocie stoi w obronie \u0142adu i harmonii. Nawet ten nieregularny lecz zamkni\u0119ty w form\u0119 zdaje si\u0119 by\u0107 spokojniejszym. Pierwsza po\u0142owa XX wieku to czas rozwoju sztuki geometrycznej. Artyst\xF3w zajmuj\u0105cych si\u0119 t\u0105 dziedzin\u0105 \u0142\u0105czy d\u0105\u017Cenie do okre\u015Blania zasad. Rodzi si\u0119 konstruktywizm, kt\xF3ry wprowadza dyscyplin\u0119 formaln\u0105: okre\u015Bla/porz\u0105dkuje przestrze\u0144 za pomoc\u0105 k\xF3\u0142, tr\xF3jk\u0105t\xF3w i linii prostych. W Holandii rozwija si\u0119 De Stijl - niderlandzki: \u2018styl\u2019, bardziej znany jako ',
+      _react2.default.createElement(
+        'a',
+        { href: 'http://sztukauniwersalna.pl/2017-09-28-neoplastycyzm-moodboard' },
+        'neoplastycyzm'
+      ),
+      ' ustalaj\u0105c zasady sztuki geometrycznej. Zaw\u0119\u017Ca palet\u0119 barw (czyste kolory) i kszta\u0142t\xF3w (prostok\u0105ty, linie). Konstruktywizm \u2018konstruuje\u2019, suprematyzm (K.Malewicz) \u2018wznosi\u2019, wynosi sztuk\u0119 na poziom metafizyczny, przekracza, doprowadza do czystego odczucia. Geometrycznie budowane napi\u0119cie wewn\u0119trzne obrazu odwodzi od my\u015Blenia o \u015Bwiecie kategoriami przedmiotu. Codziennie patrzymy na abstrakcj\u0119 geometryczn\u0105. Znajdujemy j\u0105 nie tylko w galeriach sztuki. Znajdujemy j\u0105 w sklepach, na ulicach, w pracy porz\u0105dkuj\u0105c przestrze\u0144 na biurku. Znajdujemy..., ale czy widzimy?'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7921062/ello-optimized-0bf2e24b.jpg', alt: 'Obraz przedstawia trzy fotografie na zielonym tle. Dwie z nich przedstawiaj\u0105 modelki w makija\u017Cach, jedno zdj\u0119cie to zdj\u0119cie obrazu znanego artysty.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/7921064/ello-optimized-e32e18ad.jpg', alt: 'Obraz przedstawia trzy zdj\u0119cia obraz\xF3w znanego artysty. Ca\u0142o\u015B\u0107 na zielonym tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/7921065/ello-optimized-613bbd0c.jpg', alt: 'Obraz przedstawia trzy zdj\u0119cia, na kt\xF3rych widzimy modeli w kolorowych kostiumach.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/7921066/ello-optimized-1799280a.jpg', alt: 'Obraz przedstawia cztery zdj\u0119cia fragment\xF3w kolorowych budynk\xF3w.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/7921068/ello-optimized-48d42c26.jpg', alt: 'Obraz przedstawia trzy fotografie obraz\xF3w znanego artysty. Obrazy s\u0105 abstrakcyjne i kolorowe.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/7921070/ello-optimized-e5879856.jpg', alt: 'Obraz przedstawia trzy fotografie jedzenia i jedn\u0105 fotografi\u0119 obrazu znanego artysty. Ca\u0142o\u015B\u0107 na zielonym tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/7921071/ello-optimized-79ff22f1.jpg', alt: 'Obraz przedstawia trzy zdj\u0119cia kompozycji geometrycznych i jedno zdj\u0119cie modelki ubranej w jasne stroje.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/7921073/ello-optimized-b167040f.jpg', alt: 'Obraz przedstawia ciemne napisy na zielonym tle.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Abstrakcja geometryczna [moodboard]", "date": "2018-07-05T13:02:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["moodboard", "abstrakcja", "geometria", "sztuka", "sztuka geometryczna", "malarstwo", "kształty"] };
+var body = exports.body = "<p>Myślenie kształtem dotyka odległych czasów odkrycia i wykorzystania koła przez człowieka. Dany kształt ma za zadanie budować, określać sam siebie, porządkować przestrzeń wokół. W otoczeniu kształtów może panować chaos, jednak on sam w swojej istocie stoi w obronie ładu i harmonii. Nawet ten nieregularny lecz zamknięty w formę zdaje się być spokojniejszym. Pierwsza połowa XX wieku to czas rozwoju sztuki geometrycznej. Artystów zajmujących się tą dziedziną łączy dążenie do określania zasad. Rodzi się konstruktywizm, który wprowadza dyscyplinę formalną: określa/porządkuje przestrzeń za pomocą kół, trójkątów i linii prostych. W Holandii rozwija się De Stijl - niderlandzki: ‘styl’, bardziej znany jako <a href=\"http://sztukauniwersalna.pl/2017-09-28-neoplastycyzm-moodboard\">neoplastycyzm</a> ustalając zasady sztuki geometrycznej. Zawęża paletę barw (czyste kolory) i kształtów (prostokąty, linie).\nKonstruktywizm ‘konstruuje’, suprematyzm (K.Malewicz) ‘wznosi’, wynosi sztukę na poziom metafizyczny, przekracza, doprowadza do czystego odczucia. Geometrycznie budowane napięcie wewnętrzne obrazu odwodzi od myślenia o świecie kategoriami przedmiotu.\nCodziennie patrzymy na abstrakcję geometryczną. Znajdujemy ją nie tylko w galeriach sztuki. Znajdujemy ją w sklepach, na ulicach, w pracy porządkując przestrzeń na biurku. Znajdujemy..., ale czy widzimy?</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/7921062/ello-optimized-0bf2e24b.jpg\" alt=\"Obraz przedstawia trzy fotografie na zielonym tle. Dwie z nich przedstawiają modelki w makijażach, jedno zdjęcie to zdjęcie obrazu znanego artysty.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/7921064/ello-optimized-e32e18ad.jpg\" alt=\"Obraz przedstawia trzy zdjęcia obrazów znanego artysty. Całość na zielonym tle.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/7921065/ello-optimized-613bbd0c.jpg\" alt=\"Obraz przedstawia trzy zdjęcia, na których widzimy modeli w kolorowych kostiumach.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/7921066/ello-optimized-1799280a.jpg\" alt=\"Obraz przedstawia cztery zdjęcia fragmentów kolorowych budynków.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/7921068/ello-optimized-48d42c26.jpg\" alt=\"Obraz przedstawia trzy fotografie obrazów znanego artysty. Obrazy są abstrakcyjne i kolorowe.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/7921070/ello-optimized-e5879856.jpg\" alt=\"Obraz przedstawia trzy fotografie jedzenia i jedną fotografię obrazu znanego artysty. Całość na zielonym tle.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/7921071/ello-optimized-79ff22f1.jpg\" alt=\"Obraz przedstawia trzy zdjęcia kompozycji geometrycznych i jedno zdjęcie modelki ubranej w jasne stroje.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/7921073/ello-optimized-b167040f.jpg\" alt=\"Obraz przedstawia ciemne napisy na zielonym tle.\" /></p>\n";
+var raw = exports.raw = "\nMyślenie kształtem dotyka odległych czasów odkrycia i wykorzystania koła przez człowieka. Dany kształt ma za zadanie budować, określać sam siebie, porządkować przestrzeń wokół. W otoczeniu kształtów może panować chaos, jednak on sam w swojej istocie stoi w obronie ładu i harmonii. Nawet ten nieregularny lecz zamknięty w formę zdaje się być spokojniejszym. Pierwsza połowa XX wieku to czas rozwoju sztuki geometrycznej. Artystów zajmujących się tą dziedziną łączy dążenie do określania zasad. Rodzi się konstruktywizm, który wprowadza dyscyplinę formalną: określa/porządkuje przestrzeń za pomocą kół, trójkątów i linii prostych. W Holandii rozwija się De Stijl - niderlandzki: ‘styl’, bardziej znany jako [neoplastycyzm](http://sztukauniwersalna.pl/2017-09-28-neoplastycyzm-moodboard) ustalając zasady sztuki geometrycznej. Zawęża paletę barw (czyste kolory) i kształtów (prostokąty, linie).\nKonstruktywizm ‘konstruuje’, suprematyzm (K.Malewicz) ‘wznosi’, wynosi sztukę na poziom metafizyczny, przekracza, doprowadza do czystego odczucia. Geometrycznie budowane napięcie wewnętrzne obrazu odwodzi od myślenia o świecie kategoriami przedmiotu. \nCodziennie patrzymy na abstrakcję geometryczną. Znajdujemy ją nie tylko w galeriach sztuki. Znajdujemy ją w sklepach, na ulicach, w pracy porządkując przestrzeń na biurku. Znajdujemy…, ale czy widzimy?\n\n![Obraz przedstawia trzy fotografie na zielonym tle. Dwie z nich przedstawiają modelki w makijażach, jedno zdjęcie to zdjęcie obrazu znanego artysty.](https://assets1.ello.co/uploads/asset/attachment/7921062/ello-optimized-0bf2e24b.jpg)\n![Obraz przedstawia trzy zdjęcia obrazów znanego artysty. Całość na zielonym tle.](https://assets0.ello.co/uploads/asset/attachment/7921064/ello-optimized-e32e18ad.jpg)\n![Obraz przedstawia trzy zdjęcia, na których widzimy modeli w kolorowych kostiumach.](https://assets2.ello.co/uploads/asset/attachment/7921065/ello-optimized-613bbd0c.jpg)\n![Obraz przedstawia cztery zdjęcia fragmentów kolorowych budynków.](https://assets0.ello.co/uploads/asset/attachment/7921066/ello-optimized-1799280a.jpg)\n![Obraz przedstawia trzy fotografie obrazów znanego artysty. Obrazy są abstrakcyjne i kolorowe.](https://assets1.ello.co/uploads/asset/attachment/7921068/ello-optimized-48d42c26.jpg)\n![Obraz przedstawia trzy fotografie jedzenia i jedną fotografię obrazu znanego artysty. Całość na zielonym tle.](https://assets0.ello.co/uploads/asset/attachment/7921070/ello-optimized-e5879856.jpg)\n![Obraz przedstawia trzy zdjęcia kompozycji geometrycznych i jedno zdjęcie modelki ubranej w jasne stroje.](https://assets2.ello.co/uploads/asset/attachment/7921071/ello-optimized-79ff22f1.jpg)\n![Obraz przedstawia ciemne napisy na zielonym tle.](https://assets2.ello.co/uploads/asset/attachment/7921073/ello-optimized-b167040f.jpg)";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 125 */
@@ -9982,6 +10036,18 @@ webpackEmptyContext.id = 125;
 
 /***/ }),
 /* 126 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 126;
+
+/***/ }),
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -10002,19 +10068,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 126;
+webpackContext.id = 127;
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(128);
+module.exports = __webpack_require__(129);
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10032,7 +10098,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(129);
+var _propTypes = __webpack_require__(130);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -10236,13 +10302,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_129__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_130__;
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10256,7 +10322,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10264,7 +10330,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10277,7 +10343,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10311,7 +10377,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10324,7 +10390,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10333,7 +10399,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10341,7 +10407,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10349,7 +10415,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10364,7 +10430,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10379,7 +10445,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10394,7 +10460,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10418,7 +10484,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(142);
+var s = __webpack_require__(143);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -10449,7 +10515,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10457,7 +10523,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10481,7 +10547,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10532,7 +10598,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10540,7 +10606,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10549,7 +10615,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(147);
+var s = __webpack_require__(148);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -10582,7 +10648,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10592,7 +10658,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10636,22 +10702,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 151,
-	"./Feed.js": 152,
-	"./Ingredient.js": 153,
-	"./Method.js": 154,
-	"./Recipe.js": 155,
-	"./TableOfContents.js": 156
+	"./Crumbs.js": 152,
+	"./Feed.js": 153,
+	"./Ingredient.js": 154,
+	"./Method.js": 155,
+	"./Recipe.js": 156,
+	"./TableOfContents.js": 157
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -10667,10 +10733,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 150;
+webpackContext.id = 151;
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10685,7 +10751,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10700,7 +10766,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10715,7 +10781,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10730,7 +10796,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10745,7 +10811,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10760,7 +10826,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10784,7 +10850,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
