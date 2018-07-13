@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_130__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_131__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(145);
+var Feed_1 = __webpack_require__(146);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(147);
+var Recipe_1 = __webpack_require__(148);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(149);
+var Root_1 = __webpack_require__(150);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(131);
+var s = __webpack_require__(132);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(132);
+var s = __webpack_require__(133);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(125),
-ROOT: __webpack_require__(126),
-LAYOUTS: __webpack_require__(127),
-INCLUDES: __webpack_require__(151)};
+UPLOADS: __webpack_require__(126),
+ROOT: __webpack_require__(127),
+LAYOUTS: __webpack_require__(128),
+INCLUDES: __webpack_require__(152)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(151)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(133);
+var s = __webpack_require__(134);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(137);
+var s = __webpack_require__(138);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(150);
+__webpack_require__(151);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(128);
+var react_disqus_comments_1 = __webpack_require__(129);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(142);
-var s = __webpack_require__(144);
+var FacebookLike_1 = __webpack_require__(143);
+var s = __webpack_require__(145);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(134);
-var s = __webpack_require__(135);
+__webpack_require__(135);
+var s = __webpack_require__(136);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(136);
+var s = __webpack_require__(137);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(139);
+var s = __webpack_require__(140);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(138);
+var s = __webpack_require__(139);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(140);
+var s = __webpack_require__(141);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(141);
+var s = __webpack_require__(142);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(146);
+var s = __webpack_require__(147);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(158);
-var menu_1 = __webpack_require__(159);
+var tags_1 = __webpack_require__(159);
+var menu_1 = __webpack_require__(160);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2701,7 +2701,8 @@ var map = {
 	"./2018-06-05-jestem-wdzieczna-ci-zycie.markdown": 121,
 	"./2018-06-07-hiperrealizm-moodboard.markdown": 122,
 	"./2018-06-27-rgb-trzy-stylizacje-z-mojej-szafy.markdown": 123,
-	"./2018-07-05-abstrakcja-geometryczna-moodboard.markdown": 124
+	"./2018-07-05-abstrakcja-geometryczna-moodboard.markdown": 124,
+	"./2018-07-13-make-up-inspirowany-obrazem-blue-nude-ii-by-henri-matisse.markdown": 125
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -10024,15 +10025,76 @@ var raw = exports.raw = "\nMyślenie kształtem dotyka odległych czasów odkryc
 
 /***/ }),
 /* 125 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 125;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/7955482/ello-optimized-a5bb3b8a.jpg', alt: 'Obraz przedstawia portret kobiety na granatowym tle. Kobieta patrzy w bok, ma z\u0142oty naszyjnik. Po prawej stronie fotografii znajduj\u0105 si\u0119 elementy wyci\u0119te ze zdj\u0119cia.' })
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Jest s\u0142oneczna jesie\u0144 1905 roku. Mieszka\u0144cy Pary\u017Ca lub jego odwiedzaj\u0105cy maj\u0105 okazj\u0119 podziwia\u0107 dzie\u0142a sztuki na wystawie III Salon Jesienny przy Polach Elizejskich. Do si\xF3dmej w kolejno\u015Bci sali wchodzi znany w\xF3wczas krytyk, Louis Vauxcelles. P \u015Brodku sali ustawione s\u0105 rze\u017Aby na\u015Bladuj\u0105ce styl Donatella, natomiast na \u015Bcianach wisz\u0105 obrazy m\u0142odych malarzy: Matisse\u2019a, Andr\xE9 Deraina, Maurice\u2019a Vlamincka, Jeana Puy, Henriego Manguina i Alberta Marqueta. Przej\u0119ty i zszokowany krytyk krzyczy: \u201EDonatello po\u015Br\xF3d dzikich bestii!\u201D. W najbli\u017Cszym czasie do grupy artyst\xF3w przylgnie nazwa \u2018les fauves\u2019 (z franc. dzikie zwierz\u0119ta, dzikie bestie).'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Nieformalnym przyw\xF3dc\u0105 grupy fowist\xF3w zosta\u0142 Henri Matisse. \u017Bywe, nasycone kolory krzycza\u0142y dzikim wrzaskiem z p\u0142\xF3cien artysty. Najwspanialsze prace powsta\u0142y nad Morzem \u015Ar\xF3dziemnym w miasteczku po\u0142o\u017Conym przy granicy hiszpa\u0144skiej. Pracowa\u0142 tam razem z Derainem. Matisse twierdzi\u0142, \u017Ce nigdzie indziej na \u015Bwiecie niebo nie jest tak b\u0142\u0119kitne jak w miasteczku Collioure. P\xF3\u017Aniej malowali tam tak\u017Ce Pablo Picasso, Georges Braque, Salvador Dali.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/7955487/ello-optimized-2c8c7299.jpg', alt: 'Obraz przedstawia wyci\u0119te ze zdj\u0119cia oczy w niebieskim makija\u017Cu, oraz fragment cia\u0142a. Ca\u0142o\u015B\u0107 na bia\u0142ym tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/7955491/ello-optimized-44cc5b3f.jpg', alt: 'Zdj\u0119cie przedstawia portret kobiety w mocnym makija\u017Cu na granatowym tle.' })
+    ),
+    _react2.default.createElement(
+      'h1',
+      null,
+      'Fowizm'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Fowizm to jeden z mniej sp\xF3jnych kierunk\xF3w w sztuce XX wieku. Kontynuowa\u0142 on zdobycze impresjonizmu opieraj\u0105c sw\u0105 si\u0142\u0119 wyrazu na kolorze. \u0179r\xF3d\u0142o inspiracji fowist\xF3w le\u017Ca\u0142o w ekspresyjnej kolorystyce van Gogha, w \u2018dekoracji sugestywnej\u2019 Paula Gauguina. Kolor budowa\u0142 obraz. Dzie\u0142o przedstawia\u0142o ulotne wra\u017Cenia zwi\u0105zane z barw\u0105 i \u015Bwiat\u0142em w spos\xF3b szczeg\xF3lny dyskwalifikuj\u0105c przedmiot, jednak nadal nie jeste\u015Bmy w stanie jasno i klarownie skonkretyzowa\u0107 cech tego kierunku. Dwa lata po mocnym debiucie fowist\xF3w ich nowatorstwo przy\u0107mi\u0142 kubizm. Pierwsza faza kubizmu wy\u0142oni\u0142a si\u0119 wraz z dzie\u0142em Pabla Picassa \u2018Portret Gertrudy Stein\u2019 z 1906 roku. Dok\u0142adnie tego roku w mieszkaniu tej Pani Matisse pozna\u0142 Picassa. Gertruda Stein by\u0142a pisark\u0105 i propagatork\u0105 sztuki nowoczesnej. Fowist\u0119 z Hiszpanem \u0142\u0105czy\u0142a d\u0142ugoletnia znajomo\u015B\u0107. Nieraz wymieniali si\u0119 obrazami lub razem wystawiali swoje prace w paryskich galeriach. Matisse stara\u0142 si\u0119 pozosta\u0107 \u2018przy swoim\u2019, lecz w paru pracach wida\u0107 dos\u0142owne wp\u0142ywy kubizmu (\u2018Portret m\u0142odego rybaka\u2019 z 1906 roku lub \u2019Fryzura\u2019 z 1907 roku).'
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Make-up inspirowany obrazem. \n'Blue Nude II' by Henri_Matisse", "date": "2018-07-13T12:36:00.000Z", "categories": ["Sztuka Makijażu"], "tags": ["makeup", "makijaż", "dzieło", "henri matisse", "fowizm", "artysta", "sztuka"] };
+var body = exports.body = "<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/7955482/ello-optimized-a5bb3b8a.jpg\" alt=\"Obraz przedstawia portret kobiety na granatowym tle. Kobieta patrzy w bok, ma złoty naszyjnik. Po prawej stronie fotografii znajdują się elementy wycięte ze zdjęcia.\" /></p>\n<p>Jest słoneczna jesień 1905 roku. Mieszkańcy Paryża lub jego odwiedzający mają okazję podziwiać dzieła sztuki na wystawie III Salon Jesienny przy Polach Elizejskich. Do siódmej w kolejności sali wchodzi znany wówczas krytyk, Louis Vauxcelles. P środku sali ustawione są rzeźby naśladujące styl Donatella, natomiast na ścianach wiszą obrazy młodych malarzy: Matisse’a, André\nDeraina, Maurice’a Vlamincka, Jeana Puy, Henriego Manguina i Alberta Marqueta. Przejęty i zszokowany krytyk krzyczy: „Donatello pośród dzikich bestii!”. W najbliższym czasie do grupy artystów przylgnie nazwa ‘les fauves’ (z franc. dzikie zwierzęta, dzikie bestie).</p>\n<p>Nieformalnym przywódcą grupy fowistów został Henri Matisse. Żywe, nasycone kolory krzyczały dzikim wrzaskiem z płócien artysty. Najwspanialsze prace powstały nad Morzem Śródziemnym w miasteczku położonym przy granicy hiszpańskiej. Pracował tam razem z Derainem. Matisse twierdził, że nigdzie indziej na świecie niebo nie jest tak błękitne jak w miasteczku Collioure. Później malowali tam także Pablo Picasso, Georges Braque, Salvador Dali.</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/7955487/ello-optimized-2c8c7299.jpg\" alt=\"Obraz przedstawia wycięte ze zdjęcia oczy w niebieskim makijażu, oraz fragment ciała. Całość na białym tle.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/7955491/ello-optimized-44cc5b3f.jpg\" alt=\"Zdjęcie przedstawia portret kobiety w mocnym makijażu na granatowym tle.\" /></p>\n<h1>Fowizm</h1>\n<p>Fowizm to jeden z mniej spójnych kierunków w sztuce XX wieku. Kontynuował on zdobycze impresjonizmu opierając swą siłę wyrazu na kolorze. Źródło inspiracji fowistów leżało w ekspresyjnej kolorystyce van Gogha, w ‘dekoracji sugestywnej’ Paula Gauguina. Kolor budował obraz. Dzieło przedstawiało ulotne wrażenia związane z barwą i światłem w sposób szczególny dyskwalifikując przedmiot, jednak nadal nie jesteśmy w stanie jasno i klarownie skonkretyzować cech tego kierunku. Dwa lata po mocnym debiucie fowistów ich nowatorstwo przyćmił kubizm.\nPierwsza faza kubizmu wyłoniła się wraz z dziełem Pabla Picassa ‘Portret Gertrudy Stein’ z 1906 roku. Dokładnie tego roku w mieszkaniu tej Pani Matisse poznał Picassa. Gertruda Stein była pisarką i propagatorką sztuki nowoczesnej. Fowistę z Hiszpanem łączyła długoletnia znajomość. Nieraz wymieniali się obrazami lub razem wystawiali swoje prace w paryskich galeriach. Matisse starał się pozostać ‘przy swoim’, lecz w paru pracach widać dosłowne wpływy kubizmu (‘Portret młodego rybaka’ z 1906 roku lub ’Fryzura’ z 1907 roku).</p>\n";
+var raw = exports.raw = "\n![Obraz przedstawia portret kobiety na granatowym tle. Kobieta patrzy w bok, ma złoty naszyjnik. Po prawej stronie fotografii znajdują się elementy wycięte ze zdjęcia.](https://assets0.ello.co/uploads/asset/attachment/7955482/ello-optimized-a5bb3b8a.jpg)\n\nJest słoneczna jesień 1905 roku. Mieszkańcy Paryża lub jego odwiedzający mają okazję podziwiać dzieła sztuki na wystawie III Salon Jesienny przy Polach Elizejskich. Do siódmej w kolejności sali wchodzi znany wówczas krytyk, Louis Vauxcelles. P środku sali ustawione są rzeźby naśladujące styl Donatella, natomiast na ścianach wiszą obrazy młodych malarzy: Matisse’a, André\n Deraina, Maurice’a Vlamincka, Jeana Puy, Henriego Manguina i Alberta Marqueta. Przejęty i zszokowany krytyk krzyczy: „Donatello pośród dzikich bestii!”. W najbliższym czasie do grupy artystów przylgnie nazwa ‘les fauves’ (z franc. dzikie zwierzęta, dzikie bestie).\n\nNieformalnym przywódcą grupy fowistów został Henri Matisse. Żywe, nasycone kolory krzyczały dzikim wrzaskiem z płócien artysty. Najwspanialsze prace powstały nad Morzem Śródziemnym w miasteczku położonym przy granicy hiszpańskiej. Pracował tam razem z Derainem. Matisse twierdził, że nigdzie indziej na świecie niebo nie jest tak błękitne jak w miasteczku Collioure. Później malowali tam także Pablo Picasso, Georges Braque, Salvador Dali.\n\n![Obraz przedstawia wycięte ze zdjęcia oczy w niebieskim makijażu, oraz fragment ciała. Całość na białym tle.](https://assets2.ello.co/uploads/asset/attachment/7955487/ello-optimized-2c8c7299.jpg)\n![Zdjęcie przedstawia portret kobiety w mocnym makijażu na granatowym tle.](https://assets2.ello.co/uploads/asset/attachment/7955491/ello-optimized-44cc5b3f.jpg)\n\n# Fowizm\n\nFowizm to jeden z mniej spójnych kierunków w sztuce XX wieku. Kontynuował on zdobycze impresjonizmu opierając swą siłę wyrazu na kolorze. Źródło inspiracji fowistów leżało w ekspresyjnej kolorystyce van Gogha, w ‘dekoracji sugestywnej’ Paula Gauguina. Kolor budował obraz. Dzieło przedstawiało ulotne wrażenia związane z barwą i światłem w sposób szczególny dyskwalifikując przedmiot, jednak nadal nie jesteśmy w stanie jasno i klarownie skonkretyzować cech tego kierunku. Dwa lata po mocnym debiucie fowistów ich nowatorstwo przyćmił kubizm. \nPierwsza faza kubizmu wyłoniła się wraz z dziełem Pabla Picassa ‘Portret Gertrudy Stein’ z 1906 roku. Dokładnie tego roku w mieszkaniu tej Pani Matisse poznał Picassa. Gertruda Stein była pisarką i propagatorką sztuki nowoczesnej. Fowistę z Hiszpanem łączyła długoletnia znajomość. Nieraz wymieniali się obrazami lub razem wystawiali swoje prace w paryskich galeriach. Matisse starał się pozostać ‘przy swoim’, lecz w paru pracach widać dosłowne wpływy kubizmu (‘Portret młodego rybaka’ z 1906 roku lub ’Fryzura’ z 1907 roku).";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 126 */
@@ -10048,6 +10110,18 @@ webpackEmptyContext.id = 126;
 
 /***/ }),
 /* 127 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 127;
+
+/***/ }),
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -10068,19 +10142,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 127;
+webpackContext.id = 128;
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(129);
+module.exports = __webpack_require__(130);
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10098,7 +10172,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(130);
+var _propTypes = __webpack_require__(131);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -10302,13 +10376,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_130__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_131__;
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10322,7 +10396,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10330,7 +10404,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10343,7 +10417,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10377,7 +10451,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10390,7 +10464,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10399,7 +10473,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10407,7 +10481,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10415,7 +10489,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10430,7 +10504,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10445,7 +10519,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10460,7 +10534,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10484,7 +10558,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(143);
+var s = __webpack_require__(144);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -10515,7 +10589,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10523,7 +10597,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10547,7 +10621,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10598,7 +10672,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10606,7 +10680,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10615,7 +10689,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(148);
+var s = __webpack_require__(149);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -10648,7 +10722,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10658,7 +10732,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10702,22 +10776,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 152,
-	"./Feed.js": 153,
-	"./Ingredient.js": 154,
-	"./Method.js": 155,
-	"./Recipe.js": 156,
-	"./TableOfContents.js": 157
+	"./Crumbs.js": 153,
+	"./Feed.js": 154,
+	"./Ingredient.js": 155,
+	"./Method.js": 156,
+	"./Recipe.js": 157,
+	"./TableOfContents.js": 158
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -10733,10 +10807,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 151;
+webpackContext.id = 152;
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10751,7 +10825,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10766,7 +10840,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10781,7 +10855,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10796,7 +10870,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10811,7 +10885,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10826,7 +10900,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10850,7 +10924,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
