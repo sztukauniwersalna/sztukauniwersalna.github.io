@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_131__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_132__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(146);
+var Feed_1 = __webpack_require__(147);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(148);
+var Recipe_1 = __webpack_require__(149);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(150);
+var Root_1 = __webpack_require__(151);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(132);
+var s = __webpack_require__(133);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(133);
+var s = __webpack_require__(134);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(126),
-ROOT: __webpack_require__(127),
-LAYOUTS: __webpack_require__(128),
-INCLUDES: __webpack_require__(152)};
+UPLOADS: __webpack_require__(127),
+ROOT: __webpack_require__(128),
+LAYOUTS: __webpack_require__(129),
+INCLUDES: __webpack_require__(153)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(152)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(134);
+var s = __webpack_require__(135);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(138);
+var s = __webpack_require__(139);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(151);
+__webpack_require__(152);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(129);
+var react_disqus_comments_1 = __webpack_require__(130);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(143);
-var s = __webpack_require__(145);
+var FacebookLike_1 = __webpack_require__(144);
+var s = __webpack_require__(146);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(135);
-var s = __webpack_require__(136);
+__webpack_require__(136);
+var s = __webpack_require__(137);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(137);
+var s = __webpack_require__(138);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(140);
+var s = __webpack_require__(141);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(139);
+var s = __webpack_require__(140);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(141);
+var s = __webpack_require__(142);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(142);
+var s = __webpack_require__(143);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(147);
+var s = __webpack_require__(148);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(159);
-var menu_1 = __webpack_require__(160);
+var tags_1 = __webpack_require__(160);
+var menu_1 = __webpack_require__(161);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2702,7 +2702,8 @@ var map = {
 	"./2018-06-07-hiperrealizm-moodboard.markdown": 122,
 	"./2018-06-27-rgb-trzy-stylizacje-z-mojej-szafy.markdown": 123,
 	"./2018-07-05-abstrakcja-geometryczna-moodboard.markdown": 124,
-	"./2018-07-13-make-up-inspirowany-obrazem-blue-nude-ii-by-henri-matisse.markdown": 125
+	"./2018-07-13-make-up-inspirowany-obrazem-blue-nude-ii-by-henri-matisse.markdown": 125,
+	"./2018-07-27-moje-wybory-czerwiec-slash-lipiec-cz-dot-1.markdown": 126
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -10168,15 +10169,66 @@ var raw = exports.raw = "\n![Obraz przedstawia portret kobiety na granatowym tle
 
 /***/ }),
 /* 126 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 126;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'olela-narrative',
+      null,
+      'Lato jest wtedy, kiedy kreska termometru unosi si\u0119 ponad znacznikiem dwudziestu stopni o godzinie \xF3smej rano. Wtedy ju\u017C wiem, \u017Ce w po\u0142udnie upa\u0142 b\u0119dzie nie do zniesienia. Wiem, \u017Ce warto zaszy\u0107 si\u0119 na moment w klimatyzowanym pomieszczeniu ze szklank\u0105 zimnego (najlepiej cytrusowego) napoju. Takie gor\u0105co i s\u0142o\u0144ce \u2018wymusza\u2019 te\u017C na mnie specjalny rodzaj piel\u0119gnacji sk\xF3ry. Nie wyobra\u017Cam sobie wyj\u015Bcia z domu bez grubej warstwy kremu z filtrem przeciws\u0142onecznym, jak i nie wyobra\u017Cam sobie noszenia ci\u0119\u017Ckiego makija\u017Cu. Warto zainwestowa\u0107 w kosmetyki do piel\u0119gnacji, a kolor\xF3wk\u0119 stosowa\u0107 w tym okresie oszcz\u0119dnie. Wystarczy lekkie podkre\u015Blenie brwi, rz\u0119s i ust aby twarz wygl\u0105da\u0142a wyrazi\u015Bciej bez problemu wycieraj\u0105cego si\u0119 i sp\u0142ywaj\u0105cego podk\u0142adu. W torebce nosz\u0119 bibu\u0142ki matuj\u0105ce i mgie\u0142k\u0119 od\u015Bwie\u017Caj\u0105c\u0105, a przed wyj\u015Bciem smaruj\u0119 cia\u0142o z\u0142otym olejkiem podkre\u015Blaj\u0105cym odcie\u0144 sk\xF3ry. Lato skrywa w sobie paradoks. Po zimnych miesi\u0105cach wszyscy t\u0119sknimy za ciep\u0142em s\u0142o\u0144ca, a kiedy ono wreszcie nadchodzi chowamy si\u0119 przed nim pod cieniem kapelusza, za okularami i kremem.'
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Kosmetyk: piel\u0119gnacja'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Istnieje zasada, \u017Ce kiedy wchodzisz do sklepu w celu zakupienia sp\xF3dnicy to wyjdziesz z niego z par\u0105 but\xF3w, koszulk\u0105, spodniami i wszystkim innym, co sp\xF3dnic\u0105 nie jest. Tak te\u017C pewnego dnia wybra\u0142am si\u0119 do TKMaxx. Ten sklep to z\u0142o. Tu przecena, tam wyprzeda\u017C, a w rogu dizajnerskie dresy od projektanta (to nic, \u017Ce sprzed trzech sezon\xF3w). Zakup obuwia sportowego s\u0142u\u017C\u0105cego do biegania znikn\u0105\u0142 w kolorowej g\xF3rze kosmetyk\xF3w r\xF3wnie szybko jak cie\u0144 Swobody na dystansie 100m. W moje r\u0119ce (i do mojego koszyka) trafi\u0142a r\xF3\u017Cana wersja korea\u0144skiej maseczki od The Cr\xE8me Shop. Je\u015Bli jeste\u015B posiadaczk\u0105 cery wra\u017Cliwej polecam zainteresowa\u0107 si\u0119 preparatami, w kt\xF3rych sk\u0142ad chodz\u0105 ekstrakty b\u0105d\u017A olejki z r\xF3\u017Cy. Za nieca\u0142e 35 z\u0142 (w oryginalnym sklepie internetowym cena za to cudo to 15 dolar\xF3w, czyli ok. 55 z\u0142otych) dostajemy 70 gram jasno-r\xF3\u017Cowej galaretki w minimalistycznym s\u0142oiczku ze z\u0142ot\u0105 nakr\u0119tk\u0105. Na pocz\u0105tku budyniowo-\u017Celowa konsystencja nieco mnie zaskoczy\u0142a, bowiem nigdy nie nak\u0142ada\u0142am na twarz czego\u015B o tej strukturze. Maseczk\u0119 zgodnie z zaleceniem producenta postawiamy na twarzy na noc. Po przebudzeniu sk\xF3ra wygl\u0105da na niesamowicie wypocz\u0119t\u0105, delikatnie rozja\u015Bnion\u0105, a pory s\u0105 ledwie widoczne. Nie jestem w stanie dok\u0142adnie opisa\u0107, ani zrozumie\u0107 dzia\u0142ania tej magicznej galaretki, ale zyska\u0142a moje zaufanie w stu procentach! Stosuj\u0119 j\u0105 zawsze, kiedy wiem, \u017Ce na nast\u0119pny dzie\u0144 musz\u0119 dobrze wygl\u0105da\u0107. Dodatkowym plusem jest fakt, \u017Ce jest ona nietestowana na zwierz\u0119tach. Polecam zainteresowa\u0107 si\u0119 tym r\xF3\u017Cowym cude\u0144kiem!'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/8016437/ello-optimized-2a0e101f.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia martwej natury ze s\u0142oiczkiem ze z\u0142ot\u0105 nakr\u0119tk\u0105.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/8016438/ello-optimized-a4b0bbcd.jpg', alt: 'Zdj\u0119cie przedstawia otwarty s\u0142oik ze z\u0142ot\u0105 nakr\u0119tk\u0105 stoj\u0105cy na r\xF3\u017Cowym talerzu. W tle widzimy pomi\u0119ty bia\u0142y papier.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Moje wybory: czerwiec/lipiec, cz.1", "date": "2018-07-27T13:02:00.000Z", "categories": ["Sztuka Ubioru"], "tags": ["moje wybory", "wybory", "ulubieńcy", "czerwiec", "lipiec", "lato", "my choices", "kosmetyki", "książka", "biżuteria", "akcesoria"] };
+var body = exports.body = "<olela-narrative>\nLato jest wtedy, kiedy kreska termometru unosi się ponad znacznikiem dwudziestu stopni o godzinie ósmej rano. Wtedy już wiem, że w południe upał będzie nie do zniesienia. Wiem, że warto zaszyć się na moment w klimatyzowanym pomieszczeniu ze szklanką zimnego (najlepiej cytrusowego) napoju. Takie gorąco i słońce ‘wymusza’ też na mnie specjalny rodzaj pielęgnacji skóry. Nie wyobrażam sobie wyjścia z domu bez grubej warstwy kremu z filtrem przeciwsłonecznym, jak i nie wyobrażam sobie noszenia ciężkiego makijażu. Warto zainwestować w kosmetyki do pielęgnacji, a kolorówkę stosować w tym okresie oszczędnie. Wystarczy lekkie podkreślenie brwi, rzęs i ust aby twarz wyglądała wyraziściej bez problemu wycierającego się i spływającego podkładu. W torebce noszę bibułki matujące i mgiełkę odświeżającą, a przed wyjściem smaruję ciało złotym olejkiem podkreślającym odcień skóry. Lato skrywa w sobie paradoks. Po zimnych miesiącach wszyscy tęsknimy za ciepłem słońca, a kiedy ono wreszcie nadchodzi chowamy się przed nim pod cieniem kapelusza, za okularami i kremem. \n</olela-narrative>\n<h2>Kosmetyk: pielęgnacja</h2>\n<p>Istnieje zasada, że kiedy wchodzisz do sklepu w celu zakupienia spódnicy to wyjdziesz z niego z parą butów, koszulką, spodniami i wszystkim innym, co spódnicą nie jest. Tak też pewnego dnia wybrałam się do TKMaxx. Ten sklep to zło. Tu przecena, tam wyprzedaż, a w rogu dizajnerskie dresy od projektanta (to nic, że sprzed trzech sezonów). Zakup obuwia sportowego służącego do biegania zniknął w kolorowej górze kosmetyków równie szybko jak cień Swobody na dystansie 100m.\nW moje ręce (i do mojego koszyka) trafiła różana wersja koreańskiej maseczki od The Crème Shop. Jeśli jesteś posiadaczką cery wrażliwej polecam zainteresować się preparatami, w których skład chodzą ekstrakty bądź olejki z róży. Za niecałe 35 zł (w oryginalnym sklepie internetowym cena za to cudo to 15 dolarów, czyli ok. 55 złotych) dostajemy 70 gram jasno-różowej galaretki w minimalistycznym słoiczku ze złotą nakrętką. Na początku budyniowo-żelowa konsystencja nieco mnie zaskoczyła, bowiem nigdy nie nakładałam na twarz czegoś o tej strukturze. Maseczkę zgodnie z zaleceniem producenta postawiamy na twarzy na noc. Po przebudzeniu skóra wygląda na niesamowicie wypoczętą, delikatnie rozjaśnioną, a pory są ledwie widoczne. Nie jestem w stanie dokładnie opisać, ani zrozumieć działania tej magicznej galaretki, ale zyskała moje zaufanie w stu procentach! Stosuję ją zawsze, kiedy wiem, że na następny dzień muszę dobrze wyglądać. Dodatkowym plusem jest fakt, że jest ona nietestowana na zwierzętach. Polecam zainteresować się tym różowym cudeńkiem!</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/8016437/ello-optimized-2a0e101f.jpg\" alt=\"Obraz przedstawia dwa zdjęcia martwej natury ze słoiczkiem ze złotą nakrętką.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/8016438/ello-optimized-a4b0bbcd.jpg\" alt=\"Zdjęcie przedstawia otwarty słoik ze złotą nakrętką stojący na różowym talerzu. W tle widzimy pomięty biały papier.\" /></p>\n";
+var raw = exports.raw = "\n<olela-narrative>\nLato jest wtedy, kiedy kreska termometru unosi się ponad znacznikiem dwudziestu stopni o godzinie ósmej rano. Wtedy już wiem, że w południe upał będzie nie do zniesienia. Wiem, że warto zaszyć się na moment w klimatyzowanym pomieszczeniu ze szklanką zimnego (najlepiej cytrusowego) napoju. Takie gorąco i słońce ‘wymusza’ też na mnie specjalny rodzaj pielęgnacji skóry. Nie wyobrażam sobie wyjścia z domu bez grubej warstwy kremu z filtrem przeciwsłonecznym, jak i nie wyobrażam sobie noszenia ciężkiego makijażu. Warto zainwestować w kosmetyki do pielęgnacji, a kolorówkę stosować w tym okresie oszczędnie. Wystarczy lekkie podkreślenie brwi, rzęs i ust aby twarz wyglądała wyraziściej bez problemu wycierającego się i spływającego podkładu. W torebce noszę bibułki matujące i mgiełkę odświeżającą, a przed wyjściem smaruję ciało złotym olejkiem podkreślającym odcień skóry. Lato skrywa w sobie paradoks. Po zimnych miesiącach wszyscy tęsknimy za ciepłem słońca, a kiedy ono wreszcie nadchodzi chowamy się przed nim pod cieniem kapelusza, za okularami i kremem. \n</olela-narrative>\n\n## Kosmetyk: pielęgnacja\n\nIstnieje zasada, że kiedy wchodzisz do sklepu w celu zakupienia spódnicy to wyjdziesz z niego z parą butów, koszulką, spodniami i wszystkim innym, co spódnicą nie jest. Tak też pewnego dnia wybrałam się do TKMaxx. Ten sklep to zło. Tu przecena, tam wyprzedaż, a w rogu dizajnerskie dresy od projektanta (to nic, że sprzed trzech sezonów). Zakup obuwia sportowego służącego do biegania zniknął w kolorowej górze kosmetyków równie szybko jak cień Swobody na dystansie 100m.\nW moje ręce (i do mojego koszyka) trafiła różana wersja koreańskiej maseczki od The Crème Shop. Jeśli jesteś posiadaczką cery wrażliwej polecam zainteresować się preparatami, w których skład chodzą ekstrakty bądź olejki z róży. Za niecałe 35 zł (w oryginalnym sklepie internetowym cena za to cudo to 15 dolarów, czyli ok. 55 złotych) dostajemy 70 gram jasno-różowej galaretki w minimalistycznym słoiczku ze złotą nakrętką. Na początku budyniowo-żelowa konsystencja nieco mnie zaskoczyła, bowiem nigdy nie nakładałam na twarz czegoś o tej strukturze. Maseczkę zgodnie z zaleceniem producenta postawiamy na twarzy na noc. Po przebudzeniu skóra wygląda na niesamowicie wypoczętą, delikatnie rozjaśnioną, a pory są ledwie widoczne. Nie jestem w stanie dokładnie opisać, ani zrozumieć działania tej magicznej galaretki, ale zyskała moje zaufanie w stu procentach! Stosuję ją zawsze, kiedy wiem, że na następny dzień muszę dobrze wyglądać. Dodatkowym plusem jest fakt, że jest ona nietestowana na zwierzętach. Polecam zainteresować się tym różowym cudeńkiem!\n\n![Obraz przedstawia dwa zdjęcia martwej natury ze słoiczkiem ze złotą nakrętką.](https://assets2.ello.co/uploads/asset/attachment/8016437/ello-optimized-2a0e101f.jpg)\n![Zdjęcie przedstawia otwarty słoik ze złotą nakrętką stojący na różowym talerzu. W tle widzimy pomięty biały papier.](https://assets2.ello.co/uploads/asset/attachment/8016438/ello-optimized-a4b0bbcd.jpg)";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 127 */
@@ -10192,6 +10244,18 @@ webpackEmptyContext.id = 127;
 
 /***/ }),
 /* 128 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 128;
+
+/***/ }),
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -10212,19 +10276,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 128;
+webpackContext.id = 129;
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(130);
+module.exports = __webpack_require__(131);
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10242,7 +10306,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(131);
+var _propTypes = __webpack_require__(132);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -10446,13 +10510,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_131__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_132__;
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10466,7 +10530,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10474,7 +10538,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10487,7 +10551,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10521,7 +10585,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10534,7 +10598,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10543,7 +10607,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10551,7 +10615,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10559,7 +10623,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10574,7 +10638,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10589,7 +10653,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10604,7 +10668,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10628,7 +10692,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(144);
+var s = __webpack_require__(145);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -10659,7 +10723,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10667,7 +10731,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10691,7 +10755,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10742,7 +10806,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10750,7 +10814,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10759,7 +10823,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(149);
+var s = __webpack_require__(150);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -10792,7 +10856,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10802,7 +10866,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10846,22 +10910,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 153,
-	"./Feed.js": 154,
-	"./Ingredient.js": 155,
-	"./Method.js": 156,
-	"./Recipe.js": 157,
-	"./TableOfContents.js": 158
+	"./Crumbs.js": 154,
+	"./Feed.js": 155,
+	"./Ingredient.js": 156,
+	"./Method.js": 157,
+	"./Recipe.js": 158,
+	"./TableOfContents.js": 159
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -10877,10 +10941,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 152;
+webpackContext.id = 153;
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10895,7 +10959,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10910,7 +10974,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10925,7 +10989,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10940,7 +11004,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10955,7 +11019,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10970,7 +11034,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10994,7 +11058,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
