@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_132__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_133__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(147);
+var Feed_1 = __webpack_require__(148);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(149);
+var Recipe_1 = __webpack_require__(150);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(151);
+var Root_1 = __webpack_require__(152);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(133);
+var s = __webpack_require__(134);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(134);
+var s = __webpack_require__(135);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(127),
-ROOT: __webpack_require__(128),
-LAYOUTS: __webpack_require__(129),
-INCLUDES: __webpack_require__(153)};
+UPLOADS: __webpack_require__(128),
+ROOT: __webpack_require__(129),
+LAYOUTS: __webpack_require__(130),
+INCLUDES: __webpack_require__(154)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(153)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(135);
+var s = __webpack_require__(136);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(139);
+var s = __webpack_require__(140);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(152);
+__webpack_require__(153);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(130);
+var react_disqus_comments_1 = __webpack_require__(131);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(144);
-var s = __webpack_require__(146);
+var FacebookLike_1 = __webpack_require__(145);
+var s = __webpack_require__(147);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(136);
-var s = __webpack_require__(137);
+__webpack_require__(137);
+var s = __webpack_require__(138);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(138);
+var s = __webpack_require__(139);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(141);
+var s = __webpack_require__(142);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(140);
+var s = __webpack_require__(141);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(142);
+var s = __webpack_require__(143);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(143);
+var s = __webpack_require__(144);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(148);
+var s = __webpack_require__(149);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(160);
-var menu_1 = __webpack_require__(161);
+var tags_1 = __webpack_require__(161);
+var menu_1 = __webpack_require__(162);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2703,7 +2703,8 @@ var map = {
 	"./2018-06-27-rgb-trzy-stylizacje-z-mojej-szafy.markdown": 123,
 	"./2018-07-05-abstrakcja-geometryczna-moodboard.markdown": 124,
 	"./2018-07-13-make-up-inspirowany-obrazem-blue-nude-ii-by-henri-matisse.markdown": 125,
-	"./2018-07-27-moje-wybory-czerwiec-slash-lipiec-cz-dot-1.markdown": 126
+	"./2018-07-27-moje-wybory-czerwiec-slash-lipiec-cz-dot-1.markdown": 126,
+	"./2018-07-30-moje-wybory-czerwiec-slash-lipiec-cz-dot-2.markdown": 127
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -10334,15 +10335,60 @@ var raw = exports.raw = "\n<olela-narrative>\nLato jest wtedy, kiedy kreska term
 
 /***/ }),
 /* 127 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 127;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'olela-narrative',
+      null,
+      'Oleje to skarby ziemi. Aby zachowa\u0107 m\u0142odo\u015B\u0107 i si\u0142\u0119 nale\u017Cy korzysta\u0107 z tych skarb\xF3w codziennie, je\u015B\u0107 je, piel\u0119gnowa\u0107 nimi sk\xF3r\u0119 twarzy i cia\u0142a, delektowa\u0107 si\u0119 ich zapachem. Olej mo\u017Cna pozyska\u0107 praktycznie ze wszystkiego. Na pewno s\u0142ysza\u0142e\u015B o prozdrowotnych w\u0142a\u015Bciwo\u015Bciach oleju lnianego, ze wzgl\u0119du na bogactwo kwas\xF3w omega 3 i 6 w nim zawartych. Podobno wystarczy \u0142y\u017Cka oliwy z oliwek dziennie, aby stanowczo op\xF3\u017Ani\u0107 procesy starzenia si\u0119 kom\xF3rek. To, co dzia\u0142a od \u015Brodka dzia\u0142a r\xF3wnie\u017C na zewn\u0105trz. Olej ze s\u0142odkich migda\u0142\xF3w b\u0119dzie \u015Bwietny dla cery suchej, nawil\u017Cy, uj\u0119drni, zadba o dawk\u0119 witaminy E. Olej z czarnuszki cudownie zregeneruje zniszczone w\u0142osy, a olej z miodli indyjskiej (olej neem) pomo\u017Ce w regeneracji drobnych ran i uspokoi tr\u0105dzik.'
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Kosmetyk: piel\u0119gnacja'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Cudownie jest po\u0142\u0105czy\u0107 niesamowite w\u0142a\u015Bciwo\u015Bci olejk\xF3w (olejek ze s\u0142odkich migda\u0142\xF3w, olejek z kamelii, olejek z og\xF3recznika, olejek z orzech\xF3w laskowych, olejek z orzech\xF3w makadamia, olejek arganowy, olejek z kamelii japo\u0144skiej tsubaki) ze z\u0142otem drobinek, kt\xF3re roz\u015Bwietl\u0105 sk\xF3r\u0119 i podkre\u015Bl\u0105 letni\u0105 opalenizn\u0119. Nuxe Huile Prodigieuse\xAE Or to kultowy produkt, w kt\xF3rym jestem zakochana ju\u017C drugie lato. Zazwyczaj u\u017Cywam go przed samym wyj\u015Bciem z domu. Spryskuj\u0119 nim nogi i dekolt. Z\u0142ote drobiny przepi\u0119knie podkre\u015Blaj\u0105 opalenizn\u0119 i cudownie mieni\u0105 si\u0119 w blasku letniego s\u0142o\u0144ca. Jednak na tym nie ko\u0144cz\u0105 si\u0119 zastosowania olejku Nuxe. Mo\u017Cesz piel\u0119gnowa\u0107 nim w\u0142osy lub u\u017Cy\u0107 jako roz\u015Bwietlacz na policzki, nos, usta.'
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Moje wybory: czerwiec/lipiec, cz.2", "date": "2018-07-30T16:40:00.000Z", "categories": ["Sztuka Ubioru"], "tags": ["moje wybory", "my choices", "ulubieńcy", "lato", "kosmetyki", "kobieta", "sztuka", "akcesoria"] };
+var body = exports.body = "<olela-narrative>\nOleje to skarby ziemi. Aby zachować młodość i siłę należy korzystać z tych skarbów codziennie, jeść je, pielęgnować nimi skórę twarzy i ciała, delektować się ich zapachem. Olej można pozyskać praktycznie ze wszystkiego. Na pewno słyszałeś o prozdrowotnych właściwościach oleju lnianego, ze względu na bogactwo kwasów omega 3 i 6 w nim zawartych. Podobno wystarczy łyżka oliwy z oliwek dziennie, aby stanowczo opóźnić procesy starzenia się komórek. To, co działa od środka działa również na zewnątrz. Olej ze słodkich migdałów będzie świetny dla cery suchej, nawilży, ujędrni, zadba o dawkę witaminy E. Olej z czarnuszki cudownie zregeneruje zniszczone włosy, a olej z miodli indyjskiej (olej neem) pomoże w regeneracji drobnych ran i uspokoi trądzik.\n</olela-narrative>\n<h2>Kosmetyk: pielęgnacja</h2>\n<p>Cudownie jest połączyć niesamowite właściwości olejków (olejek ze słodkich migdałów, olejek z kamelii, olejek z ogórecznika, olejek z orzechów laskowych, olejek z orzechów makadamia, olejek arganowy, olejek z kamelii japońskiej tsubaki) ze złotem drobinek, które rozświetlą skórę i podkreślą letnią opaleniznę. Nuxe Huile Prodigieuse® Or to kultowy produkt, w którym jestem zakochana już drugie lato. Zazwyczaj używam go przed samym wyjściem z domu. Spryskuję nim nogi i dekolt. Złote drobiny przepięknie podkreślają opaleniznę i cudownie mienią się w blasku letniego słońca. Jednak na tym nie kończą się zastosowania olejku Nuxe. Możesz pielęgnować nim włosy lub użyć jako rozświetlacz na policzki, nos, usta.</p>\n";
+var raw = exports.raw = "\n<olela-narrative>\nOleje to skarby ziemi. Aby zachować młodość i siłę należy korzystać z tych skarbów codziennie, jeść je, pielęgnować nimi skórę twarzy i ciała, delektować się ich zapachem. Olej można pozyskać praktycznie ze wszystkiego. Na pewno słyszałeś o prozdrowotnych właściwościach oleju lnianego, ze względu na bogactwo kwasów omega 3 i 6 w nim zawartych. Podobno wystarczy łyżka oliwy z oliwek dziennie, aby stanowczo opóźnić procesy starzenia się komórek. To, co działa od środka działa również na zewnątrz. Olej ze słodkich migdałów będzie świetny dla cery suchej, nawilży, ujędrni, zadba o dawkę witaminy E. Olej z czarnuszki cudownie zregeneruje zniszczone włosy, a olej z miodli indyjskiej (olej neem) pomoże w regeneracji drobnych ran i uspokoi trądzik.\n</olela-narrative>\n\n## Kosmetyk: pielęgnacja\n\nCudownie jest połączyć niesamowite właściwości olejków (olejek ze słodkich migdałów, olejek z kamelii, olejek z ogórecznika, olejek z orzechów laskowych, olejek z orzechów makadamia, olejek arganowy, olejek z kamelii japońskiej tsubaki) ze złotem drobinek, które rozświetlą skórę i podkreślą letnią opaleniznę. Nuxe Huile Prodigieuse® Or to kultowy produkt, w którym jestem zakochana już drugie lato. Zazwyczaj używam go przed samym wyjściem z domu. Spryskuję nim nogi i dekolt. Złote drobiny przepięknie podkreślają opaleniznę i cudownie mienią się w blasku letniego słońca. Jednak na tym nie kończą się zastosowania olejku Nuxe. Możesz pielęgnować nim włosy lub użyć jako rozświetlacz na policzki, nos, usta. ";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 128 */
@@ -10358,6 +10404,18 @@ webpackEmptyContext.id = 128;
 
 /***/ }),
 /* 129 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 129;
+
+/***/ }),
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -10378,19 +10436,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 129;
+webpackContext.id = 130;
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(131);
+module.exports = __webpack_require__(132);
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10408,7 +10466,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(132);
+var _propTypes = __webpack_require__(133);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -10612,13 +10670,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_132__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_133__;
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10632,7 +10690,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10640,7 +10698,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10653,7 +10711,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10687,7 +10745,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10700,7 +10758,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10709,7 +10767,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10717,7 +10775,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10725,7 +10783,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10740,7 +10798,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10755,7 +10813,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10770,7 +10828,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10794,7 +10852,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(145);
+var s = __webpack_require__(146);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -10825,7 +10883,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10833,7 +10891,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10857,7 +10915,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10908,7 +10966,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10916,7 +10974,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10925,7 +10983,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(150);
+var s = __webpack_require__(151);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -10958,7 +11016,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10968,7 +11026,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11012,22 +11070,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 154,
-	"./Feed.js": 155,
-	"./Ingredient.js": 156,
-	"./Method.js": 157,
-	"./Recipe.js": 158,
-	"./TableOfContents.js": 159
+	"./Crumbs.js": 155,
+	"./Feed.js": 156,
+	"./Ingredient.js": 157,
+	"./Method.js": 158,
+	"./Recipe.js": 159,
+	"./TableOfContents.js": 160
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -11043,10 +11101,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 153;
+webpackContext.id = 154;
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11061,7 +11119,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11076,7 +11134,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11091,7 +11149,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11106,7 +11164,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11121,7 +11179,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11136,7 +11194,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11160,7 +11218,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
