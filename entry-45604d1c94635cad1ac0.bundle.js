@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_133__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_134__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(148);
+var Feed_1 = __webpack_require__(149);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(150);
+var Recipe_1 = __webpack_require__(151);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(152);
+var Root_1 = __webpack_require__(153);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(134);
+var s = __webpack_require__(135);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(135);
+var s = __webpack_require__(136);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(128),
-ROOT: __webpack_require__(129),
-LAYOUTS: __webpack_require__(130),
-INCLUDES: __webpack_require__(154)};
+UPLOADS: __webpack_require__(129),
+ROOT: __webpack_require__(130),
+LAYOUTS: __webpack_require__(131),
+INCLUDES: __webpack_require__(155)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(154)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(136);
+var s = __webpack_require__(137);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(140);
+var s = __webpack_require__(141);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(153);
+__webpack_require__(154);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(131);
+var react_disqus_comments_1 = __webpack_require__(132);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(145);
-var s = __webpack_require__(147);
+var FacebookLike_1 = __webpack_require__(146);
+var s = __webpack_require__(148);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(137);
-var s = __webpack_require__(138);
+__webpack_require__(138);
+var s = __webpack_require__(139);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(139);
+var s = __webpack_require__(140);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(142);
+var s = __webpack_require__(143);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(141);
+var s = __webpack_require__(142);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(143);
+var s = __webpack_require__(144);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(144);
+var s = __webpack_require__(145);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(149);
+var s = __webpack_require__(150);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(161);
-var menu_1 = __webpack_require__(162);
+var tags_1 = __webpack_require__(162);
+var menu_1 = __webpack_require__(163);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2704,7 +2704,8 @@ var map = {
 	"./2018-07-05-abstrakcja-geometryczna-moodboard.markdown": 124,
 	"./2018-07-13-make-up-inspirowany-obrazem-blue-nude-ii-by-henri-matisse.markdown": 125,
 	"./2018-07-27-moje-wybory-czerwiec-slash-lipiec-cz-dot-1.markdown": 126,
-	"./2018-07-30-moje-wybory-czerwiec-slash-lipiec-cz-dot-2.markdown": 127
+	"./2018-07-30-moje-wybory-czerwiec-slash-lipiec-cz-dot-2.markdown": 127,
+	"./2018-08-09-secesja-moodboard.markdown": 128
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -10476,15 +10477,72 @@ var raw = exports.raw = "\n<olela-narrative>\nOleje to skarby ziemi. Aby zachowa
 
 /***/ }),
 /* 128 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 128;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Dekoracyjno\u015B\u0107, bogata ornamentyka abstrakcyjna lub ro\u015Blinna, mi\u0119kka falista linia to cechy stylu secesyjnego. Secesja europejska trwa\u0142a od ko\u0144ca XIX wieku do pierwszego dziesi\u0119ciolecia wieku XX i by\u0142a wliczana w ramy modernizmu. Inspiracje czerpane ze sztuki japo\u0144skiej przeplataj\u0105 si\u0119 w swobodnych uk\u0142adach kompozycyjnych daj\u0105c wra\u017Cenie p\u0142aszczyznowo\u015Bci. \u0141aci\u0144skie \u2018secessio\u2019 oznacza \u2018oddalenie si\u0119, wycofanie\u2019, co mo\u017Ce \u015Bwiadczy\u0107 o pragnieniu wyj\u015Bcia ponad dotychczasowe ramy sztuki i zbudowania nowych zasad. Wra\u017Cenie to podkre\u015Bla francuskie \u2018art nouveau\u2019, czyli \u2018nowa sztuka\u2019 \u2013 tak w\u0142a\u015Bnie we Francji nazywano styl secesyjny. Secesja mia\u0142a sw\xF3j wyraz w malarstwie, grafice, architekturze, modzie, wystroju wn\u0119trz. Mo\u017Cna by powiedzie\u0107, \u017Ce jednym z jej za\u0142o\u017Ce\u0144 jest \u2018zr\xF3wnanie\u2019 stylu w r\xF3\u017Cnych dziedzinach sztuki.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Niekwestionowanym liderem secesji jest austriacki malarz Gustav Klimt. Artysta si\u0119ga\u0142 po niestandardowe techniki kreowania obraz\xF3w, ',
+      _react2.default.createElement(
+        'a',
+        { href: 'http://m.in' },
+        'm.in'
+      ),
+      '. wykorzystywa\u0142 szlagmetal do pokrycia okre\u015Blonych powierzchni p\u0142\xF3tna. Jego muz\u0105 by\u0142a Emilie Fl\xF6ge, kt\xF3r\u0105 uwieczni\u0142 na wielu swoich dzie\u0142ach. Emilie Louise Fl\xF6ge, utalentowana projektantka mody pozna\u0142a malarza przy okazji \u015Blubu swojej siostry Helene z Ernst\u2019em Klimt\u2019em - bratem Gustava. Nazywana austriack\u0105 Coco Chanel Emilie wraz z siostrami otworzy\u0142a salon mody w Wiedniu, kt\xF3ry odwiedzali najznakomitsi go\u015Bcie. By\u0142a niezale\u017Cn\u0105 finansowo kobiet\u0105 i nigdy nie wysz\u0142a za m\u0105\u017C. Z Gustavem \u0142\u0105czy\u0142a j\u0105 bliska relacja, ale do ko\u0144ca nie wiadomo czy mia\u0142a ona charakter mi\u0142osny czy przyjacielski. W 2008 roku John Galliano zaprezentowa\u0142 kolekcj\u0119 Haute Couture dla Dior, w kt\xF3rej modelki wygl\u0105da\u0142y jak wyci\u0119te z obraz\xF3w Klimt\u2019a. Charakterystyczne fryzury stylizowane by\u0142y na t\u0119, kt\xF3r\u0105 nosi\u0142a sama Emilie.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8067664/ello-optimized-7f5e5cd5.jpg', alt: 'Obraz przedstawia cztery zdj\u0119cia na jasno-\u017C\xF3\u0142tym tle. Widzimy obrazy znanego artysty, modelk\u0119 w makija\u017Cu i usta.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/8067666/ello-optimized-a2efa282.jpg', alt: 'Obraz przedstawia trzy zdj\u0119cia modelek na wybiegu. Zdj\u0119cia na jasno-\u017C\xF3\u0142tym tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/8067669/ello-optimized-55b6dc3c.jpg', alt: 'Obraz przedstawia cztery fotografie, z czego dwie to fotografie modelek w pozach, a dwie pozosta\u0142e przedstawiaj\u0105 prace znanego artysty.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/8067670/ello-optimized-591b1b38.jpg', alt: 'Obraz przedstawia cztery zdj\u0119cia, z czego trzy s\u0105 rysunkami, a jedno zdj\u0119ciem twarzy kobiety pomalowanej na bia\u0142o-czarno.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/8067671/ello-optimized-9106f306.jpg', alt: 'Obraz przedstawia trzy fotografie. Jedna z nich przedstawia witra\u017C, dwie pozosta\u0142e obrazy znanego artysty. Ca\u0142o\u015B\u0107 na jasno-\u017C\xF3\u0142tym tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/8067674/ello-optimized-51615a71.jpg', alt: 'Obraz przedstawia trzy zdj\u0119cia budowli i jedno zdj\u0119cie krzes\u0142a. Ca\u0142o\u015B\u0107 na jasno-\u017C\xF3\u0142tym tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/8067675/ello-optimized-85ce8cdc.jpg', alt: 'Obraz przedstawia fotografi\u0119 budynku na jasno-\u017C\xF3\u0142tym tle i napisy.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Secesja [moodboard]", "date": "2018-08-09T10:13:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["secesja", "secessio", "art nouveau", "klimt", "schiele", "gaudi", "modernizm", "sztuka"] };
+var body = exports.body = "<p>Dekoracyjność, bogata ornamentyka abstrakcyjna lub roślinna, miękka falista linia to cechy stylu secesyjnego. Secesja europejska trwała od końca XIX wieku do pierwszego dziesięciolecia wieku XX i była wliczana w ramy modernizmu. Inspiracje czerpane ze sztuki japońskiej przeplatają się w swobodnych układach kompozycyjnych dając wrażenie płaszczyznowości. Łacińskie ‘secessio’ oznacza ‘oddalenie się, wycofanie’, co może świadczyć o pragnieniu wyjścia ponad dotychczasowe ramy sztuki i zbudowania nowych zasad. Wrażenie to podkreśla francuskie ‘art nouveau’, czyli ‘nowa sztuka’ – tak właśnie we Francji nazywano styl secesyjny. Secesja miała swój wyraz w malarstwie, grafice, architekturze, modzie, wystroju wnętrz. Można by powiedzieć, że jednym z jej założeń jest ‘zrównanie’ stylu w różnych dziedzinach sztuki.</p>\n<p>Niekwestionowanym liderem secesji jest austriacki malarz Gustav Klimt. Artysta sięgał po niestandardowe techniki kreowania obrazów, <a href=\"http://m.in\">m.in</a>. wykorzystywał szlagmetal do pokrycia określonych powierzchni płótna. Jego muzą była Emilie Flöge, którą uwiecznił na wielu swoich dziełach. Emilie Louise Flöge, utalentowana projektantka mody poznała malarza przy okazji ślubu swojej siostry Helene z Ernst’em Klimt’em - bratem Gustava. Nazywana austriacką Coco Chanel Emilie wraz z siostrami otworzyła salon mody w Wiedniu, który odwiedzali najznakomitsi goście. Była niezależną finansowo kobietą i nigdy nie wyszła za mąż. Z Gustavem łączyła ją bliska relacja, ale do końca nie wiadomo czy miała ona charakter miłosny czy przyjacielski. W 2008 roku John Galliano zaprezentował kolekcję Haute Couture dla Dior, w której modelki wyglądały jak wycięte z obrazów Klimt’a. Charakterystyczne fryzury stylizowane były na tę, którą nosiła sama Emilie.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/8067664/ello-optimized-7f5e5cd5.jpg\" alt=\"Obraz przedstawia cztery zdjęcia na jasno-żółtym tle. Widzimy obrazy znanego artysty, modelkę w makijażu i usta.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/8067666/ello-optimized-a2efa282.jpg\" alt=\"Obraz przedstawia trzy zdjęcia modelek na wybiegu. Zdjęcia na jasno-żółtym tle.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/8067669/ello-optimized-55b6dc3c.jpg\" alt=\"Obraz przedstawia cztery fotografie, z czego dwie to fotografie modelek w pozach, a dwie pozostałe przedstawiają prace znanego artysty.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/8067670/ello-optimized-591b1b38.jpg\" alt=\"Obraz przedstawia cztery zdjęcia, z czego trzy są rysunkami, a jedno zdjęciem twarzy kobiety pomalowanej na biało-czarno.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/8067671/ello-optimized-9106f306.jpg\" alt=\"Obraz przedstawia trzy fotografie. Jedna z nich przedstawia witraż, dwie pozostałe obrazy znanego artysty. Całość na jasno-żółtym tle.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/8067674/ello-optimized-51615a71.jpg\" alt=\"Obraz przedstawia trzy zdjęcia budowli i jedno zdjęcie krzesła. Całość na jasno-żółtym tle.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/8067675/ello-optimized-85ce8cdc.jpg\" alt=\"Obraz przedstawia fotografię budynku na jasno-żółtym tle i napisy.\" /></p>\n";
+var raw = exports.raw = "\nDekoracyjność, bogata ornamentyka abstrakcyjna lub roślinna, miękka falista linia to cechy stylu secesyjnego. Secesja europejska trwała od końca XIX wieku do pierwszego dziesięciolecia wieku XX i była wliczana w ramy modernizmu. Inspiracje czerpane ze sztuki japońskiej przeplatają się w swobodnych układach kompozycyjnych dając wrażenie płaszczyznowości. Łacińskie ‘secessio’ oznacza ‘oddalenie się, wycofanie’, co może świadczyć o pragnieniu wyjścia ponad dotychczasowe ramy sztuki i zbudowania nowych zasad. Wrażenie to podkreśla francuskie ‘art nouveau’, czyli ‘nowa sztuka’ – tak właśnie we Francji nazywano styl secesyjny. Secesja miała swój wyraz w malarstwie, grafice, architekturze, modzie, wystroju wnętrz. Można by powiedzieć, że jednym z jej założeń jest ‘zrównanie’ stylu w różnych dziedzinach sztuki.\n\nNiekwestionowanym liderem secesji jest austriacki malarz Gustav Klimt. Artysta sięgał po niestandardowe techniki kreowania obrazów, m.in. wykorzystywał szlagmetal do pokrycia określonych powierzchni płótna. Jego muzą była Emilie Flöge, którą uwiecznił na wielu swoich dziełach. Emilie Louise Flöge, utalentowana projektantka mody poznała malarza przy okazji ślubu swojej siostry Helene z Ernst’em Klimt’em - bratem Gustava. Nazywana austriacką Coco Chanel Emilie wraz z siostrami otworzyła salon mody w Wiedniu, który odwiedzali najznakomitsi goście. Była niezależną finansowo kobietą i nigdy nie wyszła za mąż. Z Gustavem łączyła ją bliska relacja, ale do końca nie wiadomo czy miała ona charakter miłosny czy przyjacielski. W 2008 roku John Galliano zaprezentował kolekcję Haute Couture dla Dior, w której modelki wyglądały jak wycięte z obrazów Klimt’a. Charakterystyczne fryzury stylizowane były na tę, którą nosiła sama Emilie. \n\n![Obraz przedstawia cztery zdjęcia na jasno-żółtym tle. Widzimy obrazy znanego artysty, modelkę w makijażu i usta.](https://assets1.ello.co/uploads/asset/attachment/8067664/ello-optimized-7f5e5cd5.jpg)\n![Obraz przedstawia trzy zdjęcia modelek na wybiegu. Zdjęcia na jasno-żółtym tle.](https://assets2.ello.co/uploads/asset/attachment/8067666/ello-optimized-a2efa282.jpg)\n![Obraz przedstawia cztery fotografie, z czego dwie to fotografie modelek w pozach, a dwie pozostałe przedstawiają prace znanego artysty.](https://assets0.ello.co/uploads/asset/attachment/8067669/ello-optimized-55b6dc3c.jpg)\n![Obraz przedstawia cztery zdjęcia, z czego trzy są rysunkami, a jedno zdjęciem twarzy kobiety pomalowanej na biało-czarno.](https://assets2.ello.co/uploads/asset/attachment/8067670/ello-optimized-591b1b38.jpg)\n![Obraz przedstawia trzy fotografie. Jedna z nich przedstawia witraż, dwie pozostałe obrazy znanego artysty. Całość na jasno-żółtym tle.](https://assets0.ello.co/uploads/asset/attachment/8067671/ello-optimized-9106f306.jpg)\n![Obraz przedstawia trzy zdjęcia budowli i jedno zdjęcie krzesła. Całość na jasno-żółtym tle.](https://assets2.ello.co/uploads/asset/attachment/8067674/ello-optimized-51615a71.jpg)\n![Obraz przedstawia fotografię budynku na jasno-żółtym tle i napisy.](https://assets0.ello.co/uploads/asset/attachment/8067675/ello-optimized-85ce8cdc.jpg)";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 129 */
@@ -10500,6 +10558,18 @@ webpackEmptyContext.id = 129;
 
 /***/ }),
 /* 130 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 130;
+
+/***/ }),
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -10520,19 +10590,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 130;
+webpackContext.id = 131;
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(132);
+module.exports = __webpack_require__(133);
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10550,7 +10620,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(133);
+var _propTypes = __webpack_require__(134);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -10754,13 +10824,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_133__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_134__;
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10774,7 +10844,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10782,7 +10852,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10795,7 +10865,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10829,7 +10899,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10842,7 +10912,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10851,7 +10921,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10859,7 +10929,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10867,7 +10937,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10882,7 +10952,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10897,7 +10967,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10912,7 +10982,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10936,7 +11006,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(146);
+var s = __webpack_require__(147);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -10967,7 +11037,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10975,7 +11045,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10999,7 +11069,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11050,7 +11120,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11058,7 +11128,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11067,7 +11137,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(151);
+var s = __webpack_require__(152);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -11100,7 +11170,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11110,7 +11180,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11154,22 +11224,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 155,
-	"./Feed.js": 156,
-	"./Ingredient.js": 157,
-	"./Method.js": 158,
-	"./Recipe.js": 159,
-	"./TableOfContents.js": 160
+	"./Crumbs.js": 156,
+	"./Feed.js": 157,
+	"./Ingredient.js": 158,
+	"./Method.js": 159,
+	"./Recipe.js": 160,
+	"./TableOfContents.js": 161
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -11185,10 +11255,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 154;
+webpackContext.id = 155;
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11203,7 +11273,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11218,7 +11288,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11233,7 +11303,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11248,7 +11318,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11263,7 +11333,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11278,7 +11348,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11302,7 +11372,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
