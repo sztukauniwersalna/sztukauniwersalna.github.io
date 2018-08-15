@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_134__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_135__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(149);
+var Feed_1 = __webpack_require__(150);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(151);
+var Recipe_1 = __webpack_require__(152);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(153);
+var Root_1 = __webpack_require__(154);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(135);
+var s = __webpack_require__(136);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(136);
+var s = __webpack_require__(137);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(129),
-ROOT: __webpack_require__(130),
-LAYOUTS: __webpack_require__(131),
-INCLUDES: __webpack_require__(155)};
+UPLOADS: __webpack_require__(130),
+ROOT: __webpack_require__(131),
+LAYOUTS: __webpack_require__(132),
+INCLUDES: __webpack_require__(156)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(155)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(137);
+var s = __webpack_require__(138);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(141);
+var s = __webpack_require__(142);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(154);
+__webpack_require__(155);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(132);
+var react_disqus_comments_1 = __webpack_require__(133);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(146);
-var s = __webpack_require__(148);
+var FacebookLike_1 = __webpack_require__(147);
+var s = __webpack_require__(149);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(138);
-var s = __webpack_require__(139);
+__webpack_require__(139);
+var s = __webpack_require__(140);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(140);
+var s = __webpack_require__(141);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(143);
+var s = __webpack_require__(144);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(142);
+var s = __webpack_require__(143);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(144);
+var s = __webpack_require__(145);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(145);
+var s = __webpack_require__(146);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(150);
+var s = __webpack_require__(151);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(162);
-var menu_1 = __webpack_require__(163);
+var tags_1 = __webpack_require__(163);
+var menu_1 = __webpack_require__(164);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2705,7 +2705,8 @@ var map = {
 	"./2018-07-13-make-up-inspirowany-obrazem-blue-nude-ii-by-henri-matisse.markdown": 125,
 	"./2018-07-27-moje-wybory-czerwiec-slash-lipiec-cz-dot-1.markdown": 126,
 	"./2018-07-30-moje-wybory-czerwiec-slash-lipiec-cz-dot-2.markdown": 127,
-	"./2018-08-09-secesja-moodboard.markdown": 128
+	"./2018-08-09-secesja-moodboard.markdown": 128,
+	"./2018-08-15-make-up-inspirowany-obrazem-circus-from-jazz-book-by-henri-matisse.markdown": 129
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -10540,15 +10541,62 @@ var raw = exports.raw = "\nDekoracyjność, bogata ornamentyka abstrakcyjna lub 
 
 /***/ }),
 /* 129 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 129;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      'W 1941 roku francuski krytyk i wydawca greckiego pochodzenia Stratis Eleftheriades-T\xE9riade zwr\xF3ci\u0142 si\u0119 do Henri\u2019ego Matisse\u2019a z propozycj\u0105 publikacji albumu z jego ilustracjami. Ksi\u0105\u017Cka pocz\u0105tkowo mia\u0142a nosi\u0107 tytu\u0142 \u2018Cyrk\u2019, poniewa\u017C pierwsze ilustracje powsta\u0142e w 1943 roku nawi\u0105zywa\u0142y w\u0142a\u015Bnie do tej tematyki. Artysta wspomina\u0142, \u017Ce widzi siebie jako metafor\u0119 cyrkowego, zazwyczaj samotnego artysty. Finalnie jednak nazwa \u2018Jazz\u2019 pozwoli\u0142a uwolni\u0107 rytmiczne skojarzenia poszczeg\xF3lnych kompozycji. Ostateczne dzie\u0142o zawiera 20 kolorowych print\xF3w wycinanek w formacie 41 na 66 centymetr\xF3w. \u2018Jazz\u2019 zosta\u0142 opublikowany i przyj\u0119ty z entuzjazmem w 1947 roku w Pary\u017Cu. Sprzyja\u0142y temu nie tylko genialne ilustracje Henri Matisse\u2019a, ale te\u017C ograniczony nak\u0142ad (270 egzemplarzy). Matisse podczas pracy nad ilustracjami zapisywa\u0142 tak\u017Ce swoje refleksje na temat procesu, kt\xF3re r\xF3wnie\u017C znalaz\u0142y swoje miejsce w publikacji.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Inspiracj\u0105 do wykonania makija\u017Cu sta\u0142a si\u0119 ilustracja II pt.:\u2019Cyrk\u2019.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/8097382/ello-optimized-fe634efa.jpg', alt: 'Zdj\u0119cie przedstawia portret kobiety w mocnym makija\u017Cu. Zdj\u0119cie podzielone jest na fragmenty.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8097381/ello-optimized-24de18de.jpg', alt: 'Zdj\u0119cie przedstawia portret kobiety w mocnym makija\u017Cu. Zdj\u0119cie jest poci\u0119te na fragmenty, kt\xF3re s\u0105 poprzesuwane wzgl\u0119dem siebie.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/8097380/ello-optimized-2766b9de.jpg', alt: 'Zdj\u0119cie przedstawia portret kobiety w mocnym makija\u017Cu i niebieskiej chu\u015Bcie na g\u0142owie.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Make-up inspirowany obrazem. \n'Circus' from 'Jazz' book by Henri_Matisse", "date": "2018-08-15T16:50:00.000Z", "categories": ["Sztuka Makijażu"], "tags": ["henri matisse", "jazz", "jazz book", "art book", "design", "collage"] };
+var body = exports.body = "<p>W 1941 roku francuski krytyk i wydawca greckiego pochodzenia Stratis Eleftheriades-Tériade zwrócił się do Henri’ego Matisse’a z propozycją publikacji albumu z jego ilustracjami. Książka początkowo miała nosić tytuł ‘Cyrk’, ponieważ pierwsze ilustracje powstałe w 1943 roku nawiązywały właśnie do tej tematyki. Artysta wspominał, że widzi siebie jako metaforę cyrkowego, zazwyczaj samotnego artysty. Finalnie jednak nazwa ‘Jazz’ pozwoliła uwolnić rytmiczne skojarzenia poszczególnych kompozycji. Ostateczne dzieło zawiera 20 kolorowych printów wycinanek w formacie 41 na 66 centymetrów. ‘Jazz’ został opublikowany i przyjęty z entuzjazmem w 1947 roku w Paryżu. Sprzyjały temu nie tylko genialne ilustracje Henri Matisse’a, ale też ograniczony nakład (270 egzemplarzy). Matisse podczas pracy nad ilustracjami zapisywał także swoje refleksje na temat procesu, które również znalazły swoje miejsce w publikacji.</p>\n<p>Inspiracją do wykonania makijażu stała się ilustracja II pt.:’Cyrk’.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/8097382/ello-optimized-fe634efa.jpg\" alt=\"Zdjęcie przedstawia portret kobiety w mocnym makijażu. Zdjęcie podzielone jest na fragmenty.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/8097381/ello-optimized-24de18de.jpg\" alt=\"Zdjęcie przedstawia portret kobiety w mocnym makijażu. Zdjęcie jest pocięte na fragmenty, które są poprzesuwane względem siebie.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/8097380/ello-optimized-2766b9de.jpg\" alt=\"Zdjęcie przedstawia portret kobiety w mocnym makijażu i niebieskiej chuście na głowie.\" /></p>\n";
+var raw = exports.raw = "\nW 1941 roku francuski krytyk i wydawca greckiego pochodzenia Stratis Eleftheriades-Tériade zwrócił się do Henri’ego Matisse’a z propozycją publikacji albumu z jego ilustracjami. Książka początkowo miała nosić tytuł ‘Cyrk’, ponieważ pierwsze ilustracje powstałe w 1943 roku nawiązywały właśnie do tej tematyki. Artysta wspominał, że widzi siebie jako metaforę cyrkowego, zazwyczaj samotnego artysty. Finalnie jednak nazwa ‘Jazz’ pozwoliła uwolnić rytmiczne skojarzenia poszczególnych kompozycji. Ostateczne dzieło zawiera 20 kolorowych printów wycinanek w formacie 41 na 66 centymetrów. ‘Jazz’ został opublikowany i przyjęty z entuzjazmem w 1947 roku w Paryżu. Sprzyjały temu nie tylko genialne ilustracje Henri Matisse’a, ale też ograniczony nakład (270 egzemplarzy). Matisse podczas pracy nad ilustracjami zapisywał także swoje refleksje na temat procesu, które również znalazły swoje miejsce w publikacji. \n\nInspiracją do wykonania makijażu stała się ilustracja II pt.:’Cyrk’.\n\n![Zdjęcie przedstawia portret kobiety w mocnym makijażu. Zdjęcie podzielone jest na fragmenty.](https://assets0.ello.co/uploads/asset/attachment/8097382/ello-optimized-fe634efa.jpg)\n![Zdjęcie przedstawia portret kobiety w mocnym makijażu. Zdjęcie jest pocięte na fragmenty, które są poprzesuwane względem siebie.](https://assets1.ello.co/uploads/asset/attachment/8097381/ello-optimized-24de18de.jpg)\n![Zdjęcie przedstawia portret kobiety w mocnym makijażu i niebieskiej chuście na głowie.](https://assets2.ello.co/uploads/asset/attachment/8097380/ello-optimized-2766b9de.jpg)";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 130 */
@@ -10564,6 +10612,18 @@ webpackEmptyContext.id = 130;
 
 /***/ }),
 /* 131 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 131;
+
+/***/ }),
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -10584,19 +10644,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 131;
+webpackContext.id = 132;
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(133);
+module.exports = __webpack_require__(134);
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10614,7 +10674,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(134);
+var _propTypes = __webpack_require__(135);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -10818,13 +10878,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_134__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_135__;
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10838,7 +10898,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10846,7 +10906,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10859,7 +10919,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10893,7 +10953,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10906,7 +10966,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10915,7 +10975,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10923,7 +10983,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10931,7 +10991,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10946,7 +11006,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10961,7 +11021,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -10976,7 +11036,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11000,7 +11060,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(147);
+var s = __webpack_require__(148);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -11031,7 +11091,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11039,7 +11099,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11063,7 +11123,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11114,7 +11174,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11122,7 +11182,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11131,7 +11191,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(152);
+var s = __webpack_require__(153);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -11164,7 +11224,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11174,7 +11234,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11218,22 +11278,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 156,
-	"./Feed.js": 157,
-	"./Ingredient.js": 158,
-	"./Method.js": 159,
-	"./Recipe.js": 160,
-	"./TableOfContents.js": 161
+	"./Crumbs.js": 157,
+	"./Feed.js": 158,
+	"./Ingredient.js": 159,
+	"./Method.js": 160,
+	"./Recipe.js": 161,
+	"./TableOfContents.js": 162
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -11249,10 +11309,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 155;
+webpackContext.id = 156;
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11267,7 +11327,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11282,7 +11342,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11297,7 +11357,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11312,7 +11372,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11327,7 +11387,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11342,7 +11402,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11366,7 +11426,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
