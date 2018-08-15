@@ -10590,12 +10590,129 @@ var component = exports.component = function component(data) {
       _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/8097382/ello-optimized-fe634efa.jpg', alt: 'Zdj\u0119cie przedstawia portret kobiety w mocnym makija\u017Cu. Zdj\u0119cie podzielone jest na fragmenty.' }),
       _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8097381/ello-optimized-24de18de.jpg', alt: 'Zdj\u0119cie przedstawia portret kobiety w mocnym makija\u017Cu. Zdj\u0119cie jest poci\u0119te na fragmenty, kt\xF3re s\u0105 poprzesuwane wzgl\u0119dem siebie.' }),
       _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/8097380/ello-optimized-2766b9de.jpg', alt: 'Zdj\u0119cie przedstawia portret kobiety w mocnym makija\u017Cu i niebieskiej chu\u015Bcie na g\u0142owie.' })
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8097384/ello-optimized-d5bbfe59.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia portretowe kobiety w mocnym makija\u017Cu z niebiesk\u0105 chustk\u0105 na g\u0142owie. Zdj\u0119cie z prawej strony zosta\u0142o zdeformowane w programie graficznym.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/8097386/ello-optimized-fb01aedb.jpg', alt: 'Zdj\u0119cie przedstawia portret kobiety w mocnym makija\u017Cu. Kobieta ma na sobie niebiesk\u0105 bluzk\u0119 i niebiesk\u0105 chust\u0119 na g\u0142owie.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/8097387/ello-optimized-e54f9591.jpg', alt: 'Obraz przedstawia rozmazane zdj\u0119cie w niebieskich tonach.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8097383/ello-optimized-268e8ecf.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia kobiety w niebieskiej chustce na g\u0142owie i niebieskiej bluzce, na niebieskim tle. Kobieta ma mocny makija\u017C.' })
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Poni\u017Cej zamieszczam spis tytu\u0142\xF3w wszystkich grafik obecnych w ksi\u0105\u017Cce:'
+    ),
+    _react2.default.createElement(
+      'ol',
+      null,
+      _react2.default.createElement(
+        'li',
+        null,
+        'Klaun'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'Cyrk'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        '\u201CMonsieur Loyal\u201D (dyrektor cyrku dobrze znany w XIX wieku w Pary\u017Cu)'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        '\u201CKoszmar Bia\u0142ego S\u0142onia\u201D'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        '\u201CKo\u0144, Je\u017Adziec i Klaun\u201D'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        '\u201CWilk\u201D (posta\u0107 wilka z \u2018Czerwonego Kapturka\u2019, bajki autorstwa\xA0Charles\u2019a Perrault\u2019a. Jest on tak\u017Ce aluzj\u0105 do postaci Hitler\u2019a)'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        '\u201CSerce\u201D'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        '\u201CIcarus\u201D'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        '\u201CFormy\u201D'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        '"\xA0Pogrzeb Pierrota"'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        '\u201CThe Codomas\u201D (para s\u0142ynnych artyst\xF3w trapezowych)'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        '\u201CThe Swimmer in the Tank\u201D (ku pami\u0119ci performansu, kt\xF3ry Matisse zobaczy\u0142 w akwarium Folies-Berg\xE8re)'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        '\u201CPo\u0142ykacz Mieczy\u201D'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        '\u201CKowboj\u201D'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        '"Miotacz No\u017Cy\xA0"'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        '\u201CPrzeznaczenie\u201D'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        '\u201CLagoon I\u201D'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        '\u201CLagoon II\u201D'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        '\u201CLagoon III\u201D'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        '\u201CToboggan\u201D'
+      )
     )
   );
 };
 var frontMatter = exports.frontMatter = { "title": "Make-up inspirowany obrazem. \n'Circus' from 'Jazz' book by Henri_Matisse", "date": "2018-08-15T16:50:00.000Z", "categories": ["Sztuka Makijażu"], "tags": ["henri matisse", "jazz", "jazz book", "art book", "design", "collage"] };
-var body = exports.body = "<p>W 1941 roku francuski krytyk i wydawca greckiego pochodzenia Stratis Eleftheriades-Tériade zwrócił się do Henri’ego Matisse’a z propozycją publikacji albumu z jego ilustracjami. Książka początkowo miała nosić tytuł ‘Cyrk’, ponieważ pierwsze ilustracje powstałe w 1943 roku nawiązywały właśnie do tej tematyki. Artysta wspominał, że widzi siebie jako metaforę cyrkowego, zazwyczaj samotnego artysty. Finalnie jednak nazwa ‘Jazz’ pozwoliła uwolnić rytmiczne skojarzenia poszczególnych kompozycji. Ostateczne dzieło zawiera 20 kolorowych printów wycinanek w formacie 41 na 66 centymetrów. ‘Jazz’ został opublikowany i przyjęty z entuzjazmem w 1947 roku w Paryżu. Sprzyjały temu nie tylko genialne ilustracje Henri Matisse’a, ale też ograniczony nakład (270 egzemplarzy). Matisse podczas pracy nad ilustracjami zapisywał także swoje refleksje na temat procesu, które również znalazły swoje miejsce w publikacji.</p>\n<p>Inspiracją do wykonania makijażu stała się ilustracja II pt.:’Cyrk’.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/8097382/ello-optimized-fe634efa.jpg\" alt=\"Zdjęcie przedstawia portret kobiety w mocnym makijażu. Zdjęcie podzielone jest na fragmenty.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/8097381/ello-optimized-24de18de.jpg\" alt=\"Zdjęcie przedstawia portret kobiety w mocnym makijażu. Zdjęcie jest pocięte na fragmenty, które są poprzesuwane względem siebie.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/8097380/ello-optimized-2766b9de.jpg\" alt=\"Zdjęcie przedstawia portret kobiety w mocnym makijażu i niebieskiej chuście na głowie.\" /></p>\n";
-var raw = exports.raw = "\nW 1941 roku francuski krytyk i wydawca greckiego pochodzenia Stratis Eleftheriades-Tériade zwrócił się do Henri’ego Matisse’a z propozycją publikacji albumu z jego ilustracjami. Książka początkowo miała nosić tytuł ‘Cyrk’, ponieważ pierwsze ilustracje powstałe w 1943 roku nawiązywały właśnie do tej tematyki. Artysta wspominał, że widzi siebie jako metaforę cyrkowego, zazwyczaj samotnego artysty. Finalnie jednak nazwa ‘Jazz’ pozwoliła uwolnić rytmiczne skojarzenia poszczególnych kompozycji. Ostateczne dzieło zawiera 20 kolorowych printów wycinanek w formacie 41 na 66 centymetrów. ‘Jazz’ został opublikowany i przyjęty z entuzjazmem w 1947 roku w Paryżu. Sprzyjały temu nie tylko genialne ilustracje Henri Matisse’a, ale też ograniczony nakład (270 egzemplarzy). Matisse podczas pracy nad ilustracjami zapisywał także swoje refleksje na temat procesu, które również znalazły swoje miejsce w publikacji. \n\nInspiracją do wykonania makijażu stała się ilustracja II pt.:’Cyrk’.\n\n![Zdjęcie przedstawia portret kobiety w mocnym makijażu. Zdjęcie podzielone jest na fragmenty.](https://assets0.ello.co/uploads/asset/attachment/8097382/ello-optimized-fe634efa.jpg)\n![Zdjęcie przedstawia portret kobiety w mocnym makijażu. Zdjęcie jest pocięte na fragmenty, które są poprzesuwane względem siebie.](https://assets1.ello.co/uploads/asset/attachment/8097381/ello-optimized-24de18de.jpg)\n![Zdjęcie przedstawia portret kobiety w mocnym makijażu i niebieskiej chuście na głowie.](https://assets2.ello.co/uploads/asset/attachment/8097380/ello-optimized-2766b9de.jpg)";
+var body = exports.body = "<p>W 1941 roku francuski krytyk i wydawca greckiego pochodzenia Stratis Eleftheriades-Tériade zwrócił się do Henri’ego Matisse’a z propozycją publikacji albumu z jego ilustracjami. Książka początkowo miała nosić tytuł ‘Cyrk’, ponieważ pierwsze ilustracje powstałe w 1943 roku nawiązywały właśnie do tej tematyki. Artysta wspominał, że widzi siebie jako metaforę cyrkowego, zazwyczaj samotnego artysty. Finalnie jednak nazwa ‘Jazz’ pozwoliła uwolnić rytmiczne skojarzenia poszczególnych kompozycji. Ostateczne dzieło zawiera 20 kolorowych printów wycinanek w formacie 41 na 66 centymetrów. ‘Jazz’ został opublikowany i przyjęty z entuzjazmem w 1947 roku w Paryżu. Sprzyjały temu nie tylko genialne ilustracje Henri Matisse’a, ale też ograniczony nakład (270 egzemplarzy). Matisse podczas pracy nad ilustracjami zapisywał także swoje refleksje na temat procesu, które również znalazły swoje miejsce w publikacji.</p>\n<p>Inspiracją do wykonania makijażu stała się ilustracja II pt.:’Cyrk’.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/8097382/ello-optimized-fe634efa.jpg\" alt=\"Zdjęcie przedstawia portret kobiety w mocnym makijażu. Zdjęcie podzielone jest na fragmenty.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/8097381/ello-optimized-24de18de.jpg\" alt=\"Zdjęcie przedstawia portret kobiety w mocnym makijażu. Zdjęcie jest pocięte na fragmenty, które są poprzesuwane względem siebie.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/8097380/ello-optimized-2766b9de.jpg\" alt=\"Zdjęcie przedstawia portret kobiety w mocnym makijażu i niebieskiej chuście na głowie.\" /></p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/8097384/ello-optimized-d5bbfe59.jpg\" alt=\"Obraz przedstawia dwa zdjęcia portretowe kobiety w mocnym makijażu z niebieską chustką na głowie. Zdjęcie z prawej strony zostało zdeformowane w programie graficznym.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/8097386/ello-optimized-fb01aedb.jpg\" alt=\"Zdjęcie przedstawia portret kobiety w mocnym makijażu. Kobieta ma na sobie niebieską bluzkę i niebieską chustę na głowie.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/8097387/ello-optimized-e54f9591.jpg\" alt=\"Obraz przedstawia rozmazane zdjęcie w niebieskich tonach.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/8097383/ello-optimized-268e8ecf.jpg\" alt=\"Obraz przedstawia dwa zdjęcia kobiety w niebieskiej chustce na głowie i niebieskiej bluzce, na niebieskim tle. Kobieta ma mocny makijaż.\" /></p>\n<p>Poniżej zamieszczam spis tytułów wszystkich grafik obecnych w książce:</p>\n<ol>\n<li>Klaun</li>\n<li>Cyrk</li>\n<li>“Monsieur Loyal” (dyrektor cyrku dobrze znany w XIX wieku w Paryżu)</li>\n<li>“Koszmar Białego Słonia”</li>\n<li>“Koń, Jeździec i Klaun”</li>\n<li>“Wilk” (postać wilka z ‘Czerwonego Kapturka’, bajki autorstwa Charles’a Perrault’a. Jest on także aluzją do postaci Hitler’a)</li>\n<li>“Serce”</li>\n<li>“Icarus”</li>\n<li>“Formy”</li>\n<li>&quot; Pogrzeb Pierrota&quot;</li>\n<li>“The Codomas” (para słynnych artystów trapezowych)</li>\n<li>“The Swimmer in the Tank” (ku pamięci performansu, który Matisse zobaczył w akwarium Folies-Bergère)</li>\n<li>“Połykacz Mieczy”</li>\n<li>“Kowboj”</li>\n<li>&quot;Miotacz Noży &quot;</li>\n<li>“Przeznaczenie”</li>\n<li>“Lagoon I”</li>\n<li>“Lagoon II”</li>\n<li>“Lagoon III”</li>\n<li>“Toboggan”</li>\n</ol>\n";
+var raw = exports.raw = "\nW 1941 roku francuski krytyk i wydawca greckiego pochodzenia Stratis Eleftheriades-Tériade zwrócił się do Henri’ego Matisse’a z propozycją publikacji albumu z jego ilustracjami. Książka początkowo miała nosić tytuł ‘Cyrk’, ponieważ pierwsze ilustracje powstałe w 1943 roku nawiązywały właśnie do tej tematyki. Artysta wspominał, że widzi siebie jako metaforę cyrkowego, zazwyczaj samotnego artysty. Finalnie jednak nazwa ‘Jazz’ pozwoliła uwolnić rytmiczne skojarzenia poszczególnych kompozycji. Ostateczne dzieło zawiera 20 kolorowych printów wycinanek w formacie 41 na 66 centymetrów. ‘Jazz’ został opublikowany i przyjęty z entuzjazmem w 1947 roku w Paryżu. Sprzyjały temu nie tylko genialne ilustracje Henri Matisse’a, ale też ograniczony nakład (270 egzemplarzy). Matisse podczas pracy nad ilustracjami zapisywał także swoje refleksje na temat procesu, które również znalazły swoje miejsce w publikacji. \n\nInspiracją do wykonania makijażu stała się ilustracja II pt.:’Cyrk’.\n\n![Zdjęcie przedstawia portret kobiety w mocnym makijażu. Zdjęcie podzielone jest na fragmenty.](https://assets0.ello.co/uploads/asset/attachment/8097382/ello-optimized-fe634efa.jpg)\n![Zdjęcie przedstawia portret kobiety w mocnym makijażu. Zdjęcie jest pocięte na fragmenty, które są poprzesuwane względem siebie.](https://assets1.ello.co/uploads/asset/attachment/8097381/ello-optimized-24de18de.jpg)\n![Zdjęcie przedstawia portret kobiety w mocnym makijażu i niebieskiej chuście na głowie.](https://assets2.ello.co/uploads/asset/attachment/8097380/ello-optimized-2766b9de.jpg)\n\n![Obraz przedstawia dwa zdjęcia portretowe kobiety w mocnym makijażu z niebieską chustką na głowie. Zdjęcie z prawej strony zostało zdeformowane w programie graficznym.](https://assets1.ello.co/uploads/asset/attachment/8097384/ello-optimized-d5bbfe59.jpg)\n![Zdjęcie przedstawia portret kobiety w mocnym makijażu. Kobieta ma na sobie niebieską bluzkę i niebieską chustę na głowie.](https://assets2.ello.co/uploads/asset/attachment/8097386/ello-optimized-fb01aedb.jpg)\n![Obraz przedstawia rozmazane zdjęcie w niebieskich tonach.](https://assets0.ello.co/uploads/asset/attachment/8097387/ello-optimized-e54f9591.jpg)\n![Obraz przedstawia dwa zdjęcia kobiety w niebieskiej chustce na głowie i niebieskiej bluzce, na niebieskim tle. Kobieta ma mocny makijaż.](https://assets1.ello.co/uploads/asset/attachment/8097383/ello-optimized-268e8ecf.jpg)\n\n\nPoniżej zamieszczam spis tytułów wszystkich grafik obecnych w książce:\n\n1. Klaun\n2. Cyrk\n3. \"Monsieur Loyal\" (dyrektor cyrku dobrze znany w XIX wieku w Paryżu)\n4. \"Koszmar Białego Słonia\"\n5. \"Koń, Jeździec i Klaun\"\n6. \"Wilk\" (postać wilka z ‘Czerwonego Kapturka’, bajki autorstwa Charles'a Perrault’a. Jest on także aluzją do postaci Hitler’a)\n7. \"Serce\"\n8. \"Icarus\"\n9. \"Formy\"\n10. \" Pogrzeb Pierrota\"\n11. \"The Codomas\" (para słynnych artystów trapezowych)\n12. \"The Swimmer in the Tank\" (ku pamięci performansu, który Matisse zobaczył w akwarium Folies-Bergère)\n13. \"Połykacz Mieczy\"\n14. \"Kowboj\"\n15. \"Miotacz Noży \"\n16. \"Przeznaczenie\"\n17. \"Lagoon I\"\n18. \"Lagoon II\"\n19. \"Lagoon III\"\n20. \"Toboggan\"";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
