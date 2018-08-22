@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_135__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_136__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(150);
+var Feed_1 = __webpack_require__(151);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(152);
+var Recipe_1 = __webpack_require__(153);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(154);
+var Root_1 = __webpack_require__(155);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(136);
+var s = __webpack_require__(137);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(137);
+var s = __webpack_require__(138);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(130),
-ROOT: __webpack_require__(131),
-LAYOUTS: __webpack_require__(132),
-INCLUDES: __webpack_require__(156)};
+UPLOADS: __webpack_require__(131),
+ROOT: __webpack_require__(132),
+LAYOUTS: __webpack_require__(133),
+INCLUDES: __webpack_require__(157)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(156)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(138);
+var s = __webpack_require__(139);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(142);
+var s = __webpack_require__(143);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(155);
+__webpack_require__(156);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(133);
+var react_disqus_comments_1 = __webpack_require__(134);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(147);
-var s = __webpack_require__(149);
+var FacebookLike_1 = __webpack_require__(148);
+var s = __webpack_require__(150);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(139);
-var s = __webpack_require__(140);
+__webpack_require__(140);
+var s = __webpack_require__(141);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(141);
+var s = __webpack_require__(142);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(144);
+var s = __webpack_require__(145);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(143);
+var s = __webpack_require__(144);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(145);
+var s = __webpack_require__(146);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(146);
+var s = __webpack_require__(147);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(151);
+var s = __webpack_require__(152);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(163);
-var menu_1 = __webpack_require__(164);
+var tags_1 = __webpack_require__(164);
+var menu_1 = __webpack_require__(165);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2706,7 +2706,8 @@ var map = {
 	"./2018-07-27-moje-wybory-czerwiec-slash-lipiec-cz-dot-1.markdown": 126,
 	"./2018-07-30-moje-wybory-czerwiec-slash-lipiec-cz-dot-2.markdown": 127,
 	"./2018-08-09-secesja-moodboard.markdown": 128,
-	"./2018-08-15-make-up-inspirowany-obrazem-circus-from-jazz-book-by-henri-matisse.markdown": 129
+	"./2018-08-15-make-up-inspirowany-obrazem-circus-from-jazz-book-by-henri-matisse.markdown": 129,
+	"./2018-08-22-wystawa-handmade-acoustics.markdown": 130
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -10732,15 +10733,97 @@ var raw = exports.raw = "\nW 1941 roku francuski krytyk i wydawca greckiego poch
 
 /***/ }),
 /* 130 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 130;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'olela-narrative',
+      null,
+      'Zatrzymaj si\u0119 na moment i znajd\u017A w sobie inno\u015B\u0107. Zastan\xF3w si\u0119 i pogrzeb troch\u0119 w otch\u0142ani w\u0142asnej to\u017Csamo\u015Bci. Nie wstyd\u017A si\u0119, po raz pierwszy w \u017Cyciu si\u0119 nie wstyd\u017A. Powied\u017A do siebie, powied\u017A na forum, \u017Ce lubisz wieczorami przebiera\u0107 si\u0119 za postaci z kresk\xF3wek i ta\u0144czy\u0107 przy hitach lat 90-tych. Przyznaj si\u0119, \u017Ce fascynuj\u0105 Ci\u0119 d\u017Awi\u0119ki drzew, \u017Ce podczas porannego joggingu w parku obstukujesz wszystkie brzozy i d\u0119by byleby do\u015Bwiadczy\u0107 magii drzewnego basu. Bo c\xF3\u017C w tym z\u0142ego? Dop\xF3ki nie krzywdzisz, a mo\u017Cesz zafascynowa\u0107 nie ma w tym nic z\u0142ego. Dlatego otw\xF3rz si\u0119 na siebie i na innych tak jak robi to Tori Wr\xE5nes, kt\xF3ra deklaruje, \u017Ce \u015Bpiewa w j\u0119zyku trolli.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/8127713/ello-optimized-6ebadb5c.jpg', alt: 'Zdj\u0119cie przedstawia obraz przedstawiaj\u0105cy kobiet\u0119 wisz\u0105c\u0105 g\u0142ow\u0105 w d\xF3\u0142.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Obawa'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Na wystaw\u0119 wchodz\u0119 z pewn\u0105 doz\u0105 niepokoju. Skradam si\u0119 do obraz\xF3w/obiekt\xF3w delikatnie pr\xF3buj\u0105c wczu\u0107 si\u0119 w klimat wystawy. Na \u015Bcianach zauwa\u017Cam wielkie obrazy przypominaj\u0105ce bardziej rze\u017Aby z gliny ni\u017C p\u0142\xF3tna. Zatrzymuj\u0119 si\u0119 przy nich na moment i pr\xF3buje odpowiedzie\u0107 na pytanie dlaczego wystawa nosi tytu\u0142 \u2018Handmade Acoustics\u2019 (\u2018akustyka r\u0119cznie robiona\u2019)? Wchodz\u0119 na trop synestezji, czy te\u017C pokuszam si\u0119 o transdyscyplinarny charakter prac. Tutaj \u0142\u0105czy si\u0119 i wzajemnie przenika d\u017Awi\u0119k, obraz, rze\u017Aba, performans. Granice sztuki zostaj\u0105 zatarte, a ja wyobra\u017Cam sobie jak brzmi\u0105 obrazy. Jawi\u0105 mi si\u0119 one jako partytury muzyczne, a rze\u017Abienie uto\u017Csamiam ze \u015Bpiewem, co okazuje si\u0119 trafion\u0105 interpretacj\u0105. Tori redefiniuje bowiem pierwotne warto\u015Bci zar\xF3wno konkretnej dziedziny sztuki jak i dzie\u0142a. \u2018Handmade\u2019 w dos\u0142ownym i przeno\u015Bnym znaczeniu dotyka samych prac, procesu ich powstawania, oraz przestrzeni wystawy, kt\xF3ra jest integraln\u0105 cz\u0119\u015Bci\u0105 instalacji \u2018site-specific\u2019.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/8127691/ello-optimized-4e223411.jpg', alt: 'Obraz przedstawia zdj\u0119cie obrazu i fragmenty obrazu.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8127693/ello-optimized-f07b9cda.jpg', alt: 'Zdj\u0119cie przedstawia br\u0105zowy obraz i fragment obrazu po prawej stronie.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/8127695/ello-optimized-64d70b81.jpg', alt: 'Zdj\u0119cie przedstawia zbli\u017Cenie na obraz artysty.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Oswojenie'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'L\u0119k przed nieznanym mija z ka\u017Cdym kolejnym krokiem. Na swojej drodze spotykam obiekty (rze\u017Aby kinetyczne), kt\xF3re za spraw\u0105 ruchu wydaj\u0105 d\u017Awi\u0119k. \u2018Lina\u2019 (2017) obraca si\u0119 wok\xF3\u0142 w\u0142asnej osi tn\u0105c powietrze niczym ostrze samurajskiej katany. Obok, na du\u017Cego formatu fotografii, Tori z otwartymi ustami wisi g\u0142ow\u0105 w d\xF3\u0142. \u2018Mo\u017Ce by\u0107 te\u017C na odwr\xF3t\u2019 (foto Mikkel McAlinden) stanowi zapis performansu, podczas kt\xF3rego artystka \u015Bpiewa zawieszona do g\xF3ry nogami. Badanie mo\u017Cliwo\u015Bci w\u0142asnego cia\u0142a, przekraczanie ich przypomina mi postaci \u2018matki\u2019 sztuki performance Mariny Abramovi\u0107. Na \u015Brodku sali umieszczony jest w\xF3zek inwalidzki, kt\xF3rego funkcja zaprzeczona jest poprzez umieszczenie go na czym\u015B w rodzaju bie\u017Cni. W\xF3zek porusza si\u0119 do przodu lecz stoi w miejscu. Rze\u017Aba nosi tytu\u0142 \u2018Mo\u017Cliwo\u015Bci\u2019 (2017).'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/8127696/ello-optimized-e91c2744.jpg', alt: 'Obraz przedstawia zdj\u0119cie obrazu z kobiet\u0105 wisz\u0105c\u0105 g\u0142ow\u0105 w d\xF3\u0142, oraz fragment tego samego obrazu.' }),
+      '![Zdj\u0119cie przedstawia obiekt przypominaj\u0105cy czarny mikrofon. Obiekt stoi w bia\u0142ym pomieszczeniu.] (',
+      _react2.default.createElement(
+        'a',
+        { href: 'https://assets0.ello.co/uploads/asset/attachment/8127709/ello-optimized-8f455e33.jpg' },
+        'https://assets0.ello.co/uploads/asset/attachment/8127709/ello-optimized-8f455e33.jpg'
+      ),
+      ')',
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/8127698/ello-optimized-a1adb14f.jpg', alt: 'Zdj\u0119cie podzielone jest na dwie cz\u0119\u015Bci. Widzimy ciemne kurtki zawieszone na wieszaku i fragment postaci ubranej na r\xF3\u017Cowo.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8127699/ello-optimized-b4146d44.jpg', alt: 'Zdj\u0119cie przedstawia obiekt w postaci dw\xF3ch par spodni po\u0142\u0105czonych ze sob\u0105. Widzimy bia\u0142e sportowe obuwie na szarej pod\u0142odze.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/8127716/ello-optimized-238c0881.jpg', alt: 'Zdj\u0119cie przedstawia w\xF3zek inwalidzki z meksyka\u0144skim kapeluszem zawieszonym na jego uchwycie.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Wystawa: Handmade Acoustics", "date": "2018-08-22T16:07:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["wystawa", "exhibition", "csw", "tori wranes", "handmade acoustics", "obiekt", "rzeźba", "instalacja", "site-specific", "performance"] };
+var body = exports.body = "<olela-narrative>\nZatrzymaj się na moment i znajdź w sobie inność. Zastanów się i pogrzeb trochę w otchłani własnej tożsamości. Nie wstydź się, po raz pierwszy w życiu się nie wstydź. Powiedź do siebie, powiedź na forum, że lubisz wieczorami przebierać się za postaci z kreskówek i tańczyć przy hitach lat 90-tych. Przyznaj się, że fascynują Cię dźwięki drzew, że podczas porannego joggingu w parku obstukujesz wszystkie brzozy i dęby byleby doświadczyć magii drzewnego basu. Bo cóż w tym złego? Dopóki nie krzywdzisz, a możesz zafascynować nie ma w tym nic złego. Dlatego otwórz się na siebie i na innych tak jak robi to Tori Wrånes, która deklaruje, że śpiewa w języku trolli.\n</olela-narrative>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/8127713/ello-optimized-6ebadb5c.jpg\" alt=\"Zdjęcie przedstawia obraz przedstawiający kobietę wiszącą głową w dół.\" /></p>\n<h2>Obawa</h2>\n<p>Na wystawę wchodzę z pewną dozą niepokoju. Skradam się do obrazów/obiektów delikatnie próbując wczuć się w klimat wystawy. Na ścianach zauważam wielkie obrazy przypominające bardziej rzeźby z gliny niż płótna. Zatrzymuję się przy nich na moment i próbuje odpowiedzieć na pytanie dlaczego wystawa nosi tytuł ‘Handmade Acoustics’ (‘akustyka ręcznie robiona’)? Wchodzę na trop synestezji, czy też pokuszam się o transdyscyplinarny charakter prac. Tutaj łączy się i wzajemnie przenika dźwięk, obraz, rzeźba, performans. Granice sztuki zostają zatarte, a ja wyobrażam sobie jak brzmią obrazy. Jawią mi się one jako partytury muzyczne, a rzeźbienie utożsamiam ze śpiewem, co okazuje się trafioną interpretacją. Tori redefiniuje bowiem pierwotne wartości zarówno konkretnej dziedziny sztuki jak i dzieła. ‘Handmade’ w dosłownym i przenośnym znaczeniu dotyka samych prac, procesu ich powstawania, oraz przestrzeni wystawy, która jest integralną częścią instalacji ‘site-specific’.</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/8127691/ello-optimized-4e223411.jpg\" alt=\"Obraz przedstawia zdjęcie obrazu i fragmenty obrazu.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/8127693/ello-optimized-f07b9cda.jpg\" alt=\"Zdjęcie przedstawia brązowy obraz i fragment obrazu po prawej stronie.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/8127695/ello-optimized-64d70b81.jpg\" alt=\"Zdjęcie przedstawia zbliżenie na obraz artysty.\" /></p>\n<h2>Oswojenie</h2>\n<p>Lęk przed nieznanym mija z każdym kolejnym krokiem. Na swojej drodze spotykam obiekty (rzeźby kinetyczne), które za sprawą ruchu wydają dźwięk. ‘Lina’ (2017) obraca się wokół własnej osi tnąc powietrze niczym ostrze samurajskiej katany. Obok, na dużego formatu fotografii, Tori z otwartymi ustami wisi głową w dół. ‘Może być też na odwrót’ (foto Mikkel McAlinden) stanowi zapis performansu, podczas którego artystka śpiewa zawieszona do góry nogami. Badanie możliwości własnego ciała, przekraczanie ich przypomina mi postaci ‘matki’ sztuki performance Mariny Abramović. Na środku sali umieszczony jest wózek inwalidzki, którego funkcja zaprzeczona jest poprzez umieszczenie go na czymś w rodzaju bieżni. Wózek porusza się do przodu lecz stoi w miejscu. Rzeźba nosi tytuł ‘Możliwości’ (2017).</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/8127696/ello-optimized-e91c2744.jpg\" alt=\"Obraz przedstawia zdjęcie obrazu z kobietą wiszącą głową w dół, oraz fragment tego samego obrazu.\" />\n![Zdjęcie przedstawia obiekt przypominający czarny mikrofon. Obiekt stoi w białym pomieszczeniu.]\n(<a href=\"https://assets0.ello.co/uploads/asset/attachment/8127709/ello-optimized-8f455e33.jpg\">https://assets0.ello.co/uploads/asset/attachment/8127709/ello-optimized-8f455e33.jpg</a>)\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/8127698/ello-optimized-a1adb14f.jpg\" alt=\"Zdjęcie podzielone jest na dwie części. Widzimy ciemne kurtki zawieszone na wieszaku i fragment postaci ubranej na różowo.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/8127699/ello-optimized-b4146d44.jpg\" alt=\"Zdjęcie przedstawia obiekt w postaci dwóch par spodni połączonych ze sobą. Widzimy białe sportowe obuwie na szarej podłodze.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/8127716/ello-optimized-238c0881.jpg\" alt=\"Zdjęcie przedstawia wózek inwalidzki z meksykańskim kapeluszem zawieszonym na jego uchwycie.\" /></p>\n";
+var raw = exports.raw = "\n<olela-narrative>\nZatrzymaj się na moment i znajdź w sobie inność. Zastanów się i pogrzeb trochę w otchłani własnej tożsamości. Nie wstydź się, po raz pierwszy w życiu się nie wstydź. Powiedź do siebie, powiedź na forum, że lubisz wieczorami przebierać się za postaci z kreskówek i tańczyć przy hitach lat 90-tych. Przyznaj się, że fascynują Cię dźwięki drzew, że podczas porannego joggingu w parku obstukujesz wszystkie brzozy i dęby byleby doświadczyć magii drzewnego basu. Bo cóż w tym złego? Dopóki nie krzywdzisz, a możesz zafascynować nie ma w tym nic złego. Dlatego otwórz się na siebie i na innych tak jak robi to Tori Wrånes, która deklaruje, że śpiewa w języku trolli.\n</olela-narrative>\n\n![Zdjęcie przedstawia obraz przedstawiający kobietę wiszącą głową w dół.](https://assets2.ello.co/uploads/asset/attachment/8127713/ello-optimized-6ebadb5c.jpg)\n\n## Obawa\n\nNa wystawę wchodzę z pewną dozą niepokoju. Skradam się do obrazów/obiektów delikatnie próbując wczuć się w klimat wystawy. Na ścianach zauważam wielkie obrazy przypominające bardziej rzeźby z gliny niż płótna. Zatrzymuję się przy nich na moment i próbuje odpowiedzieć na pytanie dlaczego wystawa nosi tytuł ‘Handmade Acoustics’ (‘akustyka ręcznie robiona’)? Wchodzę na trop synestezji, czy też pokuszam się o transdyscyplinarny charakter prac. Tutaj łączy się i wzajemnie przenika dźwięk, obraz, rzeźba, performans. Granice sztuki zostają zatarte, a ja wyobrażam sobie jak brzmią obrazy. Jawią mi się one jako partytury muzyczne, a rzeźbienie utożsamiam ze śpiewem, co okazuje się trafioną interpretacją. Tori redefiniuje bowiem pierwotne wartości zarówno konkretnej dziedziny sztuki jak i dzieła. ‘Handmade’ w dosłownym i przenośnym znaczeniu dotyka samych prac, procesu ich powstawania, oraz przestrzeni wystawy, która jest integralną częścią instalacji ‘site-specific’.\n\n![Obraz przedstawia zdjęcie obrazu i fragmenty obrazu.](https://assets2.ello.co/uploads/asset/attachment/8127691/ello-optimized-4e223411.jpg)\n![Zdjęcie przedstawia brązowy obraz i fragment obrazu po prawej stronie.](https://assets1.ello.co/uploads/asset/attachment/8127693/ello-optimized-f07b9cda.jpg)\n![Zdjęcie przedstawia zbliżenie na obraz artysty.](https://assets2.ello.co/uploads/asset/attachment/8127695/ello-optimized-64d70b81.jpg)\n\n## Oswojenie\n\nLęk przed nieznanym mija z każdym kolejnym krokiem. Na swojej drodze spotykam obiekty (rzeźby kinetyczne), które za sprawą ruchu wydają dźwięk. ‘Lina’ (2017) obraca się wokół własnej osi tnąc powietrze niczym ostrze samurajskiej katany. Obok, na dużego formatu fotografii, Tori z otwartymi ustami wisi głową w dół. ‘Może być też na odwrót’ (foto Mikkel McAlinden) stanowi zapis performansu, podczas którego artystka śpiewa zawieszona do góry nogami. Badanie możliwości własnego ciała, przekraczanie ich przypomina mi postaci ‘matki’ sztuki performance Mariny Abramović. Na środku sali umieszczony jest wózek inwalidzki, którego funkcja zaprzeczona jest poprzez umieszczenie go na czymś w rodzaju bieżni. Wózek porusza się do przodu lecz stoi w miejscu. Rzeźba nosi tytuł ‘Możliwości’ (2017).\n\n![Obraz przedstawia zdjęcie obrazu z kobietą wiszącą głową w dół, oraz fragment tego samego obrazu.](https://assets2.ello.co/uploads/asset/attachment/8127696/ello-optimized-e91c2744.jpg)\n![Zdjęcie przedstawia obiekt przypominający czarny mikrofon. Obiekt stoi w białym pomieszczeniu.]\n(https://assets0.ello.co/uploads/asset/attachment/8127709/ello-optimized-8f455e33.jpg)\n![Zdjęcie podzielone jest na dwie części. Widzimy ciemne kurtki zawieszone na wieszaku i fragment postaci ubranej na różowo.](https://assets0.ello.co/uploads/asset/attachment/8127698/ello-optimized-a1adb14f.jpg)\n![Zdjęcie przedstawia obiekt w postaci dwóch par spodni połączonych ze sobą. Widzimy białe sportowe obuwie na szarej podłodze.](https://assets1.ello.co/uploads/asset/attachment/8127699/ello-optimized-b4146d44.jpg)\n![Zdjęcie przedstawia wózek inwalidzki z meksykańskim kapeluszem zawieszonym na jego uchwycie.](https://assets0.ello.co/uploads/asset/attachment/8127716/ello-optimized-238c0881.jpg)\n\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 131 */
@@ -10756,6 +10839,18 @@ webpackEmptyContext.id = 131;
 
 /***/ }),
 /* 132 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 132;
+
+/***/ }),
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -10776,19 +10871,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 132;
+webpackContext.id = 133;
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(134);
+module.exports = __webpack_require__(135);
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10806,7 +10901,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(135);
+var _propTypes = __webpack_require__(136);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -11010,13 +11105,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_135__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_136__;
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11030,7 +11125,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11038,7 +11133,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11051,7 +11146,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11085,7 +11180,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11098,7 +11193,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11107,7 +11202,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11115,7 +11210,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11123,7 +11218,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11138,7 +11233,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11153,7 +11248,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11168,7 +11263,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11192,7 +11287,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(148);
+var s = __webpack_require__(149);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -11223,7 +11318,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11231,7 +11326,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11255,7 +11350,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11306,7 +11401,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11314,7 +11409,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11323,7 +11418,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(153);
+var s = __webpack_require__(154);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -11356,7 +11451,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11366,7 +11461,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11410,22 +11505,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 157,
-	"./Feed.js": 158,
-	"./Ingredient.js": 159,
-	"./Method.js": 160,
-	"./Recipe.js": 161,
-	"./TableOfContents.js": 162
+	"./Crumbs.js": 158,
+	"./Feed.js": 159,
+	"./Ingredient.js": 160,
+	"./Method.js": 161,
+	"./Recipe.js": 162,
+	"./TableOfContents.js": 163
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -11441,10 +11536,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 156;
+webpackContext.id = 157;
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11459,7 +11554,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11474,7 +11569,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11489,7 +11584,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11504,7 +11599,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11519,7 +11614,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11534,7 +11629,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11558,7 +11653,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
