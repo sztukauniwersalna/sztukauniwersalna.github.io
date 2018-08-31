@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_136__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_137__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(151);
+var Feed_1 = __webpack_require__(152);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(153);
+var Recipe_1 = __webpack_require__(154);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(155);
+var Root_1 = __webpack_require__(156);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(137);
+var s = __webpack_require__(138);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(138);
+var s = __webpack_require__(139);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(131),
-ROOT: __webpack_require__(132),
-LAYOUTS: __webpack_require__(133),
-INCLUDES: __webpack_require__(157)};
+UPLOADS: __webpack_require__(132),
+ROOT: __webpack_require__(133),
+LAYOUTS: __webpack_require__(134),
+INCLUDES: __webpack_require__(158)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(157)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(139);
+var s = __webpack_require__(140);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(143);
+var s = __webpack_require__(144);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(156);
+__webpack_require__(157);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(134);
+var react_disqus_comments_1 = __webpack_require__(135);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(148);
-var s = __webpack_require__(150);
+var FacebookLike_1 = __webpack_require__(149);
+var s = __webpack_require__(151);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(140);
-var s = __webpack_require__(141);
+__webpack_require__(141);
+var s = __webpack_require__(142);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(142);
+var s = __webpack_require__(143);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(145);
+var s = __webpack_require__(146);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(144);
+var s = __webpack_require__(145);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(146);
+var s = __webpack_require__(147);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(147);
+var s = __webpack_require__(148);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(152);
+var s = __webpack_require__(153);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(164);
-var menu_1 = __webpack_require__(165);
+var tags_1 = __webpack_require__(165);
+var menu_1 = __webpack_require__(166);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2707,7 +2707,8 @@ var map = {
 	"./2018-07-30-moje-wybory-czerwiec-slash-lipiec-cz-dot-2.markdown": 127,
 	"./2018-08-09-secesja-moodboard.markdown": 128,
 	"./2018-08-15-make-up-inspirowany-obrazem-circus-from-jazz-book-by-henri-matisse.markdown": 129,
-	"./2018-08-22-wystawa-handmade-acoustics.markdown": 130
+	"./2018-08-22-wystawa-handmade-acoustics.markdown": 130,
+	"./2018-08-31-moje-wybory-sierpien.markdown": 131
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -10898,15 +10899,168 @@ var raw = exports.raw = "\n<olela-narrative>\nZatrzymaj się na moment i znajdź
 
 /***/ }),
 /* 131 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 131;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'olela-narrative',
+      null,
+      'Pewnego sierpniowego dnia ba\u0142am si\u0119 wyj\u015B\u0107 po kaw\u0119 do sklepu, bo alarmowy sms og\u0142osi\u0142 burze w ca\u0142ej Polsce, b\u0142yskawice i huragany. Burzy nie by\u0142o, a przynajmniej nie by\u0142a ona tak straszna, jak wizualizowa\u0142am. Do tej pory nie zaopatrzy\u0142am si\u0119 w kalosze, a parasoli nie znosz\u0119. W deszczowy czas uwielbiam zaszy\u0107 si\u0119 w domu i z ksi\u0105\u017Ck\u0105 w r\u0119ce nas\u0142uchiwa\u0107 stukania kropli o parapet. W tym miesi\u0105cu trafi\u0142am na naprawd\u0119 \u015Bwietn\u0105 pozycj\u0119 czytelnicz\u0105. Dodatkowo do rytua\u0142u papierowego szelestu warto doda\u0107 koj\u0105co przyjemn\u0105 maseczk\u0119 na twarz. Nast\u0119pnego dnia sk\xF3ra wygl\u0105da jakby odespa\u0142a sto zaleg\u0142ych godzin. A jak ju\u017C tak dobrze si\u0119 wygl\u0105da i s\u0142o\u0144ce wreszcie wysz\u0142o zza chmur to dla wzmocnienia efektu nale\u017Cy za\u0142o\u017Cy\u0107 szlachetn\u0105 torebk\u0119 i uda\u0107 si\u0119 w miasto. Torebka koniecznie w mocnym, mad\u017Centowym kolorze. Na pytanie: \u2018co mie\u015Bci damska torebka\u2019 odpowiadam \u2013 wszystko i jeszcze wi\u0119cej. Znajd\u0105 si\u0119 w niej podstawy takie jak chusteczki higieniczne, chusteczki nawil\u017Cane (czasami te\u017C \u017Cel antybakteryjny do d\u0142oni), wszelkie kobiece historie (czyt. podpaski i tampony), no i ca\u0142a gama kosmetyk\xF3w. Najwa\u017Cniejsza jednak jest szminka/b\u0142yszczyk. Bez tego na bezludn\u0105 wysp\u0119 ani rusz*. U make-up\u2019owej maniaczki znajd\u0105 si\u0119 trzy szminki, dwa b\u0142yszczyki, tusz do rz\u0119s, korektor, mini perfumy, a nawet lakier do paznokci. Wszystko w imi\u0119 pewno\u015Bci siebie... *Doda zapytana, co zabra\u0142a by ze sob\u0105 na bezludn\u0105 wysp\u0119 odpowiedzia\u0142a \u2013 b\u0142yszczyk!'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/8162296/ello-optimized-e83008f2.jpg', alt: 'Zdj\u0119cie przedstawia kobiet\u0119 w nienaturalnej pozie, kobieta trzyma w r\u0119ku r\xF3\u017Cow\u0105 torebk\u0119 i ma d\u0142ugie w\u0142osy.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Akcesoria: torebka'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Przepi\u0119kne ultra-r\xF3\u017Cowe falbanki zdobi\u0105 torebk\u0119 z kolekcji Michael Kors wiosna/lato 2018 (model Mercer). Taki dodatek \u2018robi\u2019 ca\u0142\u0105 stylizacj\u0119. Genialnie wygl\u0105da zestawiona z klasyk\u0105 bia\u0142ej koszuli i d\u017Cins\xF3w. U mnie znalaz\u0142a swoje miejsce obok sukienki w kwiaty u\u017Cytej jako szlafrokowa narzutka. Te urocze falbanki przypominaj\u0105 mi p\u0142atki kwiat\xF3w. Moda to przecie\u017C przede wszystkim zabawa. U\u015Bwiadomi\u0142a mnie w tym bohaterka s\u0142ynnego serialu \u2018Sex w Wielkim Mie\u015Bcie\u2019 - Carrie Bradshaw. Carrie nosi\u0142a zwariowane (teraz kultowe) modele torebek. Od Dior Saddle Bag po torebk\u0119 w kszta\u0142cie wie\u017Cy Eiffel\u2019a by Timmy Woods. \u0141\u0105czy\u0142a niepokoj\u0105co r\xF3\u017Cne style, co o dziwo tworzy\u0142o zaskakuj\u0105co pasuj\u0105cy do niej eklektyzm. Chcia\u0142abym by\u0107 tak pewna siebie w ubiorze jak ona. W tym sezonie zaczynam od torebek. Koniec z nud\u0105 i czerni\u0105, czas na kolor!'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8162297/ello-optimized-b5668ad5.jpg', alt: 'Zdj\u0119cie przedstawia fragment r\xF3\u017Cowej torebki na jasnym tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8162298/ello-optimized-5a94380d.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cie postaci trzymaj\u0105cej r\xF3\u017Cow\u0105 torebk\u0119. Posta\u0107 ma na sobie czarn\u0105 sukienk\u0119 w kolorowe kwiaty.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Kosmetyk: piel\u0119gnacja'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'O maseczkach Dr. Jart\u2019a s\u0142ysza\u0142am ju\u017C wiele. \u015Awietnie nawil\u017Caj\u0105, nawadniaj\u0105 (bo to nie to samo!), rewitalizuj\u0105 sk\xF3r\u0119. W sierpniu m\xF3j makija\u017Cowy czas by\u0142 do\u015B\u0107 intensywny, co ponios\u0142o za sob\u0105 podra\u017Cnienie i zaczerwienienie sk\xF3ry twarzy. Zdecydowa\u0142am si\u0119 wypr\xF3bowa\u0107 koj\u0105c\u0105 maseczk\u0119 kauczukow\u0105 z serii \u2018Shake & Shot\u2019 i to by\u0142 strza\u0142 w dziesi\u0105tk\u0119. Maseczka zawiera w sobie witamin\u0119 K3 i koj\u0105cy kompleks botaniczny, co daje natychmiastowe uczucie uspokojenia zdenerwowanych naczynek. Kosmetyk ma nietypow\u0105 formu\u0142\u0119. W opakowaniu, kt\xF3re swoim kszta\u0142tem przypomina kubek znajdziemy dwie saszetki, instrukcj\u0119 obs\u0142ugi i szpatu\u0142k\u0119. Przygotowanie jest proste: zawarto\u015B\u0107 dw\xF3ch saszetek wlewamy do kubeczka po czym zamykamy kubek (czym\u015B na kszta\u0142t buzi  niemowlaka) i energicznie mieszamy. Wa\u017Cne, aby ca\u0142o\u015B\u0107 na\u0142o\u017Cy\u0107 na twarz do dw\xF3ch minut po przygotowaniu! Maska bowiem zaczyna szybko zastyga\u0107. Po up\u0142ywie 20stu minut ca\u0142o\u015B\u0107 \u015Bci\u0105gamy pocz\u0105wszy od brzeg\xF3w twarzy. Zaskoczy\u0142o mnie z jak\u0105 \u0142atwo\u015Bci\u0105 wykona\u0142am t\u0119 czynno\u015B\u0107 i nie musia\u0142am domywa\u0107 resztek kosmetyku. Po ca\u0142ym zabiegu sk\xF3ra wydaje si\u0119 nawil\u017Cona lecz matowa, a pory s\u0105 widocznie zmniejszone. Co najwa\u017Cniejsze efekty utrzymywa\u0142y si\u0119 jeszcze przez d\u0142ugi czas. Polecam przed wielkim wyj\u015Bciem.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8162293/ello-optimized-b4497a45.jpg', alt: 'Zdj\u0119cie przedstawia r\xF3\u017Cne przedmioty rozsypane na jasnym pod\u0142o\u017Cu. Widzimy fioletowy kubek i mi\u0119tow\u0105 zatyczk\u0119 w kszta\u0142cie twarzy.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Kosmetyk: kolor\xF3wka'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Za\u0142apa\u0142am si\u0119 na ko\u0144c\xF3wk\u0119 wyprzeda\u017Cy w Sephora. Wy\u0142apa\u0142am pomadk\u0119, kt\xF3ra swoj\u0105 formu\u0142\u0105 przebija wi\u0119kszo\u015B\u0107 pomadek z mojej kolekcji (a mam ich sporo). Marc Jacobs Le Marc Liquid Lip Cr\xE8me (u mnie w odcieniu 456 \u2018Shush, Blush\u2019) to co\u015B wi\u0119cej ni\u017C tylko kolor na ustach. To przede wszystkim komfort noszenia, \u0142atwo\u015B\u0107 aplikacji i trwa\u0142o\u015B\u0107. Pigment tego kosmetyku jest tak mocny, \u017Ce wystarczy jeden ruch aplikatorem aby nasze wargi nabra\u0142y soczystego koloru bez smug. Pomadka ma satynowe wyko\u0144czenie a w jej sk\u0142adzie znajdziemy mi\u0119dzy innymi kolagen i brazylijskie mas\u0142o Cupua\xE7u. Piel\u0119gnacja po\u0142\u0105czona ze spektakularnym efektem. Jestem fank\u0105.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/8162294/ello-optimized-aa3bdd2c.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia przedzielone bia\u0142\u0105 falist\u0105 lini\u0105. Na zdj\u0119ciach widzimy przedmioty u\u0142o\u017Cone na bia\u0142ym materiale.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Lektura'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      '\u2018Mamo, masz mo\u017Ce co\u015B dobrego do czytania?\u2019 - dwa razy pyta\u0107 nie trzeba. \u2018Dom polski. Meblo\u015Bcianka z pikasami\u2019 to pozycja nie tylko dla fan\xF3w dizajnu i wystroju wn\u0119trz. Na 200stu stronach znajdziemy rozmowy ',
+      _react2.default.createElement(
+        'a',
+        { href: 'http://m.in' },
+        'm.in'
+      ),
+      '. z Beat\u0105 Bochi\u0144sk\u0105 \u2013 autork\u0105 ksi\u0105\u017Cki \u2018Zacznij kocha\u0107 dizajn. Jak kolekcjonowa\u0107 polsk\u0105 sztuk\u0119 u\u017Cytkow\u0105\u2019, historyczk\u0105 i krytyczk\u0105 dizajnu,  Danut\u0105 Duszniak \u2013 projektantk\u0105 ceramiki, pionierk\u0105 stylu New Look (jej serwisy kawowe i flakony goszcz\u0105 do dzi\u015B w polskich domach), czy przedstawicielem m\u0142odego pokolenia projektant\xF3w \u2013 Oskarem Zi\u0119t\u0105. Ka\u017Cdy wywiad okraszony zosta\u0142 ilustracj\u0105 Joanny Grochockiej, kt\xF3re to wyj\u0105tkowo przypad\u0142y mi do gustu ze wzgl\u0119du na kola\u017Cowy charakter. Rozmowy dotycz\u0105 nie tylko zmieniaj\u0105cego si\u0119 przez lata wystroju polskiego mieszkania, ale dotykaj\u0105 s\u0142owa \u2018dom\u2019 w rozumieniu polskiej rodziny. Czytamy tu o marzeniach Polak\xF3w zwi\u0105zanych ze \u015Bwiatem zachodu zestawionych z prawd\u0105 politycznego ustroju, kt\xF3ry determinowa\u0142 wygl\u0105d domu. Czytamy o wyj\u0105tkowych projektach z upad\u0142ych ju\u017C hut szk\u0142a. Dowiemy si\u0119 co nieco o \u2018\u0141ad\u2019, czyli Sp\xF3\u0142dzielni Pracy Architektury Wn\u0119trz, w kt\xF3rej powstawa\u0142y meble unikatowe. Refleksje nad poj\u0119ciem domu rozszerzaj\u0105 si\u0119 na kultur\u0119, obyczaje, mod\u0119, j\u0119zyk, mentalno\u015B\u0107 Polak\xF3w. Warto przeczyta\u0107 dla przyjemno\u015Bci, ale te\u017C \u015Bwiadomo\u015Bci i wiedzy. Bo kiedy IKEA wprowadza do najnowszej kolekcji stolik kawowy na trzech nogach, my wiemy, \u017Ce projekt pochodzi z lat 60-tych z jednej z naszych fabryk mebli i by\u0107 mo\u017Ce zamiast wspiera\u0107 szwedzkiego giganta przygarniemy kawa\u0142ek historii do naszego wn\u0119trza. Warto pyta\u0107 Mamy o ksi\u0105\u017Cki. PS Na zdj\u0119ciu obok ksi\u0105\u017Cki znajduje si\u0119 porcelanowa fili\u017Canka z polskiej fabryki porcelany Wa\u0142brzych.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/8162295/ello-optimized-7d2e1106.jpg', alt: 'Obraz przedstawia fotografi\u0119 ksi\u0105\u017Cki na \u017C\xF3\u0142to-czerwonym pod\u0142o\u017Cu. Obok stoi niewielka fili\u017Canka z czarn\u0105 kaw\u0105.' })
+    ),
+    _react2.default.createElement('hr', null),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Shop My Choices'
+    ),
+    _react2.default.createElement(
+      'ul',
+      null,
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: 'https://www.chiara.pl/pl/do-reki/14384-mercer.html' },
+          'Michael Kors Mercer Bag'
+        )
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: 'http://www.sephora.pl/Pielegnacja-Twarzy/Maseczki/Maseczki-w-kremie/Shake-Shot-Kauczukowa-maska-kojaca/P3280013' },
+          'Dr.Jart+ Shake & Shot Soothing Mask'
+        )
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: 'http://www.sephora.pl/Makijaz/Usta/Pomadki/Liquid-Le-Marc-Kremowa-pomadka-w-plynie/P2938017' },
+          'Marc Jacobs Le Marc Liquid Lip Cr\xE8me'
+        )
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: 'https://www.empik.com/dom-polski-mebloscianka-z-pikasami-czynska-malgorzata,p1167782909,ksiazka-p?gclid=CjwKCAjwzqPcBRAnEiwAzKRgSz_eh4GDpgWRvvo3W3ujKiDs8zE5wGTwnyqmcjKUBYa7iTfZJiR5RxoC4mcQAvD_BwE&gclsrc=aw.ds' },
+          'Ma\u0142gorzata Czy\u0144ska \u2018Dom polski. Meblo\u015Bcianka z pikasami\u2019'
+        )
+      )
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Moje wybory: sierpień", "date": "2018-08-31T13:58:00.000Z", "categories": ["Sztuka Ubioru"], "tags": ["moje wybory", "my choices", "kosmetyk", "książka", "torebka", "marc jacobs", "michael kors", "design"] };
+var body = exports.body = "<olela-narrative>\nPewnego sierpniowego dnia bałam się wyjść po kawę do sklepu, bo alarmowy sms ogłosił burze w całej Polsce, błyskawice i huragany. Burzy nie było, a przynajmniej nie była ona tak straszna, jak wizualizowałam. Do tej pory nie zaopatrzyłam się w kalosze, a parasoli nie znoszę. W deszczowy czas uwielbiam zaszyć się w domu i z książką w ręce nasłuchiwać stukania kropli o parapet. W tym miesiącu trafiłam na naprawdę świetną pozycję czytelniczą. Dodatkowo do rytuału papierowego szelestu warto dodać kojąco przyjemną maseczkę na twarz. Następnego dnia skóra wygląda jakby odespała sto zaległych godzin. A jak już tak dobrze się wygląda i słońce wreszcie wyszło zza chmur to dla wzmocnienia efektu należy założyć szlachetną torebkę i udać się w miasto. Torebka koniecznie w mocnym, madżentowym kolorze. Na pytanie: ‘co mieści damska torebka’ odpowiadam – wszystko i jeszcze więcej. Znajdą się w niej podstawy takie jak chusteczki higieniczne, chusteczki nawilżane (czasami też żel antybakteryjny do dłoni), wszelkie kobiece historie (czyt. podpaski i tampony), no i cała gama kosmetyków. Najważniejsza jednak jest szminka/błyszczyk. Bez tego na bezludną wyspę ani rusz*. U make-up’owej maniaczki znajdą się trzy szminki, dwa błyszczyki, tusz do rzęs, korektor, mini perfumy, a nawet lakier do paznokci. Wszystko w imię pewności siebie...\n*Doda zapytana, co zabrała by ze sobą na bezludną wyspę odpowiedziała – błyszczyk!\n</olela-narrative>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/8162296/ello-optimized-e83008f2.jpg\" alt=\"Zdjęcie przedstawia kobietę w nienaturalnej pozie, kobieta trzyma w ręku różową torebkę i ma długie włosy.\" /></p>\n<h2>Akcesoria: torebka</h2>\n<p>Przepiękne ultra-różowe falbanki zdobią torebkę z kolekcji Michael Kors wiosna/lato 2018 (model Mercer). Taki dodatek ‘robi’ całą stylizację. Genialnie wygląda zestawiona z klasyką białej koszuli i dżinsów. U mnie znalazła swoje miejsce obok sukienki w kwiaty użytej jako szlafrokowa narzutka. Te urocze falbanki przypominają mi płatki kwiatów. Moda to przecież przede wszystkim zabawa. Uświadomiła mnie w tym bohaterka słynnego serialu ‘Sex w Wielkim Mieście’ - Carrie Bradshaw. Carrie nosiła zwariowane (teraz kultowe) modele torebek. Od Dior Saddle Bag po torebkę w kształcie wieży Eiffel’a by Timmy Woods. Łączyła niepokojąco różne style, co o dziwo tworzyło zaskakująco pasujący do niej eklektyzm. Chciałabym być tak pewna siebie w ubiorze jak ona. W tym sezonie zaczynam od torebek. Koniec z nudą i czernią, czas na kolor!</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/8162297/ello-optimized-b5668ad5.jpg\" alt=\"Zdjęcie przedstawia fragment różowej torebki na jasnym tle.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/8162298/ello-optimized-5a94380d.jpg\" alt=\"Obraz przedstawia dwa zdjęcie postaci trzymającej różową torebkę. Postać ma na sobie czarną sukienkę w kolorowe kwiaty.\" /></p>\n<h2>Kosmetyk: pielęgnacja</h2>\n<p>O maseczkach Dr. Jart’a słyszałam już wiele. Świetnie nawilżają, nawadniają (bo to nie to samo!), rewitalizują skórę. W sierpniu mój makijażowy czas był dość intensywny, co poniosło za sobą podrażnienie i zaczerwienienie skóry twarzy. Zdecydowałam się wypróbować kojącą maseczkę kauczukową z serii ‘Shake &amp; Shot’ i to był strzał w dziesiątkę. Maseczka zawiera w sobie witaminę K3 i kojący kompleks botaniczny, co daje natychmiastowe uczucie uspokojenia zdenerwowanych naczynek. Kosmetyk ma nietypową formułę. W opakowaniu, które swoim kształtem przypomina kubek znajdziemy dwie saszetki, instrukcję obsługi i szpatułkę. Przygotowanie jest proste: zawartość dwóch saszetek wlewamy do kubeczka po czym zamykamy kubek (czymś na kształt buzi  niemowlaka) i energicznie mieszamy. Ważne, aby całość nałożyć na twarz do dwóch minut po przygotowaniu! Maska bowiem zaczyna szybko zastygać. Po upływie 20stu minut całość ściągamy począwszy od brzegów twarzy. Zaskoczyło mnie z jaką łatwością wykonałam tę czynność i nie musiałam domywać resztek kosmetyku. Po całym zabiegu skóra wydaje się nawilżona lecz matowa, a pory są widocznie zmniejszone. Co najważniejsze efekty utrzymywały się jeszcze przez długi czas. Polecam przed wielkim wyjściem.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/8162293/ello-optimized-b4497a45.jpg\" alt=\"Zdjęcie przedstawia różne przedmioty rozsypane na jasnym podłożu. Widzimy fioletowy kubek i miętową zatyczkę w kształcie twarzy.\" /></p>\n<h2>Kosmetyk: kolorówka</h2>\n<p>Załapałam się na końcówkę wyprzedaży w Sephora. Wyłapałam pomadkę, która swoją formułą przebija większość pomadek z mojej kolekcji (a mam ich sporo). Marc Jacobs Le Marc Liquid Lip Crème (u mnie w odcieniu 456 ‘Shush, Blush’) to coś więcej niż tylko kolor na ustach. To przede wszystkim komfort noszenia, łatwość aplikacji i trwałość. Pigment tego kosmetyku jest tak mocny, że wystarczy jeden ruch aplikatorem aby nasze wargi nabrały soczystego koloru bez smug. Pomadka ma satynowe wykończenie a w jej składzie znajdziemy między innymi kolagen i brazylijskie masło Cupuaçu. Pielęgnacja połączona ze spektakularnym efektem. Jestem fanką.</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/8162294/ello-optimized-aa3bdd2c.jpg\" alt=\"Obraz przedstawia dwa zdjęcia przedzielone białą falistą linią. Na zdjęciach widzimy przedmioty ułożone na białym materiale.\" /></p>\n<h2>Lektura</h2>\n<p>‘Mamo, masz może coś dobrego do czytania?’ - dwa razy pytać nie trzeba. ‘Dom polski. Meblościanka z pikasami’ to pozycja nie tylko dla fanów dizajnu i wystroju wnętrz. Na 200stu stronach znajdziemy rozmowy <a href=\"http://m.in\">m.in</a>. z Beatą Bochińską – autorką książki ‘Zacznij kochać dizajn. Jak kolekcjonować polską sztukę użytkową’, historyczką i krytyczką dizajnu,  Danutą Duszniak – projektantką ceramiki, pionierką stylu New Look (jej serwisy kawowe i flakony goszczą do dziś w polskich domach), czy przedstawicielem młodego pokolenia projektantów – Oskarem Ziętą. Każdy wywiad okraszony został ilustracją Joanny Grochockiej, które to wyjątkowo przypadły mi do gustu ze względu na kolażowy charakter. Rozmowy dotyczą nie tylko zmieniającego się przez lata wystroju polskiego mieszkania, ale dotykają słowa ‘dom’ w rozumieniu polskiej rodziny. Czytamy tu o marzeniach Polaków związanych ze światem zachodu zestawionych z prawdą politycznego ustroju, który determinował wygląd domu. Czytamy o wyjątkowych projektach z upadłych już hut szkła. Dowiemy się co nieco o ‘Ład’, czyli Spółdzielni Pracy Architektury Wnętrz, w której powstawały meble unikatowe. Refleksje nad pojęciem domu rozszerzają się na kulturę, obyczaje, modę, język, mentalność Polaków. Warto przeczytać dla przyjemności, ale też świadomości i wiedzy. Bo kiedy IKEA wprowadza do najnowszej kolekcji stolik kawowy na trzech nogach, my wiemy, że projekt pochodzi z lat 60-tych z jednej z naszych fabryk mebli i być może zamiast wspierać szwedzkiego giganta przygarniemy kawałek historii do naszego wnętrza. Warto pytać Mamy o książki.\nPS Na zdjęciu obok książki znajduje się porcelanowa filiżanka z polskiej fabryki porcelany Wałbrzych.</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/8162295/ello-optimized-7d2e1106.jpg\" alt=\"Obraz przedstawia fotografię książki na żółto-czerwonym podłożu. Obok stoi niewielka filiżanka z czarną kawą.\" /></p>\n<hr />\n<p>Shop My Choices</p>\n<ul>\n<li><a href=\"https://www.chiara.pl/pl/do-reki/14384-mercer.html\">Michael Kors Mercer Bag</a></li>\n<li><a href=\"http://www.sephora.pl/Pielegnacja-Twarzy/Maseczki/Maseczki-w-kremie/Shake-Shot-Kauczukowa-maska-kojaca/P3280013\">Dr.Jart+ Shake &amp; Shot Soothing Mask</a></li>\n<li><a href=\"http://www.sephora.pl/Makijaz/Usta/Pomadki/Liquid-Le-Marc-Kremowa-pomadka-w-plynie/P2938017\">Marc Jacobs Le Marc Liquid Lip Crème</a></li>\n<li><a href=\"https://www.empik.com/dom-polski-mebloscianka-z-pikasami-czynska-malgorzata,p1167782909,ksiazka-p?gclid=CjwKCAjwzqPcBRAnEiwAzKRgSz_eh4GDpgWRvvo3W3ujKiDs8zE5wGTwnyqmcjKUBYa7iTfZJiR5RxoC4mcQAvD_BwE&amp;gclsrc=aw.ds\">Małgorzata Czyńska ‘Dom polski. Meblościanka z pikasami’</a></li>\n</ul>\n";
+var raw = exports.raw = "\n<olela-narrative>\nPewnego sierpniowego dnia bałam się wyjść po kawę do sklepu, bo alarmowy sms ogłosił burze w całej Polsce, błyskawice i huragany. Burzy nie było, a przynajmniej nie była ona tak straszna, jak wizualizowałam. Do tej pory nie zaopatrzyłam się w kalosze, a parasoli nie znoszę. W deszczowy czas uwielbiam zaszyć się w domu i z książką w ręce nasłuchiwać stukania kropli o parapet. W tym miesiącu trafiłam na naprawdę świetną pozycję czytelniczą. Dodatkowo do rytuału papierowego szelestu warto dodać kojąco przyjemną maseczkę na twarz. Następnego dnia skóra wygląda jakby odespała sto zaległych godzin. A jak już tak dobrze się wygląda i słońce wreszcie wyszło zza chmur to dla wzmocnienia efektu należy założyć szlachetną torebkę i udać się w miasto. Torebka koniecznie w mocnym, madżentowym kolorze. Na pytanie: ‘co mieści damska torebka’ odpowiadam – wszystko i jeszcze więcej. Znajdą się w niej podstawy takie jak chusteczki higieniczne, chusteczki nawilżane (czasami też żel antybakteryjny do dłoni), wszelkie kobiece historie (czyt. podpaski i tampony), no i cała gama kosmetyków. Najważniejsza jednak jest szminka/błyszczyk. Bez tego na bezludną wyspę ani rusz*. U make-up’owej maniaczki znajdą się trzy szminki, dwa błyszczyki, tusz do rzęs, korektor, mini perfumy, a nawet lakier do paznokci. Wszystko w imię pewności siebie…\n*Doda zapytana, co zabrała by ze sobą na bezludną wyspę odpowiedziała – błyszczyk!\n</olela-narrative>\n\n![Zdjęcie przedstawia kobietę w nienaturalnej pozie, kobieta trzyma w ręku różową torebkę i ma długie włosy.](https://assets0.ello.co/uploads/asset/attachment/8162296/ello-optimized-e83008f2.jpg)\n\n## Akcesoria: torebka\n\nPrzepiękne ultra-różowe falbanki zdobią torebkę z kolekcji Michael Kors wiosna/lato 2018 (model Mercer). Taki dodatek ‘robi’ całą stylizację. Genialnie wygląda zestawiona z klasyką białej koszuli i dżinsów. U mnie znalazła swoje miejsce obok sukienki w kwiaty użytej jako szlafrokowa narzutka. Te urocze falbanki przypominają mi płatki kwiatów. Moda to przecież przede wszystkim zabawa. Uświadomiła mnie w tym bohaterka słynnego serialu ‘Sex w Wielkim Mieście’ - Carrie Bradshaw. Carrie nosiła zwariowane (teraz kultowe) modele torebek. Od Dior Saddle Bag po torebkę w kształcie wieży Eiffel’a by Timmy Woods. Łączyła niepokojąco różne style, co o dziwo tworzyło zaskakująco pasujący do niej eklektyzm. Chciałabym być tak pewna siebie w ubiorze jak ona. W tym sezonie zaczynam od torebek. Koniec z nudą i czernią, czas na kolor!\n\n![Zdjęcie przedstawia fragment różowej torebki na jasnym tle.](https://assets1.ello.co/uploads/asset/attachment/8162297/ello-optimized-b5668ad5.jpg)\n![Obraz przedstawia dwa zdjęcie postaci trzymającej różową torebkę. Postać ma na sobie czarną sukienkę w kolorowe kwiaty.](https://assets1.ello.co/uploads/asset/attachment/8162298/ello-optimized-5a94380d.jpg)\n\n## Kosmetyk: pielęgnacja\n\nO maseczkach Dr. Jart’a słyszałam już wiele. Świetnie nawilżają, nawadniają (bo to nie to samo!), rewitalizują skórę. W sierpniu mój makijażowy czas był dość intensywny, co poniosło za sobą podrażnienie i zaczerwienienie skóry twarzy. Zdecydowałam się wypróbować kojącą maseczkę kauczukową z serii ‘Shake & Shot’ i to był strzał w dziesiątkę. Maseczka zawiera w sobie witaminę K3 i kojący kompleks botaniczny, co daje natychmiastowe uczucie uspokojenia zdenerwowanych naczynek. Kosmetyk ma nietypową formułę. W opakowaniu, które swoim kształtem przypomina kubek znajdziemy dwie saszetki, instrukcję obsługi i szpatułkę. Przygotowanie jest proste: zawartość dwóch saszetek wlewamy do kubeczka po czym zamykamy kubek (czymś na kształt buzi  niemowlaka) i energicznie mieszamy. Ważne, aby całość nałożyć na twarz do dwóch minut po przygotowaniu! Maska bowiem zaczyna szybko zastygać. Po upływie 20stu minut całość ściągamy począwszy od brzegów twarzy. Zaskoczyło mnie z jaką łatwością wykonałam tę czynność i nie musiałam domywać resztek kosmetyku. Po całym zabiegu skóra wydaje się nawilżona lecz matowa, a pory są widocznie zmniejszone. Co najważniejsze efekty utrzymywały się jeszcze przez długi czas. Polecam przed wielkim wyjściem.\n\n![Zdjęcie przedstawia różne przedmioty rozsypane na jasnym podłożu. Widzimy fioletowy kubek i miętową zatyczkę w kształcie twarzy.](https://assets1.ello.co/uploads/asset/attachment/8162293/ello-optimized-b4497a45.jpg)\n\n## Kosmetyk: kolorówka\n\nZałapałam się na końcówkę wyprzedaży w Sephora. Wyłapałam pomadkę, która swoją formułą przebija większość pomadek z mojej kolekcji (a mam ich sporo). Marc Jacobs Le Marc Liquid Lip Crème (u mnie w odcieniu 456 ‘Shush, Blush’) to coś więcej niż tylko kolor na ustach. To przede wszystkim komfort noszenia, łatwość aplikacji i trwałość. Pigment tego kosmetyku jest tak mocny, że wystarczy jeden ruch aplikatorem aby nasze wargi nabrały soczystego koloru bez smug. Pomadka ma satynowe wykończenie a w jej składzie znajdziemy między innymi kolagen i brazylijskie masło Cupuaçu. Pielęgnacja połączona ze spektakularnym efektem. Jestem fanką.\n\n![Obraz przedstawia dwa zdjęcia przedzielone białą falistą linią. Na zdjęciach widzimy przedmioty ułożone na białym materiale.](https://assets2.ello.co/uploads/asset/attachment/8162294/ello-optimized-aa3bdd2c.jpg)\n\n## Lektura\n\n‘Mamo, masz może coś dobrego do czytania?’ - dwa razy pytać nie trzeba. ‘Dom polski. Meblościanka z pikasami’ to pozycja nie tylko dla fanów dizajnu i wystroju wnętrz. Na 200stu stronach znajdziemy rozmowy m.in. z Beatą Bochińską – autorką książki ‘Zacznij kochać dizajn. Jak kolekcjonować polską sztukę użytkową’, historyczką i krytyczką dizajnu,  Danutą Duszniak – projektantką ceramiki, pionierką stylu New Look (jej serwisy kawowe i flakony goszczą do dziś w polskich domach), czy przedstawicielem młodego pokolenia projektantów – Oskarem Ziętą. Każdy wywiad okraszony został ilustracją Joanny Grochockiej, które to wyjątkowo przypadły mi do gustu ze względu na kolażowy charakter. Rozmowy dotyczą nie tylko zmieniającego się przez lata wystroju polskiego mieszkania, ale dotykają słowa ‘dom’ w rozumieniu polskiej rodziny. Czytamy tu o marzeniach Polaków związanych ze światem zachodu zestawionych z prawdą politycznego ustroju, który determinował wygląd domu. Czytamy o wyjątkowych projektach z upadłych już hut szkła. Dowiemy się co nieco o ‘Ład’, czyli Spółdzielni Pracy Architektury Wnętrz, w której powstawały meble unikatowe. Refleksje nad pojęciem domu rozszerzają się na kulturę, obyczaje, modę, język, mentalność Polaków. Warto przeczytać dla przyjemności, ale też świadomości i wiedzy. Bo kiedy IKEA wprowadza do najnowszej kolekcji stolik kawowy na trzech nogach, my wiemy, że projekt pochodzi z lat 60-tych z jednej z naszych fabryk mebli i być może zamiast wspierać szwedzkiego giganta przygarniemy kawałek historii do naszego wnętrza. Warto pytać Mamy o książki.\nPS Na zdjęciu obok książki znajduje się porcelanowa filiżanka z polskiej fabryki porcelany Wałbrzych.\n\n![Obraz przedstawia fotografię książki na żółto-czerwonym podłożu. Obok stoi niewielka filiżanka z czarną kawą.](https://assets2.ello.co/uploads/asset/attachment/8162295/ello-optimized-7d2e1106.jpg)\n\n-------------\n\nShop My Choices\n\n* [Michael Kors Mercer Bag](https://www.chiara.pl/pl/do-reki/14384-mercer.html)\n* [Dr.Jart+ Shake & Shot Soothing Mask](http://www.sephora.pl/Pielegnacja-Twarzy/Maseczki/Maseczki-w-kremie/Shake-Shot-Kauczukowa-maska-kojaca/P3280013)\n* [Marc Jacobs Le Marc Liquid Lip Crème](http://www.sephora.pl/Makijaz/Usta/Pomadki/Liquid-Le-Marc-Kremowa-pomadka-w-plynie/P2938017)\n* [Małgorzata Czyńska ‘Dom polski. Meblościanka z pikasami’](https://www.empik.com/dom-polski-mebloscianka-z-pikasami-czynska-malgorzata,p1167782909,ksiazka-p?gclid=CjwKCAjwzqPcBRAnEiwAzKRgSz_eh4GDpgWRvvo3W3ujKiDs8zE5wGTwnyqmcjKUBYa7iTfZJiR5RxoC4mcQAvD_BwE&gclsrc=aw.ds)\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 132 */
@@ -10922,6 +11076,18 @@ webpackEmptyContext.id = 132;
 
 /***/ }),
 /* 133 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 133;
+
+/***/ }),
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -10942,19 +11108,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 133;
+webpackContext.id = 134;
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(135);
+module.exports = __webpack_require__(136);
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10972,7 +11138,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(136);
+var _propTypes = __webpack_require__(137);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -11176,13 +11342,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_136__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_137__;
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11196,7 +11362,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11204,7 +11370,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11217,7 +11383,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11251,7 +11417,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11264,7 +11430,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11273,7 +11439,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11281,7 +11447,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11289,7 +11455,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11304,7 +11470,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11319,7 +11485,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11334,7 +11500,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11358,7 +11524,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(149);
+var s = __webpack_require__(150);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -11389,7 +11555,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11397,7 +11563,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11421,7 +11587,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11472,7 +11638,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11480,7 +11646,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11489,7 +11655,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(154);
+var s = __webpack_require__(155);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -11522,7 +11688,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11532,7 +11698,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11576,22 +11742,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 158,
-	"./Feed.js": 159,
-	"./Ingredient.js": 160,
-	"./Method.js": 161,
-	"./Recipe.js": 162,
-	"./TableOfContents.js": 163
+	"./Crumbs.js": 159,
+	"./Feed.js": 160,
+	"./Ingredient.js": 161,
+	"./Method.js": 162,
+	"./Recipe.js": 163,
+	"./TableOfContents.js": 164
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -11607,10 +11773,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 157;
+webpackContext.id = 158;
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11625,7 +11791,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11640,7 +11806,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11655,7 +11821,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11670,7 +11836,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11685,7 +11851,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11700,7 +11866,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11724,7 +11890,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
