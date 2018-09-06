@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_137__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_138__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(152);
+var Feed_1 = __webpack_require__(153);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(154);
+var Recipe_1 = __webpack_require__(155);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(156);
+var Root_1 = __webpack_require__(157);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(138);
+var s = __webpack_require__(139);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(139);
+var s = __webpack_require__(140);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(132),
-ROOT: __webpack_require__(133),
-LAYOUTS: __webpack_require__(134),
-INCLUDES: __webpack_require__(158)};
+UPLOADS: __webpack_require__(133),
+ROOT: __webpack_require__(134),
+LAYOUTS: __webpack_require__(135),
+INCLUDES: __webpack_require__(159)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(158)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(140);
+var s = __webpack_require__(141);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(144);
+var s = __webpack_require__(145);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(157);
+__webpack_require__(158);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(135);
+var react_disqus_comments_1 = __webpack_require__(136);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(149);
-var s = __webpack_require__(151);
+var FacebookLike_1 = __webpack_require__(150);
+var s = __webpack_require__(152);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(141);
-var s = __webpack_require__(142);
+__webpack_require__(142);
+var s = __webpack_require__(143);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(143);
+var s = __webpack_require__(144);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(146);
+var s = __webpack_require__(147);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(145);
+var s = __webpack_require__(146);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(147);
+var s = __webpack_require__(148);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(148);
+var s = __webpack_require__(149);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(153);
+var s = __webpack_require__(154);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(165);
-var menu_1 = __webpack_require__(166);
+var tags_1 = __webpack_require__(166);
+var menu_1 = __webpack_require__(167);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2708,7 +2708,8 @@ var map = {
 	"./2018-08-09-secesja-moodboard.markdown": 128,
 	"./2018-08-15-make-up-inspirowany-obrazem-circus-from-jazz-book-by-henri-matisse.markdown": 129,
 	"./2018-08-22-wystawa-handmade-acoustics.markdown": 130,
-	"./2018-08-31-moje-wybory-sierpien.markdown": 131
+	"./2018-08-31-moje-wybory-sierpien.markdown": 131,
+	"./2018-09-06-futuryzm-moodboard.markdown": 132
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -11058,15 +11059,56 @@ var raw = exports.raw = "\n<olela-narrative>\nPewnego sierpniowego dnia bałam s
 
 /***/ }),
 /* 132 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 132;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Futuryzm narodzi\u0142 si\u0119 we W\u0142oszech wraz z pocz\u0105tkiem XX-ego wieku. Jego pionierem by\u0142 Filippo Tommaso Marinetti, kt\xF3ry opowiada\u0142 si\u0119 za szybko\u015Bci\u0105, technologi\u0105, rozwojem, patrzeniem w przysz\u0142o\u015B\u0107 (\u2018Rycz\u0105cy samoch\xF3d pi\u0119kniejszy jest od Nike z Samotraki\u2019). Wkr\xF3tce do\u0142\u0105czyli do niego malarze Umberto Boccioni, Carlo Carr\xE0, Gino Severini, Giacomo Balla, Luigi Russolo. Pierwszy Manifest Futuryzmu ukaza\u0142 si\u0119 w czasopi\u015Bmie \u2018Le Figaro\u2019 w 1909 r. W p\xF3\u017Aniejszych latach og\u0142aszano jeszcze inne wersje np. Manifest Techniki Malarstwa Futurystycznego (1910 r.). Prace futuryst\xF3w zdaj\u0105 si\u0119 pod\u0105\u017Ca\u0107 z ruchem, oddawa\u0107 jego moc, wra\u017Cenie na p\u0142askiej powierzchni p\u0142\xF3tna. Dostrzec w nich mo\u017Cemy dziedzictwo kubizmu, rozbicie na cz\u0119\u015Bci. S\u0105 niczym st\u0142uczony wazon, kt\xF3ry w magiczny spos\xF3b pr\xF3buje posk\u0142ada\u0107 sam siebie. Na wielu dzie\u0142ach znajdziemy bezpo\u015Brednie odniesienie do maszyny, samochodu, samolotu. Futuryzm obj\u0105\u0142 swoim wp\u0142ywem wiele dziedzin, poprzez literatur\u0119, malarstwo, rze\u017Ab\u0119, teatr, taniec po mod\u0119 i architektur\u0119. Obecnie mo\u017Cemy m\xF3wi\u0107 o zjawisku nazywanym neofuturyzmem. Jak pisze Urszula Pawlicka cz\u0142onkini grupy Rozdzielczo\u015B\u0107 Chleba w eseju ',
+      _react2.default.createElement(
+        'a',
+        { href: 'https://rozdzielchleb.pl/neofuturyzm-czyli-co-ma-jasienski-do-ipada/' },
+        '\u2018Neofuturyzm, czyli co ma Jasie\u0144ski do iPada?\u2019'
+      ),
+      ' - \u2018Symultaniczno\u015B\u0107 zdarze\u0144 \u2013 u futuryst\xF3w przedstawia\u0142a zam\u0119t miejski, u\xA0neofuturyst\xF3w \u2013 zjawisko zappingu i multitaskingu.\u2019 Porusza ona obraz wirtualnej rzeczywisto\u015Bci, cz\u0142owieka \u2018okablowanego\u2019 i ca\u0142y czas zalogowanego. W przeciwie\u0144stwie do pocz\u0105tk\xF3w XX wieku, gdzie osi\u0105gni\u0119ciami technologicznymi by\u0142o radio i telewizja w dzisiejszym \u015Bwiecie patrzymy w oczy sztucznej inteligencji.'
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Futuryzm [moodboard]", "date": "2018-09-06T14:44:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["moodboard", "futuryzm", "futurism", "giacomo balla", "fendi", "gino severini", "art"] };
+var body = exports.body = "<p>Futuryzm narodził się we Włoszech wraz z początkiem XX-ego wieku. Jego pionierem był Filippo Tommaso Marinetti, który opowiadał się za szybkością, technologią, rozwojem, patrzeniem w przyszłość (‘Ryczący samochód piękniejszy jest od Nike z Samotraki’). Wkrótce dołączyli do niego malarze Umberto Boccioni, Carlo Carrà, Gino Severini, Giacomo Balla, Luigi Russolo. Pierwszy Manifest Futuryzmu ukazał się w czasopiśmie ‘Le Figaro’ w 1909 r. W późniejszych latach ogłaszano jeszcze inne wersje np. Manifest Techniki Malarstwa Futurystycznego (1910 r.). Prace futurystów zdają się podążać z ruchem, oddawać jego moc, wrażenie na płaskiej powierzchni płótna. Dostrzec w nich możemy dziedzictwo kubizmu, rozbicie na części. Są niczym stłuczony wazon, który w magiczny sposób próbuje poskładać sam siebie. Na wielu dziełach znajdziemy bezpośrednie odniesienie do maszyny, samochodu, samolotu. Futuryzm objął swoim wpływem wiele dziedzin, poprzez literaturę, malarstwo, rzeźbę, teatr, taniec po modę i architekturę. Obecnie możemy mówić o zjawisku nazywanym neofuturyzmem. Jak pisze Urszula Pawlicka członkini grupy Rozdzielczość Chleba w eseju <a href=\"https://rozdzielchleb.pl/neofuturyzm-czyli-co-ma-jasienski-do-ipada/\">‘Neofuturyzm, czyli co ma Jasieński do iPada?’</a> -\n‘Symultaniczność zdarzeń – u futurystów przedstawiała zamęt miejski, u neofuturystów – zjawisko zappingu i multitaskingu.’ Porusza ona obraz wirtualnej rzeczywistości, człowieka ‘okablowanego’ i cały czas zalogowanego. W przeciwieństwie do początków XX wieku, gdzie osiągnięciami technologicznymi było radio i telewizja w dzisiejszym świecie patrzymy w oczy sztucznej inteligencji.</p>\n";
+var raw = exports.raw = "\nFuturyzm narodził się we Włoszech wraz z początkiem XX-ego wieku. Jego pionierem był Filippo Tommaso Marinetti, który opowiadał się za szybkością, technologią, rozwojem, patrzeniem w przyszłość (‘Ryczący samochód piękniejszy jest od Nike z Samotraki’). Wkrótce dołączyli do niego malarze Umberto Boccioni, Carlo Carrà, Gino Severini, Giacomo Balla, Luigi Russolo. Pierwszy Manifest Futuryzmu ukazał się w czasopiśmie ‘Le Figaro’ w 1909 r. W późniejszych latach ogłaszano jeszcze inne wersje np. Manifest Techniki Malarstwa Futurystycznego (1910 r.). Prace futurystów zdają się podążać z ruchem, oddawać jego moc, wrażenie na płaskiej powierzchni płótna. Dostrzec w nich możemy dziedzictwo kubizmu, rozbicie na części. Są niczym stłuczony wazon, który w magiczny sposób próbuje poskładać sam siebie. Na wielu dziełach znajdziemy bezpośrednie odniesienie do maszyny, samochodu, samolotu. Futuryzm objął swoim wpływem wiele dziedzin, poprzez literaturę, malarstwo, rzeźbę, teatr, taniec po modę i architekturę. Obecnie możemy mówić o zjawisku nazywanym neofuturyzmem. Jak pisze Urszula Pawlicka członkini grupy Rozdzielczość Chleba w eseju [‘Neofuturyzm, czyli co ma Jasieński do iPada?’](https://rozdzielchleb.pl/neofuturyzm-czyli-co-ma-jasienski-do-ipada/) - \n‘Symultaniczność zdarzeń – u futurystów przedstawiała zamęt miejski, u neofuturystów – zjawisko zappingu i multitaskingu.’ Porusza ona obraz wirtualnej rzeczywistości, człowieka ‘okablowanego’ i cały czas zalogowanego. W przeciwieństwie do początków XX wieku, gdzie osiągnięciami technologicznymi było radio i telewizja w dzisiejszym świecie patrzymy w oczy sztucznej inteligencji.\n\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 133 */
@@ -11082,6 +11124,18 @@ webpackEmptyContext.id = 133;
 
 /***/ }),
 /* 134 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 134;
+
+/***/ }),
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -11102,19 +11156,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 134;
+webpackContext.id = 135;
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(136);
+module.exports = __webpack_require__(137);
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11132,7 +11186,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(137);
+var _propTypes = __webpack_require__(138);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -11336,13 +11390,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_137__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_138__;
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11356,7 +11410,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11364,7 +11418,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11377,7 +11431,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11411,7 +11465,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11424,7 +11478,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11433,7 +11487,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11441,7 +11495,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11449,7 +11503,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11464,7 +11518,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11479,7 +11533,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11494,7 +11548,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11518,7 +11572,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(150);
+var s = __webpack_require__(151);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -11549,7 +11603,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11557,7 +11611,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11581,7 +11635,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11632,7 +11686,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11640,7 +11694,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11649,7 +11703,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(155);
+var s = __webpack_require__(156);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -11682,7 +11736,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11692,7 +11746,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11736,22 +11790,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 159,
-	"./Feed.js": 160,
-	"./Ingredient.js": 161,
-	"./Method.js": 162,
-	"./Recipe.js": 163,
-	"./TableOfContents.js": 164
+	"./Crumbs.js": 160,
+	"./Feed.js": 161,
+	"./Ingredient.js": 162,
+	"./Method.js": 163,
+	"./Recipe.js": 164,
+	"./TableOfContents.js": 165
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -11767,10 +11821,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 158;
+webpackContext.id = 159;
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11785,7 +11839,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11800,7 +11854,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11815,7 +11869,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11830,7 +11884,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11845,7 +11899,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11860,7 +11914,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11884,7 +11938,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
