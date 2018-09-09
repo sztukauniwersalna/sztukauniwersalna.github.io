@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_138__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_139__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(153);
+var Feed_1 = __webpack_require__(154);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(155);
+var Recipe_1 = __webpack_require__(156);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(157);
+var Root_1 = __webpack_require__(158);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(139);
+var s = __webpack_require__(140);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(140);
+var s = __webpack_require__(141);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(133),
-ROOT: __webpack_require__(134),
-LAYOUTS: __webpack_require__(135),
-INCLUDES: __webpack_require__(159)};
+UPLOADS: __webpack_require__(134),
+ROOT: __webpack_require__(135),
+LAYOUTS: __webpack_require__(136),
+INCLUDES: __webpack_require__(160)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(159)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(141);
+var s = __webpack_require__(142);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(145);
+var s = __webpack_require__(146);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(158);
+__webpack_require__(159);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(136);
+var react_disqus_comments_1 = __webpack_require__(137);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(150);
-var s = __webpack_require__(152);
+var FacebookLike_1 = __webpack_require__(151);
+var s = __webpack_require__(153);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(142);
-var s = __webpack_require__(143);
+__webpack_require__(143);
+var s = __webpack_require__(144);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(144);
+var s = __webpack_require__(145);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(147);
+var s = __webpack_require__(148);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(146);
+var s = __webpack_require__(147);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(148);
+var s = __webpack_require__(149);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(149);
+var s = __webpack_require__(150);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(154);
+var s = __webpack_require__(155);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(166);
-var menu_1 = __webpack_require__(167);
+var tags_1 = __webpack_require__(167);
+var menu_1 = __webpack_require__(168);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2709,7 +2709,8 @@ var map = {
 	"./2018-08-15-make-up-inspirowany-obrazem-circus-from-jazz-book-by-henri-matisse.markdown": 129,
 	"./2018-08-22-wystawa-handmade-acoustics.markdown": 130,
 	"./2018-08-31-moje-wybory-sierpien.markdown": 131,
-	"./2018-09-06-futuryzm-moodboard.markdown": 132
+	"./2018-09-06-futuryzm-moodboard.markdown": 132,
+	"./2018-09-09-pre-fall-fall-slash-winter-spring-slash-summer-resort-cruise-co-to-wszystko-znaczy-plus-fw-trends-2018-slash-2019.markdown": 133
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -11149,15 +11150,90 @@ var raw = exports.raw = "\nFuturyzm narodził się we Włoszech wraz z początki
 
 /***/ }),
 /* 133 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 133;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/8201518/ello-optimized-bab86a7d.jpg', alt: 'Zdj\u0119cie przedstawia portret kobiety w czarnym kapeluszu i czarnym \u017Cakiecie na jasnym tle.' })
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      '\u015Awiat mody prze\u015Bciga si\u0119 w nowych kolekcjach, zaskakuj\u0105cych rozwi\u0105zaniach, a przede wszystkim prze\u015Bciga si\u0119 w sprzeda\u017Cy. Od niedawna mo\u017Cna ju\u017C kupi\u0107 kreacje dopiero co zobaczone na wybiegu. \u2018See Now Buy Now\u2019 to strategia sprzeda\u017Cowa wymy\u015Blona przez Christophera Baileya dla Burberry. Polega ona na tym, \u017Ce pokaz transmitowany jest na \u017Cywo w internecie i widzowie mog\u0105 od razu kupi\u0107 dan\u0105 kreacj\u0119. Projektanci wypuszczaj\u0105 rocznie ok. 6 kolekcji. Ka\u017Cda z nich wyprzedza dany sezon, a ich nazwy mog\u0105 wprowadza\u0107 w zak\u0142opotanie. Poni\u017Cej wyja\u015Bniam nazwy podstawowych czterech fashion sezon\xF3w.'
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Spring/Summer i Fall/Winter'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'to dwa g\u0142\xF3wne modowe sezony. Zazwyczaj ju\u017C w zimie wiemy, jakie trendy obowi\u0105zywa\u0107 b\u0119d\u0105 wiosn\u0105 i latem i odwrotnie. Sezon Wiosna/Lato (SS) trwa od stycznia do czerwca, a Jesie\u0144/Zima (FW) od lipca do grudnia.'
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Pre-Fall'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'pojawia si\u0119 w sklepach tu\u017C przed kolekcj\u0105 Jesie\u0144/Zima i zazwyczaj s\u0105 to ubrania bardziej \u2018komercyjne\u2019. Wprowadzaj\u0105 nas w klimat nadchodz\u0105cych tendencji i jesieni, jednak pozostaj\u0105 w mniej \u2018wybiegowym\u2019 klimacie. W tym okresie prezentowane jest wszystko, od lekkich koszul i sukienek po p\u0142aszcze.'
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Resort & Cruise'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'to w zasadzie jedno i to samo, czyli kolekcja wakacyjna. Podobno jej pojawienie si\u0119 zapocz\u0105tkowa\u0142a moda na podr\xF3\u017Ce do ciep\u0142ych kraj\xF3w w miesi\u0105cach zimowych. Pokazy i ubrania skierowane s\u0105 g\u0142\xF3wnie dla luksusowych kupc\xF3w, posiadaczy prywatnych jacht\xF3w uwielbiaj\u0105cych nienagann\u0105 prezencj\u0119 w podr\xF3\u017Cy. Sezon na Resort Collection (czy te\u017C Cruise Collection) trwa zazwyczaj od p\xF3\u017Anego pa\u017Adziernika do grudnia.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/8201510/ello-optimized-25e59e2d.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia kobiety ubranej w czarny str\xF3j i czarny kapelusz.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Pre-Fall, Fall/Winter, Spring/Summer, Resort, Cruise – co to wszystko znaczy? + FW Trends 2018/2019", "date": "2018-09-09T19:05:00.000Z", "categories": ["Sztuka Ubioru"], "tags": ["trendy", "trends", "pre-fall", "fall/winter", "spring/summer", "resort", "cruise", "collection", "runway", "fashion", "show"] };
+var body = exports.body = "<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/8201518/ello-optimized-bab86a7d.jpg\" alt=\"Zdjęcie przedstawia portret kobiety w czarnym kapeluszu i czarnym żakiecie na jasnym tle.\" /></p>\n<p>Świat mody prześciga się w nowych kolekcjach, zaskakujących rozwiązaniach, a przede wszystkim prześciga się w sprzedaży. Od niedawna można już kupić kreacje dopiero co zobaczone na wybiegu. ‘See Now Buy Now’ to strategia sprzedażowa wymyślona przez Christophera Baileya dla Burberry. Polega ona na tym, że pokaz transmitowany jest na żywo w internecie i widzowie mogą od razu kupić daną kreację. Projektanci wypuszczają rocznie ok. 6 kolekcji. Każda z nich wyprzedza dany sezon, a ich nazwy mogą wprowadzać w zakłopotanie. Poniżej wyjaśniam nazwy podstawowych czterech fashion sezonów.</p>\n<h2>Spring/Summer i Fall/Winter</h2>\n<p>to dwa główne modowe sezony. Zazwyczaj już w zimie wiemy, jakie trendy obowiązywać będą wiosną i latem i odwrotnie. Sezon Wiosna/Lato (SS) trwa od stycznia do czerwca, a Jesień/Zima (FW) od lipca do grudnia.</p>\n<h2>Pre-Fall</h2>\n<p>pojawia się w sklepach tuż przed kolekcją Jesień/Zima i zazwyczaj są to ubrania bardziej ‘komercyjne’. Wprowadzają nas w klimat nadchodzących tendencji i jesieni, jednak pozostają w mniej ‘wybiegowym’ klimacie. W tym okresie prezentowane jest wszystko, od lekkich koszul i sukienek po płaszcze.</p>\n<h2>Resort &amp; Cruise</h2>\n<p>to w zasadzie jedno i to samo, czyli kolekcja wakacyjna. Podobno jej pojawienie się zapoczątkowała moda na podróże do ciepłych krajów w miesiącach zimowych. Pokazy i ubrania skierowane są głównie dla luksusowych kupców, posiadaczy prywatnych jachtów uwielbiających nienaganną prezencję w podróży. Sezon na Resort Collection (czy też Cruise Collection) trwa zazwyczaj od późnego października do grudnia.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/8201510/ello-optimized-25e59e2d.jpg\" alt=\"Obraz przedstawia dwa zdjęcia kobiety ubranej w czarny strój i czarny kapelusz.\" /></p>\n";
+var raw = exports.raw = "\n![Zdjęcie przedstawia portret kobiety w czarnym kapeluszu i czarnym żakiecie na jasnym tle.](https://assets2.ello.co/uploads/asset/attachment/8201518/ello-optimized-bab86a7d.jpg)\n\n\nŚwiat mody prześciga się w nowych kolekcjach, zaskakujących rozwiązaniach, a przede wszystkim prześciga się w sprzedaży. Od niedawna można już kupić kreacje dopiero co zobaczone na wybiegu. ‘See Now Buy Now’ to strategia sprzedażowa wymyślona przez Christophera Baileya dla Burberry. Polega ona na tym, że pokaz transmitowany jest na żywo w internecie i widzowie mogą od razu kupić daną kreację. Projektanci wypuszczają rocznie ok. 6 kolekcji. Każda z nich wyprzedza dany sezon, a ich nazwy mogą wprowadzać w zakłopotanie. Poniżej wyjaśniam nazwy podstawowych czterech fashion sezonów.\n\n## Spring/Summer i Fall/Winter\n\nto dwa główne modowe sezony. Zazwyczaj już w zimie wiemy, jakie trendy obowiązywać będą wiosną i latem i odwrotnie. Sezon Wiosna/Lato (SS) trwa od stycznia do czerwca, a Jesień/Zima (FW) od lipca do grudnia.\n\n## Pre-Fall \npojawia się w sklepach tuż przed kolekcją Jesień/Zima i zazwyczaj są to ubrania bardziej ‘komercyjne’. Wprowadzają nas w klimat nadchodzących tendencji i jesieni, jednak pozostają w mniej ‘wybiegowym’ klimacie. W tym okresie prezentowane jest wszystko, od lekkich koszul i sukienek po płaszcze.\n\n## Resort & Cruise\nto w zasadzie jedno i to samo, czyli kolekcja wakacyjna. Podobno jej pojawienie się zapoczątkowała moda na podróże do ciepłych krajów w miesiącach zimowych. Pokazy i ubrania skierowane są głównie dla luksusowych kupców, posiadaczy prywatnych jachtów uwielbiających nienaganną prezencję w podróży. Sezon na Resort Collection (czy też Cruise Collection) trwa zazwyczaj od późnego października do grudnia.\n\n![Obraz przedstawia dwa zdjęcia kobiety ubranej w czarny strój i czarny kapelusz.](https://assets0.ello.co/uploads/asset/attachment/8201510/ello-optimized-25e59e2d.jpg)\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 134 */
@@ -11173,6 +11249,18 @@ webpackEmptyContext.id = 134;
 
 /***/ }),
 /* 135 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 135;
+
+/***/ }),
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -11193,19 +11281,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 135;
+webpackContext.id = 136;
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(137);
+module.exports = __webpack_require__(138);
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11223,7 +11311,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(138);
+var _propTypes = __webpack_require__(139);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -11427,13 +11515,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_138__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_139__;
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11447,7 +11535,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11455,7 +11543,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11468,7 +11556,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11502,7 +11590,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11515,7 +11603,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11524,7 +11612,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11532,7 +11620,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11540,7 +11628,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11555,7 +11643,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11570,7 +11658,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11585,7 +11673,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11609,7 +11697,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(151);
+var s = __webpack_require__(152);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -11640,7 +11728,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11648,7 +11736,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11672,7 +11760,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11723,7 +11811,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11731,7 +11819,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11740,7 +11828,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(156);
+var s = __webpack_require__(157);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -11773,7 +11861,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11783,7 +11871,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11827,22 +11915,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 160,
-	"./Feed.js": 161,
-	"./Ingredient.js": 162,
-	"./Method.js": 163,
-	"./Recipe.js": 164,
-	"./TableOfContents.js": 165
+	"./Crumbs.js": 161,
+	"./Feed.js": 162,
+	"./Ingredient.js": 163,
+	"./Method.js": 164,
+	"./Recipe.js": 165,
+	"./TableOfContents.js": 166
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -11858,10 +11946,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 159;
+webpackContext.id = 160;
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11876,7 +11964,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11891,7 +11979,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11906,7 +11994,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11921,7 +12009,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11936,7 +12024,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11951,7 +12039,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11975,7 +12063,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
