@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_139__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_140__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(154);
+var Feed_1 = __webpack_require__(155);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(156);
+var Recipe_1 = __webpack_require__(157);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(158);
+var Root_1 = __webpack_require__(159);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(140);
+var s = __webpack_require__(141);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(141);
+var s = __webpack_require__(142);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(134),
-ROOT: __webpack_require__(135),
-LAYOUTS: __webpack_require__(136),
-INCLUDES: __webpack_require__(160)};
+UPLOADS: __webpack_require__(135),
+ROOT: __webpack_require__(136),
+LAYOUTS: __webpack_require__(137),
+INCLUDES: __webpack_require__(161)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(160)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(142);
+var s = __webpack_require__(143);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(146);
+var s = __webpack_require__(147);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(159);
+__webpack_require__(160);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(137);
+var react_disqus_comments_1 = __webpack_require__(138);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(151);
-var s = __webpack_require__(153);
+var FacebookLike_1 = __webpack_require__(152);
+var s = __webpack_require__(154);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(143);
-var s = __webpack_require__(144);
+__webpack_require__(144);
+var s = __webpack_require__(145);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(145);
+var s = __webpack_require__(146);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(148);
+var s = __webpack_require__(149);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(147);
+var s = __webpack_require__(148);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(149);
+var s = __webpack_require__(150);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(150);
+var s = __webpack_require__(151);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(155);
+var s = __webpack_require__(156);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(167);
-var menu_1 = __webpack_require__(168);
+var tags_1 = __webpack_require__(168);
+var menu_1 = __webpack_require__(169);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2710,7 +2710,8 @@ var map = {
 	"./2018-08-22-wystawa-handmade-acoustics.markdown": 130,
 	"./2018-08-31-moje-wybory-sierpien.markdown": 131,
 	"./2018-09-06-futuryzm-moodboard.markdown": 132,
-	"./2018-09-09-pre-fall-fall-slash-winter-spring-slash-summer-resort-cruise-co-to-wszystko-znaczy-plus-fw-trends-2018-slash-2019.markdown": 133
+	"./2018-09-09-pre-fall-fall-slash-winter-spring-slash-summer-resort-cruise-co-to-wszystko-znaczy-plus-fw-trends-2018-slash-2019.markdown": 133,
+	"./2018-09-21-o-kolorach-czern.markdown": 134
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -11309,15 +11310,89 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia portret kobiety w czarnym kape
 
 /***/ }),
 /* 134 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 134;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Od zawsze i na zawsze. Czer\u0144 to barwa pe\u0142na kontrast\xF3w. W kulturze europejskiej przypisywana jest \u015Bmierci. Pogr\u0105\u017Ceni w \u017Ca\u0142obie zak\u0142adaj\u0105 na siebie czarne ubrania. Z kolei w\u015Br\xF3d Indian i w Staro\u017Cytnym Egipcie kojarzono j\u0105 z \u017Cyciem. Czer\u0144 pasuje do ka\u017Cdego koloru, tworzy mocne kontrasty. Wielu z nas nie wyobra\u017Ca sobie braku koloru czarnego w swojej garderobie. Ale w\u0142a\u015Bnie... czy czer\u0144 jest kolorem? W teorii oznacza ca\u0142kowity brak \u015Bwiat\u0142a odbitego. Czer\u0144 pe\u0142na jest tajemnicy, kojarzy si\u0119 z elegancj\u0105, seksualno\u015Bci\u0105, w\u0142adz\u0105. Jest to kolor nocy, rozpaczy, w okultyzmie stanowi symbol zniszczenia. Przypisywana do subkultur heavy-metalowych znalaz\u0142a swoje miejsce w jednym z najbardziej kultowych kobiecych stroj\xF3w \u2013 ma\u0142ej czarnej.'
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Najczarniejszy z czarnych'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Brytyjscy naukowcy z National Physical Laboratory opracowali materia\u0142, kt\xF3ry poch\u0142ania 99.965% widzialnego \u015Bwiat\u0142a, co oznacza, \u017Ce jest praktycznie ca\u0142kowicie czarny. Vantablack \u2013 tak nazywa si\u0119 tworzywo skonstruowane w technologii nanorurek. Na jeden centymetr kwadratowy powierzchni Vantablack przypada ponad miliard ma\u0142ych cz\u0105steczek ustawionych wzgl\u0119dem siebie pionowo, co pozwala na chwytanie i \u2018zamykanie\u2019 foton\xF3w \u015Bwiat\u0142a. Daje to niesamowity efekt w momencie, gdy tworzywem przykryta jest powierzchnia 3d, np. rze\u017Aba. Ci\u0119\u017Cko opisa\u0107 to s\u0142owami, ale wygl\u0105da to mniej wi\u0119cej tak, jakby kto\u015B wyci\u0105\u0142 dany kszta\u0142t w przestrzeni i zamalowa\u0142 go graficznym narz\u0119dziem \u2018wiadro z farb\u0105\u2019 na czarno. Ca\u0142kowicie czarno. Nie jeste\u015Bmy w stanie dostrzec na zakrytej powierzchni najmniejszego cienia. Wszystko jest\u2026 czerni\u0105 absolutn\u0105. Brytyjski artysta hinduskiego pochodzenia Anish Kapoor, wykupi\u0142 ca\u0142kowite prawo do artystycznego wykorzystania Vantablack. Przewiduje si\u0119, \u017Ce owa czer\u0144 znajdzie swoje zastosowanie w optyce, astronomii, sztuce wojennej.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/8257250/ello-optimized-2523e86b.jpg', alt: 'Obraz przedstawia dwa czarno bia\u0142e zdj\u0119cia kobiety z po\u0142ow\u0105 twarzy pomalowanej na czarno.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8257235/ello-optimized-94dc13cc.jpg', alt: 'Zdj\u0119cie przedstawia czarno-bia\u0142y portret kobiety. Kobieta patrzy w obiektyw i ma pomalowan\u0105 po\u0142ow\u0119 twarzy.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8257239/ello-optimized-090708b3.jpg', alt: 'Fotografia przedstawia element architektoniczny z oknem.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Niekolor'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'W poprzednich cz\u0119\u015Bciach serii \u2018O kolorach\u2019 pisa\u0142am na temat istoty samego koloru, jako \u015Bwiat\u0142a. ',
+      _react2.default.createElement(
+        'a',
+        { href: 'http://sztukauniwersalna.pl/2018-02-21-o-kolorach-biel-cz-dot-1' },
+        'Kolor jest \u015Bwiat\u0142em'
+      ),
+      ', kt\xF3re mo\u017Cna rozdziela\u0107 i ponownie \u0142\u0105czy\u0107 uzyskuj\u0105c \u015Bwiat\u0142o bia\u0142e. Kolor to w takim razie cecha przedmiotu odbijaj\u0105cego lub chwytaj\u0105cego cz\u0105steczki \u015Bwiat\u0142a. Wystarczy wyobrazi\u0107 sobie struktur\u0119 danej rzeczy. Skoro najczarniejszy na \u015Bwiecie materia\u0142 posiada \u2018nanorurki\u2019 ustawione pionowo, to by\u0107 mo\u017Ce materia\u0142 czerwony posiada cz\u0105steczki innego kszta\u0142tu ustawione wzgl\u0119dem siebie w taki spos\xF3b, by chwyta\u0107 jak najwi\u0119cej \u015Bwiat\u0142a odpowiadaj\u0105cego czerwieni. We\u017Amy za przyk\u0142ad t\u0119cz\u0119. T\u0119cza ukazuje spektrum \u015Bwiat\u0142a (kolor\xF3w \u015Bwiat\u0142a) widzialnego. Zaczyna si\u0119 od niewidzialnej dla ludzkiego oka podczerwieni, przechodz\u0105c w widzialn\u0105 ju\u017C czerwie\u0144, pomara\u0144cz, \u017C\xF3\u0142ty, zielony, niebieski, indygo, fiolet i zn\xF3w niewidzialny ultrafiolet. T\u0119cza od czas\xF3w jej odkrycia sta\u0142a si\u0119 pewnego rodzaju archetypem, z kt\xF3rym przychodzimy na \u015Bwiat. Zawiera wszystkie znane nam kolory, kt\xF3rych pochodne odnajdujemy na co dzie\u0144. Ka\u017Cdy z nas ju\u017C za dzieciaka potrafi poprawnie ustawi\u0107 kolory t\u0119czy na swoim niezgrabnym rysunku. A gdzie w t\u0119czy miejsce dla czerni? Czy kiedykolwiek obrysowa\u0142e\u015B sw\xF3j kolorowy \u0142uk czarnym flamastrem?'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8257241/ello-optimized-15ab66b3.jpg', alt: 'Obraz przedstawia dwie czarno-bia\u0142e fotografie. Na fotografiach widzimy kobiet\u0119 w przekrzywion\u0105 g\u0142ow\u0105.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/8257243/ello-optimized-6234a9f2.jpg', alt: 'Zdj\u0119cie przedstawia graficzne kszta\u0142ty namalowane na murze. Ca\u0142o\u015B\u0107 w czerni i bieli.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "O kolorach: Czerń", "date": "2018-09-21T16:59:00.000Z", "categories": ["Sztuka Makijażu"], "tags": ["o kolorach", "czerń", "czarny", "kolor", "symbolika", "znak", "black"] };
+var body = exports.body = "<p>Od zawsze i na zawsze. Czerń to barwa pełna kontrastów. W kulturze europejskiej przypisywana jest śmierci. Pogrążeni w żałobie zakładają na siebie czarne ubrania. Z kolei wśród Indian i w Starożytnym Egipcie kojarzono ją z życiem. Czerń pasuje do każdego koloru, tworzy mocne kontrasty. Wielu z nas nie wyobraża sobie braku koloru czarnego w swojej garderobie. Ale właśnie... czy czerń jest kolorem? W teorii oznacza całkowity brak światła odbitego. Czerń pełna jest tajemnicy, kojarzy się z elegancją, seksualnością, władzą. Jest to kolor nocy, rozpaczy, w okultyzmie stanowi symbol zniszczenia. Przypisywana do subkultur heavy-metalowych znalazła swoje miejsce w jednym z najbardziej kultowych kobiecych strojów – małej czarnej.</p>\n<h2>Najczarniejszy z czarnych</h2>\n<p>Brytyjscy naukowcy z National Physical Laboratory opracowali materiał, który pochłania 99.965% widzialnego światła, co oznacza, że jest praktycznie całkowicie czarny. Vantablack – tak nazywa się tworzywo skonstruowane w technologii nanorurek. Na jeden centymetr kwadratowy powierzchni Vantablack przypada ponad miliard małych cząsteczek ustawionych względem siebie pionowo, co pozwala na chwytanie i ‘zamykanie’ fotonów światła. Daje to niesamowity efekt w momencie, gdy tworzywem przykryta jest powierzchnia 3d, np. rzeźba. Ciężko opisać to słowami, ale wygląda to mniej więcej tak, jakby ktoś wyciął dany kształt w przestrzeni i zamalował go graficznym narzędziem ‘wiadro z farbą’ na czarno. Całkowicie czarno. Nie jesteśmy w stanie dostrzec na zakrytej powierzchni najmniejszego cienia. Wszystko jest… czernią absolutną. Brytyjski artysta hinduskiego pochodzenia Anish Kapoor, wykupił całkowite prawo do artystycznego wykorzystania Vantablack. Przewiduje się, że owa czerń znajdzie swoje zastosowanie w optyce, astronomii, sztuce wojennej.</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/8257250/ello-optimized-2523e86b.jpg\" alt=\"Obraz przedstawia dwa czarno białe zdjęcia kobiety z połową twarzy pomalowanej na czarno.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/8257235/ello-optimized-94dc13cc.jpg\" alt=\"Zdjęcie przedstawia czarno-biały portret kobiety. Kobieta patrzy w obiektyw i ma pomalowaną połowę twarzy.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/8257239/ello-optimized-090708b3.jpg\" alt=\"Fotografia przedstawia element architektoniczny z oknem.\" /></p>\n<h2>Niekolor</h2>\n<p>W poprzednich częściach serii ‘O kolorach’ pisałam na temat istoty samego koloru, jako światła. <a href=\"http://sztukauniwersalna.pl/2018-02-21-o-kolorach-biel-cz-dot-1\">Kolor jest światłem</a>, które można rozdzielać i ponownie łączyć uzyskując światło białe. Kolor to w takim razie cecha przedmiotu odbijającego lub chwytającego cząsteczki światła. Wystarczy wyobrazić sobie strukturę danej rzeczy. Skoro najczarniejszy na świecie materiał posiada ‘nanorurki’ ustawione pionowo, to być może materiał czerwony posiada cząsteczki innego kształtu ustawione względem siebie w taki sposób, by chwytać jak najwięcej światła odpowiadającego czerwieni. Weźmy za przykład tęczę. Tęcza ukazuje spektrum światła (kolorów światła) widzialnego. Zaczyna się od niewidzialnej dla ludzkiego oka podczerwieni, przechodząc w widzialną już czerwień, pomarańcz, żółty, zielony, niebieski, indygo, fiolet i znów niewidzialny ultrafiolet. Tęcza od czasów jej odkrycia stała się pewnego rodzaju archetypem, z którym przychodzimy na świat. Zawiera wszystkie znane nam kolory, których pochodne odnajdujemy na co dzień. Każdy z nas już za dzieciaka potrafi poprawnie ustawić kolory tęczy na swoim niezgrabnym rysunku. A gdzie w tęczy miejsce dla czerni? Czy kiedykolwiek obrysowałeś swój kolorowy łuk czarnym flamastrem?</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/8257241/ello-optimized-15ab66b3.jpg\" alt=\"Obraz przedstawia dwie czarno-białe fotografie. Na fotografiach widzimy kobietę w przekrzywioną głową.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/8257243/ello-optimized-6234a9f2.jpg\" alt=\"Zdjęcie przedstawia graficzne kształty namalowane na murze. Całość w czerni i bieli.\" /></p>\n";
+var raw = exports.raw = "\nOd zawsze i na zawsze. Czerń to barwa pełna kontrastów. W kulturze europejskiej przypisywana jest śmierci. Pogrążeni w żałobie zakładają na siebie czarne ubrania. Z kolei wśród Indian i w Starożytnym Egipcie kojarzono ją z życiem. Czerń pasuje do każdego koloru, tworzy mocne kontrasty. Wielu z nas nie wyobraża sobie braku koloru czarnego w swojej garderobie. Ale właśnie… czy czerń jest kolorem? W teorii oznacza całkowity brak światła odbitego. Czerń pełna jest tajemnicy, kojarzy się z elegancją, seksualnością, władzą. Jest to kolor nocy, rozpaczy, w okultyzmie stanowi symbol zniszczenia. Przypisywana do subkultur heavy-metalowych znalazła swoje miejsce w jednym z najbardziej kultowych kobiecych strojów – małej czarnej.\n\n## Najczarniejszy z czarnych\n\nBrytyjscy naukowcy z National Physical Laboratory opracowali materiał, który pochłania 99.965% widzialnego światła, co oznacza, że jest praktycznie całkowicie czarny. Vantablack – tak nazywa się tworzywo skonstruowane w technologii nanorurek. Na jeden centymetr kwadratowy powierzchni Vantablack przypada ponad miliard małych cząsteczek ustawionych względem siebie pionowo, co pozwala na chwytanie i ‘zamykanie’ fotonów światła. Daje to niesamowity efekt w momencie, gdy tworzywem przykryta jest powierzchnia 3d, np. rzeźba. Ciężko opisać to słowami, ale wygląda to mniej więcej tak, jakby ktoś wyciął dany kształt w przestrzeni i zamalował go graficznym narzędziem ‘wiadro z farbą’ na czarno. Całkowicie czarno. Nie jesteśmy w stanie dostrzec na zakrytej powierzchni najmniejszego cienia. Wszystko jest… czernią absolutną. Brytyjski artysta hinduskiego pochodzenia Anish Kapoor, wykupił całkowite prawo do artystycznego wykorzystania Vantablack. Przewiduje się, że owa czerń znajdzie swoje zastosowanie w optyce, astronomii, sztuce wojennej.\n\n![Obraz przedstawia dwa czarno białe zdjęcia kobiety z połową twarzy pomalowanej na czarno.](https://assets2.ello.co/uploads/asset/attachment/8257250/ello-optimized-2523e86b.jpg)\n![Zdjęcie przedstawia czarno-biały portret kobiety. Kobieta patrzy w obiektyw i ma pomalowaną połowę twarzy.](https://assets1.ello.co/uploads/asset/attachment/8257235/ello-optimized-94dc13cc.jpg)\n![Fotografia przedstawia element architektoniczny z oknem.](https://assets1.ello.co/uploads/asset/attachment/8257239/ello-optimized-090708b3.jpg)\n\n## Niekolor\n\nW poprzednich częściach serii ‘O kolorach’ pisałam na temat istoty samego koloru, jako światła. [Kolor jest światłem](http://sztukauniwersalna.pl/2018-02-21-o-kolorach-biel-cz-dot-1), które można rozdzielać i ponownie łączyć uzyskując światło białe. Kolor to w takim razie cecha przedmiotu odbijającego lub chwytającego cząsteczki światła. Wystarczy wyobrazić sobie strukturę danej rzeczy. Skoro najczarniejszy na świecie materiał posiada ‘nanorurki’ ustawione pionowo, to być może materiał czerwony posiada cząsteczki innego kształtu ustawione względem siebie w taki sposób, by chwytać jak najwięcej światła odpowiadającego czerwieni. Weźmy za przykład tęczę. Tęcza ukazuje spektrum światła (kolorów światła) widzialnego. Zaczyna się od niewidzialnej dla ludzkiego oka podczerwieni, przechodząc w widzialną już czerwień, pomarańcz, żółty, zielony, niebieski, indygo, fiolet i znów niewidzialny ultrafiolet. Tęcza od czasów jej odkrycia stała się pewnego rodzaju archetypem, z którym przychodzimy na świat. Zawiera wszystkie znane nam kolory, których pochodne odnajdujemy na co dzień. Każdy z nas już za dzieciaka potrafi poprawnie ustawić kolory tęczy na swoim niezgrabnym rysunku. A gdzie w tęczy miejsce dla czerni? Czy kiedykolwiek obrysowałeś swój kolorowy łuk czarnym flamastrem? \n\n![Obraz przedstawia dwie czarno-białe fotografie. Na fotografiach widzimy kobietę w przekrzywioną głową.](https://assets1.ello.co/uploads/asset/attachment/8257241/ello-optimized-15ab66b3.jpg)\n![Zdjęcie przedstawia graficzne kształty namalowane na murze. Całość w czerni i bieli.](https://assets0.ello.co/uploads/asset/attachment/8257243/ello-optimized-6234a9f2.jpg)";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 135 */
@@ -11333,6 +11408,18 @@ webpackEmptyContext.id = 135;
 
 /***/ }),
 /* 136 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 136;
+
+/***/ }),
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -11353,19 +11440,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 136;
+webpackContext.id = 137;
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(138);
+module.exports = __webpack_require__(139);
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11383,7 +11470,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(139);
+var _propTypes = __webpack_require__(140);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -11587,13 +11674,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_139__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_140__;
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11607,7 +11694,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11615,7 +11702,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11628,7 +11715,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11662,7 +11749,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11675,7 +11762,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11684,7 +11771,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11692,7 +11779,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11700,7 +11787,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11715,7 +11802,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11730,7 +11817,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11745,7 +11832,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11769,7 +11856,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(152);
+var s = __webpack_require__(153);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -11800,7 +11887,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11808,7 +11895,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11832,7 +11919,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11883,7 +11970,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11891,7 +11978,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11900,7 +11987,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(157);
+var s = __webpack_require__(158);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -11933,7 +12020,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11943,7 +12030,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11987,22 +12074,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 161,
-	"./Feed.js": 162,
-	"./Ingredient.js": 163,
-	"./Method.js": 164,
-	"./Recipe.js": 165,
-	"./TableOfContents.js": 166
+	"./Crumbs.js": 162,
+	"./Feed.js": 163,
+	"./Ingredient.js": 164,
+	"./Method.js": 165,
+	"./Recipe.js": 166,
+	"./TableOfContents.js": 167
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -12018,10 +12105,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 160;
+webpackContext.id = 161;
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12036,7 +12123,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12051,7 +12138,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12066,7 +12153,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12081,7 +12168,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12096,7 +12183,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12111,7 +12198,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12135,7 +12222,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
