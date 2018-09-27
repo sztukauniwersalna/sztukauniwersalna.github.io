@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_140__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_141__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(155);
+var Feed_1 = __webpack_require__(156);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(157);
+var Recipe_1 = __webpack_require__(158);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(159);
+var Root_1 = __webpack_require__(160);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(141);
+var s = __webpack_require__(142);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(142);
+var s = __webpack_require__(143);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(135),
-ROOT: __webpack_require__(136),
-LAYOUTS: __webpack_require__(137),
-INCLUDES: __webpack_require__(161)};
+UPLOADS: __webpack_require__(136),
+ROOT: __webpack_require__(137),
+LAYOUTS: __webpack_require__(138),
+INCLUDES: __webpack_require__(162)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(161)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(143);
+var s = __webpack_require__(144);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(147);
+var s = __webpack_require__(148);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(160);
+__webpack_require__(161);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(138);
+var react_disqus_comments_1 = __webpack_require__(139);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(152);
-var s = __webpack_require__(154);
+var FacebookLike_1 = __webpack_require__(153);
+var s = __webpack_require__(155);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(144);
-var s = __webpack_require__(145);
+__webpack_require__(145);
+var s = __webpack_require__(146);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(146);
+var s = __webpack_require__(147);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(149);
+var s = __webpack_require__(150);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(148);
+var s = __webpack_require__(149);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(150);
+var s = __webpack_require__(151);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(151);
+var s = __webpack_require__(152);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(156);
+var s = __webpack_require__(157);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(168);
-var menu_1 = __webpack_require__(169);
+var tags_1 = __webpack_require__(169);
+var menu_1 = __webpack_require__(170);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2711,7 +2711,8 @@ var map = {
 	"./2018-08-31-moje-wybory-sierpien.markdown": 131,
 	"./2018-09-06-futuryzm-moodboard.markdown": 132,
 	"./2018-09-09-pre-fall-fall-slash-winter-spring-slash-summer-resort-cruise-co-to-wszystko-znaczy-plus-fw-trends-2018-slash-2019.markdown": 133,
-	"./2018-09-21-o-kolorach-czern.markdown": 134
+	"./2018-09-21-o-kolorach-czern.markdown": 134,
+	"./2018-09-27-moje-wybory-wrzesien-2018.markdown": 135
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -11451,15 +11452,75 @@ var raw = exports.raw = "\nOd zawsze i na zawsze. Czerń to barwa pełna kontras
 
 /***/ }),
 /* 135 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 135;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'olela-narrative',
+      null,
+      'Ten miesi\u0105c by\u0142 niezwykle kapry\u015Bny. Jednego dnia nasz\u0142a go ochota na potworne ciep\u0142o i zsy\u0142a\u0142 na nas fal\u0119 tropikalnych upa\u0142\xF3w. Nast\u0119pnego dnia z kolei narzuca\u0142 na siebie jesienny p\u0142aszcz pochmurnej aury. Wiele stworze\u0144 ucierpia\u0142o przez te zmienne nastroje. Nieliczni nauczeni profilaktyki \u0142ykn\u0119li gar\u015B\u0107 witaminy C i maj\u0105 si\u0119 dobrze. Wi\u0119kszo\u015B\u0107 jednak z katarem zaszy\u0142a si\u0119 pod we\u0142nianym kocem. Wielkimi krokami zbli\u017Ca si\u0119 czas herbaty z cytryn\u0105, miodem i korzennymi przyprawami. Dwa dni temu po raz ostatni tej jesieni (?) pozwoli\u0142am sobie na lody czekoladowe. Od dzi\u015B zak\u0142adam na g\u0142ow\u0119 kapelusz. Porz\u0105dny kapelusz made in Poland. Nie pozwol\u0119 go zdmuchn\u0105\u0107 przez zbli\u017Caj\u0105ce si\u0119 wiatry. Mam spos\xF3b na ci\u0119\u017Ckie wstawanie z \u0142\xF3\u017Cka, jak i wczesne k\u0142adzenie si\u0119 do niego. Na t\u0119 pierwsz\u0105 przypad\u0142o\u015B\u0107 proponuj\u0119 \u017Celowe p\u0142atki pod oczy, kt\xF3re budz\u0105 do \u017Cycia swoim ch\u0142odem i magicznym sk\u0142adem. Na drug\u0105 za\u015B przyda si\u0119 dobra ksi\u0105\u017Cka, kt\xF3ra rozlu\u017Ani, ale te\u017C nauczy. Rzeczy kosmetyczne kumuluj\u0119 do niezb\u0119dnik\xF3w. Jedna paletka wystarczy, aby od\u015Bwie\u017Cy\u0107 cer\u0119, kt\xF3ra niestety w najbli\u017Cszym czasie stawa\u0107 si\u0119 b\u0119dzie coraz bardziej zm\u0119czona i zm\u0119czona...'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/8270060/ello-optimized-6f588d61.jpg', alt: 'Zdj\u0119cie przedstawia paletk\u0119 do makija\u017Cu twarzy z lusterkiem na r\xF3\u017Cowym tle. W otoczeniu kwiaty.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Kosmetyk: kolor\xF3wka'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Dwa korektory, dwa bronzery, dwa roz\u015Bwietlacze \u2013 czego wi\u0119cej potrzeba do uzyskania idealnej cery? Niekt\xF3rzy krzykn\u0105: podk\u0142adu! Ale kiedy sk\xF3ra twarzy jest idealnie nawil\u017Cona wystarczy tak naprawd\u0119 drobna korekta i jeste\u015Bmy gotowe do wyj\u015Bcia. Nale\u017Cy pami\u0119ta\u0107 jednak, aby wraz z nadej\u015Bciem ch\u0142odniejszych miesi\u0119cy wybiera\u0107 nieco ci\u0119\u017Csze podk\u0142ady, kt\xF3re zbuduj\u0105 barier\u0119 ochronn\u0105 na sk\xF3rze i dodatkowo jej nie przesusz\u0105. Wrzesie\u0144 to taki \u2018czas przej\u015Bciowy\u2019, wi\u0119c jeszcze teraz mo\u017Cna pozwoli\u0107 sobie na subtelniejsze krycie. Paletka \u2018The Complexionista\u2019 marki Benefit posiada wszystkie produkty niezb\u0119dne do stworzenia idealnej karnacji. Korektora boi-ing no.1 u\u017Cywam oszcz\u0119dnie pod oczy (moja sk\xF3ra pod oczami nie lubi si\u0119 z ci\u0119\u017Ckim kryciem). Stosuj\u0119 go tak\u017Ce do zamaskowania drobnych niedoskona\u0142o\u015Bci. Boi-ing no.2 = konturowanie na mokro. Hoola Lite to idealnie ch\u0142odny odcie\u0144 bronzera. Roz\u015Bwietlacz Dandelion Twinkle jest dla mnie odrobin\u0119 za ciemny i za ciep\u0142y, dlatego r\xF3wnie\u017C s\u0142u\u017Cy mi za bronzer, do ocieplenia twarzy. Watt\u2019s Up! Na powiekach tworzy pasuj\u0105cy \u2018mokry\u2019 look. Wszystko i jeszcze wi\u0119cej w jednej paletce, to lubi\u0119.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'PS Niestety paletka by\u0142a edycj\u0105 limitowan\u0105. W tym momencie nie jest dost\u0119pna w sprzeda\u017Cy.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8270065/ello-optimized-c11a4747.jpg', alt: 'Obraz przedstawia trzy zdj\u0119cia kosmetyku na r\xF3\u017Cowym tle w otoczeniu kwiat\xF3w.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Moje wybory: wrzesień 2018", "date": "2018-09-27T11:41:00.000Z", "categories": ["Sztuka Ubioru"], "tags": ["wybory", "moje wybory", "my choices", "wrzesień", "jesień", "kapelusz", "książka", "kosmetyk"] };
+var body = exports.body = "<olela-narrative>\nTen miesiąc był niezwykle kapryśny. Jednego dnia naszła go ochota na potworne ciepło i zsyłał na nas falę tropikalnych upałów. Następnego dnia z kolei narzucał na siebie jesienny płaszcz pochmurnej aury. Wiele stworzeń ucierpiało przez te zmienne nastroje. Nieliczni nauczeni profilaktyki łyknęli garść witaminy C i mają się dobrze. Większość jednak z katarem zaszyła się pod wełnianym kocem. Wielkimi krokami zbliża się czas herbaty z cytryną, miodem i korzennymi przyprawami. Dwa dni temu po raz ostatni tej jesieni (?) pozwoliłam sobie na lody czekoladowe. Od dziś zakładam na głowę kapelusz. Porządny kapelusz made in Poland. Nie pozwolę go zdmuchnąć przez zbliżające się wiatry. Mam sposób na ciężkie wstawanie z łóżka, jak i wczesne kładzenie się do niego. Na tę pierwszą przypadłość proponuję żelowe płatki pod oczy, które budzą do życia swoim chłodem i magicznym składem. Na drugą zaś przyda się dobra książka, która rozluźni, ale też nauczy. Rzeczy kosmetyczne kumuluję do niezbędników. Jedna paletka wystarczy, aby odświeżyć cerę, która niestety w najbliższym czasie stawać się będzie coraz bardziej zmęczona i zmęczona...\n</olela-narrative>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/8270060/ello-optimized-6f588d61.jpg\" alt=\"Zdjęcie przedstawia paletkę do makijażu twarzy z lusterkiem na różowym tle. W otoczeniu kwiaty.\" /></p>\n<h2>Kosmetyk: kolorówka</h2>\n<p>Dwa korektory, dwa bronzery, dwa rozświetlacze – czego więcej potrzeba do uzyskania idealnej cery? Niektórzy krzykną: podkładu! Ale kiedy skóra twarzy jest idealnie nawilżona wystarczy tak naprawdę drobna korekta i jesteśmy gotowe do wyjścia. Należy pamiętać jednak, aby wraz z nadejściem chłodniejszych miesięcy wybierać nieco cięższe podkłady, które zbudują barierę ochronną na skórze i dodatkowo jej nie przesuszą. Wrzesień to taki ‘czas przejściowy’, więc jeszcze teraz można pozwolić sobie na subtelniejsze krycie. Paletka ‘The Complexionista’ marki Benefit posiada wszystkie produkty niezbędne do stworzenia idealnej karnacji. Korektora boi-ing no.1 używam oszczędnie pod oczy (moja skóra pod oczami nie lubi się z ciężkim kryciem). Stosuję go także do zamaskowania drobnych niedoskonałości. Boi-ing no.2 = konturowanie na mokro. Hoola Lite to idealnie chłodny odcień bronzera. Rozświetlacz Dandelion Twinkle jest dla mnie odrobinę za ciemny i za ciepły, dlatego również służy mi za bronzer, do ocieplenia twarzy. Watt’s Up! Na powiekach tworzy pasujący ‘mokry’ look. Wszystko i jeszcze więcej w jednej paletce, to lubię.</p>\n<p>PS Niestety paletka była edycją limitowaną. W tym momencie nie jest dostępna w sprzedaży.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/8270065/ello-optimized-c11a4747.jpg\" alt=\"Obraz przedstawia trzy zdjęcia kosmetyku na różowym tle w otoczeniu kwiatów.\" /></p>\n";
+var raw = exports.raw = "\n<olela-narrative>\nTen miesiąc był niezwykle kapryśny. Jednego dnia naszła go ochota na potworne ciepło i zsyłał na nas falę tropikalnych upałów. Następnego dnia z kolei narzucał na siebie jesienny płaszcz pochmurnej aury. Wiele stworzeń ucierpiało przez te zmienne nastroje. Nieliczni nauczeni profilaktyki łyknęli garść witaminy C i mają się dobrze. Większość jednak z katarem zaszyła się pod wełnianym kocem. Wielkimi krokami zbliża się czas herbaty z cytryną, miodem i korzennymi przyprawami. Dwa dni temu po raz ostatni tej jesieni (?) pozwoliłam sobie na lody czekoladowe. Od dziś zakładam na głowę kapelusz. Porządny kapelusz made in Poland. Nie pozwolę go zdmuchnąć przez zbliżające się wiatry. Mam sposób na ciężkie wstawanie z łóżka, jak i wczesne kładzenie się do niego. Na tę pierwszą przypadłość proponuję żelowe płatki pod oczy, które budzą do życia swoim chłodem i magicznym składem. Na drugą zaś przyda się dobra książka, która rozluźni, ale też nauczy. Rzeczy kosmetyczne kumuluję do niezbędników. Jedna paletka wystarczy, aby odświeżyć cerę, która niestety w najbliższym czasie stawać się będzie coraz bardziej zmęczona i zmęczona…\n</olela-narrative>\n\n![Zdjęcie przedstawia paletkę do makijażu twarzy z lusterkiem na różowym tle. W otoczeniu kwiaty.](https://assets2.ello.co/uploads/asset/attachment/8270060/ello-optimized-6f588d61.jpg)\n\n## Kosmetyk: kolorówka\n\nDwa korektory, dwa bronzery, dwa rozświetlacze – czego więcej potrzeba do uzyskania idealnej cery? Niektórzy krzykną: podkładu! Ale kiedy skóra twarzy jest idealnie nawilżona wystarczy tak naprawdę drobna korekta i jesteśmy gotowe do wyjścia. Należy pamiętać jednak, aby wraz z nadejściem chłodniejszych miesięcy wybierać nieco cięższe podkłady, które zbudują barierę ochronną na skórze i dodatkowo jej nie przesuszą. Wrzesień to taki ‘czas przejściowy’, więc jeszcze teraz można pozwolić sobie na subtelniejsze krycie. Paletka ‘The Complexionista’ marki Benefit posiada wszystkie produkty niezbędne do stworzenia idealnej karnacji. Korektora boi-ing no.1 używam oszczędnie pod oczy (moja skóra pod oczami nie lubi się z ciężkim kryciem). Stosuję go także do zamaskowania drobnych niedoskonałości. Boi-ing no.2 = konturowanie na mokro. Hoola Lite to idealnie chłodny odcień bronzera. Rozświetlacz Dandelion Twinkle jest dla mnie odrobinę za ciemny i za ciepły, dlatego również służy mi za bronzer, do ocieplenia twarzy. Watt’s Up! Na powiekach tworzy pasujący ‘mokry’ look. Wszystko i jeszcze więcej w jednej paletce, to lubię.\n\nPS Niestety paletka była edycją limitowaną. W tym momencie nie jest dostępna w sprzedaży.\n\n![Obraz przedstawia trzy zdjęcia kosmetyku na różowym tle w otoczeniu kwiatów.](https://assets1.ello.co/uploads/asset/attachment/8270065/ello-optimized-c11a4747.jpg)";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 136 */
@@ -11475,6 +11536,18 @@ webpackEmptyContext.id = 136;
 
 /***/ }),
 /* 137 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 137;
+
+/***/ }),
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -11495,19 +11568,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 137;
+webpackContext.id = 138;
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(139);
+module.exports = __webpack_require__(140);
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11525,7 +11598,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(140);
+var _propTypes = __webpack_require__(141);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -11729,13 +11802,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_140__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_141__;
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11749,7 +11822,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11757,7 +11830,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11770,7 +11843,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11804,7 +11877,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11817,7 +11890,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11826,7 +11899,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11834,7 +11907,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11842,7 +11915,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11857,7 +11930,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11872,7 +11945,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11887,7 +11960,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11911,7 +11984,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(153);
+var s = __webpack_require__(154);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -11942,7 +12015,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11950,7 +12023,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11974,7 +12047,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12025,7 +12098,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12033,7 +12106,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12042,7 +12115,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(158);
+var s = __webpack_require__(159);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -12075,7 +12148,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12085,7 +12158,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12129,22 +12202,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 162,
-	"./Feed.js": 163,
-	"./Ingredient.js": 164,
-	"./Method.js": 165,
-	"./Recipe.js": 166,
-	"./TableOfContents.js": 167
+	"./Crumbs.js": 163,
+	"./Feed.js": 164,
+	"./Ingredient.js": 165,
+	"./Method.js": 166,
+	"./Recipe.js": 167,
+	"./TableOfContents.js": 168
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -12160,10 +12233,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 161;
+webpackContext.id = 162;
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12178,7 +12251,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12193,7 +12266,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12208,7 +12281,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12223,7 +12296,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12238,7 +12311,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12253,7 +12326,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12277,7 +12350,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 169 */
+/* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
