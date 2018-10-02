@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_141__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_142__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(156);
+var Feed_1 = __webpack_require__(157);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(158);
+var Recipe_1 = __webpack_require__(159);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(160);
+var Root_1 = __webpack_require__(161);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(142);
+var s = __webpack_require__(143);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(143);
+var s = __webpack_require__(144);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(136),
-ROOT: __webpack_require__(137),
-LAYOUTS: __webpack_require__(138),
-INCLUDES: __webpack_require__(162)};
+UPLOADS: __webpack_require__(137),
+ROOT: __webpack_require__(138),
+LAYOUTS: __webpack_require__(139),
+INCLUDES: __webpack_require__(163)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(162)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(144);
+var s = __webpack_require__(145);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(148);
+var s = __webpack_require__(149);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(161);
+__webpack_require__(162);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(139);
+var react_disqus_comments_1 = __webpack_require__(140);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(153);
-var s = __webpack_require__(155);
+var FacebookLike_1 = __webpack_require__(154);
+var s = __webpack_require__(156);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(145);
-var s = __webpack_require__(146);
+__webpack_require__(146);
+var s = __webpack_require__(147);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(147);
+var s = __webpack_require__(148);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(150);
+var s = __webpack_require__(151);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(149);
+var s = __webpack_require__(150);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(151);
+var s = __webpack_require__(152);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(152);
+var s = __webpack_require__(153);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(157);
+var s = __webpack_require__(158);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(169);
-var menu_1 = __webpack_require__(170);
+var tags_1 = __webpack_require__(170);
+var menu_1 = __webpack_require__(171);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2712,7 +2712,8 @@ var map = {
 	"./2018-09-06-futuryzm-moodboard.markdown": 132,
 	"./2018-09-09-pre-fall-fall-slash-winter-spring-slash-summer-resort-cruise-co-to-wszystko-znaczy-plus-fw-trends-2018-slash-2019.markdown": 133,
 	"./2018-09-21-o-kolorach-czern.markdown": 134,
-	"./2018-09-27-moje-wybory-wrzesien-2018.markdown": 135
+	"./2018-09-27-moje-wybory-wrzesien-2018.markdown": 135,
+	"./2018-10-02-wystawa-bestia-bog-i-linia.markdown": 136
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -11608,15 +11609,71 @@ var raw = exports.raw = "\n<olela-narrative>\nTen miesiąc był niezwykle kapry�
 
 /***/ }),
 /* 136 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 136;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'olela-narrative',
+      null,
+      'Po tej wystawie spodziewa\u0142am si\u0119 zupe\u0142nie czego\u015B innego ni\u017C zasta\u0142am. \u2018Splot wiedzy, religii i sztuki w regionie Azji i Pacyfiku\u2019 kierowa\u0142 moje oczekiwania w kierunku rytualnych figurek, ozd\xF3b, tkanin. Owszem, na wystawie znajdziemy obiekty traktuj\u0105ce o historii i kulturze danego obszaru, jednak obiektom tym nadano zupe\u0142nie nowe znaczenie. Cz\u0119sto ich prawda ujawnia si\u0119 wraz z wys\u0142uchaniem lub przeczytaniem historii \u2018dooko\u0142a\u2019 dzie\u0142a. Dzie\u0142a oblane kontekstem religijnym (konflikt\xF3w na tle religijnym) staj\u0105 w naszych oczach niczym \u015Bwie\u017Co wbity w ziemi\u0119 miecz, bol\u0105 i jednocze\u015Bnie intryguj\u0105, zapraszaj\u0105 do konfrontacji. Narracja wystawy rozgrywa si\u0119 na kilku p\u0142aszczyznach. Zdecydowanie jeste\u015Bmy w stanie podzieli\u0107, notabene \u015Bwietnie zorganizowan\u0105 przestrze\u0144 ekspozycji, na kilka segment\xF3w. W g\u0105szczu dzie\u0142 wyodr\u0119bnimy stref\u0119 traktuj\u0105c\u0105 o migracji, kolonizacji, konfliktach na tle religijnym. Arty\u015Bci si\u0119gaj\u0105 poprzez legendy i mity po faktyczne wydarzenia eksploruj\u0105c temat kultury, polityki, sztuki poszczeg\xF3lnych region\xF3w \u015Bwiata. W wystawie wzi\u0119\u0142o udzia\u0142 ponad 50 tw\xF3rc\xF3w mi\u0119dzy innymi z Indii, Filipin, Madagaskaru, Australii, Wietnamu...'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8303882/ello-optimized-a698e434.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia obraz\xF3w znanego artysty. Obrazy s\u0105 bardzo kolorowe.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/8303881/ello-optimized-238d8c59.jpg', alt: 'Zdj\u0119cie przedstawia przestrze\u0144 ekspozycji muzealnej z trzema kolorowymi obrazami na pierwszym planie.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Sztuka na wej\u015Bciu'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Zazwyczaj wchodzimy na wystaw\u0119 przez kotar\u0119 i chyba nikt z nas nie zwraca na ni\u0105 uwagi. Ciemna zas\u0142ona odgradza przestrze\u0144 sacrum od profanum, skrywa tajemnic\u0119. Za ni\u0105 otwiera si\u0119 inny \u015Bwiat, \u015Bwiat prawdziwej sztuki. A je\u015Bli powiem Ci, \u017Ce w\u0142a\u015Bnie przeszed\u0142e\u015B przez dzie\u0142o sztuki, zupe\u0142nie go nie zauwa\u017Caj\u0105c? Tym bardziej, \u017Ce temat dzie\u0142a traktuje o rzeczach tak powa\u017Cnych jak kl\u0119ska g\u0142odu. Czy ten obraz nie zyskuje zupe\u0142nie nowego znaczenia? Przej\u015Bcie oboj\u0119tnie przez dzie\u0142o, kt\xF3re m\xF3wi o ludzkim cierpieniu. Dzie\u0142o rozdarte, kt\xF3re jest drzwiami. Artystka Thao-Nguyen Phan wyszy\u0142a na jedwabnej tkaninie sceny z czas\xF3w japo\u0144skiej okupacji Wietnamu (1940-1945). Wtedy to wybudowano fabryk\u0119 juty Dai Nam i zmuszano rolnik\xF3w do wyrywania ry\u017Cu, a uprawy juty. Spowodowa\u0142y one wielki g\u0142\xF3d i \u015Bmier\u0107 dw\xF3ch milion\xF3w Wietnamczyk\xF3w. Pod jedwabn\u0105 tkanin\u0105 kryje si\u0119 kurtyna z juty utkana tradycyjnymi metodami, barwiona indygo. Pracy towarzyszy fotografia, kt\xF3ra przedstawia kamienie u\u017Cywane przy pracy w fabryce. Dzi\u015B le\u017C\u0105 one pod drzewem kompletnie zapomniane.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/8303891/ello-optimized-546ea78d.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia niebieskiej zas\u0142ony z bia\u0142ymi haftami.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Wystawa: Bestia, bóg i linia", "date": "2018-10-02T17:53:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["sztuka", "wystawa", "exhibition", "artysta", "dzieło", "azja", "muzeum"] };
+var body = exports.body = "<olela-narrative>\nPo tej wystawie spodziewałam się zupełnie czegoś innego niż zastałam. ‘Splot wiedzy, religii i sztuki w regionie Azji i Pacyfiku’ kierował moje oczekiwania w kierunku rytualnych figurek, ozdób, tkanin. Owszem, na wystawie znajdziemy obiekty traktujące o historii i kulturze danego obszaru, jednak obiektom tym nadano zupełnie nowe znaczenie. Często ich prawda ujawnia się wraz z wysłuchaniem lub przeczytaniem historii ‘dookoła’ dzieła. Dzieła oblane kontekstem religijnym (konfliktów na tle religijnym) stają w naszych oczach niczym świeżo wbity w ziemię miecz, bolą i jednocześnie intrygują, zapraszają do konfrontacji. Narracja wystawy rozgrywa się na kilku płaszczyznach. Zdecydowanie jesteśmy w stanie podzielić, notabene świetnie zorganizowaną przestrzeń ekspozycji, na kilka segmentów. W gąszczu dzieł wyodrębnimy strefę traktującą o migracji, kolonizacji, konfliktach na tle religijnym. \nArtyści sięgają poprzez legendy i mity po faktyczne wydarzenia eksplorując temat kultury, polityki, sztuki poszczególnych regionów świata. W wystawie wzięło udział ponad 50 twórców między innymi z Indii, Filipin, Madagaskaru, Australii, Wietnamu...\n</olela-narrative>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/8303882/ello-optimized-a698e434.jpg\" alt=\"Obraz przedstawia dwa zdjęcia obrazów znanego artysty. Obrazy są bardzo kolorowe.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/8303881/ello-optimized-238d8c59.jpg\" alt=\"Zdjęcie przedstawia przestrzeń ekspozycji muzealnej z trzema kolorowymi obrazami na pierwszym planie.\" /></p>\n<h2>Sztuka na wejściu</h2>\n<p>Zazwyczaj wchodzimy na wystawę przez kotarę i chyba nikt z nas nie zwraca na nią uwagi. Ciemna zasłona odgradza przestrzeń sacrum od profanum, skrywa tajemnicę. Za nią otwiera się inny świat, świat prawdziwej sztuki. A jeśli powiem Ci, że właśnie przeszedłeś przez dzieło sztuki, zupełnie go nie zauważając? Tym bardziej, że temat dzieła traktuje o rzeczach tak poważnych jak klęska głodu. Czy ten obraz nie zyskuje zupełnie nowego znaczenia? Przejście obojętnie przez dzieło, które mówi o ludzkim cierpieniu. Dzieło rozdarte, które jest drzwiami. Artystka Thao-Nguyen Phan wyszyła na jedwabnej tkaninie sceny z czasów japońskiej okupacji Wietnamu (1940-1945). Wtedy to wybudowano fabrykę juty Dai Nam i zmuszano rolników do wyrywania ryżu, a uprawy juty. Spowodowały one wielki głód i śmierć dwóch milionów Wietnamczyków. Pod jedwabną tkaniną kryje się kurtyna z juty utkana tradycyjnymi metodami, barwiona indygo. Pracy towarzyszy fotografia, która przedstawia kamienie używane przy pracy w fabryce. Dziś leżą one pod drzewem kompletnie zapomniane.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/8303891/ello-optimized-546ea78d.jpg\" alt=\"Obraz przedstawia dwa zdjęcia niebieskiej zasłony z białymi haftami.\" /></p>\n";
+var raw = exports.raw = "\n<olela-narrative>\nPo tej wystawie spodziewałam się zupełnie czegoś innego niż zastałam. ‘Splot wiedzy, religii i sztuki w regionie Azji i Pacyfiku’ kierował moje oczekiwania w kierunku rytualnych figurek, ozdób, tkanin. Owszem, na wystawie znajdziemy obiekty traktujące o historii i kulturze danego obszaru, jednak obiektom tym nadano zupełnie nowe znaczenie. Często ich prawda ujawnia się wraz z wysłuchaniem lub przeczytaniem historii ‘dookoła’ dzieła. Dzieła oblane kontekstem religijnym (konfliktów na tle religijnym) stają w naszych oczach niczym świeżo wbity w ziemię miecz, bolą i jednocześnie intrygują, zapraszają do konfrontacji. Narracja wystawy rozgrywa się na kilku płaszczyznach. Zdecydowanie jesteśmy w stanie podzielić, notabene świetnie zorganizowaną przestrzeń ekspozycji, na kilka segmentów. W gąszczu dzieł wyodrębnimy strefę traktującą o migracji, kolonizacji, konfliktach na tle religijnym. \nArtyści sięgają poprzez legendy i mity po faktyczne wydarzenia eksplorując temat kultury, polityki, sztuki poszczególnych regionów świata. W wystawie wzięło udział ponad 50 twórców między innymi z Indii, Filipin, Madagaskaru, Australii, Wietnamu...\n</olela-narrative>\n\n![Obraz przedstawia dwa zdjęcia obrazów znanego artysty. Obrazy są bardzo kolorowe.](https://assets1.ello.co/uploads/asset/attachment/8303882/ello-optimized-a698e434.jpg)\n![Zdjęcie przedstawia przestrzeń ekspozycji muzealnej z trzema kolorowymi obrazami na pierwszym planie.](https://assets2.ello.co/uploads/asset/attachment/8303881/ello-optimized-238d8c59.jpg)\n\n## Sztuka na wejściu\n\nZazwyczaj wchodzimy na wystawę przez kotarę i chyba nikt z nas nie zwraca na nią uwagi. Ciemna zasłona odgradza przestrzeń sacrum od profanum, skrywa tajemnicę. Za nią otwiera się inny świat, świat prawdziwej sztuki. A jeśli powiem Ci, że właśnie przeszedłeś przez dzieło sztuki, zupełnie go nie zauważając? Tym bardziej, że temat dzieła traktuje o rzeczach tak poważnych jak klęska głodu. Czy ten obraz nie zyskuje zupełnie nowego znaczenia? Przejście obojętnie przez dzieło, które mówi o ludzkim cierpieniu. Dzieło rozdarte, które jest drzwiami. Artystka Thao-Nguyen Phan wyszyła na jedwabnej tkaninie sceny z czasów japońskiej okupacji Wietnamu (1940-1945). Wtedy to wybudowano fabrykę juty Dai Nam i zmuszano rolników do wyrywania ryżu, a uprawy juty. Spowodowały one wielki głód i śmierć dwóch milionów Wietnamczyków. Pod jedwabną tkaniną kryje się kurtyna z juty utkana tradycyjnymi metodami, barwiona indygo. Pracy towarzyszy fotografia, która przedstawia kamienie używane przy pracy w fabryce. Dziś leżą one pod drzewem kompletnie zapomniane. \n\n![Obraz przedstawia dwa zdjęcia niebieskiej zasłony z białymi haftami.](https://assets0.ello.co/uploads/asset/attachment/8303891/ello-optimized-546ea78d.jpg)";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 137 */
@@ -11632,6 +11689,18 @@ webpackEmptyContext.id = 137;
 
 /***/ }),
 /* 138 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 138;
+
+/***/ }),
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -11652,19 +11721,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 138;
+webpackContext.id = 139;
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(140);
+module.exports = __webpack_require__(141);
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11682,7 +11751,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(141);
+var _propTypes = __webpack_require__(142);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -11886,13 +11955,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_141__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_142__;
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11906,7 +11975,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11914,7 +11983,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11927,7 +11996,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11961,7 +12030,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11974,7 +12043,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11983,7 +12052,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11991,7 +12060,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -11999,7 +12068,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12014,7 +12083,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12029,7 +12098,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12044,7 +12113,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12068,7 +12137,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(154);
+var s = __webpack_require__(155);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -12099,7 +12168,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12107,7 +12176,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12131,7 +12200,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12182,7 +12251,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12190,7 +12259,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12199,7 +12268,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(159);
+var s = __webpack_require__(160);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -12232,7 +12301,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12242,7 +12311,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12286,22 +12355,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 163,
-	"./Feed.js": 164,
-	"./Ingredient.js": 165,
-	"./Method.js": 166,
-	"./Recipe.js": 167,
-	"./TableOfContents.js": 168
+	"./Crumbs.js": 164,
+	"./Feed.js": 165,
+	"./Ingredient.js": 166,
+	"./Method.js": 167,
+	"./Recipe.js": 168,
+	"./TableOfContents.js": 169
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -12317,10 +12386,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 162;
+webpackContext.id = 163;
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12335,7 +12404,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12350,7 +12419,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12365,7 +12434,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12380,7 +12449,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12395,7 +12464,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12410,7 +12479,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 169 */
+/* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12434,7 +12503,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 170 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
