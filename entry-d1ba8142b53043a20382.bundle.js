@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_142__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_143__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(157);
+var Feed_1 = __webpack_require__(158);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(159);
+var Recipe_1 = __webpack_require__(160);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(161);
+var Root_1 = __webpack_require__(162);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(143);
+var s = __webpack_require__(144);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(144);
+var s = __webpack_require__(145);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(137),
-ROOT: __webpack_require__(138),
-LAYOUTS: __webpack_require__(139),
-INCLUDES: __webpack_require__(163)};
+UPLOADS: __webpack_require__(138),
+ROOT: __webpack_require__(139),
+LAYOUTS: __webpack_require__(140),
+INCLUDES: __webpack_require__(164)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(163)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(145);
+var s = __webpack_require__(146);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(149);
+var s = __webpack_require__(150);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(162);
+__webpack_require__(163);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(140);
+var react_disqus_comments_1 = __webpack_require__(141);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(154);
-var s = __webpack_require__(156);
+var FacebookLike_1 = __webpack_require__(155);
+var s = __webpack_require__(157);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(146);
-var s = __webpack_require__(147);
+__webpack_require__(147);
+var s = __webpack_require__(148);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(148);
+var s = __webpack_require__(149);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(151);
+var s = __webpack_require__(152);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(150);
+var s = __webpack_require__(151);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(152);
+var s = __webpack_require__(153);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(153);
+var s = __webpack_require__(154);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(158);
+var s = __webpack_require__(159);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(170);
-var menu_1 = __webpack_require__(171);
+var tags_1 = __webpack_require__(171);
+var menu_1 = __webpack_require__(172);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2713,7 +2713,8 @@ var map = {
 	"./2018-09-09-pre-fall-fall-slash-winter-spring-slash-summer-resort-cruise-co-to-wszystko-znaczy-plus-fw-trends-2018-slash-2019.markdown": 133,
 	"./2018-09-21-o-kolorach-czern.markdown": 134,
 	"./2018-09-27-moje-wybory-wrzesien-2018.markdown": 135,
-	"./2018-10-02-wystawa-bestia-bog-i-linia.markdown": 136
+	"./2018-10-02-wystawa-bestia-bog-i-linia.markdown": 136,
+	"./2018-10-04-manieryzm-moodboard.markdown": 137
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -11810,15 +11811,85 @@ var raw = exports.raw = "\n<olela-narrative>\nPo tej wystawie spodziewałam się
 
 /***/ }),
 /* 137 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 137;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Manieryzm nie jest jednoznacznym stylem. Jest bardziej terminem okre\u015Blaj\u0105cym konkretne zjawiska w sztuce XVI wieku. Wraz z ko\u0144cem epoki renesansu (ok. 1520 r.) we W\u0142oszech pojawiaj\u0105 si\u0119 tendencje przerysowanych gest\xF3w i sylwetek. Doskona\u0142ym, wr\u0119cz wzorcowym przyk\u0142adem sztuki manieryzmu jest obraz \u2018Madonna z d\u0142ug\u0105 szyj\u0105\u2019 autorstw Parmigianino. Postaci na obrazie s\u0105 nienaturalnie wyd\u0142u\u017Cone i wygi\u0119te. Ca\u0142o\u015B\u0107 prawdopodobnie nawi\u0105zuje do hymnu maryjnego\xA0Collum tuum ut colonna\xA0(Twoja szyja jak kolumna) i stanowi alegori\u0119 dogmatu Niepokalanego Pocz\u0119cia.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Charakterystycznym artyst\u0105 czasu manieryzmu jest El Greco, hiszpa\u0144ski malarz greckiego pochodzenia. Postaci o wyd\u0142u\u017Conych kszta\u0142tach na obrazach mistrza ujawnia jedyny w swoim rodzaju gest p\u0119dzla. Kiedy patrz\u0119 na \u2018Otwarcie pi\u0105tej piecz\u0119ci Apokalipsy\u2019 mam wra\u017Cenie jakby ca\u0142o\u015B\u0107 kompozycji stan\u0119\u0142a w p\u0142omieniach. Zar\xF3wno przedstawione na p\u0142\xF3tnie cia\u0142a jak i pejza\u017C faluj\u0105 otoczone mocnym konturem.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Sama nazwa \u2018manieryzm\u2019 wywodzi si\u0119 z greckiego \u2018maniera\u2019, a w \u0142aci\u0144skim \u2018manus\u2019 oznacza \u2018r\u0119ka\u2019. Maniera \u015Bwiadczy o indywidualnych cechach, stylu. Dzi\u015B s\u0142owo \u2018maniera\u2019 ma nieco bardziej pejoratywne zabarwienie, ni\u017C mia\u0142o w wieku XVI. W tamtych czasach maniera by\u0142a po\u017C\u0105dana, oznacza\u0142a cech\u0119 dodatni\u0105.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Dzie\u0142o manierystyczne cechuje:'
+    ),
+    _react2.default.createElement(
+      'pre',
+      null,
+      _react2.default.createElement(
+        'code',
+        null,
+        '\u2022 nienaturalne wyd\u0142u\u017Cenie postaci, zachwiane proporcje postaci \u2022 \u2018manierystyczne\u2019, wyolbrzymione gesty \u2022 kompozycja dzie\u0142a jest nieraz \u2018st\u0142oczona\u2019, zachwiana zostaje r\xF3wnowaga obrazu \u2022 wyraziste kolory \u2022 w rze\u017Abie: spiralny ruch postaci, bardzo mocny skr\u0119t cia\u0142 \u2022 w architekturze: dublowanie akcent\xF3w (dwie wie\u017Ce, dwa dekoracyjne portale etc.)'
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/8307655/ello-optimized-f9a0f25f.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia na be\u017Cowym tle. Zdj\u0119cia przedstawiaj\u0105 obraz znanego artysty, oraz fotografi\u0119 portretow\u0105.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/8307659/ello-optimized-5dd09087.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia, na kt\xF3rych widzimy ludzkie postaci. Ca\u0142o\u015B\u0107 na be\u017Cowym tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/8307661/ello-optimized-dcb2936c.jpg', alt: 'Obraz przedstawia pi\u0119\u0107 fotografii na jasnym tle. Na czterech z nich widzimy modelki na wybiegu, jedna przedstawia portret m\u0119\u017Cczyzny.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/8307662/ello-optimized-b7705a28.jpg', alt: 'Obraz przedstawia trzy fotografie. Na ka\u017Cdej z nich widzimy namalowany portret m\u0119\u017Cczyzny. Ca\u0142o\u015B\u0107 na jasno-be\u017Cowym tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/8307663/ello-optimized-587b3df3.jpg', alt: 'Obraz przedstawia trzy fotografie na be\u017Cowym tle. Na dw\xF3ch znajduj\u0105 si\u0119 postaci kobiece w kostiumach, na jednej rze\u017Aba z marmuru.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8307667/ello-optimized-98fe9e62.jpg', alt: 'Obraz przedstawia cztery fotografie. Na pierwszej widzimy rze\u017Ab\u0119, na kolejnej obraz olejny znanego artysty, trzecia przedstawia posta\u0107 kobiec\u0105, a czwarta fragment architektoniczny.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8307668/ello-optimized-71cbd56a.jpg', alt: 'Obraz przedstawia dwie fotografie budowli i opis na jasno-be\u017Cowym tle.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Manieryzm [moodboard]", "date": "2018-10-04T08:03:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["moodboard", "manieryzm", "mannerism", "art", "sztuka"] };
+var body = exports.body = "<p>Manieryzm nie jest jednoznacznym stylem. Jest bardziej terminem określającym konkretne zjawiska w sztuce XVI wieku. Wraz z końcem epoki renesansu (ok. 1520 r.) we Włoszech pojawiają się tendencje przerysowanych gestów i sylwetek. Doskonałym, wręcz wzorcowym przykładem sztuki manieryzmu jest obraz ‘Madonna z długą szyją’ autorstw Parmigianino. Postaci na obrazie są nienaturalnie wydłużone i wygięte. Całość prawdopodobnie nawiązuje do hymnu maryjnego Collum tuum ut colonna (Twoja szyja jak kolumna) i stanowi alegorię dogmatu Niepokalanego Poczęcia.</p>\n<p>Charakterystycznym artystą czasu manieryzmu jest El Greco, hiszpański malarz greckiego pochodzenia. Postaci o wydłużonych kształtach na obrazach mistrza ujawnia jedyny w swoim rodzaju gest pędzla. Kiedy patrzę na ‘Otwarcie piątej pieczęci Apokalipsy’ mam wrażenie jakby całość kompozycji stanęła w płomieniach. Zarówno przedstawione na płótnie ciała jak i pejzaż falują otoczone mocnym konturem.</p>\n<p>Sama nazwa ‘manieryzm’ wywodzi się z greckiego ‘maniera’, a w łacińskim ‘manus’ oznacza ‘ręka’. Maniera świadczy o indywidualnych cechach, stylu. Dziś słowo ‘maniera’ ma nieco bardziej pejoratywne zabarwienie, niż miało w wieku XVI. W tamtych czasach maniera była pożądana, oznaczała cechę dodatnią.</p>\n<p>Dzieło manierystyczne cechuje:</p>\n<pre><code>• nienaturalne wydłużenie postaci, zachwiane proporcje postaci\n• ‘manierystyczne’, wyolbrzymione gesty\n• kompozycja dzieła jest nieraz ‘stłoczona’, zachwiana zostaje równowaga obrazu\n• wyraziste kolory\n• w rzeźbie: spiralny ruch postaci, bardzo mocny skręt ciał\n• w architekturze: dublowanie akcentów (dwie wieże, dwa dekoracyjne portale etc.)\n</code></pre>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/8307655/ello-optimized-f9a0f25f.jpg\" alt=\"Obraz przedstawia dwa zdjęcia na beżowym tle. Zdjęcia przedstawiają obraz znanego artysty, oraz fotografię portretową.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/8307659/ello-optimized-5dd09087.jpg\" alt=\"Obraz przedstawia dwa zdjęcia, na których widzimy ludzkie postaci. Całość na beżowym tle.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/8307661/ello-optimized-dcb2936c.jpg\" alt=\"Obraz przedstawia pięć fotografii na jasnym tle. Na czterech z nich widzimy modelki na wybiegu, jedna przedstawia portret mężczyzny.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/8307662/ello-optimized-b7705a28.jpg\" alt=\"Obraz przedstawia trzy fotografie. Na każdej z nich widzimy namalowany portret mężczyzny. Całość na jasno-beżowym tle.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/8307663/ello-optimized-587b3df3.jpg\" alt=\"Obraz przedstawia trzy fotografie na beżowym tle. Na dwóch znajdują się postaci kobiece w kostiumach, na jednej rzeźba z marmuru.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/8307667/ello-optimized-98fe9e62.jpg\" alt=\"Obraz przedstawia cztery fotografie. Na pierwszej widzimy rzeźbę, na kolejnej obraz olejny znanego artysty, trzecia przedstawia postać kobiecą, a czwarta fragment architektoniczny.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/8307668/ello-optimized-71cbd56a.jpg\" alt=\"Obraz przedstawia dwie fotografie budowli i opis na jasno-beżowym tle.\" /></p>\n";
+var raw = exports.raw = "\nManieryzm nie jest jednoznacznym stylem. Jest bardziej terminem określającym konkretne zjawiska w sztuce XVI wieku. Wraz z końcem epoki renesansu (ok. 1520 r.) we Włoszech pojawiają się tendencje przerysowanych gestów i sylwetek. Doskonałym, wręcz wzorcowym przykładem sztuki manieryzmu jest obraz ‘Madonna z długą szyją’ autorstw Parmigianino. Postaci na obrazie są nienaturalnie wydłużone i wygięte. Całość prawdopodobnie nawiązuje do hymnu maryjnego Collum tuum ut colonna (Twoja szyja jak kolumna) i stanowi alegorię dogmatu Niepokalanego Poczęcia.\n\nCharakterystycznym artystą czasu manieryzmu jest El Greco, hiszpański malarz greckiego pochodzenia. Postaci o wydłużonych kształtach na obrazach mistrza ujawnia jedyny w swoim rodzaju gest pędzla. Kiedy patrzę na ‘Otwarcie piątej pieczęci Apokalipsy’ mam wrażenie jakby całość kompozycji stanęła w płomieniach. Zarówno przedstawione na płótnie ciała jak i pejzaż falują otoczone mocnym konturem. \n\nSama nazwa ‘manieryzm’ wywodzi się z greckiego ‘maniera’, a w łacińskim ‘manus’ oznacza ‘ręka’. Maniera świadczy o indywidualnych cechach, stylu. Dziś słowo ‘maniera’ ma nieco bardziej pejoratywne zabarwienie, niż miało w wieku XVI. W tamtych czasach maniera była pożądana, oznaczała cechę dodatnią. \n\nDzieło manierystyczne cechuje:\n\n    • nienaturalne wydłużenie postaci, zachwiane proporcje postaci\n    • ‘manierystyczne’, wyolbrzymione gesty\n    • kompozycja dzieła jest nieraz ‘stłoczona’, zachwiana zostaje równowaga obrazu\n    • wyraziste kolory\n    • w rzeźbie: spiralny ruch postaci, bardzo mocny skręt ciał\n    • w architekturze: dublowanie akcentów (dwie wieże, dwa dekoracyjne portale etc.)\n\n![Obraz przedstawia dwa zdjęcia na beżowym tle. Zdjęcia przedstawiają obraz znanego artysty, oraz fotografię portretową.](https://assets2.ello.co/uploads/asset/attachment/8307655/ello-optimized-f9a0f25f.jpg)\n![Obraz przedstawia dwa zdjęcia, na których widzimy ludzkie postaci. Całość na beżowym tle.](https://assets0.ello.co/uploads/asset/attachment/8307659/ello-optimized-5dd09087.jpg)\n![Obraz przedstawia pięć fotografii na jasnym tle. Na czterech z nich widzimy modelki na wybiegu, jedna przedstawia portret mężczyzny.](https://assets2.ello.co/uploads/asset/attachment/8307661/ello-optimized-dcb2936c.jpg)\n![Obraz przedstawia trzy fotografie. Na każdej z nich widzimy namalowany portret mężczyzny. Całość na jasno-beżowym tle.](https://assets2.ello.co/uploads/asset/attachment/8307662/ello-optimized-b7705a28.jpg)\n![Obraz przedstawia trzy fotografie na beżowym tle. Na dwóch znajdują się postaci kobiece w kostiumach, na jednej rzeźba z marmuru.](https://assets2.ello.co/uploads/asset/attachment/8307663/ello-optimized-587b3df3.jpg)\n![Obraz przedstawia cztery fotografie. Na pierwszej widzimy rzeźbę, na kolejnej obraz olejny znanego artysty, trzecia przedstawia postać kobiecą, a czwarta fragment architektoniczny.](https://assets1.ello.co/uploads/asset/attachment/8307667/ello-optimized-98fe9e62.jpg)\n![Obraz przedstawia dwie fotografie budowli i opis na jasno-beżowym tle.](https://assets1.ello.co/uploads/asset/attachment/8307668/ello-optimized-71cbd56a.jpg)";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 138 */
@@ -11834,6 +11905,18 @@ webpackEmptyContext.id = 138;
 
 /***/ }),
 /* 139 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 139;
+
+/***/ }),
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -11854,19 +11937,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 139;
+webpackContext.id = 140;
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(141);
+module.exports = __webpack_require__(142);
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11884,7 +11967,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(142);
+var _propTypes = __webpack_require__(143);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -12088,13 +12171,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_142__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_143__;
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12108,7 +12191,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12116,7 +12199,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12129,7 +12212,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12163,7 +12246,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12176,7 +12259,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12185,7 +12268,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12193,7 +12276,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12201,7 +12284,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12216,7 +12299,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12231,7 +12314,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12246,7 +12329,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12270,7 +12353,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(155);
+var s = __webpack_require__(156);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -12301,7 +12384,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12309,7 +12392,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12333,7 +12416,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12384,7 +12467,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12392,7 +12475,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12401,7 +12484,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(160);
+var s = __webpack_require__(161);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -12434,7 +12517,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12444,7 +12527,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12488,22 +12571,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 164,
-	"./Feed.js": 165,
-	"./Ingredient.js": 166,
-	"./Method.js": 167,
-	"./Recipe.js": 168,
-	"./TableOfContents.js": 169
+	"./Crumbs.js": 165,
+	"./Feed.js": 166,
+	"./Ingredient.js": 167,
+	"./Method.js": 168,
+	"./Recipe.js": 169,
+	"./TableOfContents.js": 170
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -12519,10 +12602,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 163;
+webpackContext.id = 164;
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12537,7 +12620,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12552,7 +12635,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12567,7 +12650,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12582,7 +12665,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12597,7 +12680,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 169 */
+/* 170 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12612,7 +12695,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 170 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12636,7 +12719,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 171 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
