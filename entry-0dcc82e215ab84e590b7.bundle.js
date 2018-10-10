@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_143__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_144__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(158);
+var Feed_1 = __webpack_require__(159);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(160);
+var Recipe_1 = __webpack_require__(161);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(162);
+var Root_1 = __webpack_require__(163);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(144);
+var s = __webpack_require__(145);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(145);
+var s = __webpack_require__(146);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(138),
-ROOT: __webpack_require__(139),
-LAYOUTS: __webpack_require__(140),
-INCLUDES: __webpack_require__(164)};
+UPLOADS: __webpack_require__(139),
+ROOT: __webpack_require__(140),
+LAYOUTS: __webpack_require__(141),
+INCLUDES: __webpack_require__(165)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(164)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(146);
+var s = __webpack_require__(147);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(150);
+var s = __webpack_require__(151);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(163);
+__webpack_require__(164);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(141);
+var react_disqus_comments_1 = __webpack_require__(142);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(155);
-var s = __webpack_require__(157);
+var FacebookLike_1 = __webpack_require__(156);
+var s = __webpack_require__(158);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(147);
-var s = __webpack_require__(148);
+__webpack_require__(148);
+var s = __webpack_require__(149);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(149);
+var s = __webpack_require__(150);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(152);
+var s = __webpack_require__(153);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(151);
+var s = __webpack_require__(152);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(153);
+var s = __webpack_require__(154);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(154);
+var s = __webpack_require__(155);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(159);
+var s = __webpack_require__(160);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(171);
-var menu_1 = __webpack_require__(172);
+var tags_1 = __webpack_require__(172);
+var menu_1 = __webpack_require__(173);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2714,7 +2714,8 @@ var map = {
 	"./2018-09-21-o-kolorach-czern.markdown": 134,
 	"./2018-09-27-moje-wybory-wrzesien-2018.markdown": 135,
 	"./2018-10-02-wystawa-bestia-bog-i-linia.markdown": 136,
-	"./2018-10-04-manieryzm-moodboard.markdown": 137
+	"./2018-10-04-manieryzm-moodboard.markdown": 137,
+	"./2018-10-10-make-up-inspirowany-obrazem-kompozycja-viii-by-wassily-kandinsky.markdown": 138
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -11913,15 +11914,108 @@ var raw = exports.raw = "\nManieryzm nie jest jednoznacznym stylem. Jest bardzie
 
 /***/ }),
 /* 138 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 138;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8332593/ello-optimized-a881d10a.jpg', alt: 'Zdj\u0119cie przedstawia portret kobiety w artystycznym  makija\u017Cu na szarym tle.' })
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Wassily Kandinsky jest doskona\u0142ym przyk\u0142adem artysty-intelektualisty. Nie zale\u017Ca\u0142o mu na szokowaniu widza. Zg\u0142\u0119bia\u0142 temat sztuki w spos\xF3b naukowy. Intensywna medytacja dzie\u0142a pozwoli\u0142a mu na dog\u0142\u0119bn\u0105 obserwacj\u0119 i w rezultacie syntez\u0119 system\xF3w formalnych. Uznawany jest za wsp\xF3\u0142tw\xF3rc\u0119 i jednego z za\u0142o\u017Cycieli abstrakcjonizmu.'
+    ),
+    _react2.default.createElement(
+      'blockquote',
+      null,
+      _react2.default.createElement(
+        'p',
+        null,
+        'Kolor jest klawiatur\u0105, oczy s\u0105 harmoni\u0105, a dusza fortepianem o wielu strunach. Artysta jest r\u0119k\u0105, kt\xF3ra gra, nie dotykaj\u0105c tego lub innego klawisza, aby wprawi\u0107 dusz\u0119 w wibracj\u0119'
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Urodzony w Moskwie (04.12.1866) uko\u0144czy\u0142 studia na Wydziale Prawa i Ekonomii Uniwersytetu Moskiewskiego. Nied\u0142ugo potem obj\u0105\u0142 tam stanowisko asystenta. Od najm\u0142odszych lat wykazywa\u0142 zainteresowanie sztuk\u0105, dlatego w 1895 roku zatrudni\u0142 si\u0119 jako kierownik artystyczny drukarni Kuczerewa, gdzie zajmowa\u0142 si\u0119 graficzn\u0105 opraw\u0105 ksi\u0105\u017Cek. Rok po\u017Aniej Wassily wybra\u0142 si\u0119 na wystaw\u0119 francuskich impresjonist\xF3w. Obrazy Claude\u2019a Moneta wprawi\u0142y m\u0142odego naukowca w os\u0142upienie. Od tej pory zacz\u0105\u0142 intensywnie rozmy\u015Bla\u0107 nad malarstwem niefiguratywnym. Kolejnym krokiem kszta\u0142towania si\u0119 \u015Bwiadomo\u015Bci m\u0142odego tw\xF3rcy by\u0142o wys\u0142uchanie opery \u2018Lohengrin\u2019 Ryszarda Wagnera Po tych do\u015Bwiadczeniach zwi\u0105zki pomi\u0119dzy muzyk\u0105 a malarstwem sta\u0142y si\u0119 dla niego oczywiste. Po kilku miesi\u0105cach Wassily porzuci\u0142 prac\u0119 naukow\u0105 i wyjecha\u0142 do Monachium z zamiarem rozpocz\u0119cia edukacji artystycznej.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Kandinsky od pocz\u0105tku malowa\u0142 jak dojrza\u0142y tw\xF3rca. Przez lata pobiera\u0142 nauki w prywatnych pracowniach. Najpierw znalaz\u0142 si\u0119 u Antona Azbego, przeci\u0119tnego pejza\u017Cysty. Przez dwa lata nauki podszkoli\u0142 sw\xF3j rysunkowy warsztat. Kolejnym mistrzem sta\u0142 si\u0119 dla niego Franz von Stuck, kt\xF3ry w monachijskim \u015Brodowisku cieszy\u0142 si\u0119 niema\u0142ym szacunkiem. G\u0142\xF3wn\u0105 tematyk\u0119 zainteresowa\u0144 mistrza Stuck\u2019a stanowi\u0142o malarstwo symboliczne. Fauny, sfinksy, le\u015Bne boginki i mityczne stwory \u2013 to by\u0142 jego \u015Bwiat, niekoniecznie pokrywaj\u0105cy si\u0119 ze \u015Bwiatem Rosjanina. Franz by\u0142 jednym z tw\xF3rc\xF3w Secesji Monachijskiej. Wassily zosta\u0142 przyj\u0119ty do pracowni Stuck\u2019a dopiero po drugiej pr\xF3bie, a ju\u017C po roku opu\u015Bci\u0142 j\u0105.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/8332594/ello-optimized-3d00b273.jpg', alt: 'Obraz przedstawia dwie fotografie twarzy kobiety w artystycznym makija\u017Cu na szarym tle.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Phalanx'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'W 1901 roku m\u0142ody tw\xF3rca zdoby\u0142 si\u0119 na odwag\u0119 i utworzy\u0142 w Monachium grup\u0119 artystyczn\u0105 Phalanx, kt\xF3ra sta\u0107 mia\u0142a w opozycji do coraz popularniejszej Secesji. Stowarzyszenie przetrwa\u0142o trzy lata, jednak odegra\u0142o wa\u017Cn\u0105 rol\u0119 w \u015Bwiecie sztuki. Przez trzy lata uda\u0142o si\u0119 zorganizowa\u0107 dwana\u015Bcie wystaw okre\u015Blanych przez krytyk\xF3w jako \u2018hipernowoczesne\u2019. Swoje prace na wystawy grupy Phalanx nadsy\u0142ali tacy tw\xF3rcy jak Paul Signac.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Kandinsky ca\u0142y czas rozwa\u017Ca\u0142 nad sztuk\u0105. My\u015Bla\u0142 o niej, jak o przewodniczce na drodze ku wewn\u0119trznej przemianie. Wed\u0142ug niego dzie\u0142o sztuki mia\u0142o prowadzi\u0107 do Absolutu, ca\u0142kowitej syntezy materii i ducha. Ca\u0142y czas w g\u0142owie mia\u0142 tak\u017Ce zwi\u0105zek muzyki i sztuki. Jego zainteresowanie wzbudzi\u0142y eksperymenty rysunkowe Ernest\u2019a Stern\u2019a, kt\xF3ry szkicowa\u0142 w rytm muzyki. Wassily zacz\u0105\u0142 wyk\u0142ada\u0107 w szkole artystycznej za\u0142o\u017Conej przez grup\u0119. Naucza\u0142 podstaw rysunku i malarstwa. Wielk\u0105 warto\u015B\u0107 przyk\u0142ada\u0142 do interpretacji w trakcie procesu tw\xF3rczego. Pomaga\u0142 swoim studentom odnale\u017A\u0107 prawd\u0119. M\u0142ody mistrz wykazywa\u0142 ponadprzeci\u0119tne zdolno\u015Bci pedagogiczne. Wkr\xF3tce niemiecka prasa zacz\u0119\u0142a powa\u017Cnie pisa\u0107 o Kandinksym \u2013 arty\u015Bcie. Bra\u0142 udzia\u0142 w wielu wystawach, mi\u0119dzy innymi Berli\u0144skiej Secesji.'
+    ),
+    _react2.default.createElement(
+      'blockquote',
+      null,
+      _react2.default.createElement(
+        'p',
+        null,
+        'Tego, co odczu\u0142em w\xF3wczas, albo raczej prze\u017Cycia jakiego dozna\u0142em, widz\u0105c farby wychodz\u0105ce z tubek, do\u015Bwiadczam jeszcze i dzisiaj. Poci\u015Bni\u0119cie palca > i oto ol\u015Bniewaj\u0105ce i przepyszne, zadumane i rozmarzone, skupione i powa\u017Cne, majestatycznie \u017Ca\u0142obne, swawolnie roziskrzone, z westchnieniem oswobodzenia, ze s\u0142odycz\u0105 oddania, z dumn\u0105 pewno\u015Bci\u0105 siebie, z subtelnym wahaniem pojawiaj\u0105 si\u0119 jeden za drugim te osobliwe byty, kt\xF3re nazywamy kolorami (...)'
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/8332596/ello-optimized-0f969261.jpg', alt: 'Zdj\u0119cie przedstawia portret kobiety na szarym tle. Kobieta ma lekko przechylon\u0105 g\u0142ow\u0119 i trzyma twarz r\u0119k\u0105. Na jej lewym policzku widzimy graficzny makija\u017C.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Make-up inspirowany obrazem. 'Kompozycja_VIII' by Wassily_Kandinsky", "date": "2018-10-10T11:55:00.000Z", "categories": ["Sztuka Makijażu"], "tags": ["makeup", "makijaż", "obraz", "wassily", "kandinsky", "abstrakcja"] };
+var body = exports.body = "<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/8332593/ello-optimized-a881d10a.jpg\" alt=\"Zdjęcie przedstawia portret kobiety w artystycznym  makijażu na szarym tle.\" /></p>\n<p>Wassily Kandinsky jest doskonałym przykładem artysty-intelektualisty. Nie zależało mu na szokowaniu widza. Zgłębiał temat sztuki w sposób naukowy. Intensywna medytacja dzieła pozwoliła mu na dogłębną obserwację i w rezultacie syntezę systemów formalnych. Uznawany jest za współtwórcę i jednego z założycieli abstrakcjonizmu.</p>\n<blockquote>\n<p>Kolor jest klawiaturą, oczy są harmonią, a dusza fortepianem o wielu strunach. Artysta jest ręką, która gra, nie dotykając tego lub innego klawisza, aby wprawić duszę w wibrację</p>\n</blockquote>\n<p>Urodzony w Moskwie (04.12.1866) ukończył studia na Wydziale Prawa i Ekonomii Uniwersytetu Moskiewskiego. Niedługo potem objął tam stanowisko asystenta. Od najmłodszych lat wykazywał zainteresowanie sztuką, dlatego w 1895 roku zatrudnił się jako kierownik artystyczny drukarni Kuczerewa, gdzie zajmował się graficzną oprawą książek. Rok poźniej Wassily wybrał się na wystawę francuskich impresjonistów. Obrazy Claude’a Moneta wprawiły młodego naukowca w osłupienie. Od tej pory zaczął intensywnie rozmyślać nad malarstwem niefiguratywnym. Kolejnym krokiem kształtowania się świadomości młodego twórcy było wysłuchanie opery ‘Lohengrin’ Ryszarda Wagnera Po tych doświadczeniach związki pomiędzy muzyką a malarstwem stały się dla niego oczywiste. Po kilku miesiącach Wassily porzucił pracę naukową i wyjechał do Monachium z zamiarem rozpoczęcia edukacji artystycznej.</p>\n<p>Kandinsky od początku malował jak dojrzały twórca. Przez lata pobierał nauki w prywatnych pracowniach. Najpierw znalazł się u Antona Azbego, przeciętnego pejzażysty. Przez dwa lata nauki podszkolił swój rysunkowy warsztat. Kolejnym mistrzem stał się dla niego Franz von Stuck, który w monachijskim środowisku cieszył się niemałym szacunkiem. Główną tematykę zainteresowań mistrza Stuck’a stanowiło malarstwo symboliczne. Fauny, sfinksy, leśne boginki i mityczne stwory – to był jego świat, niekoniecznie pokrywający się ze światem Rosjanina. Franz był jednym z twórców Secesji Monachijskiej. Wassily został przyjęty do pracowni Stuck’a dopiero po drugiej próbie, a już po roku opuścił ją.</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/8332594/ello-optimized-3d00b273.jpg\" alt=\"Obraz przedstawia dwie fotografie twarzy kobiety w artystycznym makijażu na szarym tle.\" /></p>\n<h2>Phalanx</h2>\n<p>W 1901 roku młody twórca zdobył się na odwagę i utworzył w Monachium grupę artystyczną Phalanx, która stać miała w opozycji do coraz popularniejszej Secesji. Stowarzyszenie przetrwało trzy lata, jednak odegrało ważną rolę w świecie sztuki. Przez trzy lata udało się zorganizować dwanaście wystaw określanych przez krytyków jako ‘hipernowoczesne’. Swoje prace na wystawy grupy Phalanx nadsyłali tacy twórcy jak Paul Signac.</p>\n<p>Kandinsky cały czas rozważał nad sztuką. Myślał o niej, jak o przewodniczce na drodze ku wewnętrznej przemianie. Według niego dzieło sztuki miało prowadzić do Absolutu, całkowitej syntezy materii i ducha. Cały czas w głowie miał także związek muzyki i sztuki. Jego zainteresowanie wzbudziły eksperymenty rysunkowe Ernest’a Stern’a, który szkicował w rytm muzyki.\nWassily zaczął wykładać w szkole artystycznej założonej przez grupę. Nauczał podstaw rysunku i malarstwa. Wielką wartość przykładał do interpretacji w trakcie procesu twórczego. Pomagał swoim studentom odnaleźć prawdę. Młody mistrz wykazywał ponadprzeciętne zdolności pedagogiczne. Wkrótce niemiecka prasa zaczęła poważnie pisać o Kandinksym – artyście. Brał udział w wielu wystawach, między innymi Berlińskiej Secesji.</p>\n<blockquote>\n<p>Tego, co odczułem wówczas, albo raczej przeżycia jakiego doznałem, widząc farby wychodzące z tubek, doświadczam jeszcze i dzisiaj. Pociśnięcie palca > i oto olśniewające i przepyszne, zadumane i rozmarzone, skupione i poważne, majestatycznie żałobne, swawolnie roziskrzone, z westchnieniem oswobodzenia, ze słodyczą oddania, z dumną pewnością siebie, z subtelnym wahaniem pojawiają się jeden za drugim te osobliwe byty, które nazywamy kolorami (...)</p>\n</blockquote>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/8332596/ello-optimized-0f969261.jpg\" alt=\"Zdjęcie przedstawia portret kobiety na szarym tle. Kobieta ma lekko przechyloną głowę i trzyma twarz ręką. Na jej lewym policzku widzimy graficzny makijaż.\" /></p>\n";
+var raw = exports.raw = "\n![Zdjęcie przedstawia portret kobiety w artystycznym  makijażu na szarym tle.](https://assets1.ello.co/uploads/asset/attachment/8332593/ello-optimized-a881d10a.jpg)\n\nWassily Kandinsky jest doskonałym przykładem artysty-intelektualisty. Nie zależało mu na szokowaniu widza. Zgłębiał temat sztuki w sposób naukowy. Intensywna medytacja dzieła pozwoliła mu na dogłębną obserwację i w rezultacie syntezę systemów formalnych. Uznawany jest za współtwórcę i jednego z założycieli abstrakcjonizmu.\n\n> Kolor jest klawiaturą, oczy są harmonią, a dusza fortepianem o wielu strunach. Artysta jest ręką, która gra, nie dotykając tego lub innego klawisza, aby wprawić duszę w wibrację\n> \n>\n\n\nUrodzony w Moskwie (04.12.1866) ukończył studia na Wydziale Prawa i Ekonomii Uniwersytetu Moskiewskiego. Niedługo potem objął tam stanowisko asystenta. Od najmłodszych lat wykazywał zainteresowanie sztuką, dlatego w 1895 roku zatrudnił się jako kierownik artystyczny drukarni Kuczerewa, gdzie zajmował się graficzną oprawą książek. Rok poźniej Wassily wybrał się na wystawę francuskich impresjonistów. Obrazy Claude’a Moneta wprawiły młodego naukowca w osłupienie. Od tej pory zaczął intensywnie rozmyślać nad malarstwem niefiguratywnym. Kolejnym krokiem kształtowania się świadomości młodego twórcy było wysłuchanie opery ‘Lohengrin’ Ryszarda Wagnera Po tych doświadczeniach związki pomiędzy muzyką a malarstwem stały się dla niego oczywiste. Po kilku miesiącach Wassily porzucił pracę naukową i wyjechał do Monachium z zamiarem rozpoczęcia edukacji artystycznej.\n\nKandinsky od początku malował jak dojrzały twórca. Przez lata pobierał nauki w prywatnych pracowniach. Najpierw znalazł się u Antona Azbego, przeciętnego pejzażysty. Przez dwa lata nauki podszkolił swój rysunkowy warsztat. Kolejnym mistrzem stał się dla niego Franz von Stuck, który w monachijskim środowisku cieszył się niemałym szacunkiem. Główną tematykę zainteresowań mistrza Stuck’a stanowiło malarstwo symboliczne. Fauny, sfinksy, leśne boginki i mityczne stwory – to był jego świat, niekoniecznie pokrywający się ze światem Rosjanina. Franz był jednym z twórców Secesji Monachijskiej. Wassily został przyjęty do pracowni Stuck’a dopiero po drugiej próbie, a już po roku opuścił ją.\n\n![Obraz przedstawia dwie fotografie twarzy kobiety w artystycznym makijażu na szarym tle.](https://assets2.ello.co/uploads/asset/attachment/8332594/ello-optimized-3d00b273.jpg)\n\n## Phalanx\n\nW 1901 roku młody twórca zdobył się na odwagę i utworzył w Monachium grupę artystyczną Phalanx, która stać miała w opozycji do coraz popularniejszej Secesji. Stowarzyszenie przetrwało trzy lata, jednak odegrało ważną rolę w świecie sztuki. Przez trzy lata udało się zorganizować dwanaście wystaw określanych przez krytyków jako ‘hipernowoczesne’. Swoje prace na wystawy grupy Phalanx nadsyłali tacy twórcy jak Paul Signac. \n\nKandinsky cały czas rozważał nad sztuką. Myślał o niej, jak o przewodniczce na drodze ku wewnętrznej przemianie. Według niego dzieło sztuki miało prowadzić do Absolutu, całkowitej syntezy materii i ducha. Cały czas w głowie miał także związek muzyki i sztuki. Jego zainteresowanie wzbudziły eksperymenty rysunkowe Ernest’a Stern’a, który szkicował w rytm muzyki.\nWassily zaczął wykładać w szkole artystycznej założonej przez grupę. Nauczał podstaw rysunku i malarstwa. Wielką wartość przykładał do interpretacji w trakcie procesu twórczego. Pomagał swoim studentom odnaleźć prawdę. Młody mistrz wykazywał ponadprzeciętne zdolności pedagogiczne. Wkrótce niemiecka prasa zaczęła poważnie pisać o Kandinksym – artyście. Brał udział w wielu wystawach, między innymi Berlińskiej Secesji.\n\n> Tego, co odczułem wówczas, albo raczej przeżycia jakiego doznałem, widząc farby wychodzące z tubek, doświadczam jeszcze i dzisiaj. Pociśnięcie palca > i oto olśniewające i przepyszne, zadumane i rozmarzone, skupione i poważne, majestatycznie żałobne, swawolnie roziskrzone, z westchnieniem oswobodzenia, ze słodyczą oddania, z dumną pewnością siebie, z subtelnym wahaniem pojawiają się jeden za drugim te osobliwe byty, które nazywamy kolorami (...)\n> \n\n![Zdjęcie przedstawia portret kobiety na szarym tle. Kobieta ma lekko przechyloną głowę i trzyma twarz ręką. Na jej lewym policzku widzimy graficzny makijaż.](https://assets0.ello.co/uploads/asset/attachment/8332596/ello-optimized-0f969261.jpg)";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 139 */
@@ -11937,6 +12031,18 @@ webpackEmptyContext.id = 139;
 
 /***/ }),
 /* 140 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 140;
+
+/***/ }),
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -11957,19 +12063,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 140;
+webpackContext.id = 141;
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(142);
+module.exports = __webpack_require__(143);
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11987,7 +12093,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(143);
+var _propTypes = __webpack_require__(144);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -12191,13 +12297,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_143__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_144__;
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12211,7 +12317,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12219,7 +12325,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12232,7 +12338,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12266,7 +12372,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12279,7 +12385,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12288,7 +12394,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12296,7 +12402,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12304,7 +12410,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12319,7 +12425,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12334,7 +12440,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12349,7 +12455,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12373,7 +12479,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(156);
+var s = __webpack_require__(157);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -12404,7 +12510,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12412,7 +12518,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12436,7 +12542,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12487,7 +12593,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12495,7 +12601,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12504,7 +12610,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(161);
+var s = __webpack_require__(162);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -12537,7 +12643,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12547,7 +12653,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12591,22 +12697,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 165,
-	"./Feed.js": 166,
-	"./Ingredient.js": 167,
-	"./Method.js": 168,
-	"./Recipe.js": 169,
-	"./TableOfContents.js": 170
+	"./Crumbs.js": 166,
+	"./Feed.js": 167,
+	"./Ingredient.js": 168,
+	"./Method.js": 169,
+	"./Recipe.js": 170,
+	"./TableOfContents.js": 171
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -12622,10 +12728,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 164;
+webpackContext.id = 165;
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12640,7 +12746,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12655,7 +12761,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12670,7 +12776,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12685,7 +12791,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 169 */
+/* 170 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12700,7 +12806,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 170 */
+/* 171 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12715,7 +12821,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 171 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12739,7 +12845,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 172 */
+/* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
