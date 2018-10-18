@@ -688,7 +688,7 @@ exports.default = collections;
 /* 16 */
 /***/ (function(module, exports) {
 
-module.exports = {"title":"SztukaUniwersalna.pl","timezone":"Europe/Warsaw","collections":{"categories":{"title":"Categories","output":false,"layout":"ParrotLayout"},"pages":{"title":"Pages","output":false,"layout":"ParrotLayout"},"posts":{"title":"Posts","output":true,"layout":"ParrotLayout"},"uploads":{"title":"Uploads","output":false}},"baseUrl":"http://sztukauniwersalna.pl","image":"http://sztukauniwersalna.pl/logo-gradient.png","locale":"pl_PL","menu":[{"title":"Sztuka Ubioru","short":"Moda","url":"/sztuka-ubioru","icon":"content_cut"},{"title":"Sztuka Makijażu","short":"Makijaż","url":"/sztuka-makijazu","icon":"remove_red_eye"},{"title":"Sztuka dla Sztuki","short":"Sztuka","url":"/sztuka-dla-sztuki","icon":"palette"},{"title":"Kim jest Olela?","short":"O mnie","url":"/kim-jest-olela","icon":"mood"}]};
+module.exports = {"title":"SztukaUniwersalna.pl","timezone":"Europe/Warsaw","collections":{"categories":{"title":"Categories","output":false,"layout":"ParrotLayout"},"pages":{"title":"Pages","output":false,"layout":"ParrotLayout"},"posts":{"title":"Posts","output":true,"layout":"ParrotLayout"},"uploads":{"title":"Uploads","output":false}},"baseUrl":"http://sztukauniwersalna.pl","image":"http://sztukauniwersalna.pl/logo-gradient.png","locale":"pl_PL","menu":[{"title":"Sztuka Ubioru","short":"Moda","url":"/sztuka-ubioru","icon":"content_cut"},{"title":"Sztuka Makijażu","short":"Makijaż","url":"/sztuka-makijazu","icon":"remove_red_eye"},{"title":"Sztuka dla Sztuki","short":"Sztuka","url":"/sztuka-dla-sztuki","icon":"palette"},{"title":"O Blogu","short":"O Blogu","url":"/sztuka-uniwersalna","icon":"mood"}]};
 
 
 /***/ }),
@@ -2294,8 +2294,8 @@ var raw = exports.raw = "\n<div>\n  <Feed { ...data } feed={ data.website.getCat
 var map = {
 	"./404.markdown": 59,
 	"./index.markdown": 60,
-	"./kim-jest-olela.markdown": 61,
-	"./sitemap.markdown": 62,
+	"./sitemap.markdown": 61,
+	"./sztuka-uniwersalna.markdown": 62,
 	"./tag.markdown": 63
 };
 function webpackContext(req) {
@@ -2444,6 +2444,53 @@ var component = exports.component = function component(data) {
     _ContentLimiter2.default,
     _extends({ limit: 5 }, data),
     _react2.default.createElement(
+      'div',
+      { className: 'compact' },
+      _react2.default.createElement(TableOfContents, data)
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Mapa Witryny", "date": "2017-07-15T20:12:00.000Z", "permalink": "/sitemap", "tags": ["sitemap", "dla bota"] };
+var body = exports.body = "<div className='compact'>\n  <TableOfContents {...data} />\n</div>\n";
+var raw = exports.raw = "\n<div className='compact'>\n  <TableOfContents {...data} />\n</div>\n\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
+
+/***/ }),
+/* 62 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
       'p',
       null,
       _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/6213390/ello-optimized-75547475.jpg', alt: 'Zdj\u0119cie przedstawia portret m\u0142odej kobiety o szarych w\u0142osach, w niebieskiej czapce, kolorowej chustce na szyi, kolczykach, na niebieskim tle. Z lewej strony zdj\u0119cia umieszczony jest logotyp.' })
@@ -2541,53 +2588,6 @@ var component = exports.component = function component(data) {
 var frontMatter = exports.frontMatter = { "title": "Kim jest Olela?", "date": "2017-09-08T17:17:00.000Z", "permalink": "/kim-jest-olela", "tags": ["olela", "artysta", "blog", "sztuka", "uniwersalna"] };
 var body = exports.body = "<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6213390/ello-optimized-75547475.jpg\" alt=\"Zdjęcie przedstawia portret młodej kobiety o szarych włosach, w niebieskiej czapce, kolorowej chustce na szyi, kolczykach, na niebieskim tle. Z lewej strony zdjęcia umieszczony jest logotyp.\" /></p>\n<p>Cześć, jestem Olela, witaj na moim blogu. Na co dzień pracuję w szeroko pojętym obszarze sztuki - maluję obrazy, fotografuję, jestem grafikiem komputerowym, tancerką, nauczycielką tańca i choreografką. Z zamiłowania również gotuję. Z racji tak mnogich zainteresowań, zwykłam mówić o sobie Artystka Uniwersalna. Wierzę w zanikanie granic i wzajemne przenikanie się dyscyplin. Czy mieszam składniki zupy w garnku, czy dodaję do ultramaryny odrobinę karminu, czy nakładam bazę pod makijaż – tworzę sztukę.</p>\n<h2>Po co to komu?</h2>\n<p>Misją bloga <a href=\"http://sztukauniwersalna.pl\">sztukauniwersalna.pl</a> jest dostrzeżenie i zatarcie granicy pomiędzy sztuką a codziennością, zintegrowanie świata masowego przekazu, którym jesteśmy otoczeni z każdej strony, z kulturą. Postaram się pokazać, nieoczywiste na pierwszy rzut oka, konotacje pomiędzy czynnościami określanymi jako ‘przyziemne’, a kreacją artystyczną. Oprócz tego wykażę wpływy poszczególnych tendencji artystycznych na różne dziedziny życia. Mam nadzieje, że znajdziesz tu dla siebie wiele inspiracji, które przełożą się na Twoje postrzeganie rzeczywistości.</p>\n<h2>Poznajmy się lepiej.</h2>\n<ul>\n<li>Jestem Magistrem Sztuk Pięknych. W 2015 r. obroniłam dyplom  na wydziale malarstwa krakowskiej ASP. Dyplomem był solowy spektakl pt.: ‘Pięć Pór Roku’ zrealizowany w jednym z krakowskich teatrów. W trakcie półgodzinnej etiudy starałam się wytańczyć wszystkie stany emocjonalne towarzyszące mi przez 5letnie studia artystyczne. Malowanie ruchem było cudownym doświadczeniem i spotkało się z pozytywnym odbiorem komisji i publiczności.</li>\n<li>Jak większość kobiet uwielbiam się malować i przebierać. Staram się dokładać do tych czynności teatralny pierwiastek. Wymyślam postać, opowiadam po cichu historie, ‘wchodzę w rolę’. Najbardziej inspirują mnie futurystyczne klimaty.</li>\n<li>Moim największym bzikiem są... buty i szminki. Uważam, że kolor na ustach czyni kobietę pewniejszą siebie. Ah, jak ja kocham te kolory! Blady róż na sportowo. Jagodowa do ramoneski. Czerwień jest raczej zarezerwowana dla klasycznych połączeń, dlatego rzadko jej używam. Zdecydowanie bardziej wolę elektryzujący eklektyzm.</li>\n<li>Kiedy robię zakupy w sklepie spożywczym zazwyczaj wącham owoce i warzywa. Zapach pozwala na wyobrażenie smaku. Czasami też subtelnie zanurzam dłoń w worku z ziarnami, jak zwykła robić to Amelia, bohaterka filmu o tym samym tytule.</li>\n<li>Dość sporo czasu w swoim życiu spędziłam w muzeach. Moja najdłuższa kontemplacja dzieła sztuki miała miejsce na wystawie Mark’a Rothko w Warszawie w 2013 r.  Byłam tak zafascynowana twórczością nowojorczyka (nadal jestem), że przed jednym obrazem spędziłam kilka godzin, a panowie ochroniarze dosłownie musieli wypraszać mnie z budynku, gdy przyszła godzina zamknięcia ekspozycji.</li>\n</ul>\n<p>Skoro już tyle o mnie wiesz… mam nadzieje, że zostaniesz tu na dłużej. Czytaj, oglądaj, komentuj, kontempluj. Możesz też polubić konto na <a href=\"https://www.facebook.com/sztukauniwersalna/\">fb</a> i <a href=\"https://www.instagram.com/sztuka_uniwersalna/\">insta</a>, żeby być na bieżąco. A jeśli chcesz się ze mną skontkować napisz na adres <a href=\"mailto:sztuka.uniwersalna@gmail.com\">sztuka.uniwersalna@gmail.com</a> – będzie mi bardzo miło!</p>\n<p>Pozdrawiam,\nOlela</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6213404/ello-optimized-adcc0c71.jpg\" alt=\"Zdjęcie podzielone jest na dwie części, część z lewej strony jest zbliżeniem na kobiecy kolczyk w kształcie twarzy. Z prawej strony widzimy połowę twarzy młodej kobiety z siwymi włosami, kolorową chustą i kolczykiem w kształcie twarzy.\" /></p>\n";
 var raw = exports.raw = "\n![Zdjęcie przedstawia portret młodej kobiety o szarych włosach, w niebieskiej czapce, kolorowej chustce na szyi, kolczykach, na niebieskim tle. Z lewej strony zdjęcia umieszczony jest logotyp.](https://assets1.ello.co/uploads/asset/attachment/6213390/ello-optimized-75547475.jpg)\n\nCześć, jestem Olela, witaj na moim blogu. Na co dzień pracuję w szeroko pojętym obszarze sztuki - maluję obrazy, fotografuję, jestem grafikiem komputerowym, tancerką, nauczycielką tańca i choreografką. Z zamiłowania również gotuję. Z racji tak mnogich zainteresowań, zwykłam mówić o sobie Artystka Uniwersalna. Wierzę w zanikanie granic i wzajemne przenikanie się dyscyplin. Czy mieszam składniki zupy w garnku, czy dodaję do ultramaryny odrobinę karminu, czy nakładam bazę pod makijaż – tworzę sztukę.\n\n## Po co to komu?\n\nMisją bloga sztukauniwersalna.pl jest dostrzeżenie i zatarcie granicy pomiędzy sztuką a codziennością, zintegrowanie świata masowego przekazu, którym jesteśmy otoczeni z każdej strony, z kulturą. Postaram się pokazać, nieoczywiste na pierwszy rzut oka, konotacje pomiędzy czynnościami określanymi jako ‘przyziemne’, a kreacją artystyczną. Oprócz tego wykażę wpływy poszczególnych tendencji artystycznych na różne dziedziny życia. Mam nadzieje, że znajdziesz tu dla siebie wiele inspiracji, które przełożą się na Twoje postrzeganie rzeczywistości.\n\n## Poznajmy się lepiej.\n\n* Jestem Magistrem Sztuk Pięknych. W 2015 r. obroniłam dyplom  na wydziale malarstwa krakowskiej ASP. Dyplomem był solowy spektakl pt.: ‘Pięć Pór Roku’ zrealizowany w jednym z krakowskich teatrów. W trakcie półgodzinnej etiudy starałam się wytańczyć wszystkie stany emocjonalne towarzyszące mi przez 5letnie studia artystyczne. Malowanie ruchem było cudownym doświadczeniem i spotkało się z pozytywnym odbiorem komisji i publiczności.\n* Jak większość kobiet uwielbiam się malować i przebierać. Staram się dokładać do tych czynności teatralny pierwiastek. Wymyślam postać, opowiadam po cichu historie, ‘wchodzę w rolę’. Najbardziej inspirują mnie futurystyczne klimaty.\n* Moim największym bzikiem są… buty i szminki. Uważam, że kolor na ustach czyni kobietę pewniejszą siebie. Ah, jak ja kocham te kolory! Blady róż na sportowo. Jagodowa do ramoneski. Czerwień jest raczej zarezerwowana dla klasycznych połączeń, dlatego rzadko jej używam. Zdecydowanie bardziej wolę elektryzujący eklektyzm.\n* Kiedy robię zakupy w sklepie spożywczym zazwyczaj wącham owoce i warzywa. Zapach pozwala na wyobrażenie smaku. Czasami też subtelnie zanurzam dłoń w worku z ziarnami, jak zwykła robić to Amelia, bohaterka filmu o tym samym tytule.\n* Dość sporo czasu w swoim życiu spędziłam w muzeach. Moja najdłuższa kontemplacja dzieła sztuki miała miejsce na wystawie Mark’a Rothko w Warszawie w 2013 r.  Byłam tak zafascynowana twórczością nowojorczyka (nadal jestem), że przed jednym obrazem spędziłam kilka godzin, a panowie ochroniarze dosłownie musieli wypraszać mnie z budynku, gdy przyszła godzina zamknięcia ekspozycji.\n\nSkoro już tyle o mnie wiesz… mam nadzieje, że zostaniesz tu na dłużej. Czytaj, oglądaj, komentuj, kontempluj. Możesz też polubić konto na [fb](https://www.facebook.com/sztukauniwersalna/) i [insta](https://www.instagram.com/sztuka_uniwersalna/), żeby być na bieżąco. A jeśli chcesz się ze mną skontkować napisz na adres sztuka.uniwersalna@gmail.com – będzie mi bardzo miło!\n\nPozdrawiam,\nOlela\n\n\n![Zdjęcie podzielone jest na dwie części, część z lewej strony jest zbliżeniem na kobiecy kolczyk w kształcie twarzy. Z prawej strony widzimy połowę twarzy młodej kobiety z siwymi włosami, kolorową chustą i kolczykiem w kształcie twarzy.](https://assets2.ello.co/uploads/asset/attachment/6213404/ello-optimized-adcc0c71.jpg)";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
-
-/***/ }),
-/* 62 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(global) {
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _ContentLimiter = __webpack_require__(3);
-
-var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-global.__data = __webpack_require__(2).default;
-
-var code = global.__data.map(function (entry, index) {
-  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
-}).join('');eval.call(null, code);
-delete global.__data;
-
-var component = exports.component = function component(data) {
-  return _react2.default.createElement(
-    _ContentLimiter2.default,
-    _extends({ limit: 5 }, data),
-    _react2.default.createElement(
-      'div',
-      { className: 'compact' },
-      _react2.default.createElement(TableOfContents, data)
-    )
-  );
-};
-var frontMatter = exports.frontMatter = { "title": "Mapa Witryny", "date": "2017-07-15T20:12:00.000Z", "permalink": "/sitemap", "tags": ["sitemap", "dla bota"] };
-var body = exports.body = "<div className='compact'>\n  <TableOfContents {...data} />\n</div>\n";
-var raw = exports.raw = "\n<div className='compact'>\n  <TableOfContents {...data} />\n</div>\n\n";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
