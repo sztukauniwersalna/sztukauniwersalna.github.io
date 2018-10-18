@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_144__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_145__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(159);
+var Feed_1 = __webpack_require__(160);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(161);
+var Recipe_1 = __webpack_require__(162);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(163);
+var Root_1 = __webpack_require__(164);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(145);
+var s = __webpack_require__(146);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(146);
+var s = __webpack_require__(147);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -456,11 +456,11 @@ exports.default = requireDirectory;
 module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
-POSTS: __webpack_require__(64),
-UPLOADS: __webpack_require__(139),
-ROOT: __webpack_require__(140),
-LAYOUTS: __webpack_require__(141),
-INCLUDES: __webpack_require__(165)};
+POSTS: __webpack_require__(65),
+UPLOADS: __webpack_require__(140),
+ROOT: __webpack_require__(141),
+LAYOUTS: __webpack_require__(142),
+INCLUDES: __webpack_require__(166)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(165)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(147);
+var s = __webpack_require__(148);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(151);
+var s = __webpack_require__(152);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(164);
+__webpack_require__(165);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(142);
+var react_disqus_comments_1 = __webpack_require__(143);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(156);
-var s = __webpack_require__(158);
+var FacebookLike_1 = __webpack_require__(157);
+var s = __webpack_require__(159);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(148);
-var s = __webpack_require__(149);
+__webpack_require__(149);
+var s = __webpack_require__(150);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(150);
+var s = __webpack_require__(151);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(153);
+var s = __webpack_require__(154);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(152);
+var s = __webpack_require__(153);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(154);
+var s = __webpack_require__(155);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(155);
+var s = __webpack_require__(156);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(160);
+var s = __webpack_require__(161);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(172);
-var menu_1 = __webpack_require__(173);
+var tags_1 = __webpack_require__(173);
+var menu_1 = __webpack_require__(174);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2294,9 +2294,10 @@ var raw = exports.raw = "\n<div>\n  <Feed { ...data } feed={ data.website.getCat
 var map = {
 	"./404.markdown": 59,
 	"./index.markdown": 60,
-	"./sitemap.markdown": 61,
-	"./sztuka-uniwersalna.markdown": 62,
-	"./tag.markdown": 63
+	"./kontakt.markdown": 61,
+	"./sitemap.markdown": 62,
+	"./sztuka-uniwersalna.markdown": 63,
+	"./tag.markdown": 64
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -2444,6 +2445,222 @@ var component = exports.component = function component(data) {
     _ContentLimiter2.default,
     _extends({ limit: 5 }, data),
     _react2.default.createElement(
+      'p',
+      null,
+      'Blog - ',
+      _react2.default.createElement(
+        'a',
+        { href: 'http://sztukauniwersalna.pl/' },
+        'http://sztukauniwersalna.pl/'
+      ),
+      'Facebook - ',
+      _react2.default.createElement(
+        'a',
+        { href: 'https://www.facebook.com/sztukauniwersalna/' },
+        'https://www.facebook.com/sztukauniwersalna/'
+      ),
+      'Instagram - ',
+      _react2.default.createElement(
+        'a',
+        { href: 'https://www.instagram.com/sztuka_uniwersalna/' },
+        'https://www.instagram.com/sztuka_uniwersalna/'
+      )
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Dla Czytelnik\xF3w'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Je\u015Bli podoba Ci si\u0119 to, co robi\u0119 doce\u0144 to zostawiaj\u0105c komentarz. Z kolei najszybsz\u0105 i najwygodniejsz\u0105 form\u0105 kontaktu z redakcj\u0105 Sztuki Uniwersalnej jest ',
+      _react2.default.createElement(
+        'a',
+        { href: 'https://www.facebook.com/sztukauniwersalna' },
+        'facebook'
+      ),
+      '.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Dzi\u0119ki, \u017Ce jeste\u015B cz\u0119\u015Bci\u0105 naszej spo\u0142eczno\u015Bci!'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Pozdrawiam i do napisania :)'
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Dla Partner\xF3w Biznesowych'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement(
+        'strong',
+        null,
+        'Co wyr\xF3\u017Cnia Sztuk\u0119 Uniwersaln\u0105?'
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Blog Sztuka Uniwersalna narodzi\u0142 si\u0119 z pasji do Sztuki i idei odkrywania jej w \u017Cyciu codziennym. Wszystkie teksty, zdj\u0119cia, kola\u017Ce i oprawa graficzna s\u0105 mojego autorstwa, co stanowi o unikatowej warto\u015Bci prezentowanych tre\u015Bci. Nie jeste\u015Bmy kolejnym blogiem \u2018\u0142adnych, jasnych zdj\u0119\u0107\u2019 i opis\xF3w leniwych dni. Chcemy zach\u0119ca\u0107 do odkrywania sztuki, tworzenia jej, zdobywania specyficznej wiedzy. Dostarczamy inspiracji z zakresu mody, makija\u017Cu. Pomagamy w wyborze dobrych kosmetyk\xF3w i warto\u015Bciowych tre\u015Bci. Tworzymy now\u0105, uniwersaln\u0105 rzeczywisto\u015B\u0107.'
+    ),
+    _react2.default.createElement(
+      'h3',
+      null,
+      'Tre\u015B\u0107 bloga'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Makija\u017C (w tym r\xF3wnie\u017C recenzje produkt\xF3w kosmetycznych) stanowi 30% tre\u015Bci bloga. Posty z tej kategorii wyst\u0119puj\u0105 w dw\xF3ch rodzajach:'
+    ),
+    _react2.default.createElement(
+      'ul',
+      null,
+      _react2.default.createElement(
+        'li',
+        null,
+        'makija\u017C inspirowany obrazem \u2013 autorski makija\u017C artystyczny, profesjonalne zdj\u0119cia, artyku\u0142.'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'Moje Wybory \u2013 recenzje kosmetyk\xF3w, profesjonalne zdj\u0119cia.'
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Posty z serii makija\u017Cowej nios\u0105 ze sob\u0105 wysok\u0105 warto\u015B\u0107 dodan\u0105 w postaci wiedzy z zakresu historii sztuki. Wi\u0119kszo\u015B\u0107 fotografii wykonywana jest w warunkach studyjnych oraz poddawana profesjonalnej obr\xF3bce.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Moda stanowi 30% tre\u015Bci dostarczanych przez inicjatyw\u0119 Sztuka Uniwersalna:'
+    ),
+    _react2.default.createElement(
+      'ul',
+      null,
+      _react2.default.createElement(
+        'li',
+        null,
+        'Stylizacje \u2013 autorskie stylizacje modowe nadchodz\u0105cych trend\xF3w lub  tematyczne, profesjonalne zdj\u0119cia, artyku\u0142'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'Moje Wybory \u2013 akcesoria, profesjonalne zdj\u0119cia, opis, recenzja'
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Podczas przygotowywania ka\u017Cdego modowego postu korzystam z szerokiego zakresu wiedzy zdobytej na wy\u017Cszej uczelni artystycznej. Buduj\u0119 \u015Bwiadom\u0105 kompozycj\u0119, dobieram kolory, a znajomo\u015B\u0107 historii mody pozwala mi na subtelne \u017C\u0105glowanie stylami.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      '40% tre\u015Bci po\u015Bwi\u0119cone jest Sztuce. Do tej kategorii nale\u017C\u0105:'
+    ),
+    _react2.default.createElement(
+      'ul',
+      null,
+      _react2.default.createElement(
+        'li',
+        null,
+        'Moodboard \u2013 infografika zawieraj\u0105ca przyk\u0142ady dzie\u0142 sztuki, mody oraz designu reprezentuj\u0105ce dany nurt w sztuce lub tendencj\u0119 artystyczn\u0105.'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'O kolorach \u2013 posty po\u015Bwi\u0119cone kolorom, oraz ich znaczeniu i zastosowaniu, artystyczne zdj\u0119cia'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'Wystawa \u2013recenzje z bie\u017C\u0105cych wystaw wraz z profesjonalnymi zdj\u0119ciami'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'Autorskie felietony'
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement(
+        'strong',
+        null,
+        'W sprawach kupna przestrzeni reklamowej lub innego rodzaju wsp\xF3\u0142pracy zapraszamy do kontaktu mailowego: ',
+        _react2.default.createElement(
+          'a',
+          { href: 'mailto:oferty@sztuka.studio' },
+          'oferty@sztuka.studio'
+        ),
+        '.'
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Zastrzegamy sobie prawo do odmowy wsp\xF3\u0142pracy w przypadku gdy produkt nie spe\u0142nia standard\xF3w jako\u015Bciowych Sztuki Uniwersalnej.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Marki, z kt\xF3rymi wsp\xF3\u0142pracowali\u015Bmy'
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Kontakt", "date": "2018-10-18T19:49:00.000Z" };
+var body = exports.body = "<p>Blog - <a href=\"http://sztukauniwersalna.pl/\">http://sztukauniwersalna.pl/</a>\nFacebook - <a href=\"https://www.facebook.com/sztukauniwersalna/\">https://www.facebook.com/sztukauniwersalna/</a>\nInstagram - <a href=\"https://www.instagram.com/sztuka_uniwersalna/\">https://www.instagram.com/sztuka_uniwersalna/</a></p>\n<h2>Dla Czytelników</h2>\n<p>Jeśli podoba Ci się to, co robię doceń to zostawiając komentarz. Z kolei najszybszą i najwygodniejszą formą kontaktu z redakcją Sztuki Uniwersalnej jest <a href=\"https://www.facebook.com/sztukauniwersalna\">facebook</a>.</p>\n<p>Dzięki, że jesteś częścią naszej społeczności!</p>\n<p>Pozdrawiam i do napisania :)</p>\n<h2>Dla Partnerów Biznesowych</h2>\n<p><strong>Co wyróżnia Sztukę Uniwersalną?</strong></p>\n<p>Blog Sztuka Uniwersalna narodził się z pasji do Sztuki i idei odkrywania jej w życiu codziennym. Wszystkie teksty, zdjęcia, kolaże i oprawa graficzna są mojego autorstwa, co stanowi o unikatowej wartości prezentowanych treści.\nNie jesteśmy kolejnym blogiem ‘ładnych, jasnych zdjęć’ i opisów leniwych dni. Chcemy zachęcać do odkrywania sztuki, tworzenia jej, zdobywania specyficznej wiedzy. Dostarczamy inspiracji z zakresu mody, makijażu. Pomagamy w wyborze dobrych kosmetyków i wartościowych treści. Tworzymy nową, uniwersalną rzeczywistość.</p>\n<h3>Treść bloga</h3>\n<p>Makijaż (w tym również recenzje produktów kosmetycznych) stanowi 30% treści bloga. Posty z tej kategorii występują w dwóch rodzajach:</p>\n<ul>\n<li>makijaż inspirowany obrazem – autorski makijaż artystyczny, profesjonalne zdjęcia, artykuł.</li>\n<li>Moje Wybory – recenzje kosmetyków, profesjonalne zdjęcia.</li>\n</ul>\n<p>Posty z serii makijażowej niosą ze sobą wysoką wartość dodaną w postaci wiedzy z zakresu historii sztuki. Większość fotografii wykonywana jest w warunkach studyjnych oraz poddawana profesjonalnej obróbce.</p>\n<p>Moda stanowi 30% treści dostarczanych przez inicjatywę Sztuka Uniwersalna:</p>\n<ul>\n<li>Stylizacje – autorskie stylizacje modowe nadchodzących trendów lub \ttematyczne, profesjonalne zdjęcia, artykuł</li>\n<li>Moje Wybory – akcesoria, profesjonalne zdjęcia, opis, recenzja</li>\n</ul>\n<p>Podczas przygotowywania każdego modowego postu korzystam z szerokiego zakresu wiedzy zdobytej na wyższej uczelni artystycznej. Buduję świadomą kompozycję, dobieram kolory, a znajomość historii mody pozwala mi na subtelne żąglowanie stylami.</p>\n<p>40% treści poświęcone jest Sztuce. Do tej kategorii należą:</p>\n<ul>\n<li>Moodboard – infografika zawierająca przykłady dzieł sztuki, mody oraz designu reprezentujące dany nurt w sztuce lub tendencję artystyczną.</li>\n<li>O kolorach – posty poświęcone kolorom, oraz ich znaczeniu i zastosowaniu, artystyczne zdjęcia</li>\n<li>Wystawa –recenzje z bieżących wystaw wraz z profesjonalnymi zdjęciami</li>\n<li>Autorskie felietony</li>\n</ul>\n<p><strong>W sprawach kupna przestrzeni reklamowej lub innego rodzaju współpracy zapraszamy do kontaktu mailowego: <a href=\"mailto:oferty@sztuka.studio\">oferty@sztuka.studio</a>.</strong></p>\n<p>Zastrzegamy sobie prawo do odmowy współpracy w przypadku gdy produkt nie spełnia standardów jakościowych Sztuki Uniwersalnej.</p>\n<p>Marki, z którymi współpracowaliśmy</p>\n";
+var raw = exports.raw = "\nBlog - http://sztukauniwersalna.pl/\nFacebook - https://www.facebook.com/sztukauniwersalna/\nInstagram - https://www.instagram.com/sztuka_uniwersalna/\n\n\n## Dla Czytelników\n\nJeśli podoba Ci się to, co robię doceń to zostawiając komentarz. Z kolei najszybszą i najwygodniejszą formą kontaktu z redakcją Sztuki Uniwersalnej jest [facebook](https://www.facebook.com/sztukauniwersalna).\n\nDzięki, że jesteś częścią naszej społeczności!\n\nPozdrawiam i do napisania :)\n\n\n## Dla Partnerów Biznesowych\n\n**Co wyróżnia Sztukę Uniwersalną?**\n\nBlog Sztuka Uniwersalna narodził się z pasji do Sztuki i idei odkrywania jej w życiu codziennym. Wszystkie teksty, zdjęcia, kolaże i oprawa graficzna są mojego autorstwa, co stanowi o unikatowej wartości prezentowanych treści.\nNie jesteśmy kolejnym blogiem ‘ładnych, jasnych zdjęć’ i opisów leniwych dni. Chcemy zachęcać do odkrywania sztuki, tworzenia jej, zdobywania specyficznej wiedzy. Dostarczamy inspiracji z zakresu mody, makijażu. Pomagamy w wyborze dobrych kosmetyków i wartościowych treści. Tworzymy nową, uniwersalną rzeczywistość.\n\n\n### Treść bloga\n\nMakijaż (w tym również recenzje produktów kosmetycznych) stanowi 30% treści bloga. Posty z tej kategorii występują w dwóch rodzajach:\n\n* makijaż inspirowany obrazem – autorski makijaż artystyczny, profesjonalne zdjęcia, artykuł.\n* Moje Wybory – recenzje kosmetyków, profesjonalne zdjęcia.\n\nPosty z serii makijażowej niosą ze sobą wysoką wartość dodaną w postaci wiedzy z zakresu historii sztuki. Większość fotografii wykonywana jest w warunkach studyjnych oraz poddawana profesjonalnej obróbce.\n\nModa stanowi 30% treści dostarczanych przez inicjatywę Sztuka Uniwersalna:\n\t\n* Stylizacje – autorskie stylizacje modowe nadchodzących trendów lub \ttematyczne, profesjonalne zdjęcia, artykuł\n* Moje Wybory – akcesoria, profesjonalne zdjęcia, opis, recenzja\n\nPodczas przygotowywania każdego modowego postu korzystam z szerokiego zakresu wiedzy zdobytej na wyższej uczelni artystycznej. Buduję świadomą kompozycję, dobieram kolory, a znajomość historii mody pozwala mi na subtelne żąglowanie stylami.\n\n40% treści poświęcone jest Sztuce. Do tej kategorii należą:\n\n* Moodboard – infografika zawierająca przykłady dzieł sztuki, mody oraz designu reprezentujące dany nurt w sztuce lub tendencję artystyczną.\n* O kolorach – posty poświęcone kolorom, oraz ich znaczeniu i zastosowaniu, artystyczne zdjęcia\n* Wystawa –recenzje z bieżących wystaw wraz z profesjonalnymi zdjęciami\n* Autorskie felietony\n\n\n**W sprawach kupna przestrzeni reklamowej lub innego rodzaju współpracy zapraszamy do kontaktu mailowego: [oferty@sztuka.studio](mailto:oferty@sztuka.studio).**\n\nZastrzegamy sobie prawo do odmowy współpracy w przypadku gdy produkt nie spełnia standardów jakościowych Sztuki Uniwersalnej.\n\n\nMarki, z którymi współpracowaliśmy\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
+
+/***/ }),
+/* 62 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
       'div',
       { className: 'compact' },
       _react2.default.createElement(TableOfContents, data)
@@ -2456,7 +2673,7 @@ var raw = exports.raw = "\n<div className='compact'>\n  <TableOfContents {...dat
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 62 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2547,7 +2764,7 @@ var raw = exports.raw = "\nWitaj na blogu Sztuka Uniwersalna, blogu niepospolity
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 63 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2594,84 +2811,84 @@ var raw = exports.raw = "\n<div>\n  <Feed { ...data } feed={ data.page.pages } /
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 64 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./2017-07-15-uniwersalno-sztuki.markdown": 65,
-	"./2017-09-07-wenus-chanel-nowa-dziewczyna-z-perla.markdown": 66,
-	"./2017-09-11-make-up-inspirowany-obrazem-m64-by-wojciech-fangor.markdown": 67,
-	"./2017-09-16-salatka-z-bialej-rzepy-i-rzodkiewki.markdown": 68,
-	"./2017-09-17-smaki-jesieni-vol-dot-2-curry-z-pomidorow-cukinii-i-jablek.markdown": 69,
-	"./2017-09-18-fuerteventura-impressions.markdown": 70,
-	"./2017-09-21-make-up-inspirowany-obrazem-m10-by-wojciech-fangor.markdown": 71,
-	"./2017-09-25-podlewaj-swoje-kwiaty.markdown": 72,
-	"./2017-09-28-neoplastycyzm-moodboard.markdown": 73,
-	"./2017-10-03-cala-ta-j-dot-dot-dot.markdown": 74,
-	"./2017-10-05-kolo-moodboard.markdown": 75,
-	"./2017-10-10-make-up-inspirowany-obrazem-flying-eyes-by-yayoi-kusama.markdown": 76,
-	"./2017-10-12-pop-art-moodboard.markdown": 77,
-	"./2017-10-18-stylizacje-za-grosze-czyli-pokochaj-lumpeksy.markdown": 78,
-	"./2017-10-19-minimalism-moodboard.markdown": 79,
-	"./2017-10-23-smaki-jesieni-vol-dot-3-geometryczna-szarlotka.markdown": 80,
-	"./2017-10-25-kolaz-okladek.markdown": 81,
-	"./2017-10-26-kubizm-moodboard.markdown": 82,
-	"./2017-11-02-surrealizm-moodboard.markdown": 83,
-	"./2017-11-07-make-up-inspirowany-obrazem-czarny-kwadrat-na-bialym-tle-by-kazimierz-malewicz.markdown": 84,
-	"./2017-11-09-action-painting-moodboard.markdown": 85,
-	"./2017-11-13-picasso-wizerunek-wielokrotny-muzeum-lubelskie-w-lublinie.markdown": 86,
-	"./2017-11-16-impresjonizm-moodboard.markdown": 87,
-	"./2017-11-22-diy-1-edycja-zimowa.markdown": 88,
-	"./2017-11-30-make-up-inspirowany-obrazem-figure-dog-birds-by-joan-miro.markdown": 89,
-	"./2017-12-07-op-art-moodboard.markdown": 90,
-	"./2017-12-11-wystawa-inny-trans-atlantyk-sztuka-kinetyczna-i-op-art-w-europie-wschodniej-i-ameryce-lacinskiej-w-latach-50-70.markdown": 91,
-	"./2017-12-17-o-kolorach-fiolet.markdown": 92,
-	"./2017-12-21-moje-wybory-grudzien.markdown": 93,
-	"./2017-12-31-kolagen.markdown": 94,
-	"./2018-01-04-ekspresjonizm-abstrakcyjny-moodboard.markdown": 95,
-	"./2018-01-05-smaki-zimy-vol-dot-1-kaczka-z-sosem-pomaranczowym-i-jablkami-w-tymianku.markdown": 96,
-	"./2018-01-08-smaki-zimy-vol-dot-2-bezglutenowy-chlebek-czekoladowo-korzenny-z-sosem-truskawkowo-rozmarynowym.markdown": 97,
-	"./2018-01-14-o-kolorach-czerwien-cz-dot-1.markdown": 98,
-	"./2018-01-22-make-up-inspirowany-obrazem-tutti-frutti-by-helen-frankenthaler.markdown": 99,
-	"./2018-01-24-moje-wybory-styczen.markdown": 100,
-	"./2018-01-31-wystawa-david-lynch-silence-and-dynamism.markdown": 101,
-	"./2018-02-08-rokoko-moodboard.markdown": 102,
-	"./2018-02-11-make-up-inspirowany-obrazem-dove-with-sun-by-pablo-picasso.markdown": 103,
-	"./2018-02-13-smaki-zimy-vol-dot-3-omlet-francuski-z-cheddarem-i-czarnuszka.markdown": 104,
-	"./2018-02-18-o-narkotykach-xxi-wieku.markdown": 105,
-	"./2018-02-21-o-kolorach-biel-cz-dot-1.markdown": 106,
-	"./2018-02-26-moje-wybory-luty.markdown": 107,
-	"./2018-02-28-wystawa-przyszlosc-bedzie-inna-wizje-i-praktyki-modernizacji-spolecznych-po-roku-1918.markdown": 108,
-	"./2018-03-08-socrealizm-moodboard.markdown": 109,
-	"./2018-03-26-make-up-inspirowany-obrazem-bialy-srodek-zolty-rozowy-lawendowy-by-mark-rothko.markdown": 110,
-	"./2018-04-05-dadaizm-moodboard.markdown": 111,
-	"./2018-04-07-moje-wybory-marzec.markdown": 112,
-	"./2018-04-15-make-up-inspirowany-obrazem-onement-vi-by-barnett-newman.markdown": 113,
-	"./2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest.markdown": 114,
-	"./2018-04-29-stylizacje-w-trendach-ss-2018.markdown": 115,
-	"./2018-05-02-moje-wybory-kwiecien.markdown": 116,
-	"./2018-05-10-puentylizm-pointylizm-moodboard.markdown": 117,
-	"./2018-05-14-oswoic-lek.markdown": 118,
-	"./2018-05-20-o-kolorach-roz.markdown": 119,
-	"./2018-05-29-moje-wybory-maj.markdown": 120,
-	"./2018-06-05-jestem-wdzieczna-ci-zycie.markdown": 121,
-	"./2018-06-07-hiperrealizm-moodboard.markdown": 122,
-	"./2018-06-27-rgb-trzy-stylizacje-z-mojej-szafy.markdown": 123,
-	"./2018-07-05-abstrakcja-geometryczna-moodboard.markdown": 124,
-	"./2018-07-13-make-up-inspirowany-obrazem-blue-nude-ii-by-henri-matisse.markdown": 125,
-	"./2018-07-27-moje-wybory-czerwiec-slash-lipiec-cz-dot-1.markdown": 126,
-	"./2018-07-30-moje-wybory-czerwiec-slash-lipiec-cz-dot-2.markdown": 127,
-	"./2018-08-09-secesja-moodboard.markdown": 128,
-	"./2018-08-15-make-up-inspirowany-obrazem-circus-from-jazz-book-by-henri-matisse.markdown": 129,
-	"./2018-08-22-wystawa-handmade-acoustics.markdown": 130,
-	"./2018-08-31-moje-wybory-sierpien.markdown": 131,
-	"./2018-09-06-futuryzm-moodboard.markdown": 132,
-	"./2018-09-09-pre-fall-fall-slash-winter-spring-slash-summer-resort-cruise-co-to-wszystko-znaczy-plus-fw-trends-2018-slash-2019.markdown": 133,
-	"./2018-09-21-o-kolorach-czern.markdown": 134,
-	"./2018-09-27-moje-wybory-wrzesien-2018.markdown": 135,
-	"./2018-10-02-wystawa-bestia-bog-i-linia.markdown": 136,
-	"./2018-10-04-manieryzm-moodboard.markdown": 137,
-	"./2018-10-10-make-up-inspirowany-obrazem-kompozycja-viii-by-wassily-kandinsky.markdown": 138
+	"./2017-07-15-uniwersalno-sztuki.markdown": 66,
+	"./2017-09-07-wenus-chanel-nowa-dziewczyna-z-perla.markdown": 67,
+	"./2017-09-11-make-up-inspirowany-obrazem-m64-by-wojciech-fangor.markdown": 68,
+	"./2017-09-16-salatka-z-bialej-rzepy-i-rzodkiewki.markdown": 69,
+	"./2017-09-17-smaki-jesieni-vol-dot-2-curry-z-pomidorow-cukinii-i-jablek.markdown": 70,
+	"./2017-09-18-fuerteventura-impressions.markdown": 71,
+	"./2017-09-21-make-up-inspirowany-obrazem-m10-by-wojciech-fangor.markdown": 72,
+	"./2017-09-25-podlewaj-swoje-kwiaty.markdown": 73,
+	"./2017-09-28-neoplastycyzm-moodboard.markdown": 74,
+	"./2017-10-03-cala-ta-j-dot-dot-dot.markdown": 75,
+	"./2017-10-05-kolo-moodboard.markdown": 76,
+	"./2017-10-10-make-up-inspirowany-obrazem-flying-eyes-by-yayoi-kusama.markdown": 77,
+	"./2017-10-12-pop-art-moodboard.markdown": 78,
+	"./2017-10-18-stylizacje-za-grosze-czyli-pokochaj-lumpeksy.markdown": 79,
+	"./2017-10-19-minimalism-moodboard.markdown": 80,
+	"./2017-10-23-smaki-jesieni-vol-dot-3-geometryczna-szarlotka.markdown": 81,
+	"./2017-10-25-kolaz-okladek.markdown": 82,
+	"./2017-10-26-kubizm-moodboard.markdown": 83,
+	"./2017-11-02-surrealizm-moodboard.markdown": 84,
+	"./2017-11-07-make-up-inspirowany-obrazem-czarny-kwadrat-na-bialym-tle-by-kazimierz-malewicz.markdown": 85,
+	"./2017-11-09-action-painting-moodboard.markdown": 86,
+	"./2017-11-13-picasso-wizerunek-wielokrotny-muzeum-lubelskie-w-lublinie.markdown": 87,
+	"./2017-11-16-impresjonizm-moodboard.markdown": 88,
+	"./2017-11-22-diy-1-edycja-zimowa.markdown": 89,
+	"./2017-11-30-make-up-inspirowany-obrazem-figure-dog-birds-by-joan-miro.markdown": 90,
+	"./2017-12-07-op-art-moodboard.markdown": 91,
+	"./2017-12-11-wystawa-inny-trans-atlantyk-sztuka-kinetyczna-i-op-art-w-europie-wschodniej-i-ameryce-lacinskiej-w-latach-50-70.markdown": 92,
+	"./2017-12-17-o-kolorach-fiolet.markdown": 93,
+	"./2017-12-21-moje-wybory-grudzien.markdown": 94,
+	"./2017-12-31-kolagen.markdown": 95,
+	"./2018-01-04-ekspresjonizm-abstrakcyjny-moodboard.markdown": 96,
+	"./2018-01-05-smaki-zimy-vol-dot-1-kaczka-z-sosem-pomaranczowym-i-jablkami-w-tymianku.markdown": 97,
+	"./2018-01-08-smaki-zimy-vol-dot-2-bezglutenowy-chlebek-czekoladowo-korzenny-z-sosem-truskawkowo-rozmarynowym.markdown": 98,
+	"./2018-01-14-o-kolorach-czerwien-cz-dot-1.markdown": 99,
+	"./2018-01-22-make-up-inspirowany-obrazem-tutti-frutti-by-helen-frankenthaler.markdown": 100,
+	"./2018-01-24-moje-wybory-styczen.markdown": 101,
+	"./2018-01-31-wystawa-david-lynch-silence-and-dynamism.markdown": 102,
+	"./2018-02-08-rokoko-moodboard.markdown": 103,
+	"./2018-02-11-make-up-inspirowany-obrazem-dove-with-sun-by-pablo-picasso.markdown": 104,
+	"./2018-02-13-smaki-zimy-vol-dot-3-omlet-francuski-z-cheddarem-i-czarnuszka.markdown": 105,
+	"./2018-02-18-o-narkotykach-xxi-wieku.markdown": 106,
+	"./2018-02-21-o-kolorach-biel-cz-dot-1.markdown": 107,
+	"./2018-02-26-moje-wybory-luty.markdown": 108,
+	"./2018-02-28-wystawa-przyszlosc-bedzie-inna-wizje-i-praktyki-modernizacji-spolecznych-po-roku-1918.markdown": 109,
+	"./2018-03-08-socrealizm-moodboard.markdown": 110,
+	"./2018-03-26-make-up-inspirowany-obrazem-bialy-srodek-zolty-rozowy-lawendowy-by-mark-rothko.markdown": 111,
+	"./2018-04-05-dadaizm-moodboard.markdown": 112,
+	"./2018-04-07-moje-wybory-marzec.markdown": 113,
+	"./2018-04-15-make-up-inspirowany-obrazem-onement-vi-by-barnett-newman.markdown": 114,
+	"./2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest.markdown": 115,
+	"./2018-04-29-stylizacje-w-trendach-ss-2018.markdown": 116,
+	"./2018-05-02-moje-wybory-kwiecien.markdown": 117,
+	"./2018-05-10-puentylizm-pointylizm-moodboard.markdown": 118,
+	"./2018-05-14-oswoic-lek.markdown": 119,
+	"./2018-05-20-o-kolorach-roz.markdown": 120,
+	"./2018-05-29-moje-wybory-maj.markdown": 121,
+	"./2018-06-05-jestem-wdzieczna-ci-zycie.markdown": 122,
+	"./2018-06-07-hiperrealizm-moodboard.markdown": 123,
+	"./2018-06-27-rgb-trzy-stylizacje-z-mojej-szafy.markdown": 124,
+	"./2018-07-05-abstrakcja-geometryczna-moodboard.markdown": 125,
+	"./2018-07-13-make-up-inspirowany-obrazem-blue-nude-ii-by-henri-matisse.markdown": 126,
+	"./2018-07-27-moje-wybory-czerwiec-slash-lipiec-cz-dot-1.markdown": 127,
+	"./2018-07-30-moje-wybory-czerwiec-slash-lipiec-cz-dot-2.markdown": 128,
+	"./2018-08-09-secesja-moodboard.markdown": 129,
+	"./2018-08-15-make-up-inspirowany-obrazem-circus-from-jazz-book-by-henri-matisse.markdown": 130,
+	"./2018-08-22-wystawa-handmade-acoustics.markdown": 131,
+	"./2018-08-31-moje-wybory-sierpien.markdown": 132,
+	"./2018-09-06-futuryzm-moodboard.markdown": 133,
+	"./2018-09-09-pre-fall-fall-slash-winter-spring-slash-summer-resort-cruise-co-to-wszystko-znaczy-plus-fw-trends-2018-slash-2019.markdown": 134,
+	"./2018-09-21-o-kolorach-czern.markdown": 135,
+	"./2018-09-27-moje-wybory-wrzesien-2018.markdown": 136,
+	"./2018-10-02-wystawa-bestia-bog-i-linia.markdown": 137,
+	"./2018-10-04-manieryzm-moodboard.markdown": 138,
+	"./2018-10-10-make-up-inspirowany-obrazem-kompozycja-viii-by-wassily-kandinsky.markdown": 139
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -2687,10 +2904,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 64;
+webpackContext.id = 65;
 
 /***/ }),
-/* 65 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2811,7 +3028,7 @@ var raw = exports.raw = "\n> Interesowało mnie utrwalanie wszystkich prostych c
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 66 */
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2935,7 +3152,7 @@ var raw = exports.raw = "\n<olela-narrative>\nJestem tym, który delikatnie, z w
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 67 */
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3027,7 +3244,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia młodą kobietę w makijażu n
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 68 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3112,7 +3329,7 @@ var raw = exports.raw = "\n<olela-narrative>\nJesień to czas, kiedy z lekkich l
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 69 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3197,7 +3414,7 @@ var raw = exports.raw = "\n<olela-narrative>\nPomyśl przez chwilę o swoim ulub
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 70 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3368,7 +3585,7 @@ var raw = exports.raw = "\n![Zdjęcie centralnie przedstawia roślinę z rodziny
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 71 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3481,7 +3698,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia twarz młodej kobiety na żó�
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 72 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3586,7 +3803,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia kobietę ubraną na biało, na
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 73 */
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3666,7 +3883,7 @@ var raw = exports.raw = "\nW latach 1917-1928 Theo van Doesburg wydawał w Holan
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 74 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3803,7 +4020,7 @@ var raw = exports.raw = "\n<olela-narrative>\nPrzyszła.\n</olela-narrative>\n\n
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 75 */
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3854,7 +4071,7 @@ var raw = exports.raw = "\n![Obrazek przedstawia cztery zdjęcia kobiet w stroja
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 76 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3984,7 +4201,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia młodą kobietę w mocnym maki
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 77 */
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4058,7 +4275,7 @@ var raw = exports.raw = "\nPOPular ART... czyli kierunek w sztuce, któremu w uk
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 78 */
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4235,7 +4452,7 @@ var raw = exports.raw = "\n W swoim życiu nie spotkałam kobiety, która nie lu
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 79 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4313,7 +4530,7 @@ var raw = exports.raw = "\nMinimalizm (lata 60te XX wieku)... Jak sama nazwa wsk
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 80 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4393,7 +4610,7 @@ var raw = exports.raw = "\n<olela-narrative>\nW oryginale 'szarlotka babci Czesi
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 81 */
+/* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4479,7 +4696,7 @@ var raw = exports.raw = "\nZnalazłam się w miejscu, do którego przeciętny ś
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 82 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4588,7 +4805,7 @@ var raw = exports.raw = "\n<olela-narrative>\nWyobraźcie sobie pewien zestaw pr
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 83 */
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4778,7 +4995,7 @@ var raw = exports.raw = "\n<olela-narrative>\nAndré Breton, 'Manifest surrealiz
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 84 */
+/* 85 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4949,7 +5166,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia kobietę ubraną na biało, na
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 85 */
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5013,7 +5230,7 @@ var raw = exports.raw = "\n![Obraz przedstawia fotografie na szarym tle, widzimy
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 86 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5144,7 +5361,7 @@ var raw = exports.raw = "\nZ tą ekspozycją wiązałam dość duże nadzieje. P
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 87 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5194,7 +5411,7 @@ var raw = exports.raw = "\n![Obraz przedstawia fotografie na niebieskim tle. Wid
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 88 */
+/* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5378,7 +5595,7 @@ var raw = exports.raw = "\n<olela-narrative>\nCzy wiecie, jak niewiele trzeba ab
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 89 */
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5516,7 +5733,7 @@ var raw = exports.raw = "\n<olela-narrative>\nKiedy patrzysz na obraz budzi on w
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 90 */
+/* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5569,7 +5786,7 @@ var raw = exports.raw = "\n![Obraz przedstawia fotografie różnych dzieł znany
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 91 */
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5784,7 +6001,7 @@ var raw = exports.raw = "\n<olela-narrative>\nW marcu tego roku otworzył swoje 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 92 */
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5938,7 +6155,7 @@ var raw = exports.raw = "\nTak! Już jest! Kolorem roku 2018 według Pantone zos
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 93 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6107,7 +6324,7 @@ var raw = exports.raw = "\n<olela-narrative>\nZima to czas, kiedy wszystko w prz
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 94 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6222,7 +6439,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia portret młodej kobiety. Prawa
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 95 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6316,7 +6533,7 @@ var raw = exports.raw = "\nNazwa złożona z dwóch nazw – ekspresjonizm abstr
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 96 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6427,7 +6644,7 @@ var raw = exports.raw = "\n<olela-narrative>\nSezon na pomarańcze w pełni. Cho
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 97 */
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6525,7 +6742,7 @@ var raw = exports.raw = "\n<olela-narrative>\nŚwięta, święta i po świętach
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 98 */
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6666,7 +6883,7 @@ var raw = exports.raw = "\nCzerwień… Miłość, namiętność, pożądanie. K
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 99 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6750,7 +6967,7 @@ var raw = exports.raw = "\nHelen Frankenthaler – jedna z niewielu kobiet amery
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 100 */
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6884,7 +7101,7 @@ var raw = exports.raw = "\n<olela-narrative>\nPrzez moment miałam wrażenie, ż
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 101 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7099,7 +7316,7 @@ var raw = exports.raw = "\n![Czarno-biała fotografia przedstawia wnętrze z du�
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 102 */
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7219,7 +7436,7 @@ var raw = exports.raw = "\n![Obraz przedstawia trzy fotografie, na których wida
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 103 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7326,7 +7543,7 @@ var raw = exports.raw = "\n<olela-narrative>\nSą wszędzie. Są upierdliwe i s�
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 104 */
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7418,7 +7635,7 @@ var raw = exports.raw = "\n<olela-narrative>\nSprawdzony przepis na pożywne, zi
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 105 */
+/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7569,7 +7786,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia litery ułożone z kolorowego 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 106 */
+/* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7731,7 +7948,7 @@ var raw = exports.raw = "\n## Kolor jest światłem\n\nChyba każdy z nas kojarz
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 107 */
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7885,7 +8102,7 @@ var raw = exports.raw = "\n<olela-narrative>\nW nocy w Warszawie termometr ma po
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8057,7 +8274,7 @@ var raw = exports.raw = "\n![Czarno-białe zdjęcie przedstawia ekran z napisami
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8152,7 +8369,7 @@ var raw = exports.raw = "\n![Obraz przedstawia trzy zdjęcia obrazów znanych ar
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8254,7 +8471,7 @@ var raw = exports.raw = "\n<olela-narrative>\nBył wczesny poranek pewnej słone
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8370,7 +8587,7 @@ var raw = exports.raw = "\n![Obraz przedstawia różne fotografie np. przedmiot�
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8525,7 +8742,7 @@ var raw = exports.raw = "\n<olela-narrative>\nMam wrażenie, że powiedzenie 'w 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8660,7 +8877,7 @@ var raw = exports.raw = "\n<olela-narrative>\nJest taki moment w życiu artysty,
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8825,7 +9042,7 @@ var raw = exports.raw = "\nCyryl Polaczek nie chce nazywać siebie kuratorem. Na
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8972,7 +9189,7 @@ var raw = exports.raw = "\nTrendy, trendy, trendy… To temat, który nie daje n
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9134,7 +9351,7 @@ var raw = exports.raw = "\n<olela-narrative>\n‘Kwiecień plecień, bo przeplat
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9192,7 +9409,7 @@ var raw = exports.raw = "\nPuentylizm lub pointylizm (fr. pointiller – kropkow
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9311,7 +9528,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia zbliżenie na oko. Na skórze 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9448,7 +9665,7 @@ var raw = exports.raw = '\nR\xF3\u017C atakuje nas z ka\u017Cdej mo\u017Cliwej s
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9594,7 +9811,7 @@ var raw = exports.raw = "\n<olela-narrative>\nMaj obfituje w premiery. Swój pre
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9723,7 +9940,7 @@ var raw = exports.raw = "\n![Obraz przedstawia zdjęcie kobiety w kolorowym maki
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9781,7 +9998,7 @@ var raw = exports.raw = "\nHiperrealizm (superrealizm lub fotorealizm) to pręż
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9923,7 +10140,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia modelkę w spodniach w kwiaty 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9988,7 +10205,7 @@ var raw = exports.raw = "\nMyślenie kształtem dotyka odległych czasów odkryc
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10131,7 +10348,7 @@ var raw = exports.raw = "\n![Obraz przedstawia portret kobiety na granatowym tle
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10296,7 +10513,7 @@ var raw = exports.raw = "\n<olela-narrative>\nLato jest wtedy, kiedy kreska term
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10437,7 +10654,7 @@ var raw = exports.raw = "\n<olela-narrative>\nOleje to skarby ziemi. Aby zachowa
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10500,7 +10717,7 @@ var raw = exports.raw = "\nDekoracyjność, bogata ornamentyka abstrakcyjna lub 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10691,7 +10908,7 @@ var raw = exports.raw = "\nW 1941 roku francuski krytyk i wydawca greckiego poch
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10856,7 +11073,7 @@ var raw = exports.raw = "\n<olela-narrative>\nZatrzymaj się na moment i znajdź
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11015,7 +11232,7 @@ var raw = exports.raw = "\n<olela-narrative>\nPewnego sierpniowego dnia bałam s
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11105,7 +11322,7 @@ var raw = exports.raw = "\nFuturyzm narodził się we Włoszech wraz z początki
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11264,7 +11481,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia portret kobiety w czarnym kape
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11405,7 +11622,7 @@ var raw = exports.raw = "\nOd zawsze i na zawsze. Czerń to barwa pełna kontras
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11561,7 +11778,7 @@ var raw = exports.raw = "\n<olela-narrative>\nTen miesiąc był niezwykle kapry�
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11762,7 +11979,7 @@ var raw = exports.raw = "\n<olela-narrative>\nPo tej wystawie spodziewałam się
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11869,7 +12086,7 @@ var raw = exports.raw = "\nManieryzm nie jest jednoznacznym stylem. Jest bardzie
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12025,18 +12242,6 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia portret kobiety w artystycznym
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 139 */
-/***/ (function(module, exports) {
-
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 139;
-
-/***/ }),
 /* 140 */
 /***/ (function(module, exports) {
 
@@ -12050,6 +12255,18 @@ webpackEmptyContext.id = 140;
 
 /***/ }),
 /* 141 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 141;
+
+/***/ }),
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -12070,19 +12287,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 141;
+webpackContext.id = 142;
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(143);
+module.exports = __webpack_require__(144);
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12100,7 +12317,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(144);
+var _propTypes = __webpack_require__(145);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -12304,13 +12521,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_144__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_145__;
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12324,7 +12541,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12332,7 +12549,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12345,7 +12562,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12379,7 +12596,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12392,7 +12609,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12401,7 +12618,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12409,7 +12626,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12417,7 +12634,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12432,7 +12649,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12447,7 +12664,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12462,7 +12679,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12486,7 +12703,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(157);
+var s = __webpack_require__(158);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -12517,7 +12734,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12525,7 +12742,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12549,7 +12766,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12600,7 +12817,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12608,7 +12825,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12617,7 +12834,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(162);
+var s = __webpack_require__(163);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -12650,7 +12867,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12660,7 +12877,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12704,22 +12921,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 166,
-	"./Feed.js": 167,
-	"./Ingredient.js": 168,
-	"./Method.js": 169,
-	"./Recipe.js": 170,
-	"./TableOfContents.js": 171
+	"./Crumbs.js": 167,
+	"./Feed.js": 168,
+	"./Ingredient.js": 169,
+	"./Method.js": 170,
+	"./Recipe.js": 171,
+	"./TableOfContents.js": 172
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -12735,10 +12952,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 165;
+webpackContext.id = 166;
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12753,7 +12970,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12768,7 +12985,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12783,7 +13000,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 169 */
+/* 170 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12798,7 +13015,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 170 */
+/* 171 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12813,7 +13030,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 171 */
+/* 172 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12828,7 +13045,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 172 */
+/* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12852,7 +13069,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 173 */
+/* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
