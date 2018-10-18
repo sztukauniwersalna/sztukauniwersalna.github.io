@@ -2493,101 +2493,52 @@ var component = exports.component = function component(data) {
     _react2.default.createElement(
       'p',
       null,
-      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/6213390/ello-optimized-75547475.jpg', alt: 'Zdj\u0119cie przedstawia portret m\u0142odej kobiety o szarych w\u0142osach, w niebieskiej czapce, kolorowej chustce na szyi, kolczykach, na niebieskim tle. Z lewej strony zdj\u0119cia umieszczony jest logotyp.' })
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      'Cze\u015B\u0107, jestem Olela, witaj na moim blogu. Na co dzie\u0144 pracuj\u0119 w szeroko poj\u0119tym obszarze sztuki - maluj\u0119 obrazy, fotografuj\u0119, jestem grafikiem komputerowym, tancerk\u0105, nauczycielk\u0105 ta\u0144ca i choreografk\u0105. Z zami\u0142owania r\xF3wnie\u017C gotuj\u0119. Z racji tak mnogich zainteresowa\u0144, zwyk\u0142am m\xF3wi\u0107 o sobie Artystka Uniwersalna. Wierz\u0119 w zanikanie granic i wzajemne przenikanie si\u0119 dyscyplin. Czy mieszam sk\u0142adniki zupy w garnku, czy dodaj\u0119 do ultramaryny odrobin\u0119 karminu, czy nak\u0142adam baz\u0119 pod makija\u017C \u2013 tworz\u0119 sztuk\u0119.'
-    ),
-    _react2.default.createElement(
-      'h2',
-      null,
-      'Po co to komu?'
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      'Misj\u0105 bloga ',
+      'Witaj na blogu Sztuka Uniwersalna, blogu niepospolitym, ciekawym i inteligentnym. Znajdziesz tutaj autorskie felietony i artyku\u0142y, z kt\xF3rych wyniesiesz wiele refleksji. Przeczytasz recenzje bierz\u0105cych wystaw artystycznych. Odnajdziesz makija\u017Cowe inspiracje w postaci makija\u017Cy inspirowanych dzie\u0142em sztuki. Dowiesz si\u0119 co nieco o wielkich mistrzach malarstwa. Nie kr\u0119puj si\u0119, ch\u0142o\u0144 wiedz\u0119. W ka\u017Cdy pierwszy czwartek miesi\u0105ca b\u0119dzie czeka\u0107 na Ciebie MOODboard, czyli tablica ukazuj\u0105ca wp\u0142ywy poszczeg\xF3lnych kierunk\xF3w artystycznych (okres\xF3w) na r\xF3\u017Cne dziedziny tw\xF3rczo\u015Bci. Ju\u017C teraz (z ciekawo\u015Bci) zajrzyj ',
       _react2.default.createElement(
         'a',
-        { href: 'http://sztukauniwersalna.pl' },
-        'sztukauniwersalna.pl'
+        { href: 'http://sztukauniwersalna.pl/2018-07-05-abstrakcja-geometryczna-moodboard' },
+        'tutaj'
       ),
-      ' jest dostrze\u017Cenie i zatarcie granicy pomi\u0119dzy sztuk\u0105 a codzienno\u015Bci\u0105, zintegrowanie \u015Bwiata masowego przekazu, kt\xF3rym jeste\u015Bmy otoczeni z ka\u017Cdej strony, z kultur\u0105. Postaram si\u0119 pokaza\u0107, nieoczywiste na pierwszy rzut oka, konotacje pomi\u0119dzy czynno\u015Bciami okre\u015Blanymi jako \u2018przyziemne\u2019, a kreacj\u0105 artystyczn\u0105. Opr\xF3cz tego wyka\u017C\u0119 wp\u0142ywy poszczeg\xF3lnych tendencji artystycznych na r\xF3\u017Cne dziedziny \u017Cycia. Mam nadzieje, \u017Ce znajdziesz tu dla siebie wiele inspiracji, kt\xF3re prze\u0142o\u017C\u0105 si\u0119 na Twoje postrzeganie rzeczywisto\u015Bci.'
-    ),
-    _react2.default.createElement(
-      'h2',
-      null,
-      'Poznajmy si\u0119 lepiej.'
-    ),
-    _react2.default.createElement(
-      'ul',
-      null,
-      _react2.default.createElement(
-        'li',
-        null,
-        'Jestem Magistrem Sztuk Pi\u0119knych. W 2015 r. obroni\u0142am dyplom  na wydziale malarstwa krakowskiej ASP. Dyplomem by\u0142 solowy spektakl pt.: \u2018Pi\u0119\u0107 P\xF3r Roku\u2019 zrealizowany w jednym z krakowskich teatr\xF3w. W trakcie p\xF3\u0142godzinnej etiudy stara\u0142am si\u0119 wyta\u0144czy\u0107 wszystkie stany emocjonalne towarzysz\u0105ce mi przez 5letnie studia artystyczne. Malowanie ruchem by\u0142o cudownym do\u015Bwiadczeniem i spotka\u0142o si\u0119 z pozytywnym odbiorem komisji i publiczno\u015Bci.'
-      ),
-      _react2.default.createElement(
-        'li',
-        null,
-        'Jak wi\u0119kszo\u015B\u0107 kobiet uwielbiam si\u0119 malowa\u0107 i przebiera\u0107. Staram si\u0119 dok\u0142ada\u0107 do tych czynno\u015Bci teatralny pierwiastek. Wymy\u015Blam posta\u0107, opowiadam po cichu historie, \u2018wchodz\u0119 w rol\u0119\u2019. Najbardziej inspiruj\u0105 mnie futurystyczne klimaty.'
-      ),
-      _react2.default.createElement(
-        'li',
-        null,
-        'Moim najwi\u0119kszym bzikiem s\u0105... buty i szminki. Uwa\u017Cam, \u017Ce kolor na ustach czyni kobiet\u0119 pewniejsz\u0105 siebie. Ah, jak ja kocham te kolory! Blady r\xF3\u017C na sportowo. Jagodowa do ramoneski. Czerwie\u0144 jest raczej zarezerwowana dla klasycznych po\u0142\u0105cze\u0144, dlatego rzadko jej u\u017Cywam. Zdecydowanie bardziej wol\u0119 elektryzuj\u0105cy eklektyzm.'
-      ),
-      _react2.default.createElement(
-        'li',
-        null,
-        'Kiedy robi\u0119 zakupy w sklepie spo\u017Cywczym zazwyczaj w\u0105cham owoce i warzywa. Zapach pozwala na wyobra\u017Cenie smaku. Czasami te\u017C subtelnie zanurzam d\u0142o\u0144 w worku z ziarnami, jak zwyk\u0142a robi\u0107 to Amelia, bohaterka filmu o tym samym tytule.'
-      ),
-      _react2.default.createElement(
-        'li',
-        null,
-        'Do\u015B\u0107 sporo czasu w swoim \u017Cyciu sp\u0119dzi\u0142am w muzeach. Moja najd\u0142u\u017Csza kontemplacja dzie\u0142a sztuki mia\u0142a miejsce na wystawie Mark\u2019a Rothko w Warszawie w 2013\xA0r.  By\u0142am tak zafascynowana tw\xF3rczo\u015Bci\u0105 nowojorczyka (nadal jestem), \u017Ce przed jednym obrazem sp\u0119dzi\u0142am kilka godzin, a panowie ochroniarze dos\u0142ownie musieli wyprasza\u0107 mnie z budynku, gdy przysz\u0142a godzina zamkni\u0119cia ekspozycji.'
-      )
+      ' i zobacz wk\u0142ad abstrakcji geometrycznej w kszta\u0142towanie si\u0119 mody, architektury, kuchni. Na blogu Sztuka Uniwersalna dowiesz si\u0119 wiele o kolorze, jego kulturowym i psychologicznym znaczeniu. Zainspirujesz si\u0119 modowymi stylizacjami, kt\xF3re przygotowuje dla Ciebie z wieczn\u0105 dla mnie ide\u0105 odnajdywania sztuki w ka\u017Cdym aspekcie \u017Cycia.'
     ),
     _react2.default.createElement(
       'p',
       null,
-      'Skoro ju\u017C tyle o mnie wiesz\u2026 mam nadzieje, \u017Ce zostaniesz tu na d\u0142u\u017Cej. Czytaj, ogl\u0105daj, komentuj, kontempluj. Mo\u017Cesz te\u017C polubi\u0107 konto na ',
+      'B\u0119dzie mi niezmiernie mi\u0142o je\u015Bli odwiedzisz r\xF3wnie\u017C ',
       _react2.default.createElement(
         'a',
         { href: 'https://www.facebook.com/sztukauniwersalna/' },
-        'fb'
+        'facebook'
       ),
       ' i ',
       _react2.default.createElement(
         'a',
         { href: 'https://www.instagram.com/sztuka_uniwersalna/' },
-        'insta'
+        'instagram'
       ),
-      ', \u017Ceby by\u0107 na bie\u017C\u0105co. A je\u015Bli chcesz si\u0119 ze mn\u0105 skontkowa\u0107 napisz na adres ',
+      ', tam bowiem dawka Sztuki Uniwersalnej pojawia si\u0119 codziennie.'
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Misja'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Misj\u0105 bloga\xA0',
       _react2.default.createElement(
         'a',
-        { href: 'mailto:sztuka.uniwersalna@gmail.com' },
-        'sztuka.uniwersalna@gmail.com'
+        { href: 'http://sztukauniwersalna.pl' },
+        'sztukauniwersalna.pl'
       ),
-      ' \u2013 b\u0119dzie mi bardzo mi\u0142o!'
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      'Pozdrawiam, Olela'
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/6213404/ello-optimized-adcc0c71.jpg', alt: 'Zdj\u0119cie podzielone jest na dwie cz\u0119\u015Bci, cz\u0119\u015B\u0107 z lewej strony jest zbli\u017Ceniem na kobiecy kolczyk w kszta\u0142cie twarzy. Z prawej strony widzimy po\u0142ow\u0119 twarzy m\u0142odej kobiety z siwymi w\u0142osami, kolorow\u0105 chust\u0105 i kolczykiem w kszta\u0142cie twarzy.' })
+      '\xA0jest dostrze\u017Cenie i zatarcie granicy pomi\u0119dzy sztuk\u0105 a codzienno\u015Bci\u0105, zintegrowanie \u015Bwiata masowego przekazu, kt\xF3rym jeste\u015Bmy otoczeni z ka\u017Cdej strony, z kultur\u0105. Postaram si\u0119 pokaza\u0107, nieoczywiste na pierwszy rzut oka, konotacje pomi\u0119dzy czynno\u015Bciami okre\u015Blanymi jako \u2018przyziemne\u2019, a kreacj\u0105 artystyczn\u0105. Opr\xF3cz tego wyka\u017C\u0119 wp\u0142ywy poszczeg\xF3lnych tendencji artystycznych na r\xF3\u017Cne dziedziny \u017Cycia. Mam nadzieje, \u017Ce znajdziesz tu dla siebie wiele inspiracji, kt\xF3re prze\u0142o\u017C\u0105 si\u0119 na Twoje postrzeganie rzeczywisto\u015Bci.'
     )
   );
 };
-var frontMatter = exports.frontMatter = { "title": "Kim jest Olela?", "date": "2017-09-08T17:17:00.000Z", "permalink": "/kim-jest-olela", "tags": ["olela", "artysta", "blog", "sztuka", "uniwersalna"] };
-var body = exports.body = "<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6213390/ello-optimized-75547475.jpg\" alt=\"Zdjęcie przedstawia portret młodej kobiety o szarych włosach, w niebieskiej czapce, kolorowej chustce na szyi, kolczykach, na niebieskim tle. Z lewej strony zdjęcia umieszczony jest logotyp.\" /></p>\n<p>Cześć, jestem Olela, witaj na moim blogu. Na co dzień pracuję w szeroko pojętym obszarze sztuki - maluję obrazy, fotografuję, jestem grafikiem komputerowym, tancerką, nauczycielką tańca i choreografką. Z zamiłowania również gotuję. Z racji tak mnogich zainteresowań, zwykłam mówić o sobie Artystka Uniwersalna. Wierzę w zanikanie granic i wzajemne przenikanie się dyscyplin. Czy mieszam składniki zupy w garnku, czy dodaję do ultramaryny odrobinę karminu, czy nakładam bazę pod makijaż – tworzę sztukę.</p>\n<h2>Po co to komu?</h2>\n<p>Misją bloga <a href=\"http://sztukauniwersalna.pl\">sztukauniwersalna.pl</a> jest dostrzeżenie i zatarcie granicy pomiędzy sztuką a codziennością, zintegrowanie świata masowego przekazu, którym jesteśmy otoczeni z każdej strony, z kulturą. Postaram się pokazać, nieoczywiste na pierwszy rzut oka, konotacje pomiędzy czynnościami określanymi jako ‘przyziemne’, a kreacją artystyczną. Oprócz tego wykażę wpływy poszczególnych tendencji artystycznych na różne dziedziny życia. Mam nadzieje, że znajdziesz tu dla siebie wiele inspiracji, które przełożą się na Twoje postrzeganie rzeczywistości.</p>\n<h2>Poznajmy się lepiej.</h2>\n<ul>\n<li>Jestem Magistrem Sztuk Pięknych. W 2015 r. obroniłam dyplom  na wydziale malarstwa krakowskiej ASP. Dyplomem był solowy spektakl pt.: ‘Pięć Pór Roku’ zrealizowany w jednym z krakowskich teatrów. W trakcie półgodzinnej etiudy starałam się wytańczyć wszystkie stany emocjonalne towarzyszące mi przez 5letnie studia artystyczne. Malowanie ruchem było cudownym doświadczeniem i spotkało się z pozytywnym odbiorem komisji i publiczności.</li>\n<li>Jak większość kobiet uwielbiam się malować i przebierać. Staram się dokładać do tych czynności teatralny pierwiastek. Wymyślam postać, opowiadam po cichu historie, ‘wchodzę w rolę’. Najbardziej inspirują mnie futurystyczne klimaty.</li>\n<li>Moim największym bzikiem są... buty i szminki. Uważam, że kolor na ustach czyni kobietę pewniejszą siebie. Ah, jak ja kocham te kolory! Blady róż na sportowo. Jagodowa do ramoneski. Czerwień jest raczej zarezerwowana dla klasycznych połączeń, dlatego rzadko jej używam. Zdecydowanie bardziej wolę elektryzujący eklektyzm.</li>\n<li>Kiedy robię zakupy w sklepie spożywczym zazwyczaj wącham owoce i warzywa. Zapach pozwala na wyobrażenie smaku. Czasami też subtelnie zanurzam dłoń w worku z ziarnami, jak zwykła robić to Amelia, bohaterka filmu o tym samym tytule.</li>\n<li>Dość sporo czasu w swoim życiu spędziłam w muzeach. Moja najdłuższa kontemplacja dzieła sztuki miała miejsce na wystawie Mark’a Rothko w Warszawie w 2013 r.  Byłam tak zafascynowana twórczością nowojorczyka (nadal jestem), że przed jednym obrazem spędziłam kilka godzin, a panowie ochroniarze dosłownie musieli wypraszać mnie z budynku, gdy przyszła godzina zamknięcia ekspozycji.</li>\n</ul>\n<p>Skoro już tyle o mnie wiesz… mam nadzieje, że zostaniesz tu na dłużej. Czytaj, oglądaj, komentuj, kontempluj. Możesz też polubić konto na <a href=\"https://www.facebook.com/sztukauniwersalna/\">fb</a> i <a href=\"https://www.instagram.com/sztuka_uniwersalna/\">insta</a>, żeby być na bieżąco. A jeśli chcesz się ze mną skontkować napisz na adres <a href=\"mailto:sztuka.uniwersalna@gmail.com\">sztuka.uniwersalna@gmail.com</a> – będzie mi bardzo miło!</p>\n<p>Pozdrawiam,\nOlela</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6213404/ello-optimized-adcc0c71.jpg\" alt=\"Zdjęcie podzielone jest na dwie części, część z lewej strony jest zbliżeniem na kobiecy kolczyk w kształcie twarzy. Z prawej strony widzimy połowę twarzy młodej kobiety z siwymi włosami, kolorową chustą i kolczykiem w kształcie twarzy.\" /></p>\n";
-var raw = exports.raw = "\n![Zdjęcie przedstawia portret młodej kobiety o szarych włosach, w niebieskiej czapce, kolorowej chustce na szyi, kolczykach, na niebieskim tle. Z lewej strony zdjęcia umieszczony jest logotyp.](https://assets1.ello.co/uploads/asset/attachment/6213390/ello-optimized-75547475.jpg)\n\nCześć, jestem Olela, witaj na moim blogu. Na co dzień pracuję w szeroko pojętym obszarze sztuki - maluję obrazy, fotografuję, jestem grafikiem komputerowym, tancerką, nauczycielką tańca i choreografką. Z zamiłowania również gotuję. Z racji tak mnogich zainteresowań, zwykłam mówić o sobie Artystka Uniwersalna. Wierzę w zanikanie granic i wzajemne przenikanie się dyscyplin. Czy mieszam składniki zupy w garnku, czy dodaję do ultramaryny odrobinę karminu, czy nakładam bazę pod makijaż – tworzę sztukę.\n\n## Po co to komu?\n\nMisją bloga sztukauniwersalna.pl jest dostrzeżenie i zatarcie granicy pomiędzy sztuką a codziennością, zintegrowanie świata masowego przekazu, którym jesteśmy otoczeni z każdej strony, z kulturą. Postaram się pokazać, nieoczywiste na pierwszy rzut oka, konotacje pomiędzy czynnościami określanymi jako ‘przyziemne’, a kreacją artystyczną. Oprócz tego wykażę wpływy poszczególnych tendencji artystycznych na różne dziedziny życia. Mam nadzieje, że znajdziesz tu dla siebie wiele inspiracji, które przełożą się na Twoje postrzeganie rzeczywistości.\n\n## Poznajmy się lepiej.\n\n* Jestem Magistrem Sztuk Pięknych. W 2015 r. obroniłam dyplom  na wydziale malarstwa krakowskiej ASP. Dyplomem był solowy spektakl pt.: ‘Pięć Pór Roku’ zrealizowany w jednym z krakowskich teatrów. W trakcie półgodzinnej etiudy starałam się wytańczyć wszystkie stany emocjonalne towarzyszące mi przez 5letnie studia artystyczne. Malowanie ruchem było cudownym doświadczeniem i spotkało się z pozytywnym odbiorem komisji i publiczności.\n* Jak większość kobiet uwielbiam się malować i przebierać. Staram się dokładać do tych czynności teatralny pierwiastek. Wymyślam postać, opowiadam po cichu historie, ‘wchodzę w rolę’. Najbardziej inspirują mnie futurystyczne klimaty.\n* Moim największym bzikiem są… buty i szminki. Uważam, że kolor na ustach czyni kobietę pewniejszą siebie. Ah, jak ja kocham te kolory! Blady róż na sportowo. Jagodowa do ramoneski. Czerwień jest raczej zarezerwowana dla klasycznych połączeń, dlatego rzadko jej używam. Zdecydowanie bardziej wolę elektryzujący eklektyzm.\n* Kiedy robię zakupy w sklepie spożywczym zazwyczaj wącham owoce i warzywa. Zapach pozwala na wyobrażenie smaku. Czasami też subtelnie zanurzam dłoń w worku z ziarnami, jak zwykła robić to Amelia, bohaterka filmu o tym samym tytule.\n* Dość sporo czasu w swoim życiu spędziłam w muzeach. Moja najdłuższa kontemplacja dzieła sztuki miała miejsce na wystawie Mark’a Rothko w Warszawie w 2013 r.  Byłam tak zafascynowana twórczością nowojorczyka (nadal jestem), że przed jednym obrazem spędziłam kilka godzin, a panowie ochroniarze dosłownie musieli wypraszać mnie z budynku, gdy przyszła godzina zamknięcia ekspozycji.\n\nSkoro już tyle o mnie wiesz… mam nadzieje, że zostaniesz tu na dłużej. Czytaj, oglądaj, komentuj, kontempluj. Możesz też polubić konto na [fb](https://www.facebook.com/sztukauniwersalna/) i [insta](https://www.instagram.com/sztuka_uniwersalna/), żeby być na bieżąco. A jeśli chcesz się ze mną skontkować napisz na adres sztuka.uniwersalna@gmail.com – będzie mi bardzo miło!\n\nPozdrawiam,\nOlela\n\n\n![Zdjęcie podzielone jest na dwie części, część z lewej strony jest zbliżeniem na kobiecy kolczyk w kształcie twarzy. Z prawej strony widzimy połowę twarzy młodej kobiety z siwymi włosami, kolorową chustą i kolczykiem w kształcie twarzy.](https://assets2.ello.co/uploads/asset/attachment/6213404/ello-optimized-adcc0c71.jpg)";
+var frontMatter = exports.frontMatter = { "title": "Sztuka Uniwersalna", "date": "2017-09-08T17:17:00.000Z", "permalink": "/kim-jest-olela", "tags": ["olela", "artysta", "blog", "sztuka", "uniwersalna"] };
+var body = exports.body = "<p>Witaj na blogu Sztuka Uniwersalna, blogu niepospolitym, ciekawym i inteligentnym. Znajdziesz tutaj autorskie felietony i artykuły, z których wyniesiesz wiele refleksji. Przeczytasz recenzje bierzących wystaw artystycznych. Odnajdziesz makijażowe inspiracje w postaci makijaży inspirowanych dziełem sztuki. Dowiesz się co nieco o wielkich mistrzach malarstwa. Nie krępuj się, chłoń wiedzę. W każdy pierwszy czwartek miesiąca będzie czekać na Ciebie MOODboard, czyli tablica ukazująca wpływy poszczególnych kierunków artystycznych (okresów) na różne dziedziny twórczości. Już teraz (z ciekawości) zajrzyj <a href=\"http://sztukauniwersalna.pl/2018-07-05-abstrakcja-geometryczna-moodboard\">tutaj</a> i zobacz wkład abstrakcji geometrycznej w kształtowanie się mody, architektury, kuchni. Na blogu Sztuka Uniwersalna dowiesz się wiele o kolorze, jego kulturowym i psychologicznym znaczeniu. Zainspirujesz się modowymi stylizacjami, które przygotowuje dla Ciebie z wieczną dla mnie ideą odnajdywania sztuki w każdym aspekcie życia.</p>\n<p>Będzie mi niezmiernie miło jeśli odwiedzisz również <a href=\"https://www.facebook.com/sztukauniwersalna/\">facebook</a> i <a href=\"https://www.instagram.com/sztuka_uniwersalna/\">instagram</a>, tam bowiem dawka Sztuki Uniwersalnej pojawia się codziennie.</p>\n<h2>Misja</h2>\n<p>Misją bloga <a href=\"http://sztukauniwersalna.pl\">sztukauniwersalna.pl</a> jest dostrzeżenie i zatarcie granicy pomiędzy sztuką a codziennością, zintegrowanie świata masowego przekazu, którym jesteśmy otoczeni z każdej strony, z kulturą. Postaram się pokazać, nieoczywiste na pierwszy rzut oka, konotacje pomiędzy czynnościami określanymi jako ‘przyziemne’, a kreacją artystyczną. Oprócz tego wykażę wpływy poszczególnych tendencji artystycznych na różne dziedziny życia. Mam nadzieje, że znajdziesz tu dla siebie wiele inspiracji, które przełożą się na Twoje postrzeganie rzeczywistości.</p>\n";
+var raw = exports.raw = "\nWitaj na blogu Sztuka Uniwersalna, blogu niepospolitym, ciekawym i inteligentnym. Znajdziesz tutaj autorskie felietony i artykuły, z których wyniesiesz wiele refleksji. Przeczytasz recenzje bierzących wystaw artystycznych. Odnajdziesz makijażowe inspiracje w postaci makijaży inspirowanych dziełem sztuki. Dowiesz się co nieco o wielkich mistrzach malarstwa. Nie krępuj się, chłoń wiedzę. W każdy pierwszy czwartek miesiąca będzie czekać na Ciebie MOODboard, czyli tablica ukazująca wpływy poszczególnych kierunków artystycznych (okresów) na różne dziedziny twórczości. Już teraz (z ciekawości) zajrzyj [tutaj](http://sztukauniwersalna.pl/2018-07-05-abstrakcja-geometryczna-moodboard) i zobacz wkład abstrakcji geometrycznej w kształtowanie się mody, architektury, kuchni. Na blogu Sztuka Uniwersalna dowiesz się wiele o kolorze, jego kulturowym i psychologicznym znaczeniu. Zainspirujesz się modowymi stylizacjami, które przygotowuje dla Ciebie z wieczną dla mnie ideą odnajdywania sztuki w każdym aspekcie życia. \n\nBędzie mi niezmiernie miło jeśli odwiedzisz również [facebook](https://www.facebook.com/sztukauniwersalna/) i [instagram](https://www.instagram.com/sztuka_uniwersalna/), tam bowiem dawka Sztuki Uniwersalnej pojawia się codziennie.\n\n\n\n\n## Misja \n\nMisją bloga sztukauniwersalna.pl jest dostrzeżenie i zatarcie granicy pomiędzy sztuką a codziennością, zintegrowanie świata masowego przekazu, którym jesteśmy otoczeni z każdej strony, z kulturą. Postaram się pokazać, nieoczywiste na pierwszy rzut oka, konotacje pomiędzy czynnościami określanymi jako ‘przyziemne’, a kreacją artystyczną. Oprócz tego wykażę wpływy poszczególnych tendencji artystycznych na różne dziedziny życia. Mam nadzieje, że znajdziesz tu dla siebie wiele inspiracji, które przełożą się na Twoje postrzeganie rzeczywistości.";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
