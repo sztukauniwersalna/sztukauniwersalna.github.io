@@ -2403,7 +2403,7 @@ var component = exports.component = function component(data) {
     )
   );
 };
-var frontMatter = exports.frontMatter = { "title": "Sztuka Uniwersalna", "date": "2017-07-15T20:12:00.000Z", "permalink": "/", "tags": ["index", "sztuka", "uniwersalna", "kreacja", "moda", "makijaż", "gotowanie", "moodboard", "artysta", "art"], "description": "Sztuka w codzienności. Znajdź sposoby na odnalezienie odrobiny sztuki w codziennych czynnościach takich jak gotowanie, makijaż, oraz moda. Sztuka współczesna, sztuka abstrakcyjna, inspiracje dziełami wielkich twórców.", "feed": false };
+var frontMatter = exports.frontMatter = { "title": "Strona Główna", "date": "2017-07-15T20:12:00.000Z", "permalink": "/", "tags": ["index", "sztuka", "uniwersalna", "kreacja", "moda", "makijaż", "gotowanie", "moodboard", "artysta", "art"], "description": "Sztuka w codzienności. Znajdź sposoby na odnalezienie odrobiny sztuki w codziennych czynnościach takich jak gotowanie, makijaż, oraz moda. Sztuka współczesna, sztuka abstrakcyjna, inspiracje dziełami wielkich twórców.", "feed": false };
 var body = exports.body = "<div>\n  <Feed {...data} feed={ data.website.getCollectionOfTitle('Posts').pages } />\n</div>\n";
 var raw = exports.raw = "\n<div>\n  <Feed {...data} feed={ data.website.getCollectionOfTitle('Posts').pages } />\n</div>\n\n";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
