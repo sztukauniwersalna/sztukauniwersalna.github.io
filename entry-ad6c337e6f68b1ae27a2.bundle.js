@@ -2445,36 +2445,6 @@ var component = exports.component = function component(data) {
     _ContentLimiter2.default,
     _extends({ limit: 5 }, data),
     _react2.default.createElement(
-      'p',
-      null,
-      'Blog - ',
-      _react2.default.createElement(
-        'a',
-        { href: 'http://sztukauniwersalna.pl/' },
-        'http://sztukauniwersalna.pl/'
-      )
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      'Facebook - ',
-      _react2.default.createElement(
-        'a',
-        { href: 'https://www.facebook.com/sztukauniwersalna/' },
-        'https://www.facebook.com/sztukauniwersalna/'
-      )
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      'Instagram - ',
-      _react2.default.createElement(
-        'a',
-        { href: 'https://www.instagram.com/sztuka_uniwersalna/' },
-        'https://www.instagram.com/sztuka_uniwersalna/'
-      )
-    ),
-    _react2.default.createElement(
       'h2',
       null,
       'Dla Czytelnik\xF3w'
@@ -2499,6 +2469,22 @@ var component = exports.component = function component(data) {
       'p',
       null,
       'Pozdrawiam i do napisania :)'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement(
+        'a',
+        { href: 'https://www.facebook.com/sztukauniwersalna/' },
+        'facebook.com/sztukauniwersalna'
+      ),
+      _react2.default.createElement('br', null),
+      _react2.default.createElement(
+        'a',
+        { href: 'https://www.instagram.com/sztuka_uniwersalna/' },
+        'instagram.com/sztuka_uniwersalna'
+      ),
+      _react2.default.createElement('br', null)
     ),
     _react2.default.createElement(
       'h2',
@@ -2622,15 +2608,17 @@ var component = exports.component = function component(data) {
       'Zastrzegamy sobie prawo do odmowy wsp\xF3\u0142pracy w przypadku gdy produkt nie spe\u0142nia standard\xF3w jako\u015Bciowych Sztuki Uniwersalnej.'
     ),
     _react2.default.createElement(
-      'p',
+      'h2',
       null,
-      'Marki, z kt\xF3rymi wsp\xF3\u0142pracowali\u015Bmy'
-    )
+      'Nasi Partnerzy'
+    ),
+    _react2.default.createElement('div', { style: { display: 'inline-block', width: '440px', height: '220px', background: 'url(/rimmel-logo.jpg)' } }),
+    _react2.default.createElement('div', { style: { display: 'inline-block', width: '440px', height: '220px', background: 'url(/kontigo-logo.jpg)' } })
   );
 };
 var frontMatter = exports.frontMatter = { "title": "Kontakt", "date": "2018-10-18T19:49:00.000Z" };
-var body = exports.body = "<p>Blog - <a href=\"http://sztukauniwersalna.pl/\">http://sztukauniwersalna.pl/</a></p>\n<p>Facebook - <a href=\"https://www.facebook.com/sztukauniwersalna/\">https://www.facebook.com/sztukauniwersalna/</a></p>\n<p>Instagram - <a href=\"https://www.instagram.com/sztuka_uniwersalna/\">https://www.instagram.com/sztuka_uniwersalna/</a></p>\n<h2>Dla Czytelników</h2>\n<p>Jeśli podoba Ci się to, co robimy doceń to zostawiając komentarz. Z kolei najszybszą i najwygodniejszą formą kontaktu z redakcją Sztuki Uniwersalnej jest <a href=\"https://www.facebook.com/sztukauniwersalna\">facebook</a>.</p>\n<p>Dzięki, że jesteś częścią naszej społeczności!</p>\n<p>Pozdrawiam i do napisania :)</p>\n<h2>Dla Partnerów Biznesowych</h2>\n<p><strong>Co wyróżnia Sztukę Uniwersalną?</strong></p>\n<p>Blog Sztuka Uniwersalna narodził się z pasji do Sztuki i idei odkrywania jej w życiu codziennym. Wszystkie teksty, zdjęcia, kolaże są autorskie, co stanowi o unikatowej wartości prezentowanych treści.\nNie jesteśmy kolejnym blogiem ‘ładnych, jasnych zdjęć’ i opisów leniwych dni. Chcemy zachęcać do odkrywania sztuki, tworzenia jej, zdobywania specyficznej wiedzy. Dostarczamy inspiracji z zakresu mody, makijażu. Pomagamy w wyborze dobrych kosmetyków i wartościowych treści. Tworzymy nową, uniwersalną rzeczywistość.</p>\n<h3>Treść bloga</h3>\n<p>Makijaż (w tym również recenzje produktów kosmetycznych) stanowi 30% treści bloga. Posty z tej kategorii występują w dwóch rodzajach:</p>\n<ul>\n<li>Makijaż inspirowany obrazem – autorski makijaż artystyczny, profesjonalne zdjęcia, artykuł.</li>\n<li>Moje Wybory – recenzje kosmetyków, profesjonalne zdjęcia.</li>\n</ul>\n<p>Posty z serii makijażowej niosą ze sobą wysoką wartość dodaną w postaci wiedzy z zakresu historii sztuki. Większość fotografii wykonywana jest w warunkach studyjnych oraz poddawana profesjonalnej obróbce.</p>\n<p>Moda stanowi 30% treści dostarczanych przez inicjatywę Sztuka Uniwersalna:</p>\n<ul>\n<li>Stylizacje – autorskie stylizacje modowe nadchodzących trendów lub \ttematyczne, profesjonalne zdjęcia, artykuł</li>\n<li>Moje Wybory – akcesoria, profesjonalne zdjęcia, opis, recenzja</li>\n</ul>\n<p>Każdy modowy post przygotowywany jest w oparciu o szerokiego zakresu wiedzę  wyniesioną z wyższej uczelni artystycznej. Świadoma kompozycja, odpowiedni dobór kolorów i znajomość historii mody pozwala na subtelne żąglowanie stylami.</p>\n<p>40% treści poświęcone jest Sztuce. Do tej kategorii należą:</p>\n<ul>\n<li>Moodboard – infografika zawierająca przykłady dzieł sztuki, mody oraz designu reprezentujące dany nurt w sztuce lub tendencję artystyczną.</li>\n<li>O kolorach – posty poświęcone kolorom, oraz ich znaczeniu i zastosowaniu, artystyczne zdjęcia</li>\n<li>Wystawa –recenzje z bieżących wystaw wraz z profesjonalnymi zdjęciami</li>\n<li>Autorskie felietony</li>\n</ul>\n<p><strong>W sprawach kupna przestrzeni reklamowej lub innego rodzaju współpracy zapraszamy do kontaktu mailowego: <a href=\"mailto:oferty@sztuka.studio\">oferty@sztuka.studio</a>.</strong></p>\n<p>Zastrzegamy sobie prawo do odmowy współpracy w przypadku gdy produkt nie spełnia standardów jakościowych Sztuki Uniwersalnej.</p>\n<p>Marki, z którymi współpracowaliśmy</p>\n";
-var raw = exports.raw = "\nBlog - http://sztukauniwersalna.pl/\n\nFacebook - https://www.facebook.com/sztukauniwersalna/\n\nInstagram - https://www.instagram.com/sztuka_uniwersalna/\n\n\n## Dla Czytelników\n\nJeśli podoba Ci się to, co robimy doceń to zostawiając komentarz. Z kolei najszybszą i najwygodniejszą formą kontaktu z redakcją Sztuki Uniwersalnej jest [facebook](https://www.facebook.com/sztukauniwersalna).\n\nDzięki, że jesteś częścią naszej społeczności!\n\nPozdrawiam i do napisania :)\n\n\n## Dla Partnerów Biznesowych\n\n**Co wyróżnia Sztukę Uniwersalną?**\n\nBlog Sztuka Uniwersalna narodził się z pasji do Sztuki i idei odkrywania jej w życiu codziennym. Wszystkie teksty, zdjęcia, kolaże są autorskie, co stanowi o unikatowej wartości prezentowanych treści.\nNie jesteśmy kolejnym blogiem ‘ładnych, jasnych zdjęć’ i opisów leniwych dni. Chcemy zachęcać do odkrywania sztuki, tworzenia jej, zdobywania specyficznej wiedzy. Dostarczamy inspiracji z zakresu mody, makijażu. Pomagamy w wyborze dobrych kosmetyków i wartościowych treści. Tworzymy nową, uniwersalną rzeczywistość.\n\n\n### Treść bloga\n\nMakijaż (w tym również recenzje produktów kosmetycznych) stanowi 30% treści bloga. Posty z tej kategorii występują w dwóch rodzajach:\n\n* Makijaż inspirowany obrazem – autorski makijaż artystyczny, profesjonalne zdjęcia, artykuł.\n* Moje Wybory – recenzje kosmetyków, profesjonalne zdjęcia.\n\nPosty z serii makijażowej niosą ze sobą wysoką wartość dodaną w postaci wiedzy z zakresu historii sztuki. Większość fotografii wykonywana jest w warunkach studyjnych oraz poddawana profesjonalnej obróbce.\n\nModa stanowi 30% treści dostarczanych przez inicjatywę Sztuka Uniwersalna:\n\t\n* Stylizacje – autorskie stylizacje modowe nadchodzących trendów lub \ttematyczne, profesjonalne zdjęcia, artykuł\n* Moje Wybory – akcesoria, profesjonalne zdjęcia, opis, recenzja\n\nKażdy modowy post przygotowywany jest w oparciu o szerokiego zakresu wiedzę  wyniesioną z wyższej uczelni artystycznej. Świadoma kompozycja, odpowiedni dobór kolorów i znajomość historii mody pozwala na subtelne żąglowanie stylami.\n\n40% treści poświęcone jest Sztuce. Do tej kategorii należą:\n\n* Moodboard – infografika zawierająca przykłady dzieł sztuki, mody oraz designu reprezentujące dany nurt w sztuce lub tendencję artystyczną.\n* O kolorach – posty poświęcone kolorom, oraz ich znaczeniu i zastosowaniu, artystyczne zdjęcia\n* Wystawa –recenzje z bieżących wystaw wraz z profesjonalnymi zdjęciami\n* Autorskie felietony\n\n\n**W sprawach kupna przestrzeni reklamowej lub innego rodzaju współpracy zapraszamy do kontaktu mailowego: [oferty@sztuka.studio](mailto:oferty@sztuka.studio).**\n\nZastrzegamy sobie prawo do odmowy współpracy w przypadku gdy produkt nie spełnia standardów jakościowych Sztuki Uniwersalnej.\n\n\nMarki, z którymi współpracowaliśmy\n";
+var body = exports.body = "<h2>Dla Czytelników</h2>\n<p>Jeśli podoba Ci się to, co robimy doceń to zostawiając komentarz. Z kolei najszybszą i najwygodniejszą formą kontaktu z redakcją Sztuki Uniwersalnej jest <a href=\"https://www.facebook.com/sztukauniwersalna\">facebook</a>.</p>\n<p>Dzięki, że jesteś częścią naszej społeczności!</p>\n<p>Pozdrawiam i do napisania :)</p>\n<p><a href=\"https://www.facebook.com/sztukauniwersalna/\">facebook.com/sztukauniwersalna</a><br/>\n<a href=\"https://www.instagram.com/sztuka_uniwersalna/\">instagram.com/sztuka_uniwersalna</a><br/></p>\n<h2>Dla Partnerów Biznesowych</h2>\n<p><strong>Co wyróżnia Sztukę Uniwersalną?</strong></p>\n<p>Blog Sztuka Uniwersalna narodził się z pasji do Sztuki i idei odkrywania jej w życiu codziennym. Wszystkie teksty, zdjęcia, kolaże są autorskie, co stanowi o unikatowej wartości prezentowanych treści.\nNie jesteśmy kolejnym blogiem ‘ładnych, jasnych zdjęć’ i opisów leniwych dni. Chcemy zachęcać do odkrywania sztuki, tworzenia jej, zdobywania specyficznej wiedzy. Dostarczamy inspiracji z zakresu mody, makijażu. Pomagamy w wyborze dobrych kosmetyków i wartościowych treści. Tworzymy nową, uniwersalną rzeczywistość.</p>\n<h3>Treść bloga</h3>\n<p>Makijaż (w tym również recenzje produktów kosmetycznych) stanowi 30% treści bloga. Posty z tej kategorii występują w dwóch rodzajach:</p>\n<ul>\n<li>Makijaż inspirowany obrazem – autorski makijaż artystyczny, profesjonalne zdjęcia, artykuł.</li>\n<li>Moje Wybory – recenzje kosmetyków, profesjonalne zdjęcia.</li>\n</ul>\n<p>Posty z serii makijażowej niosą ze sobą wysoką wartość dodaną w postaci wiedzy z zakresu historii sztuki. Większość fotografii wykonywana jest w warunkach studyjnych oraz poddawana profesjonalnej obróbce.</p>\n<p>Moda stanowi 30% treści dostarczanych przez inicjatywę Sztuka Uniwersalna:</p>\n<ul>\n<li>Stylizacje – autorskie stylizacje modowe nadchodzących trendów lub \ttematyczne, profesjonalne zdjęcia, artykuł</li>\n<li>Moje Wybory – akcesoria, profesjonalne zdjęcia, opis, recenzja</li>\n</ul>\n<p>Każdy modowy post przygotowywany jest w oparciu o szerokiego zakresu wiedzę  wyniesioną z wyższej uczelni artystycznej. Świadoma kompozycja, odpowiedni dobór kolorów i znajomość historii mody pozwala na subtelne żąglowanie stylami.</p>\n<p>40% treści poświęcone jest Sztuce. Do tej kategorii należą:</p>\n<ul>\n<li>Moodboard – infografika zawierająca przykłady dzieł sztuki, mody oraz designu reprezentujące dany nurt w sztuce lub tendencję artystyczną.</li>\n<li>O kolorach – posty poświęcone kolorom, oraz ich znaczeniu i zastosowaniu, artystyczne zdjęcia</li>\n<li>Wystawa –recenzje z bieżących wystaw wraz z profesjonalnymi zdjęciami</li>\n<li>Autorskie felietony</li>\n</ul>\n<p><strong>W sprawach kupna przestrzeni reklamowej lub innego rodzaju współpracy zapraszamy do kontaktu mailowego: <a href=\"mailto:oferty@sztuka.studio\">oferty@sztuka.studio</a>.</strong></p>\n<p>Zastrzegamy sobie prawo do odmowy współpracy w przypadku gdy produkt nie spełnia standardów jakościowych Sztuki Uniwersalnej.</p>\n<h2>Nasi Partnerzy</h2>\n<div style={{ display: 'inline-block', width: '440px', height: '220px', background: 'url(/rimmel-logo.jpg)', }} />\n<div style={{ display: 'inline-block', width: '440px', height: '220px', background: 'url(/kontigo-logo.jpg)', }} />\n";
+var raw = exports.raw = "\n## Dla Czytelników\n\nJeśli podoba Ci się to, co robimy doceń to zostawiając komentarz. Z kolei najszybszą i najwygodniejszą formą kontaktu z redakcją Sztuki Uniwersalnej jest [facebook](https://www.facebook.com/sztukauniwersalna).\n\nDzięki, że jesteś częścią naszej społeczności!\n\nPozdrawiam i do napisania :)\n\n[facebook.com/sztukauniwersalna](https://www.facebook.com/sztukauniwersalna/)<br/>\n[instagram.com/sztuka_uniwersalna](https://www.instagram.com/sztuka_uniwersalna/)<br/>\n\n## Dla Partnerów Biznesowych\n\n**Co wyróżnia Sztukę Uniwersalną?**\n\nBlog Sztuka Uniwersalna narodził się z pasji do Sztuki i idei odkrywania jej w życiu codziennym. Wszystkie teksty, zdjęcia, kolaże są autorskie, co stanowi o unikatowej wartości prezentowanych treści.\nNie jesteśmy kolejnym blogiem ‘ładnych, jasnych zdjęć’ i opisów leniwych dni. Chcemy zachęcać do odkrywania sztuki, tworzenia jej, zdobywania specyficznej wiedzy. Dostarczamy inspiracji z zakresu mody, makijażu. Pomagamy w wyborze dobrych kosmetyków i wartościowych treści. Tworzymy nową, uniwersalną rzeczywistość.\n\n### Treść bloga\n\nMakijaż (w tym również recenzje produktów kosmetycznych) stanowi 30% treści bloga. Posty z tej kategorii występują w dwóch rodzajach:\n\n* Makijaż inspirowany obrazem – autorski makijaż artystyczny, profesjonalne zdjęcia, artykuł.\n* Moje Wybory – recenzje kosmetyków, profesjonalne zdjęcia.\n\nPosty z serii makijażowej niosą ze sobą wysoką wartość dodaną w postaci wiedzy z zakresu historii sztuki. Większość fotografii wykonywana jest w warunkach studyjnych oraz poddawana profesjonalnej obróbce.\n\nModa stanowi 30% treści dostarczanych przez inicjatywę Sztuka Uniwersalna:\n\n* Stylizacje – autorskie stylizacje modowe nadchodzących trendów lub \ttematyczne, profesjonalne zdjęcia, artykuł\n* Moje Wybory – akcesoria, profesjonalne zdjęcia, opis, recenzja\n\nKażdy modowy post przygotowywany jest w oparciu o szerokiego zakresu wiedzę  wyniesioną z wyższej uczelni artystycznej. Świadoma kompozycja, odpowiedni dobór kolorów i znajomość historii mody pozwala na subtelne żąglowanie stylami.\n\n40% treści poświęcone jest Sztuce. Do tej kategorii należą:\n\n* Moodboard – infografika zawierająca przykłady dzieł sztuki, mody oraz designu reprezentujące dany nurt w sztuce lub tendencję artystyczną.\n* O kolorach – posty poświęcone kolorom, oraz ich znaczeniu i zastosowaniu, artystyczne zdjęcia\n* Wystawa –recenzje z bieżących wystaw wraz z profesjonalnymi zdjęciami\n* Autorskie felietony\n\n**W sprawach kupna przestrzeni reklamowej lub innego rodzaju współpracy zapraszamy do kontaktu mailowego: [oferty@sztuka.studio](mailto:oferty@sztuka.studio).**\n\nZastrzegamy sobie prawo do odmowy współpracy w przypadku gdy produkt nie spełnia standardów jakościowych Sztuki Uniwersalnej.\n\n## Nasi Partnerzy\n\n<div style={{ display: 'inline-block', width: '440px', height: '220px', background: 'url(/rimmel-logo.jpg)', }} />\n<div style={{ display: 'inline-block', width: '440px', height: '220px', background: 'url(/kontigo-logo.jpg)', }} />\n\n";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
