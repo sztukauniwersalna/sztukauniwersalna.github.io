@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_145__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_146__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(160);
+var Feed_1 = __webpack_require__(161);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(162);
+var Recipe_1 = __webpack_require__(163);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(164);
+var Root_1 = __webpack_require__(165);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(146);
+var s = __webpack_require__(147);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(147);
+var s = __webpack_require__(148);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(65),
-UPLOADS: __webpack_require__(140),
-ROOT: __webpack_require__(141),
-LAYOUTS: __webpack_require__(142),
-INCLUDES: __webpack_require__(166)};
+UPLOADS: __webpack_require__(141),
+ROOT: __webpack_require__(142),
+LAYOUTS: __webpack_require__(143),
+INCLUDES: __webpack_require__(167)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(166)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(148);
+var s = __webpack_require__(149);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(152);
+var s = __webpack_require__(153);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(165);
+__webpack_require__(166);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(143);
+var react_disqus_comments_1 = __webpack_require__(144);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(157);
-var s = __webpack_require__(159);
+var FacebookLike_1 = __webpack_require__(158);
+var s = __webpack_require__(160);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(149);
-var s = __webpack_require__(150);
+__webpack_require__(150);
+var s = __webpack_require__(151);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(151);
+var s = __webpack_require__(152);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(154);
+var s = __webpack_require__(155);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(153);
+var s = __webpack_require__(154);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(155);
+var s = __webpack_require__(156);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(156);
+var s = __webpack_require__(157);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(161);
+var s = __webpack_require__(162);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(173);
-var menu_1 = __webpack_require__(174);
+var tags_1 = __webpack_require__(174);
+var menu_1 = __webpack_require__(175);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2878,7 +2878,8 @@ var map = {
 	"./2018-09-27-moje-wybory-wrzesien-2018.markdown": 136,
 	"./2018-10-02-wystawa-bestia-bog-i-linia.markdown": 137,
 	"./2018-10-04-manieryzm-moodboard.markdown": 138,
-	"./2018-10-10-make-up-inspirowany-obrazem-kompozycja-viii-by-wassily-kandinsky.markdown": 139
+	"./2018-10-10-make-up-inspirowany-obrazem-kompozycja-viii-by-wassily-kandinsky.markdown": 139,
+	"./2018-10-24-moje-wybory-pazdziernik-2018.markdown": 140
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -12233,15 +12234,111 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia portret kobiety w artystycznym
 
 /***/ }),
 /* 140 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 140;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'olela-narrative',
+      null,
+      'Dzwoni budzik. Leniwie otwieram oczy. Za zimn\u0105 szyb\u0105 zago\u015Bci\u0142a poranna mg\u0142a. Budynki i drzewa gin\u0105 w rozlanym mleku jesieni. Przez kr\xF3tki moment rozwa\u017Cam ponowne zamkni\u0119cie powiek i powr\xF3t do krainy sn\xF3w. Tam czuj\u0119 si\u0119 ciep\u0142o i bezpiecznie. Znajduj\u0119 schronienie w cieniu zielonej palmy. Nie jest to schronienie przed zimnem, lecz przed s\u0142o\u0144cem. Rozgrzany piasek delikatnie \u0142askocze moje opuszki palc\xF3w, a wiatr muska policzek niczym najdelikatniejszy p\u0119dzel do r\xF3\u017Cu. Patrz\u0119 przed siebie na krystalicznie czyst\u0105 wod\u0119 w odcieniach turkusu. Wszystko dooko\u0142a zdaje si\u0119 oddycha\u0107 razem ze mn\u0105 w perfekcyjnej harmonii. Zamykam w d\u0142oni odrobin\u0119 ziarenek piasku, kt\xF3re nagle zamieniaj\u0105 si\u0119 w z\u0142oty py\u0142. Wykorzystuj\u0119 go do przyozdobienia skroni i powiek. Chust\u0119, na kt\xF3rej siedzia\u0142am przewi\u0105zuj\u0119 w pasie i wychodz\u0119 z cienia w kierunku oceanu. Nagle orientuj\u0119 si\u0119, \u017Ce woda zmieni\u0142a swoj\u0105 konsystencj\u0119. Nie jest ju\u017C wodnist\u0105 ciecz\u0105, lecz miodem o pi\u0119knym zapachu. Wykorzystuj\u0119 go jako maseczk\u0119 na podra\u017Cnione s\u0142o\u0144cem policzki. Stoj\u0119 tak przez chwil\u0119 delektuj\u0105c si\u0119 s\u0142odycz\u0105 sytuacji. Nagle chusta na moich biodrach przemienia si\u0119 w prze\u017Aroczyst\u0105 tkanin\u0119 swoj\u0105 struktur\u0105 przypominaj\u0105c\u0105 transparentn\u0105 ta\u015Bm\u0119 klej\u0105c\u0105. Jestem zdezorientowana, nie wiem, co si\u0119 dzieje. Zza li\u015Bci palm wy\u0142aniaj\u0105 si\u0119 kobiece sylwetki w podobnych strojach. Jedna z nich niesie ze sob\u0105 \u015Blady krwi na \u015Bnie\u017Cnobia\u0142ej sukience. Zaraz, zaraz... Sk\u0105d\u015B znam ten look \u2013 szepcz\u0119 do siebie w my\u015Blach. Szybko otwieram schowany w pla\u017Cowym koszyku kalendarz. Z\u0142ote cyfry na pierwszej stronie ukazuj\u0105 rok 1994. Przenios\u0142am si\u0119 w czasie i wyl\u0105dowa\u0142am na pokazie \u2018Nihilism\u2019 Aleksandra McQueena. Siedz\u0119 w pierwszym rz\u0119dzie i podziwiam szokuj\u0105c\u0105, jak na tamten czas kreacj\u0119 artystyczn\u0105. Modelki krocz\u0105 po wybiegu z pe\u0142n\u0105 gracj\u0105. Nagle rozlega si\u0119 g\u0142o\u015Bny d\u017Awi\u0119k alarmu. Publiczno\u015B\u0107 panikuje i wybiega z sali. Zosta\u0142am sama po\u015Brodku sceny. Delektowa\u0142am si\u0119 pierwszoplanow\u0105 rol\u0105, kiedy obraz sytuacji uleg\u0142 rozmazaniu. Unios\u0142am zm\u0119czone marzeniem powieki i wy\u0142\u0105czy\u0142am budzik. Witaj pa\u017Adzierniku.'
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Makija\u017C: kolor\xF3wka'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Rok po \u015Bwiatowej premierze linii kosmetyk\xF3w autorstwa Rihanny marka w ko\u0144cu pojawia si\u0119 w Polsce. 7 wrze\u015Bnia na stronach internetowych i w sklepach stacjonarnych zago\u015Bci\u0142y d\u0142ugo wyczekiwane szafy kosmetyczne Fenty Beauty. Artystka znana jest ze swojego zami\u0142owania do makija\u017Cu glow \u2013 im wi\u0119cej b\u0142ysku, tym lepiej. Podobno sama nadzoruje formu\u0142y swoich kosmetyk\xF3w i wymy\u015Bla ich nowe wersje. W ofercie Fenty znajduj\u0119 si\u0119 a\u017C 40 odcieni podk\u0142adu! Roz\u015Bwietlacze z serii \u2018KillaWatt\u2019 mieni\u0105 si\u0119 tysi\u0105cem drobinek i seri\u0105 wyj\u0105tkowych barw. Mo\u017Cemy wybra\u0107 wersj\u0119 tradycyjn\u0105, dopasowan\u0105 do naszej karnacji lub pokusi\u0107 si\u0119 na dwukolorowe szale\u0144stwo. Do mnie przem\xF3wi\u0142 kultowy \u2018Trophy Wife\u2019, kt\xF3ry por\xF3wnuje si\u0119 do czystego z\u0142ota. Ma on mocno \u017C\xF3\u0142ty odcie\u0144. Jego blask na sk\xF3rze jest niepowtarzalny i uniwersalny, sprawdzi si\u0119 zar\xF3wno jako tradycyjny highlighter, jak i cie\u0144 do powiek. Kiedy mam ochot\u0119 zaszale\u0107 nak\u0142adam go mokrym p\u0119dzlem na szczyty ko\u015Bci jarzmowych. Kiedy z kolei pragn\u0119 codziennego blasku wklepuj\u0119 odrobin\u0119 delikatnie opuszkiem palca. Zar\xF3wno pierwsza, jak i druga metoda gwarantuje efekt \u2018wow\u2019. W ko\u0144cu jest to \u2018wow\u2019 by Rihanna.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8397339/ello-optimized-2d5cbc9e.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia z\u0142otego cienia do powiek w bia\u0142ym pude\u0142eczku. Cie\u0144 le\u017Cy na \u017C\xF3\u0142tym pod\u0142o\u017Cu.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Makija\u017C: piel\u0119gnacja'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Wraz z nadej\u015Bciem ch\u0142odnych dni nasza sk\xF3ra domaga si\u0119 zwi\u0119kszonej ilo\u015Bci piel\u0119gnacji. G\u0142\xF3wnie powinno nam zale\u017Ce\u0107 na jej z\u0142uszczeniu i od\u017Cywieniu, co zagwarantuje nam utrzymanie jej w dobrej kondycji. Nie wyobra\u017Cam sobie jesieni i zimy bez r\xF3\u017Cnego rodzaju masek. Uwielbiam te w p\u0142achcie \u2013 mocno nawil\u017Caj\u0105ce, a raz w miesi\u0105cu dopieszczam cer\u0119 wizyt\u0105 w profesjonalnym salonie kosmetycznym. Masa\u017C twarzy mo\u017Cemy r\xF3wnie\u017C wykona\u0107 sami, w domowym zaciszu. Wystarczy odrobina relaksuj\u0105cej muzyki, korzenna herbata i maska miodowa do masa\u017Cu twarzy od Lirene. Po dok\u0142adnym oczyszczeniu sk\xF3ry i jej stonizowaniu nak\u0142adam odrobin\u0119 g\u0119stej maski i zaczynam masa\u017C. Najpierw okr\u0119\u017Cne ruchy, opuszkami palc\xF3w rozmasowuj\u0119 policzki. Nast\u0119pnie czo\u0142o, okolice oczu, nosa i ust. Warto pami\u0119ta\u0107, aby wykonywa\u0107 ruchy id\u0105ce \u2018ku g\xF3rze\u2019, poniewa\u017C z wiekiem nasza sk\xF3ra ma tendencj\u0119 do opadania. Okr\u0105\u017Cenia wok\xF3\u0142 oczodo\u0142\xF3w zapewni\u0105 poprawny obieg limfy. Po wykonanym masa\u017Cu pozostawiam mask\u0119 na twarzy na 10 min, nast\u0119pnie p\u0142ucz\u0119 twarz ciep\u0142\u0105 wod\u0105 i osuszam r\u0119cznikiem. Po takim zabiegu sk\xF3ra jest wyra\u017Anie g\u0142adsza, od\u015Bwie\u017Cona i przygotowana do dalszych etap\xF3w piel\u0119gnacji. Szczeg\xF3lnie polecam stosowa\u0107 t\u0119 maseczk\u0119 przed \u2018wi\u0119kszym\u2019 wyj\u015Bciem.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/8397338/ello-optimized-1965ba13.jpg', alt: 'Obraz przedstawia zdj\u0119cie kremu. Kosmetyk stoi na r\xF3\u017Cowo-zielonym tle.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Lektura'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Jaki\u015B czas temu bardzo chcia\u0142am wybra\u0107 si\u0119 do kina na film pt: \u2018McQueen\u2019. Sp\xF3\u017Ani\u0142am si\u0119. Film wyszed\u0142 z kin, a ja pewnego razu b\u0142\u0105dz\u0105c po alejkach Empik\u2019u dostrzeg\u0142am na dziale z biografiami tytu\u0142 \u2018 Alexander McQueen. Krew pod sk\xF3r\u0105\u2019. Z\u0142apa\u0142am pozycj\u0119 i zabra\u0142am si\u0119 za lektur\u0119. \u015Awietnie napisana biografia opowiada krok po kroku o \u017Cyciu wizjonera mody. Dowiemy si\u0119 z niej o r\xF3\u017Cnych w\u0105tkach rodziny McQueen\u2019\xF3w, kt\xF3re mog\u0142y mie\u0107 wp\u0142yw na rozw\xF3j artystycznej wizji Lee (prawdziwe imi\u0119 McQueen\u2019a). Przeczytamy o pocz\u0105tkach jego przygody z mod\u0105 \u2013 sta\u017Cu u Anderson & Sheppard. Jako praktykant musia\u0142 tysi\u0105c razy powt\xF3rzy\u0107 \u015Bcieg, aby nauczy\u0107 si\u0119 podstaw poprawnego pikowania tkaniny. P\xF3\u017Aniejsze studia na uczelni St Martins by\u0142y furtk\u0105 do kariery m\u0142odego projektanta. To tam, podczas pokazu dyplomowego jego kolekcj\u0105 zachwyci\u0142a si\u0119 Isabella Blow, kt\xF3ra (w p\xF3\u017Aniejszym okresie przyjaci\xF3\u0142ka Alexandra) wspiera\u0142a go mentalnie i finansowo. Wi\u0119cej szczeg\xF3\u0142\xF3w zdradza\u0107 nie b\u0119d\u0119, po prostu serdecznie polecam przeczyta\u0107.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/8397337/ello-optimized-76b4a3a1.jpg', alt: 'Zdj\u0119cie przedstawia ksi\u0105\u017Ck\u0119 le\u017C\u0105c\u0105 na zielonym pod\u0142o\u017Cu. Na jej ok\u0142adce widzimy portret m\u0119\u017Cczyzny.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Akcesoria: chusta'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Ch\u0142odny pa\u017Adziernik to zdecydowanie czas noszenia czapek i chust (na grube szale przyjdzie jeszcze pora). Zainspirowana ziemist\u0105 tonacj\u0105 pokazu Tom Ford SS 2019 chwilowo polubi\u0142am si\u0119 z be\u017Cami. Pewnego dnia buszuj\u0105c w TkMaxx natkn\u0119\u0142am si\u0119 na d\u0142ug\u0105 wiskozow\u0105 chustk\u0119 by Michael Kors, na kt\xF3rej spos\xF3b noszenia od razu mia\u0142am milion pomys\u0142\xF3w. Tradycyjnie na szyi, jako pasek do spodni, na g\u0142owie (jak u Tom\u2019a Ford\u2019a). Nie mo\u017Cna ba\u0107 si\u0119 eksperymentowa\u0107 z dodatkami. Czasami spos\xF3b zawi\u0105zania dodatku czyni stylizacj\u0119 bardziej kompletn\u0105, spaja styl. Skorzysta\u0142am z okazji atrakcyjnej ceny. Logomania nadal w trendach.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8397332/ello-optimized-335a193d.jpg', alt: 'Zdj\u0119cie przedstawia profil kobiety w be\u017Cowej chustce na g\u0142owie. Zdj\u0119cie otoczone jest czarn\u0105 cienk\u0105 ramk\u0105 i grub\u0105 ram\u0105 zbudowan\u0105 z innej fotografii.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8397335/ello-optimized-f17ac92f.jpg', alt: 'Obraz przedstawia portret kobiety w be\u017Cowej chustce na g\u0142owie.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Moje wybory: październik 2018", "date": "2018-10-24T14:39:00.000Z", "categories": ["Sztuka Makijażu", "Sztuka Ubioru"], "tags": ["moje wybory", "my choices", "październik", "jesień", "autumn", "fenty beauty", "mcqueen", "lirene", "kors"] };
+var body = exports.body = "<olela-narrative>\nDzwoni budzik. Leniwie otwieram oczy. Za zimną szybą zagościła poranna mgła. Budynki i drzewa giną w rozlanym mleku jesieni. Przez krótki moment rozważam ponowne zamknięcie powiek i powrót do krainy snów. Tam czuję się ciepło i bezpiecznie. Znajduję schronienie w cieniu zielonej palmy. Nie jest to schronienie przed zimnem, lecz przed słońcem. Rozgrzany piasek delikatnie łaskocze moje opuszki palców, a wiatr muska policzek niczym najdelikatniejszy pędzel do różu. Patrzę przed siebie na krystalicznie czystą wodę w odcieniach turkusu. Wszystko dookoła zdaje się oddychać razem ze mną w perfekcyjnej harmonii. Zamykam w dłoni odrobinę ziarenek piasku, które nagle zamieniają się w złoty pył. Wykorzystuję go do przyozdobienia skroni i powiek. Chustę, na której siedziałam przewiązuję w pasie i wychodzę z cienia w kierunku oceanu. Nagle orientuję się, że woda zmieniła swoją konsystencję. Nie jest już wodnistą cieczą, lecz miodem o pięknym zapachu. Wykorzystuję go jako maseczkę na podrażnione słońcem policzki. Stoję tak przez chwilę delektując się słodyczą sytuacji. Nagle chusta na moich biodrach przemienia się w przeźroczystą tkaninę swoją strukturą przypominającą transparentną taśmę klejącą. Jestem zdezorientowana, nie wiem, co się dzieje. Zza liści palm wyłaniają się kobiece sylwetki w podobnych strojach. Jedna z nich niesie ze sobą ślady krwi na śnieżnobiałej sukience. Zaraz, zaraz... Skądś znam ten look – szepczę do siebie w myślach. Szybko otwieram schowany w plażowym koszyku kalendarz. Złote cyfry na pierwszej stronie ukazują rok 1994. Przeniosłam się w czasie i wylądowałam na pokazie ‘Nihilism’ Aleksandra McQueena. Siedzę w pierwszym rzędzie i podziwiam szokującą, jak na tamten czas kreację artystyczną. Modelki kroczą po wybiegu z pełną gracją. Nagle rozlega się głośny dźwięk alarmu. Publiczność panikuje i wybiega z sali. Zostałam sama pośrodku sceny. \nDelektowałam się pierwszoplanową rolą, kiedy obraz sytuacji uległ rozmazaniu. Uniosłam zmęczone marzeniem powieki i wyłączyłam budzik. Witaj październiku.\n</olela-narrative>\n<h2>Makijaż: kolorówka</h2>\n<p>Rok po światowej premierze linii kosmetyków autorstwa Rihanny marka w końcu pojawia się w Polsce. 7 września na stronach internetowych i w sklepach stacjonarnych zagościły długo wyczekiwane szafy kosmetyczne Fenty Beauty. Artystka znana jest ze swojego zamiłowania do makijażu glow – im więcej błysku, tym lepiej. Podobno sama nadzoruje formuły swoich kosmetyków i wymyśla ich nowe wersje. W ofercie Fenty znajduję się aż 40 odcieni podkładu! Rozświetlacze z serii ‘KillaWatt’ mienią się tysiącem drobinek i serią wyjątkowych barw. Możemy wybrać wersję tradycyjną, dopasowaną do naszej karnacji lub pokusić się na dwukolorowe szaleństwo. Do mnie przemówił kultowy ‘Trophy Wife’, który porównuje się do czystego złota. Ma on mocno żółty odcień. Jego blask na skórze jest niepowtarzalny i uniwersalny, sprawdzi się zarówno jako tradycyjny highlighter, jak i cień do powiek. Kiedy mam ochotę zaszaleć nakładam go mokrym pędzlem na szczyty kości jarzmowych. Kiedy z kolei pragnę codziennego blasku wklepuję odrobinę delikatnie opuszkiem palca. Zarówno pierwsza, jak i druga metoda gwarantuje efekt ‘wow’. W końcu jest to ‘wow’ by Rihanna.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/8397339/ello-optimized-2d5cbc9e.jpg\" alt=\"Obraz przedstawia dwa zdjęcia złotego cienia do powiek w białym pudełeczku. Cień leży na żółtym podłożu.\" /></p>\n<h2>Makijaż: pielęgnacja</h2>\n<p>Wraz z nadejściem chłodnych dni nasza skóra domaga się zwiększonej ilości pielęgnacji. Głównie powinno nam zależeć na jej złuszczeniu i odżywieniu, co zagwarantuje nam utrzymanie jej w dobrej kondycji. Nie wyobrażam sobie jesieni i zimy bez różnego rodzaju masek. Uwielbiam te w płachcie – mocno nawilżające, a raz w miesiącu dopieszczam cerę wizytą w profesjonalnym salonie kosmetycznym. Masaż twarzy możemy również wykonać sami, w domowym zaciszu. Wystarczy odrobina relaksującej muzyki, korzenna herbata i maska miodowa do masażu twarzy od Lirene. Po dokładnym oczyszczeniu skóry i jej stonizowaniu nakładam odrobinę gęstej maski i zaczynam masaż. Najpierw okrężne ruchy, opuszkami palców rozmasowuję policzki. Następnie czoło, okolice oczu, nosa i ust. Warto pamiętać, aby wykonywać ruchy idące ‘ku górze’, ponieważ z wiekiem nasza skóra ma tendencję do opadania. Okrążenia wokół oczodołów zapewnią poprawny obieg limfy. Po wykonanym masażu pozostawiam maskę na twarzy na 10 min, następnie płuczę twarz ciepłą wodą i osuszam ręcznikiem. Po takim zabiegu skóra jest wyraźnie gładsza, odświeżona i przygotowana do dalszych etapów pielęgnacji. Szczególnie polecam stosować tę maseczkę przed ‘większym’ wyjściem.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/8397338/ello-optimized-1965ba13.jpg\" alt=\"Obraz przedstawia zdjęcie kremu. Kosmetyk stoi na różowo-zielonym tle.\" /></p>\n<h2>Lektura</h2>\n<p>Jakiś czas temu bardzo chciałam wybrać się do kina na film pt: ‘McQueen’. Spóźniłam się. Film wyszedł z kin, a ja pewnego razu błądząc po alejkach Empik’u dostrzegłam na dziale z biografiami tytuł ‘ Alexander McQueen. Krew pod skórą’. Złapałam pozycję i zabrałam się za lekturę.\nŚwietnie napisana biografia opowiada krok po kroku o życiu wizjonera mody. Dowiemy się z niej o różnych wątkach rodziny McQueen’ów, które mogły mieć wpływ na rozwój artystycznej wizji Lee (prawdziwe imię McQueen’a). Przeczytamy o początkach jego przygody z modą – stażu u Anderson &amp; Sheppard. Jako praktykant musiał tysiąc razy powtórzyć ścieg, aby nauczyć się podstaw poprawnego pikowania tkaniny. Późniejsze studia na uczelni St Martins były furtką do kariery młodego projektanta. To tam, podczas pokazu dyplomowego jego kolekcją zachwyciła się Isabella Blow, która (w późniejszym okresie przyjaciółka Alexandra) wspierała go mentalnie i finansowo.\nWięcej szczegółów zdradzać nie będę, po prostu serdecznie polecam przeczytać.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/8397337/ello-optimized-76b4a3a1.jpg\" alt=\"Zdjęcie przedstawia książkę leżącą na zielonym podłożu. Na jej okładce widzimy portret mężczyzny.\" /></p>\n<h2>Akcesoria: chusta</h2>\n<p>Chłodny październik to zdecydowanie czas noszenia czapek i chust (na grube szale przyjdzie jeszcze pora). Zainspirowana ziemistą tonacją pokazu Tom Ford SS 2019 chwilowo polubiłam się z beżami. Pewnego dnia buszując w TkMaxx natknęłam się na długą wiskozową chustkę by Michael Kors, na której sposób noszenia od razu miałam milion pomysłów. Tradycyjnie na szyi, jako pasek do spodni, na głowie (jak u Tom’a Ford’a). Nie można bać się eksperymentować z dodatkami. Czasami sposób zawiązania dodatku czyni stylizację bardziej kompletną, spaja styl. Skorzystałam z okazji atrakcyjnej ceny. Logomania nadal w trendach.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/8397332/ello-optimized-335a193d.jpg\" alt=\"Zdjęcie przedstawia profil kobiety w beżowej chustce na głowie. Zdjęcie otoczone jest czarną cienką ramką i grubą ramą zbudowaną z innej fotografii.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/8397335/ello-optimized-f17ac92f.jpg\" alt=\"Obraz przedstawia portret kobiety w beżowej chustce na głowie.\" /></p>\n";
+var raw = exports.raw = "\n<olela-narrative>\nDzwoni budzik. Leniwie otwieram oczy. Za zimną szybą zagościła poranna mgła. Budynki i drzewa giną w rozlanym mleku jesieni. Przez krótki moment rozważam ponowne zamknięcie powiek i powrót do krainy snów. Tam czuję się ciepło i bezpiecznie. Znajduję schronienie w cieniu zielonej palmy. Nie jest to schronienie przed zimnem, lecz przed słońcem. Rozgrzany piasek delikatnie łaskocze moje opuszki palców, a wiatr muska policzek niczym najdelikatniejszy pędzel do różu. Patrzę przed siebie na krystalicznie czystą wodę w odcieniach turkusu. Wszystko dookoła zdaje się oddychać razem ze mną w perfekcyjnej harmonii. Zamykam w dłoni odrobinę ziarenek piasku, które nagle zamieniają się w złoty pył. Wykorzystuję go do przyozdobienia skroni i powiek. Chustę, na której siedziałam przewiązuję w pasie i wychodzę z cienia w kierunku oceanu. Nagle orientuję się, że woda zmieniła swoją konsystencję. Nie jest już wodnistą cieczą, lecz miodem o pięknym zapachu. Wykorzystuję go jako maseczkę na podrażnione słońcem policzki. Stoję tak przez chwilę delektując się słodyczą sytuacji. Nagle chusta na moich biodrach przemienia się w przeźroczystą tkaninę swoją strukturą przypominającą transparentną taśmę klejącą. Jestem zdezorientowana, nie wiem, co się dzieje. Zza liści palm wyłaniają się kobiece sylwetki w podobnych strojach. Jedna z nich niesie ze sobą ślady krwi na śnieżnobiałej sukience. Zaraz, zaraz... Skądś znam ten look – szepczę do siebie w myślach. Szybko otwieram schowany w plażowym koszyku kalendarz. Złote cyfry na pierwszej stronie ukazują rok 1994. Przeniosłam się w czasie i wylądowałam na pokazie ‘Nihilism’ Aleksandra McQueena. Siedzę w pierwszym rzędzie i podziwiam szokującą, jak na tamten czas kreację artystyczną. Modelki kroczą po wybiegu z pełną gracją. Nagle rozlega się głośny dźwięk alarmu. Publiczność panikuje i wybiega z sali. Zostałam sama pośrodku sceny. \nDelektowałam się pierwszoplanową rolą, kiedy obraz sytuacji uległ rozmazaniu. Uniosłam zmęczone marzeniem powieki i wyłączyłam budzik. Witaj październiku.\n</olela-narrative>\n\n## Makijaż: kolorówka\n\nRok po światowej premierze linii kosmetyków autorstwa Rihanny marka w końcu pojawia się w Polsce. 7 września na stronach internetowych i w sklepach stacjonarnych zagościły długo wyczekiwane szafy kosmetyczne Fenty Beauty. Artystka znana jest ze swojego zamiłowania do makijażu glow – im więcej błysku, tym lepiej. Podobno sama nadzoruje formuły swoich kosmetyków i wymyśla ich nowe wersje. W ofercie Fenty znajduję się aż 40 odcieni podkładu! Rozświetlacze z serii ‘KillaWatt’ mienią się tysiącem drobinek i serią wyjątkowych barw. Możemy wybrać wersję tradycyjną, dopasowaną do naszej karnacji lub pokusić się na dwukolorowe szaleństwo. Do mnie przemówił kultowy ‘Trophy Wife’, który porównuje się do czystego złota. Ma on mocno żółty odcień. Jego blask na skórze jest niepowtarzalny i uniwersalny, sprawdzi się zarówno jako tradycyjny highlighter, jak i cień do powiek. Kiedy mam ochotę zaszaleć nakładam go mokrym pędzlem na szczyty kości jarzmowych. Kiedy z kolei pragnę codziennego blasku wklepuję odrobinę delikatnie opuszkiem palca. Zarówno pierwsza, jak i druga metoda gwarantuje efekt ‘wow’. W końcu jest to ‘wow’ by Rihanna. \n\n![Obraz przedstawia dwa zdjęcia złotego cienia do powiek w białym pudełeczku. Cień leży na żółtym podłożu.](https://assets1.ello.co/uploads/asset/attachment/8397339/ello-optimized-2d5cbc9e.jpg)\n\n## Makijaż: pielęgnacja\n\nWraz z nadejściem chłodnych dni nasza skóra domaga się zwiększonej ilości pielęgnacji. Głównie powinno nam zależeć na jej złuszczeniu i odżywieniu, co zagwarantuje nam utrzymanie jej w dobrej kondycji. Nie wyobrażam sobie jesieni i zimy bez różnego rodzaju masek. Uwielbiam te w płachcie – mocno nawilżające, a raz w miesiącu dopieszczam cerę wizytą w profesjonalnym salonie kosmetycznym. Masaż twarzy możemy również wykonać sami, w domowym zaciszu. Wystarczy odrobina relaksującej muzyki, korzenna herbata i maska miodowa do masażu twarzy od Lirene. Po dokładnym oczyszczeniu skóry i jej stonizowaniu nakładam odrobinę gęstej maski i zaczynam masaż. Najpierw okrężne ruchy, opuszkami palców rozmasowuję policzki. Następnie czoło, okolice oczu, nosa i ust. Warto pamiętać, aby wykonywać ruchy idące ‘ku górze’, ponieważ z wiekiem nasza skóra ma tendencję do opadania. Okrążenia wokół oczodołów zapewnią poprawny obieg limfy. Po wykonanym masażu pozostawiam maskę na twarzy na 10 min, następnie płuczę twarz ciepłą wodą i osuszam ręcznikiem. Po takim zabiegu skóra jest wyraźnie gładsza, odświeżona i przygotowana do dalszych etapów pielęgnacji. Szczególnie polecam stosować tę maseczkę przed ‘większym’ wyjściem.\n\n![Obraz przedstawia zdjęcie kremu. Kosmetyk stoi na różowo-zielonym tle.](https://assets0.ello.co/uploads/asset/attachment/8397338/ello-optimized-1965ba13.jpg)\n\n## Lektura\n\nJakiś czas temu bardzo chciałam wybrać się do kina na film pt: ‘McQueen’. Spóźniłam się. Film wyszedł z kin, a ja pewnego razu błądząc po alejkach Empik’u dostrzegłam na dziale z biografiami tytuł ‘ Alexander McQueen. Krew pod skórą’. Złapałam pozycję i zabrałam się za lekturę.\nŚwietnie napisana biografia opowiada krok po kroku o życiu wizjonera mody. Dowiemy się z niej o różnych wątkach rodziny McQueen’ów, które mogły mieć wpływ na rozwój artystycznej wizji Lee (prawdziwe imię McQueen’a). Przeczytamy o początkach jego przygody z modą – stażu u Anderson & Sheppard. Jako praktykant musiał tysiąc razy powtórzyć ścieg, aby nauczyć się podstaw poprawnego pikowania tkaniny. Późniejsze studia na uczelni St Martins były furtką do kariery młodego projektanta. To tam, podczas pokazu dyplomowego jego kolekcją zachwyciła się Isabella Blow, która (w późniejszym okresie przyjaciółka Alexandra) wspierała go mentalnie i finansowo. \nWięcej szczegółów zdradzać nie będę, po prostu serdecznie polecam przeczytać.\n\n![Zdjęcie przedstawia książkę leżącą na zielonym podłożu. Na jej okładce widzimy portret mężczyzny.](https://assets0.ello.co/uploads/asset/attachment/8397337/ello-optimized-76b4a3a1.jpg)\n\n## Akcesoria: chusta\n\nChłodny październik to zdecydowanie czas noszenia czapek i chust (na grube szale przyjdzie jeszcze pora). Zainspirowana ziemistą tonacją pokazu Tom Ford SS 2019 chwilowo polubiłam się z beżami. Pewnego dnia buszując w TkMaxx natknęłam się na długą wiskozową chustkę by Michael Kors, na której sposób noszenia od razu miałam milion pomysłów. Tradycyjnie na szyi, jako pasek do spodni, na głowie (jak u Tom’a Ford’a). Nie można bać się eksperymentować z dodatkami. Czasami sposób zawiązania dodatku czyni stylizację bardziej kompletną, spaja styl. Skorzystałam z okazji atrakcyjnej ceny. Logomania nadal w trendach. \n\n![Zdjęcie przedstawia profil kobiety w beżowej chustce na głowie. Zdjęcie otoczone jest czarną cienką ramką i grubą ramą zbudowaną z innej fotografii.](https://assets1.ello.co/uploads/asset/attachment/8397332/ello-optimized-335a193d.jpg)\n![Obraz przedstawia portret kobiety w beżowej chustce na głowie.](https://assets1.ello.co/uploads/asset/attachment/8397335/ello-optimized-f17ac92f.jpg)";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 141 */
@@ -12257,6 +12354,18 @@ webpackEmptyContext.id = 141;
 
 /***/ }),
 /* 142 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 142;
+
+/***/ }),
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -12277,19 +12386,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 142;
+webpackContext.id = 143;
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(144);
+module.exports = __webpack_require__(145);
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12307,7 +12416,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(145);
+var _propTypes = __webpack_require__(146);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -12511,13 +12620,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_145__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_146__;
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12531,7 +12640,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12539,7 +12648,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12552,7 +12661,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12586,7 +12695,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12599,7 +12708,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12608,7 +12717,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12616,7 +12725,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12624,7 +12733,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12639,7 +12748,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12654,7 +12763,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12669,7 +12778,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12693,7 +12802,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(158);
+var s = __webpack_require__(159);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -12724,7 +12833,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12732,7 +12841,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12756,7 +12865,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12807,7 +12916,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12815,7 +12924,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12824,7 +12933,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(163);
+var s = __webpack_require__(164);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -12857,7 +12966,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12867,7 +12976,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12911,22 +13020,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 167,
-	"./Feed.js": 168,
-	"./Ingredient.js": 169,
-	"./Method.js": 170,
-	"./Recipe.js": 171,
-	"./TableOfContents.js": 172
+	"./Crumbs.js": 168,
+	"./Feed.js": 169,
+	"./Ingredient.js": 170,
+	"./Method.js": 171,
+	"./Recipe.js": 172,
+	"./TableOfContents.js": 173
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -12942,10 +13051,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 166;
+webpackContext.id = 167;
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12960,7 +13069,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12975,7 +13084,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 169 */
+/* 170 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12990,7 +13099,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 170 */
+/* 171 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13005,7 +13114,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 171 */
+/* 172 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13020,7 +13129,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 172 */
+/* 173 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13035,7 +13144,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 173 */
+/* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13059,7 +13168,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 174 */
+/* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
