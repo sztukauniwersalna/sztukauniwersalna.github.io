@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_146__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_147__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(161);
+var Feed_1 = __webpack_require__(162);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(163);
+var Recipe_1 = __webpack_require__(164);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(165);
+var Root_1 = __webpack_require__(166);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(147);
+var s = __webpack_require__(148);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(148);
+var s = __webpack_require__(149);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(65),
-UPLOADS: __webpack_require__(141),
-ROOT: __webpack_require__(142),
-LAYOUTS: __webpack_require__(143),
-INCLUDES: __webpack_require__(167)};
+UPLOADS: __webpack_require__(142),
+ROOT: __webpack_require__(143),
+LAYOUTS: __webpack_require__(144),
+INCLUDES: __webpack_require__(168)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(167)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(149);
+var s = __webpack_require__(150);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(153);
+var s = __webpack_require__(154);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(166);
+__webpack_require__(167);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(144);
+var react_disqus_comments_1 = __webpack_require__(145);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(158);
-var s = __webpack_require__(160);
+var FacebookLike_1 = __webpack_require__(159);
+var s = __webpack_require__(161);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(150);
-var s = __webpack_require__(151);
+__webpack_require__(151);
+var s = __webpack_require__(152);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(152);
+var s = __webpack_require__(153);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(155);
+var s = __webpack_require__(156);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(154);
+var s = __webpack_require__(155);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(156);
+var s = __webpack_require__(157);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(157);
+var s = __webpack_require__(158);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(162);
+var s = __webpack_require__(163);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(174);
-var menu_1 = __webpack_require__(175);
+var tags_1 = __webpack_require__(175);
+var menu_1 = __webpack_require__(176);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2879,7 +2879,8 @@ var map = {
 	"./2018-10-02-wystawa-bestia-bog-i-linia.markdown": 137,
 	"./2018-10-04-manieryzm-moodboard.markdown": 138,
 	"./2018-10-10-make-up-inspirowany-obrazem-kompozycja-viii-by-wassily-kandinsky.markdown": 139,
-	"./2018-10-24-moje-wybory-pazdziernik-2018.markdown": 140
+	"./2018-10-24-moje-wybory-pazdziernik-2018.markdown": 140,
+	"./2018-10-28-smierc-doroslego.markdown": 141
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -12379,15 +12380,106 @@ var raw = exports.raw = "\n<olela-narrative>\nDzwoni budzik. Leniwie otwieram oc
 
 /***/ }),
 /* 141 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 141;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/8417134/ello-optimized-95e39ab9.jpg', alt: 'Zdj\u0119cie przedstawia portret kobiety w mocnym kolorowym makija\u017Cu.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Fili\u017Canka'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      '\u015Awiat jest pe\u0142en nic nieznacz\u0105cych przedmiot\xF3w. Zawsze mi powtarzali: \u2018piel\u0119gnuj w sobie dziecko\u2019. A teraz patrz\u0119 i mi si\u0119 wydaje. Wydaje mi si\u0119, \u017Ce dostrzegam jasnobr\u0105zowe zacieki na porcelanowej fili\u017Cance. Wydaje mi si\u0119 by\u0107 fascynuj\u0105cym zjawisko smug. W g\u0142owie pojawia si\u0119 obraz \u015Bciekaj\u0105cej farby. Sjena palona wymieszana z zapachem \u015Bwie\u017Cej terpentyny. Zawsze wybieraj rozcie\u0144czalnik z zapachem. Kupowanie bezzapachowej benzyny to troch\u0119 jak wydanie 580 z\u0142otych na bezzapachowe perfumy. Tak. \u015Awiat pachnie i nale\u017Cy go w\u0105cha\u0107. Kiedy zatrzymujemy si\u0119 na stacji paliw zawsze uchylam okno i wystawiam g\u0142ow\u0119 na zewn\u0105trz. Lubi\u0119 czu\u0107. A ta fili\u017Canka czuje razem ze mn\u0105. Zapach, smak, ciep\u0142o porannego napoju. Moje oczy s\u0105 bardzo uwa\u017Cne. Cz\u0119sto zatrzymuj\u0105 wzrok na nic nieznacz\u0105cych przedmiotach i nadaj\u0105 im znaczenie. Bo ta fili\u017Canka to dzie\u0142o sztuki, to ma\u0142a rze\u017Aba codzienno\u015Bci. A Ty na ni\u0105 patrzysz jak na \u015Brodek do celu pobudzenia.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/8417135/ello-optimized-472751ce.jpg', alt: 'Obraz przedstawia zdj\u0119cie kobiecej twarzy w mocnym makija\u017Cu. Kobieta trzyma si\u0119 za naszyjnik. Po prawej stronie widzimy czarny graficzny kszta\u0142t.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'S\u0105siad'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Kiedy krzycz\u0119 to krzycz\u0119 najg\u0142o\u015Bniej. S\u0105siedzi s\u0142ysz\u0105 m\xF3j krzyk, ale nikt mnie nie odwiedza. S\u0105siad lubi przyj\u015B\u0107, kiedy po godzinie p\xF3\u017Ano-wieczornej zdarzy mi si\u0119 pu\u015Bci\u0107 g\u0142o\u015Bno ulubion\u0105 piosenk\u0119. Tak, mam ulubion\u0105 piosenk\u0119 i mimo tego, \u017Ce znam na pami\u0119\u0107 ka\u017Cdy jej d\u017Awi\u0119k lubi\u0119 s\u0142ucha\u0107 jej jeszcze raz i jeszcze raz. No wi\u0119c sucham, a on puka w drzwi. Tak puka, \u017Ce pukania nie s\u0142ysz\u0119, bo jest doros\u0142y i boi si\u0119 puka\u0107 naprawd\u0119. A ja, jak pukam to robi\u0119 to, a jak krzycz\u0119 to krzycz\u0119 najg\u0142o\u015Bniej jak potrafi\u0119. Warto zada\u0107 sobie pytanie: Czy kiedy krzyczysz to krzyczysz naprawd\u0119? A kiedy pukasz w czyje\u015B drzwi, to pukasz, czy boisz si\u0119 puka\u0107? Tyle rzeczy codziennie robimy, kt\xF3rych nie robimy, bo jeste\u015Bmy doro\u015Bli. A ja bym mu z ch\u0119ci\u0105 otworzy\u0142a i zaprosi\u0142a do wsp\xF3lnego s\u0142uchania naprawd\u0119.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8417139/ello-optimized-f545d3d4.jpg', alt: 'Obraz przedstawia portret kobiety ze skrzywion\u0105 min\u0105. Z prawej strony widzimy czarny graficzny znak.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'U\u015Bmiech'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Maj\u0105 mnie za wariatk\u0119, bo lubi\u0119 si\u0119 \u015Bmia\u0107. Id\u0119 ulic\u0105 z u\u015Bmiechem wyprzedzaj\u0105cym moje kr\xF3tkie kroki. Kiedy ten u\u015Bmiech spotyka Pani\u0105, Pani si\u0119 chowa przed nim, jak przed komornikiem. Kiedy ten u\u015Bmiech spotyka Pana, Pan wzdryga si\u0119, jakby w ustach mia\u0142 posmak plasterka cytryny. Maj\u0105 mnie za wariatk\u0119, ale si\u0119 przyzwyczai\u0142am. Jaki\u015B czas temu by\u0142o mi wstyd i chcia\u0142am wtopi\u0107 si\u0119 w smutny t\u0142um. Wycina\u0142am wtedy w domu z mask\u0119 z gazety i zak\u0142ada\u0142am na twarz. W dzisiejszych czasopismach du\u017Co jest masek. Taka maska chroni przed wzrokiem i nie pokazuje rado\u015Bci. Niewygodnie mi si\u0119 m\xF3wi\u0142o, dlatego zrezygnowa\u0142am z dialog\xF3w. Niewygodnie mi si\u0119 w masce jad\u0142o, dlatego pomin\u0119\u0142am posi\u0142ki. Teraz w ko\u0144cu jestem jak Ty. Czasami maska uwiera i czuj\u0119 si\u0119 g\u0142odna, ale potrafi\u0119 by\u0107 ponad ten stan. W ko\u0144cu jestem jak Ty \u2013 doros\u0142a.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8417140/ello-optimized-8f650fe0.jpg', alt: 'Obraz przedstawia zdj\u0119cie kobiecej twarzy w kolorowym makija\u017Cu. Kobieta trzyma si\u0119 r\u0119k\u0105 za twarz. Po prawej stronie widzimy czarny graficzny znak serca.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      '\u015Amier\u0107'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Dzi\u015B jest ostatni dzie\u0144 mojego \u017Cycia. Przed chwil\u0105 dzwoni\u0142a Kostucha i wprosi\u0142a si\u0119 na obiad. Nie wiem, co przygotowa\u0107, nie wiem, co jedz\u0105 tak wyj\u0105tkowi go\u015Bcie. My\u015Bl\u0119 nad przygotowaniem pierog\xF3w, pierogi lubi\u0105 wszyscy. Zaraz, moment. Przecie\u017C ja nie potrafi\u0119 gotowa\u0107. Mam 48 lat i nigdy nie nauczy\u0142em si\u0119 przygotowywa\u0107 posi\u0142k\xF3w. Twierdzi\u0142em, \u017Ce do niczego w \u017Cyciu mi si\u0119 to nie przyda. Zam\xF3wi\u0119 chi\u0144czyka, znam \u015Bwietn\u0105 knajpk\u0119 niedaleko. Szybko przywioz\u0105, a ja p\xF3\u017Aniej odgrzej\u0119 i podam. Mo\u017Ce pomy\u015Bli, \u017Ce to ja przygotowa\u0142em tak pyszne sajgonki? Kto wie, mo\u017Ce uda mi si\u0119 wyprosi\u0107 jeszcze jeden tydzie\u0144 \u017Cycia, dzie\u0144 mo\u017Ce. Mam 48 lat i nie mam dzieci. Mia\u0142em dwie \u017Cony, ale obie ode mnie odesz\u0142y. Mam tyko prac\u0119. Pracuj\u0119 ca\u0142e \u017Cycie, ponad si\u0142y. Zawsze powtarza\u0142em sobie, \u017Ce na podr\xF3\u017Ce przyjdzie jeszcze czas, \u017Ce na razie nie pora, \u017Ce trzeba si\u0119 skupi\u0107 na pracy. Mia\u0142em kiedy\u015B znajomych, ale zrezygnowa\u0142em z kontakt\xF3w z nimi, bo oni lubili wychodzi\u0107 wieczorami na piwo, a ja wola\u0142em pracowa\u0107, nie lubi\u0142em si\u0119 rozprasza\u0107 g\u0142upotami. Gdybym mia\u0142 jeszcze jeden dzie\u0144 napi\u0142bym si\u0119 tego piwa. Nie s\u0105dzi\u0142em, \u017Ce \u015Bmier\u0107 przyjdzie tak szybko. Nie odwiedzi\u0142em Singapuru, Pary\u017Ca, Mediolanu, Stan\xF3w Zjednoczonych, nie nurkowa\u0142em, nie lecia\u0142em balonem, nie mam tatua\u017Cy. Dopiero teraz czuj\u0119, jakbym nie do\u015Bwiadczy\u0142 \u017Cycia. Praca by\u0142a moim ca\u0142ym \u017Cyciem, gdzie ona teraz jest? Kto\u015B puka do drzwi, lec\u0119 otworzy\u0107. Dzie\u0144 dobry Kostucho, serdecznie zapraszam, przygotowa\u0142em sajg...'
+    ),
+    _react2.default.createElement('hr', null)
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Śmierć Dorosłego", "date": "2018-10-28T12:03:00.000Z", "categories": ["Sztuka Makijażu"], "tags": ["makeup", "makijaż", "sztuka", "art", "artysta", "kreacja"] };
+var body = exports.body = "<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/8417134/ello-optimized-95e39ab9.jpg\" alt=\"Zdjęcie przedstawia portret kobiety w mocnym kolorowym makijażu.\" /></p>\n<h2>Filiżanka</h2>\n<p>Świat jest pełen nic nieznaczących przedmiotów.\nZawsze mi powtarzali: ‘pielęgnuj w sobie dziecko’.\nA teraz patrzę i mi się wydaje. Wydaje mi się, że dostrzegam jasnobrązowe zacieki na porcelanowej filiżance. Wydaje mi się być fascynującym zjawisko smug. W głowie pojawia się obraz ściekającej farby. Sjena palona wymieszana z zapachem świeżej terpentyny. Zawsze wybieraj rozcieńczalnik z zapachem. Kupowanie bezzapachowej benzyny to trochę jak wydanie 580 złotych na bezzapachowe perfumy. Tak. Świat pachnie i należy go wąchać. Kiedy zatrzymujemy się na stacji paliw zawsze uchylam okno i wystawiam głowę na zewnątrz. Lubię czuć. A ta filiżanka czuje razem ze mną. Zapach, smak, ciepło porannego napoju. Moje oczy są bardzo uważne. Często zatrzymują wzrok na nic nieznaczących przedmiotach i nadają im znaczenie. Bo ta filiżanka to dzieło sztuki, to mała rzeźba codzienności. A Ty na nią patrzysz jak na środek do celu pobudzenia.</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/8417135/ello-optimized-472751ce.jpg\" alt=\"Obraz przedstawia zdjęcie kobiecej twarzy w mocnym makijażu. Kobieta trzyma się za naszyjnik. Po prawej stronie widzimy czarny graficzny kształt.\" /></p>\n<h2>Sąsiad</h2>\n<p>Kiedy krzyczę to krzyczę najgłośniej. Sąsiedzi słyszą mój krzyk, ale nikt mnie nie odwiedza. Sąsiad lubi przyjść, kiedy po godzinie późno-wieczornej zdarzy mi się puścić głośno ulubioną piosenkę. Tak, mam ulubioną piosenkę i mimo tego, że znam na pamięć każdy jej dźwięk lubię słuchać jej jeszcze raz i jeszcze raz. No więc sucham, a on puka w drzwi. Tak puka, że pukania nie słyszę, bo jest dorosły i boi się pukać naprawdę. A ja, jak pukam to robię to, a jak krzyczę to krzyczę najgłośniej jak potrafię. Warto zadać sobie pytanie: Czy kiedy krzyczysz to krzyczysz naprawdę? A kiedy pukasz w czyjeś drzwi, to pukasz, czy boisz się pukać? Tyle rzeczy codziennie robimy, których nie robimy, bo jesteśmy dorośli. A ja bym mu z chęcią otworzyła i zaprosiła do wspólnego słuchania naprawdę.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/8417139/ello-optimized-f545d3d4.jpg\" alt=\"Obraz przedstawia portret kobiety ze skrzywioną miną. Z prawej strony widzimy czarny graficzny znak.\" /></p>\n<h2>Uśmiech</h2>\n<p>Mają mnie za wariatkę, bo lubię się śmiać. Idę ulicą z uśmiechem wyprzedzającym moje krótkie kroki. Kiedy ten uśmiech spotyka Panią, Pani się chowa przed nim, jak przed komornikiem. Kiedy ten uśmiech spotyka Pana, Pan wzdryga się, jakby w ustach miał posmak plasterka cytryny. Mają mnie za wariatkę, ale się przyzwyczaiłam. Jakiś czas temu było mi wstyd i chciałam wtopić się w smutny tłum. Wycinałam wtedy w domu z maskę z gazety i zakładałam na twarz. W dzisiejszych czasopismach dużo jest masek. Taka maska chroni przed wzrokiem i nie pokazuje radości. Niewygodnie mi się mówiło, dlatego zrezygnowałam z dialogów. Niewygodnie mi się w masce jadło, dlatego pominęłam posiłki. Teraz w końcu jestem jak Ty. Czasami maska uwiera i czuję się głodna, ale potrafię być ponad ten stan. W końcu jestem jak Ty – dorosła.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/8417140/ello-optimized-8f650fe0.jpg\" alt=\"Obraz przedstawia zdjęcie kobiecej twarzy w kolorowym makijażu. Kobieta trzyma się ręką za twarz. Po prawej stronie widzimy czarny graficzny znak serca.\" /></p>\n<h2>Śmierć</h2>\n<p>Dziś jest ostatni dzień mojego życia. Przed chwilą dzwoniła Kostucha i wprosiła się na obiad. Nie wiem, co przygotować, nie wiem, co jedzą tak wyjątkowi goście. Myślę nad przygotowaniem pierogów, pierogi lubią wszyscy. Zaraz, moment. Przecież ja nie potrafię gotować. Mam 48 lat i nigdy nie nauczyłem się przygotowywać posiłków. Twierdziłem, że do niczego w życiu mi się to nie przyda. Zamówię chińczyka, znam świetną knajpkę niedaleko. Szybko przywiozą, a ja później odgrzeję i podam. Może pomyśli, że to ja przygotowałem tak pyszne sajgonki? Kto wie, może uda mi się wyprosić jeszcze jeden tydzień życia, dzień może. Mam 48 lat i nie mam dzieci. Miałem dwie żony, ale obie ode mnie odeszły. Mam tyko pracę. Pracuję całe życie, ponad siły. Zawsze powtarzałem sobie, że na podróże przyjdzie jeszcze czas, że na razie nie pora, że trzeba się skupić na pracy. Miałem kiedyś znajomych, ale zrezygnowałem z kontaktów z nimi, bo oni lubili wychodzić wieczorami na piwo, a ja wolałem pracować, nie lubiłem się rozpraszać głupotami. Gdybym miał jeszcze jeden dzień napiłbym się tego piwa. Nie sądziłem, że śmierć przyjdzie tak szybko. Nie odwiedziłem Singapuru, Paryża, Mediolanu, Stanów Zjednoczonych, nie nurkowałem, nie leciałem balonem, nie mam tatuaży. Dopiero teraz czuję, jakbym nie doświadczył życia. Praca była moim całym życiem, gdzie ona teraz jest? Ktoś puka do drzwi, lecę otworzyć. Dzień dobry Kostucho, serdecznie zapraszam, przygotowałem sajg...</p>\n<hr />\n";
+var raw = exports.raw = "\n![Zdjęcie przedstawia portret kobiety w mocnym kolorowym makijażu.](https://assets0.ello.co/uploads/asset/attachment/8417134/ello-optimized-95e39ab9.jpg)\n\n## Filiżanka\n\nŚwiat jest pełen nic nieznaczących przedmiotów. \nZawsze mi powtarzali: ‘pielęgnuj w sobie dziecko’.\nA teraz patrzę i mi się wydaje. Wydaje mi się, że dostrzegam jasnobrązowe zacieki na porcelanowej filiżance. Wydaje mi się być fascynującym zjawisko smug. W głowie pojawia się obraz ściekającej farby. Sjena palona wymieszana z zapachem świeżej terpentyny. Zawsze wybieraj rozcieńczalnik z zapachem. Kupowanie bezzapachowej benzyny to trochę jak wydanie 580 złotych na bezzapachowe perfumy. Tak. Świat pachnie i należy go wąchać. Kiedy zatrzymujemy się na stacji paliw zawsze uchylam okno i wystawiam głowę na zewnątrz. Lubię czuć. A ta filiżanka czuje razem ze mną. Zapach, smak, ciepło porannego napoju. Moje oczy są bardzo uważne. Często zatrzymują wzrok na nic nieznaczących przedmiotach i nadają im znaczenie. Bo ta filiżanka to dzieło sztuki, to mała rzeźba codzienności. A Ty na nią patrzysz jak na środek do celu pobudzenia.\n\n![Obraz przedstawia zdjęcie kobiecej twarzy w mocnym makijażu. Kobieta trzyma się za naszyjnik. Po prawej stronie widzimy czarny graficzny kształt.](https://assets2.ello.co/uploads/asset/attachment/8417135/ello-optimized-472751ce.jpg)\n\n## Sąsiad\n\nKiedy krzyczę to krzyczę najgłośniej. Sąsiedzi słyszą mój krzyk, ale nikt mnie nie odwiedza. Sąsiad lubi przyjść, kiedy po godzinie późno-wieczornej zdarzy mi się puścić głośno ulubioną piosenkę. Tak, mam ulubioną piosenkę i mimo tego, że znam na pamięć każdy jej dźwięk lubię słuchać jej jeszcze raz i jeszcze raz. No więc sucham, a on puka w drzwi. Tak puka, że pukania nie słyszę, bo jest dorosły i boi się pukać naprawdę. A ja, jak pukam to robię to, a jak krzyczę to krzyczę najgłośniej jak potrafię. Warto zadać sobie pytanie: Czy kiedy krzyczysz to krzyczysz naprawdę? A kiedy pukasz w czyjeś drzwi, to pukasz, czy boisz się pukać? Tyle rzeczy codziennie robimy, których nie robimy, bo jesteśmy dorośli. A ja bym mu z chęcią otworzyła i zaprosiła do wspólnego słuchania naprawdę.\n\n![Obraz przedstawia portret kobiety ze skrzywioną miną. Z prawej strony widzimy czarny graficzny znak.](https://assets1.ello.co/uploads/asset/attachment/8417139/ello-optimized-f545d3d4.jpg)\n\n\n## Uśmiech\n\nMają mnie za wariatkę, bo lubię się śmiać. Idę ulicą z uśmiechem wyprzedzającym moje krótkie kroki. Kiedy ten uśmiech spotyka Panią, Pani się chowa przed nim, jak przed komornikiem. Kiedy ten uśmiech spotyka Pana, Pan wzdryga się, jakby w ustach miał posmak plasterka cytryny. Mają mnie za wariatkę, ale się przyzwyczaiłam. Jakiś czas temu było mi wstyd i chciałam wtopić się w smutny tłum. Wycinałam wtedy w domu z maskę z gazety i zakładałam na twarz. W dzisiejszych czasopismach dużo jest masek. Taka maska chroni przed wzrokiem i nie pokazuje radości. Niewygodnie mi się mówiło, dlatego zrezygnowałam z dialogów. Niewygodnie mi się w masce jadło, dlatego pominęłam posiłki. Teraz w końcu jestem jak Ty. Czasami maska uwiera i czuję się głodna, ale potrafię być ponad ten stan. W końcu jestem jak Ty – dorosła. \n\n\n![Obraz przedstawia zdjęcie kobiecej twarzy w kolorowym makijażu. Kobieta trzyma się ręką za twarz. Po prawej stronie widzimy czarny graficzny znak serca.](https://assets1.ello.co/uploads/asset/attachment/8417140/ello-optimized-8f650fe0.jpg)\n\n## Śmierć\n\nDziś jest ostatni dzień mojego życia. Przed chwilą dzwoniła Kostucha i wprosiła się na obiad. Nie wiem, co przygotować, nie wiem, co jedzą tak wyjątkowi goście. Myślę nad przygotowaniem pierogów, pierogi lubią wszyscy. Zaraz, moment. Przecież ja nie potrafię gotować. Mam 48 lat i nigdy nie nauczyłem się przygotowywać posiłków. Twierdziłem, że do niczego w życiu mi się to nie przyda. Zamówię chińczyka, znam świetną knajpkę niedaleko. Szybko przywiozą, a ja później odgrzeję i podam. Może pomyśli, że to ja przygotowałem tak pyszne sajgonki? Kto wie, może uda mi się wyprosić jeszcze jeden tydzień życia, dzień może. Mam 48 lat i nie mam dzieci. Miałem dwie żony, ale obie ode mnie odeszły. Mam tyko pracę. Pracuję całe życie, ponad siły. Zawsze powtarzałem sobie, że na podróże przyjdzie jeszcze czas, że na razie nie pora, że trzeba się skupić na pracy. Miałem kiedyś znajomych, ale zrezygnowałem z kontaktów z nimi, bo oni lubili wychodzić wieczorami na piwo, a ja wolałem pracować, nie lubiłem się rozpraszać głupotami. Gdybym miał jeszcze jeden dzień napiłbym się tego piwa. Nie sądziłem, że śmierć przyjdzie tak szybko. Nie odwiedziłem Singapuru, Paryża, Mediolanu, Stanów Zjednoczonych, nie nurkowałem, nie leciałem balonem, nie mam tatuaży. Dopiero teraz czuję, jakbym nie doświadczył życia. Praca była moim całym życiem, gdzie ona teraz jest? Ktoś puka do drzwi, lecę otworzyć. Dzień dobry Kostucho, serdecznie zapraszam, przygotowałem sajg…\n\n\n---------------";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 142 */
@@ -12403,6 +12495,18 @@ webpackEmptyContext.id = 142;
 
 /***/ }),
 /* 143 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 143;
+
+/***/ }),
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -12423,19 +12527,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 143;
+webpackContext.id = 144;
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(145);
+module.exports = __webpack_require__(146);
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12453,7 +12557,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(146);
+var _propTypes = __webpack_require__(147);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -12657,13 +12761,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_146__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_147__;
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12677,7 +12781,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12685,7 +12789,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12698,7 +12802,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12732,7 +12836,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12745,7 +12849,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12754,7 +12858,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12762,7 +12866,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12770,7 +12874,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12785,7 +12889,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12800,7 +12904,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12815,7 +12919,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12839,7 +12943,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(159);
+var s = __webpack_require__(160);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -12870,7 +12974,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12878,7 +12982,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12902,7 +13006,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12953,7 +13057,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12961,7 +13065,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12970,7 +13074,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(164);
+var s = __webpack_require__(165);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -13003,7 +13107,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13013,7 +13117,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13057,22 +13161,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 168,
-	"./Feed.js": 169,
-	"./Ingredient.js": 170,
-	"./Method.js": 171,
-	"./Recipe.js": 172,
-	"./TableOfContents.js": 173
+	"./Crumbs.js": 169,
+	"./Feed.js": 170,
+	"./Ingredient.js": 171,
+	"./Method.js": 172,
+	"./Recipe.js": 173,
+	"./TableOfContents.js": 174
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -13088,10 +13192,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 167;
+webpackContext.id = 168;
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13106,7 +13210,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 169 */
+/* 170 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13121,7 +13225,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 170 */
+/* 171 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13136,7 +13240,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 171 */
+/* 172 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13151,7 +13255,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 172 */
+/* 173 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13166,7 +13270,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 173 */
+/* 174 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13181,7 +13285,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 174 */
+/* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13205,7 +13309,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 175 */
+/* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
