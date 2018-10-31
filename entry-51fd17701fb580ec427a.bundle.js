@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_147__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_148__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(162);
+var Feed_1 = __webpack_require__(163);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(164);
+var Recipe_1 = __webpack_require__(165);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(166);
+var Root_1 = __webpack_require__(167);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(148);
+var s = __webpack_require__(149);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(149);
+var s = __webpack_require__(150);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(65),
-UPLOADS: __webpack_require__(142),
-ROOT: __webpack_require__(143),
-LAYOUTS: __webpack_require__(144),
-INCLUDES: __webpack_require__(168)};
+UPLOADS: __webpack_require__(143),
+ROOT: __webpack_require__(144),
+LAYOUTS: __webpack_require__(145),
+INCLUDES: __webpack_require__(169)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(168)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(150);
+var s = __webpack_require__(151);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(154);
+var s = __webpack_require__(155);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(167);
+__webpack_require__(168);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(145);
+var react_disqus_comments_1 = __webpack_require__(146);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(159);
-var s = __webpack_require__(161);
+var FacebookLike_1 = __webpack_require__(160);
+var s = __webpack_require__(162);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(151);
-var s = __webpack_require__(152);
+__webpack_require__(152);
+var s = __webpack_require__(153);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(153);
+var s = __webpack_require__(154);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(156);
+var s = __webpack_require__(157);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(155);
+var s = __webpack_require__(156);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(157);
+var s = __webpack_require__(158);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(158);
+var s = __webpack_require__(159);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(163);
+var s = __webpack_require__(164);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(175);
-var menu_1 = __webpack_require__(176);
+var tags_1 = __webpack_require__(176);
+var menu_1 = __webpack_require__(177);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2880,7 +2880,8 @@ var map = {
 	"./2018-10-04-manieryzm-moodboard.markdown": 138,
 	"./2018-10-10-make-up-inspirowany-obrazem-kompozycja-viii-by-wassily-kandinsky.markdown": 139,
 	"./2018-10-24-moje-wybory-pazdziernik-2018.markdown": 140,
-	"./2018-10-28-smierc-doroslego.markdown": 141
+	"./2018-10-28-smierc-doroslego.markdown": 141,
+	"./2018-10-31-kamp-moodboard.markdown": 142
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -12483,15 +12484,134 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia portret kobiety w mocnym kolor
 
 /***/ }),
 /* 142 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 142;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Susan Sontag jako pierwsza podj\u0119\u0142a pr\xF3b\u0119 zdefiniowania zjawiska Kampu. W swoich \u2018Notatkach o kampie\u2019 z 1964 roku opisuje go jako spos\xF3b patrzenia na \u015Bwiat sztuki. \u2018Kamp jest tkliwym uczuciem...\u2019, jest akceptacj\u0105 tego, co ludzkie. Estetyka niejednoznaczna, trudna do zdefiniowania, jednak pozostaj\u0105ca w pewnych kr\u0119gach \u2013 kultury gejowskiej, przesadnej teatralno\u015Bci, hermafrodytyzmu. Kamp odnajdujemy r\xF3wnie\u017C w przedmiotach \u2013 tych przerysowanych, nienaturalnych, zbyt m\u0119skich, albo zbyt kobiecych. Kamp czerpie z kiczu, jednak kiczem nie jest. Zdaniem Sontag dziedziny taki jak balet czy opera s\u0105 przesi\u0105kni\u0119te kampem, poniewa\u017C \u017Cadna z tych form \u2018nie potrafi zda\u0107 sobie sprawy z komplikacji ludzkiej natury\u2019. Doszukiwanie si\u0119 g\u0142\u0119bszego sensu w Jeziorze \u0141ab\u0119dzim jest strat\u0105 czasu, poniewa\u017C utw\xF3r ten s\u0142u\u017Cy\u0107 ma jedynie cieszeniu nas.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Jeste\u015Bmy w stanie wymieni\u0107 pewne zjawiska, okresy z przesz\u0142o\u015Bci, kt\xF3re mia\u0142y zasadniczy wp\u0142yw na ukszta\u0142towanie si\u0119 kampu:'
+    ),
+    _react2.default.createElement(
+      'ul',
+      null,
+      _react2.default.createElement(
+        'li',
+        null,
+        'sztuka prerafaelit\xF3w; hermafrodytyzm'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'moda kobieca lat 20-tych; szale z pi\xF3r \u2018boa\u2019; cukierkowa kolorystyka'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'styl rokoko'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'secesja'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'powie\u015Bci gotyckie z XVIII wieku'
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Cechy Kampu:'
+    ),
+    _react2.default.createElement(
+      'ul',
+      null,
+      _react2.default.createElement(
+        'li',
+        null,
+        'sztuczno\u015B\u0107, przerysowanie'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'upodobanie do tego, co odbiega od normy'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'mieszanie kultury wysokiej z kultur\u0105 popularn\u0105'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'ironia, sarkazm, specyficzny rodzaj \u2018humoru\u2019'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'kola\u017Cowo\u015B\u0107; \u0142\u0105czenie skrajnych kategorii pozornie niepasuj\u0105cych do siebie'
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Prawdziwy kamp jest celowy i przemy\u015Blany.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8418254/ello-optimized-24fdcf06.jpg', alt: 'Obraz przedstawia cztery fotografie na zielono-r\xF3\u017Cowym tle. Widzimy posta\u0107 z brod\u0105 i dwa zdj\u0119cia z przedstawienia baletowego.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/8418257/ello-optimized-c0a156a7.jpg', alt: 'Obraz przedstawia trzy fotografie postaci kobiecych na r\xF3\u017Cowo-\u017C\xF3\u0142tym tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8418259/ello-optimized-ebcfaccd.jpg', alt: 'Obraz przedstawia trzy fotografie na r\xF3\u017Cowo-niebieskim tle. Widzimy rze\u017Ab\u0119 znanego artysty, oraz czarno-bia\u0142e kadry z filmu.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8418260/ello-optimized-bb903f23.jpg', alt: 'Obraz przedstawia dwie figurki ma\u0142pek i jedno zdj\u0119cie na niebiesko-r\xF3\u017Cowym tle. Na zdj\u0119ciu widzimy posta\u0107 otoczon\u0105 kwiatami.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/8418262/ello-optimized-1ecd6358.jpg', alt: 'Obraz przedstawia trzy fotografie. S\u0105 to dzie\u0142a artyst\xF3w z r\xF3\u017Cnych okres\xF3w. Ca\u0142o\u015B\u0107 na r\xF3\u017Cowo-fioletowym tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/8418264/ello-optimized-95caa4de.jpg', alt: 'Obraz przedstawia pi\u0119\u0107 zdj\u0119\u0107 na fioletowym tle. Widzimy postaci kobiece.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/8418266/ello-optimized-334de995.jpg', alt: 'Obraz przedstawia dzie\u0142o znanego artysty, oraz obszerny opis. Wszystko na fioletowym tle.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Kamp [moodboard]", "date": "2018-10-31T11:29:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["moodboard", "kamp", "camp", "sztuka"] };
+var body = exports.body = "<p>Susan Sontag jako pierwsza podjęła próbę zdefiniowania zjawiska Kampu. W swoich ‘Notatkach o kampie’ z 1964 roku opisuje go jako sposób patrzenia na świat sztuki. ‘Kamp jest tkliwym uczuciem...’, jest akceptacją tego, co ludzkie. Estetyka niejednoznaczna, trudna do zdefiniowania, jednak pozostająca w pewnych kręgach – kultury gejowskiej, przesadnej teatralności, hermafrodytyzmu. Kamp odnajdujemy również w przedmiotach – tych przerysowanych, nienaturalnych, zbyt męskich, albo zbyt kobiecych. Kamp czerpie z kiczu, jednak kiczem nie jest. Zdaniem Sontag dziedziny taki jak balet czy opera są przesiąknięte kampem, ponieważ żadna z tych form ‘nie potrafi zdać sobie sprawy z komplikacji ludzkiej natury’. Doszukiwanie się głębszego sensu w Jeziorze Łabędzim jest stratą czasu, ponieważ utwór ten służyć ma jedynie cieszeniu nas.</p>\n<p>Jesteśmy w stanie wymienić pewne zjawiska, okresy z przeszłości, które miały zasadniczy wpływ na ukształtowanie się kampu:</p>\n<ul>\n<li>sztuka prerafaelitów; hermafrodytyzm</li>\n<li>moda kobieca lat 20-tych; szale z piór ‘boa’; cukierkowa kolorystyka</li>\n<li>styl rokoko</li>\n<li>secesja</li>\n<li>powieści gotyckie z XVIII wieku</li>\n</ul>\n<p>Cechy Kampu:</p>\n<ul>\n<li>sztuczność, przerysowanie</li>\n<li>upodobanie do tego, co odbiega od normy</li>\n<li>mieszanie kultury wysokiej z kulturą popularną</li>\n<li>ironia, sarkazm, specyficzny rodzaj ‘humoru’</li>\n<li>kolażowość; łączenie skrajnych kategorii pozornie niepasujących do siebie</li>\n</ul>\n<p>Prawdziwy kamp jest celowy i przemyślany.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/8418254/ello-optimized-24fdcf06.jpg\" alt=\"Obraz przedstawia cztery fotografie na zielono-różowym tle. Widzimy postać z brodą i dwa zdjęcia z przedstawienia baletowego.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/8418257/ello-optimized-c0a156a7.jpg\" alt=\"Obraz przedstawia trzy fotografie postaci kobiecych na różowo-żółtym tle.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/8418259/ello-optimized-ebcfaccd.jpg\" alt=\"Obraz przedstawia trzy fotografie na różowo-niebieskim tle. Widzimy rzeźbę znanego artysty, oraz czarno-białe kadry z filmu.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/8418260/ello-optimized-bb903f23.jpg\" alt=\"Obraz przedstawia dwie figurki małpek i jedno zdjęcie na niebiesko-różowym tle. Na zdjęciu widzimy postać otoczoną kwiatami.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/8418262/ello-optimized-1ecd6358.jpg\" alt=\"Obraz przedstawia trzy fotografie. Są to dzieła artystów z różnych okresów. Całość na różowo-fioletowym tle.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/8418264/ello-optimized-95caa4de.jpg\" alt=\"Obraz przedstawia pięć zdjęć na fioletowym tle. Widzimy postaci kobiece.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/8418266/ello-optimized-334de995.jpg\" alt=\"Obraz przedstawia dzieło znanego artysty, oraz obszerny opis. Wszystko na fioletowym tle.\" /></p>\n";
+var raw = exports.raw = "\nSusan Sontag jako pierwsza podjęła próbę zdefiniowania zjawiska Kampu. W swoich ‘Notatkach o kampie’ z 1964 roku opisuje go jako sposób patrzenia na świat sztuki. ‘Kamp jest tkliwym uczuciem...’, jest akceptacją tego, co ludzkie. Estetyka niejednoznaczna, trudna do zdefiniowania, jednak pozostająca w pewnych kręgach – kultury gejowskiej, przesadnej teatralności, hermafrodytyzmu. Kamp odnajdujemy również w przedmiotach – tych przerysowanych, nienaturalnych, zbyt męskich, albo zbyt kobiecych. Kamp czerpie z kiczu, jednak kiczem nie jest. Zdaniem Sontag dziedziny taki jak balet czy opera są przesiąknięte kampem, ponieważ żadna z tych form ‘nie potrafi zdać sobie sprawy z komplikacji ludzkiej natury’. Doszukiwanie się głębszego sensu w Jeziorze Łabędzim jest stratą czasu, ponieważ utwór ten służyć ma jedynie cieszeniu nas. \n\nJesteśmy w stanie wymienić pewne zjawiska, okresy z przeszłości, które miały zasadniczy wpływ na ukształtowanie się kampu:\n\n* sztuka prerafaelitów; hermafrodytyzm\n* moda kobieca lat 20-tych; szale z piór ‘boa’; cukierkowa kolorystyka\n* styl rokoko\n* secesja\n* powieści gotyckie z XVIII wieku\n\nCechy Kampu:\n\n* sztuczność, przerysowanie\n* upodobanie do tego, co odbiega od normy\n* mieszanie kultury wysokiej z kulturą popularną\n* ironia, sarkazm, specyficzny rodzaj ‘humoru’\n* kolażowość; łączenie skrajnych kategorii pozornie niepasujących do siebie\n\nPrawdziwy kamp jest celowy i przemyślany. \n\n![Obraz przedstawia cztery fotografie na zielono-różowym tle. Widzimy postać z brodą i dwa zdjęcia z przedstawienia baletowego.](https://assets1.ello.co/uploads/asset/attachment/8418254/ello-optimized-24fdcf06.jpg)\n![Obraz przedstawia trzy fotografie postaci kobiecych na różowo-żółtym tle.](https://assets0.ello.co/uploads/asset/attachment/8418257/ello-optimized-c0a156a7.jpg)\n![Obraz przedstawia trzy fotografie na różowo-niebieskim tle. Widzimy rzeźbę znanego artysty, oraz czarno-białe kadry z filmu.](https://assets1.ello.co/uploads/asset/attachment/8418259/ello-optimized-ebcfaccd.jpg)\n![Obraz przedstawia dwie figurki małpek i jedno zdjęcie na niebiesko-różowym tle. Na zdjęciu widzimy postać otoczoną kwiatami.](https://assets1.ello.co/uploads/asset/attachment/8418260/ello-optimized-bb903f23.jpg)\n![Obraz przedstawia trzy fotografie. Są to dzieła artystów z różnych okresów. Całość na różowo-fioletowym tle.](https://assets2.ello.co/uploads/asset/attachment/8418262/ello-optimized-1ecd6358.jpg)\n![Obraz przedstawia pięć zdjęć na fioletowym tle. Widzimy postaci kobiece.](https://assets0.ello.co/uploads/asset/attachment/8418264/ello-optimized-95caa4de.jpg)\n![Obraz przedstawia dzieło znanego artysty, oraz obszerny opis. Wszystko na fioletowym tle.](https://assets0.ello.co/uploads/asset/attachment/8418266/ello-optimized-334de995.jpg)";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 143 */
@@ -12507,6 +12627,18 @@ webpackEmptyContext.id = 143;
 
 /***/ }),
 /* 144 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 144;
+
+/***/ }),
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -12527,19 +12659,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 144;
+webpackContext.id = 145;
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(146);
+module.exports = __webpack_require__(147);
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12557,7 +12689,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(147);
+var _propTypes = __webpack_require__(148);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -12761,13 +12893,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_147__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_148__;
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12781,7 +12913,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12789,7 +12921,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12802,7 +12934,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12836,7 +12968,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12849,7 +12981,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12858,7 +12990,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12866,7 +12998,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12874,7 +13006,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12889,7 +13021,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12904,7 +13036,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12919,7 +13051,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12943,7 +13075,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(160);
+var s = __webpack_require__(161);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -12974,7 +13106,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12982,7 +13114,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13006,7 +13138,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13057,7 +13189,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13065,7 +13197,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13074,7 +13206,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(165);
+var s = __webpack_require__(166);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -13107,7 +13239,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13117,7 +13249,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13161,22 +13293,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 169,
-	"./Feed.js": 170,
-	"./Ingredient.js": 171,
-	"./Method.js": 172,
-	"./Recipe.js": 173,
-	"./TableOfContents.js": 174
+	"./Crumbs.js": 170,
+	"./Feed.js": 171,
+	"./Ingredient.js": 172,
+	"./Method.js": 173,
+	"./Recipe.js": 174,
+	"./TableOfContents.js": 175
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -13192,10 +13324,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 168;
+webpackContext.id = 169;
 
 /***/ }),
-/* 169 */
+/* 170 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13210,7 +13342,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 170 */
+/* 171 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13225,7 +13357,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 171 */
+/* 172 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13240,7 +13372,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 172 */
+/* 173 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13255,7 +13387,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 173 */
+/* 174 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13270,7 +13402,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 174 */
+/* 175 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13285,7 +13417,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 175 */
+/* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13309,7 +13441,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 176 */
+/* 177 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
