@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_148__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_149__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(163);
+var Feed_1 = __webpack_require__(164);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(165);
+var Recipe_1 = __webpack_require__(166);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(167);
+var Root_1 = __webpack_require__(168);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(149);
+var s = __webpack_require__(150);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(150);
+var s = __webpack_require__(151);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(65),
-UPLOADS: __webpack_require__(143),
-ROOT: __webpack_require__(144),
-LAYOUTS: __webpack_require__(145),
-INCLUDES: __webpack_require__(169)};
+UPLOADS: __webpack_require__(144),
+ROOT: __webpack_require__(145),
+LAYOUTS: __webpack_require__(146),
+INCLUDES: __webpack_require__(170)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(169)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(151);
+var s = __webpack_require__(152);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(155);
+var s = __webpack_require__(156);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(168);
+__webpack_require__(169);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(146);
+var react_disqus_comments_1 = __webpack_require__(147);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(160);
-var s = __webpack_require__(162);
+var FacebookLike_1 = __webpack_require__(161);
+var s = __webpack_require__(163);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(152);
-var s = __webpack_require__(153);
+__webpack_require__(153);
+var s = __webpack_require__(154);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(154);
+var s = __webpack_require__(155);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(157);
+var s = __webpack_require__(158);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(156);
+var s = __webpack_require__(157);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(158);
+var s = __webpack_require__(159);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(159);
+var s = __webpack_require__(160);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(164);
+var s = __webpack_require__(165);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(176);
-var menu_1 = __webpack_require__(177);
+var tags_1 = __webpack_require__(177);
+var menu_1 = __webpack_require__(178);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2881,7 +2881,8 @@ var map = {
 	"./2018-10-10-make-up-inspirowany-obrazem-kompozycja-viii-by-wassily-kandinsky.markdown": 139,
 	"./2018-10-24-moje-wybory-pazdziernik-2018.markdown": 140,
 	"./2018-10-28-smierc-doroslego.markdown": 141,
-	"./2018-10-31-kamp-moodboard.markdown": 142
+	"./2018-10-31-kamp-moodboard.markdown": 142,
+	"./2018-11-07-make-up-inspirowany-obrazem-light-of-iris-by-georgia-okeeffe.markdown": 143
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -12615,15 +12616,197 @@ var raw = exports.raw = "\nSusan Sontag jako pierwsza podjęła próbę zdefinio
 
 /***/ }),
 /* 143 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 143;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/8467684/ello-optimized-96300a10.jpg', alt: 'Zdj\u0119cie przedstawia portret kobiety w artystycznym makija\u017Cu.' })
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Georgia O\u2019Keeffe przychodzi na \u015Bwiat w ameryka\u0144skiej rodzinie zajmuj\u0105cej si\u0119 hodowl\u0105 byd\u0142a. Druga, z siedmiorga dzieci, od najm\u0142odszych lat wykazuje si\u0119 talentem plastycznym. Matka - Ida Totto O\u2019Keeffe, bardzo dba o rozw\xF3j swoich maluch\xF3w, dlatego ju\u017C w wieku 12 lat Georgia wraz z siostrami ucz\u0119szcza na lekcje rysunku. Przysz\u0142a malarka kontynuuje nauk\u0119 w Town Hall School w Wisconsin, gdzie szkoli si\u0119 pod okiem akwarelistki Sary Mann. Georgia jet grzecznym dzieckiem. Zdobywa wysokie oceny z przedmiot\xF3w takich jak algebra, historia, j\u0119zyki. Rozwijanie obserwacji przyrody, w tym kwiat\xF3w, oraz znajomo\u015B\u0107 techniki akwareli przyczynia si\u0119 znacz\u0105co do przysz\u0142ej krystalizacji indywidualnego stylu O\u2019Keeffe.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'W 1905 roku Georgia rozpoczyna nauk\u0119 malarstwa w Art Institute w\xA0Chicago. Trzy lata p\xF3\u017Aniej otrzymuje nagrod\u0119 Williama Merritta Chase\u2019a za obraz olejny \u201EMartwy kr\xF3lik z miedzianym garnkiem\u201D. Nagroda ta stanowi stypendium umo\u017Cliwiaj\u0105ce jej wzi\u0119cie udzia\u0142u w plenerze odbywaj\u0105cym si\u0119 nad jeziorem George, w stanie Nowy Jork. Jesieni\u0105 tego roku O\u2019Keeffe rezygnuje z malarstwa i zaczyna naucza\u0107 rysunku w szkole podstawowej. Do farb powr\xF3ci dopiero w 1912 roku.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Na wiosn\u0119 1917 roku ma miejsce pierwsza wystawa prac Georgii w Nowym Jorku. Galeria 291 Alfreda Stieglitza (eksponowano w niej prace ',
+      _react2.default.createElement(
+        'a',
+        { href: 'http://m.in' },
+        'm.in'
+      ),
+      '. Pabla Picassa, Henri\u2019ego Matisse\u2019a, Paula Cezanne\u2019a) pokazuje niewielki zbi\xF3r jej akwareli z Teksasu. W\u0142a\u015Bciciel galerii zachwycony jest lekko\u015Bci\u0105 i prawd\u0105 drzemi\u0105c\u0105 w pracach przysz\u0142ej gwiazdy ameryka\u0144skiego malarstwa. Alfred Stieglitz to posta\u0107 niezwykle wa\u017Cna dla rozwoju ameryka\u0144skiej sztuki. Fotograf, w\u0142a\u015Bciciel wp\u0142ywowej galerii, wydawca, popularyzator nowoczesnych idei artystycznych. W \xF3wczesnym \u015Bwiecie zdominowanym przez p\u0142e\u0107 m\u0119sk\u0105 kobietom by\u0142o niezwykle trudno \u2018przebi\u0107 si\u0119\u2019, zosta\u0107 dostrze\u017Con\u0105. Georgii brakowa\u0142o wiary w siebie, dlatego pomog\u0142a jej w tym przyjaci\xF3\u0142ka, Anita Pollitzer. To w\u0142a\u015Bnie ona, mo\u017Cna powiedzie\u0107, zapocz\u0105tkowa\u0142a karier\u0119 Georgii pokazuj\u0105c jej prace Alfredowi. Nied\u0142ugo p\xF3\u017Aniej oka\u017Ce si\u0119, \u017Ce zapocz\u0105tkowa\u0142a r\xF3wnie\u017C jej \u017Cycie mi\u0142osne...'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8467686/ello-optimized-066f10e7.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia. Na zdj\u0119ciu z lewej strony widzimy portret kobiety w kolorowym makija\u017Cu. Po prawej stronie widzimy ma\u0142e zdj\u0119cie oka.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Georgia: artystka, modelka, kochanka'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Lekko odchylone w lew\u0105 stron\u0119, idealne w proporcjach kobiece cia\u0142o zdaje si\u0119 trwa\u0107 w chwili, kt\xF3rej powaga jest jak najdoskonalsza marmurowa rze\u017Aba. Palce lewej d\u0142oni subtelnym gestem owijaj\u0105 si\u0119 wok\xF3\u0142 sutka niczym w\u0105\u017C wok\xF3\u0142 drzewa w ogrodzie Eden. S\u0105 manifestacj\u0105 si\u0142y kobieco\u015Bci. Pe\u0142ne m\u0105dro\u015Bci i smutku oczy patrz\u0105 w dal mijaj\u0105c swoim wzrokiem przedmiot trzymany przez lew\u0105 d\u0142o\u0144. Kobiet\u0105 na fotografii z 1919 roku jest Georgia, a autorem zdj\u0119cia Alfred. Kochankowie doskonale si\u0119 rozumiej\u0105 i uzupe\u0142niaj\u0105. Artystka dostarcza partnerowi zrozumienia, partner dba o jej karier\u0119. On negocjuje warunki sprzeda\u017Cy dzie\u0142, ona pozuje przy okazji \u015Bmia\u0142ych wizji. On organizuje wystawy, wyp\u0142aca pensj\u0119, ona pracuje nad kolejnymi obrazami. Kochankowie pobieraj\u0105 si\u0119 w 1924 (zaraz po rozwodzie Alfreda). Zimne miesi\u0105ce sp\u0119dzaj\u0105 na Manhattanie, s\u0142o\u0144cem za\u015B ciesz\u0105 si\u0119 nad jeziorem George.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/8467691/ello-optimized-c4a6edc5.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia. Z prawej strony widzimy portret kobiety w kolorowym makija\u017Cu. Kobieta wznosi wzrok ku g\xF3rze. Z lewej strony widzimy ma\u0142e zdj\u0119cie oka.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      '1929-1949'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Pod koniec lat 30-tych O\u2019Keeffe pragnie powiewu \u015Bwie\u017Cych inspiracji. Wyrusza w podr\xF3\u017C do Taos, w Nowym Meksyku. Sp\u0119dza lato na ranczo Mabel Dodge Luhan, gdzie odbywa wiele konnych wypraw po lokalnych g\xF3rach i pustyniach. W tym czasie powstaj\u0105 s\u0142ynne dzie\u0142a ',
+      _react2.default.createElement(
+        'a',
+        { href: 'http://m.in' },
+        'm.in'
+      ),
+      '.\xA0\u201EDrzewo Lawrence\u2019a\u201D, oraz nietypowe przedstawienie \u015Bciany ko\u015Bcio\u0142a Ranchos de Taos. Przez kolejne 20 lat Georgia regularnie podr\xF3\u017Cuje do Nowego Meksyku, a na jesie\u0144 zawsze wraca do Nowego Jorku. Maluje typowe dla tamtejszej kultury i klimatu motywy ko\u015Bci, czaszek, oraz liczne widoki.'
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'By\u0107 kobiet\u0105'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Georgia to pierwsza kobieta-artystka, kt\xF3ra do\u015Bwiadczy\u0142a w\u0142asnej wystawy retrospektywnej w MOMA (Museum of Modern Art) w Nowym Jorku (1946 r.). Jej wielkoformatowe obrazy-kwiaty stanowi\u0105 form\u0119 abstrakcyjnego postrzegania realnej rzeczywisto\u015Bci. Wielu z nas stwierdzi, \u017Ce kompozycje na pierwszy rzut oka przypominaj\u0105 kolorowe waginy. Krytycy przy okazji jej obraz\xF3w wspomn\u0105 o \u2018freudowskich \u017C\u0105dzach\u2019, \u2018uciele\u015Bnianiu erotycznych fantazji\u2019, a ona im na to odpowie, \u017Ce \u2018m\xF3wi\u0105 o sobie, a nie o niej\u2019. Do ko\u0144ca swoich dni pozosta\u0142a wierna sztuce. Podobno chcia\u0142a mie\u0107 dzieci, ale nie zgodzi\u0142 si\u0119 na nie jej m\u0105\u017C. Podr\xF3\u017Cowa\u0142a, je\u017Adzi\u0142a konna, prowadzi\u0142a auto, robi\u0142a wszystko, co wypada\u0142o i czego jeszcze nie wypada\u0142o robi\u0107 kobietom w tamtych czasach. Jej str\xF3j w m\u0119skim charakterze, wraz z up\u0142ywem czasu przeobra\u017Ca\u0142 si\u0119 w coraz bardziej ascetyczn\u0105 form\u0119. Czarne, purystyczne okrycia, brak makija\u017Cu, w\u0142osy zebrane w kok. By\u0107 mo\u017Ce artystka zauwa\u017Cy\u0142a, \u017Ce jej malarstwo w wi\u0119kszo\u015Bci odbierane jest jako wyraz i pochwa\u0142a kobieco\u015Bci i w\u0142a\u015Bnie dlatego zdecydowa\u0142a si\u0119 na antypodyczny wizerunek.'
+    ),
+    _react2.default.createElement(
+      'blockquote',
+      null,
+      _react2.default.createElement(
+        'p',
+        null,
+        'M\u0119\u017Cczy\u017Ani uznaj\u0105 mnie za najlepsz\u0105 kobiet\u0119-malark\u0119. A ja uwa\u017Cam, \u017Ce jestem jednym z najlepszych malarzy.'
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8467689/ello-optimized-48381852.jpg', alt: 'Zdj\u0119cie przedstawia odwr\xF3cone oko w powi\u0119kszeniu. Na powiece widzimy kolorowy makija\u017C.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      '\u2026i \u017Ce Ci\u0119 nie opuszcz\u0119 a\u017C do \u015Bmierci'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Georgia tworzy do ko\u0144ca swoich dni. W 1971 roku zaczyna traci\u0107 wzrok. Dwa lata p\xF3\u017Aniej zatrudnia m\u0142odego artyst\u0119 Juana Hamiltona na swojego asystenta. Hamilton z wykszta\u0142cenia jest garncarzem, to te\u017C sk\u0142ania 86-letni\u0105 w\xF3wczas malark\u0119 do pracy nad formami ceramicznymi. Z pomoc\u0105 m\u0142odego asystenta pisze ksi\u0105\u017Ck\u0119 o swojej sztuce. W 1977 roku prezydent Gerald R. Ford odznacza O\u2019Keeffe Medalem Wolno\u015Bci, a w 1985 roku otrzymuje ona Narodowy Medal Sztuki z r\u0105k Ronalda Reagana. Pod koniec \u017Cycia Georgia przenosi si\u0119 do Santa Fe, gdzie umiera w wieku 98 lat. Zgodnie z jej wol\u0105 cia\u0142o zostaje skremowane nast\u0119pnego dnia, a Hamilton rozrzuca prochy zmar\u0142ej stoj\u0105c na g\xF3rze Pedernal Mountain.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8467681/ello-optimized-451899b8.jpg', alt: 'Obraz przedstawia abstrakcyjn\u0105 kompozycj\u0119 z\u0142o\u017Con\u0105 z element\xF3w zdj\u0119\u0107, na kt\xF3rych widzimy oczy.' })
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Georgia ca\u0142e \u017Cycie po\u015Bwi\u0119ci\u0142a sztuce. Odnajdywa\u0142a spok\xF3j i natchnienie w\u015Br\xF3d skalistych widok\xF3w prerii. Jej malarstwo nie jest jedynie powi\u0119kszonym kwiatkiem, czy czaszk\u0105 lewituj\u0105c\u0105 w powietrzu. Poprzez kszta\u0142t i kolor prze\u017Cywa\u0142a wewn\u0119trzne transformacje, ale te\u017C symbolicznie ukazywa\u0142a otaczaj\u0105c\u0105 j\u0105 rzeczywisto\u015B\u0107. Na obrazie \u2018Cow\u2019s Skull: Red, White and Blue\u2019 (\u2018Krowia Czaszka: Czerwony, Bia\u0142y i Niebieski\u2019) trzy wyr\xF3\u017Cnione w tytule kolory odnosz\u0105 si\u0119 do kolor\xF3w ameryka\u0144skiej flagi. \u2018Wszyscy dooko\u0142a m\xF3wili o \u015Bwietno\u015Bci Ameryki, a \u017Caden z nich nie by\u0142 po drugiej stronie Hudson\u2019 (cyt: \u2018That was at the time that the men were all talking about the Great American Novel, great American Play, the Great American, oh, it was a great American Everything, and I thought they didn\u2019t know anything about America, a lot of them haf never been across the Hudson (\u2026) so I thought I\u2019ll make my picture a red, white and blue (\u2026) I\u2019ll make it an American picture.\u2019'
+    ),
+    _react2.default.createElement('hr', null),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Korzysta\u0142am z :'
+    ),
+    _react2.default.createElement(
+      'ul',
+      null,
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: 'https://pl.wikipedia.org/wiki/Georgia_O%E2%80%99Keeffe' },
+          'https://pl.wikipedia.org/wiki/Georgia_O\u2019Keeffe'
+        )
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: 'http://www.entertheroom.pl/art-design/6622-podwojne-zycie-georgii-o-keeffe' },
+          'http://www.entertheroom.pl/art-design/6622-podwojne-zycie-georgii-o-keeffe'
+        )
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: 'http://niezlasztuka.net/o-sztuce/georgia-okeeffe-malarka-amerykanskiej-nowoczesnosci/' },
+          'http://niezlasztuka.net/o-sztuce/georgia-okeeffe-malarka-amerykanskiej-nowoczesnosci/'
+        )
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: 'https://www.youtube.com/watch?v=v71awD38Qy4' },
+          'https://www.youtube.com/watch?v=v71awD38Qy4'
+        )
+      )
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Make-up inspirowany obrazem. 'Light_of_Iris' by Georgia O'Keeffe", "date": "2018-11-07T16:27:00.000Z", "categories": ["Sztuka Makijażu"], "tags": ["makeup", "makijaż", "obraz", "georgia o'keeffe", "malarka", "ameryka", "abstrakcja"] };
+var body = exports.body = "<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/8467684/ello-optimized-96300a10.jpg\" alt=\"Zdjęcie przedstawia portret kobiety w artystycznym makijażu.\" /></p>\n<p>Georgia O’Keeffe przychodzi na świat w amerykańskiej rodzinie zajmującej się hodowlą bydła. Druga, z siedmiorga dzieci, od najmłodszych lat wykazuje się talentem plastycznym. Matka - Ida Totto O’Keeffe, bardzo dba o rozwój swoich maluchów, dlatego już w wieku 12 lat Georgia wraz z siostrami uczęszcza na lekcje rysunku. Przyszła malarka kontynuuje naukę w Town Hall School w Wisconsin, gdzie szkoli się pod okiem akwarelistki Sary Mann. Georgia jet grzecznym dzieckiem. Zdobywa wysokie oceny z przedmiotów takich jak algebra, historia, języki. Rozwijanie obserwacji przyrody, w tym kwiatów, oraz znajomość techniki akwareli przyczynia się znacząco do przyszłej krystalizacji indywidualnego stylu O’Keeffe.</p>\n<p>W 1905 roku Georgia rozpoczyna naukę malarstwa w Art Institute w Chicago. Trzy lata później otrzymuje nagrodę Williama Merritta Chase’a za obraz olejny „Martwy królik z miedzianym garnkiem”. Nagroda ta stanowi stypendium umożliwiające jej wzięcie udziału w plenerze odbywającym się nad jeziorem George, w stanie Nowy Jork. Jesienią tego roku O’Keeffe rezygnuje z malarstwa i zaczyna nauczać rysunku w szkole podstawowej. Do farb powróci dopiero w 1912 roku.</p>\n<p>Na wiosnę 1917 roku ma miejsce pierwsza wystawa prac Georgii w Nowym Jorku. Galeria 291 Alfreda Stieglitza (eksponowano w niej prace <a href=\"http://m.in\">m.in</a>. Pabla Picassa, Henri’ego Matisse’a, Paula Cezanne’a) pokazuje niewielki zbiór jej akwareli z Teksasu. Właściciel galerii zachwycony jest lekkością i prawdą drzemiącą w pracach przyszłej gwiazdy amerykańskiego malarstwa.\nAlfred Stieglitz to postać niezwykle ważna dla rozwoju amerykańskiej sztuki. Fotograf, właściciel wpływowej galerii, wydawca, popularyzator nowoczesnych idei artystycznych. W ówczesnym świecie zdominowanym przez płeć męską kobietom było niezwykle trudno ‘przebić się’, zostać dostrzeżoną. Georgii brakowało wiary w siebie, dlatego pomogła jej w tym przyjaciółka, Anita Pollitzer. To właśnie ona, można powiedzieć, zapoczątkowała karierę Georgii pokazując jej prace Alfredowi. Niedługo później okaże się, że zapoczątkowała również jej życie miłosne...</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/8467686/ello-optimized-066f10e7.jpg\" alt=\"Obraz przedstawia dwa zdjęcia. Na zdjęciu z lewej strony widzimy portret kobiety w kolorowym makijażu. Po prawej stronie widzimy małe zdjęcie oka.\" /></p>\n<h2>Georgia: artystka, modelka, kochanka</h2>\n<p>Lekko odchylone w lewą stronę, idealne w proporcjach kobiece ciało zdaje się trwać w chwili, której powaga jest jak najdoskonalsza marmurowa rzeźba. Palce lewej dłoni subtelnym gestem owijają się wokół sutka niczym wąż wokół drzewa w ogrodzie Eden. Są manifestacją siły kobiecości. Pełne mądrości i smutku oczy patrzą w dal mijając swoim wzrokiem przedmiot trzymany przez lewą dłoń. Kobietą na fotografii z 1919 roku jest Georgia, a autorem zdjęcia Alfred. Kochankowie doskonale się rozumieją i uzupełniają. Artystka dostarcza partnerowi zrozumienia, partner dba o jej karierę. On negocjuje warunki sprzedaży dzieł, ona pozuje przy okazji śmiałych wizji. On organizuje wystawy, wypłaca pensję, ona pracuje nad kolejnymi obrazami. Kochankowie pobierają się w 1924 (zaraz po rozwodzie Alfreda). Zimne miesiące spędzają na Manhattanie, słońcem zaś cieszą się nad jeziorem George.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/8467691/ello-optimized-c4a6edc5.jpg\" alt=\"Obraz przedstawia dwa zdjęcia. Z prawej strony widzimy portret kobiety w kolorowym makijażu. Kobieta wznosi wzrok ku górze. Z lewej strony widzimy małe zdjęcie oka.\" /></p>\n<h2>1929-1949</h2>\n<p>Pod koniec lat 30-tych O’Keeffe pragnie powiewu świeżych inspiracji. Wyrusza w podróż do Taos, w Nowym Meksyku. Spędza lato na ranczo Mabel Dodge Luhan, gdzie odbywa wiele konnych wypraw po lokalnych górach i pustyniach. W tym czasie powstają słynne dzieła <a href=\"http://m.in\">m.in</a>. „Drzewo Lawrence’a”, oraz nietypowe przedstawienie ściany kościoła Ranchos de Taos. Przez kolejne 20 lat Georgia regularnie podróżuje do Nowego Meksyku, a na jesień zawsze wraca do Nowego Jorku. Maluje typowe dla tamtejszej kultury i klimatu motywy kości, czaszek, oraz liczne widoki.</p>\n<h2>Być kobietą</h2>\n<p>Georgia to pierwsza kobieta-artystka, która doświadczyła własnej wystawy retrospektywnej w MOMA (Museum of Modern Art) w Nowym Jorku (1946 r.). Jej wielkoformatowe obrazy-kwiaty stanowią formę abstrakcyjnego postrzegania realnej rzeczywistości. Wielu z nas stwierdzi, że kompozycje na pierwszy rzut oka przypominają kolorowe waginy. Krytycy przy okazji jej obrazów wspomną o ‘freudowskich żądzach’, ‘ucieleśnianiu erotycznych fantazji’, a ona im na to odpowie, że ‘mówią o sobie, a nie o niej’. Do końca swoich dni pozostała wierna sztuce. Podobno chciała mieć dzieci, ale nie zgodził się na nie jej mąż. Podróżowała, jeździła konna, prowadziła auto, robiła wszystko, co wypadało i czego jeszcze nie wypadało robić kobietom w tamtych czasach. Jej strój w męskim charakterze, wraz z upływem czasu przeobrażał się w coraz bardziej ascetyczną formę. Czarne, purystyczne okrycia, brak makijażu, włosy zebrane w kok. Być może artystka zauważyła, że jej malarstwo w większości odbierane jest jako wyraz i pochwała kobiecości i właśnie dlatego zdecydowała się na antypodyczny wizerunek.</p>\n<blockquote>\n<p>Mężczyźni uznają mnie za najlepszą kobietę-malarkę. A ja uważam, że jestem jednym z najlepszych malarzy.</p>\n</blockquote>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/8467689/ello-optimized-48381852.jpg\" alt=\"Zdjęcie przedstawia odwrócone oko w powiększeniu. Na powiece widzimy kolorowy makijaż.\" /></p>\n<h2>…i że Cię nie opuszczę aż do śmierci</h2>\n<p>Georgia tworzy do końca swoich dni. W 1971 roku zaczyna tracić wzrok. Dwa lata później zatrudnia młodego artystę Juana Hamiltona na swojego asystenta. Hamilton z wykształcenia jest garncarzem, to też skłania 86-letnią wówczas malarkę do pracy nad formami ceramicznymi. Z pomocą młodego asystenta pisze książkę o swojej sztuce. W 1977 roku prezydent Gerald R. Ford odznacza O’Keeffe Medalem Wolności, a w 1985 roku otrzymuje ona Narodowy Medal Sztuki z rąk Ronalda Reagana. Pod koniec życia Georgia przenosi się do Santa Fe, gdzie umiera w wieku 98 lat. Zgodnie z jej wolą ciało zostaje skremowane następnego dnia, a Hamilton rozrzuca prochy zmarłej stojąc na górze Pedernal Mountain.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/8467681/ello-optimized-451899b8.jpg\" alt=\"Obraz przedstawia abstrakcyjną kompozycję złożoną z elementów zdjęć, na których widzimy oczy.\" /></p>\n<p>Georgia całe życie poświęciła sztuce. Odnajdywała spokój i natchnienie wśród skalistych widoków prerii. Jej malarstwo nie jest jedynie powiększonym kwiatkiem, czy czaszką lewitującą w powietrzu. Poprzez kształt i kolor przeżywała wewnętrzne transformacje, ale też symbolicznie ukazywała otaczającą ją rzeczywistość. Na obrazie ‘Cow’s Skull: Red, White and Blue’ (‘Krowia Czaszka: Czerwony, Biały i Niebieski’) trzy wyróżnione w tytule kolory odnoszą się do kolorów amerykańskiej flagi. ‘Wszyscy dookoła mówili o świetności Ameryki, a żaden z nich nie był po drugiej stronie Hudson’ (cyt: ‘That was at the time that the men were all talking about the Great American Novel, great American Play, the Great American, oh, it was a great American Everything, and I thought they didn’t know anything about America, a lot of them haf never been across the Hudson (…) so I thought I’ll make my picture a red, white and blue (…) I’ll make it an American picture.’</p>\n<hr />\n<p>Korzystałam z :</p>\n<ul>\n<li><a href=\"https://pl.wikipedia.org/wiki/Georgia_O%E2%80%99Keeffe\">https://pl.wikipedia.org/wiki/Georgia_O’Keeffe</a></li>\n<li><a href=\"http://www.entertheroom.pl/art-design/6622-podwojne-zycie-georgii-o-keeffe\">http://www.entertheroom.pl/art-design/6622-podwojne-zycie-georgii-o-keeffe</a></li>\n<li><a href=\"http://niezlasztuka.net/o-sztuce/georgia-okeeffe-malarka-amerykanskiej-nowoczesnosci/\">http://niezlasztuka.net/o-sztuce/georgia-okeeffe-malarka-amerykanskiej-nowoczesnosci/</a></li>\n<li><a href=\"https://www.youtube.com/watch?v=v71awD38Qy4\">https://www.youtube.com/watch?v=v71awD38Qy4</a></li>\n</ul>\n";
+var raw = exports.raw = "\n![Zdjęcie przedstawia portret kobiety w artystycznym makijażu.](https://assets0.ello.co/uploads/asset/attachment/8467684/ello-optimized-96300a10.jpg)\n\nGeorgia O’Keeffe przychodzi na świat w amerykańskiej rodzinie zajmującej się hodowlą bydła. Druga, z siedmiorga dzieci, od najmłodszych lat wykazuje się talentem plastycznym. Matka - Ida Totto O’Keeffe, bardzo dba o rozwój swoich maluchów, dlatego już w wieku 12 lat Georgia wraz z siostrami uczęszcza na lekcje rysunku. Przyszła malarka kontynuuje naukę w Town Hall School w Wisconsin, gdzie szkoli się pod okiem akwarelistki Sary Mann. Georgia jet grzecznym dzieckiem. Zdobywa wysokie oceny z przedmiotów takich jak algebra, historia, języki. Rozwijanie obserwacji przyrody, w tym kwiatów, oraz znajomość techniki akwareli przyczynia się znacząco do przyszłej krystalizacji indywidualnego stylu O’Keeffe. \n\n\nW 1905 roku Georgia rozpoczyna naukę malarstwa w Art Institute w Chicago. Trzy lata później otrzymuje nagrodę Williama Merritta Chase'a za obraz olejny „Martwy królik z miedzianym garnkiem”. Nagroda ta stanowi stypendium umożliwiające jej wzięcie udziału w plenerze odbywającym się nad jeziorem George, w stanie Nowy Jork. Jesienią tego roku O’Keeffe rezygnuje z malarstwa i zaczyna nauczać rysunku w szkole podstawowej. Do farb powróci dopiero w 1912 roku. \n\nNa wiosnę 1917 roku ma miejsce pierwsza wystawa prac Georgii w Nowym Jorku. Galeria 291 Alfreda Stieglitza (eksponowano w niej prace m.in. Pabla Picassa, Henri’ego Matisse’a, Paula Cezanne’a) pokazuje niewielki zbiór jej akwareli z Teksasu. Właściciel galerii zachwycony jest lekkością i prawdą drzemiącą w pracach przyszłej gwiazdy amerykańskiego malarstwa. \nAlfred Stieglitz to postać niezwykle ważna dla rozwoju amerykańskiej sztuki. Fotograf, właściciel wpływowej galerii, wydawca, popularyzator nowoczesnych idei artystycznych. W ówczesnym świecie zdominowanym przez płeć męską kobietom było niezwykle trudno ‘przebić się’, zostać dostrzeżoną. Georgii brakowało wiary w siebie, dlatego pomogła jej w tym przyjaciółka, Anita Pollitzer. To właśnie ona, można powiedzieć, zapoczątkowała karierę Georgii pokazując jej prace Alfredowi. Niedługo później okaże się, że zapoczątkowała również jej życie miłosne…\n\n\n![Obraz przedstawia dwa zdjęcia. Na zdjęciu z lewej strony widzimy portret kobiety w kolorowym makijażu. Po prawej stronie widzimy małe zdjęcie oka.](https://assets1.ello.co/uploads/asset/attachment/8467686/ello-optimized-066f10e7.jpg)\n\n## Georgia: artystka, modelka, kochanka\n\nLekko odchylone w lewą stronę, idealne w proporcjach kobiece ciało zdaje się trwać w chwili, której powaga jest jak najdoskonalsza marmurowa rzeźba. Palce lewej dłoni subtelnym gestem owijają się wokół sutka niczym wąż wokół drzewa w ogrodzie Eden. Są manifestacją siły kobiecości. Pełne mądrości i smutku oczy patrzą w dal mijając swoim wzrokiem przedmiot trzymany przez lewą dłoń. Kobietą na fotografii z 1919 roku jest Georgia, a autorem zdjęcia Alfred. Kochankowie doskonale się rozumieją i uzupełniają. Artystka dostarcza partnerowi zrozumienia, partner dba o jej karierę. On negocjuje warunki sprzedaży dzieł, ona pozuje przy okazji śmiałych wizji. On organizuje wystawy, wypłaca pensję, ona pracuje nad kolejnymi obrazami. Kochankowie pobierają się w 1924 (zaraz po rozwodzie Alfreda). Zimne miesiące spędzają na Manhattanie, słońcem zaś cieszą się nad jeziorem George.\n\n![Obraz przedstawia dwa zdjęcia. Z prawej strony widzimy portret kobiety w kolorowym makijażu. Kobieta wznosi wzrok ku górze. Z lewej strony widzimy małe zdjęcie oka.](https://assets0.ello.co/uploads/asset/attachment/8467691/ello-optimized-c4a6edc5.jpg)\n\n## 1929-1949\n\nPod koniec lat 30-tych O’Keeffe pragnie powiewu świeżych inspiracji. Wyrusza w podróż do Taos, w Nowym Meksyku. Spędza lato na ranczo Mabel Dodge Luhan, gdzie odbywa wiele konnych wypraw po lokalnych górach i pustyniach. W tym czasie powstają słynne dzieła m.in. „Drzewo Lawrence'a”, oraz nietypowe przedstawienie ściany kościoła Ranchos de Taos. Przez kolejne 20 lat Georgia regularnie podróżuje do Nowego Meksyku, a na jesień zawsze wraca do Nowego Jorku. Maluje typowe dla tamtejszej kultury i klimatu motywy kości, czaszek, oraz liczne widoki.\n\n## Być kobietą\n\nGeorgia to pierwsza kobieta-artystka, która doświadczyła własnej wystawy retrospektywnej w MOMA (Museum of Modern Art) w Nowym Jorku (1946 r.). Jej wielkoformatowe obrazy-kwiaty stanowią formę abstrakcyjnego postrzegania realnej rzeczywistości. Wielu z nas stwierdzi, że kompozycje na pierwszy rzut oka przypominają kolorowe waginy. Krytycy przy okazji jej obrazów wspomną o ‘freudowskich żądzach’, ‘ucieleśnianiu erotycznych fantazji’, a ona im na to odpowie, że ‘mówią o sobie, a nie o niej’. Do końca swoich dni pozostała wierna sztuce. Podobno chciała mieć dzieci, ale nie zgodził się na nie jej mąż. Podróżowała, jeździła konna, prowadziła auto, robiła wszystko, co wypadało i czego jeszcze nie wypadało robić kobietom w tamtych czasach. Jej strój w męskim charakterze, wraz z upływem czasu przeobrażał się w coraz bardziej ascetyczną formę. Czarne, purystyczne okrycia, brak makijażu, włosy zebrane w kok. Być może artystka zauważyła, że jej malarstwo w większości odbierane jest jako wyraz i pochwała kobiecości i właśnie dlatego zdecydowała się na antypodyczny wizerunek. \n\n> \n> Mężczyźni uznają mnie za najlepszą kobietę-malarkę. A ja uważam, że jestem jednym z najlepszych malarzy.\n>\n\n![Zdjęcie przedstawia odwrócone oko w powiększeniu. Na powiece widzimy kolorowy makijaż.](https://assets1.ello.co/uploads/asset/attachment/8467689/ello-optimized-48381852.jpg)\n\n## ...i że Cię nie opuszczę aż do śmierci\n\nGeorgia tworzy do końca swoich dni. W 1971 roku zaczyna tracić wzrok. Dwa lata później zatrudnia młodego artystę Juana Hamiltona na swojego asystenta. Hamilton z wykształcenia jest garncarzem, to też skłania 86-letnią wówczas malarkę do pracy nad formami ceramicznymi. Z pomocą młodego asystenta pisze książkę o swojej sztuce. W 1977 roku prezydent Gerald R. Ford odznacza O’Keeffe Medalem Wolności, a w 1985 roku otrzymuje ona Narodowy Medal Sztuki z rąk Ronalda Reagana. Pod koniec życia Georgia przenosi się do Santa Fe, gdzie umiera w wieku 98 lat. Zgodnie z jej wolą ciało zostaje skremowane następnego dnia, a Hamilton rozrzuca prochy zmarłej stojąc na górze Pedernal Mountain.\n\n![Obraz przedstawia abstrakcyjną kompozycję złożoną z elementów zdjęć, na których widzimy oczy.](https://assets1.ello.co/uploads/asset/attachment/8467681/ello-optimized-451899b8.jpg)\n\nGeorgia całe życie poświęciła sztuce. Odnajdywała spokój i natchnienie wśród skalistych widoków prerii. Jej malarstwo nie jest jedynie powiększonym kwiatkiem, czy czaszką lewitującą w powietrzu. Poprzez kształt i kolor przeżywała wewnętrzne transformacje, ale też symbolicznie ukazywała otaczającą ją rzeczywistość. Na obrazie ‘Cow’s Skull: Red, White and Blue’ (‘Krowia Czaszka: Czerwony, Biały i Niebieski’) trzy wyróżnione w tytule kolory odnoszą się do kolorów amerykańskiej flagi. ‘Wszyscy dookoła mówili o świetności Ameryki, a żaden z nich nie był po drugiej stronie Hudson’ (cyt: ‘That was at the time that the men were all talking about the Great American Novel, great American Play, the Great American, oh, it was a great American Everything, and I thought they didn’t know anything about America, a lot of them haf never been across the Hudson (…) so I thought I’ll make my picture a red, white and blue (…) I’ll make it an American picture.’\n\n----------\n\nKorzystałam z :\n\n* https://pl.wikipedia.org/wiki/Georgia_O%E2%80%99Keeffe\n* http://www.entertheroom.pl/art-design/6622-podwojne-zycie-georgii-o-keeffe\n* http://niezlasztuka.net/o-sztuce/georgia-okeeffe-malarka-amerykanskiej-nowoczesnosci/\n* https://www.youtube.com/watch?v=v71awD38Qy4";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 144 */
@@ -12639,6 +12822,18 @@ webpackEmptyContext.id = 144;
 
 /***/ }),
 /* 145 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 145;
+
+/***/ }),
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -12659,19 +12854,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 145;
+webpackContext.id = 146;
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(147);
+module.exports = __webpack_require__(148);
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12689,7 +12884,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(148);
+var _propTypes = __webpack_require__(149);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -12893,13 +13088,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_148__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_149__;
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12913,7 +13108,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12921,7 +13116,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12934,7 +13129,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12968,7 +13163,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12981,7 +13176,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12990,7 +13185,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -12998,7 +13193,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13006,7 +13201,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13021,7 +13216,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13036,7 +13231,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13051,7 +13246,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13075,7 +13270,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(161);
+var s = __webpack_require__(162);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -13106,7 +13301,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13114,7 +13309,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13138,7 +13333,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13189,7 +13384,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13197,7 +13392,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13206,7 +13401,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(166);
+var s = __webpack_require__(167);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -13239,7 +13434,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13249,7 +13444,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13293,22 +13488,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 169 */
+/* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 170,
-	"./Feed.js": 171,
-	"./Ingredient.js": 172,
-	"./Method.js": 173,
-	"./Recipe.js": 174,
-	"./TableOfContents.js": 175
+	"./Crumbs.js": 171,
+	"./Feed.js": 172,
+	"./Ingredient.js": 173,
+	"./Method.js": 174,
+	"./Recipe.js": 175,
+	"./TableOfContents.js": 176
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -13324,10 +13519,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 169;
+webpackContext.id = 170;
 
 /***/ }),
-/* 170 */
+/* 171 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13342,7 +13537,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 171 */
+/* 172 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13357,7 +13552,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 172 */
+/* 173 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13372,7 +13567,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 173 */
+/* 174 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13387,7 +13582,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 174 */
+/* 175 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13402,7 +13597,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 175 */
+/* 176 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13417,7 +13612,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 176 */
+/* 177 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13441,7 +13636,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 177 */
+/* 178 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
