@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_149__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_150__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(164);
+var Feed_1 = __webpack_require__(165);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(166);
+var Recipe_1 = __webpack_require__(167);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(168);
+var Root_1 = __webpack_require__(169);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(150);
+var s = __webpack_require__(151);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(151);
+var s = __webpack_require__(152);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(65),
-UPLOADS: __webpack_require__(144),
-ROOT: __webpack_require__(145),
-LAYOUTS: __webpack_require__(146),
-INCLUDES: __webpack_require__(170)};
+UPLOADS: __webpack_require__(145),
+ROOT: __webpack_require__(146),
+LAYOUTS: __webpack_require__(147),
+INCLUDES: __webpack_require__(171)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(170)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(152);
+var s = __webpack_require__(153);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(156);
+var s = __webpack_require__(157);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(169);
+__webpack_require__(170);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(147);
+var react_disqus_comments_1 = __webpack_require__(148);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(161);
-var s = __webpack_require__(163);
+var FacebookLike_1 = __webpack_require__(162);
+var s = __webpack_require__(164);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(153);
-var s = __webpack_require__(154);
+__webpack_require__(154);
+var s = __webpack_require__(155);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(155);
+var s = __webpack_require__(156);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(158);
+var s = __webpack_require__(159);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(157);
+var s = __webpack_require__(158);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(159);
+var s = __webpack_require__(160);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(160);
+var s = __webpack_require__(161);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(165);
+var s = __webpack_require__(166);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(177);
-var menu_1 = __webpack_require__(178);
+var tags_1 = __webpack_require__(178);
+var menu_1 = __webpack_require__(179);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2882,7 +2882,8 @@ var map = {
 	"./2018-10-24-moje-wybory-pazdziernik-2018.markdown": 140,
 	"./2018-10-28-smierc-doroslego.markdown": 141,
 	"./2018-10-31-kamp-moodboard.markdown": 142,
-	"./2018-11-07-make-up-inspirowany-obrazem-light-of-iris-by-georgia-okeeffe.markdown": 143
+	"./2018-11-07-make-up-inspirowany-obrazem-light-of-iris-by-georgia-okeeffe.markdown": 143,
+	"./2018-11-15-historia-pewnej-projektantki-czyli-perelka-z-lumpeksu.markdown": 144
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -12803,15 +12804,85 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia portret kobiety w artystycznym
 
 /***/ }),
 /* 144 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 144;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/8502656/ello-optimized-8ef94531.jpg', alt: 'Zdj\u0119cie przedstawia portret kobiety w turbanie. Kobieta ma zarzucony \u017Cakiet na bok cia\u0142a i czerwone usta.' })
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Dawno, dawno temu, w jednym z modowych ',
+      _react2.default.createElement(
+        'a',
+        { href: 'http://sztukauniwersalna.pl/2017-10-18-stylizacje-za-grosze-czyli-pokochaj-lumpeksy' },
+        'wpis\xF3w'
+      ),
+      ' stara\u0142am si\u0119 udowodni\u0107 Wam, jakie cuda znale\u017A\u0107 mo\u017Cna w sklepach z odzie\u017C\u0105 u\u017Cywan\u0105. Chocia\u017C od czas\xF3w, kiedy \u2018pere\u0142k\u0119 od dizajnera\u2019 mo\u017Cna by\u0142o kupi\u0107 za z\u0142ot\xF3wk\u0119 wiele si\u0119 zmieni\u0142o. Wraz z dost\u0119pem do informacji ro\u015Bnie \u015Bwiadomo\u015B\u0107 konsument\xF3w i... sprzedawc\xF3w. Dzi\u015B ju\u017C praktycznie ka\u017Cda z nas wie, kim by\u0142 Christian Dior, wie, \u017Ce o dodatkach sygnowanych t\u0105 mark\u0105 marz\u0105 kobiety na ca\u0142ym \u015Bwiecie. Pami\u0119tam, jak kiedy\u015B uda\u0142o mi si\u0119 \u2018upolowa\u0107\u2019 klasyczn\u0105, sk\xF3rzan\u0105 torb\u0119 Furla, poniewa\u017C \u017Cadna z pa\u0144 w sklepie nie wiedzia\u0142a, co to za marka. Dzi\u015B jest inaczej. Dzi\u015B ju\u017C nie licz\u0119 na takie skarby, dzi\u015B licz\u0119 si\u0119 z tym, \u017Ce skarb zgarnie przede mn\u0105 kto\u015B inny. Licz\u0119 si\u0119 r\xF3wnie\u017C z tym, \u017Ce rzeczy w sklepach z tani\u0105 odzie\u017C\u0105 wcale nie s\u0105 tak tanie, jak par\u0119 lat temu. Te w dobrym stanie i z dobr\u0105 metk\u0105 wisz\u0105 na wieszakach wycenione indywidualnie. Mo\u017Ce si\u0119 okaza\u0107, \u017Ce ich cena r\xF3wna si\u0119 z cen\u0105 nowego ubrania w sieci\xF3wce. C\xF3\u017C\u2026 Istnieje jednak nadal jeden pow\xF3d, dla kt\xF3rego warto zajrze\u0107 do lumpeksu od czasu, do czasu - okaz\xF3w muzealnych w sieci\xF3wkach nie kupimy, a tutaj i owszem, mo\u017Ce si\u0119 taki trafi\u0107.'
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Fall 1991/1992 London'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Na bia\u0142y, purystyczny wybieg wychodz\u0105 modelki w seledynowych kostiumach. S\u0105 soczyst\u0105 zieleni\u0105 od st\xF3p do g\u0142\xF3w. Zielony \u017Cakiet, skrojony na miar\u0119 pocz\u0105tku lat 90-tych (w\u0105ska talia, szerokie ramiona). Kr\xF3tka sp\xF3dniczka ci\u0119ta z ko\u0142a i zielone (nieco infantylne) rajstopy. Dumne \u017Cabie nosicielki nie wychodz\u0105 na wybieg pojedynczo, lecz wkraczaj\u0105 na\u0144 tr\xF3jkami zataczaj\u0105c ko\u0142a. Zaraz po nich pojawia si\u0119 kolejna, tym razem \u015Bliwkowa tr\xF3jca. Ciemny fiolet, ober\u017Cyna oblewa kolejne damy. Kolor zosta\u0142 dobrany do karnacji modelek, kt\xF3re wydaj\u0105 si\u0119 by\u0107 pochodzenia latynoskiego. Rozszerzane fioletowe spodnie, golf, zn\xF3w \u017Cakiet. Wszystko idealnie skrojone, materia\u0142 \u2018leje si\u0119\u2019 w doskona\u0142y spos\xF3b podkre\u015Blaj\u0105c delikatno\u015B\u0107 ruchu. Kolejna wkracza czerwie\u0144. Cynober rozpala nasze zmys\u0142y zachowuj\u0105c r\xF3wnowag\u0119 po zimnych tonach. Ostatnia \u2013 kr\xF3lowa czer\u0144. Wiruj\u0105 czarne sylwetki z lekko\u015Bci\u0105 rajskich ptak\xF3w. Kiedy ju\u017C widz oswaja si\u0119 z total look\u2019ami i zaczyna rozumie\u0107 pattern pokazu nast\u0119puje zmiana. Na wybiegu pojawi\u0105 si\u0119 stroje, kt\xF3re w spos\xF3b p\u0142aszczyznowy \u0142\u0105cz\u0105 uprzednio zobaczone barwy. Czarne kozaki, seledynowe rajstopy, czarna sukienka, czerwony golf, czerwona kiesze\u0144 na czarnym \u017Cakiecie. Do tego sk\xF3rzane kaszkiety. Czy zaraz na scenie pojawi si\u0119 MC Hammer?'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement(
+        'a',
+        { href: 'https://www.youtube.com/watch?v=r0bCkpxaAlo' },
+        'Zobacz pokaz'
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8502653/ello-optimized-ce08932e.jpg', alt: 'obraz przedstawia dwa zdj\u0119cia kobiety z turbanem na g\u0142owie. Twarz kobiety o\u015Bwietlona jest zielonym \u015Bwiat\u0142em.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Historia pewnej projektantki, czyli perełka z lumpeksu.", "date": "2018-11-15T10:36:00.000Z", "categories": ["Sztuka Ubioru"], "tags": ["arabella pollen", "bella pollen", "fashion", "designer", "second hand"] };
+var body = exports.body = "<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/8502656/ello-optimized-8ef94531.jpg\" alt=\"Zdjęcie przedstawia portret kobiety w turbanie. Kobieta ma zarzucony żakiet na bok ciała i czerwone usta.\" /></p>\n<p>Dawno, dawno temu, w jednym z modowych <a href=\"http://sztukauniwersalna.pl/2017-10-18-stylizacje-za-grosze-czyli-pokochaj-lumpeksy\">wpisów</a> starałam się udowodnić Wam, jakie cuda znaleźć można w sklepach z odzieżą używaną. Chociaż od czasów, kiedy ‘perełkę od dizajnera’ można było kupić za złotówkę wiele się zmieniło. Wraz z dostępem do informacji rośnie świadomość konsumentów i... sprzedawców. Dziś już praktycznie każda z nas wie, kim był Christian Dior, wie, że o dodatkach sygnowanych tą marką marzą kobiety na całym świecie. Pamiętam, jak kiedyś udało mi się ‘upolować’ klasyczną, skórzaną torbę Furla, ponieważ żadna z pań w sklepie nie wiedziała, co to za marka. Dziś jest inaczej. Dziś już nie liczę na takie skarby, dziś liczę się z tym, że skarb zgarnie przede mną ktoś inny. Liczę się również z tym, że rzeczy w sklepach z tanią odzieżą wcale nie są tak tanie, jak parę lat temu. Te w dobrym stanie i z dobrą metką wiszą na wieszakach wycenione indywidualnie. Może się okazać, że ich cena równa się z ceną nowego ubrania w sieciówce. Cóż… Istnieje jednak nadal jeden powód, dla którego warto zajrzeć do lumpeksu od czasu, do czasu - okazów muzealnych w sieciówkach nie kupimy, a tutaj i owszem, może się taki trafić.</p>\n<h2>Fall 1991/1992 London</h2>\n<p>Na biały, purystyczny wybieg wychodzą modelki w seledynowych kostiumach. Są soczystą zielenią od stóp do głów. Zielony żakiet, skrojony na miarę początku lat 90-tych (wąska talia, szerokie ramiona). Krótka spódniczka cięta z koła i zielone (nieco infantylne) rajstopy. Dumne żabie nosicielki nie wychodzą na wybieg pojedynczo, lecz wkraczają nań trójkami zataczając koła. Zaraz po nich pojawia się kolejna, tym razem śliwkowa trójca. Ciemny fiolet, oberżyna oblewa kolejne damy. Kolor został dobrany do karnacji modelek, które wydają się być pochodzenia latynoskiego. Rozszerzane fioletowe spodnie, golf, znów żakiet. Wszystko idealnie skrojone, materiał ‘leje się’ w doskonały sposób podkreślając delikatność ruchu. Kolejna wkracza czerwień. Cynober rozpala nasze zmysły zachowując równowagę po zimnych tonach. Ostatnia – królowa czerń. Wirują czarne sylwetki z lekkością rajskich ptaków. Kiedy już widz oswaja się z total look’ami i zaczyna rozumieć pattern pokazu następuje zmiana. Na wybiegu pojawią się stroje, które w sposób płaszczyznowy łączą uprzednio zobaczone barwy. Czarne kozaki, seledynowe rajstopy, czarna sukienka, czerwony golf, czerwona kieszeń na czarnym żakiecie. Do tego skórzane kaszkiety. Czy zaraz na scenie pojawi się MC Hammer?</p>\n<p><a href=\"https://www.youtube.com/watch?v=r0bCkpxaAlo\">Zobacz pokaz</a></p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/8502653/ello-optimized-ce08932e.jpg\" alt=\"obraz przedstawia dwa zdjęcia kobiety z turbanem na głowie. Twarz kobiety oświetlona jest zielonym światłem.\" /></p>\n";
+var raw = exports.raw = "\n![Zdjęcie przedstawia portret kobiety w turbanie. Kobieta ma zarzucony żakiet na bok ciała i czerwone usta.](https://assets0.ello.co/uploads/asset/attachment/8502656/ello-optimized-8ef94531.jpg)\n\nDawno, dawno temu, w jednym z modowych [wpisów](http://sztukauniwersalna.pl/2017-10-18-stylizacje-za-grosze-czyli-pokochaj-lumpeksy) starałam się udowodnić Wam, jakie cuda znaleźć można w sklepach z odzieżą używaną. Chociaż od czasów, kiedy 'perełkę od dizajnera' można było kupić za złotówkę wiele się zmieniło. Wraz z dostępem do informacji rośnie świadomość konsumentów i... sprzedawców. Dziś już praktycznie każda z nas wie, kim był Christian Dior, wie, że o dodatkach sygnowanych tą marką marzą kobiety na całym świecie. Pamiętam, jak kiedyś udało mi się 'upolować' klasyczną, skórzaną torbę Furla, ponieważ żadna z pań w sklepie nie wiedziała, co to za marka. Dziś jest inaczej. Dziś już nie liczę na takie skarby, dziś liczę się z tym, że skarb zgarnie przede mną ktoś inny. Liczę się również z tym, że rzeczy w sklepach z tanią odzieżą wcale nie są tak tanie, jak parę lat temu. Te w dobrym stanie i z dobrą metką wiszą na wieszakach wycenione indywidualnie. Może się okazać, że ich cena równa się z ceną nowego ubrania w sieciówce. Cóż... Istnieje jednak nadal jeden powód, dla którego warto zajrzeć do lumpeksu od czasu, do czasu - okazów muzealnych w sieciówkach nie kupimy, a tutaj i owszem, może się taki trafić. \n\n\n## Fall 1991/1992 London\n\nNa biały, purystyczny wybieg wychodzą modelki w seledynowych kostiumach. Są soczystą zielenią od stóp do głów. Zielony żakiet, skrojony na miarę początku lat 90-tych (wąska talia, szerokie ramiona). Krótka spódniczka cięta z koła i zielone (nieco infantylne) rajstopy. Dumne żabie nosicielki nie wychodzą na wybieg pojedynczo, lecz wkraczają nań trójkami zataczając koła. Zaraz po nich pojawia się kolejna, tym razem śliwkowa trójca. Ciemny fiolet, oberżyna oblewa kolejne damy. Kolor został dobrany do karnacji modelek, które wydają się być pochodzenia latynoskiego. Rozszerzane fioletowe spodnie, golf, znów żakiet. Wszystko idealnie skrojone, materiał ‘leje się’ w doskonały sposób podkreślając delikatność ruchu. Kolejna wkracza czerwień. Cynober rozpala nasze zmysły zachowując równowagę po zimnych tonach. Ostatnia – królowa czerń. Wirują czarne sylwetki z lekkością rajskich ptaków. Kiedy już widz oswaja się z total look’ami i zaczyna rozumieć pattern pokazu następuje zmiana. Na wybiegu pojawią się stroje, które w sposób płaszczyznowy łączą uprzednio zobaczone barwy. Czarne kozaki, seledynowe rajstopy, czarna sukienka, czerwony golf, czerwona kieszeń na czarnym żakiecie. Do tego skórzane kaszkiety. Czy zaraz na scenie pojawi się MC Hammer?\n\n[Zobacz pokaz](https://www.youtube.com/watch?v=r0bCkpxaAlo) \n\n![obraz przedstawia dwa zdjęcia kobiety z turbanem na głowie. Twarz kobiety oświetlona jest zielonym światłem.](https://assets1.ello.co/uploads/asset/attachment/8502653/ello-optimized-ce08932e.jpg)";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 145 */
@@ -12827,6 +12898,18 @@ webpackEmptyContext.id = 145;
 
 /***/ }),
 /* 146 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 146;
+
+/***/ }),
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -12847,19 +12930,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 146;
+webpackContext.id = 147;
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(148);
+module.exports = __webpack_require__(149);
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12877,7 +12960,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(149);
+var _propTypes = __webpack_require__(150);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -13081,13 +13164,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_149__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_150__;
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13101,7 +13184,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13109,7 +13192,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13122,7 +13205,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13156,7 +13239,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13169,7 +13252,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13178,7 +13261,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13186,7 +13269,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13194,7 +13277,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13209,7 +13292,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13224,7 +13307,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13239,7 +13322,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13263,7 +13346,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(162);
+var s = __webpack_require__(163);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -13294,7 +13377,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13302,7 +13385,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13326,7 +13409,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13377,7 +13460,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13385,7 +13468,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13394,7 +13477,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(167);
+var s = __webpack_require__(168);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -13427,7 +13510,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13437,7 +13520,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13481,22 +13564,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 169 */
+/* 170 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 170 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 171,
-	"./Feed.js": 172,
-	"./Ingredient.js": 173,
-	"./Method.js": 174,
-	"./Recipe.js": 175,
-	"./TableOfContents.js": 176
+	"./Crumbs.js": 172,
+	"./Feed.js": 173,
+	"./Ingredient.js": 174,
+	"./Method.js": 175,
+	"./Recipe.js": 176,
+	"./TableOfContents.js": 177
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -13512,10 +13595,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 170;
+webpackContext.id = 171;
 
 /***/ }),
-/* 171 */
+/* 172 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13530,7 +13613,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 172 */
+/* 173 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13545,7 +13628,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 173 */
+/* 174 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13560,7 +13643,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 174 */
+/* 175 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13575,7 +13658,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 175 */
+/* 176 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13590,7 +13673,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 176 */
+/* 177 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13605,7 +13688,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 177 */
+/* 178 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13629,7 +13712,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 178 */
+/* 179 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
