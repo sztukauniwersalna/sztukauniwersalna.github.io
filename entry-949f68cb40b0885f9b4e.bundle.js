@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_150__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_151__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(165);
+var Feed_1 = __webpack_require__(166);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(167);
+var Recipe_1 = __webpack_require__(168);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(169);
+var Root_1 = __webpack_require__(170);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(151);
+var s = __webpack_require__(152);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(152);
+var s = __webpack_require__(153);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(65),
-UPLOADS: __webpack_require__(145),
-ROOT: __webpack_require__(146),
-LAYOUTS: __webpack_require__(147),
-INCLUDES: __webpack_require__(171)};
+UPLOADS: __webpack_require__(146),
+ROOT: __webpack_require__(147),
+LAYOUTS: __webpack_require__(148),
+INCLUDES: __webpack_require__(172)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(171)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(153);
+var s = __webpack_require__(154);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(157);
+var s = __webpack_require__(158);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(170);
+__webpack_require__(171);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(148);
+var react_disqus_comments_1 = __webpack_require__(149);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(162);
-var s = __webpack_require__(164);
+var FacebookLike_1 = __webpack_require__(163);
+var s = __webpack_require__(165);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(154);
-var s = __webpack_require__(155);
+__webpack_require__(155);
+var s = __webpack_require__(156);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(156);
+var s = __webpack_require__(157);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(159);
+var s = __webpack_require__(160);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(158);
+var s = __webpack_require__(159);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(160);
+var s = __webpack_require__(161);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(161);
+var s = __webpack_require__(162);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(166);
+var s = __webpack_require__(167);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(178);
-var menu_1 = __webpack_require__(179);
+var tags_1 = __webpack_require__(179);
+var menu_1 = __webpack_require__(180);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2883,7 +2883,8 @@ var map = {
 	"./2018-10-28-smierc-doroslego.markdown": 141,
 	"./2018-10-31-kamp-moodboard.markdown": 142,
 	"./2018-11-07-make-up-inspirowany-obrazem-light-of-iris-by-georgia-okeeffe.markdown": 143,
-	"./2018-11-15-historia-pewnej-projektantki-czyli-perelka-z-lumpeksu.markdown": 144
+	"./2018-11-15-historia-pewnej-projektantki-czyli-perelka-z-lumpeksu.markdown": 144,
+	"./2018-11-22-wystawa-moda-polska.markdown": 145
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -12971,15 +12972,71 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia portret kobiety w turbanie. Ko
 
 /***/ }),
 /* 145 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 145;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/8528320/ello-optimized-7b8afcba.jpg', alt: 'Zdj\u0119cie przedstawia ciemne pomieszczenie o\u015Bwietlone \u015Bwiat\u0142em bia\u0142yego neonu w kszta\u0142cie napisu.' })
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Dwa niewielkie pi\u0119tra wype\u0142nione wielk\u0105 mod\u0105. Wystawa \u2018Moda Polska\u2019 w Centralnym Muzeum W\u0142\xF3kiennictwa w \u0141odzi to historia pierwszego w Polsce domu mody, kt\xF3ry swoj\u0105 pomys\u0142owo\u015Bci\u0105 i stylem zas\u0142yn\u0105\u0142 na \u015Bwiatowym rynku. Firma przechodzi\u0142a wiele etap\xF3w, kt\xF3re zale\u017Cne by\u0142y mi\u0119dzy innymi od obecnego ustroju w pa\u0144stwie. Kiedy brakowa\u0142o materia\u0142\xF3w stroje szyto np. z zas\u0142on, koc\xF3w, albo wst\u0105\u017Cek. W czasach modowej ekspansji kr\xF3lowa\u0142y materia\u0142y naturalne takie jak barwiony jedwab, czy len. Jedno jest pewne \u2013 marce przy\u015Bwieca\u0142 cel odmiany wizerunku polskiej kobiety, kt\xF3ry po wojnie by\u0142 niezwykle skromny. W Modzie Polskiej nie brakowa\u0142o kreatywnych umys\u0142\xF3w i r\u0105k ch\u0119tnych do pracy. Moda by\u0142a \u017Cyciow\u0105 pasj\u0105 dla Jadwigi Grabowskiej (pierwszej dyrektor kreatywnej), Jerzego Antkowiaka (g\u0142\xF3wnego projektanta), oraz masy innych os\xF3b zaanga\u017Cowanych w rozw\xF3j Mody Polskiej. Zbiory, kt\xF3re znajdziemy na wystawie pochodz\u0105 g\u0142\xF3wnie z kolekcji Jerzego Antkowiaka, kt\xF3ry w 1998 roku, kiedy Moda Polska przesta\u0142a istnie\u0107, odkupi\u0142 od syndyka zawarto\u015B\u0107 magazyn\xF3w i przez kolejne 20 lat przechowywa\u0142 je w piwnicy swojego domu. Zachowane stroje s\u0105 w \u015Bwietnym stanie, wygl\u0105daj\u0105 niemal jakby wysz\u0142y spod ig\u0142y wczoraj. Kiedy przy okazji \u015Bwi\u0119towania urodzin kolegi zobaczy\u0142 je Tomasz Ossoli\u0144ski, by\u0142o wiadome: b\u0119dzie wystawa.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8528283/ello-optimized-df5910e2.jpg', alt: 'Zdj\u0119cie przedstawia fragment budynku z ceg\u0142y i niebieskie niebo.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/8528286/ello-optimized-c56c6f6e.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia. Na jednym z nich widzimy pomieszczenie, a na drugim plakat reklamowy.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Pi\u0119tro III'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Zwiedzanie wystawy zaczynam od najwy\u017Cszego pi\u0119tra. Przekraczaj\u0105c pr\xF3g znajduj\u0119 si\u0119 nagle w ciemnej przestrzeni o\u015Bwietlonej jedynie subtelnymi neonami. \u015Aciany ca\u0142ej ekspozycji s\u0105 czarne, klimat mroczny, co pot\u0119guje wra\u017Cenie cofni\u0119cia si\u0119 w czasie. G\xF3rne pi\u0119tro po\u015Bwi\u0119cone jest w ca\u0142o\u015Bci historii Mody Polskiej. Id\u0105c po kszta\u0142cie litery \u2018U\u2019 czytam o pocz\u0105tkach marki, jej rozwoju, kluczowych momentach, o osobach z ni\u0105 zwi\u0105zanych, o wp\u0142ywach, o poszczeg\xF3lnych pokazach i projektach. Stroje, szkice, dokumenty zamkni\u0119te w szklanych gablotach opowiadaj\u0105 histori\u0119 czas\xF3w, kiedy Moda Polska wypuszcza\u0142a 6 kolekcji rocznie, kt\xF3re sk\u0142ada\u0142y si\u0119 nawet z 500 modeli. Sklepy marki mie\u015Bci\u0142y si\u0119 w najlepszych lokalizacjach, a ka\u017Cdy marzy\u0142, aby posiada\u0107 cho\u0107 jedn\u0105 rzecz sygnowan\u0105 znakiem s\u0142ynnej jask\xF3\u0142ki. Czytam r\xF3wnie\u017C o ci\u0119\u017Ckich czasach, kiedy po wprowadzeniu stanu wojennego w 1981 roku Moda Polska po raz pierwszy nie wys\u0142a\u0142a swoich projektant\xF3w do Pary\u017Ca. Kiedy brakowa\u0142o materia\u0142\xF3w i kamizelki szy\u0142o si\u0119 ze starych spodni. W \u015Bciany wbudowane zosta\u0142y ma\u0142e ekraniki, na kt\xF3rych przewijaj\u0105 si\u0119 filmy z pokaz\xF3w. Jako\u015B\u0107 z kasety VHS i czer\u0144 \u015Bcian wprawiaj\u0105 mnie w sentymentalny nastr\xF3j. Modelki na wybiegach poruszaj\u0105 si\u0119 w zupe\u0142nie inny spos\xF3b ni\u017C wsp\xF3\u0142czesne dziewczyny w tym zawodzie. Mam wra\u017Cenie, \u017Ce s\u0105 bardziej swobodne, mimo wymog\xF3w pokazu zachowuj\u0105 sw\xF3j indywidualny charakter. Ta cz\u0119\u015B\u0107 wystawy ko\u0144czy si\u0119 wielkim gadaj\u0105cym lustrem w z\u0142otej ramie. Lustro nale\u017Ca\u0142o do Jadwigi Grabowskiej i towarzyszy\u0142o jej przy przymiarkach przez wszystkie lata modowej kariery.'
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Wystawa: Moda Polska", "date": "2018-11-22T16:01:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["wystawa", "exhibition", "moda polska", "jaskółka", "antkowiak", "piętro III", "piętro II", "black & red"] };
+var body = exports.body = "<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/8528320/ello-optimized-7b8afcba.jpg\" alt=\"Zdjęcie przedstawia ciemne pomieszczenie oświetlone światłem białyego neonu w kształcie napisu.\" /></p>\n<p>Dwa niewielkie piętra wypełnione wielką modą. Wystawa ‘Moda Polska’ w Centralnym Muzeum Włókiennictwa w Łodzi to historia pierwszego w Polsce domu mody, który swoją pomysłowością i stylem zasłynął na światowym rynku. Firma przechodziła wiele etapów, które zależne były między innymi od obecnego ustroju w państwie. Kiedy brakowało materiałów stroje szyto np. z zasłon, koców, albo wstążek. W czasach modowej ekspansji królowały materiały naturalne takie jak barwiony jedwab, czy len. Jedno jest pewne – marce przyświecał cel odmiany wizerunku polskiej kobiety, który po wojnie był niezwykle skromny. W Modzie Polskiej nie brakowało kreatywnych umysłów i rąk chętnych do pracy. Moda była życiową pasją dla Jadwigi Grabowskiej (pierwszej dyrektor kreatywnej), Jerzego Antkowiaka (głównego projektanta), oraz masy innych osób zaangażowanych w rozwój Mody Polskiej.\nZbiory, które znajdziemy na wystawie pochodzą głównie z kolekcji Jerzego Antkowiaka, który w 1998 roku, kiedy Moda Polska przestała istnieć, odkupił od syndyka zawartość magazynów i przez kolejne 20 lat przechowywał je w piwnicy swojego domu. Zachowane stroje są w świetnym stanie, wyglądają niemal jakby wyszły spod igły wczoraj. Kiedy przy okazji świętowania urodzin kolegi zobaczył je Tomasz Ossoliński, było wiadome: będzie wystawa.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/8528283/ello-optimized-df5910e2.jpg\" alt=\"Zdjęcie przedstawia fragment budynku z cegły i niebieskie niebo.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/8528286/ello-optimized-c56c6f6e.jpg\" alt=\"Obraz przedstawia dwa zdjęcia. Na jednym z nich widzimy pomieszczenie, a na drugim plakat reklamowy.\" /></p>\n<h2>Piętro III</h2>\n<p>Zwiedzanie wystawy zaczynam od najwyższego piętra. Przekraczając próg znajduję się nagle w ciemnej przestrzeni oświetlonej jedynie subtelnymi neonami. Ściany całej ekspozycji są czarne, klimat mroczny, co potęguje wrażenie cofnięcia się w czasie. Górne piętro poświęcone jest w całości historii Mody Polskiej. Idąc po kształcie litery ‘U’ czytam o początkach marki, jej rozwoju, kluczowych momentach, o osobach z nią związanych, o wpływach, o poszczególnych pokazach i projektach. Stroje, szkice, dokumenty zamknięte w szklanych gablotach opowiadają historię czasów, kiedy Moda Polska wypuszczała 6 kolekcji rocznie, które składały się nawet z 500 modeli. Sklepy marki mieściły się w najlepszych lokalizacjach, a każdy marzył, aby posiadać choć jedną rzecz sygnowaną znakiem słynnej jaskółki. Czytam również o ciężkich czasach, kiedy po wprowadzeniu stanu wojennego w 1981 roku Moda Polska po raz pierwszy nie wysłała swoich projektantów do Paryża. Kiedy brakowało materiałów i kamizelki szyło się ze starych spodni. W ściany wbudowane zostały małe ekraniki, na których przewijają się filmy z pokazów. Jakość z kasety VHS i czerń ścian wprawiają mnie w sentymentalny nastrój. Modelki na wybiegach poruszają się w zupełnie inny sposób niż współczesne dziewczyny w tym zawodzie. Mam wrażenie, że są bardziej swobodne, mimo wymogów pokazu zachowują swój indywidualny charakter. Ta część wystawy kończy się wielkim gadającym lustrem w złotej ramie. Lustro należało do Jadwigi Grabowskiej i towarzyszyło jej przy przymiarkach przez wszystkie lata modowej kariery.</p>\n";
+var raw = exports.raw = "\n![Zdjęcie przedstawia ciemne pomieszczenie oświetlone światłem białyego neonu w kształcie napisu.](https://assets2.ello.co/uploads/asset/attachment/8528320/ello-optimized-7b8afcba.jpg)\n\nDwa niewielkie piętra wypełnione wielką modą. Wystawa ‘Moda Polska’ w Centralnym Muzeum Włókiennictwa w Łodzi to historia pierwszego w Polsce domu mody, który swoją pomysłowością i stylem zasłynął na światowym rynku. Firma przechodziła wiele etapów, które zależne były między innymi od obecnego ustroju w państwie. Kiedy brakowało materiałów stroje szyto np. z zasłon, koców, albo wstążek. W czasach modowej ekspansji królowały materiały naturalne takie jak barwiony jedwab, czy len. Jedno jest pewne – marce przyświecał cel odmiany wizerunku polskiej kobiety, który po wojnie był niezwykle skromny. W Modzie Polskiej nie brakowało kreatywnych umysłów i rąk chętnych do pracy. Moda była życiową pasją dla Jadwigi Grabowskiej (pierwszej dyrektor kreatywnej), Jerzego Antkowiaka (głównego projektanta), oraz masy innych osób zaangażowanych w rozwój Mody Polskiej. \nZbiory, które znajdziemy na wystawie pochodzą głównie z kolekcji Jerzego Antkowiaka, który w 1998 roku, kiedy Moda Polska przestała istnieć, odkupił od syndyka zawartość magazynów i przez kolejne 20 lat przechowywał je w piwnicy swojego domu. Zachowane stroje są w świetnym stanie, wyglądają niemal jakby wyszły spod igły wczoraj. Kiedy przy okazji świętowania urodzin kolegi zobaczył je Tomasz Ossoliński, było wiadome: będzie wystawa.\n\n![Zdjęcie przedstawia fragment budynku z cegły i niebieskie niebo.](https://assets1.ello.co/uploads/asset/attachment/8528283/ello-optimized-df5910e2.jpg)\n![Obraz przedstawia dwa zdjęcia. Na jednym z nich widzimy pomieszczenie, a na drugim plakat reklamowy.](https://assets0.ello.co/uploads/asset/attachment/8528286/ello-optimized-c56c6f6e.jpg)\n\n## Piętro III\n\nZwiedzanie wystawy zaczynam od najwyższego piętra. Przekraczając próg znajduję się nagle w ciemnej przestrzeni oświetlonej jedynie subtelnymi neonami. Ściany całej ekspozycji są czarne, klimat mroczny, co potęguje wrażenie cofnięcia się w czasie. Górne piętro poświęcone jest w całości historii Mody Polskiej. Idąc po kształcie litery ‘U’ czytam o początkach marki, jej rozwoju, kluczowych momentach, o osobach z nią związanych, o wpływach, o poszczególnych pokazach i projektach. Stroje, szkice, dokumenty zamknięte w szklanych gablotach opowiadają historię czasów, kiedy Moda Polska wypuszczała 6 kolekcji rocznie, które składały się nawet z 500 modeli. Sklepy marki mieściły się w najlepszych lokalizacjach, a każdy marzył, aby posiadać choć jedną rzecz sygnowaną znakiem słynnej jaskółki. Czytam również o ciężkich czasach, kiedy po wprowadzeniu stanu wojennego w 1981 roku Moda Polska po raz pierwszy nie wysłała swoich projektantów do Paryża. Kiedy brakowało materiałów i kamizelki szyło się ze starych spodni. W ściany wbudowane zostały małe ekraniki, na których przewijają się filmy z pokazów. Jakość z kasety VHS i czerń ścian wprawiają mnie w sentymentalny nastrój. Modelki na wybiegach poruszają się w zupełnie inny sposób niż współczesne dziewczyny w tym zawodzie. Mam wrażenie, że są bardziej swobodne, mimo wymogów pokazu zachowują swój indywidualny charakter. Ta część wystawy kończy się wielkim gadającym lustrem w złotej ramie. Lustro należało do Jadwigi Grabowskiej i towarzyszyło jej przy przymiarkach przez wszystkie lata modowej kariery.\n\n\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 146 */
@@ -12995,6 +13052,18 @@ webpackEmptyContext.id = 146;
 
 /***/ }),
 /* 147 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 147;
+
+/***/ }),
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -13015,19 +13084,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 147;
+webpackContext.id = 148;
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(149);
+module.exports = __webpack_require__(150);
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13045,7 +13114,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(150);
+var _propTypes = __webpack_require__(151);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -13249,13 +13318,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_150__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_151__;
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13269,7 +13338,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13277,7 +13346,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13290,7 +13359,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13324,7 +13393,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13337,7 +13406,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13346,7 +13415,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13354,7 +13423,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13362,7 +13431,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13377,7 +13446,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13392,7 +13461,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13407,7 +13476,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13431,7 +13500,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(163);
+var s = __webpack_require__(164);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -13462,7 +13531,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13470,7 +13539,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13494,7 +13563,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13545,7 +13614,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13553,7 +13622,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13562,7 +13631,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(168);
+var s = __webpack_require__(169);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -13595,7 +13664,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13605,7 +13674,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 169 */
+/* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13649,22 +13718,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 170 */
+/* 171 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 171 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 172,
-	"./Feed.js": 173,
-	"./Ingredient.js": 174,
-	"./Method.js": 175,
-	"./Recipe.js": 176,
-	"./TableOfContents.js": 177
+	"./Crumbs.js": 173,
+	"./Feed.js": 174,
+	"./Ingredient.js": 175,
+	"./Method.js": 176,
+	"./Recipe.js": 177,
+	"./TableOfContents.js": 178
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -13680,10 +13749,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 171;
+webpackContext.id = 172;
 
 /***/ }),
-/* 172 */
+/* 173 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13698,7 +13767,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 173 */
+/* 174 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13713,7 +13782,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 174 */
+/* 175 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13728,7 +13797,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 175 */
+/* 176 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13743,7 +13812,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 176 */
+/* 177 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13758,7 +13827,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 177 */
+/* 178 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13773,7 +13842,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 178 */
+/* 179 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13797,7 +13866,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 179 */
+/* 180 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
