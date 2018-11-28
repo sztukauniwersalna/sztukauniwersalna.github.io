@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_151__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_152__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(166);
+var Feed_1 = __webpack_require__(167);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(168);
+var Recipe_1 = __webpack_require__(169);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(170);
+var Root_1 = __webpack_require__(171);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(152);
+var s = __webpack_require__(153);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(153);
+var s = __webpack_require__(154);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(65),
-UPLOADS: __webpack_require__(146),
-ROOT: __webpack_require__(147),
-LAYOUTS: __webpack_require__(148),
-INCLUDES: __webpack_require__(172)};
+UPLOADS: __webpack_require__(147),
+ROOT: __webpack_require__(148),
+LAYOUTS: __webpack_require__(149),
+INCLUDES: __webpack_require__(173)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(172)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(154);
+var s = __webpack_require__(155);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(158);
+var s = __webpack_require__(159);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(171);
+__webpack_require__(172);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(149);
+var react_disqus_comments_1 = __webpack_require__(150);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(163);
-var s = __webpack_require__(165);
+var FacebookLike_1 = __webpack_require__(164);
+var s = __webpack_require__(166);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(155);
-var s = __webpack_require__(156);
+__webpack_require__(156);
+var s = __webpack_require__(157);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(157);
+var s = __webpack_require__(158);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(160);
+var s = __webpack_require__(161);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(159);
+var s = __webpack_require__(160);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(161);
+var s = __webpack_require__(162);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(162);
+var s = __webpack_require__(163);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(167);
+var s = __webpack_require__(168);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(179);
-var menu_1 = __webpack_require__(180);
+var tags_1 = __webpack_require__(180);
+var menu_1 = __webpack_require__(181);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2884,7 +2884,8 @@ var map = {
 	"./2018-10-31-kamp-moodboard.markdown": 142,
 	"./2018-11-07-make-up-inspirowany-obrazem-light-of-iris-by-georgia-okeeffe.markdown": 143,
 	"./2018-11-15-historia-pewnej-projektantki-czyli-perelka-z-lumpeksu.markdown": 144,
-	"./2018-11-22-wystawa-moda-polska.markdown": 145
+	"./2018-11-22-wystawa-moda-polska.markdown": 145,
+	"./2018-11-28-moje-wybory-listopad-2018.markdown": 146
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -13164,15 +13165,110 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia ciemne pomieszczenie oświetlo
 
 /***/ }),
 /* 146 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 146;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'olela-narrative',
+      null,
+      'Kiedy otwieram oczy za oknem wci\u0105\u017C panuje noc. Czarna otch\u0142a\u0144 po\u0142yka delikatnie umar\u0142e krople deszczu. Stopami dotykam zimnej pod\u0142ogi jednocze\u015Bnie podnosz\u0105c r\u0119ce do g\xF3ry w ge\u015Bcie woli obudzenia. Sennym krokiem kieruj\u0119 si\u0119 w stron\u0119 kuchni w celu zaparzenia kawy. Przesypuj\u0119 czarne ziarna do m\u0142ynka rozsypuj\u0105c dooko\u0142a niewielk\u0105 ich ilo\u015B\u0107. My\u015Bl\u0119 o ciep\u0142ym swetrze, kt\xF3ry dzisiaj za\u0142o\u017C\u0119 nie z ch\u0119ci lecz z konieczno\u015Bci. Termometr wskazuje cyfr\u0119 poni\u017Cej zera, a w moim brzuchu rozlewa si\u0119 ciep\u0142o kofeiny. Pora roku wymusza na mnie na\u0142o\u017Cenie na twarz tre\u015Bciwego kremu. Nast\u0119pnie wykonuj\u0119 sw\xF3j codzienny rytua\u0142 za\u0142o\u017Cenia maski \u2013 podk\u0142ad (koniecznie ten bardziej kryj\u0105cy), korektor, puder. Przechodz\u0119 do cz\u0119\u015Bci kreatywnej poranka \u2013 makija\u017Cu oczu. Kolory cieni w palecie przywodz\u0105 na my\u015Bl obraz Sandro Botticelli \u2018Narodziny Wenus\u2019. W przerwie mi\u0119dzy makija\u017Cem a popijaniem napoju bog\xF3w udaje mi si\u0119 doczyta\u0107 rozdzia\u0142 ksi\u0105\u017Cki. Teraz jeszcze tylko podkoszulka, koszulka, sweter, ciep\u0142y szalik, r\u0119kawiczki i beret. Voil\xE0, narodzi\u0142am si\u0119 niczym Wenus na zamarzni\u0119tym jeziorze.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8549316/ello-optimized-f2d20ead.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia palety z cieniami do powiek. Ca\u0142o\u015B\u0107 na jasnym tle.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Kosmetyk: kolor\xF3wka'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Renesansowy obraz zamkni\u0119ty w ma\u0142ym pude\u0142ku? Paleta cieni do powiek Modern Renaissance jako pierwsza na rynku umo\u017Cliwi\u0142a nam now\u0105, ciep\u0142\u0105 ods\u0142on\u0119 makija\u017Cu oka. Czterna\u015Bcie cieni w niewielkim welurowym opakowaniu nosi i\u015Bcie malarskie nazwy. Znajdziesz tutaj odcie\u0144 Tempera (rodzaj farby lub technika malarska u\u017Cywana na przyk\u0142ad w malarstwie \u015Bciennym), Raw Sienna (odcie\u0144 pigmentu), Vermeer (Jan Vermeer \u2013 holenderki malarz XVII wieku). Jej autorka pochodz\u0105ca z Rumuni, Anastasia Soare, studiowa\u0142a histori\u0119 sztuki i architektur\u0119. Podobno podczas praktyk kosmetycznych szczeg\xF3ln\u0105 uwag\u0119 zwraca\u0142a na kszta\u0142t brwi stanowi\u0105cy o proporcjach twarzy. Wspomina\u0142a dzie\u0142a Leonarda da Vinci i z\u0142oty podzia\u0142. Obecnie uznawana jest za Kr\xF3low\u0105 Brwi, a jej pomady, kredki i inne produkty ciesz\u0105 si\u0119 wci\u0105\u017C niemalej\u0105c\u0105 popularno\u015Bci\u0105. Premiera marki w polskiej Sephorze mia\u0142a miejsce pi\u0105tego pa\u017Adziernika.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/8549318/ello-optimized-85673d5c.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia palety z cieniami do powiek le\u017C\u0105cej na \u017C\xF3\u0142tym tle.' })
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Paleta Modern Renaissance to m\xF3j jedyny zakup w czarny pi\u0105tek i zarazem pierwszy raz z produktem marki Anastasia Beverly Hills. Musz\u0119 przyzna\u0107, \u017Ce jestem pod niema\u0142ym wra\u017Ceniem. Kolory w palecie s\u0105 idealnie przemy\u015Blane pod kontem codziennych makija\u017Cy. Cienie posiadaj\u0105 mocny pigment, nale\u017Cy bardzo uwa\u017Ca\u0107 przy nabieraniu ich na p\u0119dzel. Na powiece \u0142\u0105cz\u0105 si\u0119 i buduj\u0105 bez najmniejszego problemu. Paletka jest \u015Bwietnym wyborem dla os\xF3b, kt\xF3re podstawy makija\u017Cu maj\u0105 ju\u017C za sob\u0105. Je\u015Bli dopiero zaczynasz swoj\u0105 przygod\u0119 z makija\u017Cem wybierz inn\u0105, bezpieczniejsz\u0105 opcj\u0119.'
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Kosmetyk: piel\u0119gnacja'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Zimno, wiatr, zanieczyszczenia \u015Brodowiska istotnie wp\u0142ywaj\u0105 na wygl\u0105d i stan cery. W mro\u017Ane dni si\u0119gam po nieco bardziej tre\u015Bciwe kremy, kt\xF3re nawil\u017C\u0105, za\u0142agodz\u0105 podra\u017Cnienia i ochroni\u0105 delikatn\u0105 sk\xF3r\u0119 twarzy. Cold Cream Marine zosta\u0142 stworzony z my\u015Bl\u0105 o sk\xF3rach suchych, wra\u017Cliwych, wymagaj\u0105cych. Uzupe\u0142nia niedobory lipid\xF3w, koi, nawil\u017Ca, wzmacnia odporno\u015B\u0107 sk\xF3ry. W jego sk\u0142adzie znajdziemy wyci\u0105g z bia\u0142ego \u0142ubinu, olej ze s\u0142odkich migda\u0142\xF3w, oczar wirginijski, specjalny kompleks opatentowany przez mark\u0119. Thalgo w swoich preparatach wykorzystuje dobroczynne w\u0142a\u015Bciwo\u015Bci m\xF3rz. Oleje z alg, wosk morski, kompleks Seve Bleue pochodz\u0105cy z serca oceanu stanowi\u0105 cz\u0119\u015B\u0107 morskich dobroci, kt\xF3re zapewnia Cold Cream Marine. Wszystko dla pi\u0119kna, w listopadzie.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8549308/ello-optimized-d165827f.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia kosmetyk\xF3w w niebieskich opakowaniach, na niebieskim tle.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Lektura'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      '\u201E- M\xF3j kraj... W Taganrogu nie chodzi\u0142am do cerkwi, tylko do ko\u015Bcio\u0142a. Kole\u017Canki, kiedy pop szed\u0142 korytarzem, odsuwa\u0142y si\u0119 ode mnie: Polaczka. A w ko\u015Bciele kazania by\u0142y po francusku i nikt na mnie jak na swoj\u0105 nie patrzy\u0142\u2026 Do Warszawy przyjecha\u0142am \u2013 powiedzieli: \u2018moskiewka, akcent kacapski i \u015Bniada jak diablica\u2019. W Petersburgu \u2013 warszawskaja barysznia. Nad Wo\u0142g\u0119 m\u0105\u017C zawi\xF3z\u0142 \u2013 grafinia ze stolicy, artystka. Teraz na staro\u015B\u0107 do Warszawy i z powrotem. Znowu to samo: \u2018pani z kres\xF3w czy z Rosji? Bo od razu pozna\u0107, \u017Ce obca\u2019. No i tutaj: eine Fremde\u2026 Czy\u017C nieprawda? Zawsze i wsz\u0119dzie tak: cudzoziemka.\u201D'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/8549319/ello-optimized-cc9e7668.jpg', alt: 'Obraz przedstawia otwart\u0105 ksi\u0105\u017Ck\u0119 na jasnym tle.' })
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      '\u2018Cudzoziemka\u2019 - portret psychologiczny kobiety niespe\u0142nionej, nieszcz\u0119\u015Bliwej. Historia R\xF3\u017Cy \u2013 artystki, kt\xF3rej nikt nie rozumie, nie stara si\u0119 zrozumie\u0107. Przy R\xF3\u017Cy wszyscy zak\u0142adaj\u0105 maski, dobrego m\u0119\u017Ca, kochaj\u0105cego syna, wsp\xF3\u0142czuj\u0105cej c\xF3rki. \u015Awiat jest dla R\xF3\u017Cy cierpieniem, szczeg\xF3lnie teraz, kiedy zauwa\u017Ca siwe w\u0142osy na g\u0142owie i zmarszczki na swojej twarzy. Towarzyszy jej uczucie przegranego \u017Cycia, czasu, kt\xF3rego nie da si\u0119 cofn\u0105\u0107. Wewn\u0119trzna frustracja rodzi gniew i z\u0142o\u015B\u0107, kt\xF3re R\xF3\u017Ca wyrzuca na innych w desperackich aktach agresji. Akcja powie\u015Bci dzieje si\u0119 jednego dnia, lektura odbywa si\u0119 jednego dnia. Polecam.'
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Moje wybory: listopad 2018", "date": "2018-11-28T15:28:00.000Z", "categories": ["Sztuka Makijażu", "Sztuka Ubioru"], "tags": ["wybory", "listopad", "kosmetyk", "kolorówka", "pielęgnacja", "lektura", "akcesoria"] };
+var body = exports.body = "<olela-narrative>\nKiedy otwieram oczy za oknem wciąż panuje noc. Czarna otchłań połyka delikatnie umarłe krople deszczu. Stopami dotykam zimnej podłogi jednocześnie podnosząc ręce do góry w geście woli obudzenia. Sennym krokiem kieruję się w stronę kuchni w celu zaparzenia kawy. Przesypuję czarne ziarna do młynka rozsypując dookoła niewielką ich ilość. Myślę o ciepłym swetrze, który dzisiaj założę nie z chęci lecz z konieczności. Termometr wskazuje cyfrę poniżej zera, a w moim brzuchu rozlewa się ciepło kofeiny. Pora roku wymusza na mnie nałożenie na twarz treściwego kremu. Następnie wykonuję swój codzienny rytuał założenia maski – podkład (koniecznie ten bardziej kryjący), korektor, puder. Przechodzę do części kreatywnej poranka – makijażu oczu. Kolory cieni w palecie przywodzą na myśl obraz Sandro Botticelli ‘Narodziny Wenus’. W przerwie między makijażem a popijaniem napoju bogów udaje mi się doczytać rozdział książki. Teraz jeszcze tylko podkoszulka, koszulka, sweter, ciepły szalik, rękawiczki i beret. Voilà, narodziłam się niczym Wenus na zamarzniętym jeziorze. \n</olela-narrative>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/8549316/ello-optimized-f2d20ead.jpg\" alt=\"Obraz przedstawia dwa zdjęcia palety z cieniami do powiek. Całość na jasnym tle.\" /></p>\n<h2>Kosmetyk: kolorówka</h2>\n<p>Renesansowy obraz zamknięty w małym pudełku? Paleta cieni do powiek Modern Renaissance jako pierwsza na rynku umożliwiła nam nową, ciepłą odsłonę makijażu oka. Czternaście cieni w niewielkim welurowym opakowaniu nosi iście malarskie nazwy. Znajdziesz tutaj odcień Tempera (rodzaj farby lub technika malarska używana na przykład w malarstwie ściennym), Raw Sienna (odcień pigmentu), Vermeer (Jan Vermeer – holenderki malarz XVII wieku). Jej autorka pochodząca z Rumuni, Anastasia Soare, studiowała historię sztuki i architekturę. Podobno podczas praktyk kosmetycznych szczególną uwagę zwracała na kształt brwi stanowiący o proporcjach twarzy. Wspominała dzieła Leonarda da Vinci i złoty podział. Obecnie uznawana jest za Królową Brwi, a jej pomady, kredki i inne produkty cieszą się wciąż niemalejącą popularnością. Premiera marki w polskiej Sephorze miała miejsce piątego października.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/8549318/ello-optimized-85673d5c.jpg\" alt=\"Obraz przedstawia dwa zdjęcia palety z cieniami do powiek leżącej na żółtym tle.\" /></p>\n<p>Paleta Modern Renaissance to mój jedyny zakup w czarny piątek i zarazem pierwszy raz z produktem marki Anastasia Beverly Hills. Muszę przyznać, że jestem pod niemałym wrażeniem. Kolory w palecie są idealnie przemyślane pod kontem codziennych makijaży. Cienie posiadają mocny pigment, należy bardzo uważać przy nabieraniu ich na pędzel. Na powiece łączą się i budują bez najmniejszego problemu. Paletka jest świetnym wyborem dla osób, które podstawy makijażu mają już za sobą. Jeśli dopiero zaczynasz swoją przygodę z makijażem wybierz inną, bezpieczniejszą opcję.</p>\n<h2>Kosmetyk: pielęgnacja</h2>\n<p>Zimno, wiatr, zanieczyszczenia środowiska istotnie wpływają na wygląd i stan cery. W mroźne dni sięgam po nieco bardziej treściwe kremy, które nawilżą, załagodzą podrażnienia i ochronią delikatną skórę twarzy. Cold Cream Marine został stworzony z myślą o skórach suchych, wrażliwych, wymagających. Uzupełnia niedobory lipidów, koi, nawilża, wzmacnia odporność skóry. W jego składzie znajdziemy wyciąg z białego łubinu, olej ze słodkich migdałów, oczar wirginijski, specjalny kompleks opatentowany przez markę. Thalgo w swoich preparatach wykorzystuje dobroczynne właściwości mórz. Oleje z alg, wosk morski, kompleks Seve Bleue pochodzący z serca oceanu stanowią część morskich dobroci, które zapewnia Cold Cream Marine. Wszystko dla piękna, w listopadzie.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/8549308/ello-optimized-d165827f.jpg\" alt=\"Obraz przedstawia dwa zdjęcia kosmetyków w niebieskich opakowaniach, na niebieskim tle.\" /></p>\n<h2>Lektura</h2>\n<p>„- Mój kraj... W Taganrogu nie chodziłam do cerkwi, tylko do kościoła. Koleżanki, kiedy pop szedł korytarzem, odsuwały się ode mnie: Polaczka. A w kościele kazania były po francusku i nikt na mnie jak na swoją nie patrzył… Do Warszawy przyjechałam – powiedzieli: ‘moskiewka, akcent kacapski i śniada jak diablica’. W Petersburgu – warszawskaja barysznia. Nad Wołgę mąż zawiózł – grafinia ze stolicy, artystka. Teraz na starość do Warszawy i z powrotem. Znowu to samo: ‘pani z kresów czy z Rosji? Bo od razu poznać, że obca’. No i tutaj: eine Fremde… Czyż nieprawda? Zawsze i wszędzie tak: cudzoziemka.”</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/8549319/ello-optimized-cc9e7668.jpg\" alt=\"Obraz przedstawia otwartą książkę na jasnym tle.\" /></p>\n<p>‘Cudzoziemka’ - portret psychologiczny kobiety niespełnionej, nieszczęśliwej. Historia Róży – artystki, której nikt nie rozumie, nie stara się zrozumieć. Przy Róży wszyscy zakładają maski, dobrego męża, kochającego syna, współczującej córki. Świat jest dla Róży cierpieniem, szczególnie teraz, kiedy zauważa siwe włosy na głowie i zmarszczki na swojej twarzy. Towarzyszy jej uczucie przegranego życia, czasu, którego nie da się cofnąć. Wewnętrzna frustracja rodzi gniew i złość, które Róża wyrzuca na innych w desperackich aktach agresji. Akcja powieści dzieje się jednego dnia, lektura odbywa się jednego dnia. Polecam.</p>\n";
+var raw = exports.raw = "\n<olela-narrative>\nKiedy otwieram oczy za oknem wciąż panuje noc. Czarna otchłań połyka delikatnie umarłe krople deszczu. Stopami dotykam zimnej podłogi jednocześnie podnosząc ręce do góry w geście woli obudzenia. Sennym krokiem kieruję się w stronę kuchni w celu zaparzenia kawy. Przesypuję czarne ziarna do młynka rozsypując dookoła niewielką ich ilość. Myślę o ciepłym swetrze, który dzisiaj założę nie z chęci lecz z konieczności. Termometr wskazuje cyfrę poniżej zera, a w moim brzuchu rozlewa się ciepło kofeiny. Pora roku wymusza na mnie nałożenie na twarz treściwego kremu. Następnie wykonuję swój codzienny rytuał założenia maski – podkład (koniecznie ten bardziej kryjący), korektor, puder. Przechodzę do części kreatywnej poranka – makijażu oczu. Kolory cieni w palecie przywodzą na myśl obraz Sandro Botticelli ‘Narodziny Wenus’. W przerwie między makijażem a popijaniem napoju bogów udaje mi się doczytać rozdział książki. Teraz jeszcze tylko podkoszulka, koszulka, sweter, ciepły szalik, rękawiczki i beret. Voilà, narodziłam się niczym Wenus na zamarzniętym jeziorze. \n</olela-narrative>\n\n\n![Obraz przedstawia dwa zdjęcia palety z cieniami do powiek. Całość na jasnym tle.](https://assets1.ello.co/uploads/asset/attachment/8549316/ello-optimized-f2d20ead.jpg)\n\n## Kosmetyk: kolorówka\n\nRenesansowy obraz zamknięty w małym pudełku? Paleta cieni do powiek Modern Renaissance jako pierwsza na rynku umożliwiła nam nową, ciepłą odsłonę makijażu oka. Czternaście cieni w niewielkim welurowym opakowaniu nosi iście malarskie nazwy. Znajdziesz tutaj odcień Tempera (rodzaj farby lub technika malarska używana na przykład w malarstwie ściennym), Raw Sienna (odcień pigmentu), Vermeer (Jan Vermeer – holenderki malarz XVII wieku). Jej autorka pochodząca z Rumuni, Anastasia Soare, studiowała historię sztuki i architekturę. Podobno podczas praktyk kosmetycznych szczególną uwagę zwracała na kształt brwi stanowiący o proporcjach twarzy. Wspominała dzieła Leonarda da Vinci i złoty podział. Obecnie uznawana jest za Królową Brwi, a jej pomady, kredki i inne produkty cieszą się wciąż niemalejącą popularnością. Premiera marki w polskiej Sephorze miała miejsce piątego października.\n\n![Obraz przedstawia dwa zdjęcia palety z cieniami do powiek leżącej na żółtym tle.](https://assets0.ello.co/uploads/asset/attachment/8549318/ello-optimized-85673d5c.jpg)\n\nPaleta Modern Renaissance to mój jedyny zakup w czarny piątek i zarazem pierwszy raz z produktem marki Anastasia Beverly Hills. Muszę przyznać, że jestem pod niemałym wrażeniem. Kolory w palecie są idealnie przemyślane pod kontem codziennych makijaży. Cienie posiadają mocny pigment, należy bardzo uważać przy nabieraniu ich na pędzel. Na powiece łączą się i budują bez najmniejszego problemu. Paletka jest świetnym wyborem dla osób, które podstawy makijażu mają już za sobą. Jeśli dopiero zaczynasz swoją przygodę z makijażem wybierz inną, bezpieczniejszą opcję.\n\n## Kosmetyk: pielęgnacja\n\nZimno, wiatr, zanieczyszczenia środowiska istotnie wpływają na wygląd i stan cery. W mroźne dni sięgam po nieco bardziej treściwe kremy, które nawilżą, załagodzą podrażnienia i ochronią delikatną skórę twarzy. Cold Cream Marine został stworzony z myślą o skórach suchych, wrażliwych, wymagających. Uzupełnia niedobory lipidów, koi, nawilża, wzmacnia odporność skóry. W jego składzie znajdziemy wyciąg z białego łubinu, olej ze słodkich migdałów, oczar wirginijski, specjalny kompleks opatentowany przez markę. Thalgo w swoich preparatach wykorzystuje dobroczynne właściwości mórz. Oleje z alg, wosk morski, kompleks Seve Bleue pochodzący z serca oceanu stanowią część morskich dobroci, które zapewnia Cold Cream Marine. Wszystko dla piękna, w listopadzie. \n\n![Obraz przedstawia dwa zdjęcia kosmetyków w niebieskich opakowaniach, na niebieskim tle.](https://assets1.ello.co/uploads/asset/attachment/8549308/ello-optimized-d165827f.jpg)\n\n## Lektura\n\n„- Mój kraj… W Taganrogu nie chodziłam do cerkwi, tylko do kościoła. Koleżanki, kiedy pop szedł korytarzem, odsuwały się ode mnie: Polaczka. A w kościele kazania były po francusku i nikt na mnie jak na swoją nie patrzył… Do Warszawy przyjechałam – powiedzieli: ‘moskiewka, akcent kacapski i śniada jak diablica’. W Petersburgu – warszawskaja barysznia. Nad Wołgę mąż zawiózł – grafinia ze stolicy, artystka. Teraz na starość do Warszawy i z powrotem. Znowu to samo: ‘pani z kresów czy z Rosji? Bo od razu poznać, że obca’. No i tutaj: eine Fremde… Czyż nieprawda? Zawsze i wszędzie tak: cudzoziemka.”\n\n![Obraz przedstawia otwartą książkę na jasnym tle.](https://assets0.ello.co/uploads/asset/attachment/8549319/ello-optimized-cc9e7668.jpg)\n\n‘Cudzoziemka’ - portret psychologiczny kobiety niespełnionej, nieszczęśliwej. Historia Róży – artystki, której nikt nie rozumie, nie stara się zrozumieć. Przy Róży wszyscy zakładają maski, dobrego męża, kochającego syna, współczującej córki. Świat jest dla Róży cierpieniem, szczególnie teraz, kiedy zauważa siwe włosy na głowie i zmarszczki na swojej twarzy. Towarzyszy jej uczucie przegranego życia, czasu, którego nie da się cofnąć. Wewnętrzna frustracja rodzi gniew i złość, które Róża wyrzuca na innych w desperackich aktach agresji. Akcja powieści dzieje się jednego dnia, lektura odbywa się jednego dnia. Polecam. \n\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 147 */
@@ -13188,6 +13284,18 @@ webpackEmptyContext.id = 147;
 
 /***/ }),
 /* 148 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 148;
+
+/***/ }),
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -13208,19 +13316,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 148;
+webpackContext.id = 149;
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(150);
+module.exports = __webpack_require__(151);
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13238,7 +13346,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(151);
+var _propTypes = __webpack_require__(152);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -13442,13 +13550,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_151__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_152__;
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13462,7 +13570,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13470,7 +13578,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13483,7 +13591,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13517,7 +13625,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13530,7 +13638,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13539,7 +13647,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13547,7 +13655,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13555,7 +13663,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13570,7 +13678,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13585,7 +13693,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13600,7 +13708,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13624,7 +13732,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(164);
+var s = __webpack_require__(165);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -13655,7 +13763,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13663,7 +13771,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13687,7 +13795,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13738,7 +13846,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13746,7 +13854,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13755,7 +13863,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(169);
+var s = __webpack_require__(170);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -13788,7 +13896,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 169 */
+/* 170 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13798,7 +13906,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 170 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13842,22 +13950,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 171 */
+/* 172 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 172 */
+/* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 173,
-	"./Feed.js": 174,
-	"./Ingredient.js": 175,
-	"./Method.js": 176,
-	"./Recipe.js": 177,
-	"./TableOfContents.js": 178
+	"./Crumbs.js": 174,
+	"./Feed.js": 175,
+	"./Ingredient.js": 176,
+	"./Method.js": 177,
+	"./Recipe.js": 178,
+	"./TableOfContents.js": 179
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -13873,10 +13981,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 172;
+webpackContext.id = 173;
 
 /***/ }),
-/* 173 */
+/* 174 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13891,7 +13999,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 174 */
+/* 175 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13906,7 +14014,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 175 */
+/* 176 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13921,7 +14029,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 176 */
+/* 177 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13936,7 +14044,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 177 */
+/* 178 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13951,7 +14059,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 178 */
+/* 179 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -13966,7 +14074,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 179 */
+/* 180 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13990,7 +14098,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 180 */
+/* 181 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
