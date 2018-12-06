@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_152__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_153__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(167);
+var Feed_1 = __webpack_require__(168);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(169);
+var Recipe_1 = __webpack_require__(170);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(171);
+var Root_1 = __webpack_require__(172);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(153);
+var s = __webpack_require__(154);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(154);
+var s = __webpack_require__(155);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(65),
-UPLOADS: __webpack_require__(147),
-ROOT: __webpack_require__(148),
-LAYOUTS: __webpack_require__(149),
-INCLUDES: __webpack_require__(173)};
+UPLOADS: __webpack_require__(148),
+ROOT: __webpack_require__(149),
+LAYOUTS: __webpack_require__(150),
+INCLUDES: __webpack_require__(174)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(173)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(155);
+var s = __webpack_require__(156);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(159);
+var s = __webpack_require__(160);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(172);
+__webpack_require__(173);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(150);
+var react_disqus_comments_1 = __webpack_require__(151);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(164);
-var s = __webpack_require__(166);
+var FacebookLike_1 = __webpack_require__(165);
+var s = __webpack_require__(167);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(156);
-var s = __webpack_require__(157);
+__webpack_require__(157);
+var s = __webpack_require__(158);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(158);
+var s = __webpack_require__(159);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(161);
+var s = __webpack_require__(162);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(160);
+var s = __webpack_require__(161);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(162);
+var s = __webpack_require__(163);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(163);
+var s = __webpack_require__(164);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(168);
+var s = __webpack_require__(169);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(180);
-var menu_1 = __webpack_require__(181);
+var tags_1 = __webpack_require__(181);
+var menu_1 = __webpack_require__(182);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2885,7 +2885,8 @@ var map = {
 	"./2018-11-07-make-up-inspirowany-obrazem-light-of-iris-by-georgia-okeeffe.markdown": 143,
 	"./2018-11-15-historia-pewnej-projektantki-czyli-perelka-z-lumpeksu.markdown": 144,
 	"./2018-11-22-wystawa-moda-polska.markdown": 145,
-	"./2018-11-28-moje-wybory-listopad-2018.markdown": 146
+	"./2018-11-28-moje-wybory-listopad-2018.markdown": 146,
+	"./2018-12-06-fluxus-moodboard.markdown": 147
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -13341,15 +13342,71 @@ var raw = exports.raw = "\n<olela-narrative>\nKiedy otwieram oczy za oknem wcią
 
 /***/ }),
 /* 147 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 147;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Fluxus (\u0142ac. p\u0142yn\u0105cy; ang. to flow) nie by\u0142 skonkretyzowanym kierunkiem w sztuce, a raczej ruchem, artystycznym manifestem artyst\xF3w \u017Cyj\u0105cych w latach 60-tych, 70-tych XX wieku. Charakterystyczny humor, nawi\u0105zanie do ruchu ',
+      _react2.default.createElement(
+        'a',
+        { href: 'http://sztukauniwersalna.pl/2018-04-05-dadaizm-moodboard' },
+        'DADA'
+      ),
+      ' pozwoli\u0142o na przekraczanie granic i wzajemnie przenikanie si\u0119 dziedzin sztuki. Za flux-ojca uwa\u017Cany jest George Maciunas, ameryka\u0144ski artysta litewskiego pochodzenia. Pierwszy z mi\u0119dzynarodowych festiwali, Fluxus International Festspiele, odby\u0142 si\u0119 w Muzeum Wiesbaden w 1962 roku. Na festiwal sk\u0142ada\u0142y si\u0119 g\u0142\xF3wnie koncerty po\u0142\u0105czone ze sztuk\u0105 akcji, tzw. happeningami. Fluxus znacz\u0105co przyczyni\u0142 si\u0119 do popularyzacji i rozwoju sztuki performance, muzyki eksperymentalnej, konceptualizmu, mail art\u2019u (sztuki poczty). Podczas flux-koncert\xF3w \u0142amano wszelkie zasady, a na ich miejscu pojawia\u0142y si\u0119 nieprzewidziane eksperymenty z form\u0105 i tre\u015Bci\u0105. Pi\u0142owano fortepian, niszczono skrzypce, policzkowano kompozytora zgodnie z zaleceniami partytury. Idee Fluxus do swojej tw\xF3rczo\u015Bci wciela\u0142/a John Cage, George Brecht, Dick Higgins, Nam June Paik, Yoko Ono.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'George Maciunas w manife\u015Bcie Fluxus pisa\u0142: \u201ENale\u017Cy promowa\u0107 rewolucyjn\u0105 pow\xF3d\u017A (...) sztuk\u0119 \u017Cyw\u0105, anty-sztuk\u0119, nieartystyczn\u0105 rzeczywisto\u015B\u0107, kt\xF3r\u0105 chwyc\u0105 wszyscy ludzi, nie tylko krytycy, dyletanci i profesjonali\u015Bci\u201D. (kopie manifestu zosta\u0142y rzucone w publiczno\u015B\u0107 podczas Festum Fluxorum Fluxus maj\u0105cym miejsce w 1963 roku w Dusseldorfie)'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Dzia\u0142ania Fluxus\u2019u cechuje spontaniczno\u015B\u0107, dopuszczenie przypadku jako cz\u0119\u015Bci aktu tw\xF3rczego, amatorsko\u015B\u0107, zabawa, refleksja.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Za koniec Fluxus\u2019u uwa\u017Ca si\u0119 moment, kiedy zmar\u0142 jego lider George Maciunas. Ceremonia pogrzebowa odby\u0142a si\u0119 w charakterystycznym flux-stylu. Jedzenie mia\u0142o tylko i wy\u0142\u0105cznie kolor czarny, bia\u0142y lub fioletowy. Jednak czy Fluxus na pewno si\u0119 zako\u0144czy\u0142? Jego spu\u015Bcizna nieustannie dzia\u0142a na m\u0142odych tw\xF3rc\xF3w inspiruj\u0105c do eksperymentalnych dzia\u0142a\u0144. To w\u0142a\u015Bnie dzi\u0119ki Fluxus\u2019owi mo\u017Cemy dzi\u015B studiowa\u0107 kierunek \u2018intermedia\u2019 na wielu wy\u017Cszych uczelniach w kraju i poza jego granicami.'
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Fluxus [moodboard]", "date": "2018-12-06T10:30:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["moodboard", "fluxus", "george maciunas", "yoko ono", "nam june paik"] };
+var body = exports.body = "<p>Fluxus (łac. płynący; ang. to flow) nie był skonkretyzowanym kierunkiem w sztuce, a raczej ruchem, artystycznym manifestem artystów żyjących w latach 60-tych, 70-tych XX wieku. Charakterystyczny humor, nawiązanie do ruchu <a href=\"http://sztukauniwersalna.pl/2018-04-05-dadaizm-moodboard\">DADA</a> pozwoliło na przekraczanie granic i wzajemnie przenikanie się dziedzin sztuki. Za flux-ojca uważany jest George Maciunas, amerykański artysta litewskiego pochodzenia. Pierwszy z międzynarodowych festiwali, Fluxus International Festspiele, odbył się w Muzeum Wiesbaden w 1962 roku. Na festiwal składały się głównie koncerty połączone ze sztuką akcji, tzw. happeningami. Fluxus znacząco przyczynił się do popularyzacji i rozwoju sztuki performance, muzyki eksperymentalnej, konceptualizmu, mail art’u (sztuki poczty). Podczas flux-koncertów łamano wszelkie zasady, a na ich miejscu pojawiały się nieprzewidziane eksperymenty z formą i treścią. Piłowano fortepian, niszczono skrzypce, policzkowano kompozytora zgodnie z zaleceniami partytury. Idee Fluxus do swojej twórczości wcielał/a John Cage, George Brecht, Dick Higgins, Nam June Paik, Yoko Ono.</p>\n<p>George Maciunas w manifeście Fluxus pisał:\n„Należy promować rewolucyjną powódź (...) sztukę żywą, anty-sztukę, nieartystyczną rzeczywistość, którą chwycą wszyscy ludzi, nie tylko krytycy, dyletanci i profesjonaliści”.\n(kopie manifestu zostały rzucone w publiczność podczas Festum Fluxorum Fluxus mającym miejsce w 1963 roku w Dusseldorfie)</p>\n<p>Działania Fluxus’u cechuje spontaniczność, dopuszczenie przypadku jako części aktu twórczego, amatorskość, zabawa, refleksja.</p>\n<p>Za koniec Fluxus’u uważa się moment, kiedy zmarł jego lider George Maciunas. Ceremonia pogrzebowa odbyła się w charakterystycznym flux-stylu. Jedzenie miało tylko i wyłącznie kolor czarny, biały lub fioletowy.\nJednak czy Fluxus na pewno się zakończył? Jego spuścizna nieustannie działa na młodych twórców inspirując do eksperymentalnych działań. To właśnie dzięki Fluxus’owi możemy dziś studiować kierunek ‘intermedia’ na wielu wyższych uczelniach w kraju i poza jego granicami.</p>\n";
+var raw = exports.raw = "\nFluxus (łac. płynący; ang. to flow) nie był skonkretyzowanym kierunkiem w sztuce, a raczej ruchem, artystycznym manifestem artystów żyjących w latach 60-tych, 70-tych XX wieku. Charakterystyczny humor, nawiązanie do ruchu [DADA](http://sztukauniwersalna.pl/2018-04-05-dadaizm-moodboard) pozwoliło na przekraczanie granic i wzajemnie przenikanie się dziedzin sztuki. Za flux-ojca uważany jest George Maciunas, amerykański artysta litewskiego pochodzenia. Pierwszy z międzynarodowych festiwali, Fluxus International Festspiele, odbył się w Muzeum Wiesbaden w 1962 roku. Na festiwal składały się głównie koncerty połączone ze sztuką akcji, tzw. happeningami. Fluxus znacząco przyczynił się do popularyzacji i rozwoju sztuki performance, muzyki eksperymentalnej, konceptualizmu, mail art’u (sztuki poczty). Podczas flux-koncertów łamano wszelkie zasady, a na ich miejscu pojawiały się nieprzewidziane eksperymenty z formą i treścią. Piłowano fortepian, niszczono skrzypce, policzkowano kompozytora zgodnie z zaleceniami partytury. Idee Fluxus do swojej twórczości wcielał/a John Cage, George Brecht, Dick Higgins, Nam June Paik, Yoko Ono. \n\nGeorge Maciunas w manifeście Fluxus pisał:\n„Należy promować rewolucyjną powódź (…) sztukę żywą, anty-sztukę, nieartystyczną rzeczywistość, którą chwycą wszyscy ludzi, nie tylko krytycy, dyletanci i profesjonaliści”.\n(kopie manifestu zostały rzucone w publiczność podczas Festum Fluxorum Fluxus mającym miejsce w 1963 roku w Dusseldorfie)\n\n\nDziałania Fluxus’u cechuje spontaniczność, dopuszczenie przypadku jako części aktu twórczego, amatorskość, zabawa, refleksja. \n\n\nZa koniec Fluxus’u uważa się moment, kiedy zmarł jego lider George Maciunas. Ceremonia pogrzebowa odbyła się w charakterystycznym flux-stylu. Jedzenie miało tylko i wyłącznie kolor czarny, biały lub fioletowy.\nJednak czy Fluxus na pewno się zakończył? Jego spuścizna nieustannie działa na młodych twórców inspirując do eksperymentalnych działań. To właśnie dzięki Fluxus'owi możemy dziś studiować kierunek 'intermedia' na wielu wyższych uczelniach w kraju i poza jego granicami. \n\n\n\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 148 */
@@ -13365,6 +13422,18 @@ webpackEmptyContext.id = 148;
 
 /***/ }),
 /* 149 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 149;
+
+/***/ }),
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -13385,19 +13454,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 149;
+webpackContext.id = 150;
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(151);
+module.exports = __webpack_require__(152);
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13415,7 +13484,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(152);
+var _propTypes = __webpack_require__(153);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -13619,13 +13688,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_152__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_153__;
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13639,7 +13708,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13647,7 +13716,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13660,7 +13729,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13694,7 +13763,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13707,7 +13776,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13716,7 +13785,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13724,7 +13793,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13732,7 +13801,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13747,7 +13816,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13762,7 +13831,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13777,7 +13846,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13801,7 +13870,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(165);
+var s = __webpack_require__(166);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -13832,7 +13901,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13840,7 +13909,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13864,7 +13933,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13915,7 +13984,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13923,7 +13992,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 169 */
+/* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13932,7 +14001,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(170);
+var s = __webpack_require__(171);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -13965,7 +14034,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 170 */
+/* 171 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13975,7 +14044,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 171 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14019,22 +14088,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 172 */
+/* 173 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 173 */
+/* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 174,
-	"./Feed.js": 175,
-	"./Ingredient.js": 176,
-	"./Method.js": 177,
-	"./Recipe.js": 178,
-	"./TableOfContents.js": 179
+	"./Crumbs.js": 175,
+	"./Feed.js": 176,
+	"./Ingredient.js": 177,
+	"./Method.js": 178,
+	"./Recipe.js": 179,
+	"./TableOfContents.js": 180
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -14050,10 +14119,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 173;
+webpackContext.id = 174;
 
 /***/ }),
-/* 174 */
+/* 175 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14068,7 +14137,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 175 */
+/* 176 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14083,7 +14152,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 176 */
+/* 177 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14098,7 +14167,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 177 */
+/* 178 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14113,7 +14182,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 178 */
+/* 179 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14128,7 +14197,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 179 */
+/* 180 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14143,7 +14212,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 180 */
+/* 181 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14167,7 +14236,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 181 */
+/* 182 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
