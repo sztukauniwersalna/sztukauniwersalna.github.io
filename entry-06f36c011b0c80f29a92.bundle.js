@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_153__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_154__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(168);
+var Feed_1 = __webpack_require__(169);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(170);
+var Recipe_1 = __webpack_require__(171);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(172);
+var Root_1 = __webpack_require__(173);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(154);
+var s = __webpack_require__(155);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(155);
+var s = __webpack_require__(156);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(65),
-UPLOADS: __webpack_require__(148),
-ROOT: __webpack_require__(149),
-LAYOUTS: __webpack_require__(150),
-INCLUDES: __webpack_require__(174)};
+UPLOADS: __webpack_require__(149),
+ROOT: __webpack_require__(150),
+LAYOUTS: __webpack_require__(151),
+INCLUDES: __webpack_require__(175)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(174)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(156);
+var s = __webpack_require__(157);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(160);
+var s = __webpack_require__(161);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(173);
+__webpack_require__(174);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(151);
+var react_disqus_comments_1 = __webpack_require__(152);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(165);
-var s = __webpack_require__(167);
+var FacebookLike_1 = __webpack_require__(166);
+var s = __webpack_require__(168);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(157);
-var s = __webpack_require__(158);
+__webpack_require__(158);
+var s = __webpack_require__(159);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(159);
+var s = __webpack_require__(160);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(162);
+var s = __webpack_require__(163);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(161);
+var s = __webpack_require__(162);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(163);
+var s = __webpack_require__(164);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(164);
+var s = __webpack_require__(165);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(169);
+var s = __webpack_require__(170);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(181);
-var menu_1 = __webpack_require__(182);
+var tags_1 = __webpack_require__(182);
+var menu_1 = __webpack_require__(183);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2885,7 +2885,8 @@ var map = {
 	"./2018-11-15-historia-pewnej-projektantki-czyli-perelka-z-lumpeksu.markdown": 144,
 	"./2018-11-22-wystawa-moda-polska.markdown": 145,
 	"./2018-11-28-moje-wybory-listopad-2018.markdown": 146,
-	"./2018-12-06-fluxus-moodboard.markdown": 147
+	"./2018-12-06-fluxus-moodboard.markdown": 147,
+	"./2018-12-13-o-smierci.markdown": 148
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -13430,15 +13431,72 @@ var raw = exports.raw = "\nFluxus (łac. płynący; ang. to flow) nie był skonk
 
 /***/ }),
 /* 148 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 148;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Dzi\u015B ju\u017C pami\u0119tam tylko Twoje d\u0142onie. Trzyma\u0142am si\u0119 prawej kurczowo, kiedy wydawa\u0142a\u015B z siebie ostatni wydech. To dziwne, \u017Ce w obliczu \u015Bmierci cz\u0142owiek jest jak piskl\u0119, ma\u0142e skurczone, \u0142yse i \u015Blepe. \u015Amier\u0107 przychodzi szybko, nie dr\u0119cz\u0105 ja dylematy, kogo i za ile zabierze do siebie. Mo\u017Cna powiedzie\u0107, \u017Ce \u015Bmier\u0107 jest dyrektorem, kt\xF3ry ju\u017C miesi\u0105c przed zwolnieniem Ciebie z pracy wie, \u017Ce b\u0119dziesz zwolniony. Naznacza Ci\u0119 niewidocznym czerwonym orderem. Nosisz go niedumnie przypi\u0119tym do piersi i mimo \u017Ce przeczuwasz, to nie przyznajesz si\u0119 do przysz\u0142o\u015Bci. Wszyscy dooko\u0142a Ciebie robi\u0105 to samo. O nadchodz\u0105cej \u015Bmierci i pogrzebie si\u0119 nie rozmawia. Tygodnie przed dniem ostatecznym mijaj\u0105 niczym tygodnie sprzed paru lat. Porz\u0105dkujesz szaf\u0119, wychodzisz po pieczywo do sklepu, jedynie m\u0119czy Ci\u0119 to bardziej ni\u017C kiedy\u015B. Kiedy przychodz\u0105 go\u015Bcie udajesz si\u0142\u0119 i u\u015Bmiech, ale w g\u0142\u0119bi czekasz na moment, kiedy wyjd\u0105 z Twojego domu i b\u0119dziesz m\xF3g\u0142 spokojnie po\u0142o\u017Cy\u0107 si\u0119 i odpocz\u0105\u0107. I odpoczywasz. Z dnia na dzie\u0144 coraz d\u0142u\u017Cej. W ko\u0144cu nie masz si\u0142 na nic innego. Najbli\u017Csi odpoczywaj\u0105 razem z Tob\u0105, podaj\u0105c Ci wafelki i sok pomara\u0144czowy. Ciesz\u0105 si\u0119, kiedy widz\u0105, \u017Ce zjadasz przyniesione przez nich jedzeniowe dary. Martwi\u0105 si\u0119, gdy tracisz apetyt i musz\u0105 wyrzuca\u0107 z lod\xF3wki zepsute przysmaki. Z czasem ten apetyt s\u0142abnie coraz bardziej. W ko\u0144cu nic ju\u017C nie jesz, a wod\u0119 popijasz z \u0142y\u017Ceczki. Odczuwasz dziwny stan oderwania od cia\u0142a, kt\xF3re traci na masie, a Ty tracisz nad nim kontrol\u0119. Twoje cia\u0142o kurczy si\u0119, zanikaj\u0105 mi\u0119\u015Bnie, zmienia si\u0119 Tw\xF3j zapach. Niegdy\u015B kojarzony z najdelikatniejszym p\u0142ynem do p\u0142ukania tkanin, teraz wydaje si\u0119 by\u0107 kwa\u015Bny i ostry. Wykszta\u0142cony lekarz powie, \u017Ce to za spraw\u0105 moczu, kt\xF3ry zaczyna wydala\u0107 si\u0119 przez sk\xF3r\u0119. Pachniesz amoniakiem, nie ma dla Ciebie ratunku, \u015Bmier\u0107 stoi za rogiem.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'P\xF3\u017Aniej wszystko dzieje si\u0119 bardzo szybko. Trzy dni przed \u015Bmierci\u0105 nie wstajesz z \u0142\xF3\u017Cka, nie jesz, nie pijesz. M\xF3wisz co\u015B od czasu do czasu, ale Twoje s\u0142owa przerywa atak przed\u015Bmiertnych drgawek. Wygl\u0105da to tak, jakby milion impuls\xF3w elektrycznych przesuwa\u0142o si\u0119 pod powierzchni\u0105 Twojej sk\xF3ry. G\u0142owa tkwi nieruchomo na poduszce, podczas gdy cia\u0142em szarpi\u0105 czarne moce. Straci\u0142e\u015B w\u0142a\u015Bnie kontrol\u0119. Od tego momentu ci\u0119\u017Cko b\u0119dzie Ci wypowiedzie\u0107 pojedyncze s\u0142owo. Zatapiasz si\u0119 w \u015Bwiecie po drugiej stronie. Dob\u0119 przed odej\u015Bciem na Twoim ciele pojawiaj\u0105 si\u0119 fioletowe plamy, co oznacza, \u017Ce powoli ustaje kr\u0105\u017Cenie. Siniej\u0105 paznokcie, oddech staje si\u0119 powolny i ci\u0119\u017Cki. Oczy masz zamkni\u0119te, a Twoi bliscy musz\u0105 domy\u015Bla\u0107 si\u0119, w jakiej pozycji u\u0142o\u017Cy\u0107 Twoje cia\u0142o, aby by\u0142o Ci wygodnie. Zwil\u017Caj\u0105 Twoje suche usta mokr\u0105 \u0142y\u017Ck\u0105 i czekaj\u0105. Czekanie z tego wszystkiego, jest najgorsze. Czeka si\u0119 wiadomo i niewiadomo na co. Je\u015Bli nie do\u015Bwiadczy\u0142e\u015B \u015Bmierci, nie wiesz, czego si\u0119 spodziewa\u0107, nie wiesz, jak to wygl\u0105da. Nie wierz w filmy, na kt\xF3rych umieraj\u0105cy m\xF3wi\u0105 pe\u0142nymi zdaniami tu\u017C przed \u015Bmierci\u0105, na kt\xF3rych \u015Bmier\u0107 wygl\u0105da jak subtelne za\u015Bni\u0119cie. Wszystko, co zobaczy\u0142e\u015B na ekranie nie jest prawd\u0105. Na 5 minut przed \u015Bmierci\u0105 Tw\xF3j oddech staje si\u0119 coraz p\u0142ytszy i rzadszy. I p\u0142ytszy i rzadszy... Oto jest. Wraz z ostatnim wydechem wszystko si\u0119 zatrzymuje. Nie istnieje czas, miejsce, Twoje cia\u0142o. Sk\xF3ra w par\u0119 sekund zmienia kolor na jasno\u017C\xF3\u0142ty. Wygl\u0105dasz teraz troch\u0119 jak figura woskowa. W\u0142oski na Twoim ciele stoj\u0105 d\u0119ba, jakby przed chwil\u0105 ma\u0142a dziewczyna dotkn\u0119\u0142a Ci\u0119 wielkim r\xF3\u017Cowym balonem. Jeste\u015B zimny. Cholernie zimny. S\u0142yszysz p\u0142acz bliskich czuwaj\u0105cych przy \u0142\xF3\u017Cku. S\u0142yszysz i jeste\u015B obecny, ale w inny spos\xF3b. Unosisz si\u0119 teraz przy suficie i obserwujesz ca\u0142\u0105 scen\u0119 z g\xF3ry.'
+    ),
+    _react2.default.createElement(
+      'pre',
+      null,
+      _react2.default.createElement(
+        'code',
+        null,
+        '                                    Jeste\u015B Anio\u0142em.'
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8653728/ello-optimized-bf62aaeb.jpg', alt: 'Zdj\u0119cie przedstawia portret kobiety w szarych kr\u0119conych w\u0142osach. Kobieta ma bia\u0142e pi\xF3ra przyklejone do brwi.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8653736/ello-optimized-2836568b.jpg', alt: 'Obraz przedstawia bia\u0142e pi\xF3ro na jasnoszarym tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/8653738/ello-optimized-27ab8a8b.jpg', alt: 'Zdj\u0119cie przedstawia kobiet\u0119 z szarymi kr\u0119conymi w\u0142osami w artystycznym makija\u017Cu.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8653744/ello-optimized-34b72a03.jpg', alt: 'Zdj\u0119cie przedstawia bia\u0142e pi\xF3ro na szarym tle.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "O śmierci", "date": "2018-12-13T17:54:00.000Z", "categories": ["Sztuka Makijażu"], "tags": ["o śmierci", "anioł", "makijaż", "tekst autorski", "sztuka"] };
+var body = exports.body = "<p>Dziś już pamiętam tylko Twoje dłonie. Trzymałam się prawej kurczowo, kiedy wydawałaś z siebie ostatni wydech. To dziwne, że w obliczu śmierci człowiek jest jak pisklę, małe skurczone, łyse i ślepe. Śmierć przychodzi szybko, nie dręczą ja dylematy, kogo i za ile zabierze do siebie. Można powiedzieć, że śmierć jest dyrektorem, który już miesiąc przed zwolnieniem Ciebie z pracy wie, że będziesz zwolniony. Naznacza Cię niewidocznym czerwonym orderem. Nosisz go niedumnie przypiętym do piersi i mimo że przeczuwasz, to nie przyznajesz się do przyszłości. Wszyscy dookoła Ciebie robią to samo. O nadchodzącej śmierci i pogrzebie się nie rozmawia. Tygodnie przed dniem ostatecznym mijają niczym tygodnie sprzed paru lat. Porządkujesz szafę, wychodzisz po pieczywo do sklepu, jedynie męczy Cię to bardziej niż kiedyś. Kiedy przychodzą goście udajesz siłę i uśmiech, ale w głębi czekasz na moment, kiedy wyjdą z Twojego domu i będziesz mógł spokojnie położyć się i odpocząć. I odpoczywasz. Z dnia na dzień coraz dłużej. W końcu nie masz sił na nic innego. Najbliżsi odpoczywają razem z Tobą, podając Ci wafelki i sok pomarańczowy. Cieszą się, kiedy widzą, że zjadasz przyniesione przez nich jedzeniowe dary. Martwią się, gdy tracisz apetyt i muszą wyrzucać z lodówki zepsute przysmaki. Z czasem ten apetyt słabnie coraz bardziej. W końcu nic już nie jesz, a wodę popijasz z łyżeczki. Odczuwasz dziwny stan oderwania od ciała, które traci na masie, a Ty tracisz nad nim kontrolę. Twoje ciało kurczy się, zanikają mięśnie, zmienia się Twój zapach. Niegdyś kojarzony z najdelikatniejszym płynem do płukania tkanin, teraz wydaje się być kwaśny i ostry. Wykształcony lekarz powie, że to za sprawą moczu, który zaczyna wydalać się przez skórę. Pachniesz amoniakiem, nie ma dla Ciebie ratunku, śmierć stoi za rogiem.</p>\n<p>Później wszystko dzieje się bardzo szybko. Trzy dni przed śmiercią nie wstajesz z łóżka, nie jesz, nie pijesz. Mówisz coś od czasu do czasu, ale Twoje słowa przerywa atak przedśmiertnych drgawek. Wygląda to tak, jakby milion impulsów elektrycznych przesuwało się pod powierzchnią Twojej skóry. Głowa tkwi nieruchomo na poduszce, podczas gdy ciałem szarpią czarne moce. Straciłeś właśnie kontrolę. Od tego momentu ciężko będzie Ci wypowiedzieć pojedyncze słowo. Zatapiasz się w świecie po drugiej stronie. Dobę przed odejściem na Twoim ciele pojawiają się fioletowe plamy, co oznacza, że powoli ustaje krążenie. Sinieją paznokcie, oddech staje się powolny i ciężki. Oczy masz zamknięte, a Twoi bliscy muszą domyślać się, w jakiej pozycji ułożyć Twoje ciało, aby było Ci wygodnie. Zwilżają Twoje suche usta mokrą łyżką i czekają. Czekanie z tego wszystkiego, jest najgorsze. Czeka się wiadomo i niewiadomo na co. Jeśli nie doświadczyłeś śmierci, nie wiesz, czego się spodziewać, nie wiesz, jak to wygląda. Nie wierz w filmy, na których umierający mówią pełnymi zdaniami tuż przed śmiercią, na których śmierć wygląda jak subtelne zaśnięcie. Wszystko, co zobaczyłeś na ekranie nie jest prawdą. Na 5 minut przed śmiercią Twój oddech staje się coraz płytszy i rzadszy. I płytszy i rzadszy... Oto jest. Wraz z ostatnim wydechem wszystko się zatrzymuje. Nie istnieje czas, miejsce, Twoje ciało. Skóra w parę sekund zmienia kolor na jasnożółty. Wyglądasz teraz trochę jak figura woskowa. Włoski na Twoim ciele stoją dęba, jakby przed chwilą mała dziewczyna dotknęła Cię wielkim różowym balonem. Jesteś zimny. Cholernie zimny. Słyszysz płacz bliskich czuwających przy łóżku. Słyszysz i jesteś obecny, ale w inny sposób. Unosisz się teraz przy suficie i obserwujesz całą scenę z góry.</p>\n<pre><code>                                    Jesteś Aniołem. \n</code></pre>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/8653728/ello-optimized-bf62aaeb.jpg\" alt=\"Zdjęcie przedstawia portret kobiety w szarych kręconych włosach. Kobieta ma białe pióra przyklejone do brwi.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/8653736/ello-optimized-2836568b.jpg\" alt=\"Obraz przedstawia białe pióro na jasnoszarym tle.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/8653738/ello-optimized-27ab8a8b.jpg\" alt=\"Zdjęcie przedstawia kobietę z szarymi kręconymi włosami w artystycznym makijażu.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/8653744/ello-optimized-34b72a03.jpg\" alt=\"Zdjęcie przedstawia białe pióro na szarym tle.\" /></p>\n";
+var raw = exports.raw = "\nDziś już pamiętam tylko Twoje dłonie. Trzymałam się prawej kurczowo, kiedy wydawałaś z siebie ostatni wydech. To dziwne, że w obliczu śmierci człowiek jest jak pisklę, małe skurczone, łyse i ślepe. Śmierć przychodzi szybko, nie dręczą ja dylematy, kogo i za ile zabierze do siebie. Można powiedzieć, że śmierć jest dyrektorem, który już miesiąc przed zwolnieniem Ciebie z pracy wie, że będziesz zwolniony. Naznacza Cię niewidocznym czerwonym orderem. Nosisz go niedumnie przypiętym do piersi i mimo że przeczuwasz, to nie przyznajesz się do przyszłości. Wszyscy dookoła Ciebie robią to samo. O nadchodzącej śmierci i pogrzebie się nie rozmawia. Tygodnie przed dniem ostatecznym mijają niczym tygodnie sprzed paru lat. Porządkujesz szafę, wychodzisz po pieczywo do sklepu, jedynie męczy Cię to bardziej niż kiedyś. Kiedy przychodzą goście udajesz siłę i uśmiech, ale w głębi czekasz na moment, kiedy wyjdą z Twojego domu i będziesz mógł spokojnie położyć się i odpocząć. I odpoczywasz. Z dnia na dzień coraz dłużej. W końcu nie masz sił na nic innego. Najbliżsi odpoczywają razem z Tobą, podając Ci wafelki i sok pomarańczowy. Cieszą się, kiedy widzą, że zjadasz przyniesione przez nich jedzeniowe dary. Martwią się, gdy tracisz apetyt i muszą wyrzucać z lodówki zepsute przysmaki. Z czasem ten apetyt słabnie coraz bardziej. W końcu nic już nie jesz, a wodę popijasz z łyżeczki. Odczuwasz dziwny stan oderwania od ciała, które traci na masie, a Ty tracisz nad nim kontrolę. Twoje ciało kurczy się, zanikają mięśnie, zmienia się Twój zapach. Niegdyś kojarzony z najdelikatniejszym płynem do płukania tkanin, teraz wydaje się być kwaśny i ostry. Wykształcony lekarz powie, że to za sprawą moczu, który zaczyna wydalać się przez skórę. Pachniesz amoniakiem, nie ma dla Ciebie ratunku, śmierć stoi za rogiem. \n\n\n\nPóźniej wszystko dzieje się bardzo szybko. Trzy dni przed śmiercią nie wstajesz z łóżka, nie jesz, nie pijesz. Mówisz coś od czasu do czasu, ale Twoje słowa przerywa atak przedśmiertnych drgawek. Wygląda to tak, jakby milion impulsów elektrycznych przesuwało się pod powierzchnią Twojej skóry. Głowa tkwi nieruchomo na poduszce, podczas gdy ciałem szarpią czarne moce. Straciłeś właśnie kontrolę. Od tego momentu ciężko będzie Ci wypowiedzieć pojedyncze słowo. Zatapiasz się w świecie po drugiej stronie. Dobę przed odejściem na Twoim ciele pojawiają się fioletowe plamy, co oznacza, że powoli ustaje krążenie. Sinieją paznokcie, oddech staje się powolny i ciężki. Oczy masz zamknięte, a Twoi bliscy muszą domyślać się, w jakiej pozycji ułożyć Twoje ciało, aby było Ci wygodnie. Zwilżają Twoje suche usta mokrą łyżką i czekają. Czekanie z tego wszystkiego, jest najgorsze. Czeka się wiadomo i niewiadomo na co. Jeśli nie doświadczyłeś śmierci, nie wiesz, czego się spodziewać, nie wiesz, jak to wygląda. Nie wierz w filmy, na których umierający mówią pełnymi zdaniami tuż przed śmiercią, na których śmierć wygląda jak subtelne zaśnięcie. Wszystko, co zobaczyłeś na ekranie nie jest prawdą. Na 5 minut przed śmiercią Twój oddech staje się coraz płytszy i rzadszy. I płytszy i rzadszy… Oto jest. Wraz z ostatnim wydechem wszystko się zatrzymuje. Nie istnieje czas, miejsce, Twoje ciało. Skóra w parę sekund zmienia kolor na jasnożółty. Wyglądasz teraz trochę jak figura woskowa. Włoski na Twoim ciele stoją dęba, jakby przed chwilą mała dziewczyna dotknęła Cię wielkim różowym balonem. Jesteś zimny. Cholernie zimny. Słyszysz płacz bliskich czuwających przy łóżku. Słyszysz i jesteś obecny, ale w inny sposób. Unosisz się teraz przy suficie i obserwujesz całą scenę z góry. \n\n\n\n                                        Jesteś Aniołem. \n\n\n\n\n![Zdjęcie przedstawia portret kobiety w szarych kręconych włosach. Kobieta ma białe pióra przyklejone do brwi.](https://assets1.ello.co/uploads/asset/attachment/8653728/ello-optimized-bf62aaeb.jpg)\n![Obraz przedstawia białe pióro na jasnoszarym tle.](https://assets1.ello.co/uploads/asset/attachment/8653736/ello-optimized-2836568b.jpg)\n![Zdjęcie przedstawia kobietę z szarymi kręconymi włosami w artystycznym makijażu.](https://assets0.ello.co/uploads/asset/attachment/8653738/ello-optimized-27ab8a8b.jpg)\n![Zdjęcie przedstawia białe pióro na szarym tle.](https://assets1.ello.co/uploads/asset/attachment/8653744/ello-optimized-34b72a03.jpg)";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 149 */
@@ -13454,6 +13512,18 @@ webpackEmptyContext.id = 149;
 
 /***/ }),
 /* 150 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 150;
+
+/***/ }),
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -13474,19 +13544,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 150;
+webpackContext.id = 151;
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(152);
+module.exports = __webpack_require__(153);
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13504,7 +13574,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(153);
+var _propTypes = __webpack_require__(154);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -13708,13 +13778,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_153__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_154__;
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13728,7 +13798,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13736,7 +13806,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13749,7 +13819,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13783,7 +13853,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13796,7 +13866,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13805,7 +13875,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13813,7 +13883,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13821,7 +13891,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13836,7 +13906,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13851,7 +13921,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13866,7 +13936,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13890,7 +13960,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(166);
+var s = __webpack_require__(167);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -13921,7 +13991,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13929,7 +13999,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13953,7 +14023,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14004,7 +14074,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 169 */
+/* 170 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14012,7 +14082,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 170 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14021,7 +14091,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(171);
+var s = __webpack_require__(172);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -14054,7 +14124,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 171 */
+/* 172 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14064,7 +14134,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 172 */
+/* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14108,22 +14178,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 173 */
+/* 174 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 174 */
+/* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 175,
-	"./Feed.js": 176,
-	"./Ingredient.js": 177,
-	"./Method.js": 178,
-	"./Recipe.js": 179,
-	"./TableOfContents.js": 180
+	"./Crumbs.js": 176,
+	"./Feed.js": 177,
+	"./Ingredient.js": 178,
+	"./Method.js": 179,
+	"./Recipe.js": 180,
+	"./TableOfContents.js": 181
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -14139,10 +14209,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 174;
+webpackContext.id = 175;
 
 /***/ }),
-/* 175 */
+/* 176 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14157,7 +14227,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 176 */
+/* 177 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14172,7 +14242,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 177 */
+/* 178 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14187,7 +14257,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 178 */
+/* 179 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14202,7 +14272,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 179 */
+/* 180 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14217,7 +14287,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 180 */
+/* 181 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14232,7 +14302,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 181 */
+/* 182 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14256,7 +14326,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 182 */
+/* 183 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
