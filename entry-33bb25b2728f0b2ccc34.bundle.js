@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_154__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_155__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(169);
+var Feed_1 = __webpack_require__(170);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(171);
+var Recipe_1 = __webpack_require__(172);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(173);
+var Root_1 = __webpack_require__(174);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(155);
+var s = __webpack_require__(156);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(156);
+var s = __webpack_require__(157);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(65),
-UPLOADS: __webpack_require__(149),
-ROOT: __webpack_require__(150),
-LAYOUTS: __webpack_require__(151),
-INCLUDES: __webpack_require__(175)};
+UPLOADS: __webpack_require__(150),
+ROOT: __webpack_require__(151),
+LAYOUTS: __webpack_require__(152),
+INCLUDES: __webpack_require__(176)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(175)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(157);
+var s = __webpack_require__(158);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(161);
+var s = __webpack_require__(162);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(174);
+__webpack_require__(175);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(152);
+var react_disqus_comments_1 = __webpack_require__(153);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(166);
-var s = __webpack_require__(168);
+var FacebookLike_1 = __webpack_require__(167);
+var s = __webpack_require__(169);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(158);
-var s = __webpack_require__(159);
+__webpack_require__(159);
+var s = __webpack_require__(160);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(160);
+var s = __webpack_require__(161);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(163);
+var s = __webpack_require__(164);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(162);
+var s = __webpack_require__(163);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(164);
+var s = __webpack_require__(165);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(165);
+var s = __webpack_require__(166);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(170);
+var s = __webpack_require__(171);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(182);
-var menu_1 = __webpack_require__(183);
+var tags_1 = __webpack_require__(183);
+var menu_1 = __webpack_require__(184);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2886,7 +2886,8 @@ var map = {
 	"./2018-11-22-wystawa-moda-polska.markdown": 145,
 	"./2018-11-28-moje-wybory-listopad-2018.markdown": 146,
 	"./2018-12-06-fluxus-moodboard.markdown": 147,
-	"./2018-12-13-o-smierci.markdown": 148
+	"./2018-12-13-o-smierci.markdown": 148,
+	"./2018-12-28-stop-2018-start-2019.markdown": 149
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -13500,15 +13501,61 @@ var raw = exports.raw = "\nDziś już pamiętam tylko Twoje dłonie. Trzymałam 
 
 /***/ }),
 /* 149 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 149;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'STOP'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Zatrzymaj si\u0119 na chwil\u0119. Stop. Usi\u0105d\u017A wygodnie. Stop. Oddychaj. Stop. Wdech, wydech, wdech, wydech. Spokojnie przymknij powieki i spr\xF3buj us\u0142ysze\u0107 krew. Twoja krew kr\u0105\u017Cy w naczyniach nieustannie. Dzie\u0144 po dniu czerwony kr\u0105\u017Cek przebiega maraton po trasie Twojego cia\u0142a. Us\u0142ysz jego tempo. S\u0142uchanie wymaga skupienia. Na pocz\u0105tku wydasz si\u0119 sobie szumem. Postaraj si\u0119 nie zatrzymywa\u0107 my\u015Bli. Je\u015Bli takie si\u0119 pojawiaj\u0105 przepu\u015B\u0107 je dalej swobodnie, nie zatrzymuj si\u0119 na \u017Cadnym wspomnieniu. Z czasem szum wyda Ci si\u0119 coraz g\u0142o\u015Bniejszy. Teraz we\u017A g\u0142\u0119boki wdech i przekieruj powietrze w konkretne miejsce w Twoim ciele. Niech to b\u0119dzie miejsce, kt\xF3re odczuwasz na co dzie\u0144. Bol\u0105cy prawy nadgarstek, czy plecy. Wraz z wydechem poczujesz to miejsce dok\u0142adniej. Mi\u0119\u015Bnie Twojego cia\u0142a powoli rozlu\u017Ani\u0105 si\u0119, a do oczu zawita senno\u015B\u0107. Delikatne mrowienie w prawym palcu u stopy przypomni Ci o cielesno\u015Bci. Teraz powoli otw\xF3rz oczy i sp\xF3jrz dooko\u0142a. Poznaj otoczenie na nowo. U\u015Bmiechnij si\u0119 do starej szafy, zauwa\u017C okruszki chleba na stoliku. Powtarzaj codziennie, a\u017C zastaniesz spok\xF3j.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/8755970/ello-optimized-8b15b88b.jpg', alt: 'Fotografia przedstawia portret kobiety z zamkni\u0119tymi oczami na szarym tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/8755971/ello-optimized-55c3b4be.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia kobiety w r\xF3\u017Cowej bluzce na szarym tle. Zdj\u0119cie z prawej strony obr\xF3cone jest do g\xF3ry nogami.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "STOP 2018 START 2019", "date": "2018-12-28T14:24:00.000Z", "categories": ["Sztuka Ubioru", "Sztuka Makijażu"], "tags": ["stop", "start", "nowy rok", "2019"] };
+var body = exports.body = "<h2>STOP</h2>\n<p>Zatrzymaj się na chwilę. Stop. Usiądź wygodnie. Stop. Oddychaj. Stop. Wdech, wydech, wdech, wydech. Spokojnie przymknij powieki i spróbuj usłyszeć krew. Twoja krew krąży w naczyniach nieustannie. Dzień po dniu czerwony krążek przebiega maraton po trasie Twojego ciała. Usłysz jego tempo. Słuchanie wymaga skupienia. Na początku wydasz się sobie szumem. Postaraj się nie zatrzymywać myśli. Jeśli takie się pojawiają przepuść je dalej swobodnie, nie zatrzymuj się na żadnym wspomnieniu. Z czasem szum wyda Ci się coraz głośniejszy. Teraz weź głęboki wdech i przekieruj powietrze w konkretne miejsce w Twoim ciele. Niech to będzie miejsce, które odczuwasz na co dzień. Bolący prawy nadgarstek, czy plecy. Wraz z wydechem poczujesz to miejsce dokładniej. Mięśnie Twojego ciała powoli rozluźnią się, a do oczu zawita senność. Delikatne mrowienie w prawym palcu u stopy przypomni Ci o cielesności. Teraz powoli otwórz oczy i spójrz dookoła. Poznaj otoczenie na nowo. Uśmiechnij się do starej szafy, zauważ okruszki chleba na stoliku. Powtarzaj codziennie, aż zastaniesz spokój.</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/8755970/ello-optimized-8b15b88b.jpg\" alt=\"Fotografia przedstawia portret kobiety z zamkniętymi oczami na szarym tle.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/8755971/ello-optimized-55c3b4be.jpg\" alt=\"Obraz przedstawia dwa zdjęcia kobiety w różowej bluzce na szarym tle. Zdjęcie z prawej strony obrócone jest do góry nogami.\" /></p>\n";
+var raw = exports.raw = "\n## STOP\n\n\nZatrzymaj się na chwilę. Stop. Usiądź wygodnie. Stop. Oddychaj. Stop. Wdech, wydech, wdech, wydech. Spokojnie przymknij powieki i spróbuj usłyszeć krew. Twoja krew krąży w naczyniach nieustannie. Dzień po dniu czerwony krążek przebiega maraton po trasie Twojego ciała. Usłysz jego tempo. Słuchanie wymaga skupienia. Na początku wydasz się sobie szumem. Postaraj się nie zatrzymywać myśli. Jeśli takie się pojawiają przepuść je dalej swobodnie, nie zatrzymuj się na żadnym wspomnieniu. Z czasem szum wyda Ci się coraz głośniejszy. Teraz weź głęboki wdech i przekieruj powietrze w konkretne miejsce w Twoim ciele. Niech to będzie miejsce, które odczuwasz na co dzień. Bolący prawy nadgarstek, czy plecy. Wraz z wydechem poczujesz to miejsce dokładniej. Mięśnie Twojego ciała powoli rozluźnią się, a do oczu zawita senność. Delikatne mrowienie w prawym palcu u stopy przypomni Ci o cielesności. Teraz powoli otwórz oczy i spójrz dookoła. Poznaj otoczenie na nowo. Uśmiechnij się do starej szafy, zauważ okruszki chleba na stoliku. Powtarzaj codziennie, aż zastaniesz spokój. \n\n\n![Fotografia przedstawia portret kobiety z zamkniętymi oczami na szarym tle.](https://assets2.ello.co/uploads/asset/attachment/8755970/ello-optimized-8b15b88b.jpg)\n![Obraz przedstawia dwa zdjęcia kobiety w różowej bluzce na szarym tle. Zdjęcie z prawej strony obrócone jest do góry nogami.](https://assets2.ello.co/uploads/asset/attachment/8755971/ello-optimized-55c3b4be.jpg)";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 150 */
@@ -13524,6 +13571,18 @@ webpackEmptyContext.id = 150;
 
 /***/ }),
 /* 151 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 151;
+
+/***/ }),
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -13544,19 +13603,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 151;
+webpackContext.id = 152;
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(153);
+module.exports = __webpack_require__(154);
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13574,7 +13633,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(154);
+var _propTypes = __webpack_require__(155);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -13778,13 +13837,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_154__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_155__;
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13798,7 +13857,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13806,7 +13865,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13819,7 +13878,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13853,7 +13912,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13866,7 +13925,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13875,7 +13934,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13883,7 +13942,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13891,7 +13950,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13906,7 +13965,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13921,7 +13980,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13936,7 +13995,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13960,7 +14019,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(167);
+var s = __webpack_require__(168);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -13991,7 +14050,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13999,7 +14058,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14023,7 +14082,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 169 */
+/* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14074,7 +14133,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 170 */
+/* 171 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14082,7 +14141,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 171 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14091,7 +14150,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(172);
+var s = __webpack_require__(173);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -14124,7 +14183,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 172 */
+/* 173 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14134,7 +14193,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 173 */
+/* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14178,22 +14237,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 174 */
+/* 175 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 175 */
+/* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 176,
-	"./Feed.js": 177,
-	"./Ingredient.js": 178,
-	"./Method.js": 179,
-	"./Recipe.js": 180,
-	"./TableOfContents.js": 181
+	"./Crumbs.js": 177,
+	"./Feed.js": 178,
+	"./Ingredient.js": 179,
+	"./Method.js": 180,
+	"./Recipe.js": 181,
+	"./TableOfContents.js": 182
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -14209,10 +14268,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 175;
+webpackContext.id = 176;
 
 /***/ }),
-/* 176 */
+/* 177 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14227,7 +14286,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 177 */
+/* 178 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14242,7 +14301,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 178 */
+/* 179 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14257,7 +14316,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 179 */
+/* 180 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14272,7 +14331,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 180 */
+/* 181 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14287,7 +14346,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 181 */
+/* 182 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14302,7 +14361,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 182 */
+/* 183 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14326,7 +14385,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 183 */
+/* 184 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
