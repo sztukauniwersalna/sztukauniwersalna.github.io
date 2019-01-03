@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_155__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_156__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(170);
+var Feed_1 = __webpack_require__(171);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(172);
+var Recipe_1 = __webpack_require__(173);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(174);
+var Root_1 = __webpack_require__(175);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(156);
+var s = __webpack_require__(157);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(157);
+var s = __webpack_require__(158);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(65),
-UPLOADS: __webpack_require__(150),
-ROOT: __webpack_require__(151),
-LAYOUTS: __webpack_require__(152),
-INCLUDES: __webpack_require__(176)};
+UPLOADS: __webpack_require__(151),
+ROOT: __webpack_require__(152),
+LAYOUTS: __webpack_require__(153),
+INCLUDES: __webpack_require__(177)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(176)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(158);
+var s = __webpack_require__(159);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(162);
+var s = __webpack_require__(163);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(175);
+__webpack_require__(176);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(153);
+var react_disqus_comments_1 = __webpack_require__(154);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(167);
-var s = __webpack_require__(169);
+var FacebookLike_1 = __webpack_require__(168);
+var s = __webpack_require__(170);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(159);
-var s = __webpack_require__(160);
+__webpack_require__(160);
+var s = __webpack_require__(161);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(161);
+var s = __webpack_require__(162);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(164);
+var s = __webpack_require__(165);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(163);
+var s = __webpack_require__(164);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(165);
+var s = __webpack_require__(166);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(166);
+var s = __webpack_require__(167);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(171);
+var s = __webpack_require__(172);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(183);
-var menu_1 = __webpack_require__(184);
+var tags_1 = __webpack_require__(184);
+var menu_1 = __webpack_require__(185);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2887,7 +2887,8 @@ var map = {
 	"./2018-11-28-moje-wybory-listopad-2018.markdown": 146,
 	"./2018-12-06-fluxus-moodboard.markdown": 147,
 	"./2018-12-13-o-smierci.markdown": 148,
-	"./2018-12-28-stop-2018-start-2019.markdown": 149
+	"./2018-12-28-stop-2018-start-2019.markdown": 149,
+	"./2019-01-03-moje-wybory-grudzien-2018.markdown": 150
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -13607,15 +13608,176 @@ var raw = exports.raw = "\n## STOP\n\n\nZatrzymaj się na chwilę. Stop. Usiąd�
 
 /***/ }),
 /* 150 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 150;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Grudzie\u0144 jest miesi\u0105cem pe\u0142nym skrajno\u015Bci. W panicznie rozp\u0119dzonym poszukiwaniu prezent\xF3w zaczynamy robi\u0107 roczny rachunek sumienia. Zwalniamy troch\u0119 planuj\u0105c cele na przysz\u0142e 365 dni po to, aby za moment zn\xF3w przyspieszy\u0107 na zakr\u0119cie zbli\u017Caj\u0105cej si\u0119 zabawy sylwestrowej. Sukienka musi by\u0107 \u015Bwiec\u0105ca, a rz\u0119sy d\u0142ugie i g\u0119ste. Nasza sk\xF3ra nara\u017Cona na stresy zimowego czasu czerwieni si\u0119 i traci blask. Na ratunek przychodz\u0105 maseczki, sera i bazy. Te z zielonym pigmentem ukryj\u0105 niechciane naczynka, a te z drobinkami dodadz\u0105 naszej cerze blasku. W ko\u0144cu b\u0142yszcze\u0107 chcemy nie tylko jednej nocy. S\u0142odki pudrowy r\xF3\u017C jest kolorem grudnia. Za\u0142\xF3\u017Cmy go na siebie, r\xF3wnie\u017C na policzki. Kolejny dobry rok za nami.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8791999/ello-optimized-5a4bab76.jpg', alt: 'Obraz przedstawia kilka fotografii po\u0142\u0105czonych ze sob\u0105. Na zdj\u0119ciach widzimy czerwony notes, przedmioty na bia\u0142ym tle.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Kalendarz'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Ten, kto cho\u0107 raz spr\xF3bowa\u0142 planowania ten wie, jak bardzo jest ono pomocne. Organizacja czasu pozwala na zrobienie wi\u0119kszej ilo\u015Bci rzeczy. Zapisanie daty um\xF3wionego spotkania zmniejsza prawdopodobie\u0144stwo, \u017Ce o nim zapomnimy, w szczeg\xF3lno\u015Bci je\u015Bli spotka\u0144 w tygodniu mamy wi\u0119cej ni\u017C jego dni. Uwielbiam kalendarze w formie papierowej, a kalendarz na rok 2019 by Radzka jest szczeg\xF3lny. Modowa youtuberka w tym roku postanowi\u0142a wyda\u0107 swoje ma\u0142e dzie\u0142o w formie kalendarza, notatnika, modowego poradnika pe\u0142nego ciekawostek. Czerwon\u0105 ksi\u0119g\u0119 zdobi\u0105 rysunki ilustratorki Eleny Ciupriny, a do ka\u017Cdego miesi\u0105ca przypisany zosta\u0142 inny kolor, kt\xF3rego symbolik\u0119 znajdziemy w kr\xF3tkich opisach. Wspaniale, \u017Ce na jeden dzie\u0144 roku przypada jedna strona \u2013 dzi\u0119ki temu kalendarz pos\u0142u\u017Cy nam jako notatnik-pami\u0119nik. Zapisujmy, przekre\u015Blajmy, rysujmy, planujmy w imi\u0119 modowej dyscypliny.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/8792019/ello-optimized-4cf010a1.jpg', alt: 'Obraz przedstawia zdj\u0119cie czerwonego notesu, na kt\xF3rego ok\u0142adce widnieje ilustracja.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Kosmetyk: piel\u0119gnacja'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Hybrydowe kosmetyki s\u0105 po\u0142\u0105czeniem piel\u0119gnacji i makija\u017Cu. Dla przyk\u0142adu \u2013 podk\u0142ad o w\u0142a\u015Bciwo\u015Bciach serum doskonale ujednolica karnacje jednocze\u015Bnie dbaj\u0105c o sk\xF3r\u0119. Mark\u0119 Algenist odkry\u0142am dzi\u0119ki ',
+      _react2.default.createElement(
+        'a',
+        { href: 'https://www.youtube.com/channel/UChuPB8l5Pa3-WV6Eg7o_RbQ' },
+        'Magdzie'
+      ),
+      '. Ich kosmetyki charakteryzuje innowacyjne wykorzystanie przeciwstarzeniowych w\u0142a\u015Bciwo\u015Bci alg. Sk\u0142ady wolne od paraben\xF3w, silikon\xF3w idealnie poprawiaj\u0105 kondycj\u0119 cery (nie tylko dojrza\u0142ej). Algenist Reveal Concentrated Color Correcting Drops kryj\u0105 w sobie si\u0142\u0119 piel\u0119gnacji po\u0142\u0105czon\u0105 z korekcj\u0105 czerwonego zabarwienia sk\xF3ry. Stosuj\u0119 par\u0119 kropel pod podk\u0142ad w miejscach, gdzie naczynka s\u0105 najbardziej widoczne. Z kolei Reveal Concentrated Luminizing Drops wklepuj\u0119 w partie, kt\xF3rym nale\u017Cy si\u0119 odrobina blasku (Szczyty ko\u015Bci jarzmowych, skronie, \u015Brodek nosa, broda, czo\u0142o). Tak przygotowana cera idealnie wsp\xF3\u0142gra z podk\u0142adem i pozostaje nawil\u017Cona na d\u0142ugo.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/8792011/ello-optimized-0d0826d0.jpg', alt: 'Obraz przedstawia zdj\u0119cie dw\xF3ch kosmetyk\xF3w le\u017C\u0105cych obok czerwonej ksi\u0105\u017Cki i kawa\u0142ka choinkowej ga\u0142\u0105zki.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Kosmetyk: kolor\xF3wka 1'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Nowo\u015B\u0107 od Nars - tusz Climax. Maskara, kt\xF3ra robi\u0107 ma wszystko \u2013 wyd\u0142u\u017Ca\u0107, pogrubia\u0107, zag\u0119szcza\u0107 i idealnie rozczesywa\u0107 nasze rz\u0119sy. Innowacyjne rozwi\u0105zanie w postaci silikonowej szczoteczki, kt\xF3ra swoim kszta\u0142tem imituje szczoteczk\u0119 z w\u0142osia. Ka\u017Cde rz\u0119sy lubi\u0105 si\u0119 z inn\u0105 szczotk\u0105, moje bardzo polubi\u0142y si\u0119 z t\u0105. Tusz faktycznie idealnie rozczesuje, nie skleja, nie robi efektu \u2018paj\u0119czych \u0142apek\u2019. Dla maksymalnego pogrubienia polecam nak\u0142ada\u0107 kilka warstw. Dodatkowo ciekawe czerwone opakowanie wyr\xF3\u017Cnia si\u0119 swoim niebanalnym dizajnem.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/8792022/ello-optimized-ed02750a.jpg', alt: 'Obraz przedstawia tusz do rz\u0119s w czerwonym opakowaniu le\u017C\u0105cy na bia\u0142ym tle obok czerwonego notesu i choinkowej ga\u0142\u0119zi.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Kosmetyk: kolor\xF3wka 2'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Orgasm - najbardziej kultowy odcie\u0144 r\xF3\u017Cu zamkni\u0119ty w szklanej buteleczce. Na\u0142o\u017Cony na policzki za pomoc\u0105 lu\u017Anego p\u0119dzla daje efekt zdrowego, dziewcz\u0119cego rumie\u0144ca. R\xF3\u017Ce to jedne z moich ulubionych kosmetyk\xF3w, odm\u0142adzaj\u0105 i s\u0105 niezwykle wielofunkcyjne \u2013 mo\u017Cna pomalowa\u0107 nimi oczy, usta, wykonturowa\u0107 twarz. Warto mie\u0107 w swojej kosmetyczne kilka odcieni r\xF3\u017Cu i stosowa\u0107 je dopasowuj\u0105c do ca\u0142ego makija\u017Cu. Ten z Nars sprawdza si\u0119 idealnie po\u0142o\u017Cony na podk\u0142ad (je\u015Bli nie chcemy u\u017Cywa\u0107 pudru) lub bezpo\u015Brednio na zapudrowan\u0105 twarz. Dzi\u0119ki milionom drobinek twarz nabiera blasku i subtelno\u015Bci. Pami\u0119tajcie, aby nie przesadzi\u0107, wystarczy ma\u0142a kropelka roztarta p\u0119dzlem na wierzchu d\u0142oni.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8792006/ello-optimized-85da8aae.jpg', alt: 'Zdj\u0119cie przedstawia buteleczk\u0119 z kosmetykiem le\u017C\u0105c\u0105 na bia\u0142ym pod\u0142o\u017Cu obok czerwonej ksi\u0105\u017Cki.' })
+    ),
+    _react2.default.createElement('hr', null),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Shop My Choices'
+    ),
+    _react2.default.createElement(
+      'ul',
+      null,
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: 'https://editio.pl/ksiazki/kalendarz-2019-magdalena-kanoniak,ka2019.htm#format/d' },
+          'Kalendarz by Radzka'
+        )
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: 'https://www.lookfantastic.pl/algenist-reveal-concentrated-colour-correcting-drops-15ml-various-shades/11426219.html' },
+          'Algenist Reveal Concentrated Color Correcting Drops'
+        )
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: 'https://www.lookfantastic.pl/algenist-reveal-concentrated-luminizing-drops-15ml-various-shades/11426215.html' },
+          'Algenist Reveal Concentrated Luminizing Drops'
+        )
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: 'http://www.sephora.pl/Makijaz/Oczy/Tusze-do-rzes/Climax-Mascara-Maskara-Zwiekszajaca-Objetosc-Rzes/P3425004' },
+          'Nars Climax Mascara'
+        )
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        _react2.default.createElement(
+          'a',
+          { href: 'http://www.sephora.pl/Makijaz/Cera/Roze-do-policzkow/Liquid-Blush-Plynny-roz/P2959011' },
+          'Nars Orgasm Liquid Blush'
+        )
+      )
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Moje wybory: grudzień 2018", "date": "2019-01-03T13:58:00.000Z", "categories": ["Sztuka Makijażu"], "tags": ["moje wybory", "my choices", "kalendarz", "radzka", "kosmetyk", "pielęgnacja", "kolorówka", "nars", "algenist"] };
+var body = exports.body = "<p>Grudzień jest miesiącem pełnym skrajności. W panicznie rozpędzonym poszukiwaniu prezentów zaczynamy robić roczny rachunek sumienia. Zwalniamy trochę planując cele na przyszłe 365 dni po to, aby za moment znów przyspieszyć na zakręcie zbliżającej się zabawy sylwestrowej. Sukienka musi być świecąca, a rzęsy długie i gęste. Nasza skóra narażona na stresy zimowego czasu czerwieni się i traci blask. Na ratunek przychodzą maseczki, sera i bazy. Te z zielonym pigmentem ukryją niechciane naczynka, a te z drobinkami dodadzą naszej cerze blasku. W końcu błyszczeć chcemy nie tylko jednej nocy. Słodki pudrowy róż jest kolorem grudnia. Załóżmy go na siebie, również na policzki. Kolejny dobry rok za nami.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/8791999/ello-optimized-5a4bab76.jpg\" alt=\"Obraz przedstawia kilka fotografii połączonych ze sobą. Na zdjęciach widzimy czerwony notes, przedmioty na białym tle.\" /></p>\n<h2>Kalendarz</h2>\n<p>Ten, kto choć raz spróbował planowania ten wie, jak bardzo jest ono pomocne. Organizacja czasu pozwala na zrobienie większej ilości rzeczy. Zapisanie daty umówionego spotkania zmniejsza prawdopodobieństwo, że o nim zapomnimy, w szczególności jeśli spotkań w tygodniu mamy więcej niż jego dni. Uwielbiam kalendarze w formie papierowej, a kalendarz na rok 2019 by Radzka jest szczególny. Modowa youtuberka w tym roku postanowiła wydać swoje małe dzieło w formie kalendarza, notatnika, modowego poradnika pełnego ciekawostek. Czerwoną księgę zdobią rysunki ilustratorki Eleny Ciupriny, a do każdego miesiąca przypisany został inny kolor, którego symbolikę znajdziemy w krótkich opisach. Wspaniale, że na jeden dzień roku przypada jedna strona – dzięki temu kalendarz posłuży nam jako notatnik-pamięnik. Zapisujmy, przekreślajmy, rysujmy, planujmy w imię modowej dyscypliny.</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/8792019/ello-optimized-4cf010a1.jpg\" alt=\"Obraz przedstawia zdjęcie czerwonego notesu, na którego okładce widnieje ilustracja.\" /></p>\n<h2>Kosmetyk: pielęgnacja</h2>\n<p>Hybrydowe kosmetyki są połączeniem pielęgnacji i makijażu. Dla przykładu – podkład o właściwościach serum doskonale ujednolica karnacje jednocześnie dbając o skórę. Markę Algenist odkryłam dzięki <a href=\"https://www.youtube.com/channel/UChuPB8l5Pa3-WV6Eg7o_RbQ\">Magdzie</a>. Ich kosmetyki charakteryzuje innowacyjne wykorzystanie przeciwstarzeniowych właściwości alg. Składy wolne od parabenów, silikonów idealnie poprawiają kondycję cery (nie tylko dojrzałej). Algenist Reveal Concentrated Color Correcting Drops kryją w sobie siłę pielęgnacji połączoną z korekcją czerwonego zabarwienia skóry. Stosuję parę kropel pod podkład w miejscach, gdzie naczynka są najbardziej widoczne. Z kolei Reveal Concentrated Luminizing Drops wklepuję w partie, którym należy się odrobina blasku (Szczyty kości jarzmowych, skronie, środek nosa, broda, czoło). Tak przygotowana cera idealnie współgra z podkładem i pozostaje nawilżona na długo.</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/8792011/ello-optimized-0d0826d0.jpg\" alt=\"Obraz przedstawia zdjęcie dwóch kosmetyków leżących obok czerwonej książki i kawałka choinkowej gałązki.\" /></p>\n<h2>Kosmetyk: kolorówka 1</h2>\n<p>Nowość od Nars - tusz Climax. Maskara, która robić ma wszystko – wydłużać, pogrubiać, zagęszczać i idealnie rozczesywać nasze rzęsy. Innowacyjne rozwiązanie w postaci silikonowej szczoteczki, która swoim kształtem imituje szczoteczkę z włosia. Każde rzęsy lubią się z inną szczotką, moje bardzo polubiły się z tą. Tusz faktycznie idealnie rozczesuje, nie skleja, nie robi efektu ‘pajęczych łapek’. Dla maksymalnego pogrubienia polecam nakładać kilka warstw. Dodatkowo ciekawe czerwone opakowanie wyróżnia się swoim niebanalnym dizajnem.</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/8792022/ello-optimized-ed02750a.jpg\" alt=\"Obraz przedstawia tusz do rzęs w czerwonym opakowaniu leżący na białym tle obok czerwonego notesu i choinkowej gałęzi.\" /></p>\n<h2>Kosmetyk: kolorówka 2</h2>\n<p>Orgasm - najbardziej kultowy odcień różu zamknięty w szklanej buteleczce. Nałożony na policzki za pomocą luźnego pędzla daje efekt zdrowego, dziewczęcego rumieńca. Róże to jedne z moich ulubionych kosmetyków, odmładzają i są niezwykle wielofunkcyjne – można pomalować nimi oczy, usta, wykonturować twarz. Warto mieć w swojej kosmetyczne kilka odcieni różu i stosować je dopasowując do całego makijażu. Ten z Nars sprawdza się idealnie położony na podkład (jeśli nie chcemy używać pudru) lub bezpośrednio na zapudrowaną twarz. Dzięki milionom drobinek twarz nabiera blasku i subtelności. Pamiętajcie, aby nie przesadzić, wystarczy mała kropelka roztarta pędzlem na wierzchu dłoni.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/8792006/ello-optimized-85da8aae.jpg\" alt=\"Zdjęcie przedstawia buteleczkę z kosmetykiem leżącą na białym podłożu obok czerwonej książki.\" /></p>\n<hr />\n<p>Shop My Choices</p>\n<ul>\n<li><a href=\"https://editio.pl/ksiazki/kalendarz-2019-magdalena-kanoniak,ka2019.htm#format/d\">Kalendarz by Radzka</a></li>\n<li><a href=\"https://www.lookfantastic.pl/algenist-reveal-concentrated-colour-correcting-drops-15ml-various-shades/11426219.html\">Algenist Reveal Concentrated Color Correcting Drops</a></li>\n<li><a href=\"https://www.lookfantastic.pl/algenist-reveal-concentrated-luminizing-drops-15ml-various-shades/11426215.html\">Algenist Reveal Concentrated Luminizing Drops</a></li>\n<li><a href=\"http://www.sephora.pl/Makijaz/Oczy/Tusze-do-rzes/Climax-Mascara-Maskara-Zwiekszajaca-Objetosc-Rzes/P3425004\">Nars Climax Mascara</a></li>\n<li><a href=\"http://www.sephora.pl/Makijaz/Cera/Roze-do-policzkow/Liquid-Blush-Plynny-roz/P2959011\">Nars Orgasm Liquid Blush</a></li>\n</ul>\n";
+var raw = exports.raw = "\nGrudzień jest miesiącem pełnym skrajności. W panicznie rozpędzonym poszukiwaniu prezentów zaczynamy robić roczny rachunek sumienia. Zwalniamy trochę planując cele na przyszłe 365 dni po to, aby za moment znów przyspieszyć na zakręcie zbliżającej się zabawy sylwestrowej. Sukienka musi być świecąca, a rzęsy długie i gęste. Nasza skóra narażona na stresy zimowego czasu czerwieni się i traci blask. Na ratunek przychodzą maseczki, sera i bazy. Te z zielonym pigmentem ukryją niechciane naczynka, a te z drobinkami dodadzą naszej cerze blasku. W końcu błyszczeć chcemy nie tylko jednej nocy. Słodki pudrowy róż jest kolorem grudnia. Załóżmy go na siebie, również na policzki. Kolejny dobry rok za nami.\n\n![Obraz przedstawia kilka fotografii połączonych ze sobą. Na zdjęciach widzimy czerwony notes, przedmioty na białym tle.](https://assets1.ello.co/uploads/asset/attachment/8791999/ello-optimized-5a4bab76.jpg)\n\n## Kalendarz\n\nTen, kto choć raz spróbował planowania ten wie, jak bardzo jest ono pomocne. Organizacja czasu pozwala na zrobienie większej ilości rzeczy. Zapisanie daty umówionego spotkania zmniejsza prawdopodobieństwo, że o nim zapomnimy, w szczególności jeśli spotkań w tygodniu mamy więcej niż jego dni. Uwielbiam kalendarze w formie papierowej, a kalendarz na rok 2019 by Radzka jest szczególny. Modowa youtuberka w tym roku postanowiła wydać swoje małe dzieło w formie kalendarza, notatnika, modowego poradnika pełnego ciekawostek. Czerwoną księgę zdobią rysunki ilustratorki Eleny Ciupriny, a do każdego miesiąca przypisany został inny kolor, którego symbolikę znajdziemy w krótkich opisach. Wspaniale, że na jeden dzień roku przypada jedna strona – dzięki temu kalendarz posłuży nam jako notatnik-pamięnik. Zapisujmy, przekreślajmy, rysujmy, planujmy w imię modowej dyscypliny.\n\n![Obraz przedstawia zdjęcie czerwonego notesu, na którego okładce widnieje ilustracja.](https://assets2.ello.co/uploads/asset/attachment/8792019/ello-optimized-4cf010a1.jpg)\n\n## Kosmetyk: pielęgnacja\n\nHybrydowe kosmetyki są połączeniem pielęgnacji i makijażu. Dla przykładu – podkład o właściwościach serum doskonale ujednolica karnacje jednocześnie dbając o skórę. Markę Algenist odkryłam dzięki [Magdzie](https://www.youtube.com/channel/UChuPB8l5Pa3-WV6Eg7o_RbQ). Ich kosmetyki charakteryzuje innowacyjne wykorzystanie przeciwstarzeniowych właściwości alg. Składy wolne od parabenów, silikonów idealnie poprawiają kondycję cery (nie tylko dojrzałej). Algenist Reveal Concentrated Color Correcting Drops kryją w sobie siłę pielęgnacji połączoną z korekcją czerwonego zabarwienia skóry. Stosuję parę kropel pod podkład w miejscach, gdzie naczynka są najbardziej widoczne. Z kolei Reveal Concentrated Luminizing Drops wklepuję w partie, którym należy się odrobina blasku (Szczyty kości jarzmowych, skronie, środek nosa, broda, czoło). Tak przygotowana cera idealnie współgra z podkładem i pozostaje nawilżona na długo.\n\n![Obraz przedstawia zdjęcie dwóch kosmetyków leżących obok czerwonej książki i kawałka choinkowej gałązki.](https://assets2.ello.co/uploads/asset/attachment/8792011/ello-optimized-0d0826d0.jpg)\n\n## Kosmetyk: kolorówka 1\n\nNowość od Nars - tusz Climax. Maskara, która robić ma wszystko – wydłużać, pogrubiać, zagęszczać i idealnie rozczesywać nasze rzęsy. Innowacyjne rozwiązanie w postaci silikonowej szczoteczki, która swoim kształtem imituje szczoteczkę z włosia. Każde rzęsy lubią się z inną szczotką, moje bardzo polubiły się z tą. Tusz faktycznie idealnie rozczesuje, nie skleja, nie robi efektu ‘pajęczych łapek’. Dla maksymalnego pogrubienia polecam nakładać kilka warstw. Dodatkowo ciekawe czerwone opakowanie wyróżnia się swoim niebanalnym dizajnem.\n\n![Obraz przedstawia tusz do rzęs w czerwonym opakowaniu leżący na białym tle obok czerwonego notesu i choinkowej gałęzi.](https://assets2.ello.co/uploads/asset/attachment/8792022/ello-optimized-ed02750a.jpg)\n\n## Kosmetyk: kolorówka 2\n\nOrgasm - najbardziej kultowy odcień różu zamknięty w szklanej buteleczce. Nałożony na policzki za pomocą luźnego pędzla daje efekt zdrowego, dziewczęcego rumieńca. Róże to jedne z moich ulubionych kosmetyków, odmładzają i są niezwykle wielofunkcyjne – można pomalować nimi oczy, usta, wykonturować twarz. Warto mieć w swojej kosmetyczne kilka odcieni różu i stosować je dopasowując do całego makijażu. Ten z Nars sprawdza się idealnie położony na podkład (jeśli nie chcemy używać pudru) lub bezpośrednio na zapudrowaną twarz. Dzięki milionom drobinek twarz nabiera blasku i subtelności. Pamiętajcie, aby nie przesadzić, wystarczy mała kropelka roztarta pędzlem na wierzchu dłoni.\n\n![Zdjęcie przedstawia buteleczkę z kosmetykiem leżącą na białym podłożu obok czerwonej książki.](https://assets1.ello.co/uploads/asset/attachment/8792006/ello-optimized-85da8aae.jpg)\n\n\n----------------\n\nShop My Choices\n\n* [Kalendarz by Radzka](https://editio.pl/ksiazki/kalendarz-2019-magdalena-kanoniak,ka2019.htm#format/d)\n* [Algenist Reveal Concentrated Color Correcting Drops](https://www.lookfantastic.pl/algenist-reveal-concentrated-colour-correcting-drops-15ml-various-shades/11426219.html)\n* [Algenist Reveal Concentrated Luminizing Drops](https://www.lookfantastic.pl/algenist-reveal-concentrated-luminizing-drops-15ml-various-shades/11426215.html)\n* [Nars Climax Mascara](http://www.sephora.pl/Makijaz/Oczy/Tusze-do-rzes/Climax-Mascara-Maskara-Zwiekszajaca-Objetosc-Rzes/P3425004)\n* [Nars Orgasm Liquid Blush](http://www.sephora.pl/Makijaz/Cera/Roze-do-policzkow/Liquid-Blush-Plynny-roz/P2959011)";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 151 */
@@ -13631,6 +13793,18 @@ webpackEmptyContext.id = 151;
 
 /***/ }),
 /* 152 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 152;
+
+/***/ }),
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -13651,19 +13825,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 152;
+webpackContext.id = 153;
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(154);
+module.exports = __webpack_require__(155);
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13681,7 +13855,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(155);
+var _propTypes = __webpack_require__(156);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -13885,13 +14059,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_155__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_156__;
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13905,7 +14079,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13913,7 +14087,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13926,7 +14100,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13960,7 +14134,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13973,7 +14147,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13982,7 +14156,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13990,7 +14164,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13998,7 +14172,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14013,7 +14187,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14028,7 +14202,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14043,7 +14217,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14067,7 +14241,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(168);
+var s = __webpack_require__(169);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -14098,7 +14272,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14106,7 +14280,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 169 */
+/* 170 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14130,7 +14304,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 170 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14181,7 +14355,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 171 */
+/* 172 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14189,7 +14363,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 172 */
+/* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14198,7 +14372,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(173);
+var s = __webpack_require__(174);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -14231,7 +14405,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 173 */
+/* 174 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14241,7 +14415,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 174 */
+/* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14285,22 +14459,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 175 */
+/* 176 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 176 */
+/* 177 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 177,
-	"./Feed.js": 178,
-	"./Ingredient.js": 179,
-	"./Method.js": 180,
-	"./Recipe.js": 181,
-	"./TableOfContents.js": 182
+	"./Crumbs.js": 178,
+	"./Feed.js": 179,
+	"./Ingredient.js": 180,
+	"./Method.js": 181,
+	"./Recipe.js": 182,
+	"./TableOfContents.js": 183
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -14316,10 +14490,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 176;
+webpackContext.id = 177;
 
 /***/ }),
-/* 177 */
+/* 178 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14334,7 +14508,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 178 */
+/* 179 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14349,7 +14523,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 179 */
+/* 180 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14364,7 +14538,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 180 */
+/* 181 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14379,7 +14553,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 181 */
+/* 182 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14394,7 +14568,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 182 */
+/* 183 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14409,7 +14583,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 183 */
+/* 184 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14433,7 +14607,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 184 */
+/* 185 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
