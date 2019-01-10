@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_156__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_157__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(171);
+var Feed_1 = __webpack_require__(172);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(173);
+var Recipe_1 = __webpack_require__(174);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(175);
+var Root_1 = __webpack_require__(176);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(157);
+var s = __webpack_require__(158);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(158);
+var s = __webpack_require__(159);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(65),
-UPLOADS: __webpack_require__(151),
-ROOT: __webpack_require__(152),
-LAYOUTS: __webpack_require__(153),
-INCLUDES: __webpack_require__(177)};
+UPLOADS: __webpack_require__(152),
+ROOT: __webpack_require__(153),
+LAYOUTS: __webpack_require__(154),
+INCLUDES: __webpack_require__(178)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(177)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(159);
+var s = __webpack_require__(160);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(163);
+var s = __webpack_require__(164);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(176);
+__webpack_require__(177);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(154);
+var react_disqus_comments_1 = __webpack_require__(155);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(168);
-var s = __webpack_require__(170);
+var FacebookLike_1 = __webpack_require__(169);
+var s = __webpack_require__(171);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(160);
-var s = __webpack_require__(161);
+__webpack_require__(161);
+var s = __webpack_require__(162);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(162);
+var s = __webpack_require__(163);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(165);
+var s = __webpack_require__(166);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(164);
+var s = __webpack_require__(165);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(166);
+var s = __webpack_require__(167);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(167);
+var s = __webpack_require__(168);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(172);
+var s = __webpack_require__(173);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(184);
-var menu_1 = __webpack_require__(185);
+var tags_1 = __webpack_require__(185);
+var menu_1 = __webpack_require__(186);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2888,7 +2888,8 @@ var map = {
 	"./2018-12-06-fluxus-moodboard.markdown": 147,
 	"./2018-12-13-o-smierci.markdown": 148,
 	"./2018-12-28-stop-2018-start-2019.markdown": 149,
-	"./2019-01-03-moje-wybory-grudzien-2018.markdown": 150
+	"./2019-01-03-moje-wybory-grudzien-2018.markdown": 150,
+	"./2019-01-10-barok-moodboard.markdown": 151
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -13793,15 +13794,156 @@ var raw = exports.raw = "\nGrudzień jest miesiącem pełnym skrajności. W pani
 
 /***/ }),
 /* 151 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 151;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Termin: Barok \u2013 prawdopodobnie z portugalskiego \u2013 ',
+      _react2.default.createElement(
+        'em',
+        null,
+        'barroco'
+      ),
+      ': per\u0142a o nieregularnym kszta\u0142cie, z w\u0142oskiego -dziwno\u015B\u0107, nietypowo\u015B\u0107.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Czas: Koniec XVI wieku, ca\u0142y wiek XVII, do pocz\u0105tk\xF3w wieku XVIII.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Miejsce: W\u0142ochy, Francja, Hiszpania, Niderlandy, Niemcy, Anglia.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Dziedziny: filozofia, literatura, muzyka, teatr, architektura, rze\u017Aba, malarstwo'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Schy\u0142ek epoki renesansu przynosi ze sob\u0105 zmiany \u015Bwiatopogl\u0105dowe. Niegdy\u015B stawiany w centrum cz\u0142owiek kurczy si\u0119, staje twarz\u0105 w twarz ze swoj\u0105 ulotno\u015Bci\u0105. Na\u015Bladuj\u0105cy pi\u0119kno natury Renesans zast\u0119puje Barok wyra\u017Caj\u0105cy uczucia. \u0141ad i harmonia ust\u0119puj\u0105 miejsca chaosowi, kt\xF3ry wydaje si\u0119 by\u0107, mimo wszystko, chaosem kontrolowanym. Barokowe dzie\u0142a sztuki wzbudzaj\u0105 u widza niepok\xF3j, stawiaj\u0105 pytania o \u015Bmier\u0107, przemijanie, czas. Tam, gdzie racjonalizm spotyka si\u0119 z empiryzmem figury \u015Bwi\u0119tych ukazywane s\u0105 w do\u015Bwiadczeniu ekstazy. Mocny \u015Bwiat\u0142ocie\u0144 na obrazach (Rembrandt, Caravaggio, Velazquez) stawia odbiorc\u0119 w konfrontacji z tajemnic\u0105. Wi\u0119kszo\u015B\u0107 scen na obrazach to sceny \u015Bwieckie, religijne, mitologiczne, portrety. P\u0142\xF3tna, z pozoru poprawne, pe\u0142ne s\u0105 symbolicznych \u2018smaczk\xF3w\u2019, np. wyolbrzymienia proporcji odpowiednich postaci. Klasyczny porz\u0105dek architektoniczny zaprzyja\u017Ania si\u0119 ze skr\u0119conym kolumnami i bogat\u0105 dekoracyjno\u015Bci\u0105. Rze\u017Aba barokowa zyskuje dodatkow\u0105 si\u0142\u0119 ekspresji poprzez mocny skr\u0119t cia\u0142a postaci i delikatne, a zarazem dynamiczne ukazanie licznych fa\u0142d draperii. Moda barokowa to dla dam czas noszenia bogato zdobionych sukien z fortuga\u0142em (metalowy stela\u017C s\u0142u\u017C\u0105cy do zwi\u0119kszenia szeroko\u015Bci sp\xF3dnicy), sztywnymi stanikami, podw\xF3jnymi r\u0119kawami. Pocz\u0105tkowo s\u0142u\u017C\u0105ca do ochrony dekoltu przed kurzem kryza staje si\u0119 odr\u0119bnym elementem stroju. Najszersze kryzy mia\u0142y \u015Brednice dochodz\u0105ce do 30,5 cm.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement(
+        'strong',
+        null,
+        'W skr\xF3cie'
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Cechy stylu barokowego:'
+    ),
+    _react2.default.createElement(
+      'ul',
+      null,
+      _react2.default.createElement(
+        'li',
+        null,
+        'niepok\xF3j \u2013 sztuka barokowa wywo\u0142uje w odbiorcy uczucie niepokoju'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'ruch \u2013 statyczna sztuka renesansu ust\u0119puje dynamice baroku'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'nie\u0142ad \u2013 klasyczny porz\u0105dek zast\u0105piony zostaje wra\u017Ceniem chaosu'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'komplikacja form \u2013 skomplikowanie scen malarskich, rze\u017Abiarskich, detali architektonicznych'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'niejasno\u015B\u0107 \u2013 niejasne na pierwszy rzut oka kompozycje wymagaj\u0105 na odbiorcy chwili namys\u0142u i zastanowienia'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'zmys\u0142owo\u015B\u0107 \u2013 sztuka baroku dzia\u0142a na zmys\u0142y odbiorcy, ol\u015Bniewa bogactwem form i ozd\xF3b'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'harmonia przeciwie\u0144stw'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'iluzjonizm'
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement(
+        'strong',
+        null,
+        'Wa\u017Cne'
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Je\u015Bli m\xF3wimy o chaosie i dysharmonii w odniesieniu do sztuki baroku, nie mamy na my\u015Bli totalnego nie\u0142adu. Ko\u015Bcio\u0142y, pa\u0142ace, czy inne budowle barokowe nadal projektowane i budowane by\u0142y na planie symetrycznych plan\xF3w (np. plan krzy\u017Ca). Termin \u2018chaos\u2019 odnosimy wi\u0119c do wcze\u015Bniejszej epoki (renesansu), kt\xF3ra czci\u0142a antyczny porz\u0105dek.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8834722/ello-optimized-4d242dc1.jpg', alt: 'Obraz przedstawia trzy obrazy znanych artyst\xF3w na bordowym tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/8834730/ello-optimized-ad8e3610.jpg', alt: 'Obraz przedstawia dwa obrazy znanych artyst\xF3w na bordowym tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8834735/ello-optimized-d7184cdd.jpg', alt: 'Obraz przedstawia jeden obraz znanego artysty, oraz dwie fotografie modelek. Ca\u0142o\u015B\u0107 na bordowym tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/8834740/ello-optimized-b90fbeed.jpg', alt: 'Obraz przedstawia cztery fotografie. Dwie z nich przedstawiaj\u0105 barokow\u0105 rze\u017Ab\u0119 we wn\u0119trzu, jedna jest zdj\u0119ciem modelki w z\u0142otym nakryciu g\u0142owy.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Barok [moodboard]", "date": "2019-01-10T15:30:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["moodboard", "barok", "baroque"] };
+var body = exports.body = "<p>Termin: Barok – prawdopodobnie z portugalskiego – <em>barroco</em>: perła o nieregularnym kształcie, z włoskiego -dziwność, nietypowość.</p>\n<p>Czas: Koniec XVI wieku, cały wiek XVII, do początków wieku XVIII.</p>\n<p>Miejsce: Włochy, Francja, Hiszpania, Niderlandy, Niemcy, Anglia.</p>\n<p>Dziedziny: filozofia, literatura, muzyka, teatr, architektura, rzeźba, malarstwo</p>\n<p>Schyłek epoki renesansu przynosi ze sobą zmiany światopoglądowe. Niegdyś stawiany w centrum człowiek kurczy się, staje twarzą w twarz ze swoją ulotnością. Naśladujący piękno natury Renesans zastępuje Barok wyrażający uczucia. Ład i harmonia ustępują miejsca chaosowi, który wydaje się być, mimo wszystko, chaosem kontrolowanym. Barokowe dzieła sztuki wzbudzają u widza niepokój, stawiają pytania o śmierć, przemijanie, czas. Tam, gdzie racjonalizm spotyka się z empiryzmem figury świętych ukazywane są w doświadczeniu ekstazy. Mocny światłocień na obrazach (Rembrandt, Caravaggio, Velazquez) stawia odbiorcę w konfrontacji z tajemnicą. Większość scen na obrazach to sceny świeckie, religijne, mitologiczne, portrety. Płótna, z pozoru poprawne, pełne są symbolicznych ‘smaczków’, np. wyolbrzymienia proporcji odpowiednich postaci. Klasyczny porządek architektoniczny zaprzyjaźnia się ze skręconym kolumnami i bogatą dekoracyjnością. Rzeźba barokowa zyskuje dodatkową siłę ekspresji poprzez mocny skręt ciała postaci i delikatne, a zarazem dynamiczne ukazanie licznych fałd draperii. Moda barokowa to dla dam czas noszenia bogato zdobionych sukien z fortugałem (metalowy stelaż służący do zwiększenia szerokości spódnicy), sztywnymi stanikami, podwójnymi rękawami. Początkowo służąca do ochrony dekoltu przed kurzem kryza staje się odrębnym elementem stroju. Najszersze kryzy miały średnice dochodzące do 30,5 cm.</p>\n<p><strong>W skrócie</strong></p>\n<p>Cechy stylu barokowego:</p>\n<ul>\n<li>niepokój – sztuka barokowa wywołuje w odbiorcy uczucie niepokoju</li>\n<li>ruch – statyczna sztuka renesansu ustępuje dynamice baroku</li>\n<li>nieład – klasyczny porządek zastąpiony zostaje wrażeniem chaosu</li>\n<li>komplikacja form – skomplikowanie scen malarskich, rzeźbiarskich, detali architektonicznych</li>\n<li>niejasność – niejasne na pierwszy rzut oka kompozycje wymagają na odbiorcy chwili namysłu i zastanowienia</li>\n<li>zmysłowość – sztuka baroku działa na zmysły odbiorcy, olśniewa bogactwem form i ozdób</li>\n<li>harmonia przeciwieństw</li>\n<li>iluzjonizm</li>\n</ul>\n<p><strong>Ważne</strong></p>\n<p>Jeśli mówimy o chaosie i dysharmonii w odniesieniu do sztuki baroku, nie mamy na myśli totalnego nieładu. Kościoły, pałace, czy inne budowle barokowe nadal projektowane i budowane były na planie symetrycznych planów (np. plan krzyża). Termin ‘chaos’ odnosimy więc do wcześniejszej epoki (renesansu), która czciła antyczny porządek.</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/8834722/ello-optimized-4d242dc1.jpg\" alt=\"Obraz przedstawia trzy obrazy znanych artystów na bordowym tle.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/8834730/ello-optimized-ad8e3610.jpg\" alt=\"Obraz przedstawia dwa obrazy znanych artystów na bordowym tle.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/8834735/ello-optimized-d7184cdd.jpg\" alt=\"Obraz przedstawia jeden obraz znanego artysty, oraz dwie fotografie modelek. Całość na bordowym tle.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/8834740/ello-optimized-b90fbeed.jpg\" alt=\"Obraz przedstawia cztery fotografie. Dwie z nich przedstawiają barokową rzeźbę we wnętrzu, jedna jest zdjęciem modelki w złotym nakryciu głowy.\" /></p>\n";
+var raw = exports.raw = "\nTermin: Barok – prawdopodobnie z portugalskiego – *barroco*: perła o nieregularnym kształcie, z włoskiego -dziwność, nietypowość.\n\nCzas: Koniec XVI wieku, cały wiek XVII, do początków wieku XVIII.\n\nMiejsce: Włochy, Francja, Hiszpania, Niderlandy, Niemcy, Anglia.\n\nDziedziny: filozofia, literatura, muzyka, teatr, architektura, rzeźba, malarstwo\n\nSchyłek epoki renesansu przynosi ze sobą zmiany światopoglądowe. Niegdyś stawiany w centrum człowiek kurczy się, staje twarzą w twarz ze swoją ulotnością. Naśladujący piękno natury Renesans zastępuje Barok wyrażający uczucia. Ład i harmonia ustępują miejsca chaosowi, który wydaje się być, mimo wszystko, chaosem kontrolowanym. Barokowe dzieła sztuki wzbudzają u widza niepokój, stawiają pytania o śmierć, przemijanie, czas. Tam, gdzie racjonalizm spotyka się z empiryzmem figury świętych ukazywane są w doświadczeniu ekstazy. Mocny światłocień na obrazach (Rembrandt, Caravaggio, Velazquez) stawia odbiorcę w konfrontacji z tajemnicą. Większość scen na obrazach to sceny świeckie, religijne, mitologiczne, portrety. Płótna, z pozoru poprawne, pełne są symbolicznych ‘smaczków’, np. wyolbrzymienia proporcji odpowiednich postaci. Klasyczny porządek architektoniczny zaprzyjaźnia się ze skręconym kolumnami i bogatą dekoracyjnością. Rzeźba barokowa zyskuje dodatkową siłę ekspresji poprzez mocny skręt ciała postaci i delikatne, a zarazem dynamiczne ukazanie licznych fałd draperii. Moda barokowa to dla dam czas noszenia bogato zdobionych sukien z fortugałem (metalowy stelaż służący do zwiększenia szerokości spódnicy), sztywnymi stanikami, podwójnymi rękawami. Początkowo służąca do ochrony dekoltu przed kurzem kryza staje się odrębnym elementem stroju. Najszersze kryzy miały średnice dochodzące do 30,5 cm. \n\n**W skrócie**\n\nCechy stylu barokowego:\n\n* niepokój – sztuka barokowa wywołuje w odbiorcy uczucie niepokoju\n* ruch – statyczna sztuka renesansu ustępuje dynamice baroku\n* nieład – klasyczny porządek zastąpiony zostaje wrażeniem chaosu\n* komplikacja form – skomplikowanie scen malarskich, rzeźbiarskich, detali architektonicznych\n* niejasność – niejasne na pierwszy rzut oka kompozycje wymagają na odbiorcy chwili namysłu i zastanowienia\n* zmysłowość – sztuka baroku działa na zmysły odbiorcy, olśniewa bogactwem form i ozdób\n* harmonia przeciwieństw\n* iluzjonizm\n\n\n**Ważne**\n\nJeśli mówimy o chaosie i dysharmonii w odniesieniu do sztuki baroku, nie mamy na myśli totalnego nieładu. Kościoły, pałace, czy inne budowle barokowe nadal projektowane i budowane były na planie symetrycznych planów (np. plan krzyża). Termin ‘chaos’ odnosimy więc do wcześniejszej epoki (renesansu), która czciła antyczny porządek.\n\n\n![Obraz przedstawia trzy obrazy znanych artystów na bordowym tle.](https://assets1.ello.co/uploads/asset/attachment/8834722/ello-optimized-4d242dc1.jpg)\n![Obraz przedstawia dwa obrazy znanych artystów na bordowym tle.](https://assets0.ello.co/uploads/asset/attachment/8834730/ello-optimized-ad8e3610.jpg)\n![Obraz przedstawia jeden obraz znanego artysty, oraz dwie fotografie modelek. Całość na bordowym tle.](https://assets1.ello.co/uploads/asset/attachment/8834735/ello-optimized-d7184cdd.jpg)\n![Obraz przedstawia cztery fotografie. Dwie z nich przedstawiają barokową rzeźbę we wnętrzu, jedna jest zdjęciem modelki w złotym nakryciu głowy.](https://assets0.ello.co/uploads/asset/attachment/8834740/ello-optimized-b90fbeed.jpg)";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 152 */
@@ -13817,6 +13959,18 @@ webpackEmptyContext.id = 152;
 
 /***/ }),
 /* 153 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 153;
+
+/***/ }),
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -13837,19 +13991,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 153;
+webpackContext.id = 154;
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(155);
+module.exports = __webpack_require__(156);
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13867,7 +14021,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(156);
+var _propTypes = __webpack_require__(157);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -14071,13 +14225,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_156__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_157__;
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14091,7 +14245,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14099,7 +14253,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14112,7 +14266,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14146,7 +14300,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14159,7 +14313,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14168,7 +14322,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14176,7 +14330,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14184,7 +14338,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14199,7 +14353,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14214,7 +14368,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14229,7 +14383,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14253,7 +14407,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(169);
+var s = __webpack_require__(170);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -14284,7 +14438,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 169 */
+/* 170 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14292,7 +14446,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 170 */
+/* 171 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14316,7 +14470,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 171 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14367,7 +14521,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 172 */
+/* 173 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14375,7 +14529,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 173 */
+/* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14384,7 +14538,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(174);
+var s = __webpack_require__(175);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -14417,7 +14571,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 174 */
+/* 175 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14427,7 +14581,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 175 */
+/* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14471,22 +14625,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 176 */
+/* 177 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 177 */
+/* 178 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 178,
-	"./Feed.js": 179,
-	"./Ingredient.js": 180,
-	"./Method.js": 181,
-	"./Recipe.js": 182,
-	"./TableOfContents.js": 183
+	"./Crumbs.js": 179,
+	"./Feed.js": 180,
+	"./Ingredient.js": 181,
+	"./Method.js": 182,
+	"./Recipe.js": 183,
+	"./TableOfContents.js": 184
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -14502,10 +14656,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 177;
+webpackContext.id = 178;
 
 /***/ }),
-/* 178 */
+/* 179 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14520,7 +14674,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 179 */
+/* 180 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14535,7 +14689,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 180 */
+/* 181 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14550,7 +14704,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 181 */
+/* 182 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14565,7 +14719,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 182 */
+/* 183 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14580,7 +14734,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 183 */
+/* 184 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14595,7 +14749,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 184 */
+/* 185 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14619,7 +14773,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 185 */
+/* 186 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
