@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_158__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_152__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(173);
+var Feed_1 = __webpack_require__(167);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(175);
+var Recipe_1 = __webpack_require__(169);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(177);
+var Root_1 = __webpack_require__(171);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(159);
+var s = __webpack_require__(153);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(160);
+var s = __webpack_require__(154);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(65),
-UPLOADS: __webpack_require__(153),
-ROOT: __webpack_require__(154),
-LAYOUTS: __webpack_require__(155),
-INCLUDES: __webpack_require__(179)};
+UPLOADS: __webpack_require__(147),
+ROOT: __webpack_require__(148),
+LAYOUTS: __webpack_require__(149),
+INCLUDES: __webpack_require__(173)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(179)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(161);
+var s = __webpack_require__(155);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(165);
+var s = __webpack_require__(159);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(178);
+__webpack_require__(172);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(156);
+var react_disqus_comments_1 = __webpack_require__(150);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(170);
-var s = __webpack_require__(172);
+var FacebookLike_1 = __webpack_require__(164);
+var s = __webpack_require__(166);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(162);
-var s = __webpack_require__(163);
+__webpack_require__(156);
+var s = __webpack_require__(157);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(164);
+var s = __webpack_require__(158);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(167);
+var s = __webpack_require__(161);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(166);
+var s = __webpack_require__(160);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(168);
+var s = __webpack_require__(162);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(169);
+var s = __webpack_require__(163);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(174);
+var s = __webpack_require__(168);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(186);
-var menu_1 = __webpack_require__(187);
+var tags_1 = __webpack_require__(180);
+var menu_1 = __webpack_require__(181);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2807,90 +2807,84 @@ var map = {
 	"./2017-07-15-uniwersalno-sztuki.markdown": 66,
 	"./2017-09-07-wenus-chanel-nowa-dziewczyna-z-perla.markdown": 67,
 	"./2017-09-11-make-up-inspirowany-obrazem-m64-by-wojciech-fangor.markdown": 68,
-	"./2017-09-16-salatka-z-bialej-rzepy-i-rzodkiewki.markdown": 69,
-	"./2017-09-17-smaki-jesieni-vol-dot-2-curry-z-pomidorow-cukinii-i-jablek.markdown": 70,
-	"./2017-09-18-fuerteventura-impressions.markdown": 71,
-	"./2017-09-21-make-up-inspirowany-obrazem-m10-by-wojciech-fangor.markdown": 72,
-	"./2017-09-25-podlewaj-swoje-kwiaty.markdown": 73,
-	"./2017-09-28-neoplastycyzm-moodboard.markdown": 74,
-	"./2017-10-03-cala-ta-j-dot-dot-dot.markdown": 75,
-	"./2017-10-05-kolo-moodboard.markdown": 76,
-	"./2017-10-10-make-up-inspirowany-obrazem-flying-eyes-by-yayoi-kusama.markdown": 77,
-	"./2017-10-12-pop-art-moodboard.markdown": 78,
-	"./2017-10-18-stylizacje-za-grosze-czyli-pokochaj-lumpeksy.markdown": 79,
-	"./2017-10-19-minimalism-moodboard.markdown": 80,
-	"./2017-10-23-smaki-jesieni-vol-dot-3-geometryczna-szarlotka.markdown": 81,
-	"./2017-10-25-kolaz-okladek.markdown": 82,
-	"./2017-10-26-kubizm-moodboard.markdown": 83,
-	"./2017-11-02-surrealizm-moodboard.markdown": 84,
-	"./2017-11-07-make-up-inspirowany-obrazem-czarny-kwadrat-na-bialym-tle-by-kazimierz-malewicz.markdown": 85,
-	"./2017-11-09-action-painting-moodboard.markdown": 86,
-	"./2017-11-13-picasso-wizerunek-wielokrotny-muzeum-lubelskie-w-lublinie.markdown": 87,
-	"./2017-11-16-impresjonizm-moodboard.markdown": 88,
-	"./2017-11-22-diy-1-edycja-zimowa.markdown": 89,
-	"./2017-11-30-make-up-inspirowany-obrazem-figure-dog-birds-by-joan-miro.markdown": 90,
-	"./2017-12-07-op-art-moodboard.markdown": 91,
-	"./2017-12-11-wystawa-inny-trans-atlantyk-sztuka-kinetyczna-i-op-art-w-europie-wschodniej-i-ameryce-lacinskiej-w-latach-50-70.markdown": 92,
-	"./2017-12-17-o-kolorach-fiolet.markdown": 93,
-	"./2017-12-21-moje-wybory-grudzien.markdown": 94,
-	"./2017-12-31-kolagen.markdown": 95,
-	"./2018-01-04-ekspresjonizm-abstrakcyjny-moodboard.markdown": 96,
-	"./2018-01-05-smaki-zimy-vol-dot-1-kaczka-z-sosem-pomaranczowym-i-jablkami-w-tymianku.markdown": 97,
-	"./2018-01-08-smaki-zimy-vol-dot-2-bezglutenowy-chlebek-czekoladowo-korzenny-z-sosem-truskawkowo-rozmarynowym.markdown": 98,
-	"./2018-01-14-o-kolorach-czerwien-cz-dot-1.markdown": 99,
-	"./2018-01-22-make-up-inspirowany-obrazem-tutti-frutti-by-helen-frankenthaler.markdown": 100,
-	"./2018-01-24-moje-wybory-styczen.markdown": 101,
-	"./2018-01-31-wystawa-david-lynch-silence-and-dynamism.markdown": 102,
-	"./2018-02-08-rokoko-moodboard.markdown": 103,
-	"./2018-02-11-make-up-inspirowany-obrazem-dove-with-sun-by-pablo-picasso.markdown": 104,
-	"./2018-02-13-smaki-zimy-vol-dot-3-omlet-francuski-z-cheddarem-i-czarnuszka.markdown": 105,
-	"./2018-02-18-o-narkotykach-xxi-wieku.markdown": 106,
-	"./2018-02-21-o-kolorach-biel-cz-dot-1.markdown": 107,
-	"./2018-02-26-moje-wybory-luty.markdown": 108,
-	"./2018-02-28-wystawa-przyszlosc-bedzie-inna-wizje-i-praktyki-modernizacji-spolecznych-po-roku-1918.markdown": 109,
-	"./2018-03-08-socrealizm-moodboard.markdown": 110,
-	"./2018-03-26-make-up-inspirowany-obrazem-bialy-srodek-zolty-rozowy-lawendowy-by-mark-rothko.markdown": 111,
-	"./2018-04-05-dadaizm-moodboard.markdown": 112,
-	"./2018-04-07-moje-wybory-marzec.markdown": 113,
-	"./2018-04-15-make-up-inspirowany-obrazem-onement-vi-by-barnett-newman.markdown": 114,
-	"./2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest.markdown": 115,
-	"./2018-04-29-stylizacje-w-trendach-ss-2018.markdown": 116,
-	"./2018-05-02-moje-wybory-kwiecien.markdown": 117,
-	"./2018-05-10-puentylizm-pointylizm-moodboard.markdown": 118,
-	"./2018-05-14-oswoic-lek.markdown": 119,
-	"./2018-05-20-o-kolorach-roz.markdown": 120,
-	"./2018-05-29-moje-wybory-maj.markdown": 121,
-	"./2018-06-05-jestem-wdzieczna-ci-zycie.markdown": 122,
-	"./2018-06-07-hiperrealizm-moodboard.markdown": 123,
-	"./2018-06-27-rgb-trzy-stylizacje-z-mojej-szafy.markdown": 124,
-	"./2018-07-05-abstrakcja-geometryczna-moodboard.markdown": 125,
-	"./2018-07-13-make-up-inspirowany-obrazem-blue-nude-ii-by-henri-matisse.markdown": 126,
-	"./2018-07-27-moje-wybory-czerwiec-slash-lipiec-cz-dot-1.markdown": 127,
-	"./2018-07-30-moje-wybory-czerwiec-slash-lipiec-cz-dot-2.markdown": 128,
-	"./2018-08-09-secesja-moodboard.markdown": 129,
-	"./2018-08-15-make-up-inspirowany-obrazem-circus-from-jazz-book-by-henri-matisse.markdown": 130,
-	"./2018-08-22-wystawa-handmade-acoustics.markdown": 131,
-	"./2018-08-31-moje-wybory-sierpien.markdown": 132,
-	"./2018-09-06-futuryzm-moodboard.markdown": 133,
-	"./2018-09-09-pre-fall-fall-slash-winter-spring-slash-summer-resort-cruise-co-to-wszystko-znaczy-plus-fw-trends-2018-slash-2019.markdown": 134,
-	"./2018-09-21-o-kolorach-czern.markdown": 135,
-	"./2018-09-27-moje-wybory-wrzesien-2018.markdown": 136,
-	"./2018-10-02-wystawa-bestia-bog-i-linia.markdown": 137,
-	"./2018-10-04-manieryzm-moodboard.markdown": 138,
-	"./2018-10-10-make-up-inspirowany-obrazem-kompozycja-viii-by-wassily-kandinsky.markdown": 139,
-	"./2018-10-24-moje-wybory-pazdziernik-2018.markdown": 140,
-	"./2018-10-28-smierc-doroslego.markdown": 141,
-	"./2018-10-31-kamp-moodboard.markdown": 142,
-	"./2018-11-07-make-up-inspirowany-obrazem-light-of-iris-by-georgia-okeeffe.markdown": 143,
-	"./2018-11-15-historia-pewnej-projektantki-czyli-perelka-z-lumpeksu.markdown": 144,
-	"./2018-11-22-wystawa-moda-polska.markdown": 145,
-	"./2018-11-28-moje-wybory-listopad-2018.markdown": 146,
-	"./2018-12-06-fluxus-moodboard.markdown": 147,
-	"./2018-12-13-o-smierci.markdown": 148,
-	"./2018-12-28-stop-2018-start-2019.markdown": 149,
-	"./2019-01-03-moje-wybory-grudzien-2018.markdown": 150,
-	"./2019-01-10-barok-moodboard.markdown": 151,
-	"./2019-01-24-make-up-inspirowany-obrazem-victory-boogie-woogie-by-piet-mondrian.markdown": 152
+	"./2017-09-18-fuerteventura-impressions.markdown": 69,
+	"./2017-09-21-make-up-inspirowany-obrazem-m10-by-wojciech-fangor.markdown": 70,
+	"./2017-09-25-podlewaj-swoje-kwiaty.markdown": 71,
+	"./2017-09-28-neoplastycyzm-moodboard.markdown": 72,
+	"./2017-10-03-cala-ta-j-dot-dot-dot.markdown": 73,
+	"./2017-10-05-kolo-moodboard.markdown": 74,
+	"./2017-10-10-make-up-inspirowany-obrazem-flying-eyes-by-yayoi-kusama.markdown": 75,
+	"./2017-10-12-pop-art-moodboard.markdown": 76,
+	"./2017-10-18-stylizacje-za-grosze-czyli-pokochaj-lumpeksy.markdown": 77,
+	"./2017-10-19-minimalism-moodboard.markdown": 78,
+	"./2017-10-25-kolaz-okladek.markdown": 79,
+	"./2017-10-26-kubizm-moodboard.markdown": 80,
+	"./2017-11-02-surrealizm-moodboard.markdown": 81,
+	"./2017-11-07-make-up-inspirowany-obrazem-czarny-kwadrat-na-bialym-tle-by-kazimierz-malewicz.markdown": 82,
+	"./2017-11-09-action-painting-moodboard.markdown": 83,
+	"./2017-11-13-picasso-wizerunek-wielokrotny-muzeum-lubelskie-w-lublinie.markdown": 84,
+	"./2017-11-16-impresjonizm-moodboard.markdown": 85,
+	"./2017-11-30-make-up-inspirowany-obrazem-figure-dog-birds-by-joan-miro.markdown": 86,
+	"./2017-12-07-op-art-moodboard.markdown": 87,
+	"./2017-12-11-wystawa-inny-trans-atlantyk-sztuka-kinetyczna-i-op-art-w-europie-wschodniej-i-ameryce-lacinskiej-w-latach-50-70.markdown": 88,
+	"./2017-12-17-o-kolorach-fiolet.markdown": 89,
+	"./2017-12-21-moje-wybory-grudzien.markdown": 90,
+	"./2017-12-31-kolagen.markdown": 91,
+	"./2018-01-04-ekspresjonizm-abstrakcyjny-moodboard.markdown": 92,
+	"./2018-01-14-o-kolorach-czerwien-cz-dot-1.markdown": 93,
+	"./2018-01-22-make-up-inspirowany-obrazem-tutti-frutti-by-helen-frankenthaler.markdown": 94,
+	"./2018-01-24-moje-wybory-styczen.markdown": 95,
+	"./2018-01-31-wystawa-david-lynch-silence-and-dynamism.markdown": 96,
+	"./2018-02-08-rokoko-moodboard.markdown": 97,
+	"./2018-02-11-make-up-inspirowany-obrazem-dove-with-sun-by-pablo-picasso.markdown": 98,
+	"./2018-02-13-smaki-zimy-vol-dot-3-omlet-francuski-z-cheddarem-i-czarnuszka.markdown": 99,
+	"./2018-02-18-o-narkotykach-xxi-wieku.markdown": 100,
+	"./2018-02-21-o-kolorach-biel-cz-dot-1.markdown": 101,
+	"./2018-02-26-moje-wybory-luty.markdown": 102,
+	"./2018-02-28-wystawa-przyszlosc-bedzie-inna-wizje-i-praktyki-modernizacji-spolecznych-po-roku-1918.markdown": 103,
+	"./2018-03-08-socrealizm-moodboard.markdown": 104,
+	"./2018-03-26-make-up-inspirowany-obrazem-bialy-srodek-zolty-rozowy-lawendowy-by-mark-rothko.markdown": 105,
+	"./2018-04-05-dadaizm-moodboard.markdown": 106,
+	"./2018-04-07-moje-wybory-marzec.markdown": 107,
+	"./2018-04-15-make-up-inspirowany-obrazem-onement-vi-by-barnett-newman.markdown": 108,
+	"./2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest.markdown": 109,
+	"./2018-04-29-stylizacje-w-trendach-ss-2018.markdown": 110,
+	"./2018-05-02-moje-wybory-kwiecien.markdown": 111,
+	"./2018-05-10-puentylizm-pointylizm-moodboard.markdown": 112,
+	"./2018-05-14-oswoic-lek.markdown": 113,
+	"./2018-05-20-o-kolorach-roz.markdown": 114,
+	"./2018-05-29-moje-wybory-maj.markdown": 115,
+	"./2018-06-05-jestem-wdzieczna-ci-zycie.markdown": 116,
+	"./2018-06-07-hiperrealizm-moodboard.markdown": 117,
+	"./2018-06-27-rgb-trzy-stylizacje-z-mojej-szafy.markdown": 118,
+	"./2018-07-05-abstrakcja-geometryczna-moodboard.markdown": 119,
+	"./2018-07-13-make-up-inspirowany-obrazem-blue-nude-ii-by-henri-matisse.markdown": 120,
+	"./2018-07-27-moje-wybory-czerwiec-slash-lipiec-cz-dot-1.markdown": 121,
+	"./2018-07-30-moje-wybory-czerwiec-slash-lipiec-cz-dot-2.markdown": 122,
+	"./2018-08-09-secesja-moodboard.markdown": 123,
+	"./2018-08-15-make-up-inspirowany-obrazem-circus-from-jazz-book-by-henri-matisse.markdown": 124,
+	"./2018-08-22-wystawa-handmade-acoustics.markdown": 125,
+	"./2018-08-31-moje-wybory-sierpien.markdown": 126,
+	"./2018-09-06-futuryzm-moodboard.markdown": 127,
+	"./2018-09-09-pre-fall-fall-slash-winter-spring-slash-summer-resort-cruise-co-to-wszystko-znaczy-plus-fw-trends-2018-slash-2019.markdown": 128,
+	"./2018-09-21-o-kolorach-czern.markdown": 129,
+	"./2018-09-27-moje-wybory-wrzesien-2018.markdown": 130,
+	"./2018-10-02-wystawa-bestia-bog-i-linia.markdown": 131,
+	"./2018-10-04-manieryzm-moodboard.markdown": 132,
+	"./2018-10-10-make-up-inspirowany-obrazem-kompozycja-viii-by-wassily-kandinsky.markdown": 133,
+	"./2018-10-24-moje-wybory-pazdziernik-2018.markdown": 134,
+	"./2018-10-28-smierc-doroslego.markdown": 135,
+	"./2018-10-31-kamp-moodboard.markdown": 136,
+	"./2018-11-07-make-up-inspirowany-obrazem-light-of-iris-by-georgia-okeeffe.markdown": 137,
+	"./2018-11-15-historia-pewnej-projektantki-czyli-perelka-z-lumpeksu.markdown": 138,
+	"./2018-11-22-wystawa-moda-polska.markdown": 139,
+	"./2018-11-28-moje-wybory-listopad-2018.markdown": 140,
+	"./2018-12-06-fluxus-moodboard.markdown": 141,
+	"./2018-12-13-o-smierci.markdown": 142,
+	"./2018-12-28-stop-2018-start-2019.markdown": 143,
+	"./2019-01-03-moje-wybory-grudzien-2018.markdown": 144,
+	"./2019-01-10-barok-moodboard.markdown": 145,
+	"./2019-01-24-make-up-inspirowany-obrazem-victory-boogie-woogie-by-piet-mondrian.markdown": 146
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -3281,176 +3275,6 @@ var component = exports.component = function component(data) {
     _ContentLimiter2.default,
     _extends({ limit: 5 }, data),
     _react2.default.createElement(
-      'olela-narrative',
-      null,
-      'Jesie\u0144 to czas, kiedy z lekkich letnich sa\u0142atek zaczynami przerzuca\u0107 si\u0119 na dania rozgrzewaj\u0105ce. W ko\u0144cu zima zbli\u017Ca si\u0119 wielkimi krokami. Imbir, chilli, kardamon \u2013 to zdecydowanie moje zimowe aromaty. A jesie\u0144? Zamy\u015Bli\u0142am si\u0119 chwile nad smakiem jesieni. Chcia\u0142am zrobi\u0107 co\u015B lekkiego, jednocze\u015Bnie odchodz\u0105c od og\xF3rkowych, orze\u017Awiaj\u0105cych smak\xF3w lata, a nie dochodz\u0105c do ci\u0119\u017Ckich aromat\xF3w zimy.'
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      'W r\u0119ce wpad\u0142 mi stary numer KukBuk\u2019a (marzec/kwiecie\u0144 2015). Pami\u0119tam, \u017Ce jeszcze wtedy pracowa\u0142am w pewnej krakowskiej restauracji gotuj\u0105c wega\u0144skie zupy. Zainspirowana przepisem Piotra Markowskiego dochodz\u0119 do wniosku, \u017Ce jesie\u0144 to dla mnie rzodkiewka \u2013 lekkie warzywo, ale o ostrym posmaku, broku\u0142, kalafior, cukinia, jab\u0142ka, no i oczywi\u015Bcie dynia. Dzi\u015B wyczarowa\u0142am jesienn\u0105 przystawk\u0119. Przepis znajdziecie poni\u017Cej.'
-    ),
-    _react2.default.createElement(
-      'div',
-      null,
-      _react2.default.createElement(
-        Recipe,
-        {
-          title: 'Sa\u0142atka z bia\u0142ej rzepy i rzodkiewki',
-          time: '10 minut',
-          level: '\u0142atwy',
-          mealFor: '1 osoba',
-          photo: 'https://assets2.ello.co/uploads/asset/attachment/6234887/ello-optimized-033c3643.jpg',
-          altText: 'Zdj\u0119cie przedstawia ciemny talerz na jasnym tle z perspektywy lotu ptaka. Na talerzu znajduj\u0105 si\u0119 warzywa, bia\u0142y sos, zio\u0142a.'
-        },
-        _react2.default.createElement(Ingredient, { title: 'bia\u0142a rzepa' }),
-        _react2.default.createElement(Ingredient, { title: 'rzodkiewka', quantity: 'ok 3 sztuki' }),
-        _react2.default.createElement(Ingredient, { title: 'broku\u0142' }),
-        _react2.default.createElement(Ingredient, { title: 'mleczko kokosowe', quantity: 'ok 4 \u0142y\u017Cki' }),
-        _react2.default.createElement(Ingredient, { title: 'migda\u0142y w p\u0142atkach', quantity: 'gar\u015B\u0107' }),
-        _react2.default.createElement(Ingredient, { title: 'kolendra \u015Bwie\u017Ca', quantity: 'gar\u015B\u0107' }),
-        _react2.default.createElement(Ingredient, { title: 'oliwa z wyt\u0142oczyn z oliwek', quantity: 'ok 3 \u0142y\u017Cki' }),
-        _react2.default.createElement(Ingredient, { title: 'pieprz i s\xF3l do smaku' }),
-        _react2.default.createElement(
-          Method,
-          null,
-          'Broku\u0142 gotuj\u0119 w osolonej wodzie. Na suchej patelni pra\u017C\u0119 p\u0142atki migda\u0142\xF3w, a p\xF3\u017Aniej miel\u0119 na puder. Rzep\u0119 i rzodkiew kroj\u0119 w drobne plasterki. Mleczko kokosowe redukuje przez chwil\u0119 na patelni. Ugotowanego broku\u0142a blenduj\u0119 na pur\xE9e, doprawiam sol\u0105 i pieprzem, a kolendr\u0119 miksuj\u0119 razem z oliw\u0105. Na talerz wylewam mleko kokosowe, w g\u0142owie wspominaj\u0105c wielkiego mistrza taszyzmu \u2013 Jackson\'a Pollock\'a. Uk\u0142adam rzep\u0119 i rzodkiew \u2013 tutaj wspomnienia nabieraj\u0105 geometrii Kandinsky\u2019ego. Z boku nak\u0142adam odrobin\u0119 broku\u0142owego pur\xE9e, a ca\u0142o\u015B\u0107 dekoruj\u0119 pudrem z migda\u0142\xF3w, kolendrow\u0105 oliw\u0105 i listkami kolendry. Takie proste, a takie pyszne! Smacznego!'
-        )
-      )
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/6234895/ello-optimized-24cdaed7.jpg', alt: 'Zdj\u0119cie przedstawia zbli\u017Cenie na ciemny talerz na jasnym tle. Na talerzu znajduj\u0105 si\u0119 warzywa, bia\u0142y sos, zio\u0142a.' })
-    )
-  );
-};
-var frontMatter = exports.frontMatter = { "title": "Smaki_Jesieni vol._1. Sałatka z_białej rzepy i_rzodkiewki.", "date": "2017-09-16T16:51:00.000Z", "permalink": "/2017-09-16-salatka-z-bialej-rzepy-i-rzodkiewki", "categories": ["Sztuka Gotowania"], "tags": ["przepis", "sałatka", "smak", "jesień", "przystawka", "sztuka", "talerz", "artysta", "kucharz", "kreacja", "kompozycja"] };
-var body = exports.body = "<olela-narrative>\nJesień to czas, kiedy z lekkich letnich sałatek zaczynami przerzucać się na dania rozgrzewające. W końcu zima zbliża się wielkimi krokami. Imbir, chilli, kardamon – to zdecydowanie moje zimowe aromaty. A jesień? Zamyśliłam się chwile nad smakiem jesieni. Chciałam zrobić coś lekkiego, jednocześnie odchodząc od ogórkowych, orzeźwiających smaków lata, a nie dochodząc do ciężkich aromatów zimy.\n</olela-narrative>\n<p>W ręce wpadł mi stary numer KukBuk’a (marzec/kwiecień 2015). Pamiętam, że jeszcze wtedy pracowałam w pewnej krakowskiej restauracji gotując wegańskie zupy. Zainspirowana przepisem Piotra Markowskiego dochodzę do wniosku, że jesień to dla mnie rzodkiewka – lekkie warzywo, ale o ostrym posmaku, brokuł, kalafior, cukinia, jabłka, no i oczywiście dynia. Dziś wyczarowałam jesienną przystawkę. Przepis znajdziecie poniżej.</p>\n<div>\n  <Recipe\n    title='Sałatka z białej rzepy i rzodkiewki'\n    time='10 minut'\n    level='łatwy'\n    mealFor='1 osoba'\n    photo='https://assets2.ello.co/uploads/asset/attachment/6234887/ello-optimized-033c3643.jpg'\n    altText='Zdjęcie przedstawia ciemny talerz na jasnym tle z perspektywy lotu ptaka. Na talerzu znajdują się warzywa, biały sos, zioła.'\n  >\n    <Ingredient title='biała rzepa' />\n    <Ingredient title='rzodkiewka' quantity='ok 3 sztuki' />\n    <Ingredient title='brokuł' />\n    <Ingredient title='mleczko kokosowe' quantity='ok 4 łyżki' />\n    <Ingredient title='migdały w płatkach' quantity='garść' />\n    <Ingredient title='kolendra świeża' quantity='garść' />\n    <Ingredient title='oliwa z wytłoczyn z oliwek' quantity='ok 3 łyżki' />\n    <Ingredient title='pieprz i sól do smaku' />\n    <Method>\n      Brokuł gotuję w osolonej wodzie. Na suchej patelni prażę płatki migdałów,\n      a później mielę na puder. Rzepę i rzodkiew kroję w drobne plasterki.\n      Mleczko kokosowe redukuje przez chwilę na patelni.\n      Ugotowanego brokuła blenduję na purée, doprawiam solą i pieprzem,\n      a kolendrę miksuję razem z oliwą. Na talerz wylewam mleko kokosowe,\n      w głowie wspominając wielkiego mistrza taszyzmu – Jackson'a Pollock'a.\n      Układam rzepę i rzodkiew – tutaj wspomnienia nabierają geometrii Kandinsky’ego.\n      Z boku nakładam odrobinę brokułowego purée, a całość dekoruję pudrem z migdałów,\n      kolendrową oliwą i listkami kolendry. Takie proste, a takie pyszne! Smacznego!\n    </Method>\n  </Recipe>\n</div>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6234895/ello-optimized-24cdaed7.jpg\" alt=\"Zdjęcie przedstawia zbliżenie na ciemny talerz na jasnym tle. Na talerzu znajdują się warzywa, biały sos, zioła.\" /></p>\n";
-var raw = exports.raw = "\n<olela-narrative>\nJesień to czas, kiedy z lekkich letnich sałatek zaczynami przerzucać się na dania rozgrzewające. W końcu zima zbliża się wielkimi krokami. Imbir, chilli, kardamon – to zdecydowanie moje zimowe aromaty. A jesień? Zamyśliłam się chwile nad smakiem jesieni. Chciałam zrobić coś lekkiego, jednocześnie odchodząc od ogórkowych, orzeźwiających smaków lata, a nie dochodząc do ciężkich aromatów zimy.\n</olela-narrative>\n\nW ręce wpadł mi stary numer KukBuk’a (marzec/kwiecień 2015). Pamiętam, że jeszcze wtedy pracowałam w pewnej krakowskiej restauracji gotując wegańskie zupy. Zainspirowana przepisem Piotra Markowskiego dochodzę do wniosku, że jesień to dla mnie rzodkiewka – lekkie warzywo, ale o ostrym posmaku, brokuł, kalafior, cukinia, jabłka, no i oczywiście dynia. Dziś wyczarowałam jesienną przystawkę. Przepis znajdziecie poniżej.\n\n<div>\n  <Recipe\n    title='Sałatka z białej rzepy i rzodkiewki'\n    time='10 minut'\n    level='łatwy'\n    mealFor='1 osoba'\n    photo='https://assets2.ello.co/uploads/asset/attachment/6234887/ello-optimized-033c3643.jpg'\n    altText='Zdjęcie przedstawia ciemny talerz na jasnym tle z perspektywy lotu ptaka. Na talerzu znajdują się warzywa, biały sos, zioła.'\n  >\n    <Ingredient title='biała rzepa' />\n    <Ingredient title='rzodkiewka' quantity='ok 3 sztuki' />\n    <Ingredient title='brokuł' />\n    <Ingredient title='mleczko kokosowe' quantity='ok 4 łyżki' />\n    <Ingredient title='migdały w płatkach' quantity='garść' />\n    <Ingredient title='kolendra świeża' quantity='garść' />\n    <Ingredient title='oliwa z wytłoczyn z oliwek' quantity='ok 3 łyżki' />\n    <Ingredient title='pieprz i sól do smaku' />\n    <Method>\n      Brokuł gotuję w osolonej wodzie. Na suchej patelni prażę płatki migdałów,\n      a później mielę na puder. Rzepę i rzodkiew kroję w drobne plasterki.\n      Mleczko kokosowe redukuje przez chwilę na patelni.\n      Ugotowanego brokuła blenduję na purée, doprawiam solą i pieprzem,\n      a kolendrę miksuję razem z oliwą. Na talerz wylewam mleko kokosowe,\n      w głowie wspominając wielkiego mistrza taszyzmu – Jackson'a Pollock'a.\n      Układam rzepę i rzodkiew – tutaj wspomnienia nabierają geometrii Kandinsky’ego.\n      Z boku nakładam odrobinę brokułowego purée, a całość dekoruję pudrem z migdałów,\n      kolendrową oliwą i listkami kolendry. Takie proste, a takie pyszne! Smacznego!\n    </Method>\n  </Recipe>\n</div>\n\n\n![Zdjęcie przedstawia zbliżenie na ciemny talerz na jasnym tle. Na talerzu znajdują się warzywa, biały sos, zioła.](https://assets1.ello.co/uploads/asset/attachment/6234895/ello-optimized-24cdaed7.jpg)\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
-
-/***/ }),
-/* 70 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(global) {
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _ContentLimiter = __webpack_require__(3);
-
-var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-global.__data = __webpack_require__(2).default;
-
-var code = global.__data.map(function (entry, index) {
-  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
-}).join('');eval.call(null, code);
-delete global.__data;
-
-var component = exports.component = function component(data) {
-  return _react2.default.createElement(
-    _ContentLimiter2.default,
-    _extends({ limit: 5 }, data),
-    _react2.default.createElement(
-      'olela-narrative',
-      null,
-      'Pomy\u015Bl przez chwil\u0119 o swoim ulubionym arty\u015Bcie. Mo\u017Ce fascynuj\u0105 Ci\u0119 kompozycje Joan\u2019a Mir\xF3 , a mo\u017Ce przepadasz za kropkami tak jak Yayoi Kusama? Nie znasz ich zbyt wielu? Nie szkodzi \u2013 zajrzyj do internetu. Wpisz nazwisko, jakie pierwsze przyjdzie Ci do g\u0142owy, lub nazw\u0119 kierunku np. kubizm. Reszta wy\u015Bwietli si\u0119 sama. Od jednego dzie\u0142a do nast\u0119pnego. Zainspiruj si\u0119 i wykorzystaj talerz jako p\u0142\xF3tno. My\u015Bl\u0105c o sk\u0142adnikach pomy\u015Bl te\u017C o kolorach. Mieszaj je ze sob\u0105 z uwa\u017Cno\u015Bci\u0105 buddyjskiego mnicha, zaobserwuj ich struktur\u0119. Na samym ko\u0144cu zastan\xF3w si\u0119 nad kompozycj\u0105. Czy ma mie\u0107 charakter otwarty, a mo\u017Ce wolisz co\u015B scentrowanego, kt\xF3re elementy warto wyeksponowa\u0107 na pierwszym planie, a kt\xF3re s\u0105 tylko dodatkiem do koncertu smak\xF3w, zapach\xF3w i barw. Voil\xE0. Oto dzie\u0142o, kt\xF3re w przeciwie\u0144stwie do obraz\xF3w nie ma przetrwa\u0107 tysi\u0105ca lat, bo im szybciej znika, tym bardziej si\u0119 podoba.'
-    ),
-    _react2.default.createElement(
-      'div',
-      null,
-      _react2.default.createElement(
-        Recipe,
-        {
-          title: 'Curry z pomidor\xF3w, cukinii i jab\u0142ek',
-          time: '30 minut',
-          level: '\u0142atwy',
-          mealFor: '4 osoby',
-          photo: 'https://assets2.ello.co/uploads/asset/attachment/6243540/ello-optimized-936d4bdf.jpg',
-          altText: 'Zdj\u0119cie przedstawia seledynowy talerz na jasnym tle z perspektywy lotu ptaka. Na talerzu znajduj\u0105 si\u0119 warzywa, czerwony sos, bia\u0142y sos, \u017C\xF3\u0142ty ry\u017C, zio\u0142a, orzechy.'
-        },
-        _react2.default.createElement(Ingredient, { title: 'cukinia', quantity: '1 \u015Brednia ' }),
-        _react2.default.createElement(Ingredient, { title: 'jab\u0142ko', quantity: '1 \u015Brednie' }),
-        _react2.default.createElement(Ingredient, { title: 'cebula czerwona', quantity: '2 \u015Brednie' }),
-        _react2.default.createElement(Ingredient, { title: 'pomidory krojone', quantity: '1 puszka' }),
-        _react2.default.createElement(Ingredient, { title: 'koncentrat pomidorowy', quantity: '2 \u0142y\u017Ceczki' }),
-        _react2.default.createElement(Ingredient, { title: 'czosnek', quantity: '3 z\u0105bki' }),
-        _react2.default.createElement(Ingredient, { title: 'go\u017Adziki', quantity: '3 sztuki' }),
-        _react2.default.createElement(Ingredient, { title: 'papryka s\u0142odka mielona', quantity: '1 \u0142y\u017Cka' }),
-        _react2.default.createElement(Ingredient, { title: '\u015Bwie\u017Ca kolendra do przyozdobienia' }),
-        _react2.default.createElement(Ingredient, { title: 'pieprz i s\xF3l do smaku' }),
-        _react2.default.createElement(Ingredient, { title: 'ry\u017C basmati', quantity: '250 g' }),
-        _react2.default.createElement(Ingredient, { title: 'daktyle suszone', quantity: 'gar\u015B\u0107' }),
-        _react2.default.createElement(Ingredient, { title: 'kurkuma lub przyprawa curry', quantity: 'ok jedna \u0142y\u017Cka' }),
-        _react2.default.createElement(
-          Method,
-          null,
-          'Cebul\u0119 kroj\u0119 w drobn\u0105 kostk\u0119, siekam 2 z\u0105bki czosnku i wrzucam wszystko do garnka na rozgrzany olej. Dorzucam 3 go\u017Adziki. Kiedy ca\u0142o\u015B\u0107 si\u0119 podsma\u017Ca kroj\u0119 w kostk\u0119 cukini\u0119 i jab\u0142ka. W osobnym garnku, w osolonej wodzie gotuj\u0119 ry\u017C. Cukinie dorzucam do cebuli, zasypuj\u0119 sol\u0105 i przykrywam. Dusz\u0119 tak ok. 10min, po czym dodaj\u0119 \u0142y\u017Ck\u0119 s\u0142odkiej papryki i zostawiam jeszcze na chwil\u0119. Kiedy ry\u017C si\u0119 ugotuj\u0119, ods\u0105czam go i dorzucam posiekane daktyle i ok. 2 \u0142y\u017Cki kurkumy (lub przyprawy curry) i mieszam dok\u0142adnie (mo\u017Cna doda\u0107 odrobin\u0119 oliwy). Do podduszonej cukinii wlewam pomidory i koncentrat, oraz dorzucam jab\u0142ka. Zostawiam ca\u0142o\u015B\u0107 na ma\u0142ym ogniu pod przykryciem na ok 10-15 min. Na sam koniec wyciskam jeszcze z\u0105bek czosnku i doprawiam sol\u0105 i pieprzem wed\u0142ug uznania (mo\u017Cna doda\u0107 te\u017C troch\u0119 pieprzu cayenne dla ostro\u015Bci). Gotowe.'
-        )
-      )
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/6238656/ello-optimized-e62176d8.jpg', alt: 'Zdj\u0119cie przedstawia zbli\u017Cenie na seledynowy talerz na jasnym tle. Na talerzu znajduj\u0105 si\u0119 \u017C\xF3\u0142ty ry\u017C, czerwony sos, warzywa, zio\u0142a, orzechy.' })
-    )
-  );
-};
-var frontMatter = exports.frontMatter = { "title": "Smaki_Jesieni vol._2. Curry z_pomidorów, cukinii i_jabłek.", "date": "2017-09-17T15:47:00.000Z", "categories": ["Sztuka Gotowania"], "tags": ["przepis", "curry", "cukinia", "jabłka", "kuchnia", "sztuka", "artysta", "kreacja", "kompozycja", "smak", "jesień", "kucharz", "talerz"] };
-var body = exports.body = "<olela-narrative>\nPomyśl przez chwilę o swoim ulubionym artyście. Może fascynują Cię kompozycje Joan’a Miró , a może przepadasz za kropkami tak jak Yayoi Kusama? Nie znasz ich zbyt wielu? Nie szkodzi – zajrzyj do internetu. Wpisz nazwisko, jakie pierwsze przyjdzie Ci do głowy, lub nazwę kierunku np. kubizm. Reszta wyświetli się sama. Od jednego dzieła do następnego. Zainspiruj się i wykorzystaj talerz jako płótno. Myśląc o składnikach pomyśl też o kolorach. Mieszaj je ze sobą z uważnością buddyjskiego mnicha, zaobserwuj ich strukturę. Na samym końcu zastanów się nad kompozycją. Czy ma mieć charakter otwarty, a może wolisz coś scentrowanego, które elementy warto wyeksponować na pierwszym planie, a które są tylko dodatkiem do koncertu smaków, zapachów i barw. Voilà. Oto dzieło, które w przeciwieństwie do obrazów nie ma przetrwać tysiąca lat, bo im szybciej znika, tym bardziej się podoba.\n</olela-narrative>\n<div>\n  <Recipe\n    title='Curry z pomidorów, cukinii i jabłek'\n    time='30 minut'\n    level='łatwy'\n    mealFor='4 osoby'\n    photo='https://assets2.ello.co/uploads/asset/attachment/6243540/ello-optimized-936d4bdf.jpg'\n    altText='Zdjęcie przedstawia seledynowy talerz na jasnym tle z perspektywy lotu ptaka. Na talerzu znajdują się warzywa, czerwony sos, biały sos, żółty ryż, zioła, orzechy.'\n  >\n    <Ingredient title='cukinia' quantity='1 średnia ' />\n    <Ingredient title='jabłko' quantity='1 średnie' />\n    <Ingredient title='cebula czerwona' quantity='2 średnie' />\n    <Ingredient title='pomidory krojone' quantity='1 puszka' />\n    <Ingredient title='koncentrat pomidorowy' quantity='2 łyżeczki' />\n    <Ingredient title='czosnek' quantity='3 ząbki' />\n    <Ingredient title='goździki' quantity='3 sztuki' />\n    <Ingredient title='papryka słodka mielona' quantity='1 łyżka'/>\n    <Ingredient title='świeża kolendra do przyozdobienia' />\n    <Ingredient title='pieprz i sól do smaku' />\n    <Ingredient title='ryż basmati' quantity='250 g' />\n    <Ingredient title='daktyle suszone' quantity='garść' />\n    <Ingredient title='kurkuma lub przyprawa curry' quantity='ok jedna łyżka' />\n    <Method>\n      Cebulę kroję w drobną kostkę, siekam 2 ząbki czosnku i wrzucam wszystko do garnka na rozgrzany olej. Dorzucam 3 goździki. Kiedy całość się podsmaża kroję w kostkę cukinię i jabłka. W osobnym garnku, w osolonej wodzie gotuję ryż. Cukinie dorzucam do cebuli, zasypuję solą i przykrywam. Duszę tak ok. 10min, po czym dodaję łyżkę słodkiej papryki i zostawiam jeszcze na chwilę. Kiedy ryż się ugotuję, odsączam go i dorzucam posiekane daktyle i ok. 2 łyżki kurkumy (lub przyprawy curry) i mieszam dokładnie (można dodać odrobinę oliwy). Do podduszonej cukinii wlewam pomidory i koncentrat, oraz dorzucam jabłka. Zostawiam całość na małym ogniu pod przykryciem na ok 10-15 min. Na sam koniec wyciskam jeszcze ząbek czosnku i doprawiam solą i pieprzem według uznania (można dodać też trochę pieprzu cayenne dla ostrości). Gotowe. \n    </Method>\n  </Recipe>\n</div>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6238656/ello-optimized-e62176d8.jpg\" alt=\"Zdjęcie przedstawia zbliżenie na seledynowy talerz na jasnym tle. Na talerzu znajdują się żółty ryż, czerwony sos, warzywa, zioła, orzechy.\" /></p>\n";
-var raw = exports.raw = "\n<olela-narrative>\nPomyśl przez chwilę o swoim ulubionym artyście. Może fascynują Cię kompozycje Joan’a Miró , a może przepadasz za kropkami tak jak Yayoi Kusama? Nie znasz ich zbyt wielu? Nie szkodzi – zajrzyj do internetu. Wpisz nazwisko, jakie pierwsze przyjdzie Ci do głowy, lub nazwę kierunku np. kubizm. Reszta wyświetli się sama. Od jednego dzieła do następnego. Zainspiruj się i wykorzystaj talerz jako płótno. Myśląc o składnikach pomyśl też o kolorach. Mieszaj je ze sobą z uważnością buddyjskiego mnicha, zaobserwuj ich strukturę. Na samym końcu zastanów się nad kompozycją. Czy ma mieć charakter otwarty, a może wolisz coś scentrowanego, które elementy warto wyeksponować na pierwszym planie, a które są tylko dodatkiem do koncertu smaków, zapachów i barw. Voilà. Oto dzieło, które w przeciwieństwie do obrazów nie ma przetrwać tysiąca lat, bo im szybciej znika, tym bardziej się podoba.\n</olela-narrative>\n\n<div>\n  <Recipe\n    title='Curry z pomidorów, cukinii i jabłek'\n    time='30 minut'\n    level='łatwy'\n    mealFor='4 osoby'\n    photo='https://assets2.ello.co/uploads/asset/attachment/6243540/ello-optimized-936d4bdf.jpg'\n    altText='Zdjęcie przedstawia seledynowy talerz na jasnym tle z perspektywy lotu ptaka. Na talerzu znajdują się warzywa, czerwony sos, biały sos, żółty ryż, zioła, orzechy.'\n  >\n    <Ingredient title='cukinia' quantity='1 średnia ' />\n    <Ingredient title='jabłko' quantity='1 średnie' />\n    <Ingredient title='cebula czerwona' quantity='2 średnie' />\n    <Ingredient title='pomidory krojone' quantity='1 puszka' />\n    <Ingredient title='koncentrat pomidorowy' quantity='2 łyżeczki' />\n    <Ingredient title='czosnek' quantity='3 ząbki' />\n    <Ingredient title='goździki' quantity='3 sztuki' />\n    <Ingredient title='papryka słodka mielona' quantity='1 łyżka'/>\n    <Ingredient title='świeża kolendra do przyozdobienia' />\n    <Ingredient title='pieprz i sól do smaku' />\n    <Ingredient title='ryż basmati' quantity='250 g' />\n    <Ingredient title='daktyle suszone' quantity='garść' />\n    <Ingredient title='kurkuma lub przyprawa curry' quantity='ok jedna łyżka' />\n    <Method>\n      Cebulę kroję w drobną kostkę, siekam 2 ząbki czosnku i wrzucam wszystko do garnka na rozgrzany olej. Dorzucam 3 goździki. Kiedy całość się podsmaża kroję w kostkę cukinię i jabłka. W osobnym garnku, w osolonej wodzie gotuję ryż. Cukinie dorzucam do cebuli, zasypuję solą i przykrywam. Duszę tak ok. 10min, po czym dodaję łyżkę słodkiej papryki i zostawiam jeszcze na chwilę. Kiedy ryż się ugotuję, odsączam go i dorzucam posiekane daktyle i ok. 2 łyżki kurkumy (lub przyprawy curry) i mieszam dokładnie (można dodać odrobinę oliwy). Do podduszonej cukinii wlewam pomidory i koncentrat, oraz dorzucam jabłka. Zostawiam całość na małym ogniu pod przykryciem na ok 10-15 min. Na sam koniec wyciskam jeszcze ząbek czosnku i doprawiam solą i pieprzem według uznania (można dodać też trochę pieprzu cayenne dla ostrości). Gotowe. \n    </Method>\n  </Recipe>\n</div>\n\n\n![Zdjęcie przedstawia zbliżenie na seledynowy talerz na jasnym tle. Na talerzu znajdują się żółty ryż, czerwony sos, warzywa, zioła, orzechy.](https://assets0.ello.co/uploads/asset/attachment/6238656/ello-optimized-e62176d8.jpg)";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
-
-/***/ }),
-/* 71 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(global) {
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _ContentLimiter = __webpack_require__(3);
-
-var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-global.__data = __webpack_require__(2).default;
-
-var code = global.__data.map(function (entry, index) {
-  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
-}).join('');eval.call(null, code);
-delete global.__data;
-
-var component = exports.component = function component(data) {
-  return _react2.default.createElement(
-    _ContentLimiter2.default,
-    _extends({ limit: 5 }, data),
-    _react2.default.createElement(
       'p',
       null,
       _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/6235681/ello-optimized-4ab7553c.jpg', alt: 'Zdj\u0119cie centralnie przedstawia ro\u015Blin\u0119 z rodziny kaktusowatych, rosn\u0105c\u0105 w szarej glebie na tle jasnej \u015Bciany.' }),
@@ -3587,7 +3411,7 @@ var raw = exports.raw = "\n![Zdjęcie centralnie przedstawia roślinę z rodziny
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 72 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3700,7 +3524,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia twarz młodej kobiety na żó�
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 73 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3805,7 +3629,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia kobietę ubraną na biało, na
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 74 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3885,7 +3709,7 @@ var raw = exports.raw = "\nW latach 1917-1928 Theo van Doesburg wydawał w Holan
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 75 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4022,7 +3846,7 @@ var raw = exports.raw = "\n<olela-narrative>\nPrzyszła.\n</olela-narrative>\n\n
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 76 */
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4073,7 +3897,7 @@ var raw = exports.raw = "\n![Obrazek przedstawia cztery zdjęcia kobiet w stroja
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 77 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4203,7 +4027,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia młodą kobietę w mocnym maki
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 78 */
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4277,7 +4101,7 @@ var raw = exports.raw = "\nPOPular ART... czyli kierunek w sztuce, któremu w uk
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 79 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4454,7 +4278,7 @@ var raw = exports.raw = "\n W swoim życiu nie spotkałam kobiety, która nie lu
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 80 */
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4532,87 +4356,7 @@ var raw = exports.raw = "\nMinimalizm (lata 60te XX wieku)... Jak sama nazwa wsk
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 81 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(global) {
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _ContentLimiter = __webpack_require__(3);
-
-var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-global.__data = __webpack_require__(2).default;
-
-var code = global.__data.map(function (entry, index) {
-  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
-}).join('');eval.call(null, code);
-delete global.__data;
-
-var component = exports.component = function component(data) {
-  return _react2.default.createElement(
-    _ContentLimiter2.default,
-    _extends({ limit: 5 }, data),
-    _react2.default.createElement(
-      'olela-narrative',
-      null,
-      'W oryginale \'szarlotka babci Czesi\'. Przepis jest bardzo klasyczny, stary (w rodzinie od pokole\u0144) i dobry. To ciasto zawsze wychodzi. Dodatkowo zostawia pole do popisu Twojej wyobra\u017Ani - ja na wierzch ciasta po\u0142o\u017Cy\u0142am pasy ciasta, tworz\u0105c krat\u0119. A Ty? Mo\u017Ce masz pomys\u0142 na inne kszta\u0142ty? Mo\u017Cesz tak\u017Ce opr\xF3szy\u0107 ca\u0142o\u015B\u0107 cukrem lub cynamonem. Podaj kawa\u0142ek szarlotki na ciep\u0142o z ga\u0142k\u0105 lod\xF3w waniliowych, a jesienna chandra minie jak r\u0119k\u0105 odj\u0105\u0142!'
-    ),
-    _react2.default.createElement(
-      'div',
-      null,
-      _react2.default.createElement(
-        Recipe,
-        {
-          title: 'Geometryczna szarlotka',
-          time: '120 minut',
-          level: '\u0142atwy',
-          mealFor: '15 os\xF3b',
-          photo: 'https://assets2.ello.co/uploads/asset/attachment/6401877/ello-optimized-acbac144.jpg',
-          altText: 'Zdj\u0119cie przedstawia czerwony talerz na jasnym tle z perspektywy lotu ptaka. Na talerzu znajduje si\u0119 ciasto z jab\u0142kami.'
-        },
-        _react2.default.createElement(Ingredient, { title: 'jab\u0142ka', quantity: '10 \u015Brednich' }),
-        _react2.default.createElement(Ingredient, { title: 'm\u0105ka pszenna', quantity: '3 i 1/2 szklanki' }),
-        _react2.default.createElement(Ingredient, { title: 'cukier puder', quantity: '1/2 szklanki' }),
-        _react2.default.createElement(Ingredient, { title: 'cukier br\u0105zowy', quantity: '3 \u0142y\u017Cki' }),
-        _react2.default.createElement(Ingredient, { title: 'mas\u0142o', quantity: '1 kostka' }),
-        _react2.default.createElement(Ingredient, { title: 'jaja', quantity: '4' }),
-        _react2.default.createElement(Ingredient, { title: 'proszek do pieczenia', quantity: '2 \u0142y\u017Ceczki' }),
-        _react2.default.createElement(
-          Method,
-          null,
-          'Obieram wszystkie jab\u0142ka (u mnie odmiana \'ligol\') i kroj\u0119 w drobn\u0105 kostk\u0119. Wrzucam do garnka, zalewam odrobin\u0105 wody, kropi\u0119 sokiem z cytryny, zasypuj\u0119 br\u0105zowym cukrem i dusz\u0119 do mi\u0119kko\u015Bci. W mi\u0119dzyczasie przygotowuj\u0119 ciasto. Mieszam m\u0105k\u0119 z proszkiem do pieczenia, cukrem pudrem i zimnym mas\u0142em (dok\u0142adnie tak, jak zagniata si\u0119 kruche ciasto). Wbijam jaja i wyrabiam r\u0119koma. Dziel\u0119 na dwie r\xF3wne cz\u0119\u015Bci i wsadzam na p\xF3\u0142 godziny do lod\xF3wki. Po tym czasie jedn\u0105 z cz\u0119\u015Bci rozwa\u0142kowuje i wyk\u0142adam do blachy o \u015Brednicy 25 x 40 cm. Wyk\u0142adam uduszone jab\u0142ka i przykrywam drug\u0105 cz\u0119\u015Bci\u0105 ciasta.Tak przygotowane ciasto l\u0105duje na ok. 45 min. do nagrzanego do 180\xB0C. Voil\xE0 - najlepiej smakuje na ciep\u0142o z lodami waniliowymi.'
-        )
-      )
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/6401889/ello-optimized-f23c386a.jpg', alt: 'Zdj\u0119cie przedstawia ciasto z jab\u0142kami na czerwonym talerzu.' }),
-      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/6401901/ello-optimized-01997911.jpg', alt: 'Zdj\u0119cie przedstawia zbli\u017Cenie na ciasto z jab\u0142kami na czerwonym talerzu.' })
-    )
-  );
-};
-var frontMatter = exports.frontMatter = { "title": "Smaki_Jesieni vol._3. Geometryczna_szarlotka.", "date": "2017-10-23T16:22:00.000Z", "categories": ["Sztuka Gotowania"], "tags": ["przepis", "deser", "szarlotka", "jabłka", "jesień", "kuchnia", "kompozycja", "kreacja", "sztuka", "artysta"] };
-var body = exports.body = "<olela-narrative>\nW oryginale 'szarlotka babci Czesi'. Przepis jest bardzo klasyczny, stary (w rodzinie od pokoleń) i dobry. To ciasto zawsze wychodzi. Dodatkowo zostawia pole do popisu Twojej wyobraźni - ja na wierzch ciasta położyłam pasy ciasta, tworząc kratę. A Ty? Może masz pomysł na inne kształty? Możesz także oprószyć całość cukrem lub cynamonem. Podaj kawałek szarlotki na ciepło z gałką lodów waniliowych, a jesienna chandra minie jak ręką odjął!\n</olela-narrative>\n<div>\n  <Recipe\n    title='Geometryczna szarlotka'\n    time='120 minut'\n    level='łatwy'\n    mealFor='15 osób'\n    photo='https://assets2.ello.co/uploads/asset/attachment/6401877/ello-optimized-acbac144.jpg'\n    altText='Zdjęcie przedstawia czerwony talerz na jasnym tle z perspektywy lotu ptaka. Na talerzu znajduje się ciasto z jabłkami.'\n  >\n    <Ingredient title='jabłka' quantity='10 średnich' />\n    <Ingredient title='mąka pszenna' quantity='3 i 1/2 szklanki' />\n    <Ingredient title='cukier puder' quantity='1/2 szklanki' />\n    <Ingredient title='cukier brązowy' quantity='3 łyżki' />\n    <Ingredient title='masło' quantity='1 kostka' />\n    <Ingredient title='jaja' quantity='4' />\n    <Ingredient title='proszek do pieczenia' quantity='2 łyżeczki' />\n    <Method>\nObieram wszystkie jabłka (u mnie odmiana 'ligol') i kroję w drobną kostkę. Wrzucam do garnka, zalewam odrobiną wody, kropię sokiem z cytryny, zasypuję brązowym cukrem i duszę do miękkości. W międzyczasie przygotowuję ciasto. Mieszam mąkę z proszkiem do pieczenia, cukrem pudrem i zimnym masłem (dokładnie tak, jak zagniata się kruche ciasto). Wbijam jaja i wyrabiam rękoma. Dzielę na dwie równe części i wsadzam na pół godziny do lodówki. Po tym czasie jedną z części rozwałkowuje i wykładam do blachy o średnicy 25 x 40 cm. Wykładam uduszone jabłka i przykrywam drugą częścią ciasta.Tak przygotowane ciasto ląduje na ok. 45 min. do nagrzanego do 180°C. Voilà - najlepiej smakuje na ciepło z lodami waniliowymi.\n    </Method>\n  </Recipe>\n</div>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6401889/ello-optimized-f23c386a.jpg\" alt=\"Zdjęcie przedstawia ciasto z jabłkami na czerwonym talerzu.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6401901/ello-optimized-01997911.jpg\" alt=\"Zdjęcie przedstawia zbliżenie na ciasto z jabłkami na czerwonym talerzu.\" /></p>\n";
-var raw = exports.raw = "\n<olela-narrative>\nW oryginale 'szarlotka babci Czesi'. Przepis jest bardzo klasyczny, stary (w rodzinie od pokoleń) i dobry. To ciasto zawsze wychodzi. Dodatkowo zostawia pole do popisu Twojej wyobraźni - ja na wierzch ciasta położyłam pasy ciasta, tworząc kratę. A Ty? Może masz pomysł na inne kształty? Możesz także oprószyć całość cukrem lub cynamonem. Podaj kawałek szarlotki na ciepło z gałką lodów waniliowych, a jesienna chandra minie jak ręką odjął!\n</olela-narrative>\n\n<div>\n  <Recipe\n    title='Geometryczna szarlotka'\n    time='120 minut'\n    level='łatwy'\n    mealFor='15 osób'\n    photo='https://assets2.ello.co/uploads/asset/attachment/6401877/ello-optimized-acbac144.jpg'\n    altText='Zdjęcie przedstawia czerwony talerz na jasnym tle z perspektywy lotu ptaka. Na talerzu znajduje się ciasto z jabłkami.'\n  >\n    <Ingredient title='jabłka' quantity='10 średnich' />\n    <Ingredient title='mąka pszenna' quantity='3 i 1/2 szklanki' />\n    <Ingredient title='cukier puder' quantity='1/2 szklanki' />\n    <Ingredient title='cukier brązowy' quantity='3 łyżki' />\n    <Ingredient title='masło' quantity='1 kostka' />\n    <Ingredient title='jaja' quantity='4' />\n    <Ingredient title='proszek do pieczenia' quantity='2 łyżeczki' />\n    <Method>\nObieram wszystkie jabłka (u mnie odmiana 'ligol') i kroję w drobną kostkę. Wrzucam do garnka, zalewam odrobiną wody, kropię sokiem z cytryny, zasypuję brązowym cukrem i duszę do miękkości. W międzyczasie przygotowuję ciasto. Mieszam mąkę z proszkiem do pieczenia, cukrem pudrem i zimnym masłem (dokładnie tak, jak zagniata się kruche ciasto). Wbijam jaja i wyrabiam rękoma. Dzielę na dwie równe części i wsadzam na pół godziny do lodówki. Po tym czasie jedną z części rozwałkowuje i wykładam do blachy o średnicy 25 x 40 cm. Wykładam uduszone jabłka i przykrywam drugą częścią ciasta.Tak przygotowane ciasto ląduje na ok. 45 min. do nagrzanego do 180°C. Voilà - najlepiej smakuje na ciepło z lodami waniliowymi.\n    </Method>\n  </Recipe>\n</div>\n\n![Zdjęcie przedstawia ciasto z jabłkami na czerwonym talerzu.](https://assets1.ello.co/uploads/asset/attachment/6401889/ello-optimized-f23c386a.jpg)\n![Zdjęcie przedstawia zbliżenie na ciasto z jabłkami na czerwonym talerzu.](https://assets2.ello.co/uploads/asset/attachment/6401901/ello-optimized-01997911.jpg)";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
-
-/***/ }),
-/* 82 */
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4698,7 +4442,7 @@ var raw = exports.raw = "\nZnalazłam się w miejscu, do którego przeciętny ś
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 83 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4807,7 +4551,7 @@ var raw = exports.raw = "\n<olela-narrative>\nWyobraźcie sobie pewien zestaw pr
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 84 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4997,7 +4741,7 @@ var raw = exports.raw = "\n<olela-narrative>\nAndré Breton, 'Manifest surrealiz
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 85 */
+/* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5168,7 +4912,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia kobietę ubraną na biało, na
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 86 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5232,7 +4976,7 @@ var raw = exports.raw = "\n![Obraz przedstawia fotografie na szarym tle, widzimy
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 87 */
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5363,7 +5107,7 @@ var raw = exports.raw = "\nZ tą ekspozycją wiązałam dość duże nadzieje. P
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 88 */
+/* 85 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5413,191 +5157,7 @@ var raw = exports.raw = "\n![Obraz przedstawia fotografie na niebieskim tle. Wid
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 89 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(global) {
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _ContentLimiter = __webpack_require__(3);
-
-var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-global.__data = __webpack_require__(2).default;
-
-var code = global.__data.map(function (entry, index) {
-  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
-}).join('');eval.call(null, code);
-delete global.__data;
-
-var component = exports.component = function component(data) {
-  return _react2.default.createElement(
-    _ContentLimiter2.default,
-    _extends({ limit: 5 }, data),
-    _react2.default.createElement(
-      'olela-narrative',
-      null,
-      'Czy wiecie, jak niewiele trzeba aby odmieni\u0107 stare ubranie? Pisz\u0105c \u2018niewiele\u2019 mam na my\u015Bli niewiele wysi\u0142ku, niewiele czasu i oczywi\u015Bcie niewiele pieni\u0119dzy. Jedyne czego potrzeba to inspiracji, a te akurat znajdziemy bez problemu ogl\u0105daj\u0105c zdj\u0119cia w internecie, czy przechadzaj\u0105c si\u0119 po sklepach. Wiadomo te\u017C, jak to jest z ciuchami \u2013 stare si\u0119 nudz\u0105, ale je\u015Bli po\u015Bwi\u0119cimy im odrobin\u0119 uwagi i w\u0142\u0105czymy swoj\u0105 kreatywno\u015B\u0107, odmienimy je i pokochamy na nowo. Zatem do dzie\u0142a artystki!'
-    ),
-    _react2.default.createElement(
-      'h2',
-      null,
-      'Winter Trends 2017'
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      'Sieciowe sklepy serwuj\u0105 nam tzw. \u201Eszybk\u0105 mod\u0119\u201D. To znaczy, \u017Ce odpowiadaj\u0105 na g\u0142\xF3wne tendencje pojawiaj\u0105ce si\u0119 na wybiegach i wprowadzaj\u0105 modele, kt\xF3re przypominaj\u0105 nam kreacje znanych projektant\xF3w, a my mo\u017Cemy naby\u0107 je za nisk\u0105 cen\u0105. Tej zimy w sklepach typu Stradivarius, Zara, Mango znalaz\u0142am sporo podobie\u0144stw. Oto g\u0142\xF3wne trendy i jednocze\u015Bnie Must Have\u2019y zimy 2017 r.:'
-    ),
-    _react2.default.createElement(
-      'ol',
-      null,
-      _react2.default.createElement(
-        'li',
-        null,
-        'Per\u0142y. Wszechobecne, zaw\u0142aszczaj\u0105ce prawie ka\u017Cdy skrawek materia\u0142u. S\u0105 na jeansach, bluzach, swetrach, bluzkach, sukienkach, w r\xF3\u017Cnych rozmiarach i kolorach. Dodaj\u0105 ubraniu romantyczny, imprezowy charakter (w ko\u0144cu sylwester tu\u017C, tu\u017C!).'
-      ),
-      _react2.default.createElement(
-        'li',
-        null,
-        'Futro. Futrzane kamizelki, kurtki, obszycia kaptur\xF3w, ale r\xF3wnie\u017C obszycia bluz przy r\u0119kawach, ko\u0142nierzykach.'
-      ),
-      _react2.default.createElement(
-        'li',
-        null,
-        'Beret. Taki w stylu francuskim. Sk\xF3rzany, we\u0142niany, noszony lekko na bok lub zsuni\u0119ty na ty\u0142 glowy.'
-      ),
-      _react2.default.createElement(
-        'li',
-        null,
-        '\u2018Wielka czapka\u2019. Wygl\u0105da jakby by\u0142a wyj\u0119ta z wi\u0119kszego \u015Bwiata, o grubym splocie, cz\u0119sto kolorowa i z pomponem.'
-      ),
-      _react2.default.createElement(
-        'li',
-        null,
-        'Krata. Tak, to zdecydowanie pattern nr 1. Znajdziemy j\u0105 na p\u0142aszczach, spodniach, kamizelkach. Stylizowa\u0107 kratk\u0119 mo\u017Cemy na milion sposob\xF3w \u2013 od elegancji po sport.'
-      ),
-      _react2.default.createElement(
-        'li',
-        null,
-        'Butelkowa ziele\u0144. Przepi\u0119kny kolor g\u0142\u0119bokiego szmaragdu. Wygl\u0105da super w total look\u2019u lub jako pojedynczy akcent.'
-      ),
-      _react2.default.createElement(
-        'li',
-        null,
-        'Wymienia\u0107 mo\u017Cna jeszcze wiele: Oversizowe kurtki puchowe, bardzo wysokie kozaki (si\u0119gaj\u0105ce wr\u0119cz po\u0142owy uda), swetry z wielkim golfem, jednak chcia\u0142am skupi\u0107 si\u0119 na tych trendach, kt\xF3re w bardzo \u0142atwy spos\xF3b mo\u017Cemy wcieli\u0107 w nasz\u0105 garderob\u0119 niekoniecznie kupuj\u0105c nowe rzeczy. Zobaczcie sami, co uda\u0142o mi si\u0119 wyczarowa\u0107.'
-      )
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/6573107/ello-optimized-c2a4b0f9.jpg', alt: 'Zdj\u0119cie przedstawia kobiet\u0119 w koszuli z paskiem na niebieskim tle. Kobieta patrzy do g\xF3ry, ma siwe w\u0142osy i czerwone usta, a przez \u015Brodek zdj\u0119cia przebiega czarna linia.' }),
-      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/6573109/ello-optimized-60b8b9ad.jpg', alt: 'Zdj\u0119cie przedstawia kobiet\u0119 w koszuli z paskiem na niebieskim tle. Kobieta przekrzywia g\u0142ow\u0119 w lew\u0105 stron\u0119, ma szare w\u0142osy i czerwone usta, a przez \u015Brodek zdj\u0119cia przebiega czarna linia.' })
-    ),
-    _react2.default.createElement(
-      'h2',
-      null,
-      'Koszula z dw\xF3ch koszul + per\u0142y'
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      'Ostatnio m\xF3j ch\u0142opak robi\u0142 porz\u0105dki w swojej szafie i znalaz\u0142 kilka niepotrzebnych koszul. Po\u0142o\u017Cy\u0142 je na mojej p\xF3\u0142ce z my\u015Bl\u0105, \u017Ce zostan\u0105 przeze mnie wykorzystane w pracowni jako ubranie robocze. Przele\u017Ca\u0142y tam troch\u0119 czasu, dop\xF3ki nie spojrza\u0142am na nie w kreatywny spos\xF3b. Oto, co zrobi\u0107, aby zyska\u0107 now\u0105 koszul\u0119 z dw\xF3ch starych koszul:'
-    ),
-    _react2.default.createElement(
-      'ol',
-      null,
-      _react2.default.createElement(
-        'li',
-        null,
-        'Przymierz i zadecyduj, kt\xF3ra z koszul b\u0119dzie Twoim \u2018body\u2019, a kt\xF3ra r\u0119kawami. Istotny jest tutaj kr\xF3j, ale te\u017C kolor i wz\xF3r.'
-      ),
-      _react2.default.createElement(
-        'li',
-        null,
-        'W obu koszulach utnij r\u0119kawy tu\u017C za lini\u0105 szwu.'
-      ),
-      _react2.default.createElement(
-        'li',
-        null,
-        'Wywr\xF3\u0107 swoje body i r\u0119kawy na lew\u0105 stron\u0119 i zszyj szew przy szwie, tak, by nitka nie by\u0142a widoczna po w\u0142a\u015Bciwej stronie.'
-      ),
-      _react2.default.createElement(
-        'li',
-        null,
-        'Kup woreczek pere\u0142ek w pasmanterii (koszt ok. 5 z\u0142) i przyszyj do koszuli w r\xF3\u017Cnych miejscach. Mo\u017Cesz przyszy\u0107 je na r\u0119kawach, przy ko\u0142nierzyku lub zast\u0105pi\u0107 nimi guziki. Voil\xE0! Prawda, \u017Ce proste? Mi ca\u0142a robota zaj\u0119\u0142a dwa wieczory przy okazji ogl\u0105dania ulubionego serialu :).'
-      )
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/6573330/ello-optimized-a4f6ddd7.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia, z lewej strony widzimy fragment materia\u0142u z koralikami, a z prawej kobiet\u0119 o czerwonych ustach ubran\u0105 w koszul\u0119 z paskiem.' }),
-      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/6573331/ello-optimized-ba4ef117.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia, z lewej widzimy fragment materia\u0142u, a z prawej kobiet\u0119 o siwych, d\u0142ugich w\u0142osach odwr\xF3con\u0105 ty\u0142em i trzymaj\u0105c\u0105 pasek z napisem.' })
-    ),
-    _react2.default.createElement(
-      'h2',
-      null,
-      'Per\u0142owa czapa i beret'
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      'Czapki i berety oferowane przez sieci\xF3wki to koszt od ok. 50 z\u0142 do 150 z\u0142. Materia\u0142 z kt\xF3rych te nakrycia g\u0142owy s\u0105 wykonane to cz\u0119sto akryl, poliester, wiskoza, a aplikacje nie s\u0105 przyszywane, tylko naklejane. Zawsze zale\u017Cy mi na jako\u015Bci materia\u0142\xF3w, kt\xF3re nosz\u0119, dlatego nie mog\u0142am zdecydowa\u0107 si\u0119 na \u017Cadn\u0105 zaproponowan\u0105 akrylow\u0105 opcj\u0119. Jednak na tyle spodoba\u0142 mi si\u0119 trend beretu i pere\u0142, \u017Ce postanowi\u0142am zosta\u0107 bereciar\u0105 po swojemu. We\u0142niany, doskona\u0142ej jako\u015Bci beret kupi\u0142am na targu za 20 z\u0142. (mo\u017Cna si\u0119 targowa\u0107, a co!), a pere\u0142ki, jak ju\u017C wspomina\u0142am, to koszt ok. 5 z\u0142 za 50 sztuk. Ca\u0142o\u015B\u0107 wynios\u0142a mnie zatem 25 z\u0142. A efekt ciep\u0142y, wytrzyma\u0142y i przyjemnie modny.'
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/6573112/ello-optimized-a662d1a3.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia r\xF3\u017Cnej wielko\u015Bci. Z lewej strony widzimy kobiet\u0119 z r\xF3\u017Cowymi ustami, siwymi w\u0142osami i czarn\u0105 czapk\u0105, kt\xF3ra zas\u0142ania jej oczy. Z prawej strony widzimy zbli\u017Cenie na czapk\u0119.' }),
-      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/6573116/ello-optimized-8d89fded.jpg', alt: 'Zdj\u0119cie przedstawia portret kobiety w czarnej czapce. Kobieta ma szare w\u0142osy, r\xF3\u017Cowe usta i u\u015Bmiecha si\u0119. Ca\u0142o\u015B\u0107 na niebieskim tle.' }),
-      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/6575280/ello-optimized-097d7025.jpg', alt: 'Obraz podzielony jest na dwie cz\u0119\u015Bci, z lewej strony widzimy du\u017Ce zdj\u0119cie kobiety w czarnym berecie na niebieskim tle, a z prawej mniejsze zdj\u0119cie beretu i fragmentu twarzy kobiety.' })
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      'Na czapce widzicie jeszcze agrafk\u0119 kupion\u0105 za 6 z\u0142 w pasmanterii. Czapk\u0119 kupi\u0142am rok temu w h&m, bo by\u0142a jedyn\u0105 w pe\u0142ni bawe\u0142nian\u0105 czapk\u0105 jak\u0105 wtedy znalaz\u0142am.'
-    ),
-    _react2.default.createElement(
-      'h2',
-      null,
-      'Satynowe sznur\xF3wki'
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/6573125/ello-optimized-8bb0c604.jpg', alt: 'Obraz przedstawia zdj\u0119cia but\xF3w. Z lewej strony widzimy jednego czarnego buta z niebieskimi sznur\xF3wkami i w niebieskiej ramce, a z prawej par\u0119 but\xF3w.' })
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      'Wst\u0105\u017Ckowe sznur\xF3wki akurat nie \u0142api\u0105 si\u0119 w tegoroczne trendy, ale to najprostszy mo\u017Cliwy spos\xF3b na odmian\u0119 but\xF3w. Wystarczy kupi\u0107 odpowiedniej d\u0142ugo\u015Bci wst\u0105\u017Cki w pasmanterii. Do wyboru macie setki (dos\u0142ownie!) propozycji kolorystycznych i materia\u0142owych. Mog\u0105 by\u0107 niebieskie satynowe, czerwone aksamitne, ta\u015Bmy plecione, rypsowe, g\u0142adkie, we wzory itd. itd. Wybierz odpowiedni\u0105 dla swojej osobowo\u015Bci, modelu but\xF3w i innych ubra\u0144, do kt\xF3rych zak\u0142ada\u0107 b\u0119dziesz \u2018odpimpowane\u2019 buty. Czasami lubi\u0119 te\u017C nosi\u0107 w jednym bucie inny kolor ni\u017C w drugim. Oryginalnie, artystycznie i z humorem \u2013 na pewno zwr\xF3cisz na siebie uwag\u0119!'
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/6573120/ello-optimized-fdcfd45b.jpg', alt: 'Zdj\u0119cie przedstawia czarne sk\xF3rzane buty z niebieskimi sznur\xF3wkami na jasnym tle.' })
-    )
-  );
-};
-var frontMatter = exports.frontMatter = { "title": "DIY 1. Edycja zimowa", "date": "2017-11-22T11:10:00.000Z", "categories": ["Sztuka Ubioru"], "tags": ["diy", "fashion", "moda", "sztuka", "stylizacja", "kreacja", "trendy", "zima", "2017"] };
-var body = exports.body = "<olela-narrative>\nCzy wiecie, jak niewiele trzeba aby odmienić stare ubranie? Pisząc ‘niewiele’ mam na myśli niewiele wysiłku, niewiele czasu i oczywiście niewiele pieniędzy. Jedyne czego potrzeba to inspiracji, a te akurat znajdziemy bez problemu oglądając zdjęcia w internecie, czy przechadzając się po sklepach. Wiadomo też, jak to jest z ciuchami – stare się nudzą, ale jeśli poświęcimy im odrobinę uwagi i włączymy swoją kreatywność, odmienimy je i pokochamy na nowo. Zatem do dzieła artystki!\n</olela-narrative>\n<h2>Winter Trends 2017</h2>\n<p>Sieciowe sklepy serwują nam tzw. „szybką modę”. To znaczy, że odpowiadają na główne tendencje pojawiające się na wybiegach i wprowadzają modele, które przypominają nam kreacje znanych projektantów, a my możemy nabyć je za niską ceną. Tej zimy w sklepach typu Stradivarius, Zara, Mango znalazłam sporo podobieństw. Oto główne trendy i jednocześnie Must Have’y zimy 2017 r.:</p>\n<ol>\n<li>Perły. Wszechobecne, zawłaszczające prawie każdy skrawek materiału. Są na jeansach, bluzach, swetrach, bluzkach, sukienkach, w różnych rozmiarach i kolorach. Dodają ubraniu romantyczny, imprezowy charakter (w końcu sylwester tuż, tuż!).</li>\n<li>Futro. Futrzane kamizelki, kurtki, obszycia kapturów, ale również obszycia bluz przy rękawach, kołnierzykach.</li>\n<li>Beret. Taki w stylu francuskim. Skórzany, wełniany, noszony lekko na bok lub zsunięty na tył glowy.</li>\n<li>‘Wielka czapka’. Wygląda jakby była wyjęta z większego świata, o grubym splocie, często kolorowa i z pomponem.</li>\n<li>Krata. Tak, to zdecydowanie pattern nr 1. Znajdziemy ją na płaszczach, spodniach, kamizelkach. Stylizować kratkę możemy na milion sposobów – od elegancji po sport.</li>\n<li>Butelkowa zieleń. Przepiękny kolor głębokiego szmaragdu. Wygląda super w total look’u lub jako pojedynczy akcent.</li>\n<li>Wymieniać można jeszcze wiele: Oversizowe kurtki puchowe, bardzo wysokie kozaki (sięgające wręcz połowy uda), swetry z wielkim golfem, jednak chciałam skupić się na tych trendach, które w bardzo łatwy sposób możemy wcielić w naszą garderobę niekoniecznie kupując nowe rzeczy. Zobaczcie sami, co udało mi się wyczarować.</li>\n</ol>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6573107/ello-optimized-c2a4b0f9.jpg\" alt=\"Zdjęcie przedstawia kobietę w koszuli z paskiem na niebieskim tle. Kobieta patrzy do góry, ma siwe włosy i czerwone usta, a przez środek zdjęcia przebiega czarna linia.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6573109/ello-optimized-60b8b9ad.jpg\" alt=\"Zdjęcie przedstawia kobietę w koszuli z paskiem na niebieskim tle. Kobieta przekrzywia głowę w lewą stronę, ma szare włosy i czerwone usta, a przez środek zdjęcia przebiega czarna linia.\" /></p>\n<h2>Koszula z dwóch koszul + perły</h2>\n<p>Ostatnio mój chłopak robił porządki w swojej szafie i znalazł kilka niepotrzebnych koszul. Położył je na mojej półce z myślą, że zostaną przeze mnie wykorzystane w pracowni jako ubranie robocze. Przeleżały tam trochę czasu, dopóki nie spojrzałam na nie w kreatywny sposób. Oto, co zrobić, aby zyskać nową koszulę z dwóch starych koszul:</p>\n<ol>\n<li>Przymierz i zadecyduj, która z koszul będzie Twoim ‘body’, a która rękawami. Istotny jest tutaj krój, ale też kolor i wzór.</li>\n<li>W obu koszulach utnij rękawy tuż za linią szwu.</li>\n<li>Wywróć swoje body i rękawy na lewą stronę i zszyj szew przy szwie, tak, by nitka nie była widoczna po właściwej stronie.</li>\n<li>Kup woreczek perełek w pasmanterii (koszt ok. 5 zł) i przyszyj do koszuli w różnych miejscach. Możesz przyszyć je na rękawach, przy kołnierzyku lub zastąpić nimi guziki.\nVoilà! Prawda, że proste? Mi cała robota zajęła dwa wieczory przy okazji oglądania ulubionego serialu :).</li>\n</ol>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6573330/ello-optimized-a4f6ddd7.jpg\" alt=\"Obraz przedstawia dwa zdjęcia, z lewej strony widzimy fragment materiału z koralikami, a z prawej kobietę o czerwonych ustach ubraną w koszulę z paskiem.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6573331/ello-optimized-ba4ef117.jpg\" alt=\"Obraz przedstawia dwa zdjęcia, z lewej widzimy fragment materiału, a z prawej kobietę o siwych, długich włosach odwróconą tyłem i trzymającą pasek z napisem.\" /></p>\n<h2>Perłowa czapa i beret</h2>\n<p>Czapki i berety oferowane przez sieciówki to koszt od ok. 50 zł do 150 zł. Materiał z których te nakrycia głowy są wykonane to często akryl, poliester, wiskoza, a aplikacje nie są przyszywane, tylko naklejane. Zawsze zależy mi na jakości materiałów, które noszę, dlatego nie mogłam zdecydować się na żadną zaproponowaną akrylową opcję. Jednak na tyle spodobał mi się trend beretu i pereł, że postanowiłam zostać bereciarą po swojemu. Wełniany, doskonałej jakości beret kupiłam na targu za 20 zł. (można się targować, a co!), a perełki, jak już wspominałam, to koszt ok. 5 zł za 50 sztuk. Całość wyniosła mnie zatem 25 zł. A efekt ciepły, wytrzymały i przyjemnie modny.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/6573112/ello-optimized-a662d1a3.jpg\" alt=\"Obraz przedstawia dwa zdjęcia różnej wielkości. Z lewej strony widzimy kobietę z różowymi ustami, siwymi włosami i czarną czapką, która zasłania jej oczy. Z prawej strony widzimy zbliżenie na czapkę.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6573116/ello-optimized-8d89fded.jpg\" alt=\"Zdjęcie przedstawia portret kobiety w czarnej czapce. Kobieta ma szare włosy, różowe usta i uśmiecha się. Całość na niebieskim tle.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6575280/ello-optimized-097d7025.jpg\" alt=\"Obraz podzielony jest na dwie części, z lewej strony widzimy duże zdjęcie kobiety w czarnym berecie na niebieskim tle, a z prawej mniejsze zdjęcie beretu i fragmentu twarzy kobiety.\" /></p>\n<p>Na czapce widzicie jeszcze agrafkę kupioną za 6 zł w pasmanterii. Czapkę kupiłam rok temu w h&amp;m, bo była jedyną w pełni bawełnianą czapką jaką wtedy znalazłam.</p>\n<h2>Satynowe sznurówki</h2>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/6573125/ello-optimized-8bb0c604.jpg\" alt=\"Obraz przedstawia zdjęcia butów. Z lewej strony widzimy jednego czarnego buta z niebieskimi sznurówkami i w niebieskiej ramce, a z prawej parę butów.\" /></p>\n<p>Wstążkowe sznurówki akurat nie łapią się w tegoroczne trendy, ale to najprostszy możliwy sposób na odmianę butów. Wystarczy kupić odpowiedniej długości wstążki w pasmanterii. Do wyboru macie setki (dosłownie!) propozycji kolorystycznych i materiałowych. Mogą być niebieskie satynowe, czerwone aksamitne, taśmy plecione, rypsowe, gładkie, we wzory itd. itd. Wybierz odpowiednią dla swojej osobowości, modelu butów i innych ubrań, do których zakładać będziesz ‘odpimpowane’ buty. Czasami lubię też nosić w jednym bucie inny kolor niż w drugim. Oryginalnie, artystycznie i z humorem – na pewno zwrócisz na siebie uwagę!</p>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6573120/ello-optimized-fdcfd45b.jpg\" alt=\"Zdjęcie przedstawia czarne skórzane buty z niebieskimi sznurówkami na jasnym tle.\" /></p>\n";
-var raw = exports.raw = "\n<olela-narrative>\nCzy wiecie, jak niewiele trzeba aby odmienić stare ubranie? Pisząc ‘niewiele’ mam na myśli niewiele wysiłku, niewiele czasu i oczywiście niewiele pieniędzy. Jedyne czego potrzeba to inspiracji, a te akurat znajdziemy bez problemu oglądając zdjęcia w internecie, czy przechadzając się po sklepach. Wiadomo też, jak to jest z ciuchami – stare się nudzą, ale jeśli poświęcimy im odrobinę uwagi i włączymy swoją kreatywność, odmienimy je i pokochamy na nowo. Zatem do dzieła artystki!\n</olela-narrative>\n\n\n## Winter Trends 2017\n\nSieciowe sklepy serwują nam tzw. „szybką modę”. To znaczy, że odpowiadają na główne tendencje pojawiające się na wybiegach i wprowadzają modele, które przypominają nam kreacje znanych projektantów, a my możemy nabyć je za niską ceną. Tej zimy w sklepach typu Stradivarius, Zara, Mango znalazłam sporo podobieństw. Oto główne trendy i jednocześnie Must Have’y zimy 2017 r.:\n\n1. Perły. Wszechobecne, zawłaszczające prawie każdy skrawek materiału. Są na jeansach, bluzach, swetrach, bluzkach, sukienkach, w różnych rozmiarach i kolorach. Dodają ubraniu romantyczny, imprezowy charakter (w końcu sylwester tuż, tuż!).\n2. Futro. Futrzane kamizelki, kurtki, obszycia kapturów, ale również obszycia bluz przy rękawach, kołnierzykach.\n3. Beret. Taki w stylu francuskim. Skórzany, wełniany, noszony lekko na bok lub zsunięty na tył glowy.\n4. ‘Wielka czapka’. Wygląda jakby była wyjęta z większego świata, o grubym splocie, często kolorowa i z pomponem.\n5. Krata. Tak, to zdecydowanie pattern nr 1. Znajdziemy ją na płaszczach, spodniach, kamizelkach. Stylizować kratkę możemy na milion sposobów – od elegancji po sport.\n6. Butelkowa zieleń. Przepiękny kolor głębokiego szmaragdu. Wygląda super w total look’u lub jako pojedynczy akcent. \n7. Wymieniać można jeszcze wiele: Oversizowe kurtki puchowe, bardzo wysokie kozaki (sięgające wręcz połowy uda), swetry z wielkim golfem, jednak chciałam skupić się na tych trendach, które w bardzo łatwy sposób możemy wcielić w naszą garderobę niekoniecznie kupując nowe rzeczy. Zobaczcie sami, co udało mi się wyczarować.\n\n![Zdjęcie przedstawia kobietę w koszuli z paskiem na niebieskim tle. Kobieta patrzy do góry, ma siwe włosy i czerwone usta, a przez środek zdjęcia przebiega czarna linia.](https://assets0.ello.co/uploads/asset/attachment/6573107/ello-optimized-c2a4b0f9.jpg)\n![Zdjęcie przedstawia kobietę w koszuli z paskiem na niebieskim tle. Kobieta przekrzywia głowę w lewą stronę, ma szare włosy i czerwone usta, a przez środek zdjęcia przebiega czarna linia.](https://assets0.ello.co/uploads/asset/attachment/6573109/ello-optimized-60b8b9ad.jpg)\n\n## Koszula z dwóch koszul + perły \n\nOstatnio mój chłopak robił porządki w swojej szafie i znalazł kilka niepotrzebnych koszul. Położył je na mojej półce z myślą, że zostaną przeze mnie wykorzystane w pracowni jako ubranie robocze. Przeleżały tam trochę czasu, dopóki nie spojrzałam na nie w kreatywny sposób. Oto, co zrobić, aby zyskać nową koszulę z dwóch starych koszul:\n1. Przymierz i zadecyduj, która z koszul będzie Twoim ‘body’, a która rękawami. Istotny jest tutaj krój, ale też kolor i wzór.\n2. W obu koszulach utnij rękawy tuż za linią szwu.\n3. Wywróć swoje body i rękawy na lewą stronę i zszyj szew przy szwie, tak, by nitka nie była widoczna po właściwej stronie.\n4. Kup woreczek perełek w pasmanterii (koszt ok. 5 zł) i przyszyj do koszuli w różnych miejscach. Możesz przyszyć je na rękawach, przy kołnierzyku lub zastąpić nimi guziki.\nVoilà! Prawda, że proste? Mi cała robota zajęła dwa wieczory przy okazji oglądania ulubionego serialu :).\n\n![Obraz przedstawia dwa zdjęcia, z lewej strony widzimy fragment materiału z koralikami, a z prawej kobietę o czerwonych ustach ubraną w koszulę z paskiem.](https://assets0.ello.co/uploads/asset/attachment/6573330/ello-optimized-a4f6ddd7.jpg)\n![Obraz przedstawia dwa zdjęcia, z lewej widzimy fragment materiału, a z prawej kobietę o siwych, długich włosach odwróconą tyłem i trzymającą pasek z napisem.](https://assets1.ello.co/uploads/asset/attachment/6573331/ello-optimized-ba4ef117.jpg)\n\n## Perłowa czapa i beret\n\nCzapki i berety oferowane przez sieciówki to koszt od ok. 50 zł do 150 zł. Materiał z których te nakrycia głowy są wykonane to często akryl, poliester, wiskoza, a aplikacje nie są przyszywane, tylko naklejane. Zawsze zależy mi na jakości materiałów, które noszę, dlatego nie mogłam zdecydować się na żadną zaproponowaną akrylową opcję. Jednak na tyle spodobał mi się trend beretu i pereł, że postanowiłam zostać bereciarą po swojemu. Wełniany, doskonałej jakości beret kupiłam na targu za 20 zł. (można się targować, a co!), a perełki, jak już wspominałam, to koszt ok. 5 zł za 50 sztuk. Całość wyniosła mnie zatem 25 zł. A efekt ciepły, wytrzymały i przyjemnie modny.\n\n![Obraz przedstawia dwa zdjęcia różnej wielkości. Z lewej strony widzimy kobietę z różowymi ustami, siwymi włosami i czarną czapką, która zasłania jej oczy. Z prawej strony widzimy zbliżenie na czapkę.](https://assets0.ello.co/uploads/asset/attachment/6573112/ello-optimized-a662d1a3.jpg)\n![Zdjęcie przedstawia portret kobiety w czarnej czapce. Kobieta ma szare włosy, różowe usta i uśmiecha się. Całość na niebieskim tle.](https://assets1.ello.co/uploads/asset/attachment/6573116/ello-optimized-8d89fded.jpg)\n![Obraz podzielony jest na dwie części, z lewej strony widzimy duże zdjęcie kobiety w czarnym berecie na niebieskim tle, a z prawej mniejsze zdjęcie beretu i fragmentu twarzy kobiety.](https://assets1.ello.co/uploads/asset/attachment/6575280/ello-optimized-097d7025.jpg)\n\nNa czapce widzicie jeszcze agrafkę kupioną za 6 zł w pasmanterii. Czapkę kupiłam rok temu w h&m, bo była jedyną w pełni bawełnianą czapką jaką wtedy znalazłam.\n\n## Satynowe sznurówki\n\n![Obraz przedstawia zdjęcia butów. Z lewej strony widzimy jednego czarnego buta z niebieskimi sznurówkami i w niebieskiej ramce, a z prawej parę butów.](https://assets2.ello.co/uploads/asset/attachment/6573125/ello-optimized-8bb0c604.jpg)\n\nWstążkowe sznurówki akurat nie łapią się w tegoroczne trendy, ale to najprostszy możliwy sposób na odmianę butów. Wystarczy kupić odpowiedniej długości wstążki w pasmanterii. Do wyboru macie setki (dosłownie!) propozycji kolorystycznych i materiałowych. Mogą być niebieskie satynowe, czerwone aksamitne, taśmy plecione, rypsowe, gładkie, we wzory itd. itd. Wybierz odpowiednią dla swojej osobowości, modelu butów i innych ubrań, do których zakładać będziesz 'odpimpowane' buty. Czasami lubię też nosić w jednym bucie inny kolor niż w drugim. Oryginalnie, artystycznie i z humorem – na pewno zwrócisz na siebie uwagę!\n\n![Zdjęcie przedstawia czarne skórzane buty z niebieskimi sznurówkami na jasnym tle.](https://assets1.ello.co/uploads/asset/attachment/6573120/ello-optimized-fdcfd45b.jpg)\n\n\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
-
-/***/ }),
-/* 90 */
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5735,7 +5295,7 @@ var raw = exports.raw = "\n<olela-narrative>\nKiedy patrzysz na obraz budzi on w
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 91 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5788,7 +5348,7 @@ var raw = exports.raw = "\n![Obraz przedstawia fotografie różnych dzieł znany
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 92 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6003,7 +5563,7 @@ var raw = exports.raw = "\n<olela-narrative>\nW marcu tego roku otworzył swoje 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 93 */
+/* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6157,7 +5717,7 @@ var raw = exports.raw = "\nTak! Już jest! Kolorem roku 2018 według Pantone zos
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 94 */
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6326,7 +5886,7 @@ var raw = exports.raw = "\n<olela-narrative>\nZima to czas, kiedy wszystko w prz
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 95 */
+/* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6441,7 +6001,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia portret młodej kobiety. Prawa
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 96 */
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6535,216 +6095,7 @@ var raw = exports.raw = "\nNazwa złożona z dwóch nazw – ekspresjonizm abstr
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 97 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(global) {
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _ContentLimiter = __webpack_require__(3);
-
-var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-global.__data = __webpack_require__(2).default;
-
-var code = global.__data.map(function (entry, index) {
-    return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
-}).join('');eval.call(null, code);
-delete global.__data;
-
-var component = exports.component = function component(data) {
-    return _react2.default.createElement(
-        _ContentLimiter2.default,
-        _extends({ limit: 5 }, data),
-        _react2.default.createElement(
-            'olela-narrative',
-            null,
-            'Sezon na pomara\u0144cze w pe\u0142ni. Chocia\u017C wed\u0142ug medycyny chi\u0144skiej ten owoc o pi\u0119knej barwie jest produktem wych\u0142adzaj\u0105cym, to jednak w po\u0142\u0105czeniu z mi\u0119sem kaczki stanowi duet idealny na ch\u0142odne dni. Zima to czas, kiedy nasz organizm na wszelkie sposoby poszukuje ciep\u0142a. Zauwa\u017Cyli\u015Bcie, \u017Ce w\u0142a\u015Bnie na pocz\u0105tku i w trakcie zimy mamy zwi\u0119kszony apetyt? Dlatego, w\u0142a\u015Bnie teraz warto jest je\u015B\u0107 dobrze rozgrzewaj\u0105ce potrawy. Nie \u017Ca\u0142ujmy tak\u017Ce przypraw. Imbir, pieprz, kurkuma, papryka, czosnek - pomog\u0105 nam utrzyma\u0107 ciep\u0142o i wzmocni\u0107 uk\u0142ad odporno\u015Bciowy. A jab\u0142ka? Wiadomo - "An apple a day keeps the doctor away" (ang. Jedno jab\u0142ko dziennie utrzyma Ci\u0119 z dala od lekarza").'
-        ),
-        _react2.default.createElement(
-            'div',
-            null,
-            _react2.default.createElement(
-                Recipe,
-                {
-                    title: 'Kaczka z sosem pomara\u0144czowym i jab\u0142kami w tymianku',
-                    time: '60 minut',
-                    level: '\u015Bredni',
-                    mealFor: '2 osoby',
-                    photo: 'https://assets1.ello.co/uploads/asset/attachment/6845527/ello-optimized-6cca09d3.jpg',
-                    altText: 'Zdj\u0119cie przedstawia bia\u0142y kwadratowy talerz z perspektywy lotu ptaka, na talerzu znajduj\u0105 si\u0119 kawa\u0142ki mi\u0119sa, pomara\u0144cze, jab\u0142ka, \u017C\xF3\u0142ty sos. Ca\u0142o\u015B\u0107 na bia\u0142ym tle.'
-                },
-                _react2.default.createElement(Ingredient, { title: 'filety z piersi kaczki', quantity: '2' }),
-                _react2.default.createElement(Ingredient, { title: 'jab\u0142ko', quantity: '1 \u015Brednie' }),
-                _react2.default.createElement(Ingredient, { title: 'pomara\u0144cze', quantity: '2+1 do dekoracji' }),
-                _react2.default.createElement(Ingredient, { title: 'czosnek', quantity: '4 z\u0105bki' }),
-                _react2.default.createElement(Ingredient, { title: 'mas\u0142o', quantity: '1 \u0142y\u017Ceczka' }),
-                _react2.default.createElement(Ingredient, { title: 'mi\xF3d', quantity: '1 \u0142y\u017Cka' }),
-                _react2.default.createElement(Ingredient, { title: '\u015Bwie\u017Cy imbir', quantity: 'kawa\u0142ek' }),
-                _react2.default.createElement(Ingredient, { title: 's\xF3l, pieprz, tymianek, kurkuma' }),
-                _react2.default.createElement(
-                    Method,
-                    null,
-                    'Zaczynam od sparzenia wrz\u0105tkiem dw\xF3ch pomara\u0144czy. Z jednej obieram sk\xF3rk\u0119 i siekam na drobne kawa\u0142ki. Siekam tak\u017Ce kawa\u0142ek imbiru. Sok z obu owoc\xF3w wyciskam do ma\u0142ego rondelka i dodaj\u0119 od razu \u0142y\u017Ck\u0119 miodu (u mnie rzepakowy), oraz odrobin\u0119 pieprzu i soli. Tak przygotowany rondelek i posiekan\u0105 sk\xF3rk\u0119 z imbirem odstawiam na bok.'
-                ),
-                _react2.default.createElement(
-                    Method,
-                    null,
-                    'Przygotowuj\u0119 blach\u0119 pod mi\u0119so \u2013 wyk\u0142adam j\u0105 papierem do pieczenia i wyciskam na niego czosnek w miejsca, gdzie p\xF3\u017Aniej umieszcz\u0119 filety. Posypuj\u0119 go odrobin\u0105 tymianku.'
-                ),
-                _react2.default.createElement(
-                    Method,
-                    null,
-                    'Filety z kaczki myj\u0119 pod ZIMN\u0104 (wa\u017Cne!) wod\u0105 i usuwam (je\u015Bli s\u0105) pi\xF3rka pincetk\u0105 (mo\u017Cna tez opali\u0107 palnikiem). Sk\xF3r\u0119 nacinam delikatnie, uwa\u017Caj\u0105c by nie przyci\u0105\u0107 mi\u0119sa, a samo mi\u0119so przyprawiam \u015Bwie\u017Co mielonym pieprzem. K\u0142ad\u0119 na SUCH\u0104 (wa\u017Cne!) patelnie od strony sk\xF3ry, sma\u017C\u0119 tak do momentu zrumienienia, odwracam na stron\u0119 mi\u0119sa i sma\u017C\u0119 podobn\u0105 ilo\u015B\u0107 czasu. Zrumienione filety wyk\u0142adam na wcze\u015Bniej przygotowan\u0105 blach\u0119 wprost na czosnek z tymiankiem (w ten spos\xF3b aromaty przypraw wnikn\u0105 w mi\u0119so) i wk\u0142adam do piekarnika nagrzanego do 180\xB0C na 8-10 minut (d\u0142ugo\u015B\u0107 czasu zar\xF3wno obsma\u017Cania filet\xF3w, jak i pieczenia zale\u017Cy od ich wielko\u015Bci. Moje by\u0142y do\u015B\u0107 spore, dlatego pozwoli\u0142am im posiedzie\u0107 w cieple troch\u0119 d\u0142u\u017Cej. Tradycyjnie powinny tam przebywa\u0107 6-8 minut.).'
-                ),
-                _react2.default.createElement(
-                    Method,
-                    null,
-                    'Podczas kiedy mi\u0119so \u2018dochodzi w piekarniku\u2019 kroj\u0119 jab\u0142ko w p\xF3\u0142ksi\u0119\u017Cyce i wrzucam na ciep\u0142y t\u0142uszcz wytopiony wcze\u015Bniej z kaczki. Chwil\u0119 podsma\u017Cam posypuj\u0105c ca\u0142o\u015B\u0107 tymiankiem. Zdejmuj\u0119 na osobny talerz.'
-                ),
-                _react2.default.createElement(
-                    Method,
-                    null,
-                    'Przygotowany wcze\u015Bniej rondelek z sokiem z pomara\u0144czy i miodem wstawiam na niewielki gaz i doprowadzam do wrzenia. Nast\u0119pnie wrzucam posiekan\u0105 sk\xF3rk\u0119 pomara\u0144czow\u0105 z imbirem. Pozwalam tej mieszance chwil\u0119 si\u0119 pogotowa\u0107 i nast\u0119pnie wlewam na patelni\u0119, na kt\xF3rej przed chwil\u0105 sma\u017Cy\u0142am jab\u0142ka. Dodaj\u0119 \u0142y\u017Ceczk\u0119 mas\u0142a, szczypt\u0119 kurkumy i redukuj\u0119 ca\u0142o\u015B\u0107. Kiedy sos zg\u0119stnieje przecedzam go przez drobne sitko do miseczki. Mi\u0119so po wyj\u0119ciu z piekarnika powinno chwil\u0119 odpocz\u0105\u0107. Dlatego, zanim zaczniemy wyk\u0142ada\u0107 danie na talerz odczekajmy oko\u0142o 5-8 min.'
-                ),
-                _react2.default.createElement(
-                    Method,
-                    null,
-                    'Po tym czasie zaczynamy serwowa\u0107. Malujemy sosem po talerzu, na\u0144 k\u0142adziemy kawa\u0142ki mi\u0119sa, obok jab\u0142ka z tymiankiem, a ca\u0142o\u015B\u0107 \u015Bwietnie dope\u0142ni\u0105 \u015Bwie\u017Ce kawa\u0142ki pomara\u0144czy. Niech talerz b\u0119dzie Twoim p\u0142\xF3tnem. Zdecyduj o kompozycji \u2013 centralna, zamkni\u0119ta, otwarta, dynamiczna? Je si\u0119 przecie\u017C przede wszystkim oczami... PS. Do dekoracji mo\u017Cesz r\xF3wnie\u017C u\u017Cy\u0107 sk\xF3rek pomara\u0144czowych z imbirem, kt\xF3re zosta\u0142y Ci po przecedzeniu sosu. Rzu\u0107 te\u017C zielony akcent (u mnie koperek).'
-                ),
-                _react2.default.createElement(
-                    Method,
-                    null,
-                    'Smacznego!'
-                )
-            )
-        ),
-        _react2.default.createElement(
-            'p',
-            null,
-            _react2.default.createElement('img', { src: 'https://assets3.ello.co/uploads/asset/attachment/6842177/ello-optimized-3659e865.jpg', alt: 'Zdj\u0119cie przedstawia talerz uj\u0119ty z perspektywy lotu ptaka. Na talerzu znajdziemy mi\u0119so, pomara\u0144cz\u0119, jab\u0142ka, koper, \u017C\xF3\u0142ty sos. Talerz jest kwadratowy i bia\u0142y, a t\u0142o ma odcie\u0144 pomara\u0144czu.' }),
-            _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/6845526/ello-optimized-088a9070.jpg', alt: 'Zdj\u0119cie przedstawia potraw\u0119 z\u0142o\u017Con\u0105 z mi\u0119sa, jab\u0142ek, \u017C\xF3\u0142tego sosu. Ca\u0142o\u015B\u0107 na bia\u0142ym talerzu.' })
-        )
-    );
-};
-var frontMatter = exports.frontMatter = { "title": "Smaki_Zimy_vol._1. Kaczka z sosem pomarańczowym i jabłkami w tymianku", "date": "2018-01-05T08:09:00.000Z", "categories": ["Sztuka Gotowania"], "tags": ["przepis", "kaczka", "jabłka", "tymianek", "pomarańcze", "zima", "kuchnia", "kompozycja", "kreacja", "sztuka", "artysta"] };
-var body = exports.body = "<olela-narrative>\nSezon na pomarańcze w pełni. Chociaż według medycyny chińskiej ten owoc o pięknej barwie jest produktem wychładzającym, to jednak w połączeniu z mięsem kaczki stanowi duet idealny na chłodne dni. Zima to czas, kiedy nasz organizm na wszelkie sposoby poszukuje ciepła. Zauważyliście, że właśnie na początku i w trakcie zimy mamy zwiększony apetyt? Dlatego, właśnie teraz warto jest jeść dobrze rozgrzewające potrawy. Nie żałujmy także przypraw. Imbir, pieprz, kurkuma, papryka, czosnek - pomogą nam utrzymać ciepło i wzmocnić układ odpornościowy. A jabłka? Wiadomo - \"An apple a day keeps the doctor away\" (ang. Jedno jabłko dziennie utrzyma Cię z dala od lekarza\").\n</olela-narrative>\n<div>\n  <Recipe\n    title='Kaczka z sosem pomarańczowym i jabłkami w tymianku'\n    time='60 minut'\n    level='średni'\n    mealFor='2 osoby'\n    photo='https://assets1.ello.co/uploads/asset/attachment/6845527/ello-optimized-6cca09d3.jpg'\n    altText='Zdjęcie przedstawia biały kwadratowy talerz z perspektywy lotu ptaka, na talerzu znajdują się kawałki mięsa, pomarańcze, jabłka, żółty sos. Całość na białym tle.'\n  >\n    <Ingredient title='filety z piersi kaczki' quantity='2' />\n    <Ingredient title='jabłko' quantity='1 średnie' />\n    <Ingredient title='pomarańcze' quantity='2+1 do dekoracji' />\n    <Ingredient title='czosnek' quantity='4 ząbki' />\n    <Ingredient title='masło' quantity='1 łyżeczka' />\n    <Ingredient title='miód' quantity='1 łyżka' />\n    <Ingredient title='świeży imbir' quantity='kawałek' />\n    <Ingredient title='sól, pieprz, tymianek, kurkuma' />\n    <Method>\nZaczynam od sparzenia wrzątkiem dwóch pomarańczy. Z jednej obieram skórkę i siekam na drobne kawałki. Siekam także kawałek imbiru. Sok z obu owoców wyciskam do małego rondelka i dodaję od razu łyżkę miodu (u mnie rzepakowy), oraz odrobinę pieprzu i soli. Tak przygotowany rondelek i posiekaną skórkę z imbirem odstawiam na bok.\n    </Method>\n    <Method>\nPrzygotowuję blachę pod mięso – wykładam ją papierem do pieczenia i wyciskam na niego czosnek w miejsca, gdzie później umieszczę filety. Posypuję go odrobiną tymianku.\n    </Method>\n    <Method>\nFilety z kaczki myję pod ZIMNĄ (ważne!) wodą i usuwam (jeśli są) piórka pincetką (można tez opalić palnikiem). Skórę nacinam delikatnie, uważając by nie przyciąć mięsa, a samo mięso przyprawiam świeżo mielonym pieprzem. Kładę na SUCHĄ (ważne!) patelnie od strony skóry, smażę tak do momentu zrumienienia, odwracam na stronę mięsa i smażę podobną ilość czasu. Zrumienione filety wykładam na wcześniej przygotowaną blachę wprost na czosnek z tymiankiem (w ten sposób aromaty przypraw wnikną w mięso) i wkładam do piekarnika nagrzanego do 180°C na 8-10 minut (długość czasu zarówno obsmażania filetów, jak i pieczenia zależy od ich wielkości. Moje były dość spore, dlatego pozwoliłam im posiedzieć w cieple trochę dłużej. Tradycyjnie powinny tam przebywać 6-8 minut.).\n    </Method>\n    <Method>\nPodczas kiedy mięso ‘dochodzi w piekarniku’ kroję jabłko w półksiężyce i wrzucam na ciepły tłuszcz wytopiony wcześniej z kaczki. Chwilę podsmażam posypując całość tymiankiem. Zdejmuję na osobny talerz.\n    </Method>\n    <Method>\nPrzygotowany wcześniej rondelek z sokiem z pomarańczy i miodem wstawiam na niewielki gaz i doprowadzam do wrzenia. Następnie wrzucam posiekaną skórkę pomarańczową z imbirem. Pozwalam tej mieszance chwilę się pogotować i następnie wlewam na patelnię, na której przed chwilą smażyłam jabłka. Dodaję łyżeczkę masła, szczyptę kurkumy i redukuję całość. Kiedy sos zgęstnieje przecedzam go przez drobne sitko do miseczki.\nMięso po wyjęciu z piekarnika powinno chwilę odpocząć. Dlatego, zanim zaczniemy wykładać danie na talerz odczekajmy około 5-8 min.\n    </Method>\n    <Method>\nPo tym czasie zaczynamy serwować. Malujemy sosem po talerzu, nań kładziemy kawałki mięsa, obok jabłka z tymiankiem, a całość świetnie dopełnią świeże kawałki pomarańczy. Niech talerz będzie Twoim płótnem. Zdecyduj o kompozycji – centralna, zamknięta, otwarta, dynamiczna? Je się przecież przede wszystkim oczami...\nPS. Do dekoracji możesz również użyć skórek pomarańczowych z imbirem, które zostały Ci po przecedzeniu sosu. Rzuć też zielony akcent (u mnie koperek).\n    </Method>\n    <Method>\nSmacznego!\n    </Method>\n  </Recipe>\n</div>\n<p><img src=\"https://assets3.ello.co/uploads/asset/attachment/6842177/ello-optimized-3659e865.jpg\" alt=\"Zdjęcie przedstawia talerz ujęty z perspektywy lotu ptaka. Na talerzu znajdziemy mięso, pomarańczę, jabłka, koper, żółty sos. Talerz jest kwadratowy i biały, a tło ma odcień pomarańczu.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/6845526/ello-optimized-088a9070.jpg\" alt=\"Zdjęcie przedstawia potrawę złożoną z mięsa, jabłek, żółtego sosu. Całość na białym talerzu.\" /></p>\n";
-var raw = exports.raw = "\n<olela-narrative>\nSezon na pomarańcze w pełni. Chociaż według medycyny chińskiej ten owoc o pięknej barwie jest produktem wychładzającym, to jednak w połączeniu z mięsem kaczki stanowi duet idealny na chłodne dni. Zima to czas, kiedy nasz organizm na wszelkie sposoby poszukuje ciepła. Zauważyliście, że właśnie na początku i w trakcie zimy mamy zwiększony apetyt? Dlatego, właśnie teraz warto jest jeść dobrze rozgrzewające potrawy. Nie żałujmy także przypraw. Imbir, pieprz, kurkuma, papryka, czosnek - pomogą nam utrzymać ciepło i wzmocnić układ odpornościowy. A jabłka? Wiadomo - \"An apple a day keeps the doctor away\" (ang. Jedno jabłko dziennie utrzyma Cię z dala od lekarza\").\n</olela-narrative>\n\n<div>\n  <Recipe\n    title='Kaczka z sosem pomarańczowym i jabłkami w tymianku'\n    time='60 minut'\n    level='średni'\n    mealFor='2 osoby'\n    photo='https://assets1.ello.co/uploads/asset/attachment/6845527/ello-optimized-6cca09d3.jpg'\n    altText='Zdjęcie przedstawia biały kwadratowy talerz z perspektywy lotu ptaka, na talerzu znajdują się kawałki mięsa, pomarańcze, jabłka, żółty sos. Całość na białym tle.'\n  >\n    <Ingredient title='filety z piersi kaczki' quantity='2' />\n    <Ingredient title='jabłko' quantity='1 średnie' />\n    <Ingredient title='pomarańcze' quantity='2+1 do dekoracji' />\n    <Ingredient title='czosnek' quantity='4 ząbki' />\n    <Ingredient title='masło' quantity='1 łyżeczka' />\n    <Ingredient title='miód' quantity='1 łyżka' />\n    <Ingredient title='świeży imbir' quantity='kawałek' />\n    <Ingredient title='sól, pieprz, tymianek, kurkuma' />\n    <Method>\nZaczynam od sparzenia wrzątkiem dwóch pomarańczy. Z jednej obieram skórkę i siekam na drobne kawałki. Siekam także kawałek imbiru. Sok z obu owoców wyciskam do małego rondelka i dodaję od razu łyżkę miodu (u mnie rzepakowy), oraz odrobinę pieprzu i soli. Tak przygotowany rondelek i posiekaną skórkę z imbirem odstawiam na bok.\n    </Method>\n    <Method>\nPrzygotowuję blachę pod mięso – wykładam ją papierem do pieczenia i wyciskam na niego czosnek w miejsca, gdzie później umieszczę filety. Posypuję go odrobiną tymianku.\n    </Method>\n    <Method>\nFilety z kaczki myję pod ZIMNĄ (ważne!) wodą i usuwam (jeśli są) piórka pincetką (można tez opalić palnikiem). Skórę nacinam delikatnie, uważając by nie przyciąć mięsa, a samo mięso przyprawiam świeżo mielonym pieprzem. Kładę na SUCHĄ (ważne!) patelnie od strony skóry, smażę tak do momentu zrumienienia, odwracam na stronę mięsa i smażę podobną ilość czasu. Zrumienione filety wykładam na wcześniej przygotowaną blachę wprost na czosnek z tymiankiem (w ten sposób aromaty przypraw wnikną w mięso) i wkładam do piekarnika nagrzanego do 180°C na 8-10 minut (długość czasu zarówno obsmażania filetów, jak i pieczenia zależy od ich wielkości. Moje były dość spore, dlatego pozwoliłam im posiedzieć w cieple trochę dłużej. Tradycyjnie powinny tam przebywać 6-8 minut.).\n    </Method>\n    <Method>\nPodczas kiedy mięso ‘dochodzi w piekarniku’ kroję jabłko w półksiężyce i wrzucam na ciepły tłuszcz wytopiony wcześniej z kaczki. Chwilę podsmażam posypując całość tymiankiem. Zdejmuję na osobny talerz.\n    </Method>\n    <Method>\nPrzygotowany wcześniej rondelek z sokiem z pomarańczy i miodem wstawiam na niewielki gaz i doprowadzam do wrzenia. Następnie wrzucam posiekaną skórkę pomarańczową z imbirem. Pozwalam tej mieszance chwilę się pogotować i następnie wlewam na patelnię, na której przed chwilą smażyłam jabłka. Dodaję łyżeczkę masła, szczyptę kurkumy i redukuję całość. Kiedy sos zgęstnieje przecedzam go przez drobne sitko do miseczki.\nMięso po wyjęciu z piekarnika powinno chwilę odpocząć. Dlatego, zanim zaczniemy wykładać danie na talerz odczekajmy około 5-8 min.\n    </Method>\n    <Method>\nPo tym czasie zaczynamy serwować. Malujemy sosem po talerzu, nań kładziemy kawałki mięsa, obok jabłka z tymiankiem, a całość świetnie dopełnią świeże kawałki pomarańczy. Niech talerz będzie Twoim płótnem. Zdecyduj o kompozycji – centralna, zamknięta, otwarta, dynamiczna? Je się przecież przede wszystkim oczami…\nPS. Do dekoracji możesz również użyć skórek pomarańczowych z imbirem, które zostały Ci po przecedzeniu sosu. Rzuć też zielony akcent (u mnie koperek).\n    </Method>\n    <Method>\nSmacznego!\n    </Method>\n  </Recipe>\n</div>\n\n![Zdjęcie przedstawia talerz ujęty z perspektywy lotu ptaka. Na talerzu znajdziemy mięso, pomarańczę, jabłka, koper, żółty sos. Talerz jest kwadratowy i biały, a tło ma odcień pomarańczu.](https://assets3.ello.co/uploads/asset/attachment/6842177/ello-optimized-3659e865.jpg)\n![Zdjęcie przedstawia potrawę złożoną z mięsa, jabłek, żółtego sosu. Całość na białym talerzu.](https://assets2.ello.co/uploads/asset/attachment/6845526/ello-optimized-088a9070.jpg)\n";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
-
-/***/ }),
-/* 98 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(global) {
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
-
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _ContentLimiter = __webpack_require__(3);
-
-var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-global.__data = __webpack_require__(2).default;
-
-var code = global.__data.map(function (entry, index) {
-  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
-}).join('');eval.call(null, code);
-delete global.__data;
-
-var component = exports.component = function component(data) {
-  return _react2.default.createElement(
-    _ContentLimiter2.default,
-    _extends({ limit: 5 }, data),
-    _react2.default.createElement(
-      'olela-narrative',
-      null,
-      '\u015Awi\u0119ta, \u015Bwi\u0119ta i po \u015Bwi\u0119tach. Makowce, pierniki i inne ciasta zosta\u0142y spa\u0142aszowane (zazdroszcz\u0119 tym, kt\xF3rzy cz\u0119\u015B\u0107 \u015Bwi\u0105tecznej uczty zamrozili i mog\u0105 w dowolnej chwili przypomnie\u0107 sobie smak tego cudownego czasu). U mnie wszystko by\u0142o tak pyszne, \u017Ce znikn\u0119\u0142o w mgnieniu oka. Korzenny smak piernika tak za mn\u0105 \'chodzi\u0142\', \u017Ce postanowi\u0142am upiec go z lekkim \'twistem\'. Po pierwsze: bez m\u0105ki pszennej. Po drugie: nie w wersji ciasta, a chlebka, kt\xF3ry smakuje dobrze zar\xF3wno sam, jak i z dodatkami. Mo\u017Cemy pola\u0107 go sosem truskawkowo-rozmarynowym (lekko ostrym) lub posmarowa\u0107 serkiem \u015Bmietankowym i wpa\u0142aszowa\u0107 w roli kanapki.'
-    ),
-    _react2.default.createElement(
-      'div',
-      null,
-      _react2.default.createElement(
-        Recipe,
-        {
-          title: 'Bezglutenowy chlebek czekoladowo - korzenny z sosem truskawkowo - rozmarynowym',
-          time: '60 minut',
-          level: '\u0142atwy',
-          mealFor: '10 os\xF3b',
-          photo: 'https://assets1.ello.co/uploads/asset/attachment/6861748/ello-optimized-ec60c049.jpg',
-          altText: 'Zdj\u0119cie przedstawia bia\u0142y kwadratowy talerz z perspektywy lotu ptaka, na talerzu znajduje si\u0119 kawa\u0142ek ciasta czekoladowego, czerwony sos, zielone listki. Ca\u0142o\u015B\u0107 na bia\u0142ym tle.'
-        },
-        _react2.default.createElement(Ingredient, { title: 'm\u0105ka kokosowa', quantity: 'p\xF3\u0142 szklanki' }),
-        _react2.default.createElement(Ingredient, { title: 'maka jaglana', quantity: 'p\xF3\u0142 szklanki' }),
-        _react2.default.createElement(Ingredient, { title: 'm\u0105ka kukurydziana', quantity: 'p\xF3\u0142 szklanki' }),
-        _react2.default.createElement(Ingredient, { title: 'm\u0105ka z tapioki lub ziemniaczana', quantity: 'p\xF3\u0142 szklanki' }),
-        _react2.default.createElement(Ingredient, { title: 'kakao naturalne', quantity: '3 czubate \u0142y\u017Cki' }),
-        _react2.default.createElement(Ingredient, { title: 'soda oczyszczona', quantity: '2 \u0142y\u017Ceczki' }),
-        _react2.default.createElement(Ingredient, { title: 'przyprawa do piernika', quantity: '2 \u0142y\u017Cki' }),
-        _react2.default.createElement(Ingredient, { title: 'mleko sojowe', quantity: 'szklanka' }),
-        _react2.default.createElement(Ingredient, { title: 'jajka', quantity: '2 sztuki' }),
-        _react2.default.createElement(Ingredient, { title: 'olej kokosowy', quantity: '3 \u0142y\u017Cki' }),
-        _react2.default.createElement(Ingredient, { title: 'mi\xF3d', quantity: '2 czubate \u0142y\u017Cki' }),
-        _react2.default.createElement(Ingredient, { title: 'cukier br\u0105zowy', quantity: '3 \u0142y\u017Cki+1 \u0142y\u017Cka do sosu' }),
-        _react2.default.createElement(Ingredient, { title: 'mro\u017Cone truskawki', quantity: 'gar\u015B\u0107' }),
-        _react2.default.createElement(Ingredient, { title: 's\xF3l, rozmaryn, ostra mielona papryka', quantity: 'szczypta' }),
-        _react2.default.createElement(
-          Method,
-          null,
-          'W ma\u0142ym rondelku rozpuszczam olej kokosowy z miodem (u mnie rzepakowy) i cukrem. W osobnej misce \u0142\u0105cz\u0119 ze sob\u0105 suche sk\u0142adniki (m\u0105ki, sod\u0119, kakao, przypraw\u0119 do piernika, s\xF3l), po czym dodaj\u0119 2 jaja, mleko sojowe i zawarto\u015B\u0107 rondelka. Ca\u0142o\u015B\u0107 energicznie mieszam, a\u017C wszystkie sk\u0142adniki dok\u0142adnie si\u0119 po\u0142\u0105cz\u0105, a wszelkie grudki znikn\u0105. Przek\u0142adam zawarto\u015B\u0107 do blaszki (12x30 cm) wysmarowanej wcze\u015Bniej olejem kokosowym i posypanej m\u0105k\u0105 kokosow\u0105. Tak przygotowane ciasto l\u0105duje w piekarniku nagrzanym do 180\xB0C na ok. godzin\u0119.'
-        ),
-        _react2.default.createElement(
-          Method,
-          null,
-          'W tym czasie przygotowuje sos. W garnku rozmro\u017Cone wcze\u015Bniej truskawki zalewam odrobin\u0105 wody, dodaj\u0119 br\u0105zowy cukier (\u0142y\u017Ck\u0119 lub dwie), rozmaryn i ca\u0142o\u015B\u0107 gotuj\u0119 na najmniejszym ogniu (ok. 10 min). Odstawiam na chwil\u0119 garnek na bok i daj\u0119 truskawkom spokojnie \u2018odparowa\u0107\u2019. Po tym czasie blenduj\u0119 wszystko na g\u0142adko i przecedzam przez sitko (po blendowaniu na sosie zbierze si\u0119 piana, kt\xF3rej nie chcemy). Na samym ko\u0144cu dodaj\u0119 odrobin\u0119 ostrej, mielonej papryki. Gotowy sos odstawiam do ostygni\u0119cia.'
-        ),
-        _react2.default.createElement(
-          Method,
-          null,
-          'Kiedy chlebek ostygnie kroj\u0119 kawa\u0142ek i uk\u0142adam na talerzu dekoruj\u0105c sosem, bazyli\u0105 i ostr\u0105 papryk\u0105.'
-        )
-      )
-    ),
-    _react2.default.createElement(
-      'p',
-      null,
-      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/6861750/ello-optimized-d64bbd39.jpg', alt: 'Zdj\u0119cie przedstawia kawa\u0142ek ciasta czekoladowego na bia\u0142ym talerzu w otoczeniu listk\xF3w zielonej bazylii i kawa\u0142k\xF3w czerwonej papryki.' }),
-      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/6861751/ello-optimized-cfccf60b.jpg', alt: 'Zdj\u0119cie przedstawia zbli\u017Cenie na kawa\u0142ek ciasta czekoladowego na bia\u0142ym talerzu w otoczeniu listk\xF3w zielonej bazylii i kawa\u0142k\xF3w czerwonej papryki.' }),
-      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/6861758/ello-optimized-7881fc21.jpg', alt: 'Zdj\u0119cie przedstawia talerz z perspektywy lotu ptaka. Talerz jest kwadratowy i bia\u0142y, a na nim znajduj\u0105 si\u0119 resztki jedzenia. Ca\u0142o\u015B\u0107 na bordowym tle. Po bokach wida\u0107 jasne pasy.' })
-    )
-  );
-};
-var frontMatter = exports.frontMatter = { "title": "Smaki_Zimy_vol._2. Bezglutenowy chlebek czekoladowo-korzenny z sosem truskawkowo-rozmarynowym", "date": "2018-01-08T19:26:00.000Z", "categories": ["Sztuka Gotowania"], "tags": ["przepis", "ciasto", "chlebek", "czekolada", "piernik", "sos", "truskawki", "rozmaryn", "kompozycja", "sztuka"] };
-var body = exports.body = "<olela-narrative>\nŚwięta, święta i po świętach. Makowce, pierniki i inne ciasta zostały spałaszowane (zazdroszczę tym, którzy część świątecznej uczty zamrozili i mogą w dowolnej chwili przypomnieć sobie smak tego cudownego czasu). U mnie wszystko było tak pyszne, że zniknęło w mgnieniu oka. Korzenny smak piernika tak za mną 'chodził', że postanowiłam upiec go z lekkim 'twistem'. Po pierwsze: bez mąki pszennej. Po drugie: nie w wersji ciasta, a chlebka, który smakuje dobrze zarówno sam, jak i z dodatkami. Możemy polać go sosem truskawkowo-rozmarynowym (lekko ostrym) lub posmarować serkiem śmietankowym i wpałaszować w roli kanapki.\n</olela-narrative>\n<div>\n  <Recipe\n    title='Bezglutenowy chlebek czekoladowo - korzenny z sosem truskawkowo - rozmarynowym'\n    time='60 minut'\n    level='łatwy'\n    mealFor='10 osób'\n    photo='https://assets1.ello.co/uploads/asset/attachment/6861748/ello-optimized-ec60c049.jpg'\n    altText='Zdjęcie przedstawia biały kwadratowy talerz z perspektywy lotu ptaka, na talerzu znajduje się kawałek ciasta czekoladowego, czerwony sos, zielone listki. Całość na białym tle.'\n  >\n    <Ingredient title='mąka kokosowa' quantity='pół szklanki' />\n    <Ingredient title='maka jaglana' quantity='pół szklanki' />\n    <Ingredient title='mąka kukurydziana' quantity='pół szklanki' />\n    <Ingredient title='mąka z tapioki lub ziemniaczana' quantity='pół szklanki' />\n    <Ingredient title='kakao naturalne' quantity='3 czubate łyżki' />\n    <Ingredient title='soda oczyszczona' quantity='2 łyżeczki' />\n    <Ingredient title='przyprawa do piernika' quantity='2 łyżki' />\n    <Ingredient title='mleko sojowe' quantity='szklanka' />\n    <Ingredient title='jajka' quantity='2 sztuki' />\n    <Ingredient title='olej kokosowy' quantity='3 łyżki' />\n    <Ingredient title='miód' quantity='2 czubate łyżki' />\n    <Ingredient title='cukier brązowy' quantity='3 łyżki+1 łyżka do sosu' />\n    <Ingredient title='mrożone truskawki' quantity='garść' />\n    <Ingredient title='sól, rozmaryn, ostra mielona papryka' quantity='szczypta' />\n    <Method>\nW małym rondelku rozpuszczam olej kokosowy z miodem (u mnie rzepakowy) i cukrem. W osobnej misce łączę ze sobą suche składniki (mąki, sodę, kakao, przyprawę do piernika, sól), po czym dodaję 2 jaja, mleko sojowe i zawartość rondelka. Całość energicznie mieszam, aż wszystkie składniki dokładnie się połączą, a wszelkie grudki znikną. Przekładam zawartość do blaszki (12x30 cm) wysmarowanej wcześniej olejem kokosowym i posypanej mąką kokosową. Tak przygotowane ciasto ląduje w piekarniku nagrzanym do 180°C na ok. godzinę.\n    </Method>\n    <Method>\nW tym czasie przygotowuje sos. W garnku rozmrożone wcześniej truskawki zalewam odrobiną wody, dodaję brązowy cukier (łyżkę lub dwie), rozmaryn i całość gotuję na najmniejszym ogniu (ok. 10 min). Odstawiam na chwilę garnek na bok i daję truskawkom spokojnie ‘odparować’. Po tym czasie blenduję wszystko na gładko i przecedzam przez sitko (po blendowaniu na sosie zbierze się piana, której nie chcemy). Na samym końcu dodaję odrobinę ostrej, mielonej papryki. Gotowy sos odstawiam do ostygnięcia.\n    </Method>\n    <Method>\nKiedy chlebek ostygnie kroję kawałek i układam na talerzu dekorując sosem, bazylią i ostrą papryką.\n    </Method>\n  </Recipe>\n</div>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/6861750/ello-optimized-d64bbd39.jpg\" alt=\"Zdjęcie przedstawia kawałek ciasta czekoladowego na białym talerzu w otoczeniu listków zielonej bazylii i kawałków czerwonej papryki.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/6861751/ello-optimized-cfccf60b.jpg\" alt=\"Zdjęcie przedstawia zbliżenie na kawałek ciasta czekoladowego na białym talerzu w otoczeniu listków zielonej bazylii i kawałków czerwonej papryki.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/6861758/ello-optimized-7881fc21.jpg\" alt=\"Zdjęcie przedstawia talerz z perspektywy lotu ptaka. Talerz jest kwadratowy i biały, a na nim znajdują się resztki jedzenia. Całość na bordowym tle. Po bokach widać jasne pasy.\" /></p>\n";
-var raw = exports.raw = "\n<olela-narrative>\nŚwięta, święta i po świętach. Makowce, pierniki i inne ciasta zostały spałaszowane (zazdroszczę tym, którzy część świątecznej uczty zamrozili i mogą w dowolnej chwili przypomnieć sobie smak tego cudownego czasu). U mnie wszystko było tak pyszne, że zniknęło w mgnieniu oka. Korzenny smak piernika tak za mną 'chodził', że postanowiłam upiec go z lekkim 'twistem'. Po pierwsze: bez mąki pszennej. Po drugie: nie w wersji ciasta, a chlebka, który smakuje dobrze zarówno sam, jak i z dodatkami. Możemy polać go sosem truskawkowo-rozmarynowym (lekko ostrym) lub posmarować serkiem śmietankowym i wpałaszować w roli kanapki.\n</olela-narrative>\n\n<div>\n  <Recipe\n    title='Bezglutenowy chlebek czekoladowo - korzenny z sosem truskawkowo - rozmarynowym'\n    time='60 minut'\n    level='łatwy'\n    mealFor='10 osób'\n    photo='https://assets1.ello.co/uploads/asset/attachment/6861748/ello-optimized-ec60c049.jpg'\n    altText='Zdjęcie przedstawia biały kwadratowy talerz z perspektywy lotu ptaka, na talerzu znajduje się kawałek ciasta czekoladowego, czerwony sos, zielone listki. Całość na białym tle.'\n  >\n    <Ingredient title='mąka kokosowa' quantity='pół szklanki' />\n    <Ingredient title='maka jaglana' quantity='pół szklanki' />\n    <Ingredient title='mąka kukurydziana' quantity='pół szklanki' />\n    <Ingredient title='mąka z tapioki lub ziemniaczana' quantity='pół szklanki' />\n    <Ingredient title='kakao naturalne' quantity='3 czubate łyżki' />\n    <Ingredient title='soda oczyszczona' quantity='2 łyżeczki' />\n    <Ingredient title='przyprawa do piernika' quantity='2 łyżki' />\n    <Ingredient title='mleko sojowe' quantity='szklanka' />\n    <Ingredient title='jajka' quantity='2 sztuki' />\n    <Ingredient title='olej kokosowy' quantity='3 łyżki' />\n    <Ingredient title='miód' quantity='2 czubate łyżki' />\n    <Ingredient title='cukier brązowy' quantity='3 łyżki+1 łyżka do sosu' />\n    <Ingredient title='mrożone truskawki' quantity='garść' />\n    <Ingredient title='sól, rozmaryn, ostra mielona papryka' quantity='szczypta' />\n    <Method>\nW małym rondelku rozpuszczam olej kokosowy z miodem (u mnie rzepakowy) i cukrem. W osobnej misce łączę ze sobą suche składniki (mąki, sodę, kakao, przyprawę do piernika, sól), po czym dodaję 2 jaja, mleko sojowe i zawartość rondelka. Całość energicznie mieszam, aż wszystkie składniki dokładnie się połączą, a wszelkie grudki znikną. Przekładam zawartość do blaszki (12x30 cm) wysmarowanej wcześniej olejem kokosowym i posypanej mąką kokosową. Tak przygotowane ciasto ląduje w piekarniku nagrzanym do 180°C na ok. godzinę.\n    </Method>\n    <Method>\nW tym czasie przygotowuje sos. W garnku rozmrożone wcześniej truskawki zalewam odrobiną wody, dodaję brązowy cukier (łyżkę lub dwie), rozmaryn i całość gotuję na najmniejszym ogniu (ok. 10 min). Odstawiam na chwilę garnek na bok i daję truskawkom spokojnie ‘odparować’. Po tym czasie blenduję wszystko na gładko i przecedzam przez sitko (po blendowaniu na sosie zbierze się piana, której nie chcemy). Na samym końcu dodaję odrobinę ostrej, mielonej papryki. Gotowy sos odstawiam do ostygnięcia.\n    </Method>\n    <Method>\nKiedy chlebek ostygnie kroję kawałek i układam na talerzu dekorując sosem, bazylią i ostrą papryką.\n    </Method>\n  </Recipe>\n</div>\n\n![Zdjęcie przedstawia kawałek ciasta czekoladowego na białym talerzu w otoczeniu listków zielonej bazylii i kawałków czerwonej papryki.](https://assets1.ello.co/uploads/asset/attachment/6861750/ello-optimized-d64bbd39.jpg)\n![Zdjęcie przedstawia zbliżenie na kawałek ciasta czekoladowego na białym talerzu w otoczeniu listków zielonej bazylii i kawałków czerwonej papryki.](https://assets0.ello.co/uploads/asset/attachment/6861751/ello-optimized-cfccf60b.jpg)\n![Zdjęcie przedstawia talerz z perspektywy lotu ptaka. Talerz jest kwadratowy i biały, a na nim znajdują się resztki jedzenia. Całość na bordowym tle. Po bokach widać jasne pasy.](https://assets1.ello.co/uploads/asset/attachment/6861758/ello-optimized-7881fc21.jpg)\n ";
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
-
-/***/ }),
-/* 99 */
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6885,7 +6236,7 @@ var raw = exports.raw = "\nCzerwień… Miłość, namiętność, pożądanie. K
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 100 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6969,7 +6320,7 @@ var raw = exports.raw = "\nHelen Frankenthaler – jedna z niewielu kobiet amery
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 101 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7103,7 +6454,7 @@ var raw = exports.raw = "\n<olela-narrative>\nPrzez moment miałam wrażenie, ż
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 102 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7318,7 +6669,7 @@ var raw = exports.raw = "\n![Czarno-biała fotografia przedstawia wnętrze z du�
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 103 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7438,7 +6789,7 @@ var raw = exports.raw = "\n![Obraz przedstawia trzy fotografie, na których wida
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 104 */
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7545,7 +6896,7 @@ var raw = exports.raw = "\n<olela-narrative>\nSą wszędzie. Są upierdliwe i s�
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 105 */
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7637,7 +6988,7 @@ var raw = exports.raw = "\n<olela-narrative>\nSprawdzony przepis na pożywne, zi
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 106 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7788,7 +7139,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia litery ułożone z kolorowego 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 107 */
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7950,7 +7301,7 @@ var raw = exports.raw = "\n## Kolor jest światłem\n\nChyba każdy z nas kojarz
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 108 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8104,7 +7455,7 @@ var raw = exports.raw = "\n<olela-narrative>\nW nocy w Warszawie termometr ma po
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 109 */
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8276,7 +7627,7 @@ var raw = exports.raw = "\n![Czarno-białe zdjęcie przedstawia ekran z napisami
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 110 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8371,7 +7722,7 @@ var raw = exports.raw = "\n![Obraz przedstawia trzy zdjęcia obrazów znanych ar
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 111 */
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8473,7 +7824,7 @@ var raw = exports.raw = "\n<olela-narrative>\nBył wczesny poranek pewnej słone
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 112 */
+/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8589,7 +7940,7 @@ var raw = exports.raw = "\n![Obraz przedstawia różne fotografie np. przedmiot�
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 113 */
+/* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8744,7 +8095,7 @@ var raw = exports.raw = "\n<olela-narrative>\nMam wrażenie, że powiedzenie 'w 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 114 */
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8879,7 +8230,7 @@ var raw = exports.raw = "\n<olela-narrative>\nJest taki moment w życiu artysty,
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 115 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9044,7 +8395,7 @@ var raw = exports.raw = "\nCyryl Polaczek nie chce nazywać siebie kuratorem. Na
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 116 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9191,7 +8542,7 @@ var raw = exports.raw = "\nTrendy, trendy, trendy… To temat, który nie daje n
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 117 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9353,7 +8704,7 @@ var raw = exports.raw = "\n<olela-narrative>\n‘Kwiecień plecień, bo przeplat
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 118 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9411,7 +8762,7 @@ var raw = exports.raw = "\nPuentylizm lub pointylizm (fr. pointiller – kropkow
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 119 */
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9530,7 +8881,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia zbliżenie na oko. Na skórze 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 120 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9667,7 +9018,7 @@ var raw = exports.raw = '\nR\xF3\u017C atakuje nas z ka\u017Cdej mo\u017Cliwej s
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 121 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9813,7 +9164,7 @@ var raw = exports.raw = "\n<olela-narrative>\nMaj obfituje w premiery. Swój pre
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 122 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9942,7 +9293,7 @@ var raw = exports.raw = "\n![Obraz przedstawia zdjęcie kobiety w kolorowym maki
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 123 */
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10000,7 +9351,7 @@ var raw = exports.raw = "\nHiperrealizm (superrealizm lub fotorealizm) to pręż
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 124 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10142,7 +9493,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia modelkę w spodniach w kwiaty 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 125 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10207,7 +9558,7 @@ var raw = exports.raw = "\nMyślenie kształtem dotyka odległych czasów odkryc
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 126 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10350,7 +9701,7 @@ var raw = exports.raw = "\n![Obraz przedstawia portret kobiety na granatowym tle
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 127 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10515,7 +9866,7 @@ var raw = exports.raw = "\n<olela-narrative>\nLato jest wtedy, kiedy kreska term
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 128 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10656,7 +10007,7 @@ var raw = exports.raw = "\n<olela-narrative>\nOleje to skarby ziemi. Aby zachowa
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 129 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10719,7 +10070,7 @@ var raw = exports.raw = "\nDekoracyjność, bogata ornamentyka abstrakcyjna lub 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 130 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10910,7 +10261,7 @@ var raw = exports.raw = "\nW 1941 roku francuski krytyk i wydawca greckiego poch
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 131 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11075,7 +10426,7 @@ var raw = exports.raw = "\n<olela-narrative>\nZatrzymaj się na moment i znajdź
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 132 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11234,7 +10585,7 @@ var raw = exports.raw = "\n<olela-narrative>\nPewnego sierpniowego dnia bałam s
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 133 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11324,7 +10675,7 @@ var raw = exports.raw = "\nFuturyzm narodził się we Włoszech wraz z początki
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 134 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11483,7 +10834,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia portret kobiety w czarnym kape
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 135 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11624,7 +10975,7 @@ var raw = exports.raw = "\nOd zawsze i na zawsze. Czerń to barwa pełna kontras
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 136 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11780,7 +11131,7 @@ var raw = exports.raw = "\n<olela-narrative>\nTen miesiąc był niezwykle kapry�
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 137 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11981,7 +11332,7 @@ var raw = exports.raw = "\n<olela-narrative>\nPo tej wystawie spodziewałam się
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 138 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12088,7 +11439,7 @@ var raw = exports.raw = "\nManieryzm nie jest jednoznacznym stylem. Jest bardzie
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 139 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12244,7 +11595,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia portret kobiety w artystycznym
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 140 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12389,7 +11740,7 @@ var raw = exports.raw = "\n<olela-narrative>\nDzwoni budzik. Leniwie otwieram oc
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 141 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12492,7 +11843,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia portret kobiety w mocnym kolor
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 142 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12623,7 +11974,7 @@ var raw = exports.raw = "\nSusan Sontag jako pierwsza podjęła próbę zdefinio
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 143 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12810,7 +12161,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia portret kobiety w artystycznym
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 144 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12977,7 +12328,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia portret kobiety w turbanie. Ko
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 145 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13169,7 +12520,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia ciemne pomieszczenie oświetlo
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 146 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13345,7 +12696,7 @@ var raw = exports.raw = "\n<olela-narrative>\nKiedy otwieram oczy za oknem wcią
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 147 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13434,7 +12785,7 @@ var raw = exports.raw = "\nFluxus (łac. płynący; ang. to flow) nie był skonk
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 148 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13503,7 +12854,7 @@ var raw = exports.raw = "\nDziś już pamiętam tylko Twoje dłonie. Trzymałam 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 149 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13609,7 +12960,7 @@ var raw = exports.raw = "\n## STOP\n\n\nZatrzymaj się na chwilę. Stop. Usiąd�
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 150 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13794,7 +13145,7 @@ var raw = exports.raw = "\nGrudzień jest miesiącem pełnym skrajności. W pani
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 151 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13988,7 +13339,7 @@ var raw = exports.raw = "\n**Termin**\n\nBarok – prawdopodobnie z portugalskie
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 152 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14182,7 +13533,7 @@ var raw = exports.raw = "\n![Obraz przedstawia portret kobiety wpisany w rąb. K
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 153 */
+/* 147 */
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -14191,10 +13542,10 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 153;
+webpackEmptyContext.id = 147;
 
 /***/ }),
-/* 154 */
+/* 148 */
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -14203,10 +13554,10 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 154;
+webpackEmptyContext.id = 148;
 
 /***/ }),
-/* 155 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -14227,19 +13578,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 155;
+webpackContext.id = 149;
 
 /***/ }),
-/* 156 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(157);
+module.exports = __webpack_require__(151);
 
 /***/ }),
-/* 157 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14257,7 +13608,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(158);
+var _propTypes = __webpack_require__(152);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -14461,13 +13812,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 158 */
+/* 152 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_158__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_152__;
 
 /***/ }),
-/* 159 */
+/* 153 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14481,7 +13832,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 160 */
+/* 154 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14489,7 +13840,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 161 */
+/* 155 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14502,7 +13853,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 162 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14536,7 +13887,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 163 */
+/* 157 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14549,7 +13900,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 164 */
+/* 158 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14558,7 +13909,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 165 */
+/* 159 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14566,7 +13917,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 166 */
+/* 160 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14574,7 +13925,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 167 */
+/* 161 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14589,7 +13940,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 168 */
+/* 162 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14604,7 +13955,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 169 */
+/* 163 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14619,7 +13970,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 170 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14643,7 +13994,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(171);
+var s = __webpack_require__(165);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -14674,7 +14025,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 171 */
+/* 165 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14682,7 +14033,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 172 */
+/* 166 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14706,7 +14057,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 173 */
+/* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14757,7 +14108,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 174 */
+/* 168 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14765,7 +14116,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 175 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14774,7 +14125,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(176);
+var s = __webpack_require__(170);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -14807,7 +14158,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 176 */
+/* 170 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14817,7 +14168,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 177 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14861,22 +14212,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 178 */
+/* 172 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 179 */
+/* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 180,
-	"./Feed.js": 181,
-	"./Ingredient.js": 182,
-	"./Method.js": 183,
-	"./Recipe.js": 184,
-	"./TableOfContents.js": 185
+	"./Crumbs.js": 174,
+	"./Feed.js": 175,
+	"./Ingredient.js": 176,
+	"./Method.js": 177,
+	"./Recipe.js": 178,
+	"./TableOfContents.js": 179
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -14892,10 +14243,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 179;
+webpackContext.id = 173;
 
 /***/ }),
-/* 180 */
+/* 174 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14910,7 +14261,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 181 */
+/* 175 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14925,7 +14276,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 182 */
+/* 176 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14940,7 +14291,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 183 */
+/* 177 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14955,7 +14306,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 184 */
+/* 178 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14970,7 +14321,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 185 */
+/* 179 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14985,7 +14336,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 186 */
+/* 180 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15009,7 +14360,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 187 */
+/* 181 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
