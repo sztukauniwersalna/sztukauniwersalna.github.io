@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_152__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_153__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(167);
+var Feed_1 = __webpack_require__(168);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(169);
+var Recipe_1 = __webpack_require__(170);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(171);
+var Root_1 = __webpack_require__(172);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(153);
+var s = __webpack_require__(154);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(154);
+var s = __webpack_require__(155);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(65),
-UPLOADS: __webpack_require__(147),
-ROOT: __webpack_require__(148),
-LAYOUTS: __webpack_require__(149),
-INCLUDES: __webpack_require__(173)};
+UPLOADS: __webpack_require__(148),
+ROOT: __webpack_require__(149),
+LAYOUTS: __webpack_require__(150),
+INCLUDES: __webpack_require__(174)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(173)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(155);
+var s = __webpack_require__(156);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(159);
+var s = __webpack_require__(160);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(172);
+__webpack_require__(173);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(150);
+var react_disqus_comments_1 = __webpack_require__(151);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(164);
-var s = __webpack_require__(166);
+var FacebookLike_1 = __webpack_require__(165);
+var s = __webpack_require__(167);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(156);
-var s = __webpack_require__(157);
+__webpack_require__(157);
+var s = __webpack_require__(158);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(158);
+var s = __webpack_require__(159);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(161);
+var s = __webpack_require__(162);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(160);
+var s = __webpack_require__(161);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(162);
+var s = __webpack_require__(163);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(163);
+var s = __webpack_require__(164);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(168);
+var s = __webpack_require__(169);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(180);
-var menu_1 = __webpack_require__(181);
+var tags_1 = __webpack_require__(181);
+var menu_1 = __webpack_require__(182);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2884,7 +2884,8 @@ var map = {
 	"./2018-12-28-stop-2018-start-2019.markdown": 143,
 	"./2019-01-03-moje-wybory-grudzien-2018.markdown": 144,
 	"./2019-01-10-barok-moodboard.markdown": 145,
-	"./2019-01-24-make-up-inspirowany-obrazem-victory-boogie-woogie-by-piet-mondrian.markdown": 146
+	"./2019-01-24-make-up-inspirowany-obrazem-victory-boogie-woogie-by-piet-mondrian.markdown": 146,
+	"./2019-01-30-moje-wybory-styczen-2019.markdown": 147
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -13534,15 +13535,84 @@ var raw = exports.raw = "\n![Obraz przedstawia portret kobiety wpisany w rąb. K
 
 /***/ }),
 /* 147 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 147;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Nowy rok = nowa ja. Ile razy ju\u017C to s\u0142ysza\u0142a\u015B? Dwadzie\u015Bcia dwa, dwadzie\u015Bcia siedem, czterdzie\u015Bci trzy ? Niewa\u017Cne ile razy powtarza\u0142a\u015B sobie \u2018czas na zmiany\u2019 - nie martw si\u0119, one i tak przyjd\u0105. Zmiany lubi\u0105 nas zaskakiwa\u0107. Wybieraj\u0105 najbardziej niepozorny, szary poranek i krzycz\u0105 do ucha: Wstawaj, czas pobiega\u0107! A Ty, nie wiesz jak i dlaczego, ale zak\u0142adasz zakurzone sportowe obuwie i wychodzisz na ten zi\u0105b. Niczym Forrest Gump wychodzisz i biegniesz. I niewa\u017Cne, \u017Ce Tw\xF3j bieg trwa 3 minuty, po czym zadyszka nie pozwala Ci kontynuowa\u0107. To by\u0142y ca\u0142e trzy minuty sukcesu, Twojego sukcesu. Co\u015B si\u0119 zmieni\u0142o, wyrwa\u0142a\u015B si\u0119 z rutyny, zrobi\u0142a\u015B co\u015B inaczej ni\u017C zwykle. Zmiany swoimi rozmiarami przypominaj\u0105 Psztymucle (bohaterowie bajki \u2018Bromba i inni\u2019, zamieszkuj\u0105 auta), wcisn\u0105 si\u0119 wsz\u0119dzie. Przyjdzie taki dzie\u0144, \u017Ce spojrzysz na swoje czarne ubrania i powiesz: \u2018Mam do\u015B\u0107\u2019. Do\u015B\u0107 czarnych spodni, ciemnych bluzek i torebek, do\u015B\u0107 \u2013 i p\xF3jdziesz kupi\u0107 br\u0105zowe. Zrezygnowane westchnienie t\u0119sknoty za kolorem wyprzedzi rajd po sklepach z barwnymi materia\u0142ami. W przerwie t\u0119czowego szale\u0144stwa kupisz butelk\u0119 wody i kolorowy magazyn, kt\xF3ry wpad\u0142 Ci w r\u0119ce przypadkiem. Czternasta strona czasopisma opowie o brokatowym makija\u017Cu oka, a Ty zapragniesz by\u0107 kr\xF3low\u0105 karnawa\u0142u. Nic nie stoi na przeszkodzie, aby\u015B by\u0142a kim tylko zechcesz. A kiedy ju\u017C wprowadzisz w swoje \u017Cycie wszystkie zmiany, br\u0105zowe torebki, brokat, kwiatowe zapachy, usi\u0105dziesz na chwil\u0119 na nowej kanapie z ponadczasow\u0105 ksi\u0105\u017Ck\u0105 w r\u0119ce i pude\u0142kiem ulubionych czekoladek. Si\u0119gaj\u0105c po marcepanow\u0105 natrafisz na truskawkow\u0105, kt\xF3rej smaku nie znosisz i pomy\u015Blisz w duchu \u2018jednak nie wszystkie zmiany s\u0105 dobre\u2019, jednak \u2018\u017Cycie jest jak pude\u0142ko czekoladek. Nigdy nie wiadomo, co ci si\u0119 trafi\u2019.'
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Kosmetyk: kolor\xF3wka'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Zmiany, zmiany, innowacje! Innowacyjne po\u0142\u0105czenie eyelinera i cienia do powiek proponuje nam marka Rimmel. Dzi\u0119ki linerom Wonder\u2019Swipe mo\u017Cemy za jednym poci\u0105gni\u0119ciem palca (lub p\u0119dzla) przemieni\u0107 brokatow\u0105, nasycon\u0105 kolorem lini\u0119 w cie\u0144. Linery dost\u0119pne w 12 odcieniach skrz\u0105 si\u0119 milionem drobinek. Szybkie w u\u017Cyciu, zastygaj\u0105 i trzymaj\u0105 si\u0119 powieki ca\u0142y dzie\u0144. A wieczorem... u\u017Cyj jednego ze z\u0142otych odcieni jako roz\u015Bwietlacza. Efekt WOW gwarantowany.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/8967433/ello-optimized-f4e4009a.jpg', alt: 'Obraz przedstawia sze\u015B\u0107 podobnych przedmiot\xF3w na kolorowych t\u0142ach. obok czarne napisy.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8967435/ello-optimized-ecc416d7.jpg', alt: 'Zdj\u0119cie przedstawia obiekty rozrzucone na kolorowych kartonach.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Akcesoria: Torebka'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Kobieta powinna mie\u0107 w swojej szafie co najmniej trzy modele torebek \u2013 torb\u0119 na zakupy (shopper), torebk\u0119 \u015Brednich rozmiar\xF3w na mniej zobowi\u0105zuj\u0105ce wyj\u015Bcia i kopert\xF3wk\u0119. Wielko\u015B\u0107 i kszta\u0142t jaki powinna mie\u0107 torba idealna zale\u017Cy od kobiecej figury i proporcji. Je\u015Bli jeste\u015B filigranow\u0105 osob\u0105 o niewielkim wzro\u015Bcie odpu\u015B\u0107 sobie wielkich rozmiar\xF3w worek, bo to zestawienie wgl\u0105da\u0107 b\u0119dzie karykaturalnie. Sytuacja powtarza si\u0119 w drug\u0105 stron\u0119. Szuka\u0142am dla siebie idealnej shopperki, ale niestety wi\u0119kszo\u015B\u0107 modeli by\u0142a dla mnie za du\u017Ca. Zdecydowa\u0142am si\u0119 na \u2018co\u015B pomi\u0119dzy\u2019. Model Bryant Shop Tote marki DKNY to idealny kompromis pomi\u0119dzy du\u017C\u0105 a \u015Bredni\u0105 torb\u0105. Torebka jest \u015Bwietnie zorganizowana, posiada trzy g\u0142\xF3wne przegrody, oraz sporo mniejszych schowk\xF3w na klucze i telefon. Wykonana jest w ca\u0142o\u015Bci ze specjalnie wyprawianej sk\xF3ry, co zmniejsza ryzyko zarysowa\u0144 w trakcie u\u017Cytkowania. Dost\u0119pna w wielu kolorach, pomie\u015Bci to, co najwa\u017Cniejsze i magazyn w formacie A4. U mnie w odcieniu \u2018kawa z mlekiem\u2019 b\u0119dzie idealna zar\xF3wno na zim\u0119, jak i doskonale uzupe\u0142ni stylizacj\u0119 ciep\u0142ych miesi\u0119cy. Polecam przez ca\u0142y rok.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/8967442/ello-optimized-14e768cf.jpg', alt: 'Obraz przedstawia fotografi\u0119 torebki le\u017C\u0105cej na fioletowej tkaninie w\u015Br\xF3d r\xF3\u017Cnych przedmiot\xF3w.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/8967444/ello-optimized-2215ed6a.jpg', alt: 'Obraz przedstawia cztery zdj\u0119cia, jedno du\u017Cej wielko\u015Bci trzy mniejszej wielko\u015Bci. Z lewej strony widzimy zdj\u0119cie torebki, z prawej ma\u0142e fotografie postaci.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/8967446/ello-optimized-c2c714f0.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia br\u0105zowej torebki. Jedno zdj\u0119cie jest mniejsze i otoczone czarn\u0105 ramk\u0105.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/8967449/ello-optimized-900d5547.jpg', alt: 'Obraz przedstawia trzy zdj\u0119cia br\u0105zowej torebki. Dwa z nich s\u0105 mniejszej wielko\u015Bci i nachodz\u0105 na siebie.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Moje wybory: styczeń 2019", "date": "2019-01-30T17:42:00.000Z", "categories": ["Sztuka Makijażu", "Sztuka Ubioru"], "tags": ["moje wybory", "my choices", "perfumy", "lektura", "kosmetyk", "akcesoria", "torebka"] };
+var body = exports.body = "<p>Nowy rok = nowa ja. Ile razy już to słyszałaś? Dwadzieścia dwa, dwadzieścia siedem, czterdzieści trzy ? Nieważne ile razy powtarzałaś sobie ‘czas na zmiany’ - nie martw się, one i tak przyjdą. Zmiany lubią nas zaskakiwać. Wybierają najbardziej niepozorny, szary poranek i krzyczą do ucha: Wstawaj, czas pobiegać! A Ty, nie wiesz jak i dlaczego, ale zakładasz zakurzone sportowe obuwie i wychodzisz na ten ziąb. Niczym Forrest Gump wychodzisz i biegniesz. I nieważne, że Twój bieg trwa 3 minuty, po czym zadyszka nie pozwala Ci kontynuować. To były całe trzy minuty sukcesu, Twojego sukcesu. Coś się zmieniło, wyrwałaś się z rutyny, zrobiłaś coś inaczej niż zwykle. Zmiany swoimi rozmiarami przypominają Psztymucle (bohaterowie bajki ‘Bromba i inni’, zamieszkują auta), wcisną się wszędzie. Przyjdzie taki dzień, że spojrzysz na swoje czarne ubrania i powiesz: ‘Mam dość’. Dość czarnych spodni, ciemnych bluzek i torebek, dość – i pójdziesz kupić brązowe. Zrezygnowane westchnienie tęsknoty za kolorem wyprzedzi rajd po sklepach z barwnymi materiałami. W przerwie tęczowego szaleństwa kupisz butelkę wody i kolorowy magazyn, który wpadł Ci w ręce przypadkiem. Czternasta strona czasopisma opowie o brokatowym makijażu oka, a Ty zapragniesz być królową karnawału. Nic nie stoi na przeszkodzie, abyś była kim tylko zechcesz. A kiedy już wprowadzisz w swoje życie wszystkie zmiany, brązowe torebki, brokat, kwiatowe zapachy, usiądziesz na chwilę na nowej kanapie z ponadczasową książką w ręce i pudełkiem ulubionych czekoladek. Sięgając po marcepanową natrafisz na truskawkową, której smaku nie znosisz i pomyślisz w duchu ‘jednak nie wszystkie zmiany są dobre’, jednak ‘życie jest jak pudełko czekoladek. Nigdy nie wiadomo, co ci się trafi’.</p>\n<h2>Kosmetyk: kolorówka</h2>\n<p>Zmiany, zmiany, innowacje! Innowacyjne połączenie eyelinera i cienia do powiek proponuje nam marka Rimmel. Dzięki linerom Wonder’Swipe możemy za jednym pociągnięciem palca (lub pędzla) przemienić brokatową, nasyconą kolorem linię w cień. Linery dostępne w 12 odcieniach skrzą się milionem drobinek. Szybkie w użyciu, zastygają i trzymają się powieki cały dzień. A wieczorem... użyj jednego ze złotych odcieni jako rozświetlacza. Efekt WOW gwarantowany.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/8967433/ello-optimized-f4e4009a.jpg\" alt=\"Obraz przedstawia sześć podobnych przedmiotów na kolorowych tłach. obok czarne napisy.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/8967435/ello-optimized-ecc416d7.jpg\" alt=\"Zdjęcie przedstawia obiekty rozrzucone na kolorowych kartonach.\" /></p>\n<h2>Akcesoria: Torebka</h2>\n<p>Kobieta powinna mieć w swojej szafie co najmniej trzy modele torebek – torbę na zakupy (shopper), torebkę średnich rozmiarów na mniej zobowiązujące wyjścia i kopertówkę. Wielkość i kształt jaki powinna mieć torba idealna zależy od kobiecej figury i proporcji. Jeśli jesteś filigranową osobą o niewielkim wzroście odpuść sobie wielkich rozmiarów worek, bo to zestawienie wglądać będzie karykaturalnie. Sytuacja powtarza się w drugą stronę. Szukałam dla siebie idealnej shopperki, ale niestety większość modeli była dla mnie za duża. Zdecydowałam się na ‘coś pomiędzy’. Model Bryant Shop Tote marki DKNY to idealny kompromis pomiędzy dużą a średnią torbą. Torebka jest świetnie zorganizowana, posiada trzy główne przegrody, oraz sporo mniejszych schowków na klucze i telefon. Wykonana jest w całości ze specjalnie wyprawianej skóry, co zmniejsza ryzyko zarysowań w trakcie użytkowania. Dostępna w wielu kolorach, pomieści to, co najważniejsze i magazyn w formacie A4. U mnie w odcieniu ‘kawa z mlekiem’ będzie idealna zarówno na zimę, jak i doskonale uzupełni stylizację ciepłych miesięcy. Polecam przez cały rok.</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/8967442/ello-optimized-14e768cf.jpg\" alt=\"Obraz przedstawia fotografię torebki leżącej na fioletowej tkaninie wśród różnych przedmiotów.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/8967444/ello-optimized-2215ed6a.jpg\" alt=\"Obraz przedstawia cztery zdjęcia, jedno dużej wielkości trzy mniejszej wielkości. Z lewej strony widzimy zdjęcie torebki, z prawej małe fotografie postaci.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/8967446/ello-optimized-c2c714f0.jpg\" alt=\"Obraz przedstawia dwa zdjęcia brązowej torebki. Jedno zdjęcie jest mniejsze i otoczone czarną ramką.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/8967449/ello-optimized-900d5547.jpg\" alt=\"Obraz przedstawia trzy zdjęcia brązowej torebki. Dwa z nich są mniejszej wielkości i nachodzą na siebie.\" /></p>\n";
+var raw = exports.raw = "\nNowy rok = nowa ja. Ile razy już to słyszałaś? Dwadzieścia dwa, dwadzieścia siedem, czterdzieści trzy ? Nieważne ile razy powtarzałaś sobie ‘czas na zmiany’ - nie martw się, one i tak przyjdą. Zmiany lubią nas zaskakiwać. Wybierają najbardziej niepozorny, szary poranek i krzyczą do ucha: Wstawaj, czas pobiegać! A Ty, nie wiesz jak i dlaczego, ale zakładasz zakurzone sportowe obuwie i wychodzisz na ten ziąb. Niczym Forrest Gump wychodzisz i biegniesz. I nieważne, że Twój bieg trwa 3 minuty, po czym zadyszka nie pozwala Ci kontynuować. To były całe trzy minuty sukcesu, Twojego sukcesu. Coś się zmieniło, wyrwałaś się z rutyny, zrobiłaś coś inaczej niż zwykle. Zmiany swoimi rozmiarami przypominają Psztymucle (bohaterowie bajki ‘Bromba i inni’, zamieszkują auta), wcisną się wszędzie. Przyjdzie taki dzień, że spojrzysz na swoje czarne ubrania i powiesz: ‘Mam dość’. Dość czarnych spodni, ciemnych bluzek i torebek, dość – i pójdziesz kupić brązowe. Zrezygnowane westchnienie tęsknoty za kolorem wyprzedzi rajd po sklepach z barwnymi materiałami. W przerwie tęczowego szaleństwa kupisz butelkę wody i kolorowy magazyn, który wpadł Ci w ręce przypadkiem. Czternasta strona czasopisma opowie o brokatowym makijażu oka, a Ty zapragniesz być królową karnawału. Nic nie stoi na przeszkodzie, abyś była kim tylko zechcesz. A kiedy już wprowadzisz w swoje życie wszystkie zmiany, brązowe torebki, brokat, kwiatowe zapachy, usiądziesz na chwilę na nowej kanapie z ponadczasową książką w ręce i pudełkiem ulubionych czekoladek. Sięgając po marcepanową natrafisz na truskawkową, której smaku nie znosisz i pomyślisz w duchu ‘jednak nie wszystkie zmiany są dobre’, jednak ‘życie jest jak pudełko czekoladek. Nigdy nie wiadomo, co ci się trafi’.\n\n## Kosmetyk: kolorówka\n\nZmiany, zmiany, innowacje! Innowacyjne połączenie eyelinera i cienia do powiek proponuje nam marka Rimmel. Dzięki linerom Wonder’Swipe możemy za jednym pociągnięciem palca (lub pędzla) przemienić brokatową, nasyconą kolorem linię w cień. Linery dostępne w 12 odcieniach skrzą się milionem drobinek. Szybkie w użyciu, zastygają i trzymają się powieki cały dzień. A wieczorem… użyj jednego ze złotych odcieni jako rozświetlacza. Efekt WOW gwarantowany.\n\n![Obraz przedstawia sześć podobnych przedmiotów na kolorowych tłach. obok czarne napisy.](https://assets0.ello.co/uploads/asset/attachment/8967433/ello-optimized-f4e4009a.jpg)\n![Zdjęcie przedstawia obiekty rozrzucone na kolorowych kartonach.](https://assets1.ello.co/uploads/asset/attachment/8967435/ello-optimized-ecc416d7.jpg)\n\n## Akcesoria: Torebka\n\nKobieta powinna mieć w swojej szafie co najmniej trzy modele torebek – torbę na zakupy (shopper), torebkę średnich rozmiarów na mniej zobowiązujące wyjścia i kopertówkę. Wielkość i kształt jaki powinna mieć torba idealna zależy od kobiecej figury i proporcji. Jeśli jesteś filigranową osobą o niewielkim wzroście odpuść sobie wielkich rozmiarów worek, bo to zestawienie wglądać będzie karykaturalnie. Sytuacja powtarza się w drugą stronę. Szukałam dla siebie idealnej shopperki, ale niestety większość modeli była dla mnie za duża. Zdecydowałam się na ‘coś pomiędzy’. Model Bryant Shop Tote marki DKNY to idealny kompromis pomiędzy dużą a średnią torbą. Torebka jest świetnie zorganizowana, posiada trzy główne przegrody, oraz sporo mniejszych schowków na klucze i telefon. Wykonana jest w całości ze specjalnie wyprawianej skóry, co zmniejsza ryzyko zarysowań w trakcie użytkowania. Dostępna w wielu kolorach, pomieści to, co najważniejsze i magazyn w formacie A4. U mnie w odcieniu ‘kawa z mlekiem’ będzie idealna zarówno na zimę, jak i doskonale uzupełni stylizację ciepłych miesięcy. Polecam przez cały rok. \n\n![Obraz przedstawia fotografię torebki leżącej na fioletowej tkaninie wśród różnych przedmiotów.](https://assets2.ello.co/uploads/asset/attachment/8967442/ello-optimized-14e768cf.jpg)\n![Obraz przedstawia cztery zdjęcia, jedno dużej wielkości trzy mniejszej wielkości. Z lewej strony widzimy zdjęcie torebki, z prawej małe fotografie postaci.](https://assets0.ello.co/uploads/asset/attachment/8967444/ello-optimized-2215ed6a.jpg)\n![Obraz przedstawia dwa zdjęcia brązowej torebki. Jedno zdjęcie jest mniejsze i otoczone czarną ramką.](https://assets1.ello.co/uploads/asset/attachment/8967446/ello-optimized-c2c714f0.jpg)\n![Obraz przedstawia trzy zdjęcia brązowej torebki. Dwa z nich są mniejszej wielkości i nachodzą na siebie.](https://assets0.ello.co/uploads/asset/attachment/8967449/ello-optimized-900d5547.jpg)\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 148 */
@@ -13558,6 +13628,18 @@ webpackEmptyContext.id = 148;
 
 /***/ }),
 /* 149 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 149;
+
+/***/ }),
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -13578,19 +13660,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 149;
+webpackContext.id = 150;
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(151);
+module.exports = __webpack_require__(152);
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13608,7 +13690,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(152);
+var _propTypes = __webpack_require__(153);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -13812,13 +13894,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_152__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_153__;
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13832,7 +13914,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13840,7 +13922,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13853,7 +13935,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13887,7 +13969,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13900,7 +13982,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13909,7 +13991,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13917,7 +13999,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13925,7 +14007,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13940,7 +14022,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13955,7 +14037,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -13970,7 +14052,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13994,7 +14076,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(165);
+var s = __webpack_require__(166);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -14025,7 +14107,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14033,7 +14115,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14057,7 +14139,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14108,7 +14190,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14116,7 +14198,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 169 */
+/* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14125,7 +14207,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(170);
+var s = __webpack_require__(171);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -14158,7 +14240,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 170 */
+/* 171 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14168,7 +14250,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 171 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14212,22 +14294,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 172 */
+/* 173 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 173 */
+/* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 174,
-	"./Feed.js": 175,
-	"./Ingredient.js": 176,
-	"./Method.js": 177,
-	"./Recipe.js": 178,
-	"./TableOfContents.js": 179
+	"./Crumbs.js": 175,
+	"./Feed.js": 176,
+	"./Ingredient.js": 177,
+	"./Method.js": 178,
+	"./Recipe.js": 179,
+	"./TableOfContents.js": 180
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -14243,10 +14325,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 173;
+webpackContext.id = 174;
 
 /***/ }),
-/* 174 */
+/* 175 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14261,7 +14343,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 175 */
+/* 176 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14276,7 +14358,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 176 */
+/* 177 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14291,7 +14373,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 177 */
+/* 178 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14306,7 +14388,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 178 */
+/* 179 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14321,7 +14403,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 179 */
+/* 180 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14336,7 +14418,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 180 */
+/* 181 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14360,7 +14442,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 181 */
+/* 182 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
