@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_153__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_154__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(168);
+var Feed_1 = __webpack_require__(169);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(170);
+var Recipe_1 = __webpack_require__(171);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(172);
+var Root_1 = __webpack_require__(173);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(154);
+var s = __webpack_require__(155);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(155);
+var s = __webpack_require__(156);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(65),
-UPLOADS: __webpack_require__(148),
-ROOT: __webpack_require__(149),
-LAYOUTS: __webpack_require__(150),
-INCLUDES: __webpack_require__(174)};
+UPLOADS: __webpack_require__(149),
+ROOT: __webpack_require__(150),
+LAYOUTS: __webpack_require__(151),
+INCLUDES: __webpack_require__(175)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(174)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(156);
+var s = __webpack_require__(157);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(160);
+var s = __webpack_require__(161);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(173);
+__webpack_require__(174);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(151);
+var react_disqus_comments_1 = __webpack_require__(152);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(165);
-var s = __webpack_require__(167);
+var FacebookLike_1 = __webpack_require__(166);
+var s = __webpack_require__(168);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(157);
-var s = __webpack_require__(158);
+__webpack_require__(158);
+var s = __webpack_require__(159);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(159);
+var s = __webpack_require__(160);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(162);
+var s = __webpack_require__(163);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(161);
+var s = __webpack_require__(162);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(163);
+var s = __webpack_require__(164);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(164);
+var s = __webpack_require__(165);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(169);
+var s = __webpack_require__(170);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(181);
-var menu_1 = __webpack_require__(182);
+var tags_1 = __webpack_require__(182);
+var menu_1 = __webpack_require__(183);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2885,7 +2885,8 @@ var map = {
 	"./2019-01-03-moje-wybory-grudzien-2018.markdown": 144,
 	"./2019-01-10-barok-moodboard.markdown": 145,
 	"./2019-01-24-make-up-inspirowany-obrazem-victory-boogie-woogie-by-piet-mondrian.markdown": 146,
-	"./2019-01-30-moje-wybory-styczen-2019.markdown": 147
+	"./2019-01-30-moje-wybory-styczen-2019.markdown": 147,
+	"./2019-02-07-prymitywizm-sztuka-naiwna-moodboard.markdown": 148
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -13704,15 +13705,126 @@ var raw = exports.raw = "\nNowy rok = nowa ja. Ile razy już to słyszałaś? Dw
 
 /***/ }),
 /* 148 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 148;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Prymitywi\u015Bci to arty\u015Bci niewykszta\u0142ceni, nieprofesjonalni, uprawiaj\u0105cy sztuk\u0119 naiwn\u0105. Ich dzie\u0142a przypominaj\u0105 cz\u0119sto malunki dzieci, s\u0105 niezgrabne, zdeformowane, tworzone w prostej technice. Tematyka \u2018obraz\xF3w prymitywnych\u2019 dotyka \u017Cycia codziennego, lecz odwo\u0142uje si\u0119 r\xF3wnie\u017C do przestrzeni magicznej i symbolicznej.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'W erze impresjonizmu nast\u0105pi\u0142 pewien prze\u0142om w sposobie postrzegania sztuki. Sztuka lud\xF3w prymitywnych, dzieci, os\xF3b niewykszta\u0142conych, malarzy nieprofesjonalnych zosta\u0142a uznana za warto\u015Bciow\u0105. By\u0142a bowiem \u2018nieska\u017Cona przez intelekt\u2019, szczera, czysta, pozbawiona akademickiej maniery. Salon Artyst\xF3w Niezale\u017Cnych powsta\u0142y w 1884 roku, gdzie pokazywano prace \u2018odrzucone\u2019, sta\u0142 si\u0119 furtk\u0105 do postrzegania prac prymitywist\xF3w w pochlebny spos\xF3b. Na wystawach tych bowiem prac  nie oceniali cz\u0142onkowie \u2018wykszta\u0142conego\u2019 jury, lecz otwarta publiczno\u015B\u0107.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Pierwszym, ciesz\u0105cym si\u0119 du\u017Cym uznaniem prymitywist\u0105 by\u0142 Henri Rousseau, zwany Celnikiem. Rozpocz\u0105\u0142 swoj\u0105 malarsk\u0105 karier\u0119 w wieku 41 lat, wcze\u015Bniej pracowa\u0142 jako urz\u0119dnik. Henri za m\u0142odu niczym si\u0119 nie wyr\xF3\u017Cnia\u0142, nigdy nie zda\u0142 matury. Jego dzie\u0142a malowane s\u0105 z niezwyk\u0142\u0105 precyzj\u0105 i przywi\u0105zaniem do szczeg\xF3\u0142u. Cz\u0119sto przedstawiaj\u0105 bogata ro\u015Blinno\u015B\u0107 oraz zwierz\u0119ta. Zas\u0142yn\u0105\u0142 wystawiaj\u0105c dwie swoje prace na Salonie Jesiennym, zaraz obok prac Matisse\u2019a i Braque\u2019a.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement(
+        'strong',
+        null,
+        'Cechy sztuki naiwnej:'
+      )
+    ),
+    _react2.default.createElement(
+      'ul',
+      null,
+      _react2.default.createElement(
+        'li',
+        null,
+        'tworzona przez artyst\xF3w nieprofesjonalnych, niewykszta\u0142conych, ale tak\u017Ce dzie\u0142a stylizowane na takie'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'niezgrabna, cz\u0119sto b\u0142\u0119dna perspektywa'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'prosta, niewyszukana technika'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'skrajnie subiektywny punkt widzenia'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'niewyszukane kolory, \u2018prosto z tubki\u2019'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'tematyka codzienna'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'symbolizm'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'przywi\u0105zanie do szczeg\xF3\u0142u'
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/9012795/ello-optimized-b5c3f82a.jpg', alt: 'Obraz przedstawia trzy zdj\u0119cia obraz\xF3w znanego artysty na jasno-niebieskim tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/9012797/ello-optimized-76d3886b.jpg', alt: 'Obraz przedstawia trzy zdj\u0119cia. Na dw\xF3ch z nich widzimy modelki w strojach na wybiegu. Na pozosta\u0142ym widzimy obraz znanego artysty. Ca\u0142o\u015B\u0107 na jasno-niebieskim tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/9012805/ello-optimized-321cda25.jpg', alt: 'Obraz przedstawia trzy zdj\u0119cia kolorowych dzie\u0142 artyst\xF3w. Ca\u0142o\u015B\u0107 na jasno-niebieskim tle. ' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/9012808/ello-optimized-f98cb807.jpg', alt: 'Obraz przedstawia trzy fotografie kolorowych dzie\u0142 artyst\xF3w na b\u0142\u0119kitnym tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/9012814/ello-optimized-0f4792ed.jpg', alt: 'Obraz przedstawia pi\u0119\u0107 zdj\u0119\u0107 na b\u0142\u0119kitnym tle. Na czterech z nich widzimy obrazy znanego artysty. Pi\u0105te zdj\u0119cie przedstawia siedz\u0105c\u0105 posta\u0107 w zimowej scenerii.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/9012819/ello-optimized-d946bd5b.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia obraz\xF3w znanych artyst\xF3w. Ca\u0142o\u015B\u0107 na b\u0142\u0119kitnym tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/9012826/ello-optimized-8cbba6c5.jpg', alt: 'Obraz przedstawia trzy zdj\u0119cia. Na jednym z nich widzimy posta\u0107 w czarnej masce, na dw\xF3ch pozosta\u0142ych widniej\u0105 obrazy znanych malarzy.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/9012828/ello-optimized-5b4e9113.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia znanych obraz\xF3w. Ca\u0142o\u015B\u0107 utrzymana w niebieskiej tonacji.' }),
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/9012833/ello-optimized-599da5a7.jpg', alt: 'Obraz przedstawia ciemne napisy na jasno-niebieskim tle.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Prymitywizm (sztuka naiwna) [moodboard]", "date": "2019-02-07T16:17:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["moodboard", "prymitywizm", "sztuka naiwna"] };
+var body = exports.body = "<p>Prymitywiści to artyści niewykształceni, nieprofesjonalni, uprawiający sztukę naiwną. Ich dzieła przypominają często malunki dzieci, są niezgrabne, zdeformowane, tworzone w prostej technice. Tematyka ‘obrazów prymitywnych’ dotyka życia codziennego, lecz odwołuje się również do przestrzeni magicznej i symbolicznej.</p>\n<p>W erze impresjonizmu nastąpił pewien przełom w sposobie postrzegania sztuki. Sztuka ludów prymitywnych, dzieci, osób niewykształconych, malarzy nieprofesjonalnych została uznana za wartościową. Była bowiem ‘nieskażona przez intelekt’, szczera, czysta, pozbawiona akademickiej maniery. Salon Artystów Niezależnych powstały w 1884 roku, gdzie pokazywano prace ‘odrzucone’, stał się furtką do postrzegania prac prymitywistów w pochlebny sposób. Na wystawach tych bowiem prac  nie oceniali członkowie ‘wykształconego’ jury, lecz otwarta publiczność.</p>\n<p>Pierwszym, cieszącym się dużym uznaniem prymitywistą był Henri Rousseau, zwany Celnikiem. Rozpoczął swoją malarską karierę w wieku 41 lat, wcześniej pracował jako urzędnik. Henri za młodu niczym się nie wyróżniał, nigdy nie zdał matury. Jego dzieła malowane są z niezwykłą precyzją i przywiązaniem do szczegółu. Często przedstawiają bogata roślinność oraz zwierzęta. Zasłynął wystawiając dwie swoje prace na Salonie Jesiennym, zaraz obok prac Matisse’a i Braque’a.</p>\n<p><strong>Cechy sztuki naiwnej:</strong></p>\n<ul>\n<li>tworzona przez artystów nieprofesjonalnych, niewykształconych, ale także dzieła stylizowane na takie</li>\n<li>niezgrabna, często błędna perspektywa</li>\n<li>prosta, niewyszukana technika</li>\n<li>skrajnie subiektywny punkt widzenia</li>\n<li>niewyszukane kolory, ‘prosto z tubki’</li>\n<li>tematyka codzienna</li>\n<li>symbolizm</li>\n<li>przywiązanie do szczegółu</li>\n</ul>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/9012795/ello-optimized-b5c3f82a.jpg\" alt=\"Obraz przedstawia trzy zdjęcia obrazów znanego artysty na jasno-niebieskim tle.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/9012797/ello-optimized-76d3886b.jpg\" alt=\"Obraz przedstawia trzy zdjęcia. Na dwóch z nich widzimy modelki w strojach na wybiegu. Na pozostałym widzimy obraz znanego artysty. Całość na jasno-niebieskim tle.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/9012805/ello-optimized-321cda25.jpg\" alt=\"Obraz przedstawia trzy zdjęcia kolorowych dzieł artystów. Całość na jasno-niebieskim tle. \" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/9012808/ello-optimized-f98cb807.jpg\" alt=\"Obraz przedstawia trzy fotografie kolorowych dzieł artystów na błękitnym tle.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/9012814/ello-optimized-0f4792ed.jpg\" alt=\"Obraz przedstawia pięć zdjęć na błękitnym tle. Na czterech z nich widzimy obrazy znanego artysty. Piąte zdjęcie przedstawia siedzącą postać w zimowej scenerii.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/9012819/ello-optimized-d946bd5b.jpg\" alt=\"Obraz przedstawia dwa zdjęcia obrazów znanych artystów. Całość na błękitnym tle.\" />\n<img src=\"https://assets2.ello.co/uploads/asset/attachment/9012826/ello-optimized-8cbba6c5.jpg\" alt=\"Obraz przedstawia trzy zdjęcia. Na jednym z nich widzimy postać w czarnej masce, na dwóch pozostałych widnieją obrazy znanych malarzy.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/9012828/ello-optimized-5b4e9113.jpg\" alt=\"Obraz przedstawia dwa zdjęcia znanych obrazów. Całość utrzymana w niebieskiej tonacji.\" />\n<img src=\"https://assets0.ello.co/uploads/asset/attachment/9012833/ello-optimized-599da5a7.jpg\" alt=\"Obraz przedstawia ciemne napisy na jasno-niebieskim tle.\" /></p>\n";
+var raw = exports.raw = "\nPrymitywiści to artyści niewykształceni, nieprofesjonalni, uprawiający sztukę naiwną. Ich dzieła przypominają często malunki dzieci, są niezgrabne, zdeformowane, tworzone w prostej technice. Tematyka ‘obrazów prymitywnych’ dotyka życia codziennego, lecz odwołuje się również do przestrzeni magicznej i symbolicznej. \n\nW erze impresjonizmu nastąpił pewien przełom w sposobie postrzegania sztuki. Sztuka ludów prymitywnych, dzieci, osób niewykształconych, malarzy nieprofesjonalnych została uznana za wartościową. Była bowiem ‘nieskażona przez intelekt’, szczera, czysta, pozbawiona akademickiej maniery. Salon Artystów Niezależnych powstały w 1884 roku, gdzie pokazywano prace ‘odrzucone’, stał się furtką do postrzegania prac prymitywistów w pochlebny sposób. Na wystawach tych bowiem prac  nie oceniali członkowie ‘wykształconego’ jury, lecz otwarta publiczność. \n\nPierwszym, cieszącym się dużym uznaniem prymitywistą był Henri Rousseau, zwany Celnikiem. Rozpoczął swoją malarską karierę w wieku 41 lat, wcześniej pracował jako urzędnik. Henri za młodu niczym się nie wyróżniał, nigdy nie zdał matury. Jego dzieła malowane są z niezwykłą precyzją i przywiązaniem do szczegółu. Często przedstawiają bogata roślinność oraz zwierzęta. Zasłynął wystawiając dwie swoje prace na Salonie Jesiennym, zaraz obok prac Matisse’a i Braque’a.\n\n\n**Cechy sztuki naiwnej:**\n\n* tworzona przez artystów nieprofesjonalnych, niewykształconych, ale także dzieła stylizowane na takie\n* niezgrabna, często błędna perspektywa\n* prosta, niewyszukana technika\n* skrajnie subiektywny punkt widzenia\n* niewyszukane kolory, ‘prosto z tubki’\n* tematyka codzienna\n* symbolizm\n* przywiązanie do szczegółu\n\n![Obraz przedstawia trzy zdjęcia obrazów znanego artysty na jasno-niebieskim tle.](https://assets2.ello.co/uploads/asset/attachment/9012795/ello-optimized-b5c3f82a.jpg)\n![Obraz przedstawia trzy zdjęcia. Na dwóch z nich widzimy modelki w strojach na wybiegu. Na pozostałym widzimy obraz znanego artysty. Całość na jasno-niebieskim tle.](https://assets1.ello.co/uploads/asset/attachment/9012797/ello-optimized-76d3886b.jpg)\n![Obraz przedstawia trzy zdjęcia kolorowych dzieł artystów. Całość na jasno-niebieskim tle. ](https://assets2.ello.co/uploads/asset/attachment/9012805/ello-optimized-321cda25.jpg)\n![Obraz przedstawia trzy fotografie kolorowych dzieł artystów na błękitnym tle.](https://assets2.ello.co/uploads/asset/attachment/9012808/ello-optimized-f98cb807.jpg)\n![Obraz przedstawia pięć zdjęć na błękitnym tle. Na czterech z nich widzimy obrazy znanego artysty. Piąte zdjęcie przedstawia siedzącą postać w zimowej scenerii.](https://assets2.ello.co/uploads/asset/attachment/9012814/ello-optimized-0f4792ed.jpg)\n![Obraz przedstawia dwa zdjęcia obrazów znanych artystów. Całość na błękitnym tle.](https://assets2.ello.co/uploads/asset/attachment/9012819/ello-optimized-d946bd5b.jpg)\n![Obraz przedstawia trzy zdjęcia. Na jednym z nich widzimy postać w czarnej masce, na dwóch pozostałych widnieją obrazy znanych malarzy.](https://assets2.ello.co/uploads/asset/attachment/9012826/ello-optimized-8cbba6c5.jpg)\n![Obraz przedstawia dwa zdjęcia znanych obrazów. Całość utrzymana w niebieskiej tonacji.](https://assets1.ello.co/uploads/asset/attachment/9012828/ello-optimized-5b4e9113.jpg)\n![Obraz przedstawia ciemne napisy na jasno-niebieskim tle.](https://assets0.ello.co/uploads/asset/attachment/9012833/ello-optimized-599da5a7.jpg)";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 149 */
@@ -13728,6 +13840,18 @@ webpackEmptyContext.id = 149;
 
 /***/ }),
 /* 150 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 150;
+
+/***/ }),
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -13748,19 +13872,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 150;
+webpackContext.id = 151;
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(152);
+module.exports = __webpack_require__(153);
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13778,7 +13902,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(153);
+var _propTypes = __webpack_require__(154);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -13982,13 +14106,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_153__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_154__;
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14002,7 +14126,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14010,7 +14134,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14023,7 +14147,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14057,7 +14181,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14070,7 +14194,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14079,7 +14203,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14087,7 +14211,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14095,7 +14219,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14110,7 +14234,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14125,7 +14249,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14140,7 +14264,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14164,7 +14288,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(166);
+var s = __webpack_require__(167);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -14195,7 +14319,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14203,7 +14327,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14227,7 +14351,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14278,7 +14402,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 169 */
+/* 170 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14286,7 +14410,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 170 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14295,7 +14419,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(171);
+var s = __webpack_require__(172);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -14328,7 +14452,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 171 */
+/* 172 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14338,7 +14462,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 172 */
+/* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14382,22 +14506,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 173 */
+/* 174 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 174 */
+/* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 175,
-	"./Feed.js": 176,
-	"./Ingredient.js": 177,
-	"./Method.js": 178,
-	"./Recipe.js": 179,
-	"./TableOfContents.js": 180
+	"./Crumbs.js": 176,
+	"./Feed.js": 177,
+	"./Ingredient.js": 178,
+	"./Method.js": 179,
+	"./Recipe.js": 180,
+	"./TableOfContents.js": 181
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -14413,10 +14537,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 174;
+webpackContext.id = 175;
 
 /***/ }),
-/* 175 */
+/* 176 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14431,7 +14555,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 176 */
+/* 177 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14446,7 +14570,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 177 */
+/* 178 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14461,7 +14585,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 178 */
+/* 179 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14476,7 +14600,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 179 */
+/* 180 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14491,7 +14615,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 180 */
+/* 181 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14506,7 +14630,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 181 */
+/* 182 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14530,7 +14654,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 182 */
+/* 183 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
