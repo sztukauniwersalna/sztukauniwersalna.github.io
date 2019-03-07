@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_154__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_155__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(169);
+var Feed_1 = __webpack_require__(170);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(171);
+var Recipe_1 = __webpack_require__(172);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(173);
+var Root_1 = __webpack_require__(174);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(155);
+var s = __webpack_require__(156);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(156);
+var s = __webpack_require__(157);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(65),
-UPLOADS: __webpack_require__(149),
-ROOT: __webpack_require__(150),
-LAYOUTS: __webpack_require__(151),
-INCLUDES: __webpack_require__(175)};
+UPLOADS: __webpack_require__(150),
+ROOT: __webpack_require__(151),
+LAYOUTS: __webpack_require__(152),
+INCLUDES: __webpack_require__(176)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(175)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(157);
+var s = __webpack_require__(158);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(161);
+var s = __webpack_require__(162);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(174);
+__webpack_require__(175);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(152);
+var react_disqus_comments_1 = __webpack_require__(153);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(166);
-var s = __webpack_require__(168);
+var FacebookLike_1 = __webpack_require__(167);
+var s = __webpack_require__(169);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(158);
-var s = __webpack_require__(159);
+__webpack_require__(159);
+var s = __webpack_require__(160);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(160);
+var s = __webpack_require__(161);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(163);
+var s = __webpack_require__(164);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(162);
+var s = __webpack_require__(163);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(164);
+var s = __webpack_require__(165);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(165);
+var s = __webpack_require__(166);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(170);
+var s = __webpack_require__(171);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(182);
-var menu_1 = __webpack_require__(183);
+var tags_1 = __webpack_require__(183);
+var menu_1 = __webpack_require__(184);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2886,7 +2886,8 @@ var map = {
 	"./2019-01-10-barok-moodboard.markdown": 145,
 	"./2019-01-24-make-up-inspirowany-obrazem-victory-boogie-woogie-by-piet-mondrian.markdown": 146,
 	"./2019-01-30-moje-wybory-styczen-2019.markdown": 147,
-	"./2019-02-07-prymitywizm-sztuka-naiwna-moodboard.markdown": 148
+	"./2019-02-07-prymitywizm-sztuka-naiwna-moodboard.markdown": 148,
+	"./2019-03-07-romantyzm-moodboard.markdown": 149
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -13828,15 +13829,114 @@ var raw = exports.raw = "\nPrymitywiści to artyści niewykształceni, nieprofes
 
 /***/ }),
 /* 149 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 149;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Czas Romantyzmu ma dwie strony. Delikatna, kobieca zmys\u0142owo\u015B\u0107 ust\u0119puje mrocznej sferze umys\u0142u pogr\u0105\u017Conemu w my\u015Bli przeciwnej do o\u015Bwieceniowego racjonalizmu. Odwieczny konflikt tego, co widzialne, poznawalne zmys\u0142owo a duchowe - daj\u0105ce pozna\u0107 si\u0119 jedynie za pomoc\u0105 intuicji. Romantycy zwracaj\u0105 szczeg\xF3ln\u0105 uwag\u0119 na wn\u0119trze cz\u0142owieka. Patrz\u0105 zamy\u015Bleni w dal, dostrzegaj\u0105c jednostk\u0119 odr\u0119bn\u0105, uczuciow\u0105 i emocjonaln\u0105. Typowy romantyczny bohater to wewn\u0119trznie rozdarty Konrad buntuj\u0105cy si\u0119 przeciw Bogu (Adam Mickiewicz Dziady cz.III), patriotyczny Kordian indywidualista, czy wykszta\u0142cony, nadmiernie wra\u017Cliwy Werter. Mo\u017Cna powiedzie\u0107, \u017Ce czas Romantyzmu by\u0142 czasem mi\u0142o\u015Bci, mi\u0142o\u015Bci spalaj\u0105cej si\u0119 we w\u0142asnym ogniu.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Nazwa epoki \u2013 Romantyzm \u2013 wywodzi si\u0119 z j\u0119zyka francuskiego, gdzie \u2018roman\u2019 oznacza powie\u015B\u0107, opowiadanie.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'W centrum romantycznej idei stoi uczucie. Tw\xF3rc\u0119 cz\u0119sto wywy\u017Cszano, stawiano na r\xF3wni z istot\u0105 bosk\u0105.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement(
+        'strong',
+        null,
+        'Romantyczny \u015Bwiatopogl\u0105d:'
+      )
+    ),
+    _react2.default.createElement(
+      'ul',
+      null,
+      _react2.default.createElement(
+        'li',
+        null,
+        'indywidualizm'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'sprzeciw przeciw racjonalnej my\u015Bli O\u015Bwiecenia'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'przek\u0142adanie intuicji, wiary, uczucia ponad rozum'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'umi\u0142owanie wolno\u015Bci'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'bunt przeciw kanonom'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'tajemniczo\u015B\u0107'
+      ),
+      _react2.default.createElement(
+        'li',
+        null,
+        'pochwa\u0142a wyobra\u017Ani jako mocy tw\xF3rczej cz\u0142owieka'
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/9160579/ello-optimized-701823fc.jpg', alt: 'Obraz przedstawia trzy zdj\u0119cia obraz\xF3w znanych artyst\xF3w na be\u017Cowym tle.' }),
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/9160582/ello-optimized-1cf16bd4.jpg', alt: 'Obraz przedstawia dwie fotografie kobiecej sylwetki, oraz jeden obraz znanego artysty. Ca\u0142o\u015B\u0107 na jasno-be\u017Cowym tle.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Romantyzm [moodboard]", "date": "2019-03-07T10:51:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["moodboard", "romantyzm", "romanticism", "sztuka"] };
+var body = exports.body = "<p>Czas Romantyzmu ma dwie strony. Delikatna, kobieca zmysłowość ustępuje mrocznej sferze umysłu pogrążonemu w myśli przeciwnej do oświeceniowego racjonalizmu. Odwieczny konflikt tego, co widzialne, poznawalne zmysłowo a duchowe - dające poznać się jedynie za pomocą intuicji. Romantycy zwracają szczególną uwagę na wnętrze człowieka. Patrzą zamyśleni w dal, dostrzegając jednostkę odrębną, uczuciową i emocjonalną. Typowy romantyczny bohater to wewnętrznie rozdarty Konrad buntujący się przeciw Bogu (Adam Mickiewicz Dziady cz.III), patriotyczny Kordian indywidualista, czy wykształcony, nadmiernie wrażliwy Werter. Można powiedzieć, że czas Romantyzmu był czasem miłości, miłości spalającej się we własnym ogniu.</p>\n<p>Nazwa epoki – Romantyzm – wywodzi się z języka francuskiego, gdzie ‘roman’ oznacza powieść, opowiadanie.</p>\n<p>W centrum romantycznej idei stoi uczucie. Twórcę często wywyższano, stawiano na równi z istotą boską.</p>\n<p><strong>Romantyczny światopogląd:</strong></p>\n<ul>\n<li>indywidualizm</li>\n<li>sprzeciw przeciw racjonalnej myśli Oświecenia</li>\n<li>przekładanie intuicji, wiary, uczucia ponad rozum</li>\n<li>umiłowanie wolności</li>\n<li>bunt przeciw kanonom</li>\n<li>tajemniczość</li>\n<li>pochwała wyobraźni jako mocy twórczej człowieka</li>\n</ul>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/9160579/ello-optimized-701823fc.jpg\" alt=\"Obraz przedstawia trzy zdjęcia obrazów znanych artystów na beżowym tle.\" />\n<img src=\"https://assets1.ello.co/uploads/asset/attachment/9160582/ello-optimized-1cf16bd4.jpg\" alt=\"Obraz przedstawia dwie fotografie kobiecej sylwetki, oraz jeden obraz znanego artysty. Całość na jasno-beżowym tle.\" /></p>\n";
+var raw = exports.raw = "\nCzas Romantyzmu ma dwie strony. Delikatna, kobieca zmysłowość ustępuje mrocznej sferze umysłu pogrążonemu w myśli przeciwnej do oświeceniowego racjonalizmu. Odwieczny konflikt tego, co widzialne, poznawalne zmysłowo a duchowe - dające poznać się jedynie za pomocą intuicji. Romantycy zwracają szczególną uwagę na wnętrze człowieka. Patrzą zamyśleni w dal, dostrzegając jednostkę odrębną, uczuciową i emocjonalną. Typowy romantyczny bohater to wewnętrznie rozdarty Konrad buntujący się przeciw Bogu (Adam Mickiewicz Dziady cz.III), patriotyczny Kordian indywidualista, czy wykształcony, nadmiernie wrażliwy Werter. Można powiedzieć, że czas Romantyzmu był czasem miłości, miłości spalającej się we własnym ogniu.\n\nNazwa epoki – Romantyzm – wywodzi się z języka francuskiego, gdzie ‘roman’ oznacza powieść, opowiadanie. \n\nW centrum romantycznej idei stoi uczucie. Twórcę często wywyższano, stawiano na równi z istotą boską. \n\n**Romantyczny światopogląd:**\n\n* indywidualizm\n* sprzeciw przeciw racjonalnej myśli Oświecenia\n* przekładanie intuicji, wiary, uczucia ponad rozum\n* umiłowanie wolności\n* bunt przeciw kanonom\n* tajemniczość\n* pochwała wyobraźni jako mocy twórczej człowieka\n\n\n![Obraz przedstawia trzy zdjęcia obrazów znanych artystów na beżowym tle.](https://assets0.ello.co/uploads/asset/attachment/9160579/ello-optimized-701823fc.jpg)\n![Obraz przedstawia dwie fotografie kobiecej sylwetki, oraz jeden obraz znanego artysty. Całość na jasno-beżowym tle.](https://assets1.ello.co/uploads/asset/attachment/9160582/ello-optimized-1cf16bd4.jpg)\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 150 */
@@ -13852,6 +13952,18 @@ webpackEmptyContext.id = 150;
 
 /***/ }),
 /* 151 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 151;
+
+/***/ }),
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -13872,19 +13984,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 151;
+webpackContext.id = 152;
 
 /***/ }),
-/* 152 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(153);
+module.exports = __webpack_require__(154);
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13902,7 +14014,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(154);
+var _propTypes = __webpack_require__(155);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -14106,13 +14218,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_154__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_155__;
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14126,7 +14238,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14134,7 +14246,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14147,7 +14259,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14181,7 +14293,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14194,7 +14306,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14203,7 +14315,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14211,7 +14323,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14219,7 +14331,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14234,7 +14346,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14249,7 +14361,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14264,7 +14376,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14288,7 +14400,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(167);
+var s = __webpack_require__(168);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -14319,7 +14431,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14327,7 +14439,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14351,7 +14463,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 169 */
+/* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14402,7 +14514,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 170 */
+/* 171 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14410,7 +14522,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 171 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14419,7 +14531,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(172);
+var s = __webpack_require__(173);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -14452,7 +14564,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 172 */
+/* 173 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14462,7 +14574,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 173 */
+/* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14506,22 +14618,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 174 */
+/* 175 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 175 */
+/* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 176,
-	"./Feed.js": 177,
-	"./Ingredient.js": 178,
-	"./Method.js": 179,
-	"./Recipe.js": 180,
-	"./TableOfContents.js": 181
+	"./Crumbs.js": 177,
+	"./Feed.js": 178,
+	"./Ingredient.js": 179,
+	"./Method.js": 180,
+	"./Recipe.js": 181,
+	"./TableOfContents.js": 182
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -14537,10 +14649,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 175;
+webpackContext.id = 176;
 
 /***/ }),
-/* 176 */
+/* 177 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14555,7 +14667,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 177 */
+/* 178 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14570,7 +14682,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 178 */
+/* 179 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14585,7 +14697,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 179 */
+/* 180 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14600,7 +14712,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 180 */
+/* 181 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14615,7 +14727,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 181 */
+/* 182 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14630,7 +14742,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 182 */
+/* 183 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14654,7 +14766,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 183 */
+/* 184 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
