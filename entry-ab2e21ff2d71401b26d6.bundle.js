@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_155__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_156__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(170);
+var Feed_1 = __webpack_require__(171);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(172);
+var Recipe_1 = __webpack_require__(173);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(174);
+var Root_1 = __webpack_require__(175);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(156);
+var s = __webpack_require__(157);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(157);
+var s = __webpack_require__(158);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(65),
-UPLOADS: __webpack_require__(150),
-ROOT: __webpack_require__(151),
-LAYOUTS: __webpack_require__(152),
-INCLUDES: __webpack_require__(176)};
+UPLOADS: __webpack_require__(151),
+ROOT: __webpack_require__(152),
+LAYOUTS: __webpack_require__(153),
+INCLUDES: __webpack_require__(177)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(176)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(158);
+var s = __webpack_require__(159);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(162);
+var s = __webpack_require__(163);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(175);
+__webpack_require__(176);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(153);
+var react_disqus_comments_1 = __webpack_require__(154);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(167);
-var s = __webpack_require__(169);
+var FacebookLike_1 = __webpack_require__(168);
+var s = __webpack_require__(170);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(159);
-var s = __webpack_require__(160);
+__webpack_require__(160);
+var s = __webpack_require__(161);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(161);
+var s = __webpack_require__(162);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(164);
+var s = __webpack_require__(165);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(163);
+var s = __webpack_require__(164);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(165);
+var s = __webpack_require__(166);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(166);
+var s = __webpack_require__(167);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(171);
+var s = __webpack_require__(172);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(183);
-var menu_1 = __webpack_require__(184);
+var tags_1 = __webpack_require__(184);
+var menu_1 = __webpack_require__(185);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2887,7 +2887,8 @@ var map = {
 	"./2019-01-24-make-up-inspirowany-obrazem-victory-boogie-woogie-by-piet-mondrian.markdown": 146,
 	"./2019-01-30-moje-wybory-styczen-2019.markdown": 147,
 	"./2019-02-07-prymitywizm-sztuka-naiwna-moodboard.markdown": 148,
-	"./2019-03-07-romantyzm-moodboard.markdown": 149
+	"./2019-03-07-romantyzm-moodboard.markdown": 149,
+	"./2019-03-17-o-kolorach-niebieski-cz-dot-1.markdown": 150
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -13953,15 +13954,111 @@ var raw = exports.raw = "\nCzas Romantyzmu ma dwa oblicza. Delikatna, kobieca zm
 
 /***/ }),
 /* 150 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 150;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      '\u2018Opr\xF3cz b\u0142\u0119kitnego nieba, nic mi dzisiaj nie potrzeba\u2019 \u015Bpiewa\u0142 Marek Jackowski z zespo\u0142em Maanam. Niebo, woda, harmonia, spok\xF3j, to pierwsze ze skojarze\u0144 z kolorem niebieskim. Faraon zabiera\u0142 b\u0142\u0119kit ze sob\u0105 do sarkofagu, gdy\u017C wierzy\u0142 w jego magiczn\u0105 moc przynosz\u0105c\u0105 szcz\u0119\u015Bcie. W hinduizmie b\xF3g Kryszna ma niebiesk\u0105 sk\xF3r\u0119, a w religii chrze\u015Bcija\u0144skiej b\u0142\u0119kitna szata Maryi symbolizuje jej nieskalan\u0105 natur\u0119. Niebieski jest kolorem wolno\u015Bci, poczucia jedno\u015Bci z otaczaj\u0105c\u0105 nas natur\u0105. Warto ten kolor umiej\u0119tnie wkomponowa\u0107 w swoje otoczenie, gdy\u017C niesie on ze sob\u0105 wiele korzy\u015Bci.'
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'B\u0142\u0119kit w chromoterapii'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Kolor jest energi\u0105 podr\xF3\u017Cuj\u0105c\u0105 w postaci fali elektromagnetycznej. Okazuje si\u0119, \u017Ce za pomoc\u0105 odpowiedniej dawki energii (wibracji) koloru jeste\u015Bmy w stanie wspom\xF3c procesy regeneracyjne naszego organizmu. Chromoterapia (grec. chroma - barwa i therapeia \u2013 leczenie) znana i wykorzystywana by\u0142a ju\u017C w Staro\u017Cytnych Chinach. W \u015Bredniowiecznej Europie stosowano kolor czerwony w leczeniu odry i szkarlatyny. Kolor niebieski ma pot\u0119\u017Cn\u0105 moc. Jest on barw\u0105 ch\u0142odn\u0105 o dzia\u0142aniu bakteriob\xF3jczym, dlatego zaleca si\u0119 malowa\u0107 jego odcieniem \u015Bciany szpitali. B\u0142\u0119kit walczy z gor\u0105czk\u0105, leczy choroby na tle nerwowym poprzez swoje uspokajaj\u0105ce i koj\u0105ce dzia\u0142anie. Wycisza nas wewn\u0119trznie, pozwala spokojnie oddycha\u0107. Potrafi nawet obni\u017Cy\u0107 ci\u015Bnienie. Kosmetyczki w swoich salonach wykorzystuj\u0105 \u015Bwiat\u0142o niebieskie przy zabiegach dla cer t\u0142ustych, poniewa\u017C jest on w stanie regulowa\u0107 prac\u0119 gruczo\u0142\xF3w \u0142ojowych. Je\u015Bli z\u0142apie nas zaka\u017Any wirus lub odpoczywamy po za\u0142amaniu ko\u015Bci warto dos\u0142ownie przykry\u0107 si\u0119 niebieskim \u2013 wybierzmy niebiesk\u0105 po\u015Bciel, niebiesk\u0105 pi\u017Cam\u0119 i niebieski kubek z ciep\u0142ym napojem. Uwaga \u2013 b\u0142\u0119kitu nie nale\u017Cy przedawkowa\u0107, poniewa\u017C grozi to apati\u0105 i wzrostem w\u0105tpliwo\u015Bci. Za d\u0142ugi czas z tym kolorem prowadzi r\xF3wnie\u017C do utraty wiary we w\u0142asne si\u0142y i mo\u017Cliwo\u015Bci.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      '![]('
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'B\u0142\u0119kitny Picasso'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Kolor niebieski, ze wzgl\u0119du na sw\xF3j ch\u0142\xF3d kojarzony jest r\xF3wnie\u017C z odczuwaniem smutku. B\u0142\u0119kit jest niebem i wod\u0105, ale r\xF3wnie\u017C \u0142zami, melancholi\u0105 i zadum\u0105. Okresem b\u0142\u0119kitnym w tw\xF3rczo\u015Bci Pabla Picassa okre\u015Bla si\u0119 czas mi\u0119dzy 1901 a 1904 rokiem, kiedy to na jego obrazach pojawiali si\u0119 ubodzy starcy, ludzie bezdomni, \u017Cebracy. Melancholijny nastr\xF3j dzie\u0142 podkre\u015Bla\u0142a ch\u0142odna, b\u0142\u0119kitna kolorystyka. Stan, pod kt\xF3rego skrzyd\u0142em tworzy\u0142 mistrz m\xF3g\u0142 by\u0107 bezpo\u015Brednio zwi\u0105zany ze \u015Bmierci\u0105 jego bliskiego przyjaciela Carlosa Casagemesa, kt\xF3ra mia\u0142a miejsce w 1901 roku. \u2018Zacz\u0105\u0142em malowa\u0107 na niebiesko, bo stale o nim my\u015Bla\u0142em\u2019 - mawia\u0142 Picasso, a Guillaume Apollinaire opisa\u0142 jego malarstwo s\u0142owami: \u2018Malarstwo niebieskie jak wilgotne dno otch\u0142ani\u2019. Postaci na b\u0142\u0119kitnych p\u0142\xF3tnach zdaj\u0105 si\u0119 mie\u0107 papierow\u0105 cer\u0119 i puste oczy niewidz\u0105ce sensu \u017Cycia. Sam spos\xF3b k\u0142adzenia farby przypomina kontemplacyjny rytua\u0142 smutku i zamy\u015Blenia. Niebieski okres ko\u0144czy si\u0119 wraz z nadej\u015Bciem okresu r\xF3\u017Cowego w 1904 roku.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      '![]( ![]('
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Historia niebieskiego cienia'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Niebieskie powieki jeszcze do niedawna kojarzone by\u0142y z bezgu\u015Bciem i tandet\u0105. Zgrywa\u0142y si\u0119 jedynie z wizerunkiem Joli z popularnego swoimi czasu serialu \u2018Trzynasty posterunek\u2019.W latach 90-tych, kiedy na na rynku kosmetycznym nie by\u0142o produktowego bogactwa, niebieskie per\u0142y i krwisto czerwone usta musia\u0142y nas zaspokoi\u0107. Takiego look\u2019u nie powstydzi\u0142y si\u0119 wschodz\u0105ce gwiazdy muzyki pop - Christina Aguilera czy Britney Spears. XXI wiek ustanowi\u0142 nowe makija\u017Cowe regu\u0142y. Je\u015Bli malujesz mocno oczy, zostaw usta w spokoju i na odwr\xF3t. Kolor niebieski poszed\u0142 w odstawk\u0119. Umocni\u0142a si\u0119 pozycja br\u0105z\xF3w, odcieni be\u017Cu, r\xF3\u017Cu, czyli neutralnych \u2018nudziak\xF3w\u2019 (ang. nude: nagi,cielisty), kt\xF3re pasuj\u0105 ka\u017Cdemu niezale\u017Cnie od karnacji. Na szcz\u0119\u015Bcie odwa\u017Cni makija\u017Cy\u015Bci nadal wykorzystuj\u0105 mocne, niebieskie tony w makija\u017Cach wybiegowych (patrz: Dior, Armani, Moschino, Michael Kors). Co jaki\u015B czas wraca do nas trend ultramarynowej kreski, chabrowych rz\u0119s, czy dziewcz\u0119cego oka w stylu \u2018baby blue\u2019. Warto doda\u0107 taki akcent do swojego codziennego makija\u017Cu. Praktycznie niezauwa\u017Calne z daleka zaintryguje z bliska i dodatkowo podbije kolor t\u0119cz\xF3wki oka.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      '![]('
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      '29 marca 2019 swoj\u0105 premier\u0119 b\u0119dzie mia\u0142a kolekcja kosmetyczna \u2018Blue Blood\u2019 od Jeffree Star Cosmetics. Paleta cieni sk\u0142ada si\u0119 z 18 przepi\u0119knych kolor\xF3w \u2013 matowych brzoskwi\u0144, b\u0142\u0119kit\xF3w, turkus\xF3w, ton\xF3w mi\u0119towych... Opr\xF3cz cieni w kolekcji znajduj\u0105 si\u0119 r\xF3wnie\u017C pomadki w p\u0142ynie, p\u0142ynne roz\u015Bwietlacze oraz peelingi do ust, oczywi\u015Bcie wszystko utrzymane w niebieskiej kolorystyce.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      '![]('
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Cdn\u2026'
+    ),
+    _react2.default.createElement('hr', null)
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "O kolorach: Niebieski, cz.1", "date": "2019-03-17T13:37:00.000Z", "categories": ["Sztuka Makijażu"], "tags": ["kolor", "o kolorach", "blue", "błękit", "niebieski", "picasso"] };
+var body = exports.body = "<p>‘Oprócz błękitnego nieba, nic mi dzisiaj nie potrzeba’ śpiewał Marek Jackowski z zespołem Maanam. Niebo, woda, harmonia, spokój, to pierwsze ze skojarzeń z kolorem niebieskim. Faraon zabierał błękit ze sobą do sarkofagu, gdyż wierzył w jego magiczną moc przynoszącą szczęście. W hinduizmie bóg Kryszna ma niebieską skórę, a w religii chrześcijańskiej błękitna szata Maryi symbolizuje jej nieskalaną naturę. Niebieski jest kolorem wolności, poczucia jedności z otaczającą nas naturą. Warto ten kolor umiejętnie wkomponować w swoje otoczenie, gdyż niesie on ze sobą wiele korzyści.</p>\n<h2>Błękit w chromoterapii</h2>\n<p>Kolor jest energią podróżującą w postaci fali elektromagnetycznej. Okazuje się, że za pomocą odpowiedniej dawki energii (wibracji) koloru jesteśmy w stanie wspomóc procesy regeneracyjne naszego organizmu. Chromoterapia (grec. chroma - barwa i therapeia – leczenie) znana i wykorzystywana była już w Starożytnych Chinach. W średniowiecznej Europie stosowano kolor czerwony w leczeniu odry i szkarlatyny.\nKolor niebieski ma potężną moc. Jest on barwą chłodną o działaniu bakteriobójczym, dlatego zaleca się malować jego odcieniem ściany szpitali. Błękit walczy z gorączką, leczy choroby na tle nerwowym poprzez swoje uspokajające i kojące działanie. Wycisza nas wewnętrznie, pozwala spokojnie oddychać. Potrafi nawet obniżyć ciśnienie. Kosmetyczki w swoich salonach wykorzystują światło niebieskie przy zabiegach dla cer tłustych, ponieważ jest on w stanie regulować pracę gruczołów łojowych. Jeśli złapie nas zakaźny wirus lub odpoczywamy po załamaniu kości warto dosłownie przykryć się niebieskim – wybierzmy niebieską pościel, niebieską piżamę i niebieski kubek z ciepłym napojem. Uwaga – błękitu nie należy przedawkować, ponieważ grozi to apatią i wzrostem wątpliwości. Za długi czas z tym kolorem prowadzi również do utraty wiary we własne siły i możliwości.</p>\n<p>![](</p>\n<h2>Błękitny Picasso</h2>\n<p>Kolor niebieski, ze względu na swój chłód kojarzony jest również z odczuwaniem smutku. Błękit jest niebem i wodą, ale również łzami, melancholią i zadumą. Okresem błękitnym w twórczości Pabla Picassa określa się czas między 1901 a 1904 rokiem, kiedy to na jego obrazach pojawiali się ubodzy starcy, ludzie bezdomni, żebracy. Melancholijny nastrój dzieł podkreślała chłodna, błękitna kolorystyka. Stan, pod którego skrzydłem tworzył mistrz mógł być bezpośrednio związany ze śmiercią jego bliskiego przyjaciela Carlosa Casagemesa, która miała miejsce w 1901 roku. ‘Zacząłem malować na niebiesko, bo stale o nim myślałem’ - mawiał Picasso, a Guillaume Apollinaire opisał jego malarstwo słowami: ‘Malarstwo niebieskie jak wilgotne dno otchłani’. Postaci na błękitnych płótnach zdają się mieć papierową cerę i puste oczy niewidzące sensu życia. Sam sposób kładzenia farby przypomina kontemplacyjny rytuał smutku i zamyślenia. Niebieski okres kończy się wraz z nadejściem okresu różowego w 1904 roku.</p>\n<p>![](\n![](</p>\n<h2>Historia niebieskiego cienia</h2>\n<p>Niebieskie powieki jeszcze do niedawna kojarzone były z bezguściem i tandetą. Zgrywały się jedynie z wizerunkiem Joli z popularnego swoimi czasu serialu ‘Trzynasty posterunek’.W latach 90-tych, kiedy na na rynku kosmetycznym nie było produktowego bogactwa, niebieskie perły i krwisto czerwone usta musiały nas zaspokoić. Takiego look’u nie powstydziły się wschodzące gwiazdy muzyki pop - Christina Aguilera czy Britney Spears. XXI wiek ustanowił nowe makijażowe reguły. Jeśli malujesz mocno oczy, zostaw usta w spokoju i na odwrót. Kolor niebieski poszedł w odstawkę. Umocniła się pozycja brązów, odcieni beżu, różu, czyli neutralnych ‘nudziaków’ (ang. nude: nagi,cielisty), które pasują każdemu niezależnie od karnacji. Na szczęście odważni makijażyści nadal wykorzystują mocne, niebieskie tony w makijażach wybiegowych (patrz: Dior, Armani, Moschino, Michael Kors). Co jakiś czas wraca do nas trend ultramarynowej kreski, chabrowych rzęs, czy dziewczęcego oka w stylu ‘baby blue’. Warto dodać taki akcent do swojego codziennego makijażu. Praktycznie niezauważalne z daleka zaintryguje z bliska i dodatkowo podbije kolor tęczówki oka.</p>\n<p>![](</p>\n<p>29 marca 2019 swoją premierę będzie miała kolekcja kosmetyczna ‘Blue Blood’ od Jeffree Star Cosmetics. Paleta cieni składa się z 18 przepięknych kolorów – matowych brzoskwiń, błękitów, turkusów, tonów miętowych... Oprócz cieni w kolekcji znajdują się również pomadki w płynie, płynne rozświetlacze oraz peelingi do ust, oczywiście wszystko utrzymane w niebieskiej kolorystyce.</p>\n<p>![](</p>\n<p>Cdn…</p>\n<hr />\n";
+var raw = exports.raw = "\n‘Oprócz błękitnego nieba, nic mi dzisiaj nie potrzeba’ śpiewał Marek Jackowski z zespołem Maanam. Niebo, woda, harmonia, spokój, to pierwsze ze skojarzeń z kolorem niebieskim. Faraon zabierał błękit ze sobą do sarkofagu, gdyż wierzył w jego magiczną moc przynoszącą szczęście. W hinduizmie bóg Kryszna ma niebieską skórę, a w religii chrześcijańskiej błękitna szata Maryi symbolizuje jej nieskalaną naturę. Niebieski jest kolorem wolności, poczucia jedności z otaczającą nas naturą. Warto ten kolor umiejętnie wkomponować w swoje otoczenie, gdyż niesie on ze sobą wiele korzyści. \n\n## Błękit w chromoterapii\n\nKolor jest energią podróżującą w postaci fali elektromagnetycznej. Okazuje się, że za pomocą odpowiedniej dawki energii (wibracji) koloru jesteśmy w stanie wspomóc procesy regeneracyjne naszego organizmu. Chromoterapia (grec. chroma - barwa i therapeia – leczenie) znana i wykorzystywana była już w Starożytnych Chinach. W średniowiecznej Europie stosowano kolor czerwony w leczeniu odry i szkarlatyny.\nKolor niebieski ma potężną moc. Jest on barwą chłodną o działaniu bakteriobójczym, dlatego zaleca się malować jego odcieniem ściany szpitali. Błękit walczy z gorączką, leczy choroby na tle nerwowym poprzez swoje uspokajające i kojące działanie. Wycisza nas wewnętrznie, pozwala spokojnie oddychać. Potrafi nawet obniżyć ciśnienie. Kosmetyczki w swoich salonach wykorzystują światło niebieskie przy zabiegach dla cer tłustych, ponieważ jest on w stanie regulować pracę gruczołów łojowych. Jeśli złapie nas zakaźny wirus lub odpoczywamy po załamaniu kości warto dosłownie przykryć się niebieskim – wybierzmy niebieską pościel, niebieską piżamę i niebieski kubek z ciepłym napojem. Uwaga – błękitu nie należy przedawkować, ponieważ grozi to apatią i wzrostem wątpliwości. Za długi czas z tym kolorem prowadzi również do utraty wiary we własne siły i możliwości. \n\n![](\n\n## Błękitny Picasso\n\nKolor niebieski, ze względu na swój chłód kojarzony jest również z odczuwaniem smutku. Błękit jest niebem i wodą, ale również łzami, melancholią i zadumą. Okresem błękitnym w twórczości Pabla Picassa określa się czas między 1901 a 1904 rokiem, kiedy to na jego obrazach pojawiali się ubodzy starcy, ludzie bezdomni, żebracy. Melancholijny nastrój dzieł podkreślała chłodna, błękitna kolorystyka. Stan, pod którego skrzydłem tworzył mistrz mógł być bezpośrednio związany ze śmiercią jego bliskiego przyjaciela Carlosa Casagemesa, która miała miejsce w 1901 roku. ‘Zacząłem malować na niebiesko, bo stale o nim myślałem’ - mawiał Picasso, a Guillaume Apollinaire opisał jego malarstwo słowami: ‘Malarstwo niebieskie jak wilgotne dno otchłani’. Postaci na błękitnych płótnach zdają się mieć papierową cerę i puste oczy niewidzące sensu życia. Sam sposób kładzenia farby przypomina kontemplacyjny rytuał smutku i zamyślenia. Niebieski okres kończy się wraz z nadejściem okresu różowego w 1904 roku.\n\n![](\n![](\n\n## Historia niebieskiego cienia\n\nNiebieskie powieki jeszcze do niedawna kojarzone były z bezguściem i tandetą. Zgrywały się jedynie z wizerunkiem Joli z popularnego swoimi czasu serialu ‘Trzynasty posterunek’.W latach 90-tych, kiedy na na rynku kosmetycznym nie było produktowego bogactwa, niebieskie perły i krwisto czerwone usta musiały nas zaspokoić. Takiego look’u nie powstydziły się wschodzące gwiazdy muzyki pop - Christina Aguilera czy Britney Spears. XXI wiek ustanowił nowe makijażowe reguły. Jeśli malujesz mocno oczy, zostaw usta w spokoju i na odwrót. Kolor niebieski poszedł w odstawkę. Umocniła się pozycja brązów, odcieni beżu, różu, czyli neutralnych ‘nudziaków’ (ang. nude: nagi,cielisty), które pasują każdemu niezależnie od karnacji. Na szczęście odważni makijażyści nadal wykorzystują mocne, niebieskie tony w makijażach wybiegowych (patrz: Dior, Armani, Moschino, Michael Kors). Co jakiś czas wraca do nas trend ultramarynowej kreski, chabrowych rzęs, czy dziewczęcego oka w stylu ‘baby blue’. Warto dodać taki akcent do swojego codziennego makijażu. Praktycznie niezauważalne z daleka zaintryguje z bliska i dodatkowo podbije kolor tęczówki oka.\n\n![](\n\n29 marca 2019 swoją premierę będzie miała kolekcja kosmetyczna ‘Blue Blood’ od Jeffree Star Cosmetics. Paleta cieni składa się z 18 przepięknych kolorów – matowych brzoskwiń, błękitów, turkusów, tonów miętowych… Oprócz cieni w kolekcji znajdują się również pomadki w płynie, płynne rozświetlacze oraz peelingi do ust, oczywiście wszystko utrzymane w niebieskiej kolorystyce.\n\n![](\n\nCdn...\n\n----------------";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 151 */
@@ -13977,6 +14074,18 @@ webpackEmptyContext.id = 151;
 
 /***/ }),
 /* 152 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 152;
+
+/***/ }),
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -13997,19 +14106,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 152;
+webpackContext.id = 153;
 
 /***/ }),
-/* 153 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(154);
+module.exports = __webpack_require__(155);
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14027,7 +14136,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(155);
+var _propTypes = __webpack_require__(156);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -14231,13 +14340,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_155__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_156__;
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14251,7 +14360,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14259,7 +14368,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14272,7 +14381,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14306,7 +14415,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14319,7 +14428,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14328,7 +14437,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14336,7 +14445,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14344,7 +14453,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14359,7 +14468,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14374,7 +14483,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14389,7 +14498,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14413,7 +14522,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(168);
+var s = __webpack_require__(169);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -14444,7 +14553,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14452,7 +14561,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 169 */
+/* 170 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14476,7 +14585,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 170 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14527,7 +14636,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 171 */
+/* 172 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14535,7 +14644,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 172 */
+/* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14544,7 +14653,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(173);
+var s = __webpack_require__(174);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -14577,7 +14686,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 173 */
+/* 174 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14587,7 +14696,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 174 */
+/* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14631,22 +14740,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 175 */
+/* 176 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 176 */
+/* 177 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 177,
-	"./Feed.js": 178,
-	"./Ingredient.js": 179,
-	"./Method.js": 180,
-	"./Recipe.js": 181,
-	"./TableOfContents.js": 182
+	"./Crumbs.js": 178,
+	"./Feed.js": 179,
+	"./Ingredient.js": 180,
+	"./Method.js": 181,
+	"./Recipe.js": 182,
+	"./TableOfContents.js": 183
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -14662,10 +14771,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 176;
+webpackContext.id = 177;
 
 /***/ }),
-/* 177 */
+/* 178 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14680,7 +14789,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 178 */
+/* 179 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14695,7 +14804,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 179 */
+/* 180 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14710,7 +14819,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 180 */
+/* 181 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14725,7 +14834,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 181 */
+/* 182 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14740,7 +14849,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 182 */
+/* 183 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14755,7 +14864,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 183 */
+/* 184 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14779,7 +14888,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 184 */
+/* 185 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
