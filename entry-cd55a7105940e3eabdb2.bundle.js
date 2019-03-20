@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_156__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_157__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(26);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(171);
+var Feed_1 = __webpack_require__(172);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(27);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(12);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(24);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(173);
+var Recipe_1 = __webpack_require__(174);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -264,7 +264,7 @@ var Tile_1 = __webpack_require__(31);
 exports.Tile = Tile_1.default;
 var TopBar_1 = __webpack_require__(25);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(175);
+var Root_1 = __webpack_require__(176);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(14);
 exports.ftag = gtag_1.default;
@@ -310,7 +310,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(157);
+var s = __webpack_require__(158);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +355,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(158);
+var s = __webpack_require__(159);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -457,10 +457,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(53),
 PAGES: __webpack_require__(58),
 POSTS: __webpack_require__(65),
-UPLOADS: __webpack_require__(151),
-ROOT: __webpack_require__(152),
-LAYOUTS: __webpack_require__(153),
-INCLUDES: __webpack_require__(177)};
+UPLOADS: __webpack_require__(152),
+ROOT: __webpack_require__(153),
+LAYOUTS: __webpack_require__(154),
+INCLUDES: __webpack_require__(178)};
 
 
 /***/ }),
@@ -472,7 +472,7 @@ INCLUDES: __webpack_require__(177)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(159);
+var s = __webpack_require__(160);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -522,7 +522,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(163);
+var s = __webpack_require__(164);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -859,7 +859,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(176);
+__webpack_require__(177);
 
 
 
@@ -899,7 +899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(154);
+var react_disqus_comments_1 = __webpack_require__(155);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(25);
 var Crumbs_1 = __webpack_require__(26);
@@ -909,8 +909,8 @@ var Logo_1 = __webpack_require__(12);
 var Icon_1 = __webpack_require__(8);
 var SideMenu_1 = __webpack_require__(29);
 var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(168);
-var s = __webpack_require__(170);
+var FacebookLike_1 = __webpack_require__(169);
+var s = __webpack_require__(171);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1022,8 +1022,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(12);
-__webpack_require__(160);
-var s = __webpack_require__(161);
+__webpack_require__(161);
+var s = __webpack_require__(162);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1053,7 +1053,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(162);
+var s = __webpack_require__(163);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1098,7 +1098,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(165);
+var s = __webpack_require__(166);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1132,7 +1132,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(164);
+var s = __webpack_require__(165);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1177,7 +1177,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(166);
+var s = __webpack_require__(167);
 function Item(props) {
     return null;
 }
@@ -1260,7 +1260,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(167);
+var s = __webpack_require__(168);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1284,7 +1284,7 @@ var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(13);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(172);
+var s = __webpack_require__(173);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1692,8 +1692,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(15);
 var pages_1 = __webpack_require__(33);
 var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(184);
-var menu_1 = __webpack_require__(185);
+var tags_1 = __webpack_require__(185);
+var menu_1 = __webpack_require__(186);
 var config = __webpack_require__(16);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -2888,7 +2888,8 @@ var map = {
 	"./2019-01-30-moje-wybory-styczen-2019.markdown": 147,
 	"./2019-02-07-prymitywizm-sztuka-naiwna-moodboard.markdown": 148,
 	"./2019-03-07-romantyzm-moodboard.markdown": 149,
-	"./2019-03-17-o-kolorach-niebieski-cz-dot-1.markdown": 150
+	"./2019-03-17-o-kolorach-niebieski-cz-dot-1.markdown": 150,
+	"./2019-03-20-o-kolorach-niebieski-cz-dot-2.markdown": 151
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -14082,15 +14083,114 @@ var raw = exports.raw = "\n‘Oprócz błękitnego nieba, nic mi dzisiaj nie pot
 
 /***/ }),
 /* 151 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 151;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/9236231/ello-optimized-37278dff.jpg', alt: 'Fotografia przedstawia popiersie kobiety w niebieskim makija\u017Cu i siwych w\u0142osach. Kobieta ma usta pomalowane na czarno. Ca\u0142o\u015B\u0107 na niebieskim tle.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'IKB'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Yves Klein by\u0142 ekscentrycznym artyst\u0105 XX-tego wieku. Tworzy\u0142 obiekty, obrazy, instalacje, scenografie teatralne. Tworzy\u0142, a w zasadzie performowa\u0142 obrazy bez u\u017Cycia p\u0119dzla \u2013 do nak\u0142adanie farby na p\u0142\xF3tno s\u0142u\u017Cy\u0142y mu cia\u0142a nagich modelek. Niebieskie plamy uk\u0142ada\u0142y si\u0119 w abstrakcyjne kompozycje mniej lub bardziej kojarzone z ludzkim cia\u0142em. Prekursor tzw. monochrom\xF3w, czyli p\u0142\xF3cien pokrytych jednym kolorem. Opatentowa\u0142 sw\xF3j ulubiony odcie\u0144 ultramaryny, kt\xF3ry widnieje w tabelach kolor\xF3w jako International Klein Blue. Chocia\u017C artysta spe\u0142nia\u0142 si\u0119 kreuj\u0105c prace w przer\xF3\u017Cnych mediach pozosta\u0142 kojarzony z niebieskimi powierzchniami. Praktycznie od lat 50-tych u\u017Cywa\u0142 ju\u017C tylko i wy\u0142\u0105cznie swojego odcienia b\u0142\u0119kitu.'
+    ),
+    _react2.default.createElement(
+      'ul',
+      null,
+      _react2.default.createElement(
+        'li',
+        null,
+        'wi\u0119cej informacji o arty\u015Bcie znajdziesz ',
+        _react2.default.createElement(
+          'a',
+          { href: 'http://www.yvesklein.com/' },
+          'tutaj'
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets1.ello.co/uploads/asset/attachment/9236238/ello-optimized-cace7e22.jpg', alt: 'Fotografia przedstawia portret kobiety z szarymi w\u0142osami i czarnymi ustami na niebieskim tle.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Niebieski poniedzia\u0142ek'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Pewien uczony z Uniwersytetu Cardiff wprowadzi\u0142 w 2004 roku termin \u2018Blue Monday\u2019 (ang. niebieski poniedzia\u0142ek. Brytyjczyk wyznaczy\u0142 dat\u0119 najbardziej depresyjnego dnia w roku za pomoc\u0105 wzoru matematycznego, kt\xF3ry uwzgl\u0119dnia\u0142 czynniki psychologiczne, ekonomiczne i meteorologiczne. Wed\u0142ug oblicze\u0144 najbardziej przygn\u0119biaj\u0105ca doba w roku wypada w trzeci poniedzia\u0142ek stycznia nowego roku. Jest to czas, kiedy budzimy si\u0119 ze \u015Bwiadomo\u015Bci\u0105 niedotrzymania postanowie\u0144 noworocznych, ko\u0144cz\u0105 nam si\u0119 terminy p\u0142atno\u015Bci \u015Bwi\u0105tecznych kredyt\xF3w. Dodatkowo dzie\u0144 wci\u0105\u017C jest bardzo kr\xF3tki i ciemny. Niedobory wit. D w naszych organizmach skutkuj\u0105 spadkiem si\u0142 i odporno\u015Bci.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Wok\xF3\u0142 tej teorii wci\u0105\u017C kr\u0105\u017Cy sporo plotek i kontrowersji. Jedni twierdz\u0105, \u017Ce jest to przys\u0142owiowa \u2018bujda na resorach\u2019, inni faktycznie odczuj\u0105 skutki swoich zad\u0142u\u017Ce\u0144 w postaci z\u0142ego samopoczucia w\u0142a\u015Bnie w ten dzie\u0144. Wszystko zale\u017Cy od naszych osobistych do\u015Bwiadcze\u0144. Postarajmy si\u0119 zatem ustanawia\u0107 postanowienia noworoczne w zgodzie z naszymi mo\u017Cliwo\u015Bciami, precyzujmy je dok\u0142adnie. Korzystajmy z mo\u017Cliwo\u015Bci urlopu w ciep\u0142ych krajach i suplementacji, a wtedy na niebieski poniedzia\u0142ek czeka\u0107 b\u0119dziemy z ut\u0119sknieniem, bo b\u0119dzie on oznacza\u0142 kolejny dobry dzie\u0144.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets0.ello.co/uploads/asset/attachment/9236239/ello-optimized-f80a8a2d.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia popiersia kobiety w artystycznym makija\u017Cu na niebieskim tle.' })
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Niebieski w psychologii'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Czy zastanawia\u0142e\u015B/a\u015B si\u0119 kiedy\u015B dlaczego kolor niebieski zarezerwowany jest dla firm zwi\u0105zanych ze sprawami finansowymi, bank\xF3w? Dlaczego politycy na wa\u017Cne spotkania wybieraj\u0105 koszul\u0119 w jasnym, b\u0142\u0119kitnym odcieniu? Kolor ten bowiem budzi w drugiej osobie zaufanie, a nam, kt\xF3rzy go nosimy dodaje lekko\u015Bci i pewno\u015Bci siebie. Niebieskie loga bank\xF3w przyci\u0105gaj\u0105 nas, potencjalnych klient\xF3w bardziej ni\u017C logotypy, w kt\xF3rych znajduje si\u0119 kolor czerwony (ostrzegawczy). Wyst\u0119puje wi\u0119ksze prawdopodobie\u0144stwo, \u017Ce zaufamy w\u0142a\u015Bnie tej sp\xF3\u0142ce, kt\xF3ra w swojej identyfikacji wizualnej zawiera kolor niebieski i tej osobie, kt\xF3ra nosi b\u0142\u0119kitny ko\u0142nierzyk. Na odcienie tej barwy powinni jednak uwa\u017Ca\u0107 producenci opakowa\u0144 \u017Cywno\u015Bci. W naturze sk\u0142adnik\xF3w spo\u017Cywczych w kolorze niebieskim jest niewiele, a niekt\xF3re z nich s\u0105 truj\u0105ce. Dlatego najprawdopodobniej po\u015Br\xF3d sklepowych p\xF3\u0142ek nie si\u0119gniemy po produkt w pude\u0142ku tego koloru. Jest to z kolei \u015Bwietna alternatywa dla opakowa\u0144 \u017Cywno\u015Bci dietetycznej. Niebieski dodatkowo zmniejszy apetyt os\xF3b staraj\u0105cych si\u0119 zrzuci\u0107 kilka kilogram\xF3w.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://assets2.ello.co/uploads/asset/attachment/9236237/ello-optimized-8fd43119.jpg', alt: 'Fotografia przedstawia popiersie kobiety z czarnymi ustami i szarymi w\u0142osami. Kobieta ma twarz zwr\xF3con\u0105 w praw\u0105 stron\u0119.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "O kolorach: Niebieski, cz.2", "date": "2019-03-20T12:57:00.000Z", "categories": ["Sztuka Makijażu"], "tags": ["kolor", "o kolorach", "niebieski", "ikb", "yves klein", "blue", "blue monday"] };
+var body = exports.body = "<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/9236231/ello-optimized-37278dff.jpg\" alt=\"Fotografia przedstawia popiersie kobiety w niebieskim makijażu i siwych włosach. Kobieta ma usta pomalowane na czarno. Całość na niebieskim tle.\" /></p>\n<h2>IKB</h2>\n<p>Yves Klein był ekscentrycznym artystą XX-tego wieku. Tworzył obiekty, obrazy, instalacje, scenografie teatralne. Tworzył, a w zasadzie performował obrazy bez użycia pędzla – do nakładanie farby na płótno służyły mu ciała nagich modelek. Niebieskie plamy układały się w abstrakcyjne kompozycje mniej lub bardziej kojarzone z ludzkim ciałem. Prekursor tzw. monochromów, czyli płócien pokrytych jednym kolorem. Opatentował swój ulubiony odcień ultramaryny, który widnieje w tabelach kolorów jako International Klein Blue. Chociaż artysta spełniał się kreując prace w przeróżnych mediach pozostał kojarzony z niebieskimi powierzchniami. Praktycznie od lat 50-tych używał już tylko i wyłącznie swojego odcienia błękitu.</p>\n<ul>\n<li>więcej informacji o artyście znajdziesz <a href=\"http://www.yvesklein.com/\">tutaj</a></li>\n</ul>\n<p><img src=\"https://assets1.ello.co/uploads/asset/attachment/9236238/ello-optimized-cace7e22.jpg\" alt=\"Fotografia przedstawia portret kobiety z szarymi włosami i czarnymi ustami na niebieskim tle.\" /></p>\n<h2>Niebieski poniedziałek</h2>\n<p>Pewien uczony z Uniwersytetu Cardiff wprowadził w 2004 roku termin ‘Blue Monday’ (ang. niebieski poniedziałek. Brytyjczyk wyznaczył datę najbardziej depresyjnego dnia w roku za pomocą wzoru matematycznego, który uwzględniał czynniki psychologiczne, ekonomiczne i meteorologiczne. Według obliczeń najbardziej przygnębiająca doba w roku wypada w trzeci poniedziałek stycznia nowego roku. Jest to czas, kiedy budzimy się ze świadomością niedotrzymania postanowień noworocznych, kończą nam się terminy płatności świątecznych kredytów. Dodatkowo dzień wciąż jest bardzo krótki i ciemny. Niedobory wit. D w naszych organizmach skutkują spadkiem sił i odporności.</p>\n<p>Wokół tej teorii wciąż krąży sporo plotek i kontrowersji. Jedni twierdzą, że jest to przysłowiowa ‘bujda na resorach’, inni faktycznie odczują skutki swoich zadłużeń w postaci złego samopoczucia właśnie w ten dzień. Wszystko zależy od naszych osobistych doświadczeń. Postarajmy się zatem ustanawiać postanowienia noworoczne w zgodzie z naszymi możliwościami, precyzujmy je dokładnie. Korzystajmy z możliwości urlopu w ciepłych krajach i suplementacji, a wtedy na niebieski poniedziałek czekać będziemy z utęsknieniem, bo będzie on oznaczał kolejny dobry dzień.</p>\n<p><img src=\"https://assets0.ello.co/uploads/asset/attachment/9236239/ello-optimized-f80a8a2d.jpg\" alt=\"Obraz przedstawia dwa zdjęcia popiersia kobiety w artystycznym makijażu na niebieskim tle.\" /></p>\n<h2>Niebieski w psychologii</h2>\n<p>Czy zastanawiałeś/aś się kiedyś dlaczego kolor niebieski zarezerwowany jest dla firm związanych ze sprawami finansowymi, banków? Dlaczego politycy na ważne spotkania wybierają koszulę w jasnym, błękitnym odcieniu? Kolor ten bowiem budzi w drugiej osobie zaufanie, a nam, którzy go nosimy dodaje lekkości i pewności siebie. Niebieskie loga banków przyciągają nas, potencjalnych klientów bardziej niż logotypy, w których znajduje się kolor czerwony (ostrzegawczy). Występuje większe prawdopodobieństwo, że zaufamy właśnie tej spółce, która w swojej identyfikacji wizualnej zawiera kolor niebieski i tej osobie, która nosi błękitny kołnierzyk.\nNa odcienie tej barwy powinni jednak uważać producenci opakowań żywności. W naturze składników spożywczych w kolorze niebieskim jest niewiele, a niektóre z nich są trujące. Dlatego najprawdopodobniej pośród sklepowych półek nie sięgniemy po produkt w pudełku tego koloru. Jest to z kolei świetna alternatywa dla opakowań żywności dietetycznej. Niebieski dodatkowo zmniejszy apetyt osób starających się zrzucić kilka kilogramów.</p>\n<p><img src=\"https://assets2.ello.co/uploads/asset/attachment/9236237/ello-optimized-8fd43119.jpg\" alt=\"Fotografia przedstawia popiersie kobiety z czarnymi ustami i szarymi włosami. Kobieta ma twarz zwróconą w prawą stronę.\" /></p>\n";
+var raw = exports.raw = "\n![Fotografia przedstawia popiersie kobiety w niebieskim makijażu i siwych włosach. Kobieta ma usta pomalowane na czarno. Całość na niebieskim tle.](https://assets0.ello.co/uploads/asset/attachment/9236231/ello-optimized-37278dff.jpg)\n\n## IKB\n\nYves Klein był ekscentrycznym artystą XX-tego wieku. Tworzył obiekty, obrazy, instalacje, scenografie teatralne. Tworzył, a w zasadzie performował obrazy bez użycia pędzla – do nakładanie farby na płótno służyły mu ciała nagich modelek. Niebieskie plamy układały się w abstrakcyjne kompozycje mniej lub bardziej kojarzone z ludzkim ciałem. Prekursor tzw. monochromów, czyli płócien pokrytych jednym kolorem. Opatentował swój ulubiony odcień ultramaryny, który widnieje w tabelach kolorów jako International Klein Blue. Chociaż artysta spełniał się kreując prace w przeróżnych mediach pozostał kojarzony z niebieskimi powierzchniami. Praktycznie od lat 50-tych używał już tylko i wyłącznie swojego odcienia błękitu. \n\n* więcej informacji o artyście znajdziesz [tutaj](http://www.yvesklein.com/)\n\n![Fotografia przedstawia portret kobiety z szarymi włosami i czarnymi ustami na niebieskim tle.](https://assets1.ello.co/uploads/asset/attachment/9236238/ello-optimized-cace7e22.jpg)\n\n## Niebieski poniedziałek\n\nPewien uczony z Uniwersytetu Cardiff wprowadził w 2004 roku termin ‘Blue Monday’ (ang. niebieski poniedziałek. Brytyjczyk wyznaczył datę najbardziej depresyjnego dnia w roku za pomocą wzoru matematycznego, który uwzględniał czynniki psychologiczne, ekonomiczne i meteorologiczne. Według obliczeń najbardziej przygnębiająca doba w roku wypada w trzeci poniedziałek stycznia nowego roku. Jest to czas, kiedy budzimy się ze świadomością niedotrzymania postanowień noworocznych, kończą nam się terminy płatności świątecznych kredytów. Dodatkowo dzień wciąż jest bardzo krótki i ciemny. Niedobory wit. D w naszych organizmach skutkują spadkiem sił i odporności. \n\nWokół tej teorii wciąż krąży sporo plotek i kontrowersji. Jedni twierdzą, że jest to przysłowiowa ‘bujda na resorach’, inni faktycznie odczują skutki swoich zadłużeń w postaci złego samopoczucia właśnie w ten dzień. Wszystko zależy od naszych osobistych doświadczeń. Postarajmy się zatem ustanawiać postanowienia noworoczne w zgodzie z naszymi możliwościami, precyzujmy je dokładnie. Korzystajmy z możliwości urlopu w ciepłych krajach i suplementacji, a wtedy na niebieski poniedziałek czekać będziemy z utęsknieniem, bo będzie on oznaczał kolejny dobry dzień.\n\n![Obraz przedstawia dwa zdjęcia popiersia kobiety w artystycznym makijażu na niebieskim tle.](https://assets0.ello.co/uploads/asset/attachment/9236239/ello-optimized-f80a8a2d.jpg)\n\n\n## Niebieski w psychologii\n\nCzy zastanawiałeś/aś się kiedyś dlaczego kolor niebieski zarezerwowany jest dla firm związanych ze sprawami finansowymi, banków? Dlaczego politycy na ważne spotkania wybierają koszulę w jasnym, błękitnym odcieniu? Kolor ten bowiem budzi w drugiej osobie zaufanie, a nam, którzy go nosimy dodaje lekkości i pewności siebie. Niebieskie loga banków przyciągają nas, potencjalnych klientów bardziej niż logotypy, w których znajduje się kolor czerwony (ostrzegawczy). Występuje większe prawdopodobieństwo, że zaufamy właśnie tej spółce, która w swojej identyfikacji wizualnej zawiera kolor niebieski i tej osobie, która nosi błękitny kołnierzyk.\nNa odcienie tej barwy powinni jednak uważać producenci opakowań żywności. W naturze składników spożywczych w kolorze niebieskim jest niewiele, a niektóre z nich są trujące. Dlatego najprawdopodobniej pośród sklepowych półek nie sięgniemy po produkt w pudełku tego koloru. Jest to z kolei świetna alternatywa dla opakowań żywności dietetycznej. Niebieski dodatkowo zmniejszy apetyt osób starających się zrzucić kilka kilogramów. \n\n![Fotografia przedstawia popiersie kobiety z czarnymi ustami i szarymi włosami. Kobieta ma twarz zwróconą w prawą stronę.](https://assets2.ello.co/uploads/asset/attachment/9236237/ello-optimized-8fd43119.jpg)\n\n";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 152 */
@@ -14106,6 +14206,18 @@ webpackEmptyContext.id = 152;
 
 /***/ }),
 /* 153 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 153;
+
+/***/ }),
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -14126,19 +14238,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 153;
+webpackContext.id = 154;
 
 /***/ }),
-/* 154 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(155);
+module.exports = __webpack_require__(156);
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14156,7 +14268,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(156);
+var _propTypes = __webpack_require__(157);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -14360,13 +14472,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_156__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_157__;
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14380,7 +14492,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14388,7 +14500,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14401,7 +14513,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14435,7 +14547,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14448,7 +14560,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14457,7 +14569,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14465,7 +14577,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14473,7 +14585,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14488,7 +14600,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14503,7 +14615,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14518,7 +14630,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14542,7 +14654,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(169);
+var s = __webpack_require__(170);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -14573,7 +14685,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 169 */
+/* 170 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14581,7 +14693,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 170 */
+/* 171 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14605,7 +14717,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 171 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14656,7 +14768,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 172 */
+/* 173 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14664,7 +14776,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 173 */
+/* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14673,7 +14785,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(174);
+var s = __webpack_require__(175);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -14706,7 +14818,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 174 */
+/* 175 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14716,7 +14828,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 175 */
+/* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14760,22 +14872,22 @@ function removeGtagConfigBundle(bundles) {
 }
 
 /***/ }),
-/* 176 */
+/* 177 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 177 */
+/* 178 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 178,
-	"./Feed.js": 179,
-	"./Ingredient.js": 180,
-	"./Method.js": 181,
-	"./Recipe.js": 182,
-	"./TableOfContents.js": 183
+	"./Crumbs.js": 179,
+	"./Feed.js": 180,
+	"./Ingredient.js": 181,
+	"./Method.js": 182,
+	"./Recipe.js": 183,
+	"./TableOfContents.js": 184
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -14791,10 +14903,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 177;
+webpackContext.id = 178;
 
 /***/ }),
-/* 178 */
+/* 179 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14809,7 +14921,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 179 */
+/* 180 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14824,7 +14936,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 180 */
+/* 181 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14839,7 +14951,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 181 */
+/* 182 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14854,7 +14966,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 182 */
+/* 183 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14869,7 +14981,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 183 */
+/* 184 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14884,7 +14996,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 184 */
+/* 185 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14908,7 +15020,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 185 */
+/* 186 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
