@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_17__, __WEBPACK_EXTERNAL_MODULE_37__, __WEBPACK_EXTERNAL_MODULE_157__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_18__, __WEBPACK_EXTERNAL_MODULE_38__, __WEBPACK_EXTERNAL_MODULE_158__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -70,7 +70,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 35);
+/******/ 	return __webpack_require__(__webpack_require__.s = 36);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -113,9 +113,9 @@ module.exports = g;
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var requireDirectory_1 = __webpack_require__(10);
+var requireDirectory_1 = __webpack_require__(11);
 var models_1 = __webpack_require__(6);
-var Context = __webpack_require__(11);
+var Context = __webpack_require__(12);
 var includes = requireDirectory_1.default(Context.INCLUDES)
     .map(function (module) {
     var name = module.name.replace(/^\.\//, '').replace(/\.js$/, '');
@@ -232,42 +232,44 @@ function createCloneProps(elem, limiterProps, key) {
 
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var ParrotLayout_1 = __webpack_require__(24);
+var ParrotLayout_1 = __webpack_require__(25);
 exports.default = ParrotLayout_1.default;
 var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
-var Crumbs_1 = __webpack_require__(26);
+var Crumbs_1 = __webpack_require__(27);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(172);
+var Feed_1 = __webpack_require__(174);
 exports.Feed = Feed_1.default;
-var Footer_1 = __webpack_require__(27);
+var Footer_1 = __webpack_require__(28);
 exports.Footer = Footer_1.default;
 var Icon_1 = __webpack_require__(8);
 exports.Icon = Icon_1.default;
-var Jumbotron_1 = __webpack_require__(30);
+var Jumbotron_1 = __webpack_require__(31);
 exports.Jumbotron = Jumbotron_1.default;
-var Logo_1 = __webpack_require__(12);
+var Logo_1 = __webpack_require__(13);
 exports.Logo = Logo_1.default;
-var ParrotLayout_2 = __webpack_require__(24);
+var ParrotLayout_2 = __webpack_require__(25);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(174);
+var Recipe_1 = __webpack_require__(176);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
-var SideMenu_1 = __webpack_require__(29);
+var SideMenu_1 = __webpack_require__(30);
 exports.SideMenu = SideMenu_1.default;
-var TableOfContents_1 = __webpack_require__(32);
+var TableOfContents_1 = __webpack_require__(33);
 exports.TableOfContents = TableOfContents_1.default;
-var Tags_1 = __webpack_require__(13);
+var Tags_1 = __webpack_require__(14);
 exports.Tags = Tags_1.default;
-var Tile_1 = __webpack_require__(31);
+var Tile_1 = __webpack_require__(32);
 exports.Tile = Tile_1.default;
-var TopBar_1 = __webpack_require__(25);
+var TopBar_1 = __webpack_require__(26);
 exports.TopBar = TopBar_1.default;
-var Root_1 = __webpack_require__(176);
+var Image_1 = __webpack_require__(9);
+exports.Image = Image_1.default;
+var Root_1 = __webpack_require__(178);
 exports.Root = Root_1.default;
-var gtag_1 = __webpack_require__(14);
-exports.ftag = gtag_1.default;
+var gtag_1 = __webpack_require__(15);
+exports.gtag = gtag_1.default;
 
 /***/ }),
 /* 5 */
@@ -282,21 +284,21 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_5__;
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var Page_1 = __webpack_require__(9);
+var Page_1 = __webpack_require__(10);
 exports.Page = Page_1.default;
-var Collection_1 = __webpack_require__(48);
+var Collection_1 = __webpack_require__(49);
 exports.Collection = Collection_1.default;
-var Category_1 = __webpack_require__(20);
+var Category_1 = __webpack_require__(21);
 exports.Category = Category_1.default;
-var Tag_1 = __webpack_require__(21);
+var Tag_1 = __webpack_require__(22);
 exports.Tag = Tag_1.default;
-var Layout_1 = __webpack_require__(49);
+var Layout_1 = __webpack_require__(50);
 exports.Layout = Layout_1.default;
-var Include_1 = __webpack_require__(50);
+var Include_1 = __webpack_require__(51);
 exports.Include = Include_1.default;
-var MenuEntry_1 = __webpack_require__(51);
+var MenuEntry_1 = __webpack_require__(52);
 exports.MenuEntry = MenuEntry_1.default;
-var Website_1 = __webpack_require__(52);
+var Website_1 = __webpack_require__(53);
 exports.Website = Website_1.default;
 
 
@@ -310,7 +312,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(158);
+var s = __webpack_require__(159);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -355,7 +357,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(159);
+var s = __webpack_require__(160);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -384,6 +386,110 @@ function renderInstagramIcon() {
 
 /***/ }),
 /* 9 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var __extends = undefined && undefined.__extends || function () {
+    var extendStatics = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function (d, b) {
+        d.__proto__ = b;
+    } || function (d, b) {
+        for (var p in b) {
+            if (b.hasOwnProperty(p)) d[p] = b[p];
+        }
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() {
+            this.constructor = d;
+        }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+}();
+var __assign = undefined && undefined.__assign || Object.assign || function (t) {
+    for (var s, i = 1, n = arguments.length; i < n; i++) {
+        s = arguments[i];
+        for (var p in s) {
+            if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+    }
+    return t;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var React = __webpack_require__(0);
+var s = __webpack_require__(168);
+var Image = /** @class */function (_super) {
+    __extends(Image, _super);
+    function Image(props) {
+        var _this = _super.call(this, props) || this;
+        _this.state = {
+            step: 'static'
+        };
+        _this.maybeStartLoading = _this.maybeStartLoading.bind(_this);
+        return _this;
+    }
+    Image.prototype.render = function () {
+        var _this = this;
+        var _a = this.props,
+            src = _a.src,
+            alt = _a.alt;
+        var step = this.state.step;
+        if (!window.thumbs) {
+            return React.createElement("img", { className: 'image', src: src, alt: alt });
+        }
+        var thumb = window.thumbs[src] || { ratio: 0, data: '' };
+        return React.createElement("div", { className: "image " + s.container + " " + s[step], style: { height: 100 / thumb.ratio + "vw" }, ref: function ref(e) {
+                return _this.container = e;
+            } }, React.createElement("img", { className: s.image, src: step !== 'static' ? src : '', alt: alt, onLoad: function onLoad() {
+                return _this.setStep('transition');
+            }, onTransitionEnd: function onTransitionEnd() {
+                return _this.setStep('ready');
+            } }), React.createElement("img", { className: s.thumbnail, src: "data:image/png;base64," + encodeURIComponent(thumb.data), alt: 'thumbnail' }), React.createElement("noscript", null, React.createElement("img", { src: src, alt: alt })));
+    };
+    Image.prototype.componentDidMount = function () {
+        if (!window.thumbs) {
+            return;
+        }
+        window.addEventListener('scroll', this.maybeStartLoading);
+        window.addEventListener('resize', this.maybeStartLoading);
+        this.maybeStartLoading();
+    };
+    Image.prototype.componentWillUnmount = function () {
+        if (!window.thumbs) {
+            return;
+        }
+        window.removeEventListener('scroll', this.maybeStartLoading);
+        window.removeEventListener('resize', this.maybeStartLoading);
+    };
+    Image.prototype.maybeStartLoading = function () {
+        if (this.state.step !== 'static' || !isInViewport(this.container, 128)) {
+            return;
+        }
+        this.setStep('loading');
+    };
+    Image.prototype.setStep = function (step) {
+        this.setState(function (prev) {
+            return __assign({}, prev, { step: step });
+        });
+    };
+    return Image;
+}(React.Component);
+exports.Image = Image;
+exports.default = Image;
+function isInViewport(element, margin) {
+    if (margin === void 0) {
+        margin = 0;
+    }
+    var rect = element.getBoundingClientRect();
+    var windowHeight = window.innerHeight || document.documentElement.clientHeight;
+    var upperTrigger = 0 + margin;
+    var lowerTrigger = windowHeight - margin;
+    return !(rect.top <= upperTrigger && rect.bottom <= upperTrigger || rect.top >= lowerTrigger && rect.bottom >= lowerTrigger);
+}
+
+/***/ }),
+/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -433,7 +539,7 @@ exports.default = Page;
 
 
 /***/ }),
-/* 10 */
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -450,21 +556,21 @@ exports.default = requireDirectory;
 
 
 /***/ }),
-/* 11 */
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = {
-CATEGORIES: __webpack_require__(53),
-PAGES: __webpack_require__(58),
-POSTS: __webpack_require__(65),
-UPLOADS: __webpack_require__(152),
-ROOT: __webpack_require__(153),
-LAYOUTS: __webpack_require__(154),
-INCLUDES: __webpack_require__(178)};
+CATEGORIES: __webpack_require__(54),
+PAGES: __webpack_require__(59),
+POSTS: __webpack_require__(66),
+UPLOADS: __webpack_require__(153),
+ROOT: __webpack_require__(154),
+LAYOUTS: __webpack_require__(155),
+INCLUDES: __webpack_require__(180)};
 
 
 /***/ }),
-/* 12 */
+/* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -472,7 +578,7 @@ INCLUDES: __webpack_require__(178)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(160);
+var s = __webpack_require__(161);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -513,7 +619,7 @@ function getDimensions(variant) {
 }
 
 /***/ }),
-/* 13 */
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -522,7 +628,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(164);
+var s = __webpack_require__(165);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -541,7 +647,7 @@ exports.Tags = Tags;
 exports.default = Tags;
 
 /***/ }),
-/* 14 */
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -576,17 +682,17 @@ function sendPageviewOnLocationChange() {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 15 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var models_1 = __webpack_require__(6);
-var requireDirectory_1 = __webpack_require__(10);
-var layouts_1 = __webpack_require__(22);
-var Context = __webpack_require__(11);
-var config = __webpack_require__(16);
+var requireDirectory_1 = __webpack_require__(11);
+var layouts_1 = __webpack_require__(23);
+var Context = __webpack_require__(12);
+var config = __webpack_require__(17);
 function checkIsObject(value, name) {
     if (typeof value !== 'object') {
         throw new Error(name + " must be an object; got " + typeof value);
@@ -685,20 +791,20 @@ exports.default = collections;
 
 
 /***/ }),
-/* 16 */
+/* 17 */
 /***/ (function(module, exports) {
 
 module.exports = {"title":"SztukaUniwersalna.pl","timezone":"Europe/Warsaw","collections":{"categories":{"title":"Categories","output":false,"layout":"ParrotLayout"},"pages":{"title":"Pages","output":false,"layout":"ParrotLayout"},"posts":{"title":"Posts","output":true,"layout":"ParrotLayout"},"uploads":{"title":"Uploads","output":false}},"baseUrl":"http://sztukauniwersalna.pl","image":"http://sztukauniwersalna.pl/logo-gradient.png","locale":"pl_PL","menu":[{"title":"Sztuka Ubioru","short":"Moda","url":"/sztuka-ubioru","icon":"content_cut"},{"title":"Sztuka Makijażu","short":"Makijaż","url":"/sztuka-makijazu","icon":"remove_red_eye"},{"title":"Sztuka dla Sztuki","short":"Sztuka","url":"/sztuka-dla-sztuki","icon":"palette"},{"title":"O Blogu","short":"O Blogu","url":"/sztuka-uniwersalna","icon":"mood"},{"title":"Kontakt","short":"Kontakt","url":"/kontakt","icon":"email"}]};
 
 
 /***/ }),
-/* 17 */
+/* 18 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_17__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_18__;
 
 /***/ }),
-/* 18 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -734,7 +840,7 @@ function loadScripts(srcs) {
 
 
 /***/ }),
-/* 19 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -764,36 +870,6 @@ function loadStyles(hrefs) {
 
 
 /***/ }),
-/* 20 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __extends = (this && this.__extends) || (function () {
-    var extendStatics = Object.setPrototypeOf ||
-        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-    return function (d, b) {
-        extendStatics(d, b);
-        function __() { this.constructor = d; }
-        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-    };
-})();
-Object.defineProperty(exports, "__esModule", { value: true });
-var Page_1 = __webpack_require__(9);
-var Category = /** @class */ (function (_super) {
-    __extends(Category, _super);
-    function Category(title, description, url, layout, body, image, output, date, categories, tags) {
-        var _this = _super.call(this, title, description, url, layout, body, image, output, date, categories, tags, false) || this;
-        _this.pages = [];
-        return _this;
-    }
-    return Category;
-}(Page_1.Page));
-exports.default = Category;
-
-
-/***/ }),
 /* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -810,7 +886,37 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-var Page_1 = __webpack_require__(9);
+var Page_1 = __webpack_require__(10);
+var Category = /** @class */ (function (_super) {
+    __extends(Category, _super);
+    function Category(title, description, url, layout, body, image, output, date, categories, tags) {
+        var _this = _super.call(this, title, description, url, layout, body, image, output, date, categories, tags, false) || this;
+        _this.pages = [];
+        return _this;
+    }
+    return Category;
+}(Page_1.Page));
+exports.default = Category;
+
+
+/***/ }),
+/* 22 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
+Object.defineProperty(exports, "__esModule", { value: true });
+var Page_1 = __webpack_require__(10);
 var Tag = /** @class */ (function (_super) {
     __extends(Tag, _super);
     function Tag(title, url, layout, body) {
@@ -825,15 +931,15 @@ exports.default = Tag;
 
 
 /***/ }),
-/* 22 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var requireDirectory_1 = __webpack_require__(10);
+var requireDirectory_1 = __webpack_require__(11);
 var models_1 = __webpack_require__(6);
-var Context = __webpack_require__(11);
+var Context = __webpack_require__(12);
 var layouts = requireDirectory_1.default(Context.LAYOUTS)
     .map(function (module) {
     var name = module.name.replace(/^\.\//, '').replace(/\.js$/, '');
@@ -847,7 +953,7 @@ exports.default = layouts;
 
 
 /***/ }),
-/* 23 */
+/* 24 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -859,12 +965,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(177);
+__webpack_require__(179);
 
 
 
 /***/ }),
-/* 24 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -899,18 +1005,19 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(155);
+var react_disqus_comments_1 = __webpack_require__(156);
 var models_1 = __webpack_require__(6);
-var TopBar_1 = __webpack_require__(25);
-var Crumbs_1 = __webpack_require__(26);
-var Tags_1 = __webpack_require__(13);
-var Footer_1 = __webpack_require__(27);
-var Logo_1 = __webpack_require__(12);
+var TopBar_1 = __webpack_require__(26);
+var Crumbs_1 = __webpack_require__(27);
+var Tags_1 = __webpack_require__(14);
+var Footer_1 = __webpack_require__(28);
+var Logo_1 = __webpack_require__(13);
 var Icon_1 = __webpack_require__(8);
-var SideMenu_1 = __webpack_require__(29);
-var Jumbotron_1 = __webpack_require__(30);
-var FacebookLike_1 = __webpack_require__(169);
-var s = __webpack_require__(171);
+var Image_1 = __webpack_require__(9);
+var SideMenu_1 = __webpack_require__(30);
+var Jumbotron_1 = __webpack_require__(31);
+var FacebookLike_1 = __webpack_require__(171);
+var s = __webpack_require__(173);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -938,7 +1045,7 @@ var ParrotLayout = /** @class */function (_super) {
             website = _a.website,
             page = _a.page;
         var Body = page.body;
-        return React.createElement("div", { id: s.all }, React.createElement("div", { className: s.header }, React.createElement(TopBar_1.default, { website: website, page: page, onMenuClick: this.showMenu })), React.createElement("div", { className: s.main }, jumbotronFor(website, page), React.createElement("main", null, maybeRenderTitle(website, page), React.createElement(Body, { website: website, page: page }), React.createElement("div", { className: s.bottomLike }, React.createElement(FacebookLike_1.default, { url: "" + website.baseUrl + page.url })))), maybeRenderComments(page), React.createElement("div", { className: s.footer + " contrast" }, React.createElement(Footer_1.default, { website: website, page: page }), React.createElement("div", { className: s.bottom }, React.createElement("div", { className: s.content }, React.createElement("div", { className: s.zblogowani }, React.createElement("a", { href: 'https://zblogowani.pl/', title: 'Sprawdź serwis zBLOGowani.pl!' }, React.createElement("img", { src: '//zblogowani.pl/code/160x50/silver/341338/btn.png', alt: 'zBLOGowani.pl' }))), React.createElement("div", { className: s.logo }, React.createElement(Logo_1.default, { variant: 'full' }))))), React.createElement("div", { className: s.sideMenu + " " + this.state.sideMenuClassName, onClick: this.hideMenu }, React.createElement(SideMenu_1.default, { visible: this.state.sideMenuClassName === s.visible, onCloseRequested: function onCloseRequested() {
+        return React.createElement("div", { id: s.all }, React.createElement("div", { className: s.header }, React.createElement(TopBar_1.default, { website: website, page: page, onMenuClick: this.showMenu })), React.createElement("div", { className: s.main }, jumbotronFor(website, page), React.createElement("main", null, maybeRenderTitle(website, page), React.createElement(Body, { website: website, page: page, mapper: imgToImage }), React.createElement("div", { className: s.bottomLike }, React.createElement(FacebookLike_1.default, { url: "" + website.baseUrl + page.url })))), maybeRenderComments(page), React.createElement("div", { className: s.footer + " contrast" }, React.createElement(Footer_1.default, { website: website, page: page }), React.createElement("div", { className: s.bottom }, React.createElement("div", { className: s.content }, React.createElement("div", { className: s.zblogowani }, React.createElement("a", { href: 'https://zblogowani.pl/', title: 'Sprawdź serwis zBLOGowani.pl!' }, React.createElement("img", { src: '//zblogowani.pl/code/160x50/silver/341338/btn.png', alt: 'zBLOGowani.pl' }))), React.createElement("div", { className: s.logo }, React.createElement(Logo_1.default, { variant: 'full' }))))), React.createElement("div", { className: s.sideMenu + " " + this.state.sideMenuClassName, onClick: this.hideMenu }, React.createElement(SideMenu_1.default, { visible: this.state.sideMenuClassName === s.visible, onCloseRequested: function onCloseRequested() {
                 return _this.hideMenu();
             }, onClosed: function onClosed() {
                 return _this.disableMenu();
@@ -991,9 +1098,15 @@ function maybeRenderComments(page) {
     }
     return React.createElement("div", { className: s.comments }, React.createElement(react_disqus_comments_1.default, { shortname: 'sztukauniwersalna', identifier: page.title, title: page.title, url: "http://sztukauniwersalna.pl" + page.url }));
 }
+function imgToImage(node) {
+    if (node.type !== 'img') {
+        return node;
+    }
+    return React.createElement(Image_1.default, { src: node.props.src, alt: node.props.alt });
+}
 
 /***/ }),
-/* 25 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1021,9 +1134,9 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var Logo_1 = __webpack_require__(12);
-__webpack_require__(161);
-var s = __webpack_require__(162);
+var Logo_1 = __webpack_require__(13);
+__webpack_require__(162);
+var s = __webpack_require__(163);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1044,7 +1157,7 @@ exports.TopBar = TopBar;
 exports.default = TopBar;
 
 /***/ }),
-/* 26 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1053,7 +1166,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(163);
+var s = __webpack_require__(164);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1069,7 +1182,7 @@ exports.Crumbs = Crumbs;
 exports.default = Crumbs;
 
 /***/ }),
-/* 27 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1097,8 +1210,8 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(166);
+var SocialButtons_1 = __webpack_require__(29);
+var s = __webpack_require__(167);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1122,7 +1235,7 @@ exports.Footer = Footer;
 exports.default = Footer;
 
 /***/ }),
-/* 28 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1132,7 +1245,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(165);
+var s = __webpack_require__(166);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1140,7 +1253,7 @@ exports.SocialButtons = SocialButtons;
 exports.default = SocialButtons;
 
 /***/ }),
-/* 29 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1177,7 +1290,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(167);
+var s = __webpack_require__(169);
 function Item(props) {
     return null;
 }
@@ -1251,7 +1364,7 @@ exports.SideMenu = SideMenu;
 exports.default = SideMenu;
 
 /***/ }),
-/* 30 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1259,8 +1372,8 @@ exports.default = SideMenu;
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var SocialButtons_1 = __webpack_require__(28);
-var s = __webpack_require__(168);
+var SocialButtons_1 = __webpack_require__(29);
+var s = __webpack_require__(170);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1273,7 +1386,7 @@ exports.Jumbotron = Jumbotron;
 exports.default = Jumbotron;
 
 /***/ }),
-/* 31 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1282,9 +1395,10 @@ exports.default = Jumbotron;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var Tags_1 = __webpack_require__(13);
+var Tags_1 = __webpack_require__(14);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(173);
+var Image_1 = __webpack_require__(9);
+var s = __webpack_require__(175);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1293,15 +1407,15 @@ function Tile(_a) {
 }
 exports.Tile = Tile;
 function maybeRenderImage(page) {
-    if (page.image === null) {
+    if (!page.image) {
         return null;
     }
-    return React.createElement(react_router_dom_1.Link, { to: page.url }, React.createElement("img", { src: page.image, alt: "" + page.title }));
+    return React.createElement(react_router_dom_1.Link, { to: page.url }, React.createElement(Image_1.default, { src: page.image, alt: "" + page.title }));
 }
 exports.default = Tile;
 
 /***/ }),
-/* 32 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1366,20 +1480,6 @@ exports.Branch = Branch;
 exports.default = exports.TableOfContents;
 
 /***/ }),
-/* 33 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-var models_1 = __webpack_require__(6);
-var collections_1 = __webpack_require__(15);
-var pages = collections_1.default.reduce(function (p, c) { return p.concat(c.pages); }, [])
-    .filter(function (page) { return !(page instanceof models_1.Category); });
-exports.default = pages;
-
-
-/***/ }),
 /* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1387,34 +1487,48 @@ exports.default = pages;
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var models_1 = __webpack_require__(6);
-var collections_1 = __webpack_require__(15);
-var categories = collections_1.default.reduce(function (p, c) { return p.concat(c.pages); }, [])
-    .filter(function (page) { return page instanceof models_1.Category; });
-exports.default = categories;
+var collections_1 = __webpack_require__(16);
+var pages = collections_1.default.reduce(function (p, c) { return p.concat(c.pages); }, [])
+    .filter(function (page) { return !(page instanceof models_1.Category); });
+exports.default = pages;
 
 
 /***/ }),
 /* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(36);
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+var models_1 = __webpack_require__(6);
+var collections_1 = __webpack_require__(16);
+var categories = collections_1.default.reduce(function (p, c) { return p.concat(c.pages); }, [])
+    .filter(function (page) { return page instanceof models_1.Category; });
+exports.default = categories;
 
 
 /***/ }),
 /* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
+module.exports = __webpack_require__(37);
+
+
+/***/ }),
+/* 37 */
+/***/ (function(module, exports, __webpack_require__) {
+
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __webpack_require__(0);
-var react_dom_1 = __webpack_require__(37);
+var react_dom_1 = __webpack_require__(38);
 var react_router_dom_1 = __webpack_require__(5);
-var react_hot_loader_1 = __webpack_require__(38);
-var server_1 = __webpack_require__(43);
-var Root_1 = __webpack_require__(44);
-var route_factory_1 = __webpack_require__(45);
-var data_1 = __webpack_require__(46);
+var react_hot_loader_1 = __webpack_require__(39);
+var server_1 = __webpack_require__(44);
+var Root_1 = __webpack_require__(45);
+var route_factory_1 = __webpack_require__(46);
+var data_1 = __webpack_require__(47);
 var routesFactory = new route_factory_1.default();
 var routes = routesFactory.getRoutes(data_1.default);
 var serverRender = function (locals) {
@@ -1443,32 +1557,17 @@ if (false) {
 
 
 /***/ }),
-/* 37 */
+/* 38 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_37__;
-
-/***/ }),
-/* 38 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(39)
-
+module.exports = __WEBPACK_EXTERNAL_MODULE_38__;
 
 /***/ }),
 /* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
+module.exports = __webpack_require__(40)
 
-
-/* eslint-disable global-require */
-
-if (true) {
-  module.exports = __webpack_require__(40);
-} else {
-  module.exports = require('./index.dev');
-}
 
 /***/ }),
 /* 40 */
@@ -1477,7 +1576,13 @@ if (true) {
 "use strict";
 
 
-module.exports.AppContainer = __webpack_require__(41);
+/* eslint-disable global-require */
+
+if (true) {
+  module.exports = __webpack_require__(41);
+} else {
+  module.exports = require('./index.dev');
+}
 
 /***/ }),
 /* 41 */
@@ -1486,16 +1591,25 @@ module.exports.AppContainer = __webpack_require__(41);
 "use strict";
 
 
+module.exports.AppContainer = __webpack_require__(42);
+
+/***/ }),
+/* 42 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
 /* eslint-disable global-require */
 
 if (true) {
-  module.exports = __webpack_require__(42);
+  module.exports = __webpack_require__(43);
 } else {
   module.exports = require('./AppContainer.dev');
 }
 
 /***/ }),
-/* 42 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1541,7 +1655,7 @@ var AppContainer = function (_Component) {
 module.exports = AppContainer;
 
 /***/ }),
-/* 43 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1549,7 +1663,7 @@ module.exports = AppContainer;
 Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var server_1 = __webpack_require__(17);
+var server_1 = __webpack_require__(18);
 var ServerRenderer = /** @class */ (function () {
     function ServerRenderer(Root) {
         this.Root = Root;
@@ -1591,15 +1705,15 @@ function getRootProps(locals, website, page) {
 
 
 /***/ }),
-/* 44 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var DeferredScripts_1 = __webpack_require__(18);
-var DeferredStyles_1 = __webpack_require__(19);
+var DeferredScripts_1 = __webpack_require__(19);
+var DeferredStyles_1 = __webpack_require__(20);
 function Root(_a) {
     var website = _a.website, page = _a.page, localBundles = _a.localBundles, externalBundles = _a.externalBundles;
     return (React.createElement("html", null,
@@ -1623,7 +1737,7 @@ exports.default = Root;
 
 
 /***/ }),
-/* 45 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1676,25 +1790,25 @@ exports.default = RoutesFactory;
 
 
 /***/ }),
-/* 46 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __webpack_require__(0);
-var server_1 = __webpack_require__(17);
+var server_1 = __webpack_require__(18);
 var react_router_dom_1 = __webpack_require__(5);
-var utils_1 = __webpack_require__(47);
+var utils_1 = __webpack_require__(48);
 var models_1 = __webpack_require__(6);
-var layouts_1 = __webpack_require__(22);
+var layouts_1 = __webpack_require__(23);
 var includes_1 = __webpack_require__(2);
-var collections_1 = __webpack_require__(15);
-var pages_1 = __webpack_require__(33);
-var categories_1 = __webpack_require__(34);
-var tags_1 = __webpack_require__(185);
-var menu_1 = __webpack_require__(186);
-var config = __webpack_require__(16);
+var collections_1 = __webpack_require__(16);
+var pages_1 = __webpack_require__(34);
+var categories_1 = __webpack_require__(35);
+var tags_1 = __webpack_require__(187);
+var menu_1 = __webpack_require__(188);
+var config = __webpack_require__(17);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
 layouts_1.default.forEach(function (layout) { return website.addLayout(layout); });
@@ -1795,7 +1909,7 @@ function removeEntities(str) {
 
 
 /***/ }),
-/* 47 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1859,7 +1973,7 @@ exports.stripTags = stripTags;
 
 
 /***/ }),
-/* 48 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1878,7 +1992,7 @@ exports.default = Collection;
 
 
 /***/ }),
-/* 49 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1895,7 +2009,7 @@ exports.default = Layout;
 
 
 /***/ }),
-/* 50 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1912,7 +2026,7 @@ exports.default = Include;
 
 
 /***/ }),
-/* 51 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1931,14 +2045,14 @@ exports.default = MenuEntry;
 
 
 /***/ }),
-/* 52 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-var Category_1 = __webpack_require__(20);
-var Tag_1 = __webpack_require__(21);
+var Category_1 = __webpack_require__(21);
+var Tag_1 = __webpack_require__(22);
 var Website = /** @class */ (function () {
     function Website(title, baseUrl, timezone, locale) {
         this.layouts = {};
@@ -2074,14 +2188,14 @@ exports.default = Website;
 
 
 /***/ }),
-/* 53 */
+/* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./sztuka-dla-sztuki.markdown": 54,
-	"./sztuka-gotowania.markdown": 55,
-	"./sztuka-makijazu.markdown": 56,
-	"./sztuka-ubioru.markdown": 57
+	"./sztuka-dla-sztuki.markdown": 55,
+	"./sztuka-gotowania.markdown": 56,
+	"./sztuka-makijazu.markdown": 57,
+	"./sztuka-ubioru.markdown": 58
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -2097,10 +2211,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 53;
+webpackContext.id = 54;
 
 /***/ }),
-/* 54 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2147,7 +2261,7 @@ var raw = exports.raw = "\n<div>\n  <Feed { ...data } feed={ data.website.getCat
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 55 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2194,7 +2308,7 @@ var raw = exports.raw = "\n<div>\n  <Feed { ...data } feed={ data.website.getCat
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 56 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2241,7 +2355,7 @@ var raw = exports.raw = "\n<div>\n  <Feed { ...data } feed={ data.website.getCat
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 57 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2288,16 +2402,16 @@ var raw = exports.raw = "\n<div>\n  <Feed { ...data } feed={ data.website.getCat
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 58 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./404.markdown": 59,
-	"./index.markdown": 60,
-	"./kontakt.markdown": 61,
-	"./sitemap.markdown": 62,
-	"./sztuka-uniwersalna.markdown": 63,
-	"./tag.markdown": 64
+	"./404.markdown": 60,
+	"./index.markdown": 61,
+	"./kontakt.markdown": 62,
+	"./sitemap.markdown": 63,
+	"./sztuka-uniwersalna.markdown": 64,
+	"./tag.markdown": 65
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -2313,10 +2427,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 58;
+webpackContext.id = 59;
 
 /***/ }),
-/* 59 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2363,7 +2477,7 @@ var raw = exports.raw = "\nStrona o tym adresie nie istnieje.\n\n";
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 60 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2410,7 +2524,7 @@ var raw = exports.raw = "\n<div>\n  <Feed {...data} feed={ data.website.getColle
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 61 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2621,7 +2735,7 @@ var raw = exports.raw = "\n## Dla Czytelników\n\nJeśli podoba Ci się to, co r
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 62 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2668,7 +2782,7 @@ var raw = exports.raw = "\n<div className='compact'>\n  <TableOfContents {...dat
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 63 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2753,7 +2867,7 @@ var raw = exports.raw = "\nWitaj na blogu Sztuka Uniwersalna, blogu niepospolity
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 64 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2800,96 +2914,96 @@ var raw = exports.raw = "\n<div>\n  <Feed { ...data } feed={ data.page.pages } /
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 65 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./2017-07-15-uniwersalno-sztuki.markdown": 66,
-	"./2017-09-07-wenus-chanel-nowa-dziewczyna-z-perla.markdown": 67,
-	"./2017-09-11-make-up-inspirowany-obrazem-m64-by-wojciech-fangor.markdown": 68,
-	"./2017-09-18-fuerteventura-impressions.markdown": 69,
-	"./2017-09-21-make-up-inspirowany-obrazem-m10-by-wojciech-fangor.markdown": 70,
-	"./2017-09-25-podlewaj-swoje-kwiaty.markdown": 71,
-	"./2017-09-28-neoplastycyzm-moodboard.markdown": 72,
-	"./2017-10-03-cala-ta-j-dot-dot-dot.markdown": 73,
-	"./2017-10-05-kolo-moodboard.markdown": 74,
-	"./2017-10-10-make-up-inspirowany-obrazem-flying-eyes-by-yayoi-kusama.markdown": 75,
-	"./2017-10-12-pop-art-moodboard.markdown": 76,
-	"./2017-10-18-stylizacje-za-grosze-czyli-pokochaj-lumpeksy.markdown": 77,
-	"./2017-10-19-minimalism-moodboard.markdown": 78,
-	"./2017-10-25-kolaz-okladek.markdown": 79,
-	"./2017-10-26-kubizm-moodboard.markdown": 80,
-	"./2017-11-02-surrealizm-moodboard.markdown": 81,
-	"./2017-11-07-make-up-inspirowany-obrazem-czarny-kwadrat-na-bialym-tle-by-kazimierz-malewicz.markdown": 82,
-	"./2017-11-09-action-painting-moodboard.markdown": 83,
-	"./2017-11-13-picasso-wizerunek-wielokrotny-muzeum-lubelskie-w-lublinie.markdown": 84,
-	"./2017-11-16-impresjonizm-moodboard.markdown": 85,
-	"./2017-11-30-make-up-inspirowany-obrazem-figure-dog-birds-by-joan-miro.markdown": 86,
-	"./2017-12-07-op-art-moodboard.markdown": 87,
-	"./2017-12-11-wystawa-inny-trans-atlantyk-sztuka-kinetyczna-i-op-art-w-europie-wschodniej-i-ameryce-lacinskiej-w-latach-50-70.markdown": 88,
-	"./2017-12-17-o-kolorach-fiolet.markdown": 89,
-	"./2017-12-21-moje-wybory-grudzien.markdown": 90,
-	"./2017-12-31-kolagen.markdown": 91,
-	"./2018-01-04-ekspresjonizm-abstrakcyjny-moodboard.markdown": 92,
-	"./2018-01-14-o-kolorach-czerwien-cz-dot-1.markdown": 93,
-	"./2018-01-22-make-up-inspirowany-obrazem-tutti-frutti-by-helen-frankenthaler.markdown": 94,
-	"./2018-01-24-moje-wybory-styczen.markdown": 95,
-	"./2018-01-31-wystawa-david-lynch-silence-and-dynamism.markdown": 96,
-	"./2018-02-08-rokoko-moodboard.markdown": 97,
-	"./2018-02-11-make-up-inspirowany-obrazem-dove-with-sun-by-pablo-picasso.markdown": 98,
-	"./2018-02-13-smaki-zimy-vol-dot-3-omlet-francuski-z-cheddarem-i-czarnuszka.markdown": 99,
-	"./2018-02-18-o-narkotykach-xxi-wieku.markdown": 100,
-	"./2018-02-21-o-kolorach-biel-cz-dot-1.markdown": 101,
-	"./2018-02-26-moje-wybory-luty.markdown": 102,
-	"./2018-02-28-wystawa-przyszlosc-bedzie-inna-wizje-i-praktyki-modernizacji-spolecznych-po-roku-1918.markdown": 103,
-	"./2018-03-08-socrealizm-moodboard.markdown": 104,
-	"./2018-03-26-make-up-inspirowany-obrazem-bialy-srodek-zolty-rozowy-lawendowy-by-mark-rothko.markdown": 105,
-	"./2018-04-05-dadaizm-moodboard.markdown": 106,
-	"./2018-04-07-moje-wybory-marzec.markdown": 107,
-	"./2018-04-15-make-up-inspirowany-obrazem-onement-vi-by-barnett-newman.markdown": 108,
-	"./2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest.markdown": 109,
-	"./2018-04-29-stylizacje-w-trendach-ss-2018.markdown": 110,
-	"./2018-05-02-moje-wybory-kwiecien.markdown": 111,
-	"./2018-05-10-puentylizm-pointylizm-moodboard.markdown": 112,
-	"./2018-05-14-oswoic-lek.markdown": 113,
-	"./2018-05-20-o-kolorach-roz.markdown": 114,
-	"./2018-05-29-moje-wybory-maj.markdown": 115,
-	"./2018-06-05-jestem-wdzieczna-ci-zycie.markdown": 116,
-	"./2018-06-07-hiperrealizm-moodboard.markdown": 117,
-	"./2018-06-27-rgb-trzy-stylizacje-z-mojej-szafy.markdown": 118,
-	"./2018-07-05-abstrakcja-geometryczna-moodboard.markdown": 119,
-	"./2018-07-13-make-up-inspirowany-obrazem-blue-nude-ii-by-henri-matisse.markdown": 120,
-	"./2018-07-27-moje-wybory-czerwiec-slash-lipiec-cz-dot-1.markdown": 121,
-	"./2018-07-30-moje-wybory-czerwiec-slash-lipiec-cz-dot-2.markdown": 122,
-	"./2018-08-09-secesja-moodboard.markdown": 123,
-	"./2018-08-15-make-up-inspirowany-obrazem-circus-from-jazz-book-by-henri-matisse.markdown": 124,
-	"./2018-08-22-wystawa-handmade-acoustics.markdown": 125,
-	"./2018-08-31-moje-wybory-sierpien.markdown": 126,
-	"./2018-09-06-futuryzm-moodboard.markdown": 127,
-	"./2018-09-09-pre-fall-fall-slash-winter-spring-slash-summer-resort-cruise-co-to-wszystko-znaczy-plus-fw-trends-2018-slash-2019.markdown": 128,
-	"./2018-09-21-o-kolorach-czern.markdown": 129,
-	"./2018-09-27-moje-wybory-wrzesien-2018.markdown": 130,
-	"./2018-10-02-wystawa-bestia-bog-i-linia.markdown": 131,
-	"./2018-10-04-manieryzm-moodboard.markdown": 132,
-	"./2018-10-10-make-up-inspirowany-obrazem-kompozycja-viii-by-wassily-kandinsky.markdown": 133,
-	"./2018-10-24-moje-wybory-pazdziernik-2018.markdown": 134,
-	"./2018-10-28-smierc-doroslego.markdown": 135,
-	"./2018-10-31-kamp-moodboard.markdown": 136,
-	"./2018-11-07-make-up-inspirowany-obrazem-light-of-iris-by-georgia-okeeffe.markdown": 137,
-	"./2018-11-15-historia-pewnej-projektantki-czyli-perelka-z-lumpeksu.markdown": 138,
-	"./2018-11-22-wystawa-moda-polska.markdown": 139,
-	"./2018-11-28-moje-wybory-listopad-2018.markdown": 140,
-	"./2018-12-06-fluxus-moodboard.markdown": 141,
-	"./2018-12-13-o-smierci.markdown": 142,
-	"./2018-12-28-stop-2018-start-2019.markdown": 143,
-	"./2019-01-03-moje-wybory-grudzien-2018.markdown": 144,
-	"./2019-01-10-barok-moodboard.markdown": 145,
-	"./2019-01-24-make-up-inspirowany-obrazem-victory-boogie-woogie-by-piet-mondrian.markdown": 146,
-	"./2019-01-30-moje-wybory-styczen-2019.markdown": 147,
-	"./2019-02-07-prymitywizm-sztuka-naiwna-moodboard.markdown": 148,
-	"./2019-03-07-romantyzm-moodboard.markdown": 149,
-	"./2019-03-17-o-kolorach-niebieski-cz-dot-1.markdown": 150,
-	"./2019-03-20-o-kolorach-niebieski-cz-dot-2.markdown": 151
+	"./2017-07-15-uniwersalno-sztuki.markdown": 67,
+	"./2017-09-07-wenus-chanel-nowa-dziewczyna-z-perla.markdown": 68,
+	"./2017-09-11-make-up-inspirowany-obrazem-m64-by-wojciech-fangor.markdown": 69,
+	"./2017-09-18-fuerteventura-impressions.markdown": 70,
+	"./2017-09-21-make-up-inspirowany-obrazem-m10-by-wojciech-fangor.markdown": 71,
+	"./2017-09-25-podlewaj-swoje-kwiaty.markdown": 72,
+	"./2017-09-28-neoplastycyzm-moodboard.markdown": 73,
+	"./2017-10-03-cala-ta-j-dot-dot-dot.markdown": 74,
+	"./2017-10-05-kolo-moodboard.markdown": 75,
+	"./2017-10-10-make-up-inspirowany-obrazem-flying-eyes-by-yayoi-kusama.markdown": 76,
+	"./2017-10-12-pop-art-moodboard.markdown": 77,
+	"./2017-10-18-stylizacje-za-grosze-czyli-pokochaj-lumpeksy.markdown": 78,
+	"./2017-10-19-minimalism-moodboard.markdown": 79,
+	"./2017-10-25-kolaz-okladek.markdown": 80,
+	"./2017-10-26-kubizm-moodboard.markdown": 81,
+	"./2017-11-02-surrealizm-moodboard.markdown": 82,
+	"./2017-11-07-make-up-inspirowany-obrazem-czarny-kwadrat-na-bialym-tle-by-kazimierz-malewicz.markdown": 83,
+	"./2017-11-09-action-painting-moodboard.markdown": 84,
+	"./2017-11-13-picasso-wizerunek-wielokrotny-muzeum-lubelskie-w-lublinie.markdown": 85,
+	"./2017-11-16-impresjonizm-moodboard.markdown": 86,
+	"./2017-11-30-make-up-inspirowany-obrazem-figure-dog-birds-by-joan-miro.markdown": 87,
+	"./2017-12-07-op-art-moodboard.markdown": 88,
+	"./2017-12-11-wystawa-inny-trans-atlantyk-sztuka-kinetyczna-i-op-art-w-europie-wschodniej-i-ameryce-lacinskiej-w-latach-50-70.markdown": 89,
+	"./2017-12-17-o-kolorach-fiolet.markdown": 90,
+	"./2017-12-21-moje-wybory-grudzien.markdown": 91,
+	"./2017-12-31-kolagen.markdown": 92,
+	"./2018-01-04-ekspresjonizm-abstrakcyjny-moodboard.markdown": 93,
+	"./2018-01-14-o-kolorach-czerwien-cz-dot-1.markdown": 94,
+	"./2018-01-22-make-up-inspirowany-obrazem-tutti-frutti-by-helen-frankenthaler.markdown": 95,
+	"./2018-01-24-moje-wybory-styczen.markdown": 96,
+	"./2018-01-31-wystawa-david-lynch-silence-and-dynamism.markdown": 97,
+	"./2018-02-08-rokoko-moodboard.markdown": 98,
+	"./2018-02-11-make-up-inspirowany-obrazem-dove-with-sun-by-pablo-picasso.markdown": 99,
+	"./2018-02-13-smaki-zimy-vol-dot-3-omlet-francuski-z-cheddarem-i-czarnuszka.markdown": 100,
+	"./2018-02-18-o-narkotykach-xxi-wieku.markdown": 101,
+	"./2018-02-21-o-kolorach-biel-cz-dot-1.markdown": 102,
+	"./2018-02-26-moje-wybory-luty.markdown": 103,
+	"./2018-02-28-wystawa-przyszlosc-bedzie-inna-wizje-i-praktyki-modernizacji-spolecznych-po-roku-1918.markdown": 104,
+	"./2018-03-08-socrealizm-moodboard.markdown": 105,
+	"./2018-03-26-make-up-inspirowany-obrazem-bialy-srodek-zolty-rozowy-lawendowy-by-mark-rothko.markdown": 106,
+	"./2018-04-05-dadaizm-moodboard.markdown": 107,
+	"./2018-04-07-moje-wybory-marzec.markdown": 108,
+	"./2018-04-15-make-up-inspirowany-obrazem-onement-vi-by-barnett-newman.markdown": 109,
+	"./2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest.markdown": 110,
+	"./2018-04-29-stylizacje-w-trendach-ss-2018.markdown": 111,
+	"./2018-05-02-moje-wybory-kwiecien.markdown": 112,
+	"./2018-05-10-puentylizm-pointylizm-moodboard.markdown": 113,
+	"./2018-05-14-oswoic-lek.markdown": 114,
+	"./2018-05-20-o-kolorach-roz.markdown": 115,
+	"./2018-05-29-moje-wybory-maj.markdown": 116,
+	"./2018-06-05-jestem-wdzieczna-ci-zycie.markdown": 117,
+	"./2018-06-07-hiperrealizm-moodboard.markdown": 118,
+	"./2018-06-27-rgb-trzy-stylizacje-z-mojej-szafy.markdown": 119,
+	"./2018-07-05-abstrakcja-geometryczna-moodboard.markdown": 120,
+	"./2018-07-13-make-up-inspirowany-obrazem-blue-nude-ii-by-henri-matisse.markdown": 121,
+	"./2018-07-27-moje-wybory-czerwiec-slash-lipiec-cz-dot-1.markdown": 122,
+	"./2018-07-30-moje-wybory-czerwiec-slash-lipiec-cz-dot-2.markdown": 123,
+	"./2018-08-09-secesja-moodboard.markdown": 124,
+	"./2018-08-15-make-up-inspirowany-obrazem-circus-from-jazz-book-by-henri-matisse.markdown": 125,
+	"./2018-08-22-wystawa-handmade-acoustics.markdown": 126,
+	"./2018-08-31-moje-wybory-sierpien.markdown": 127,
+	"./2018-09-06-futuryzm-moodboard.markdown": 128,
+	"./2018-09-09-pre-fall-fall-slash-winter-spring-slash-summer-resort-cruise-co-to-wszystko-znaczy-plus-fw-trends-2018-slash-2019.markdown": 129,
+	"./2018-09-21-o-kolorach-czern.markdown": 130,
+	"./2018-09-27-moje-wybory-wrzesien-2018.markdown": 131,
+	"./2018-10-02-wystawa-bestia-bog-i-linia.markdown": 132,
+	"./2018-10-04-manieryzm-moodboard.markdown": 133,
+	"./2018-10-10-make-up-inspirowany-obrazem-kompozycja-viii-by-wassily-kandinsky.markdown": 134,
+	"./2018-10-24-moje-wybory-pazdziernik-2018.markdown": 135,
+	"./2018-10-28-smierc-doroslego.markdown": 136,
+	"./2018-10-31-kamp-moodboard.markdown": 137,
+	"./2018-11-07-make-up-inspirowany-obrazem-light-of-iris-by-georgia-okeeffe.markdown": 138,
+	"./2018-11-15-historia-pewnej-projektantki-czyli-perelka-z-lumpeksu.markdown": 139,
+	"./2018-11-22-wystawa-moda-polska.markdown": 140,
+	"./2018-11-28-moje-wybory-listopad-2018.markdown": 141,
+	"./2018-12-06-fluxus-moodboard.markdown": 142,
+	"./2018-12-13-o-smierci.markdown": 143,
+	"./2018-12-28-stop-2018-start-2019.markdown": 144,
+	"./2019-01-03-moje-wybory-grudzien-2018.markdown": 145,
+	"./2019-01-10-barok-moodboard.markdown": 146,
+	"./2019-01-24-make-up-inspirowany-obrazem-victory-boogie-woogie-by-piet-mondrian.markdown": 147,
+	"./2019-01-30-moje-wybory-styczen-2019.markdown": 148,
+	"./2019-02-07-prymitywizm-sztuka-naiwna-moodboard.markdown": 149,
+	"./2019-03-07-romantyzm-moodboard.markdown": 150,
+	"./2019-03-17-o-kolorach-niebieski-cz-dot-1.markdown": 151,
+	"./2019-03-20-o-kolorach-niebieski-cz-dot-2.markdown": 152
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -2905,10 +3019,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 65;
+webpackContext.id = 66;
 
 /***/ }),
-/* 66 */
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3029,7 +3143,7 @@ var raw = exports.raw = "\n> Interesowało mnie utrwalanie wszystkich prostych c
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 67 */
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3153,7 +3267,7 @@ var raw = exports.raw = "\n<olela-narrative>\nJestem tym, który delikatnie, z w
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 68 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3245,7 +3359,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia młodą kobietę w makijażu n
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 69 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3416,7 +3530,7 @@ var raw = exports.raw = "\n![Zdjęcie centralnie przedstawia roślinę z rodziny
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 70 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3529,7 +3643,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia twarz młodej kobiety na żó�
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 71 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3634,7 +3748,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia kobietę ubraną na biało, na
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 72 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3714,7 +3828,7 @@ var raw = exports.raw = "\nW latach 1917-1928 Theo van Doesburg wydawał w Holan
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 73 */
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3851,7 +3965,7 @@ var raw = exports.raw = "\n<olela-narrative>\nPrzyszła.\n</olela-narrative>\n\n
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 74 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3902,7 +4016,7 @@ var raw = exports.raw = "\n![Obrazek przedstawia cztery zdjęcia kobiet w stroja
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 75 */
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4032,7 +4146,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia młodą kobietę w mocnym maki
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 76 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4106,7 +4220,7 @@ var raw = exports.raw = "\nPOPular ART... czyli kierunek w sztuce, któremu w uk
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 77 */
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4283,7 +4397,7 @@ var raw = exports.raw = "\n W swoim życiu nie spotkałam kobiety, która nie lu
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 78 */
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4361,7 +4475,7 @@ var raw = exports.raw = "\nMinimalizm (lata 60te XX wieku)... Jak sama nazwa wsk
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 79 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4447,7 +4561,7 @@ var raw = exports.raw = "\nZnalazłam się w miejscu, do którego przeciętny ś
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 80 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4556,7 +4670,7 @@ var raw = exports.raw = "\n<olela-narrative>\nWyobraźcie sobie pewien zestaw pr
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 81 */
+/* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4746,7 +4860,7 @@ var raw = exports.raw = "\n<olela-narrative>\nAndré Breton, 'Manifest surrealiz
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 82 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4917,7 +5031,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia kobietę ubraną na biało, na
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 83 */
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4981,7 +5095,7 @@ var raw = exports.raw = "\n![Obraz przedstawia fotografie na szarym tle, widzimy
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 84 */
+/* 85 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5112,7 +5226,7 @@ var raw = exports.raw = "\nZ tą ekspozycją wiązałam dość duże nadzieje. P
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 85 */
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5162,7 +5276,7 @@ var raw = exports.raw = "\n![Obraz przedstawia fotografie na niebieskim tle. Wid
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 86 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5300,7 +5414,7 @@ var raw = exports.raw = "\n<olela-narrative>\nKiedy patrzysz na obraz budzi on w
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 87 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5353,7 +5467,7 @@ var raw = exports.raw = "\n![Obraz przedstawia fotografie różnych dzieł znany
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 88 */
+/* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5568,7 +5682,7 @@ var raw = exports.raw = "\n<olela-narrative>\nW marcu tego roku otworzył swoje 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 89 */
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5722,7 +5836,7 @@ var raw = exports.raw = "\nTak! Już jest! Kolorem roku 2018 według Pantone zos
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 90 */
+/* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5891,7 +6005,7 @@ var raw = exports.raw = "\n<olela-narrative>\nZima to czas, kiedy wszystko w prz
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 91 */
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6006,7 +6120,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia portret młodej kobiety. Prawa
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 92 */
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6100,7 +6214,7 @@ var raw = exports.raw = "\nNazwa złożona z dwóch nazw – ekspresjonizm abstr
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 93 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6241,7 +6355,7 @@ var raw = exports.raw = "\nCzerwień… Miłość, namiętność, pożądanie. K
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 94 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6325,7 +6439,7 @@ var raw = exports.raw = "\nHelen Frankenthaler – jedna z niewielu kobiet amery
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 95 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6459,7 +6573,7 @@ var raw = exports.raw = "\n<olela-narrative>\nPrzez moment miałam wrażenie, ż
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 96 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6674,7 +6788,7 @@ var raw = exports.raw = "\n![Czarno-biała fotografia przedstawia wnętrze z du�
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 97 */
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6794,7 +6908,7 @@ var raw = exports.raw = "\n![Obraz przedstawia trzy fotografie, na których wida
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 98 */
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6901,7 +7015,7 @@ var raw = exports.raw = "\n<olela-narrative>\nSą wszędzie. Są upierdliwe i s�
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 99 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6993,7 +7107,7 @@ var raw = exports.raw = "\n<olela-narrative>\nSprawdzony przepis na pożywne, zi
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 100 */
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7144,7 +7258,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia litery ułożone z kolorowego 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 101 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7306,7 +7420,7 @@ var raw = exports.raw = "\n## Kolor jest światłem\n\nChyba każdy z nas kojarz
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 102 */
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7460,7 +7574,7 @@ var raw = exports.raw = "\n<olela-narrative>\nW nocy w Warszawie termometr ma po
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 103 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7632,7 +7746,7 @@ var raw = exports.raw = "\n![Czarno-białe zdjęcie przedstawia ekran z napisami
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 104 */
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7727,7 +7841,7 @@ var raw = exports.raw = "\n![Obraz przedstawia trzy zdjęcia obrazów znanych ar
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 105 */
+/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7829,7 +7943,7 @@ var raw = exports.raw = "\n<olela-narrative>\nBył wczesny poranek pewnej słone
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 106 */
+/* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7945,7 +8059,7 @@ var raw = exports.raw = "\n![Obraz przedstawia różne fotografie np. przedmiot�
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 107 */
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8100,7 +8214,7 @@ var raw = exports.raw = "\n<olela-narrative>\nMam wrażenie, że powiedzenie 'w 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8235,7 +8349,7 @@ var raw = exports.raw = "\n<olela-narrative>\nJest taki moment w życiu artysty,
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8400,7 +8514,7 @@ var raw = exports.raw = "\nCyryl Polaczek nie chce nazywać siebie kuratorem. Na
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8547,7 +8661,7 @@ var raw = exports.raw = "\nTrendy, trendy, trendy… To temat, który nie daje n
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8709,7 +8823,7 @@ var raw = exports.raw = "\n<olela-narrative>\n‘Kwiecień plecień, bo przeplat
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8767,7 +8881,7 @@ var raw = exports.raw = "\nPuentylizm lub pointylizm (fr. pointiller – kropkow
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8886,7 +9000,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia zbliżenie na oko. Na skórze 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9023,7 +9137,7 @@ var raw = exports.raw = '\nR\xF3\u017C atakuje nas z ka\u017Cdej mo\u017Cliwej s
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9169,7 +9283,7 @@ var raw = exports.raw = "\n<olela-narrative>\nMaj obfituje w premiery. Swój pre
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9298,7 +9412,7 @@ var raw = exports.raw = "\n![Obraz przedstawia zdjęcie kobiety w kolorowym maki
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9356,7 +9470,7 @@ var raw = exports.raw = "\nHiperrealizm (superrealizm lub fotorealizm) to pręż
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9498,7 +9612,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia modelkę w spodniach w kwiaty 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9563,7 +9677,7 @@ var raw = exports.raw = "\nMyślenie kształtem dotyka odległych czasów odkryc
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9706,7 +9820,7 @@ var raw = exports.raw = "\n![Obraz przedstawia portret kobiety na granatowym tle
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9871,7 +9985,7 @@ var raw = exports.raw = "\n<olela-narrative>\nLato jest wtedy, kiedy kreska term
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10012,7 +10126,7 @@ var raw = exports.raw = "\n<olela-narrative>\nOleje to skarby ziemi. Aby zachowa
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10075,7 +10189,7 @@ var raw = exports.raw = "\nDekoracyjność, bogata ornamentyka abstrakcyjna lub 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10266,7 +10380,7 @@ var raw = exports.raw = "\nW 1941 roku francuski krytyk i wydawca greckiego poch
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10431,7 +10545,7 @@ var raw = exports.raw = "\n<olela-narrative>\nZatrzymaj się na moment i znajdź
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10590,7 +10704,7 @@ var raw = exports.raw = "\n<olela-narrative>\nPewnego sierpniowego dnia bałam s
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10680,7 +10794,7 @@ var raw = exports.raw = "\nFuturyzm narodził się we Włoszech wraz z początki
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10839,7 +10953,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia portret kobiety w czarnym kape
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10980,7 +11094,7 @@ var raw = exports.raw = "\nOd zawsze i na zawsze. Czerń to barwa pełna kontras
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11136,7 +11250,7 @@ var raw = exports.raw = "\n<olela-narrative>\nTen miesiąc był niezwykle kapry�
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11337,7 +11451,7 @@ var raw = exports.raw = "\n<olela-narrative>\nPo tej wystawie spodziewałam się
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11444,7 +11558,7 @@ var raw = exports.raw = "\nManieryzm nie jest jednoznacznym stylem. Jest bardzie
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11600,7 +11714,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia portret kobiety w artystycznym
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11745,7 +11859,7 @@ var raw = exports.raw = "\n<olela-narrative>\nDzwoni budzik. Leniwie otwieram oc
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11848,7 +11962,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia portret kobiety w mocnym kolor
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 136 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11979,7 +12093,7 @@ var raw = exports.raw = "\nSusan Sontag jako pierwsza podjęła próbę zdefinio
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 137 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12166,7 +12280,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia portret kobiety w artystycznym
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 138 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12333,7 +12447,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia portret kobiety w turbanie. Ko
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 139 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12525,7 +12639,7 @@ var raw = exports.raw = "\n![Zdjęcie przedstawia ciemne pomieszczenie oświetlo
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 140 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12701,7 +12815,7 @@ var raw = exports.raw = "\n<olela-narrative>\nKiedy otwieram oczy za oknem wcią
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 141 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12790,7 +12904,7 @@ var raw = exports.raw = "\nFluxus (łac. płynący; ang. to flow) nie był skonk
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 142 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12859,7 +12973,7 @@ var raw = exports.raw = "\nDziś już pamiętam tylko Twoje dłonie. Trzymałam 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 143 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12965,7 +13079,7 @@ var raw = exports.raw = "\n## STOP\n\n\nZatrzymaj się na chwilę. Stop. Usiąd�
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 144 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13150,7 +13264,7 @@ var raw = exports.raw = "\nGrudzień jest miesiącem pełnym skrajności. W pani
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 145 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13344,7 +13458,7 @@ var raw = exports.raw = "\n**Termin**\n\nBarok – prawdopodobnie z portugalskie
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 146 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13538,7 +13652,7 @@ var raw = exports.raw = "\n![Obraz przedstawia portret kobiety wpisany w rąb. K
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 147 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13707,7 +13821,7 @@ var raw = exports.raw = "\nNowy rok = nowa ja. Ile razy już to słyszałaś? Dw
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 148 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13830,7 +13944,7 @@ var raw = exports.raw = "\nPrymitywiści to artyści niewykształceni, nieprofes
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 149 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13954,7 +14068,7 @@ var raw = exports.raw = "\nCzas Romantyzmu ma dwa oblicza. Delikatna, kobieca zm
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 150 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14082,7 +14196,7 @@ var raw = exports.raw = "\n‘Oprócz błękitnego nieba, nic mi dzisiaj nie pot
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 151 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14217,18 +14331,6 @@ var raw = exports.raw = "\n![Fotografia przedstawia popiersie kobiety w niebiesk
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 152 */
-/***/ (function(module, exports) {
-
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 152;
-
-/***/ }),
 /* 153 */
 /***/ (function(module, exports) {
 
@@ -14242,11 +14344,23 @@ webpackEmptyContext.id = 153;
 
 /***/ }),
 /* 154 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 154;
+
+/***/ }),
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./ParrotLayout.js": 23,
-	"./default.js": 23
+	"./ParrotLayout.js": 24,
+	"./default.js": 24
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -14262,19 +14376,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 154;
+webpackContext.id = 155;
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(156);
+module.exports = __webpack_require__(157);
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14292,7 +14406,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(157);
+var _propTypes = __webpack_require__(158);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -14496,13 +14610,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_157__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_158__;
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14516,7 +14630,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14524,7 +14638,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14537,7 +14651,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14571,7 +14685,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14584,7 +14698,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14593,7 +14707,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14601,7 +14715,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14609,7 +14723,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14624,7 +14738,20 @@ module.exports = {
 };
 
 /***/ }),
-/* 167 */
+/* 168 */
+/***/ (function(module, exports) {
+
+module.exports = {
+  "container": "container-1L8oV",
+  "thumbnail": "thumbnail-2w5y1",
+  "loading": "loading-wuc2W",
+  "static": "static-36xmc",
+  "ready": "ready-2Fic5",
+  "transition": "transition-M3Bnj"
+};
+
+/***/ }),
+/* 169 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14639,7 +14766,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 168 */
+/* 170 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14654,7 +14781,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 169 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14678,7 +14805,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(170);
+var s = __webpack_require__(172);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -14709,7 +14836,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 170 */
+/* 172 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14717,7 +14844,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 171 */
+/* 173 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14741,7 +14868,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 172 */
+/* 174 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14766,8 +14893,8 @@ var __rest = undefined && undefined.__rest || function (s, e) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var Tile_1 = __webpack_require__(31);
-var TableOfContents_1 = __webpack_require__(32);
+var Tile_1 = __webpack_require__(32);
+var TableOfContents_1 = __webpack_require__(33);
 ;
 function Feed(_a) {
     var website = _a.website,
@@ -14792,7 +14919,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 173 */
+/* 175 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14800,7 +14927,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 174 */
+/* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14809,7 +14936,8 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(175);
+var Image_1 = __webpack_require__(9);
+var s = __webpack_require__(177);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -14836,13 +14964,13 @@ function Recipe(_a) {
     var methods = childs.filter(function (c) {
         return c.type === Method;
     });
-    return React.createElement("div", { className: s.recipe + " contrast" }, React.createElement("div", { className: s.header }, React.createElement("h2", null, title), React.createElement("ul", null, React.createElement("li", { key: '1', title: 'posiłek dla' }, React.createElement(Icon_1.default, { name: 'child_care' }), mealFor), React.createElement("li", { key: '2', title: 'poziom trudności' }, React.createElement(Icon_1.default, { name: 'whatshot' }), level), React.createElement("li", { key: '3', title: 'czas przygotowania' }, React.createElement(Icon_1.default, { name: 'access_time' }), time))), React.createElement("img", { src: photo, alt: altText }), React.createElement("div", { className: s.details }, React.createElement("div", { className: s.ingredients }, React.createElement("h3", null, "Sk\u0142adniki"), React.createElement("div", { className: 'compact' }, React.createElement("ol", null, ingredients))), React.createElement("div", { className: s.method }, React.createElement("h3", null, "Spos\xF3b Przygotowania"), methods)));
+    return React.createElement("div", { className: s.recipe + " contrast" }, React.createElement("div", { className: s.header }, React.createElement("h2", null, title), React.createElement("ul", null, React.createElement("li", { key: '1', title: 'posiłek dla' }, React.createElement(Icon_1.default, { name: 'child_care' }), mealFor), React.createElement("li", { key: '2', title: 'poziom trudności' }, React.createElement(Icon_1.default, { name: 'whatshot' }), level), React.createElement("li", { key: '3', title: 'czas przygotowania' }, React.createElement(Icon_1.default, { name: 'access_time' }), time))), React.createElement(Image_1.default, { src: photo, alt: altText }), React.createElement("div", { className: s.details }, React.createElement("div", { className: s.ingredients }, React.createElement("h3", null, "Sk\u0142adniki"), React.createElement("div", { className: 'compact' }, React.createElement("ol", null, ingredients))), React.createElement("div", { className: s.method }, React.createElement("h3", null, "Spos\xF3b Przygotowania"), methods)));
 }
 exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 175 */
+/* 177 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14852,7 +14980,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 176 */
+/* 178 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14860,8 +14988,8 @@ module.exports = {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var DeferredScripts_1 = __webpack_require__(18);
-var DeferredStyles_1 = __webpack_require__(19);
+var DeferredScripts_1 = __webpack_require__(19);
+var DeferredStyles_1 = __webpack_require__(20);
 var GTAG_API_URL = "https://www.googletagmanager.com/gtag/js?id=" + "UA-110945340-1";
 function Root(_a) {
     var website = _a.website,
@@ -14871,7 +14999,7 @@ function Root(_a) {
     var gtagConfigScript = getGtagConfigBundle(localBundles.js);
     var deferredScripts = externalBundles.js.concat(removeGtagConfigBundle(localBundles.js));
     var deferredStyles = externalBundles.css;
-    return React.createElement("html", null, React.createElement("head", null, React.createElement("title", null, page.title, " | ", website.title), React.createElement("meta", { name: 'keywords', content: page.tags.join(', ') }), React.createElement("meta", { name: 'description', content: page.description }), React.createElement("meta", { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }), React.createElement("script", { async: true, type: 'text/javascript', src: GTAG_API_URL }), React.createElement("script", { type: 'text/javascript', src: gtagConfigScript }), React.createElement("style", { type: 'text/css', dangerouslySetInnerHTML: { __html: 'body { opacity: 0; transition: opacity 300ms ease-in; } ' + 'body.ready { opacity: 1; }' } }), React.createElement("script", { async: true, type: 'text/javascript', dangerouslySetInnerHTML: { __html: 'document.addEventListener(\'DOMContentLoaded\', function() { ' + 'document.body.setAttribute(\'class\', \'ready\'); ' + '});' } }), React.createElement("meta", { property: 'og:url', content: "" + website.baseUrl + page.url }), React.createElement("meta", { property: 'og:title', content: page.title }), page.image !== null ? React.createElement("meta", { property: 'og:image', content: page.image }) : null, React.createElement("meta", { property: 'og:description', content: page.description }), React.createElement("meta", { property: 'og:locale', content: website.locale }), React.createElement("meta", { property: 'og:type', content: page.url === '/' ? 'website' : 'article' }), localBundles.css.map(function (url) {
+    return React.createElement("html", null, React.createElement("head", null, React.createElement("title", null, page.title, " | ", website.title), React.createElement("meta", { name: 'keywords', content: page.tags.join(', ') }), React.createElement("meta", { name: 'description', content: page.description }), React.createElement("meta", { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }), React.createElement("script", { async: true, type: 'text/javascript', src: GTAG_API_URL }), React.createElement("script", { type: 'text/javascript', src: gtagConfigScript }), React.createElement(FoucRemovalTrick, null), React.createElement("meta", { property: 'og:url', content: "" + website.baseUrl + page.url }), React.createElement("meta", { property: 'og:title', content: page.title }), page.image !== null ? React.createElement("meta", { property: 'og:image', content: page.image }) : null, React.createElement("meta", { property: 'og:description', content: page.description }), React.createElement("meta", { property: 'og:locale', content: website.locale }), React.createElement("meta", { property: 'og:type', content: page.url === '/' ? 'website' : 'article' }), localBundles.css.map(function (url) {
         return React.createElement("link", { type: 'text/css', rel: 'stylesheet', href: url, key: url });
     })), React.createElement("body", null, React.createElement("div", { id: 'root' }, "%%%BODY%%%"), React.createElement(DeferredScripts_1.default, { srcs: deferredScripts }), React.createElement(DeferredStyles_1.default, { hrefs: deferredStyles })));
 }
@@ -14894,24 +15022,27 @@ function removeGtagConfigBundle(bundles) {
     var index = bundles.indexOf(gtagBundle);
     return bundles.slice(0, index).concat(bundles.slice(index + 1));
 }
+function FoucRemovalTrick() {
+    return React.createElement("script", { type: 'text/javascript', dangerouslySetInnerHTML: { __html: 'document.addEventListener(\'DOMContentLoaded\', function() { ' + 'document.body.setAttribute(\'class\', \'ready\'); ' + '});' + 'document.write(\'<style type="text/css">' + 'body { opacity: 0; transition: opacity 300ms ease-in; }' + 'body.ready { opacity: 1; }' + '</style>\');' } });
+}
 
 /***/ }),
-/* 177 */
+/* 179 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 178 */
+/* 180 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 179,
-	"./Feed.js": 180,
-	"./Ingredient.js": 181,
-	"./Method.js": 182,
-	"./Recipe.js": 183,
-	"./TableOfContents.js": 184
+	"./Crumbs.js": 181,
+	"./Feed.js": 182,
+	"./Ingredient.js": 183,
+	"./Method.js": 184,
+	"./Recipe.js": 185,
+	"./TableOfContents.js": 186
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -14927,10 +15058,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 178;
+webpackContext.id = 180;
 
 /***/ }),
-/* 179 */
+/* 181 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14945,7 +15076,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 180 */
+/* 182 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14960,7 +15091,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 181 */
+/* 183 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14975,7 +15106,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 182 */
+/* 184 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14990,7 +15121,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 183 */
+/* 185 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15005,7 +15136,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 184 */
+/* 186 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15020,15 +15151,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 185 */
+/* 187 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var models_1 = __webpack_require__(6);
-var pages_1 = __webpack_require__(33);
-var categories_1 = __webpack_require__(34);
+var pages_1 = __webpack_require__(34);
+var categories_1 = __webpack_require__(35);
 var website = new models_1.Website('', '', '', '');
 pages_1.default.forEach(function (page) { return website.addPage(page); });
 var tagPage = website.getPageOfUrl('/tag', 'all tags');
@@ -15044,14 +15175,14 @@ exports.default = tags;
 
 
 /***/ }),
-/* 186 */
+/* 188 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var models_1 = __webpack_require__(6);
-var config = __webpack_require__(16);
+var config = __webpack_require__(17);
 function checkIsArray(value, name) {
     if (!(value instanceof Array)) {
         throw new Error(name + " must be an array; got " + typeof value);
