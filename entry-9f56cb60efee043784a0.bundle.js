@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_18__, __WEBPACK_EXTERNAL_MODULE_38__, __WEBPACK_EXTERNAL_MODULE_158__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_18__, __WEBPACK_EXTERNAL_MODULE_38__, __WEBPACK_EXTERNAL_MODULE_159__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(27);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(174);
+var Feed_1 = __webpack_require__(175);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(28);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(13);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(25);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(176);
+var Recipe_1 = __webpack_require__(177);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -266,7 +266,7 @@ var TopBar_1 = __webpack_require__(26);
 exports.TopBar = TopBar_1.default;
 var Image_1 = __webpack_require__(9);
 exports.Image = Image_1.default;
-var Root_1 = __webpack_require__(178);
+var Root_1 = __webpack_require__(179);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(15);
 exports.gtag = gtag_1.default;
@@ -312,7 +312,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(159);
+var s = __webpack_require__(160);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -357,7 +357,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(160);
+var s = __webpack_require__(161);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -418,7 +418,7 @@ var __assign = undefined && undefined.__assign || Object.assign || function (t) 
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(168);
+var s = __webpack_require__(169);
 var Image = /** @class */function (_super) {
     __extends(Image, _super);
     function Image(props) {
@@ -563,10 +563,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(54),
 PAGES: __webpack_require__(59),
 POSTS: __webpack_require__(66),
-UPLOADS: __webpack_require__(153),
-ROOT: __webpack_require__(154),
-LAYOUTS: __webpack_require__(155),
-INCLUDES: __webpack_require__(180)};
+UPLOADS: __webpack_require__(154),
+ROOT: __webpack_require__(155),
+LAYOUTS: __webpack_require__(156),
+INCLUDES: __webpack_require__(181)};
 
 
 /***/ }),
@@ -578,7 +578,7 @@ INCLUDES: __webpack_require__(180)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(161);
+var s = __webpack_require__(162);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -628,7 +628,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(165);
+var s = __webpack_require__(166);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -965,7 +965,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(179);
+__webpack_require__(180);
 
 
 
@@ -1005,7 +1005,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(156);
+var react_disqus_comments_1 = __webpack_require__(157);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(26);
 var Crumbs_1 = __webpack_require__(27);
@@ -1016,8 +1016,8 @@ var Icon_1 = __webpack_require__(8);
 var Image_1 = __webpack_require__(9);
 var SideMenu_1 = __webpack_require__(30);
 var Jumbotron_1 = __webpack_require__(31);
-var FacebookLike_1 = __webpack_require__(171);
-var s = __webpack_require__(173);
+var FacebookLike_1 = __webpack_require__(172);
+var s = __webpack_require__(174);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1135,8 +1135,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(13);
-__webpack_require__(162);
-var s = __webpack_require__(163);
+__webpack_require__(163);
+var s = __webpack_require__(164);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1166,7 +1166,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(164);
+var s = __webpack_require__(165);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1211,7 +1211,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(29);
-var s = __webpack_require__(167);
+var s = __webpack_require__(168);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1245,7 +1245,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(166);
+var s = __webpack_require__(167);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1290,7 +1290,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(169);
+var s = __webpack_require__(170);
 function Item(props) {
     return null;
 }
@@ -1373,7 +1373,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(29);
-var s = __webpack_require__(170);
+var s = __webpack_require__(171);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1398,7 +1398,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(14);
 var Button_1 = __webpack_require__(7);
 var Image_1 = __webpack_require__(9);
-var s = __webpack_require__(175);
+var s = __webpack_require__(176);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1806,8 +1806,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(16);
 var pages_1 = __webpack_require__(34);
 var categories_1 = __webpack_require__(35);
-var tags_1 = __webpack_require__(187);
-var menu_1 = __webpack_require__(188);
+var tags_1 = __webpack_require__(188);
+var menu_1 = __webpack_require__(189);
 var config = __webpack_require__(17);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -3003,7 +3003,8 @@ var map = {
 	"./2019-02-07-prymitywizm-sztuka-naiwna-moodboard.markdown": 149,
 	"./2019-03-07-romantyzm-moodboard.markdown": 150,
 	"./2019-03-17-o-kolorach-niebieski-cz-dot-1.markdown": 151,
-	"./2019-03-20-o-kolorach-niebieski-cz-dot-2.markdown": 152
+	"./2019-03-20-o-kolorach-niebieski-cz-dot-2.markdown": 152,
+	"./2019-03-29-moje-wybory-luty-marzec-2019.markdown": 153
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -14332,15 +14333,76 @@ var raw = exports.raw = "\n![Fotografia przedstawia popiersie kobiety w niebiesk
 
 /***/ }),
 /* 153 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 153;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Odnosz\u0119 wra\u017Cenie, \u017Ce kto\u015B po kryjomu przesuwa wskaz\xF3wki zegara. Wyobra\u017Cam sobie bia\u0142ego kr\xF3lika w kapeluszu, kt\xF3ry wieczorem, kiedy zasypiam, przyspiesza czas. Kr\xF3lik ten lubi tak\u017Ce z pocz\u0105tku miesi\u0105ca zrobi\u0107 jego koniec. Zastanawiam si\u0119, czy przyspieszanie czasu jest jego prac\u0105, czy mo\u017Ce z natury bywa kr\xF3likiem z\u0142o\u015Bliwym. Raz prawie przy\u0142apa\u0142am go na stosowaniu mojej nawil\u017Caj\u0105cej ampu\u0142ki z propolisem. Widocznie on czas przyspiesza, ale r\xF3wnie\u017C odczuwa skutki jego up\u0142ywu. W garderobie, jak i na toaletce zaprowadzi\u0142am wiosenne porz\u0105dki. \u2018Chce mi si\u0119\u2019 teraz kolor\xF3w. Gazetowe raporty donosz\u0105: w tym sezonie najmodniejszym jest styl safari. A to przecie\u017C oznacza kolory be\u017Cowe, piaskowe, oliwkowe, troch\u0119 wyp\u0142owia\u0142e. Znalaz\u0142am kolorowy kompromis w\u015Br\xF3d paletek cieni. Wiosenny rachunek sumienia i portfela pozwoli\u0142 mi odkry\u0107 fakt, \u017Ce najwi\u0119cej pieni\u0119dzy wydaj\u0119 na kosmetyki. No c\xF3\u017C... Jestem urodomaniaczk\u0105 \u2013 przyzna\u0142am si\u0119 w duchu przed sob\u0105 i postanowi\u0142am wyr\xF3wna\u0107 wydatki kupuj\u0105c par\u0119 przepi\u0119knych, z\u0142otych kolczyk\xF3w. Ze z\u0142otem, lecz w innym wydaniu ma te\u017C wiele wsp\xF3lnego ksi\u0105\u017Cka, w kt\xF3rej ostatnio si\u0119 zaczytywa\u0142am. Rytua\u0142 wieczornej lektury spr\xF3buj\u0119 podtrzyma\u0107, cho\u0107 przyznaj\u0119, \u017Ce wzrastaj\u0105ca temperatura sprzyja nieco bardziej spacerom ni\u017C kocykowi i herbacie z cynamonem.'
+    ),
+    _react2.default.createElement(
+      'h2',
+      null,
+      'Kosmetyk: piel\u0119gnacja. Marka Miesi\u0105ca - PureHeals'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Propolis (pro-przed; polis-miasto) to jedna z najbardziej nasyconych w\u0142a\u015Bciwo\u015Bciami prozdrowotnymi substancja. Produkuj\u0105 j\u0105 pszczo\u0142y pracownice podczas uszczelniania \u015Bcian ula. Propolis, czyli kit pszczeli jest bakteriob\xF3jczy, zwalcza wirusy i grzyby, kt\xF3re potencjalnie mog\u0142yby przenikn\u0105\u0107 do wn\u0119trza pszczelego domu. Jego w\u0142a\u015Bciwo\u015Bci znane by\u0142y ju\u017C w staro\u017Cytno\u015Bci, kiedy to stosowano go g\u0142\xF3wnie do leczenia owrzodze\u0144 i ran. Dobrze jest w\u0142\u0105cza\u0107 go do swojej diety, szczeg\xF3lnie w okresie jesienno-zimowym. Kosmetyki z propolisem s\u0105 szczeg\xF3lnie polecane dla cer tr\u0105dzikowych, kt\xF3re potrzebuj\u0105 specyfik\xF3w antybakteryjnych i goj\u0105cych. Z\u0142oty py\u0142ek \u0142agodzi stany zapalne, dzia\u0142a na sk\xF3r\u0119 regeneruj\u0105co, ale te\u017C w znacznym stopniu przyczynia si\u0119 do syntezy nowych w\u0142\xF3kien kolagenowych.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Korea\u0144ska marka PureHeals sta\u0142a si\u0119 moim odkryciem ostatnich miesi\u0119cy. Bogactwo naturalnych sk\u0142adnik\xF3w zamyka si\u0119 tu w liniach kosmetyk\xF3w przynosz\u0105cych korzy\u015Bci r\xF3\u017Cnym rodzajom cer. Dzi\u0119ki piel\u0119gnacji wieloetapowej mo\u017Cliwe jest osi\u0105gni\u0119cie efektu \u015Bwietlistej, \u015Bwietnie nawil\u017Conej sk\xF3ry. Seria z propolisem skrad\u0142a moje serce. Pomimo, \u017Ce nie mam problem\xF3w z niedoskona\u0142o\u015Bciami kosmetyki z pszczelim z\u0142otem wykaza\u0142y w\u0142a\u015Bciwo\u015Bci silnie nawil\u017Caj\u0105ce i koj\u0105ce moj\u0105 cienk\u0105, wra\u017Cliw\u0105 sk\xF3r\u0119.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Po oczyszczeniu twarzy stosuj\u0119 tonik, kt\xF3ry wklepuj\u0119 d\u0142o\u0144mi w policzki i czo\u0142o (nie u\u017Cywam wacik\xF3w!). Nast\u0119pnie aplikuj\u0119 jedn\u0105 kropl\u0119 ampu\u0142ki, a na samym ko\u0144cu krem o bogatej \u017Celowej konsystencji. W ci\u0105gu dnia uwielbiam tak\u017Ce spryskiwa\u0107 twarz mgie\u0142k\u0105 od\u015Bwie\u017Caj\u0105co-nawil\u017Caj\u0105c\u0105.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://d324imu86q1bqn.cloudfront.net/uploads/asset/attachment/9272331/ello-optimized-b85d2f76.jpg', alt: 'Fotografia przedstawia kosmetyki roz\u0142o\u017Cone na zielonym i bia\u0142ym obrusie. Widzimy r\xF3wnie\u017C plecione miski.' }),
+      _react2.default.createElement('img', { src: 'https://d324imu86q1bqn.cloudfront.net/uploads/asset/attachment/9272336/ello-optimized-d18d04fd.jpg', alt: 'Obraz przedstawia dwa zdj\u0119cia kosmetyk\xF3w w \u017C\xF3\u0142tych buteleczkach na \u017C\xF3\u0142tym tle.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Moje wybory: luty, marzec 2019", "date": "2019-03-29T16:51:00.000Z", "categories": ["Sztuka Makijażu", "Sztuka Ubioru"], "tags": ["moje wybory", "wybory", "luty", "marzec", "kosmetyk", "pielęgnacja", "kolorówka", "lektura", "akcesoria", "kolczyki"] };
+var body = exports.body = "<p>Odnoszę wrażenie, że ktoś po kryjomu przesuwa wskazówki zegara. Wyobrażam sobie białego królika w kapeluszu, który wieczorem, kiedy zasypiam, przyspiesza czas. Królik ten lubi także z początku miesiąca zrobić jego koniec. Zastanawiam się, czy przyspieszanie czasu jest jego pracą, czy może z natury bywa królikiem złośliwym. Raz prawie przyłapałam go na stosowaniu mojej nawilżającej ampułki z propolisem. Widocznie on czas przyspiesza, ale również odczuwa skutki jego upływu. W garderobie, jak i na toaletce zaprowadziłam wiosenne porządki. ‘Chce mi się’ teraz kolorów. Gazetowe raporty donoszą: w tym sezonie najmodniejszym jest styl safari. A to przecież oznacza kolory beżowe, piaskowe, oliwkowe, trochę wypłowiałe. Znalazłam kolorowy kompromis wśród paletek cieni. Wiosenny rachunek sumienia i portfela pozwolił mi odkryć fakt, że najwięcej pieniędzy wydaję na kosmetyki. No cóż... Jestem urodomaniaczką – przyznałam się w duchu przed sobą i postanowiłam wyrównać wydatki kupując parę przepięknych, złotych kolczyków. Ze złotem, lecz w innym wydaniu ma też wiele wspólnego książka, w której ostatnio się zaczytywałam. Rytuał wieczornej lektury spróbuję podtrzymać, choć przyznaję, że wzrastająca temperatura sprzyja nieco bardziej spacerom niż kocykowi i herbacie z cynamonem.</p>\n<h2>Kosmetyk: pielęgnacja. Marka Miesiąca - PureHeals</h2>\n<p>Propolis (pro-przed; polis-miasto) to jedna z najbardziej nasyconych właściwościami prozdrowotnymi substancja. Produkują ją pszczoły pracownice podczas uszczelniania ścian ula. Propolis, czyli kit pszczeli jest bakteriobójczy, zwalcza wirusy i grzyby, które potencjalnie mogłyby przeniknąć do wnętrza pszczelego domu. Jego właściwości znane były już w starożytności, kiedy to stosowano go głównie do leczenia owrzodzeń i ran. Dobrze jest włączać go do swojej diety, szczególnie w okresie jesienno-zimowym. Kosmetyki z propolisem są szczególnie polecane dla cer trądzikowych, które potrzebują specyfików antybakteryjnych i gojących. Złoty pyłek łagodzi stany zapalne, działa na skórę regenerująco, ale też w znacznym stopniu przyczynia się do syntezy nowych włókien kolagenowych.</p>\n<p>Koreańska marka PureHeals stała się moim odkryciem ostatnich miesięcy. Bogactwo naturalnych składników zamyka się tu w liniach kosmetyków przynoszących korzyści różnym rodzajom cer. Dzięki pielęgnacji wieloetapowej możliwe jest osiągnięcie efektu świetlistej, świetnie nawilżonej skóry. Seria z propolisem skradła moje serce. Pomimo, że nie mam problemów z niedoskonałościami kosmetyki z pszczelim złotem wykazały właściwości silnie nawilżające i kojące moją cienką, wrażliwą skórę.</p>\n<p>Po oczyszczeniu twarzy stosuję tonik, który wklepuję dłońmi w policzki i czoło (nie używam wacików!). Następnie aplikuję jedną kroplę ampułki, a na samym końcu krem o bogatej żelowej konsystencji. W ciągu dnia uwielbiam także spryskiwać twarz mgiełką odświeżająco-nawilżającą.</p>\n<p><img src=\"https://d324imu86q1bqn.cloudfront.net/uploads/asset/attachment/9272331/ello-optimized-b85d2f76.jpg\" alt=\"Fotografia przedstawia kosmetyki rozłożone na zielonym i białym obrusie. Widzimy również plecione miski.\" />\n<img src=\"https://d324imu86q1bqn.cloudfront.net/uploads/asset/attachment/9272336/ello-optimized-d18d04fd.jpg\" alt=\"Obraz przedstawia dwa zdjęcia kosmetyków w żółtych buteleczkach na żółtym tle.\" /></p>\n";
+var raw = exports.raw = "\nOdnoszę wrażenie, że ktoś po kryjomu przesuwa wskazówki zegara. Wyobrażam sobie białego królika w kapeluszu, który wieczorem, kiedy zasypiam, przyspiesza czas. Królik ten lubi także z początku miesiąca zrobić jego koniec. Zastanawiam się, czy przyspieszanie czasu jest jego pracą, czy może z natury bywa królikiem złośliwym. Raz prawie przyłapałam go na stosowaniu mojej nawilżającej ampułki z propolisem. Widocznie on czas przyspiesza, ale również odczuwa skutki jego upływu. W garderobie, jak i na toaletce zaprowadziłam wiosenne porządki. ‘Chce mi się’ teraz kolorów. Gazetowe raporty donoszą: w tym sezonie najmodniejszym jest styl safari. A to przecież oznacza kolory beżowe, piaskowe, oliwkowe, trochę wypłowiałe. Znalazłam kolorowy kompromis wśród paletek cieni. Wiosenny rachunek sumienia i portfela pozwolił mi odkryć fakt, że najwięcej pieniędzy wydaję na kosmetyki. No cóż… Jestem urodomaniaczką – przyznałam się w duchu przed sobą i postanowiłam wyrównać wydatki kupując parę przepięknych, złotych kolczyków. Ze złotem, lecz w innym wydaniu ma też wiele wspólnego książka, w której ostatnio się zaczytywałam. Rytuał wieczornej lektury spróbuję podtrzymać, choć przyznaję, że wzrastająca temperatura sprzyja nieco bardziej spacerom niż kocykowi i herbacie z cynamonem. \n\n## Kosmetyk: pielęgnacja. Marka Miesiąca - PureHeals\n\nPropolis (pro-przed; polis-miasto) to jedna z najbardziej nasyconych właściwościami prozdrowotnymi substancja. Produkują ją pszczoły pracownice podczas uszczelniania ścian ula. Propolis, czyli kit pszczeli jest bakteriobójczy, zwalcza wirusy i grzyby, które potencjalnie mogłyby przeniknąć do wnętrza pszczelego domu. Jego właściwości znane były już w starożytności, kiedy to stosowano go głównie do leczenia owrzodzeń i ran. Dobrze jest włączać go do swojej diety, szczególnie w okresie jesienno-zimowym. Kosmetyki z propolisem są szczególnie polecane dla cer trądzikowych, które potrzebują specyfików antybakteryjnych i gojących. Złoty pyłek łagodzi stany zapalne, działa na skórę regenerująco, ale też w znacznym stopniu przyczynia się do syntezy nowych włókien kolagenowych. \n\nKoreańska marka PureHeals stała się moim odkryciem ostatnich miesięcy. Bogactwo naturalnych składników zamyka się tu w liniach kosmetyków przynoszących korzyści różnym rodzajom cer. Dzięki pielęgnacji wieloetapowej możliwe jest osiągnięcie efektu świetlistej, świetnie nawilżonej skóry. Seria z propolisem skradła moje serce. Pomimo, że nie mam problemów z niedoskonałościami kosmetyki z pszczelim złotem wykazały właściwości silnie nawilżające i kojące moją cienką, wrażliwą skórę. \n\nPo oczyszczeniu twarzy stosuję tonik, który wklepuję dłońmi w policzki i czoło (nie używam wacików!). Następnie aplikuję jedną kroplę ampułki, a na samym końcu krem o bogatej żelowej konsystencji. W ciągu dnia uwielbiam także spryskiwać twarz mgiełką odświeżająco-nawilżającą.\n\n![Fotografia przedstawia kosmetyki rozłożone na zielonym i białym obrusie. Widzimy również plecione miski.](https://d324imu86q1bqn.cloudfront.net/uploads/asset/attachment/9272331/ello-optimized-b85d2f76.jpg)\n![Obraz przedstawia dwa zdjęcia kosmetyków w żółtych buteleczkach na żółtym tle.](https://d324imu86q1bqn.cloudfront.net/uploads/asset/attachment/9272336/ello-optimized-d18d04fd.jpg)";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 154 */
@@ -14356,6 +14418,18 @@ webpackEmptyContext.id = 154;
 
 /***/ }),
 /* 155 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 155;
+
+/***/ }),
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -14376,19 +14450,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 155;
+webpackContext.id = 156;
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(157);
+module.exports = __webpack_require__(158);
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14406,7 +14480,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(158);
+var _propTypes = __webpack_require__(159);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -14610,13 +14684,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_158__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_159__;
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14630,7 +14704,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14638,7 +14712,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14651,7 +14725,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14685,7 +14759,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14698,7 +14772,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14707,7 +14781,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14715,7 +14789,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14723,7 +14797,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14738,7 +14812,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14751,7 +14825,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 169 */
+/* 170 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14766,7 +14840,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 170 */
+/* 171 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14781,7 +14855,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 171 */
+/* 172 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14805,7 +14879,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(172);
+var s = __webpack_require__(173);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -14836,7 +14910,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 172 */
+/* 173 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14844,7 +14918,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 173 */
+/* 174 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14868,7 +14942,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 174 */
+/* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14919,7 +14993,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 175 */
+/* 176 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14927,7 +15001,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 176 */
+/* 177 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14937,7 +15011,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
 var Image_1 = __webpack_require__(9);
-var s = __webpack_require__(177);
+var s = __webpack_require__(178);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -14970,7 +15044,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 177 */
+/* 178 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14980,7 +15054,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 178 */
+/* 179 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15027,22 +15101,22 @@ function FoucRemovalTrick() {
 }
 
 /***/ }),
-/* 179 */
+/* 180 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 180 */
+/* 181 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 181,
-	"./Feed.js": 182,
-	"./Ingredient.js": 183,
-	"./Method.js": 184,
-	"./Recipe.js": 185,
-	"./TableOfContents.js": 186
+	"./Crumbs.js": 182,
+	"./Feed.js": 183,
+	"./Ingredient.js": 184,
+	"./Method.js": 185,
+	"./Recipe.js": 186,
+	"./TableOfContents.js": 187
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -15058,10 +15132,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 180;
+webpackContext.id = 181;
 
 /***/ }),
-/* 181 */
+/* 182 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15076,7 +15150,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 182 */
+/* 183 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15091,7 +15165,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 183 */
+/* 184 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15106,7 +15180,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 184 */
+/* 185 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15121,7 +15195,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 185 */
+/* 186 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15136,7 +15210,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 186 */
+/* 187 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15151,7 +15225,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 187 */
+/* 188 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15175,7 +15249,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 188 */
+/* 189 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
