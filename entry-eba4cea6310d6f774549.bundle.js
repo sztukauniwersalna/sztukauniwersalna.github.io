@@ -7,7 +7,7 @@
 		var a = typeof exports === 'object' ? factory(require("react"), require("react-router-dom"), require("react-dom/server"), require("react-dom"), require("prop-types")) : factory(root["React"], root["ReactRouterDOM"], root["ReactDOMServer"], root["ReactDOM"], root["PropTypes"]);
 		for(var i in a) (typeof exports === 'object' ? exports : root)[i] = a[i];
 	}
-})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_18__, __WEBPACK_EXTERNAL_MODULE_38__, __WEBPACK_EXTERNAL_MODULE_159__) {
+})(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_5__, __WEBPACK_EXTERNAL_MODULE_18__, __WEBPACK_EXTERNAL_MODULE_38__, __WEBPACK_EXTERNAL_MODULE_160__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -238,7 +238,7 @@ var Button_1 = __webpack_require__(7);
 exports.Button = Button_1.default;
 var Crumbs_1 = __webpack_require__(27);
 exports.Crumbs = Crumbs_1.default;
-var Feed_1 = __webpack_require__(175);
+var Feed_1 = __webpack_require__(176);
 exports.Feed = Feed_1.default;
 var Footer_1 = __webpack_require__(28);
 exports.Footer = Footer_1.default;
@@ -250,7 +250,7 @@ var Logo_1 = __webpack_require__(13);
 exports.Logo = Logo_1.default;
 var ParrotLayout_2 = __webpack_require__(25);
 exports.ParrotLayout = ParrotLayout_2.default;
-var Recipe_1 = __webpack_require__(177);
+var Recipe_1 = __webpack_require__(178);
 exports.Recipe = Recipe_1.default;
 exports.Ingredient = Recipe_1.Ingredient;
 exports.Method = Recipe_1.Method;
@@ -266,7 +266,7 @@ var TopBar_1 = __webpack_require__(26);
 exports.TopBar = TopBar_1.default;
 var Image_1 = __webpack_require__(9);
 exports.Image = Image_1.default;
-var Root_1 = __webpack_require__(179);
+var Root_1 = __webpack_require__(180);
 exports.Root = Root_1.default;
 var gtag_1 = __webpack_require__(15);
 exports.gtag = gtag_1.default;
@@ -312,7 +312,7 @@ exports.Website = Website_1.default;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(160);
+var s = __webpack_require__(161);
 function Button(_a) {
     var url = _a.url,
         _b = _a.variant,
@@ -357,7 +357,7 @@ function renderButton(classNames, onClick, children) {
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(161);
+var s = __webpack_require__(162);
 function Icon(_a) {
     var name = _a.name;
     if (name === undefined) {
@@ -418,7 +418,7 @@ var __assign = undefined && undefined.__assign || Object.assign || function (t) 
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(169);
+var s = __webpack_require__(170);
 var Image = /** @class */function (_super) {
     __extends(Image, _super);
     function Image(props) {
@@ -563,10 +563,10 @@ module.exports = {
 CATEGORIES: __webpack_require__(54),
 PAGES: __webpack_require__(59),
 POSTS: __webpack_require__(66),
-UPLOADS: __webpack_require__(154),
-ROOT: __webpack_require__(155),
-LAYOUTS: __webpack_require__(156),
-INCLUDES: __webpack_require__(181)};
+UPLOADS: __webpack_require__(155),
+ROOT: __webpack_require__(156),
+LAYOUTS: __webpack_require__(157),
+INCLUDES: __webpack_require__(182)};
 
 
 /***/ }),
@@ -578,7 +578,7 @@ INCLUDES: __webpack_require__(181)};
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(162);
+var s = __webpack_require__(163);
 function Logo(_a) {
     var _b = _a.variant,
         variant = _b === void 0 ? 'inline' : _b;
@@ -628,7 +628,7 @@ function getDimensions(variant) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
-var s = __webpack_require__(166);
+var s = __webpack_require__(167);
 function Tags(_a) {
     var website = _a.website,
         page = _a.page;
@@ -965,7 +965,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-__webpack_require__(180);
+__webpack_require__(181);
 
 
 
@@ -1005,7 +1005,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var react_disqus_comments_1 = __webpack_require__(157);
+var react_disqus_comments_1 = __webpack_require__(158);
 var models_1 = __webpack_require__(6);
 var TopBar_1 = __webpack_require__(26);
 var Crumbs_1 = __webpack_require__(27);
@@ -1016,8 +1016,8 @@ var Icon_1 = __webpack_require__(8);
 var Image_1 = __webpack_require__(9);
 var SideMenu_1 = __webpack_require__(30);
 var Jumbotron_1 = __webpack_require__(31);
-var FacebookLike_1 = __webpack_require__(172);
-var s = __webpack_require__(174);
+var FacebookLike_1 = __webpack_require__(173);
+var s = __webpack_require__(175);
 var ParrotLayout = /** @class */function (_super) {
     __extends(ParrotLayout, _super);
     function ParrotLayout(props) {
@@ -1135,8 +1135,8 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var Logo_1 = __webpack_require__(13);
-__webpack_require__(163);
-var s = __webpack_require__(164);
+__webpack_require__(164);
+var s = __webpack_require__(165);
 var TopBar = /** @class */function (_super) {
     __extends(TopBar, _super);
     function TopBar() {
@@ -1166,7 +1166,7 @@ exports.default = TopBar;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
-var s = __webpack_require__(165);
+var s = __webpack_require__(166);
 function Crumbs(_a) {
     var website = _a.website,
         page = _a.page,
@@ -1211,7 +1211,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
 var SocialButtons_1 = __webpack_require__(29);
-var s = __webpack_require__(168);
+var s = __webpack_require__(169);
 var Footer = /** @class */function (_super) {
     __extends(Footer, _super);
     function Footer() {
@@ -1245,7 +1245,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(167);
+var s = __webpack_require__(168);
 function SocialButtons() {
     return React.createElement("ul", { className: s.socialButtons }, React.createElement("li", { key: 'facebook' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.facebook.com/sztukauniwersalna/' }, React.createElement(Icon_1.default, { name: 'facebook' }))), React.createElement("li", { key: 'instagram' }, React.createElement(Button_1.default, { variant: 'action', color: 'green', url: 'https://www.instagram.com/sztuka_uniwersalna/' }, React.createElement(Icon_1.default, { name: 'instagram' }))));
 }
@@ -1290,7 +1290,7 @@ var react_1 = __webpack_require__(0);
 var react_router_dom_1 = __webpack_require__(5);
 var Button_1 = __webpack_require__(7);
 var Icon_1 = __webpack_require__(8);
-var s = __webpack_require__(170);
+var s = __webpack_require__(171);
 function Item(props) {
     return null;
 }
@@ -1373,7 +1373,7 @@ exports.default = SideMenu;
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var SocialButtons_1 = __webpack_require__(29);
-var s = __webpack_require__(171);
+var s = __webpack_require__(172);
 function Jumbotron(_a) {
     var children = _a.children,
         _b = _a.fullscreen,
@@ -1398,7 +1398,7 @@ var react_router_dom_1 = __webpack_require__(5);
 var Tags_1 = __webpack_require__(14);
 var Button_1 = __webpack_require__(7);
 var Image_1 = __webpack_require__(9);
-var s = __webpack_require__(176);
+var s = __webpack_require__(177);
 function Tile(_a) {
     var website = _a.website,
         page = _a.page;
@@ -1806,8 +1806,8 @@ var includes_1 = __webpack_require__(2);
 var collections_1 = __webpack_require__(16);
 var pages_1 = __webpack_require__(34);
 var categories_1 = __webpack_require__(35);
-var tags_1 = __webpack_require__(188);
-var menu_1 = __webpack_require__(189);
+var tags_1 = __webpack_require__(189);
+var menu_1 = __webpack_require__(190);
 var config = __webpack_require__(17);
 var website = new models_1.Website(checkIsString(config.title, 'config.title'), checkIsString(config.baseUrl, 'config.baseUrl'), checkIsString(config.timezone, 'config.timezone'), checkIsString(config.locale || 'en_US', 'config.locale'));
 exports.default = website;
@@ -3004,7 +3004,8 @@ var map = {
 	"./2019-03-07-romantyzm-moodboard.markdown": 150,
 	"./2019-03-17-o-kolorach-niebieski-cz-dot-1.markdown": 151,
 	"./2019-03-20-o-kolorach-niebieski-cz-dot-2.markdown": 152,
-	"./2019-03-29-moje-wybory-luty-marzec-2019.markdown": 153
+	"./2019-03-29-moje-wybory-luty-marzec-2019.markdown": 153,
+	"./2019-04-04-symbolizm-moodboard.markdown": 154
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -14531,15 +14532,76 @@ var raw = exports.raw = "\nOdnoszę wrażenie, że ktoś po kryjomu przesuwa wsk
 
 /***/ }),
 /* 154 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyContext(req) {
-	throw new Error("Cannot find module '" + req + "'.");
-}
-webpackEmptyContext.keys = function() { return []; };
-webpackEmptyContext.resolve = webpackEmptyContext;
-module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 154;
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.raw = exports.body = exports.frontMatter = exports.component = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _ContentLimiter = __webpack_require__(3);
+
+var _ContentLimiter2 = _interopRequireDefault(_ContentLimiter);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+global.__data = __webpack_require__(2).default;
+
+var code = global.__data.map(function (entry, index) {
+  return 'var ' + entry.name + ' = this.__data[' + index + '].component;';
+}).join('');eval.call(null, code);
+delete global.__data;
+
+var component = exports.component = function component(data) {
+  return _react2.default.createElement(
+    _ContentLimiter2.default,
+    _extends({ limit: 5 }, data),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Symboli\u015Bci pragn\u0119li dotrze\u0107 w rejony niedost\u0119pne poznaniu racjonalnemu. Wierzyli w moc intuicji i pod\u015Bwiadomo\u015B\u0107. Ich zdaniem naturalistyczne przedstawienia nie s\u0105 w stanie odda\u0107 istoty rzeczy, kt\xF3ra le\u017Cy po tajemniczej stronie niematerialnego poznania. \u015Awiat poznawany zmys\u0142ami jest u\u0142ud\u0105. Obraz prawdziwego \u015Bwiata najlepiej oddaje symbol.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Symbolizm rozwija\u0142 si\u0119 w drugiej po\u0142. XIX wieku, g\u0142\xF3wnie we Francji i Belgii. W 1886 roku opublikowano manifest symbolizmu autorstwa m\u0142odych francuskich poet\xF3w. Wielkim zwolennikiem symbolizmu w Polsce by\u0142 Zenon Przesmycki (pseudonim Miriam).'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Nie jeste\u015Bmy w stanie sprecyzowa\u0107 konkretnych cech malarstwa symbolicznego. Wed\u0142ug tw\xF3rc\xF3w tego okresu obraz jako samodzielny byt nie musi odnosi\u0107 si\u0119 do niczego innego poza umys\u0142em jego tw\xF3rcy. W wi\u0119kszo\u015Bci przypadk\xF3w dzie\u0142a symboliczne nios\u0105 ze sob\u0105 otwart\u0105 furtk\u0119 do r\xF3\u017Cnorakich interpretacji g\u0142\xF3wnie poprzez niedos\u0142owne przedstawienia. Ich tre\u015B\u0107 bywa cz\u0119sto \u2018zaszyfrowana\u2019 za symbolami postaci i gest\xF3w ujawniaj\u0105cych swoje znaczenie dopiero po wnikliwej analizie.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'Du\u017Cy wp\u0142yw na malarstwo symbolicznie mia\u0142 Gustave Moreau i Arnold B\xF6cklin.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      'W Polsce za czo\u0142owych przedstawicieli symbolizmu uwa\u017Ca si\u0119 Jacka Malczewskiego, J\xF3zefa Mehoffera, Stanis\u0142awa Wyspia\u0144skiego, W\u0142adys\u0142awa Podkowi\u0144skiego.'
+    ),
+    _react2.default.createElement(
+      'p',
+      null,
+      _react2.default.createElement('img', { src: 'https://ello-direct-uploads.s3.amazonaws.com/uploads/dd08db50-d9c1-46fe-954d-1f66d05e619d/ello-09b12066-adcf-4e51-b780-ee35d7f3b1a6.jpeg', alt: 'Obraz przedstawia cztery obrazy olejne znanych artyst\xF3w na jasno-szarym tle.' }),
+      _react2.default.createElement('img', { src: 'https://ello-direct-uploads.s3.amazonaws.com/uploads/df3c6e96-c0a4-4874-b0d6-d27874d8c06c/ello-af7460ba-0e5d-4b62-a26d-375dd0869629.jpeg', alt: 'Obraz przedstawia dwa zdj\u0119cia obraz\xF3w znanych artyst\xF3w i jedno zdj\u0119cie twarzy kobiety w makija\u017Cu. Wszystko na szarym tle.' })
+    )
+  );
+};
+var frontMatter = exports.frontMatter = { "title": "Symbolizm [moodboard]", "date": "2019-04-04T11:26:00.000Z", "categories": ["Sztuka dla Sztuki"], "tags": ["moodboard", "symbolizm", "symbolisme", "bocklin", "moreau", "khnopff", "mehoffer", "malczewski", "wyspiański"] };
+var body = exports.body = "<p>Symboliści pragnęli dotrzeć w rejony niedostępne poznaniu racjonalnemu. Wierzyli w moc intuicji i podświadomość. Ich zdaniem naturalistyczne przedstawienia nie są w stanie oddać istoty rzeczy, która leży po tajemniczej stronie niematerialnego poznania. Świat poznawany zmysłami jest ułudą. Obraz prawdziwego świata najlepiej oddaje symbol.</p>\n<p>Symbolizm rozwijał się w drugiej poł. XIX wieku, głównie we Francji i Belgii. W 1886 roku opublikowano manifest symbolizmu autorstwa młodych francuskich poetów. Wielkim zwolennikiem symbolizmu w Polsce był Zenon Przesmycki (pseudonim Miriam).</p>\n<p>Nie jesteśmy w stanie sprecyzować konkretnych cech malarstwa symbolicznego. Według twórców tego okresu obraz jako samodzielny byt nie musi odnosić się do niczego innego poza umysłem jego twórcy. W większości przypadków dzieła symboliczne niosą ze sobą otwartą furtkę do różnorakich interpretacji głównie poprzez niedosłowne przedstawienia. Ich treść bywa często ‘zaszyfrowana’ za symbolami postaci i gestów ujawniających swoje znaczenie dopiero po wnikliwej analizie.</p>\n<p>Duży wpływ na malarstwo symbolicznie miał Gustave Moreau i Arnold Böcklin.</p>\n<p>W Polsce za czołowych przedstawicieli symbolizmu uważa się Jacka Malczewskiego, Józefa Mehoffera, Stanisława Wyspiańskiego, Władysława Podkowińskiego.</p>\n<p><img src=\"https://ello-direct-uploads.s3.amazonaws.com/uploads/dd08db50-d9c1-46fe-954d-1f66d05e619d/ello-09b12066-adcf-4e51-b780-ee35d7f3b1a6.jpeg\" alt=\"Obraz przedstawia cztery obrazy olejne znanych artystów na jasno-szarym tle.\" />\n<img src=\"https://ello-direct-uploads.s3.amazonaws.com/uploads/df3c6e96-c0a4-4874-b0d6-d27874d8c06c/ello-af7460ba-0e5d-4b62-a26d-375dd0869629.jpeg\" alt=\"Obraz przedstawia dwa zdjęcia obrazów znanych artystów i jedno zdjęcie twarzy kobiety w makijażu. Wszystko na szarym tle.\" /></p>\n";
+var raw = exports.raw = "\nSymboliści pragnęli dotrzeć w rejony niedostępne poznaniu racjonalnemu. Wierzyli w moc intuicji i podświadomość. Ich zdaniem naturalistyczne przedstawienia nie są w stanie oddać istoty rzeczy, która leży po tajemniczej stronie niematerialnego poznania. Świat poznawany zmysłami jest ułudą. Obraz prawdziwego świata najlepiej oddaje symbol. \n\nSymbolizm rozwijał się w drugiej poł. XIX wieku, głównie we Francji i Belgii. W 1886 roku opublikowano manifest symbolizmu autorstwa młodych francuskich poetów. Wielkim zwolennikiem symbolizmu w Polsce był Zenon Przesmycki (pseudonim Miriam).\n\nNie jesteśmy w stanie sprecyzować konkretnych cech malarstwa symbolicznego. Według twórców tego okresu obraz jako samodzielny byt nie musi odnosić się do niczego innego poza umysłem jego twórcy. W większości przypadków dzieła symboliczne niosą ze sobą otwartą furtkę do różnorakich interpretacji głównie poprzez niedosłowne przedstawienia. Ich treść bywa często ‘zaszyfrowana’ za symbolami postaci i gestów ujawniających swoje znaczenie dopiero po wnikliwej analizie. \n\nDuży wpływ na malarstwo symbolicznie miał Gustave Moreau i Arnold Böcklin. \n\nW Polsce za czołowych przedstawicieli symbolizmu uważa się Jacka Malczewskiego, Józefa Mehoffera, Stanisława Wyspiańskiego, Władysława Podkowińskiego. \n\n![Obraz przedstawia cztery obrazy olejne znanych artystów na jasno-szarym tle.](https://ello-direct-uploads.s3.amazonaws.com/uploads/dd08db50-d9c1-46fe-954d-1f66d05e619d/ello-09b12066-adcf-4e51-b780-ee35d7f3b1a6.jpeg)\n![Obraz przedstawia dwa zdjęcia obrazów znanych artystów i jedno zdjęcie twarzy kobiety w makijażu. Wszystko na szarym tle.](https://ello-direct-uploads.s3.amazonaws.com/uploads/df3c6e96-c0a4-4874-b0d6-d27874d8c06c/ello-af7460ba-0e5d-4b62-a26d-375dd0869629.jpeg)";
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
 /* 155 */
@@ -14555,6 +14617,18 @@ webpackEmptyContext.id = 155;
 
 /***/ }),
 /* 156 */
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 156;
+
+/***/ }),
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -14575,19 +14649,19 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 156;
+webpackContext.id = 157;
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-module.exports = __webpack_require__(158);
+module.exports = __webpack_require__(159);
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14605,7 +14679,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(159);
+var _propTypes = __webpack_require__(160);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -14809,13 +14883,13 @@ DisqusThread.defaultProps = {
 exports.default = DisqusThread;
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_159__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_160__;
 
 /***/ }),
-/* 160 */
+/* 161 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14829,7 +14903,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 161 */
+/* 162 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14837,7 +14911,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 162 */
+/* 163 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14850,7 +14924,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 163 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14884,7 +14958,7 @@ if (!self.window.hasOwnProperty('swipeEventsPolyfill')) {
 }
 
 /***/ }),
-/* 164 */
+/* 165 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14897,7 +14971,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 165 */
+/* 166 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14906,7 +14980,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14914,7 +14988,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14922,7 +14996,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 168 */
+/* 169 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14937,7 +15011,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 169 */
+/* 170 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14950,7 +15024,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 170 */
+/* 171 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14965,7 +15039,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 171 */
+/* 172 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -14980,7 +15054,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 172 */
+/* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15004,7 +15078,7 @@ var __extends = undefined && undefined.__extends || function () {
 }();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
-var s = __webpack_require__(173);
+var s = __webpack_require__(174);
 var FB_PLUGINS_SERVICE = 'https://www.facebook.com/plugins/like.php';
 var FacebookLike = /** @class */function (_super) {
     __extends(FacebookLike, _super);
@@ -15035,7 +15109,7 @@ function urlParamsToString(params) {
 }
 
 /***/ }),
-/* 173 */
+/* 174 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -15043,7 +15117,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 174 */
+/* 175 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -15067,7 +15141,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 175 */
+/* 176 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15118,7 +15192,7 @@ exports.Feed = Feed;
 exports.default = Feed;
 
 /***/ }),
-/* 176 */
+/* 177 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -15126,7 +15200,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 177 */
+/* 178 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15136,7 +15210,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(0);
 var Icon_1 = __webpack_require__(8);
 var Image_1 = __webpack_require__(9);
-var s = __webpack_require__(178);
+var s = __webpack_require__(179);
 function Ingredient(_a) {
     var title = _a.title,
         quantity = _a.quantity;
@@ -15169,7 +15243,7 @@ exports.Recipe = Recipe;
 exports.default = Recipe;
 
 /***/ }),
-/* 178 */
+/* 179 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -15179,7 +15253,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 179 */
+/* 180 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15226,22 +15300,22 @@ function FoucRemovalTrick() {
 }
 
 /***/ }),
-/* 180 */
+/* 181 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 181 */
+/* 182 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./Crumbs.js": 182,
-	"./Feed.js": 183,
-	"./Ingredient.js": 184,
-	"./Method.js": 185,
-	"./Recipe.js": 186,
-	"./TableOfContents.js": 187
+	"./Crumbs.js": 183,
+	"./Feed.js": 184,
+	"./Ingredient.js": 185,
+	"./Method.js": 186,
+	"./Recipe.js": 187,
+	"./TableOfContents.js": 188
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -15257,10 +15331,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 181;
+webpackContext.id = 182;
 
 /***/ }),
-/* 182 */
+/* 183 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15275,7 +15349,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 183 */
+/* 184 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15290,7 +15364,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 184 */
+/* 185 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15305,7 +15379,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 185 */
+/* 186 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15320,7 +15394,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 186 */
+/* 187 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15335,7 +15409,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 187 */
+/* 188 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -15350,7 +15424,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
-/* 188 */
+/* 189 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15374,7 +15448,7 @@ exports.default = tags;
 
 
 /***/ }),
-/* 189 */
+/* 190 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
