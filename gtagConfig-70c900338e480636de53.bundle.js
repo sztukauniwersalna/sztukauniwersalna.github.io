@@ -96,38 +96,10 @@ return /******/ (function(modules) { // webpackBootstrap
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/parrot-layout/gtag/index.js":
+/***/ "./node_modules/parrot-layout/gtagConfig.js":
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-/* WEBPACK VAR INJECTION */(function(global) {
-Object.defineProperty(exports, "__esModule", { value: true });
-var dataLayer = window.dataLayer = (window.dataLayer || []);
-function gtag(action) {
-    var params = [];
-    for (var _i = 1; _i < arguments.length; _i++) {
-        params[_i - 1] = arguments[_i];
-    }
-    dataLayer.push(arguments);
-}
-exports.gtag = gtag;
-exports.default = gtag;
-if (true) {
-    gtag('js', new Date());
-    gtag('config', "UA-110945340-1");
-    window.addEventListener('load', sendPageviewOnLocationChange);
-}
-function sendPageviewOnLocationChange() {
-    var page_path = location.pathname;
-    global.setInterval(function () {
-        if (page_path === location.pathname) {
-            return;
-        }
-        page_path = location.pathname;
-        gtag('config', "UA-110945340-1", { page_path: page_path });
-    }, 300);
-}
-
+/* WEBPACK VAR INJECTION */(function(global) {!function(e,t){for(var n in t)e[n]=t[n]}(exports,function(e){var t={};function n(r){if(t[r])return t[r].exports;var o=t[r]={i:r,l:!1,exports:{}};return e[r].call(o.exports,o,o.exports,n),o.l=!0,o.exports}return n.m=e,n.c=t,n.d=function(e,t,r){n.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},n.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},n.t=function(e,t){if(1&t&&(e=n(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(n.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var o in e)n.d(r,o,function(t){return e[t]}.bind(null,o));return r},n.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return n.d(t,"a",t),t},n.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},n.p="",n(n.s=64)}({11:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r=window.dataLayer=window.dataLayer||[];function o(e){for(var t=[],n=1;n<arguments.length;n++)t[n-1]=arguments[n];r.push(arguments)}t.gtag=o,t.default=o},64:function(e,t,n){e.exports=n(65)},65:function(e,t,n){"use strict";var r=n(11); true&&(r.default("js",new Date),r.default("config","UA-110945340-1"),window.addEventListener("load",function(){var e=location.pathname;global.setInterval(function(){e!==location.pathname&&(e=location.pathname,r.default("config","UA-110945340-1",{page_path:e}),console.log("page view: "+e))},300)})),e.exports={}}}));
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__("./node_modules/webpack/buildin/global.js")))
 
 /***/ }),
@@ -162,7 +134,7 @@ module.exports = g;
 /***/ 2:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__("./node_modules/parrot-layout/gtag/index.js");
+module.exports = __webpack_require__("./node_modules/parrot-layout/gtagConfig.js");
 
 
 /***/ })
