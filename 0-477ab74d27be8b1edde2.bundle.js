@@ -349,7 +349,7 @@ var Feed = /** @class */ (function (_super) {
         var loaded = this.state.loaded;
         var content = this.getContent();
         if (content.length > loaded) {
-            this.setState(function (prev) { return ({ loaded: content.length }); });
+            this.setState(function (prev) { return (__assign({}, prev, { loaded: content.length })); });
         }
     };
     Feed.prototype.needsMoreContent = function () {
@@ -370,7 +370,7 @@ var Feed = /** @class */ (function (_super) {
             this.onScroll();
             return;
         }
-        this.setState(function (prev) { return ({ loaded: content.length }); }, function () {
+        this.setState(function (prev) { return (__assign({}, prev, { loaded: content.length })); }, function () {
             var batch = pages.slice(0, loading);
             batch.map(function (page) { return paramorph.loadContent(page.url); });
         });
@@ -380,9 +380,10 @@ var Feed = /** @class */ (function (_super) {
         var _b = this.props, pages = _b.pages, _c = _b.batchSize, batchSize = _c === void 0 ? DEFAULT_BATCH_SIZE : _c;
         var loading = this.state.loading;
         var nextLoading = Math.min(loading + batchSize, pages.length);
-        var batch = pages.slice(loading, nextLoading);
-        batch.map(function (page) { return paramorph.loadContent(page.url); });
-        this.setState(function (prev) { return (__assign({}, prev, { loading: nextLoading })); });
+        this.setState(function (prev) { return (__assign({}, prev, { loading: nextLoading })); }, function () {
+            var batch = pages.slice(loading, nextLoading);
+            batch.map(function (page) { return paramorph.loadContent(page.url); });
+        });
     };
     Feed.prototype.getOffsetTop = function (elem) {
         var offsetParent = elem.offsetParent;
