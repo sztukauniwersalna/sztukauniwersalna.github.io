@@ -82,7 +82,7 @@ var MarkdownPage = /** @class */ (function (_super) {
             React.createElement("ul", null,
                 React.createElement("li", null, "Centrum Sztuki Wsp\u00F3\u0142czesnej Zamek Ujazdowski; ul. Jazd\u00F3w 2"),
                 React.createElement("li", null, "Bilety w cenie normalny \u2013 16z\u0142, ulgowy \u2013 8z\u0142 do nabycia w kasie CSW.")),
-            React.createElement("p", null, "**W poniedzia\u0142ki CSW jest nieczynne. **"),
+            React.createElement("p", null, "W poniedzia\u0142ki CSW jest nieczynne."),
             React.createElement("p", null,
                 React.createElement("strong", null, "W czwartki wst\u0119p na wystawy jest darmowy.")),
             React.createElement("p", null,
