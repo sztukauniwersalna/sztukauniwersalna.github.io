@@ -72,7 +72,16 @@ var MarkdownPage = /** @class */ (function (_super) {
             React.createElement("blockquote", null,
                 React.createElement("p", null, "Lubi\u0119 wykresy, diagramy, wizualizacje danych \u2013 maj\u0105 co\u015B ze sztuki abstrakcyjnej, ale kryje si\u0119 za nimi bardzo konkretne znaczenie.")),
             React.createElement("p", null,
-                React.createElement("img", { src: "https://assets2.ello.co/uploads/asset/attachment/9414319/ello-optimized-66c9b9c7.jpg", alt: "Obraz przedstawia dwa zdj\u0119cia obiekt\u00F3w w bia\u0142ych pomieszczeniach galerii sztuki." }))));
+                React.createElement("img", { src: "https://assets2.ello.co/uploads/asset/attachment/9414319/ello-optimized-66c9b9c7.jpg", alt: "Obraz przedstawia dwa zdj\u0119cia obiekt\u00F3w w bia\u0142ych pomieszczeniach galerii sztuki." }),
+                React.createElement("img", { src: "https://assets1.ello.co/uploads/asset/attachment/9414309/ello-optimized-4fdc742e.jpg", alt: "Obraz przedstawia zdj\u0119cie ciemno-niebieskiej \u015Bciany, na kt\u00F3rej zawieszone jest du\u017Co obrazk\u00F3w w r\u00F3\u017Cnych formatach." })),
+            React.createElement("hr", null),
+            React.createElement("p", null,
+                "Wystawy ",
+                React.createElement("strong", null, "Janek Simon \u2018Syntetyczny Folklor\u2019"),
+                " mo\u017Cesz do\u015Bwiadcza\u0107 do 19.05.2019 w Centrum Sztuki Wsp\u00F3\u0142czesnej Zamek Ujazdowski; ul. Jazd\u00F3w 2 we wtorek i \u015Brod\u0119 w godzinach 11:00-18:00, w czwartek i pi\u0105tek w godz. 12:00-20:00, w sobot\u0119 od 10:00-19:00, oraz w niedziel\u0119 od 11:00-18:00. **W poniedzia\u0142ki CSW jest nieczynne. ** Bilety w cenie normalny \u2013 16z\u0142, ulgowy \u2013 8z\u0142 do nabycia w kasie CSW.",
+                React.createElement("strong", null, "W czwartki wst\u0119p na wystawy jest darmowy."),
+                "Wi\u0119cej informacji znajdziesz ",
+                React.createElement("a", { href: "https://u-jazdowski.pl/program/wystawy/janek-simon" }, "TU"))));
     };
     return MarkdownPage;
 }(paramorph_1.PureComponent));
