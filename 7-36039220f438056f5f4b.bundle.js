@@ -1,6 +1,6 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[8,104],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[7,105],{
 
-/***/ "./_categories/sztuka-gotowania.markdown":
+/***/ "./_categories/sztuka-dla-sztuki.markdown":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45,7 +45,7 @@ var MarkdownPage = /** @class */ (function (_super) {
         var _a = this.context, paramorph = _a.paramorph, page = _a.page, history = _a.history;
         return (React.createElement(paramorph_1.Content, __assign({ limit: 5 }, this.props),
             React.createElement("div", null,
-                React.createElement(Feed_js_1.default, { pages: paramorph.categories['Sztuka Gotowania'].pages
+                React.createElement(Feed_js_1.default, { pages: paramorph.categories['Sztuka dla Sztuki'].pages
                         .filter(function (p) { return p.output && p.feed; })
                         .sort(function (a, b) { return b.compareTo(a); }) }))));
     };
