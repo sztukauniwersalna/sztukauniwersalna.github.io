@@ -263,7 +263,8 @@ var s = __webpack_require__("./node_modules/parrot-layout/Feed/style.js");
 ;
 var DEFAULT_PRELOAD_SIZE = 20;
 var DEFAULT_BATCH_SIZE = 5;
-var PAGE_PATH_PARAM = 'pageNumber(~\\d+~)';
+var PAGE_PATH_PARAM = 'pageNumber';
+var PAGE_PARAM_FORMAT = '(~\\d+~)';
 var Feed = /** @class */ (function (_super) {
     __extends(Feed, _super);
     function Feed(props) {
@@ -281,7 +282,7 @@ var Feed = /** @class */ (function (_super) {
         var _a;
         var _b = this.context, post = _b.post, requestParameterizedRender = _b.requestParameterizedRender;
         if (!this.hasPathParam()) {
-            console.error("'" + PAGE_PATH_PARAM + "' path param not found in permalink: '" + post.permalink + "'");
+            console.error("'" + PAGE_PATH_PARAM + PAGE_PARAM_FORMAT + "' path param not found in permalink: '" + post.permalink + "'");
             return;
         }
         // pages in url are numbered starting from 1
@@ -301,14 +302,14 @@ var Feed = /** @class */ (function (_super) {
         }
         var content = this.getContent();
         return (React.createElement("div", { className: loaded !== loading ? s.loading : '' },
-            this.renderPreviousLink(),
+            this.renderNextLink(),
             content.map(function (_a) {
                 var post = _a.post, Content = _a.Content;
                 return (React.createElement(Tile_1.default, { key: post.url, post: post, Content: Content }));
             }),
             React.createElement("div", { className: s.loadTrigger, ref: function (e) { return _this.loadTrigger = e; } },
                 React.createElement(Spinner_1.default, null)),
-            this.renderNextLink()));
+            this.renderPreviousLink()));
     };
     Feed.prototype.componentDidMount = function () {
         var _a = this.context, paramorph = _a.paramorph, post = _a.post;
@@ -329,22 +330,22 @@ var Feed = /** @class */ (function (_super) {
         window.removeEventListener('scroll', this.onScroll);
     };
     Feed.prototype.renderPreviousLink = function () {
-        if (this.isOnFirstPage() || !this.hasPathParam()) {
-            return null;
-        }
-        return (React.createElement("p", { className: s.staticLink },
-            React.createElement(Button_1.default, { variant: 'flat', color: 'gray', url: this.getPreviousUrl() },
-                React.createElement(Icon_1.default, { name: 'arrow_back' }),
-                " Previous Posts")));
-    };
-    Feed.prototype.renderNextLink = function () {
         if (this.isOnLastPage() || !this.hasPathParam()) {
             return null;
         }
-        return (React.createElement("p", { className: s.staticLink },
-            React.createElement(Button_1.default, { variant: 'flat', color: 'gray', url: this.getNextUrl() },
-                "Next Posts ",
+        return (React.createElement("p", { className: s.staticLink + " " + s.previous },
+            React.createElement(Button_1.default, { variant: 'flat', color: 'gray', url: this.getPreviousUrl() },
+                "Previous Posts ",
                 React.createElement(Icon_1.default, { name: 'arrow_forward' }))));
+    };
+    Feed.prototype.renderNextLink = function () {
+        if (this.isOnFirstPage() || !this.hasPathParam()) {
+            return null;
+        }
+        return (React.createElement("p", { className: s.staticLink + " " + s.next },
+            React.createElement(Button_1.default, { variant: 'flat', color: 'gray', url: this.getNextUrl() },
+                React.createElement(Icon_1.default, { name: 'arrow_back' }),
+                " Next Posts")));
     };
     Feed.prototype.getContent = function () {
         var e_1, _a;
@@ -446,6 +447,7 @@ var Feed = /** @class */ (function (_super) {
     };
     Feed.prototype.getPageNumber = function () {
         var pathParams = this.context.pathParams;
+        // pages in url are numbered starting from 1
         var pageNumber = pathParams.get('pageNumber') || '~1~';
         return Number.parseInt(pageNumber.replace(/[^\d]+/g, '')) - 1;
     };
@@ -464,7 +466,7 @@ var Feed = /** @class */ (function (_super) {
         var offset = pageSize * pageNumber;
         return offset;
     };
-    Feed.prototype.getPreviousUrl = function () {
+    Feed.prototype.getNextUrl = function () {
         var _a = this.context, pathParams = _a.pathParams, post = _a.post;
         // pages in url are numbered starting from 1
         var pageNumber = this.getPageNumber() + 1;
@@ -472,18 +474,22 @@ var Feed = /** @class */ (function (_super) {
             return post.url;
         }
         else {
-            return post.permalink.replace(":" + PAGE_PATH_PARAM + "?", "~" + (pageNumber - 1) + "~");
+            return this.createUrl(pageNumber - 1);
         }
     };
-    Feed.prototype.getNextUrl = function () {
-        var _a = this.context, pathParams = _a.pathParams, post = _a.post;
+    Feed.prototype.getPreviousUrl = function () {
+        var pathParams = this.context.pathParams;
         // pages in url are numbered starting from 1
         var pageNumber = this.getPageNumber() + 1;
-        return post.permalink.replace(":" + PAGE_PATH_PARAM + "?", "~" + (pageNumber + 1) + "~");
+        return this.createUrl(pageNumber + 1);
+    };
+    Feed.prototype.createUrl = function (pageNumber) {
+        var post = this.context.post;
+        return post.permalink.replace(":" + PAGE_PATH_PARAM + PAGE_PARAM_FORMAT + "?", "~" + pageNumber + "~");
     };
     Feed.prototype.hasPathParam = function () {
         var post = this.context.post;
-        return post.permalink.indexOf(":" + PAGE_PATH_PARAM + "?/") !== -1;
+        return post.permalink.indexOf(":" + PAGE_PATH_PARAM + PAGE_PARAM_FORMAT + "?/") !== -1;
     };
     return Feed;
 }(paramorph_1.PureComponent));
@@ -499,7 +505,9 @@ exports.default = Feed;
 module.exports = {
   "loadTrigger": "loadTrigger-1-d0a",
   "loading": "loading-1Mzry",
-  "staticLink": "staticLink-13zrI"
+  "staticLink": "staticLink-13zrI",
+  "next": "next-MSnRd",
+  "previous": "previous-2_3wg"
 };
 
 /***/ }),
