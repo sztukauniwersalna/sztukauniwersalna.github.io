@@ -1,6 +1,24 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[10,105],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[14,110],{
 
-/***/ "./_categories/sztuka-ubioru.markdown":
+/***/ "./_includes/TableOfContents.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var parrot_layout__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("./node_modules/parrot-layout/index.js");
+/* harmony import */ var parrot_layout__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(parrot_layout__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TableOfContents", function() { return parrot_layout__WEBPACK_IMPORTED_MODULE_0__["TableOfContents"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return parrot_layout__WEBPACK_IMPORTED_MODULE_0__["TableOfContents"]; });
+
+
+
+
+
+
+/***/ }),
+
+/***/ "./_pages/sitemap.markdown":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32,7 +50,7 @@ var __assign = (this && this.__assign) || function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__("react");
 var paramorph_1 = __webpack_require__("./node_modules/paramorph/index.js");
-var Feed_js_1 = __webpack_require__("./_includes/Feed.js");
+var TableOfContents_js_1 = __webpack_require__("./_includes/TableOfContents.js");
 /**
  * @author Maciej Chałapuk (maciej@chalapuk.pl)
  */
@@ -44,33 +62,13 @@ var MarkdownPost = /** @class */ (function (_super) {
     MarkdownPost.prototype.render = function () {
         var _a = this.context, paramorph = _a.paramorph, post = _a.post, history = _a.history;
         return (React.createElement(paramorph_1.Content, __assign({ limit: 5 }, this.props),
-            React.createElement("div", null,
-                React.createElement(Feed_js_1.default, { posts: paramorph.categories['Sztuka Ubioru'].posts
-                        .filter(function (p) { return p.output && p.feed; })
-                        .sort(function (a, b) { return b.compareTo(a); }) }))));
+            React.createElement("div", { className: 'compact' },
+                React.createElement(TableOfContents_js_1.default, null))));
     };
     return MarkdownPost;
 }(paramorph_1.PureComponent));
 exports.MarkdownPost = MarkdownPost;
 exports.default = MarkdownPost;
-
-
-/***/ }),
-
-/***/ "./_includes/Feed.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var parrot_layout__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("./node_modules/parrot-layout/index.js");
-/* harmony import */ var parrot_layout__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(parrot_layout__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Feed", function() { return parrot_layout__WEBPACK_IMPORTED_MODULE_0__["Feed"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return parrot_layout__WEBPACK_IMPORTED_MODULE_0__["Feed"]; });
-
-
-
-
 
 
 /***/ })

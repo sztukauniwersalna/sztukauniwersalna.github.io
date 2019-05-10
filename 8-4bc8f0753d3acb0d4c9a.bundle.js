@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[8,105],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[8,106],{
 
 /***/ "./_categories/sztuka-gotowania.markdown":
 /***/ (function(module, exports, __webpack_require__) {
