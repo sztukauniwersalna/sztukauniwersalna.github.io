@@ -60,7 +60,9 @@ var MarkdownPost = /** @class */ (function (_super) {
             React.createElement("p", null,
                 React.createElement("img", { src: "https://assets0.ello.co/uploads/asset/attachment/9511401/ello-optimized-f4fe3738.jpg", alt: "Zdj\u0119cie przedstawia oko w niebieskim makija\u017Cu. Zdj\u0119cie jest wpisane w kszta\u0142t ko\u0142a." }),
                 React.createElement("img", { src: "https://assets2.ello.co/uploads/asset/attachment/9511403/ello-optimized-6fd79fa2.jpg", alt: "Zdj\u0119cie przedstawia rozmyte okr\u0105g\u0142e zdj\u0119cie oka w niebieskim makija\u017Cu." }),
-                React.createElement("img", { src: "https://assets0.ello.co/uploads/asset/attachment/9511405/ello-optimized-808a9b53.jpg", alt: "Zdj\u0119cie przedstawia bardzo rozmyty obraz w okr\u0105g\u0142ym kszta\u0142cie, z niebieskimi elementami." }))));
+                React.createElement("img", { src: "https://assets0.ello.co/uploads/asset/attachment/9511405/ello-optimized-808a9b53.jpg", alt: "Zdj\u0119cie przedstawia bardzo rozmyty obraz w okr\u0105g\u0142ym kszta\u0142cie, z niebieskimi elementami." })),
+            React.createElement("hr", null),
+            React.createElement("p", null, "Koncepcja i wykonanie: Sztuka Studio Aleksandra Krawczyk 2019 \u00AE")));
     };
     return MarkdownPost;
 }(paramorph_1.PureComponent));
