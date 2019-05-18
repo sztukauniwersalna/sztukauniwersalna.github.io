@@ -70,7 +70,7 @@ var MarkdownPost = /** @class */ (function (_super) {
             React.createElement("p", null,
                 "Na kanale ",
                 React.createElement("a", { href: "http://youtube.com/SztukaUniwersalna" }, "YouTube"),
-                ", a dok\u0142adniej ",
+                ", o ",
                 React.createElement("a", { href: "https://youtu.be/VBoaoNNp4Fw" }, "TUTAJ"),
                 " znajdziesz film, gdzie wykonuj\u0119 makija\u017C ze zdj\u0119\u0107. Zapraszam do ogl\u0105dania!"),
             React.createElement("hr", null),
