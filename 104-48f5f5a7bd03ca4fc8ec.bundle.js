@@ -57,7 +57,7 @@ var MarkdownPost = /** @class */ (function (_super) {
             React.createElement("h2", null, "Dojrza\u0142a kobieta sukcesu"),
             React.createElement("p", null, "Tamara wystawia\u0142a i sprzedawa\u0142a swoje obrazy we Francji i za jej granic\u0105. Wci\u0105\u017C wzrastaj\u0105ca popularno\u015B\u0107 m\u0142odej malarki przek\u0142ada\u0142a si\u0119 na spore sukcesy finansowe. Wypracowany przez ni\u0105 styl malarski przypad\u0142 do gustu paryskim elitom. \u017Bony bogatych przedsi\u0119biorc\u00F3w chcia\u0142y w swoich salonach zawiesza\u0107 wielkoformatowe akty od \u0141empickiej. Malarka, aby wyrobi\u0107 si\u0119 z zam\u00F3wieniami na czas nieraz pracowa\u0142a po kilkana\u015Bcie godzin dziennie. Mimo, i\u017C mia\u0142a rzesze ub\u00F3stwiaj\u0105cych j\u0105 odbiorc\u00F3w Tamara spotka\u0142a si\u0119 z nieprzychylnymi opiniami ze strony krytyk\u00F3w artystycznych. P\u0142\u00F3tna krytykowano za \u2018obsceniczne sceny\u2019, a styl malowania por\u00F3wnywano do kiczu. Malarka przesz\u0142a jednak do historii jako najwybitniejsza artystka epoki Art Deco. Jej prace s\u0105 uciele\u015Bnieniem klimatu lat 20-tych."),
             React.createElement("blockquote", null,
-                React.createElement("p", null, "\"Modelki Tamary de \u0141empickiej to kobiety nowoczesne. Nie znaj\u0105 hipokryzji i wstydu w kategoriach moralno\u015Bci bur\u017Cuazyjnej. S\u0105 opalone i ogorza\u0142e od wiatru, a ich cia\u0142a spr\u0119\u017Cyste jak cia\u0142a Amazonek.\" ~ dziennikarz \u2018La Pologne\u2019")),
+                React.createElement("p", null, "Modelki Tamary de \u0141empickiej to kobiety nowoczesne. Nie znaj\u0105 hipokryzji i wstydu w kategoriach moralno\u015Bci bur\u017Cuazyjnej. S\u0105 opalone i ogorza\u0142e od wiatru, a ich cia\u0142a spr\u0119\u017Cyste jak cia\u0142a Amazonek.")),
             React.createElement("p", null,
                 React.createElement("img", { src: "https://assets2.ello.co/uploads/asset/attachment/9562086/ello-optimized-5f4ddcbb.jpg", alt: "Obraz przedstawia portret kobiety w zielonym turbanie na zielonym tle. Dooko\u0142a zdj\u0119cia pojawiaj\u0105 si\u0119 graficzne zielne kszta\u0142ty." })),
             React.createElement("h2", null, "Wyemancypowana kobieta swoich czas\u00F3w"),
@@ -67,8 +67,8 @@ var MarkdownPost = /** @class */ (function (_super) {
             React.createElement("p", null,
                 React.createElement("img", { src: "https://assets0.ello.co/uploads/asset/attachment/9562087/ello-optimized-22708e21.jpg", alt: "Obraz przestawia twarz kobiety z czerwonymi ustami. Kobieta ma na g\u0142owie zielon\u0105 chustk\u0119, a usta uk\u0142ada w gryma\u015Bnej minie." })),
             React.createElement("hr", null),
+            React.createElement("p", null, "Korzysta\u0142am z:"),
             React.createElement("p", null,
-                "Korzysta\u0142am z:",
                 React.createElement("a", { href: "https://culture.pl/pl/tworca/tamara-lempicka-tamara-de-lempicka" }, "https://culture.pl/pl/tworca/tamara-lempicka-tamara-de-lempicka"),
                 React.createElement("a", { href: "https://pl.wikipedia.org/wiki/Tamara_%C5%81empicka" }, "https://pl.wikipedia.org/wiki/Tamara_\u0141empicka"))));
     };
