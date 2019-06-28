@@ -68,7 +68,13 @@ var MarkdownPost = /** @class */ (function (_super) {
             React.createElement("p", null,
                 "Obraz 'The Starry Night' z 1889 roku znajduje si\u0119 w kolekcji ",
                 React.createElement("a", { href: "https://artsandculture.google.com/asset/the-starry-night/bgEuwDxel93-Pg?hl=pl" }, "MoMA"),
-                ".")));
+                "."),
+            React.createElement("hr", null),
+            React.createElement("p", null,
+                "Na ",
+                React.createElement("a", { href: "https://www.youtube.com/SztukaUniwersalna" }, "YouTube"),
+                " znajdziesz film z tutorialem tego makija\u017Cu - zajrzyj ",
+                React.createElement("a", { href: "https://youtu.be/v6KrqKtN0PQ" }, "TUTAJ"))));
     };
     return MarkdownPost;
 }(paramorph_1.PureComponent));
