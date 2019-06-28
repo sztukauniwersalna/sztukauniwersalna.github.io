@@ -1,6 +1,6 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[7,106],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[9,107],{
 
-/***/ "./_categories/sztuka-gotowania.markdown":
+/***/ "./_categories/sztuka-ubioru.markdown":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45,7 +45,7 @@ var MarkdownPost = /** @class */ (function (_super) {
         var _a = this.context, paramorph = _a.paramorph, post = _a.post, history = _a.history;
         return (React.createElement(paramorph_1.Content, __assign({ limit: 5 }, this.props),
             React.createElement("div", null,
-                React.createElement(Feed_js_1.default, { posts: paramorph.categories['Sztuka Gotowania'].posts
+                React.createElement(Feed_js_1.default, { posts: paramorph.categories['Sztuka Ubioru'].posts
                         .filter(function (p) { return p.output && p.feed; })
                         .sort(function (a, b) { return b.compareTo(a); }) }))));
     };

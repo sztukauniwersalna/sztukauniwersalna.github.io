@@ -1,6 +1,6 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[8,106],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[7,107],{
 
-/***/ "./_categories/sztuka-makijazu.markdown":
+/***/ "./_categories/sztuka-gotowania.markdown":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45,7 +45,7 @@ var MarkdownPost = /** @class */ (function (_super) {
         var _a = this.context, paramorph = _a.paramorph, post = _a.post, history = _a.history;
         return (React.createElement(paramorph_1.Content, __assign({ limit: 5 }, this.props),
             React.createElement("div", null,
-                React.createElement(Feed_js_1.default, { posts: paramorph.categories['Sztuka Makijażu'].posts
+                React.createElement(Feed_js_1.default, { posts: paramorph.categories['Sztuka Gotowania'].posts
                         .filter(function (p) { return p.output && p.feed; })
                         .sort(function (a, b) { return b.compareTo(a); }) }))));
     };
