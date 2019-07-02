@@ -1101,19 +1101,19 @@ paramorph.addPost(
 );
 paramorph.addPost(
   new Post(
-    "/2018-02-26-moje-wybory-luty/",
-    "Moje wybory: luty",
-    "W nocy w Warszawie termometr ma pokazać -15°C. Nieosiągalnym wydaje się spacer po parku bez uprzedniego założenia na siebie podkoszulki, koszulki, koszulki z długim rękawem, swetra, kurtki puchowej. Dodatkowo koniecznym jest opatulenie szyi (wraz z nosem) wełnianym szalem. Nosiciele okularów korekcyjnych w takie dni jak ten widzą świat bardziej zamazanym niż zdaję się on być bez szkieł (szkła parują pod wpływem wydychanego, gorącego powietrza). Cały obrządek opatulania trwa dłużej niż standardowy spacer do sklepu.",
-    "https://assets0.ello.co/uploads/asset/attachment/7228043/ello-optimized-6d4c08d7.jpg",
+    "/2018-04-05-dadaizm-moodboard/",
+    "DADAizm [moodboard]",
+    "BY NAPISAĆ WIERSZ DADAISTYCZNY Weź gazetę. Weź jakieś nożyczki. Wybierz z gazety artykuł odpowiadający długości Twojego wiersza. Wytnij artykuł. Następnie uważnie wytnij każde słowo artykułu i wsyp wszystkie słowa do worka.",
+    "https://assets1.ello.co/uploads/asset/attachment/7444781/ello-optimized-e4ecfaf8.jpg",
     "Posts",
     "ParrotLayout",
-    "./_posts/2018-02-26-moje-wybory-luty.markdown",
+    "./_posts/2018-04-05-dadaizm-moodboard.markdown",
     true,
     true,
     5,
-    ["Sztuka Ubioru","Sztuka Makijażu"],
-    ["wybory","inspiracje","zima","luty","perfumy","książka","kosmetyk","biżuteria"],
-    1519644000000,
+    ["Sztuka dla Sztuki"],
+    ["dada","dadaizm","moodboard","sztuka","artysta","kreacja","tristan tzara"],
+    1522937340000,
   )
 );
 paramorph.addPost(
@@ -1152,19 +1152,19 @@ paramorph.addPost(
 );
 paramorph.addPost(
   new Post(
-    "/2018-04-05-dadaizm-moodboard/",
-    "DADAizm [moodboard]",
-    "BY NAPISAĆ WIERSZ DADAISTYCZNY Weź gazetę. Weź jakieś nożyczki. Wybierz z gazety artykuł odpowiadający długości Twojego wiersza. Wytnij artykuł. Następnie uważnie wytnij każde słowo artykułu i wsyp wszystkie słowa do worka.",
-    "https://assets1.ello.co/uploads/asset/attachment/7444781/ello-optimized-e4ecfaf8.jpg",
+    "/2018-04-15-make-up-inspirowany-obrazem-onement-vi-by-barnett-newman/",
+    "Make-up inspirowany obrazem. 'Onement VI' by Barnett_Newman",
+    "Jest taki moment w życiu artysty, że nagle wszystko staje się jasne. Kreatywny umysł dręczony pytaniami o twórczość i jej sens nagle jaśnieje i, jak w znanej każdemu bajcie ‘Pomysłowy Dobromir’, nad głową utrudzonego malarza pojawia się światło. Nie jest to byle jakie światło. Oznacza ono bowiem przełom o mocy większej niż 100W. To ten moment, kiedy wewnętrzna iskra mówi Ci ‘to jest TO’.",
+    "https://assets0.ello.co/uploads/asset/attachment/7490318/ello-optimized-015d1914.jpg",
     "Posts",
     "ParrotLayout",
-    "./_posts/2018-04-05-dadaizm-moodboard.markdown",
+    "./_posts/2018-04-15-make-up-inspirowany-obrazem-onement-vi-by-barnett-newman.markdown",
     true,
     true,
     5,
-    ["Sztuka dla Sztuki"],
-    ["dada","dadaizm","moodboard","sztuka","artysta","kreacja","tristan tzara"],
-    1522937340000,
+    ["Sztuka Makijażu"],
+    ["barnett newman","makeup","painting","abstract expressionism","abstrakcja","dzieło","artysta","kreacja","zip"],
+    1523786700000,
   )
 );
 paramorph.addPost(
@@ -1182,23 +1182,6 @@ paramorph.addPost(
     ["Sztuka dla Sztuki"],
     ["wystawa","exhibition","fundacja","stefan gierowski","sztuka","sztuka młodych","malarstwo"],
     1524587700000,
-  )
-);
-paramorph.addPost(
-  new Post(
-    "/2018-04-15-make-up-inspirowany-obrazem-onement-vi-by-barnett-newman/",
-    "Make-up inspirowany obrazem. 'Onement VI' by Barnett_Newman",
-    "Jest taki moment w życiu artysty, że nagle wszystko staje się jasne. Kreatywny umysł dręczony pytaniami o twórczość i jej sens nagle jaśnieje i, jak w znanej każdemu bajcie ‘Pomysłowy Dobromir’, nad głową utrudzonego malarza pojawia się światło. Nie jest to byle jakie światło. Oznacza ono bowiem przełom o mocy większej niż 100W. To ten moment, kiedy wewnętrzna iskra mówi Ci ‘to jest TO’.",
-    "https://assets0.ello.co/uploads/asset/attachment/7490318/ello-optimized-015d1914.jpg",
-    "Posts",
-    "ParrotLayout",
-    "./_posts/2018-04-15-make-up-inspirowany-obrazem-onement-vi-by-barnett-newman.markdown",
-    true,
-    true,
-    5,
-    ["Sztuka Makijażu"],
-    ["barnett newman","makeup","painting","abstract expressionism","abstrakcja","dzieło","artysta","kreacja","zip"],
-    1523786700000,
   )
 );
 paramorph.addPost(
@@ -1305,23 +1288,6 @@ paramorph.addPost(
 );
 paramorph.addPost(
   new Post(
-    "/2018-06-07-hiperrealizm-moodboard/",
-    "Hiperrealizm [moodboard]",
-    "Hiperrealizm (superrealizm lub fotorealizm) to prężnie rozwijający się kierunek w sztuce, począwszy od XX wieku. Artysta świadomie odrzuca wszelką indywidualną ekspresję dzieła. Punktem wyjścia staje się fotografia przedstawiająca najczęściej motywy świata codziennego - przedmioty, pejzaże, portrety. Perfekcyjna szczegółowość obrazu lub rzeźby nieraz wywołuje u nas uczucie podobne do doliny niesamowitości. Coś wygląda nad wyraz prawdziwie, choć jesteśmy świadomi, że prawdziwe nie jest.",
-    "https://assets1.ello.co/uploads/asset/attachment/7793133/ello-optimized-ba8c3f3d.jpg",
-    "Posts",
-    "ParrotLayout",
-    "./_posts/2018-06-07-hiperrealizm-moodboard.markdown",
-    true,
-    true,
-    5,
-    ["Sztuka dla Sztuki"],
-    ["hiperrealizm","fotorealizm","superrealizm","moodboard"],
-    1528382400000,
-  )
-);
-paramorph.addPost(
-  new Post(
     "/2018-06-05-jestem-wdzieczna-ci-zycie/",
     "Jestem wdzięczna Ci Życie",
     "Całkiem niespodziewanie poczułam dziś przypływ wdzięczności. Ogarnęła mnie ona od środka, oblała moją duszę miękką kołdrą nibymiodu. Zupełnie nie rozumiem dlaczego tak się stało. Ostatnio dużo rozmyślam o swoim życiu. Myślę o nim jak o książce, w której większość dotychczas napisanych rozdziałów zajmuje czas edukacji.",
@@ -1335,6 +1301,23 @@ paramorph.addPost(
     ["Sztuka Makijażu","Sztuka dla Sztuki"],
     ["wdzięczność","post","tekst","artysta","sztuka","akademia","marzenia","cele"],
     1528212180000,
+  )
+);
+paramorph.addPost(
+  new Post(
+    "/2018-06-07-hiperrealizm-moodboard/",
+    "Hiperrealizm [moodboard]",
+    "Hiperrealizm (superrealizm lub fotorealizm) to prężnie rozwijający się kierunek w sztuce, począwszy od XX wieku. Artysta świadomie odrzuca wszelką indywidualną ekspresję dzieła. Punktem wyjścia staje się fotografia przedstawiająca najczęściej motywy świata codziennego - przedmioty, pejzaże, portrety. Perfekcyjna szczegółowość obrazu lub rzeźby nieraz wywołuje u nas uczucie podobne do doliny niesamowitości. Coś wygląda nad wyraz prawdziwie, choć jesteśmy świadomi, że prawdziwe nie jest.",
+    "https://assets1.ello.co/uploads/asset/attachment/7793133/ello-optimized-ba8c3f3d.jpg",
+    "Posts",
+    "ParrotLayout",
+    "./_posts/2018-06-07-hiperrealizm-moodboard.markdown",
+    true,
+    true,
+    5,
+    ["Sztuka dla Sztuki"],
+    ["hiperrealizm","fotorealizm","superrealizm","moodboard"],
+    1528382400000,
   )
 );
 paramorph.addPost(
@@ -1509,23 +1492,6 @@ paramorph.addPost(
 );
 paramorph.addPost(
   new Post(
-    "/2018-09-21-o-kolorach-czern/",
-    "O kolorach: Czerń",
-    "Od zawsze i na zawsze. Czerń to barwa pełna kontrastów. W kulturze europejskiej przypisywana jest śmierci. Pogrążeni w żałobie zakładają na siebie czarne ubrania. Z kolei wśród Indian i w Starożytnym Egipcie kojarzono ją z życiem.",
-    "https://assets2.ello.co/uploads/asset/attachment/8257250/ello-optimized-2523e86b.jpg",
-    "Posts",
-    "ParrotLayout",
-    "./_posts/2018-09-21-o-kolorach-czern.markdown",
-    true,
-    true,
-    5,
-    ["Sztuka Makijażu","Sztuka dla Sztuki"],
-    ["o kolorach","czerń","czarny","kolor","symbolika","znak","black"],
-    1537549140000,
-  )
-);
-paramorph.addPost(
-  new Post(
     "/2018-09-09-pre-fall-fall-slash-winter-spring-slash-summer-resort/",
     "Pre-Fall, Fall/Winter, Spring/Summer, Resort, Cruise – co_to_wszystko_znaczy? + FW Trends 2018/2019",
     "Świat mody prześciga się w nowych kolekcjach, zaskakujących rozwiązaniach, a przede wszystkim prześciga się w sprzedaży. Od niedawna można już kupić kreacje dopiero co zobaczone na wybiegu. ‘See Now Buy Now’ to strategia sprzedażowa wymyślona przez Christophera Baileya dla Burberry. Polega ona na tym, że pokaz transmitowany jest na żywo w internecie i widzowie mogą od razu kupić daną kreację. Projektanci wypuszczają rocznie ok.",
@@ -1543,19 +1509,19 @@ paramorph.addPost(
 );
 paramorph.addPost(
   new Post(
-    "/2018-09-27-moje-wybory-wrzesien-2018/",
-    "Moje wybory: wrzesień 2018",
-    "Ten miesiąc był niezwykle kapryśny. Jednego dnia naszła go ochota na potworne ciepło i zsyłał na nas falę tropikalnych upałów. Następnego dnia z kolei narzucał na siebie jesienny płaszcz pochmurnej aury. Wiele stworzeń ucierpiało przez te zmienne nastroje. Nieliczni nauczeni profilaktyki łyknęli garść witaminy C i mają się dobrze.",
-    "https://assets2.ello.co/uploads/asset/attachment/8270060/ello-optimized-6f588d61.jpg",
+    "/2018-09-21-o-kolorach-czern/",
+    "O kolorach: Czerń",
+    "Od zawsze i na zawsze. Czerń to barwa pełna kontrastów. W kulturze europejskiej przypisywana jest śmierci. Pogrążeni w żałobie zakładają na siebie czarne ubrania. Z kolei wśród Indian i w Starożytnym Egipcie kojarzono ją z życiem.",
+    "https://assets2.ello.co/uploads/asset/attachment/8257250/ello-optimized-2523e86b.jpg",
     "Posts",
     "ParrotLayout",
-    "./_posts/2018-09-27-moje-wybory-wrzesien-2018.markdown",
+    "./_posts/2018-09-21-o-kolorach-czern.markdown",
     true,
     true,
     5,
-    ["Sztuka Ubioru","Sztuka Makijażu"],
-    ["moje wybory","my choices","wrzesień","jesień","kapelusz","książka","kosmetyk"],
-    1538048460000,
+    ["Sztuka Makijażu","Sztuka dla Sztuki"],
+    ["o kolorach","czerń","czarny","kolor","symbolika","znak","black"],
+    1537549140000,
   )
 );
 paramorph.addPost(
@@ -1577,23 +1543,6 @@ paramorph.addPost(
 );
 paramorph.addPost(
   new Post(
-    "/2018-10-10-make-up-inspirowany-obrazem-kompozycja-viii-by-wassily/",
-    "Make-up inspirowany obrazem. 'Kompozycja_VIII' by Wassily_Kandinsky",
-    "Wassily Kandinsky jest doskonałym przykładem artysty-intelektualisty. Nie zależało mu na szokowaniu widza. Zgłębiał temat sztuki w sposób naukowy. Intensywna medytacja dzieła pozwoliła mu na dogłębną obserwację i w rezultacie syntezę systemów formalnych. Uznawany jest za współtwórcę i jednego z założycieli abstrakcjonizmu.",
-    "https://assets1.ello.co/uploads/asset/attachment/8332593/ello-optimized-a881d10a.jpg",
-    "Posts",
-    "ParrotLayout",
-    "./_posts/2018-10-10-make-up-inspirowany-obrazem-kompozycja-viii-by-wassily-kandinsky.markdown",
-    true,
-    true,
-    5,
-    ["Sztuka Makijażu"],
-    ["makeup","makijaż","obraz","wassily","kandinsky","abstrakcja"],
-    1539172500000,
-  )
-);
-paramorph.addPost(
-  new Post(
     "/2018-10-04-manieryzm-moodboard/",
     "Manieryzm [moodboard]",
     "Manieryzm nie jest jednoznacznym stylem. Jest bardziej terminem określającym konkretne zjawiska w sztuce XVI wieku. Wraz z końcem epoki renesansu (ok. 1520 r.) we Włoszech pojawiają się tendencje przerysowanych gestów i sylwetek.",
@@ -1607,6 +1556,23 @@ paramorph.addPost(
     ["Sztuka dla Sztuki"],
     ["moodboard","manieryzm","mannerism","art","sztuka"],
     1538640180000,
+  )
+);
+paramorph.addPost(
+  new Post(
+    "/2018-10-10-make-up-inspirowany-obrazem-kompozycja-viii-by-wassily/",
+    "Make-up inspirowany obrazem. 'Kompozycja_VIII' by Wassily_Kandinsky",
+    "Wassily Kandinsky jest doskonałym przykładem artysty-intelektualisty. Nie zależało mu na szokowaniu widza. Zgłębiał temat sztuki w sposób naukowy. Intensywna medytacja dzieła pozwoliła mu na dogłębną obserwację i w rezultacie syntezę systemów formalnych. Uznawany jest za współtwórcę i jednego z założycieli abstrakcjonizmu.",
+    "https://assets1.ello.co/uploads/asset/attachment/8332593/ello-optimized-a881d10a.jpg",
+    "Posts",
+    "ParrotLayout",
+    "./_posts/2018-10-10-make-up-inspirowany-obrazem-kompozycja-viii-by-wassily-kandinsky.markdown",
+    true,
+    true,
+    5,
+    ["Sztuka Makijażu"],
+    ["makeup","makijaż","obraz","wassily","kandinsky","abstrakcja"],
+    1539172500000,
   )
 );
 paramorph.addPost(
@@ -1713,23 +1679,6 @@ paramorph.addPost(
 );
 paramorph.addPost(
   new Post(
-    "/2018-12-06-fluxus-moodboard/",
-    "Fluxus [moodboard]",
-    "Fluxus (łac. płynący; ang. to flow) nie był skonkretyzowanym kierunkiem w sztuce, a raczej ruchem, artystycznym manifestem artystów żyjących w latach 60-tych, 70-tych XX wieku. Charakterystyczny humor, nawiązanie do ruchu DADA pozwoliło na przekraczanie granic i wzajemnie przenikanie się dziedzin sztuki. Za flux-ojca uważany jest George Maciunas, amerykański artysta litewskiego pochodzenia.",
-    "https://assets2.ello.co/uploads/asset/attachment/8596053/ello-optimized-b16c9890.jpg",
-    "Posts",
-    "ParrotLayout",
-    "./_posts/2018-12-06-fluxus-moodboard.markdown",
-    true,
-    true,
-    5,
-    ["Sztuka dla Sztuki"],
-    ["moodboard","fluxus","george maciunas","yoko ono","nam june paik"],
-    1544092200000,
-  )
-);
-paramorph.addPost(
-  new Post(
     "/2018-11-28-moje-wybory-listopad-2018/",
     "Moje wybory: listopad 2018",
     "Kiedy otwieram oczy za oknem wciąż panuje noc. Czarna otchłań połyka delikatnie umarłe krople deszczu. Stopami dotykam zimnej podłogi jednocześnie podnosząc ręce do góry w geście woli obudzenia. Sennym krokiem kieruję się w stronę kuchni w celu zaparzenia kawy. Przesypuję czarne ziarna do młynka rozsypując dookoła niewielką ich ilość.",
@@ -1747,19 +1696,19 @@ paramorph.addPost(
 );
 paramorph.addPost(
   new Post(
-    "/2018-12-28-stop-2018-start-2019/",
-    "STOP 2018 START 2019",
-    "STOP Zatrzymaj się na chwilę. Stop. Usiądź wygodnie. Stop. Oddychaj.",
-    "https://assets2.ello.co/uploads/asset/attachment/8755970/ello-optimized-8b15b88b.jpg",
+    "/2018-12-06-fluxus-moodboard/",
+    "Fluxus [moodboard]",
+    "Fluxus (łac. płynący; ang. to flow) nie był skonkretyzowanym kierunkiem w sztuce, a raczej ruchem, artystycznym manifestem artystów żyjących w latach 60-tych, 70-tych XX wieku. Charakterystyczny humor, nawiązanie do ruchu DADA pozwoliło na przekraczanie granic i wzajemnie przenikanie się dziedzin sztuki. Za flux-ojca uważany jest George Maciunas, amerykański artysta litewskiego pochodzenia.",
+    "https://assets2.ello.co/uploads/asset/attachment/8596053/ello-optimized-b16c9890.jpg",
     "Posts",
     "ParrotLayout",
-    "./_posts/2018-12-28-stop-2018-start-2019.markdown",
+    "./_posts/2018-12-06-fluxus-moodboard.markdown",
     true,
     true,
     5,
-    ["Sztuka Ubioru","Sztuka Makijażu"],
-    ["stop","2018","start","2019","nowy rok"],
-    1546007040000,
+    ["Sztuka dla Sztuki"],
+    ["moodboard","fluxus","george maciunas","yoko ono","nam june paik"],
+    1544092200000,
   )
 );
 paramorph.addPost(
@@ -1777,6 +1726,40 @@ paramorph.addPost(
     ["Sztuka Makijażu"],
     ["o śmierci","anioł","makijaż","tekst autorski","sztuka"],
     1544723640000,
+  )
+);
+paramorph.addPost(
+  new Post(
+    "/2018-09-27-moje-wybory-wrzesien-2018/",
+    "Moje wybory: wrzesień 2018",
+    "Ten miesiąc był niezwykle kapryśny. Jednego dnia naszła go ochota na potworne ciepło i zsyłał na nas falę tropikalnych upałów. Następnego dnia z kolei narzucał na siebie jesienny płaszcz pochmurnej aury. Wiele stworzeń ucierpiało przez te zmienne nastroje. Nieliczni nauczeni profilaktyki łyknęli garść witaminy C i mają się dobrze.",
+    "https://assets2.ello.co/uploads/asset/attachment/8270060/ello-optimized-6f588d61.jpg",
+    "Posts",
+    "ParrotLayout",
+    "./_posts/2018-09-27-moje-wybory-wrzesien-2018.markdown",
+    true,
+    true,
+    5,
+    ["Sztuka Ubioru","Sztuka Makijażu"],
+    ["moje wybory","my choices","wrzesień","jesień","kapelusz","książka","kosmetyk"],
+    1538048460000,
+  )
+);
+paramorph.addPost(
+  new Post(
+    "/2018-12-28-stop-2018-start-2019/",
+    "STOP 2018 START 2019",
+    "STOP Zatrzymaj się na chwilę. Stop. Usiądź wygodnie. Stop. Oddychaj.",
+    "https://assets2.ello.co/uploads/asset/attachment/8755970/ello-optimized-8b15b88b.jpg",
+    "Posts",
+    "ParrotLayout",
+    "./_posts/2018-12-28-stop-2018-start-2019.markdown",
+    true,
+    true,
+    5,
+    ["Sztuka Ubioru","Sztuka Makijażu"],
+    ["stop","2018","start","2019","nowy rok"],
+    1546007040000,
   )
 );
 paramorph.addPost(
@@ -2019,6 +2002,23 @@ paramorph.addPost(
 );
 paramorph.addPost(
   new Post(
+    "/2018-02-26-moje-wybory-luty/",
+    "Moje wybory: luty",
+    "W nocy w Warszawie termometr ma pokazać -15°C. Nieosiągalnym wydaje się spacer po parku bez uprzedniego założenia na siebie podkoszulki, koszulki, koszulki z długim rękawem, swetra, kurtki puchowej. Dodatkowo koniecznym jest opatulenie szyi (wraz z nosem) wełnianym szalem. Nosiciele okularów korekcyjnych w takie dni jak ten widzą świat bardziej zamazanym niż zdaję się on być bez szkieł (szkła parują pod wpływem wydychanego, gorącego powietrza). Cały obrządek opatulania trwa dłużej niż standardowy spacer do sklepu.",
+    "https://assets0.ello.co/uploads/asset/attachment/7228043/ello-optimized-6d4c08d7.jpg",
+    "Posts",
+    "ParrotLayout",
+    "./_posts/2018-02-26-moje-wybory-luty.markdown",
+    true,
+    true,
+    5,
+    ["Sztuka Ubioru","Sztuka Makijażu"],
+    ["wybory","inspiracje","zima","luty","perfumy","książka","kosmetyk","biżuteria"],
+    1519644000000,
+  )
+);
+paramorph.addPost(
+  new Post(
     "/2018-02-21-o-kolorach-biel-cz-dot-1/",
     "O kolorach: Biel, cz.1",
     "Kolor jest światłem Chyba każdy z nas kojarzy szklaną piramidę zwaną pryzmatem. To Newton jako pierwszy stwierdził, że uzyskiwane barwy nie są cechą pryzmatów lecz światła, które można rozdzielać i ponownie łączyć uzyskując światło białe. Barwa to tak naprawdę wrażenie psychiczne wywoływane w naszym mózgu, gdy oko odbiera promieniowanie elektromagnetyczne z zakresu światła. Barwa biała odbierana jest przez człowieka jako najjaśniejsza w otoczeniu odmiana szarości (przykład: kiedy fragment białego tła oświetlimy mocniejszym światłem wtedy jedna z powierzchni stanie się ciemniejsza, czyli jasnoszara). Nie istnieje jedna, konkretna barwa biała.",
@@ -2091,7 +2091,7 @@ paramorph.addPost(
   new Category(
     "/sztuka-ubioru/:pageNumber(-\\d+-)?/",
     "Sztuka Ubioru",
-    "Sztuka Ubioru: Wenus vs Chanel, czyli_Nowa Dziewczyna z_Perłą, Podlewaj_swoje_kwiaty., Cała_Ta_J..., Stylizacje za grosze, czyli pokochaj lumpeksy!, Moje wybory: grudzień, Moje wybory: styczeń, O narkotykach XXI wieku, Moje wybory: luty, Moje wybory: marzec, Stylizacje w trendach spring/summer_2018, Moje wybory: kwiecień, Moje wybory: maj, RGB. Trzy stylizacje z mojej szafy, Moje wybory: czerwiec/lipiec, cz.",
+    "Sztuka Ubioru: Wenus vs Chanel, czyli_Nowa Dziewczyna z_Perłą, Podlewaj_swoje_kwiaty., Cała_Ta_J..., Stylizacje za grosze, czyli pokochaj lumpeksy!, Moje wybory: grudzień, Moje wybory: styczeń, O narkotykach XXI wieku, Moje wybory: marzec, Stylizacje w trendach spring/summer_2018, Moje wybory: kwiecień, Moje wybory: maj, RGB. Trzy stylizacje z mojej szafy, Moje wybory: czerwiec/lipiec, cz.",
     null,
     "Categories",
     "ParrotLayout",
@@ -2145,14 +2145,12 @@ paramorph.categories["Sztuka Makijażu"].posts.push(paramorph.posts["/2018-02-11
 paramorph.categories["Sztuka Ubioru"].posts.push(paramorph.posts["/2018-02-18-o-narkotykach-xxi-wieku/"]);
 paramorph.categories["Sztuka dla Sztuki"].posts.push(paramorph.posts["/2018-03-08-socrealizm-moodboard/"]);
 paramorph.categories["Sztuka dla Sztuki"].posts.push(paramorph.posts["/2018-02-28-wystawa-przyszlosc-bedzie-inna-wizje-i-praktyki-modernizacji/"]);
-paramorph.categories["Sztuka Ubioru"].posts.push(paramorph.posts["/2018-02-26-moje-wybory-luty/"]);
-paramorph.categories["Sztuka Makijażu"].posts.push(paramorph.posts["/2018-02-26-moje-wybory-luty/"]);
+paramorph.categories["Sztuka dla Sztuki"].posts.push(paramorph.posts["/2018-04-05-dadaizm-moodboard/"]);
 paramorph.categories["Sztuka Makijażu"].posts.push(paramorph.posts["/2018-03-26-make-up-inspirowany-obrazem-bialy-srodek-zolty-rozowy/"]);
 paramorph.categories["Sztuka Ubioru"].posts.push(paramorph.posts["/2018-04-07-moje-wybory-marzec/"]);
 paramorph.categories["Sztuka Makijażu"].posts.push(paramorph.posts["/2018-04-07-moje-wybory-marzec/"]);
-paramorph.categories["Sztuka dla Sztuki"].posts.push(paramorph.posts["/2018-04-05-dadaizm-moodboard/"]);
-paramorph.categories["Sztuka dla Sztuki"].posts.push(paramorph.posts["/2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest/"]);
 paramorph.categories["Sztuka Makijażu"].posts.push(paramorph.posts["/2018-04-15-make-up-inspirowany-obrazem-onement-vi-by-barnett-newman/"]);
+paramorph.categories["Sztuka dla Sztuki"].posts.push(paramorph.posts["/2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest/"]);
 paramorph.categories["Sztuka Ubioru"].posts.push(paramorph.posts["/2018-04-29-stylizacje-w-trendach-ss-2018/"]);
 paramorph.categories["Sztuka Ubioru"].posts.push(paramorph.posts["/2018-05-02-moje-wybory-kwiecien/"]);
 paramorph.categories["Sztuka Makijażu"].posts.push(paramorph.posts["/2018-05-02-moje-wybory-kwiecien/"]);
@@ -2162,9 +2160,9 @@ paramorph.categories["Sztuka Makijażu"].posts.push(paramorph.posts["/2018-05-20
 paramorph.categories["Sztuka dla Sztuki"].posts.push(paramorph.posts["/2018-05-20-o-kolorach-roz/"]);
 paramorph.categories["Sztuka Ubioru"].posts.push(paramorph.posts["/2018-05-29-moje-wybory-maj/"]);
 paramorph.categories["Sztuka Makijażu"].posts.push(paramorph.posts["/2018-05-29-moje-wybory-maj/"]);
-paramorph.categories["Sztuka dla Sztuki"].posts.push(paramorph.posts["/2018-06-07-hiperrealizm-moodboard/"]);
 paramorph.categories["Sztuka Makijażu"].posts.push(paramorph.posts["/2018-06-05-jestem-wdzieczna-ci-zycie/"]);
 paramorph.categories["Sztuka dla Sztuki"].posts.push(paramorph.posts["/2018-06-05-jestem-wdzieczna-ci-zycie/"]);
+paramorph.categories["Sztuka dla Sztuki"].posts.push(paramorph.posts["/2018-06-07-hiperrealizm-moodboard/"]);
 paramorph.categories["Sztuka Ubioru"].posts.push(paramorph.posts["/2018-06-27-rgb-trzy-stylizacje-z-mojej-szafy/"]);
 paramorph.categories["Sztuka dla Sztuki"].posts.push(paramorph.posts["/2018-07-05-abstrakcja-geometryczna-moodboard/"]);
 paramorph.categories["Sztuka Makijażu"].posts.push(paramorph.posts["/2018-07-13-make-up-inspirowany-obrazem-blue-nude-ii-by-henri-matisse/"]);
@@ -2178,14 +2176,12 @@ paramorph.categories["Sztuka dla Sztuki"].posts.push(paramorph.posts["/2018-08-2
 paramorph.categories["Sztuka Ubioru"].posts.push(paramorph.posts["/2018-08-31-moje-wybory-sierpien/"]);
 paramorph.categories["Sztuka Makijażu"].posts.push(paramorph.posts["/2018-08-31-moje-wybory-sierpien/"]);
 paramorph.categories["Sztuka dla Sztuki"].posts.push(paramorph.posts["/2018-09-06-futuryzm-moodboard/"]);
+paramorph.categories["Sztuka Ubioru"].posts.push(paramorph.posts["/2018-09-09-pre-fall-fall-slash-winter-spring-slash-summer-resort/"]);
 paramorph.categories["Sztuka Makijażu"].posts.push(paramorph.posts["/2018-09-21-o-kolorach-czern/"]);
 paramorph.categories["Sztuka dla Sztuki"].posts.push(paramorph.posts["/2018-09-21-o-kolorach-czern/"]);
-paramorph.categories["Sztuka Ubioru"].posts.push(paramorph.posts["/2018-09-09-pre-fall-fall-slash-winter-spring-slash-summer-resort/"]);
-paramorph.categories["Sztuka Ubioru"].posts.push(paramorph.posts["/2018-09-27-moje-wybory-wrzesien-2018/"]);
-paramorph.categories["Sztuka Makijażu"].posts.push(paramorph.posts["/2018-09-27-moje-wybory-wrzesien-2018/"]);
 paramorph.categories["Sztuka dla Sztuki"].posts.push(paramorph.posts["/2018-10-02-wystawa-bestia-bog-i-linia/"]);
-paramorph.categories["Sztuka Makijażu"].posts.push(paramorph.posts["/2018-10-10-make-up-inspirowany-obrazem-kompozycja-viii-by-wassily/"]);
 paramorph.categories["Sztuka dla Sztuki"].posts.push(paramorph.posts["/2018-10-04-manieryzm-moodboard/"]);
+paramorph.categories["Sztuka Makijażu"].posts.push(paramorph.posts["/2018-10-10-make-up-inspirowany-obrazem-kompozycja-viii-by-wassily/"]);
 paramorph.categories["Sztuka Makijażu"].posts.push(paramorph.posts["/2018-10-24-moje-wybory-pazdziernik-2018/"]);
 paramorph.categories["Sztuka Ubioru"].posts.push(paramorph.posts["/2018-10-24-moje-wybory-pazdziernik-2018/"]);
 paramorph.categories["Sztuka Makijażu"].posts.push(paramorph.posts["/2018-10-28-smierc-doroslego/"]);
@@ -2193,12 +2189,14 @@ paramorph.categories["Sztuka dla Sztuki"].posts.push(paramorph.posts["/2018-10-3
 paramorph.categories["Sztuka Makijażu"].posts.push(paramorph.posts["/2018-11-07-make-up-inspirowany-obrazem-light-of-iris-by-georgia-okeeffe/"]);
 paramorph.categories["Sztuka Ubioru"].posts.push(paramorph.posts["/2018-11-15-historia-pewnej-projektantki-czyli-perelka-z-lumpeksu/"]);
 paramorph.categories["Sztuka dla Sztuki"].posts.push(paramorph.posts["/2018-11-22-wystawa-moda-polska/"]);
-paramorph.categories["Sztuka dla Sztuki"].posts.push(paramorph.posts["/2018-12-06-fluxus-moodboard/"]);
 paramorph.categories["Sztuka Makijażu"].posts.push(paramorph.posts["/2018-11-28-moje-wybory-listopad-2018/"]);
 paramorph.categories["Sztuka Ubioru"].posts.push(paramorph.posts["/2018-11-28-moje-wybory-listopad-2018/"]);
+paramorph.categories["Sztuka dla Sztuki"].posts.push(paramorph.posts["/2018-12-06-fluxus-moodboard/"]);
+paramorph.categories["Sztuka Makijażu"].posts.push(paramorph.posts["/2018-12-13-o-smierci/"]);
+paramorph.categories["Sztuka Ubioru"].posts.push(paramorph.posts["/2018-09-27-moje-wybory-wrzesien-2018/"]);
+paramorph.categories["Sztuka Makijażu"].posts.push(paramorph.posts["/2018-09-27-moje-wybory-wrzesien-2018/"]);
 paramorph.categories["Sztuka Ubioru"].posts.push(paramorph.posts["/2018-12-28-stop-2018-start-2019/"]);
 paramorph.categories["Sztuka Makijażu"].posts.push(paramorph.posts["/2018-12-28-stop-2018-start-2019/"]);
-paramorph.categories["Sztuka Makijażu"].posts.push(paramorph.posts["/2018-12-13-o-smierci/"]);
 paramorph.categories["Sztuka Makijażu"].posts.push(paramorph.posts["/2019-01-03-moje-wybory-grudzien-2018/"]);
 paramorph.categories["Sztuka dla Sztuki"].posts.push(paramorph.posts["/2019-01-10-barok-moodboard/"]);
 paramorph.categories["Sztuka Makijażu"].posts.push(paramorph.posts["/2019-01-24-make-up-inspirowany-obrazem-victory-boogie-woogie-by-piet/"]);
@@ -2215,6 +2213,8 @@ paramorph.categories["Sztuka dla Sztuki"].posts.push(paramorph.posts["/2019-04-2
 paramorph.categories["Sztuka Makijażu"].posts.push(paramorph.posts["/2019-05-10-make-up-inspirowany-obrazem-m64-by-wojciech-fangor-remake/"]);
 paramorph.categories["Sztuka Makijażu"].posts.push(paramorph.posts["/2019-05-18-make-up-inspirowany-obrazem-zielony-turban-by-tamara-lempicka/"]);
 paramorph.categories["Sztuka Makijażu"].posts.push(paramorph.posts["/2019-06-28-make-up-inspirowany-obrazem-gwiazdzista-noc-by-vincent/"]);
+paramorph.categories["Sztuka Ubioru"].posts.push(paramorph.posts["/2018-02-26-moje-wybory-luty/"]);
+paramorph.categories["Sztuka Makijażu"].posts.push(paramorph.posts["/2018-02-26-moje-wybory-luty/"]);
 paramorph.categories["Sztuka Makijażu"].posts.push(paramorph.posts["/2018-02-21-o-kolorach-biel-cz-dot-1/"]);
 
 // TAGS //
@@ -3793,9 +3793,9 @@ paramorph.addPost(
 );
 paramorph.addPost(
   new Tag(
-    "/tags/luty/:pageNumber(-\\d+-)?/",
-    "luty",
-    "#luty: Moje wybory: luty",
+    "/tags/dada/:pageNumber(-\\d+-)?/",
+    "dada",
+    "#dada: DADAizm [moodboard]",
     null,
     "ParrotLayout",
     "./_pages/tag.markdown",
@@ -3806,9 +3806,22 @@ paramorph.addPost(
 );
 paramorph.addPost(
   new Tag(
-    "/tags/biżuteria/:pageNumber(-\\d+-)?/",
-    "biżuteria",
-    "#biżuteria: Moje wybory: luty",
+    "/tags/dadaizm/:pageNumber(-\\d+-)?/",
+    "dadaizm",
+    "#dadaizm: DADAizm [moodboard]",
+    null,
+    "ParrotLayout",
+    "./_pages/tag.markdown",
+    true,
+    5,
+    -2208988800000,
+  )
+);
+paramorph.addPost(
+  new Tag(
+    "/tags/tristan-tzara/:pageNumber(-\\d+-)?/",
+    "tristan tzara",
+    "#tristan tzara: DADAizm [moodboard]",
     null,
     "ParrotLayout",
     "./_pages/tag.markdown",
@@ -3910,9 +3923,9 @@ paramorph.addPost(
 );
 paramorph.addPost(
   new Tag(
-    "/tags/dada/:pageNumber(-\\d+-)?/",
-    "dada",
-    "#dada: DADAizm [moodboard]",
+    "/tags/barnett-newman/:pageNumber(-\\d+-)?/",
+    "barnett newman",
+    "#barnett newman: Make-up inspirowany obrazem. 'Onement VI' by Barnett_Newman",
     null,
     "ParrotLayout",
     "./_pages/tag.markdown",
@@ -3923,9 +3936,9 @@ paramorph.addPost(
 );
 paramorph.addPost(
   new Tag(
-    "/tags/dadaizm/:pageNumber(-\\d+-)?/",
-    "dadaizm",
-    "#dadaizm: DADAizm [moodboard]",
+    "/tags/abstract-expressionism/:pageNumber(-\\d+-)?/",
+    "abstract expressionism",
+    "#abstract expressionism: Make-up inspirowany obrazem. 'Onement VI' by Barnett_Newman",
     null,
     "ParrotLayout",
     "./_pages/tag.markdown",
@@ -3936,9 +3949,9 @@ paramorph.addPost(
 );
 paramorph.addPost(
   new Tag(
-    "/tags/tristan-tzara/:pageNumber(-\\d+-)?/",
-    "tristan tzara",
-    "#tristan tzara: DADAizm [moodboard]",
+    "/tags/zip/:pageNumber(-\\d+-)?/",
+    "zip",
+    "#zip: Make-up inspirowany obrazem. 'Onement VI' by Barnett_Newman",
     null,
     "ParrotLayout",
     "./_pages/tag.markdown",
@@ -3991,45 +4004,6 @@ paramorph.addPost(
     "/tags/malarstwo/:pageNumber(-\\d+-)?/",
     "malarstwo",
     "#malarstwo: Wystawa: Komunikacja ze wszystkim, co jest",
-    null,
-    "ParrotLayout",
-    "./_pages/tag.markdown",
-    true,
-    5,
-    -2208988800000,
-  )
-);
-paramorph.addPost(
-  new Tag(
-    "/tags/barnett-newman/:pageNumber(-\\d+-)?/",
-    "barnett newman",
-    "#barnett newman: Make-up inspirowany obrazem. 'Onement VI' by Barnett_Newman",
-    null,
-    "ParrotLayout",
-    "./_pages/tag.markdown",
-    true,
-    5,
-    -2208988800000,
-  )
-);
-paramorph.addPost(
-  new Tag(
-    "/tags/abstract-expressionism/:pageNumber(-\\d+-)?/",
-    "abstract expressionism",
-    "#abstract expressionism: Make-up inspirowany obrazem. 'Onement VI' by Barnett_Newman",
-    null,
-    "ParrotLayout",
-    "./_pages/tag.markdown",
-    true,
-    5,
-    -2208988800000,
-  )
-);
-paramorph.addPost(
-  new Tag(
-    "/tags/zip/:pageNumber(-\\d+-)?/",
-    "zip",
-    "#zip: Make-up inspirowany obrazem. 'Onement VI' by Barnett_Newman",
     null,
     "ParrotLayout",
     "./_pages/tag.markdown",
@@ -4339,45 +4313,6 @@ paramorph.addPost(
 );
 paramorph.addPost(
   new Tag(
-    "/tags/hiperrealizm/:pageNumber(-\\d+-)?/",
-    "hiperrealizm",
-    "#hiperrealizm: Hiperrealizm [moodboard]",
-    null,
-    "ParrotLayout",
-    "./_pages/tag.markdown",
-    true,
-    5,
-    -2208988800000,
-  )
-);
-paramorph.addPost(
-  new Tag(
-    "/tags/fotorealizm/:pageNumber(-\\d+-)?/",
-    "fotorealizm",
-    "#fotorealizm: Hiperrealizm [moodboard]",
-    null,
-    "ParrotLayout",
-    "./_pages/tag.markdown",
-    true,
-    5,
-    -2208988800000,
-  )
-);
-paramorph.addPost(
-  new Tag(
-    "/tags/superrealizm/:pageNumber(-\\d+-)?/",
-    "superrealizm",
-    "#superrealizm: Hiperrealizm [moodboard]",
-    null,
-    "ParrotLayout",
-    "./_pages/tag.markdown",
-    true,
-    5,
-    -2208988800000,
-  )
-);
-paramorph.addPost(
-  new Tag(
     "/tags/wdzięczność/:pageNumber(-\\d+-)?/",
     "wdzięczność",
     "#wdzięczność: Jestem wdzięczna Ci Życie",
@@ -4446,6 +4381,45 @@ paramorph.addPost(
     "/tags/cele/:pageNumber(-\\d+-)?/",
     "cele",
     "#cele: Jestem wdzięczna Ci Życie",
+    null,
+    "ParrotLayout",
+    "./_pages/tag.markdown",
+    true,
+    5,
+    -2208988800000,
+  )
+);
+paramorph.addPost(
+  new Tag(
+    "/tags/hiperrealizm/:pageNumber(-\\d+-)?/",
+    "hiperrealizm",
+    "#hiperrealizm: Hiperrealizm [moodboard]",
+    null,
+    "ParrotLayout",
+    "./_pages/tag.markdown",
+    true,
+    5,
+    -2208988800000,
+  )
+);
+paramorph.addPost(
+  new Tag(
+    "/tags/fotorealizm/:pageNumber(-\\d+-)?/",
+    "fotorealizm",
+    "#fotorealizm: Hiperrealizm [moodboard]",
+    null,
+    "ParrotLayout",
+    "./_pages/tag.markdown",
+    true,
+    5,
+    -2208988800000,
+  )
+);
+paramorph.addPost(
+  new Tag(
+    "/tags/superrealizm/:pageNumber(-\\d+-)?/",
+    "superrealizm",
+    "#superrealizm: Hiperrealizm [moodboard]",
     null,
     "ParrotLayout",
     "./_pages/tag.markdown",
@@ -4602,6 +4576,19 @@ paramorph.addPost(
     "/tags/my-choices/:pageNumber(-\\d+-)?/",
     "my choices",
     "#my choices: Moje wybory: czerwiec/lipiec, cz.1",
+    null,
+    "ParrotLayout",
+    "./_pages/tag.markdown",
+    true,
+    5,
+    -2208988800000,
+  )
+);
+paramorph.addPost(
+  new Tag(
+    "/tags/biżuteria/:pageNumber(-\\d+-)?/",
+    "biżuteria",
+    "#biżuteria: Moje wybory: czerwiec/lipiec, cz.1",
     null,
     "ParrotLayout",
     "./_pages/tag.markdown",
@@ -4963,84 +4950,6 @@ paramorph.addPost(
 );
 paramorph.addPost(
   new Tag(
-    "/tags/o-kolorach/:pageNumber(-\\d+-)?/",
-    "o kolorach",
-    "#o kolorach: O kolorach: Czerń",
-    null,
-    "ParrotLayout",
-    "./_pages/tag.markdown",
-    true,
-    5,
-    -2208988800000,
-  )
-);
-paramorph.addPost(
-  new Tag(
-    "/tags/czerń/:pageNumber(-\\d+-)?/",
-    "czerń",
-    "#czerń: O kolorach: Czerń",
-    null,
-    "ParrotLayout",
-    "./_pages/tag.markdown",
-    true,
-    5,
-    -2208988800000,
-  )
-);
-paramorph.addPost(
-  new Tag(
-    "/tags/czarny/:pageNumber(-\\d+-)?/",
-    "czarny",
-    "#czarny: O kolorach: Czerń",
-    null,
-    "ParrotLayout",
-    "./_pages/tag.markdown",
-    true,
-    5,
-    -2208988800000,
-  )
-);
-paramorph.addPost(
-  new Tag(
-    "/tags/symbolika/:pageNumber(-\\d+-)?/",
-    "symbolika",
-    "#symbolika: O kolorach: Czerń",
-    null,
-    "ParrotLayout",
-    "./_pages/tag.markdown",
-    true,
-    5,
-    -2208988800000,
-  )
-);
-paramorph.addPost(
-  new Tag(
-    "/tags/znak/:pageNumber(-\\d+-)?/",
-    "znak",
-    "#znak: O kolorach: Czerń",
-    null,
-    "ParrotLayout",
-    "./_pages/tag.markdown",
-    true,
-    5,
-    -2208988800000,
-  )
-);
-paramorph.addPost(
-  new Tag(
-    "/tags/black/:pageNumber(-\\d+-)?/",
-    "black",
-    "#black: O kolorach: Czerń",
-    null,
-    "ParrotLayout",
-    "./_pages/tag.markdown",
-    true,
-    5,
-    -2208988800000,
-  )
-);
-paramorph.addPost(
-  new Tag(
     "/tags/pre-fall/:pageNumber(-\\d+-)?/",
     "pre-fall",
     "#pre-fall: Pre-Fall, Fall/Winter, Spring/Summer, Resort, Cruise – co_to_wszystko_znaczy? + FW Trends 2018/2019",
@@ -5145,9 +5054,9 @@ paramorph.addPost(
 );
 paramorph.addPost(
   new Tag(
-    "/tags/wrzesień/:pageNumber(-\\d+-)?/",
-    "wrzesień",
-    "#wrzesień: Moje wybory: wrzesień 2018",
+    "/tags/o-kolorach/:pageNumber(-\\d+-)?/",
+    "o kolorach",
+    "#o kolorach: O kolorach: Czerń",
     null,
     "ParrotLayout",
     "./_pages/tag.markdown",
@@ -5158,9 +5067,61 @@ paramorph.addPost(
 );
 paramorph.addPost(
   new Tag(
-    "/tags/kapelusz/:pageNumber(-\\d+-)?/",
-    "kapelusz",
-    "#kapelusz: Moje wybory: wrzesień 2018",
+    "/tags/czerń/:pageNumber(-\\d+-)?/",
+    "czerń",
+    "#czerń: O kolorach: Czerń",
+    null,
+    "ParrotLayout",
+    "./_pages/tag.markdown",
+    true,
+    5,
+    -2208988800000,
+  )
+);
+paramorph.addPost(
+  new Tag(
+    "/tags/czarny/:pageNumber(-\\d+-)?/",
+    "czarny",
+    "#czarny: O kolorach: Czerń",
+    null,
+    "ParrotLayout",
+    "./_pages/tag.markdown",
+    true,
+    5,
+    -2208988800000,
+  )
+);
+paramorph.addPost(
+  new Tag(
+    "/tags/symbolika/:pageNumber(-\\d+-)?/",
+    "symbolika",
+    "#symbolika: O kolorach: Czerń",
+    null,
+    "ParrotLayout",
+    "./_pages/tag.markdown",
+    true,
+    5,
+    -2208988800000,
+  )
+);
+paramorph.addPost(
+  new Tag(
+    "/tags/znak/:pageNumber(-\\d+-)?/",
+    "znak",
+    "#znak: O kolorach: Czerń",
+    null,
+    "ParrotLayout",
+    "./_pages/tag.markdown",
+    true,
+    5,
+    -2208988800000,
+  )
+);
+paramorph.addPost(
+  new Tag(
+    "/tags/black/:pageNumber(-\\d+-)?/",
+    "black",
+    "#black: O kolorach: Czerń",
     null,
     "ParrotLayout",
     "./_pages/tag.markdown",
@@ -5174,32 +5135,6 @@ paramorph.addPost(
     "/tags/azja/:pageNumber(-\\d+-)?/",
     "azja",
     "#azja: Wystawa: Bestia, bóg i linia",
-    null,
-    "ParrotLayout",
-    "./_pages/tag.markdown",
-    true,
-    5,
-    -2208988800000,
-  )
-);
-paramorph.addPost(
-  new Tag(
-    "/tags/wassily/:pageNumber(-\\d+-)?/",
-    "wassily",
-    "#wassily: Make-up inspirowany obrazem. 'Kompozycja_VIII' by Wassily_Kandinsky",
-    null,
-    "ParrotLayout",
-    "./_pages/tag.markdown",
-    true,
-    5,
-    -2208988800000,
-  )
-);
-paramorph.addPost(
-  new Tag(
-    "/tags/kandinsky/:pageNumber(-\\d+-)?/",
-    "kandinsky",
-    "#kandinsky: Make-up inspirowany obrazem. 'Kompozycja_VIII' by Wassily_Kandinsky",
     null,
     "ParrotLayout",
     "./_pages/tag.markdown",
@@ -5226,6 +5161,32 @@ paramorph.addPost(
     "/tags/mannerism/:pageNumber(-\\d+-)?/",
     "mannerism",
     "#mannerism: Manieryzm [moodboard]",
+    null,
+    "ParrotLayout",
+    "./_pages/tag.markdown",
+    true,
+    5,
+    -2208988800000,
+  )
+);
+paramorph.addPost(
+  new Tag(
+    "/tags/wassily/:pageNumber(-\\d+-)?/",
+    "wassily",
+    "#wassily: Make-up inspirowany obrazem. 'Kompozycja_VIII' by Wassily_Kandinsky",
+    null,
+    "ParrotLayout",
+    "./_pages/tag.markdown",
+    true,
+    5,
+    -2208988800000,
+  )
+);
+paramorph.addPost(
+  new Tag(
+    "/tags/kandinsky/:pageNumber(-\\d+-)?/",
+    "kandinsky",
+    "#kandinsky: Make-up inspirowany obrazem. 'Kompozycja_VIII' by Wassily_Kandinsky",
     null,
     "ParrotLayout",
     "./_pages/tag.markdown",
@@ -5522,6 +5483,58 @@ paramorph.addPost(
 );
 paramorph.addPost(
   new Tag(
+    "/tags/listopad/:pageNumber(-\\d+-)?/",
+    "listopad",
+    "#listopad: Moje wybory: listopad 2018",
+    null,
+    "ParrotLayout",
+    "./_pages/tag.markdown",
+    true,
+    5,
+    -2208988800000,
+  )
+);
+paramorph.addPost(
+  new Tag(
+    "/tags/kolorówka/:pageNumber(-\\d+-)?/",
+    "kolorówka",
+    "#kolorówka: Moje wybory: listopad 2018",
+    null,
+    "ParrotLayout",
+    "./_pages/tag.markdown",
+    true,
+    5,
+    -2208988800000,
+  )
+);
+paramorph.addPost(
+  new Tag(
+    "/tags/pielęgnacja/:pageNumber(-\\d+-)?/",
+    "pielęgnacja",
+    "#pielęgnacja: Moje wybory: listopad 2018",
+    null,
+    "ParrotLayout",
+    "./_pages/tag.markdown",
+    true,
+    5,
+    -2208988800000,
+  )
+);
+paramorph.addPost(
+  new Tag(
+    "/tags/lektura/:pageNumber(-\\d+-)?/",
+    "lektura",
+    "#lektura: Moje wybory: listopad 2018",
+    null,
+    "ParrotLayout",
+    "./_pages/tag.markdown",
+    true,
+    5,
+    -2208988800000,
+  )
+);
+paramorph.addPost(
+  new Tag(
     "/tags/fluxus/:pageNumber(-\\d+-)?/",
     "fluxus",
     "#fluxus: Fluxus [moodboard]",
@@ -5574,9 +5587,9 @@ paramorph.addPost(
 );
 paramorph.addPost(
   new Tag(
-    "/tags/listopad/:pageNumber(-\\d+-)?/",
-    "listopad",
-    "#listopad: Moje wybory: listopad 2018",
+    "/tags/o-śmierci/:pageNumber(-\\d+-)?/",
+    "o śmierci",
+    "#o śmierci: O śmierci",
     null,
     "ParrotLayout",
     "./_pages/tag.markdown",
@@ -5587,9 +5600,9 @@ paramorph.addPost(
 );
 paramorph.addPost(
   new Tag(
-    "/tags/kolorówka/:pageNumber(-\\d+-)?/",
-    "kolorówka",
-    "#kolorówka: Moje wybory: listopad 2018",
+    "/tags/anioł/:pageNumber(-\\d+-)?/",
+    "anioł",
+    "#anioł: O śmierci",
     null,
     "ParrotLayout",
     "./_pages/tag.markdown",
@@ -5600,9 +5613,9 @@ paramorph.addPost(
 );
 paramorph.addPost(
   new Tag(
-    "/tags/pielęgnacja/:pageNumber(-\\d+-)?/",
-    "pielęgnacja",
-    "#pielęgnacja: Moje wybory: listopad 2018",
+    "/tags/tekst-autorski/:pageNumber(-\\d+-)?/",
+    "tekst autorski",
+    "#tekst autorski: O śmierci",
     null,
     "ParrotLayout",
     "./_pages/tag.markdown",
@@ -5613,9 +5626,22 @@ paramorph.addPost(
 );
 paramorph.addPost(
   new Tag(
-    "/tags/lektura/:pageNumber(-\\d+-)?/",
-    "lektura",
-    "#lektura: Moje wybory: listopad 2018",
+    "/tags/wrzesień/:pageNumber(-\\d+-)?/",
+    "wrzesień",
+    "#wrzesień: Moje wybory: wrzesień 2018",
+    null,
+    "ParrotLayout",
+    "./_pages/tag.markdown",
+    true,
+    5,
+    -2208988800000,
+  )
+);
+paramorph.addPost(
+  new Tag(
+    "/tags/kapelusz/:pageNumber(-\\d+-)?/",
+    "kapelusz",
+    "#kapelusz: Moje wybory: wrzesień 2018",
     null,
     "ParrotLayout",
     "./_pages/tag.markdown",
@@ -5681,45 +5707,6 @@ paramorph.addPost(
     "/tags/nowy-rok/:pageNumber(-\\d+-)?/",
     "nowy rok",
     "#nowy rok: STOP 2018 START 2019",
-    null,
-    "ParrotLayout",
-    "./_pages/tag.markdown",
-    true,
-    5,
-    -2208988800000,
-  )
-);
-paramorph.addPost(
-  new Tag(
-    "/tags/o-śmierci/:pageNumber(-\\d+-)?/",
-    "o śmierci",
-    "#o śmierci: O śmierci",
-    null,
-    "ParrotLayout",
-    "./_pages/tag.markdown",
-    true,
-    5,
-    -2208988800000,
-  )
-);
-paramorph.addPost(
-  new Tag(
-    "/tags/anioł/:pageNumber(-\\d+-)?/",
-    "anioł",
-    "#anioł: O śmierci",
-    null,
-    "ParrotLayout",
-    "./_pages/tag.markdown",
-    true,
-    5,
-    -2208988800000,
-  )
-);
-paramorph.addPost(
-  new Tag(
-    "/tags/tekst-autorski/:pageNumber(-\\d+-)?/",
-    "tekst autorski",
-    "#tekst autorski: O śmierci",
     null,
     "ParrotLayout",
     "./_pages/tag.markdown",
@@ -6175,6 +6162,19 @@ paramorph.addPost(
     "/tags/blue-monday/:pageNumber(-\\d+-)?/",
     "blue monday",
     "#blue monday: O kolorach: Niebieski, cz.2",
+    null,
+    "ParrotLayout",
+    "./_pages/tag.markdown",
+    true,
+    5,
+    -2208988800000,
+  )
+);
+paramorph.addPost(
+  new Tag(
+    "/tags/luty/:pageNumber(-\\d+-)?/",
+    "luty",
+    "#luty: Moje wybory: luty, marzec 2019",
     null,
     "ParrotLayout",
     "./_pages/tag.markdown",
@@ -6904,14 +6904,13 @@ paramorph.tags["zachęta"].posts.push(paramorph.posts["/2018-02-28-wystawa-przys
 paramorph.tags["warszawa"].posts.push(paramorph.posts["/2018-02-28-wystawa-przyszlosc-bedzie-inna-wizje-i-praktyki-modernizacji/"]);
 paramorph.tags["przyszłość"].posts.push(paramorph.posts["/2018-02-28-wystawa-przyszlosc-bedzie-inna-wizje-i-praktyki-modernizacji/"]);
 paramorph.tags["sztuka"].posts.push(paramorph.posts["/2018-02-28-wystawa-przyszlosc-bedzie-inna-wizje-i-praktyki-modernizacji/"]);
-paramorph.tags["wybory"].posts.push(paramorph.posts["/2018-02-26-moje-wybory-luty/"]);
-paramorph.tags["inspiracje"].posts.push(paramorph.posts["/2018-02-26-moje-wybory-luty/"]);
-paramorph.tags["zima"].posts.push(paramorph.posts["/2018-02-26-moje-wybory-luty/"]);
-paramorph.tags["luty"].posts.push(paramorph.posts["/2018-02-26-moje-wybory-luty/"]);
-paramorph.tags["perfumy"].posts.push(paramorph.posts["/2018-02-26-moje-wybory-luty/"]);
-paramorph.tags["książka"].posts.push(paramorph.posts["/2018-02-26-moje-wybory-luty/"]);
-paramorph.tags["kosmetyk"].posts.push(paramorph.posts["/2018-02-26-moje-wybory-luty/"]);
-paramorph.tags["biżuteria"].posts.push(paramorph.posts["/2018-02-26-moje-wybory-luty/"]);
+paramorph.tags["dada"].posts.push(paramorph.posts["/2018-04-05-dadaizm-moodboard/"]);
+paramorph.tags["dadaizm"].posts.push(paramorph.posts["/2018-04-05-dadaizm-moodboard/"]);
+paramorph.tags["moodboard"].posts.push(paramorph.posts["/2018-04-05-dadaizm-moodboard/"]);
+paramorph.tags["sztuka"].posts.push(paramorph.posts["/2018-04-05-dadaizm-moodboard/"]);
+paramorph.tags["artysta"].posts.push(paramorph.posts["/2018-04-05-dadaizm-moodboard/"]);
+paramorph.tags["kreacja"].posts.push(paramorph.posts["/2018-04-05-dadaizm-moodboard/"]);
+paramorph.tags["tristan tzara"].posts.push(paramorph.posts["/2018-04-05-dadaizm-moodboard/"]);
 paramorph.tags["mark rothko"].posts.push(paramorph.posts["/2018-03-26-make-up-inspirowany-obrazem-bialy-srodek-zolty-rozowy/"]);
 paramorph.tags["makeup"].posts.push(paramorph.posts["/2018-03-26-make-up-inspirowany-obrazem-bialy-srodek-zolty-rozowy/"]);
 paramorph.tags["makijaż"].posts.push(paramorph.posts["/2018-03-26-make-up-inspirowany-obrazem-bialy-srodek-zolty-rozowy/"]);
@@ -6925,20 +6924,6 @@ paramorph.tags["clochee"].posts.push(paramorph.posts["/2018-04-07-moje-wybory-ma
 paramorph.tags["moov"].posts.push(paramorph.posts["/2018-04-07-moje-wybory-marzec/"]);
 paramorph.tags["stradivarius"].posts.push(paramorph.posts["/2018-04-07-moje-wybory-marzec/"]);
 paramorph.tags["wiosna"].posts.push(paramorph.posts["/2018-04-07-moje-wybory-marzec/"]);
-paramorph.tags["dada"].posts.push(paramorph.posts["/2018-04-05-dadaizm-moodboard/"]);
-paramorph.tags["dadaizm"].posts.push(paramorph.posts["/2018-04-05-dadaizm-moodboard/"]);
-paramorph.tags["moodboard"].posts.push(paramorph.posts["/2018-04-05-dadaizm-moodboard/"]);
-paramorph.tags["sztuka"].posts.push(paramorph.posts["/2018-04-05-dadaizm-moodboard/"]);
-paramorph.tags["artysta"].posts.push(paramorph.posts["/2018-04-05-dadaizm-moodboard/"]);
-paramorph.tags["kreacja"].posts.push(paramorph.posts["/2018-04-05-dadaizm-moodboard/"]);
-paramorph.tags["tristan tzara"].posts.push(paramorph.posts["/2018-04-05-dadaizm-moodboard/"]);
-paramorph.tags["wystawa"].posts.push(paramorph.posts["/2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest/"]);
-paramorph.tags["exhibition"].posts.push(paramorph.posts["/2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest/"]);
-paramorph.tags["fundacja"].posts.push(paramorph.posts["/2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest/"]);
-paramorph.tags["stefan gierowski"].posts.push(paramorph.posts["/2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest/"]);
-paramorph.tags["sztuka"].posts.push(paramorph.posts["/2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest/"]);
-paramorph.tags["sztuka młodych"].posts.push(paramorph.posts["/2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest/"]);
-paramorph.tags["malarstwo"].posts.push(paramorph.posts["/2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest/"]);
 paramorph.tags["barnett newman"].posts.push(paramorph.posts["/2018-04-15-make-up-inspirowany-obrazem-onement-vi-by-barnett-newman/"]);
 paramorph.tags["makeup"].posts.push(paramorph.posts["/2018-04-15-make-up-inspirowany-obrazem-onement-vi-by-barnett-newman/"]);
 paramorph.tags["painting"].posts.push(paramorph.posts["/2018-04-15-make-up-inspirowany-obrazem-onement-vi-by-barnett-newman/"]);
@@ -6948,6 +6933,13 @@ paramorph.tags["dzieło"].posts.push(paramorph.posts["/2018-04-15-make-up-inspir
 paramorph.tags["artysta"].posts.push(paramorph.posts["/2018-04-15-make-up-inspirowany-obrazem-onement-vi-by-barnett-newman/"]);
 paramorph.tags["kreacja"].posts.push(paramorph.posts["/2018-04-15-make-up-inspirowany-obrazem-onement-vi-by-barnett-newman/"]);
 paramorph.tags["zip"].posts.push(paramorph.posts["/2018-04-15-make-up-inspirowany-obrazem-onement-vi-by-barnett-newman/"]);
+paramorph.tags["wystawa"].posts.push(paramorph.posts["/2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest/"]);
+paramorph.tags["exhibition"].posts.push(paramorph.posts["/2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest/"]);
+paramorph.tags["fundacja"].posts.push(paramorph.posts["/2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest/"]);
+paramorph.tags["stefan gierowski"].posts.push(paramorph.posts["/2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest/"]);
+paramorph.tags["sztuka"].posts.push(paramorph.posts["/2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest/"]);
+paramorph.tags["sztuka młodych"].posts.push(paramorph.posts["/2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest/"]);
+paramorph.tags["malarstwo"].posts.push(paramorph.posts["/2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest/"]);
 paramorph.tags["trendy"].posts.push(paramorph.posts["/2018-04-29-stylizacje-w-trendach-ss-2018/"]);
 paramorph.tags["ss 2018"].posts.push(paramorph.posts["/2018-04-29-stylizacje-w-trendach-ss-2018/"]);
 paramorph.tags["trends"].posts.push(paramorph.posts["/2018-04-29-stylizacje-w-trendach-ss-2018/"]);
@@ -6991,10 +6983,6 @@ paramorph.tags["skin79"].posts.push(paramorph.posts["/2018-05-29-moje-wybory-maj
 paramorph.tags["książka"].posts.push(paramorph.posts["/2018-05-29-moje-wybory-maj/"]);
 paramorph.tags["nosowska"].posts.push(paramorph.posts["/2018-05-29-moje-wybory-maj/"]);
 paramorph.tags["kreacja"].posts.push(paramorph.posts["/2018-05-29-moje-wybory-maj/"]);
-paramorph.tags["hiperrealizm"].posts.push(paramorph.posts["/2018-06-07-hiperrealizm-moodboard/"]);
-paramorph.tags["fotorealizm"].posts.push(paramorph.posts["/2018-06-07-hiperrealizm-moodboard/"]);
-paramorph.tags["superrealizm"].posts.push(paramorph.posts["/2018-06-07-hiperrealizm-moodboard/"]);
-paramorph.tags["moodboard"].posts.push(paramorph.posts["/2018-06-07-hiperrealizm-moodboard/"]);
 paramorph.tags["wdzięczność"].posts.push(paramorph.posts["/2018-06-05-jestem-wdzieczna-ci-zycie/"]);
 paramorph.tags["post"].posts.push(paramorph.posts["/2018-06-05-jestem-wdzieczna-ci-zycie/"]);
 paramorph.tags["tekst"].posts.push(paramorph.posts["/2018-06-05-jestem-wdzieczna-ci-zycie/"]);
@@ -7003,6 +6991,10 @@ paramorph.tags["sztuka"].posts.push(paramorph.posts["/2018-06-05-jestem-wdzieczn
 paramorph.tags["akademia"].posts.push(paramorph.posts["/2018-06-05-jestem-wdzieczna-ci-zycie/"]);
 paramorph.tags["marzenia"].posts.push(paramorph.posts["/2018-06-05-jestem-wdzieczna-ci-zycie/"]);
 paramorph.tags["cele"].posts.push(paramorph.posts["/2018-06-05-jestem-wdzieczna-ci-zycie/"]);
+paramorph.tags["hiperrealizm"].posts.push(paramorph.posts["/2018-06-07-hiperrealizm-moodboard/"]);
+paramorph.tags["fotorealizm"].posts.push(paramorph.posts["/2018-06-07-hiperrealizm-moodboard/"]);
+paramorph.tags["superrealizm"].posts.push(paramorph.posts["/2018-06-07-hiperrealizm-moodboard/"]);
+paramorph.tags["moodboard"].posts.push(paramorph.posts["/2018-06-07-hiperrealizm-moodboard/"]);
 paramorph.tags["moda"].posts.push(paramorph.posts["/2018-06-27-rgb-trzy-stylizacje-z-mojej-szafy/"]);
 paramorph.tags["fashion"].posts.push(paramorph.posts["/2018-06-27-rgb-trzy-stylizacje-z-mojej-szafy/"]);
 paramorph.tags["stylizacja"].posts.push(paramorph.posts["/2018-06-27-rgb-trzy-stylizacje-z-mojej-szafy/"]);
@@ -7084,13 +7076,6 @@ paramorph.tags["giacomo balla"].posts.push(paramorph.posts["/2018-09-06-futuryzm
 paramorph.tags["fendi"].posts.push(paramorph.posts["/2018-09-06-futuryzm-moodboard/"]);
 paramorph.tags["gino severini"].posts.push(paramorph.posts["/2018-09-06-futuryzm-moodboard/"]);
 paramorph.tags["art"].posts.push(paramorph.posts["/2018-09-06-futuryzm-moodboard/"]);
-paramorph.tags["o kolorach"].posts.push(paramorph.posts["/2018-09-21-o-kolorach-czern/"]);
-paramorph.tags["czerń"].posts.push(paramorph.posts["/2018-09-21-o-kolorach-czern/"]);
-paramorph.tags["czarny"].posts.push(paramorph.posts["/2018-09-21-o-kolorach-czern/"]);
-paramorph.tags["kolor"].posts.push(paramorph.posts["/2018-09-21-o-kolorach-czern/"]);
-paramorph.tags["symbolika"].posts.push(paramorph.posts["/2018-09-21-o-kolorach-czern/"]);
-paramorph.tags["znak"].posts.push(paramorph.posts["/2018-09-21-o-kolorach-czern/"]);
-paramorph.tags["black"].posts.push(paramorph.posts["/2018-09-21-o-kolorach-czern/"]);
 paramorph.tags["trendy"].posts.push(paramorph.posts["/2018-09-09-pre-fall-fall-slash-winter-spring-slash-summer-resort/"]);
 paramorph.tags["trends"].posts.push(paramorph.posts["/2018-09-09-pre-fall-fall-slash-winter-spring-slash-summer-resort/"]);
 paramorph.tags["pre-fall"].posts.push(paramorph.posts["/2018-09-09-pre-fall-fall-slash-winter-spring-slash-summer-resort/"]);
@@ -7102,13 +7087,13 @@ paramorph.tags["collection"].posts.push(paramorph.posts["/2018-09-09-pre-fall-fa
 paramorph.tags["runway"].posts.push(paramorph.posts["/2018-09-09-pre-fall-fall-slash-winter-spring-slash-summer-resort/"]);
 paramorph.tags["fashion"].posts.push(paramorph.posts["/2018-09-09-pre-fall-fall-slash-winter-spring-slash-summer-resort/"]);
 paramorph.tags["show"].posts.push(paramorph.posts["/2018-09-09-pre-fall-fall-slash-winter-spring-slash-summer-resort/"]);
-paramorph.tags["moje wybory"].posts.push(paramorph.posts["/2018-09-27-moje-wybory-wrzesien-2018/"]);
-paramorph.tags["my choices"].posts.push(paramorph.posts["/2018-09-27-moje-wybory-wrzesien-2018/"]);
-paramorph.tags["wrzesień"].posts.push(paramorph.posts["/2018-09-27-moje-wybory-wrzesien-2018/"]);
-paramorph.tags["jesień"].posts.push(paramorph.posts["/2018-09-27-moje-wybory-wrzesien-2018/"]);
-paramorph.tags["kapelusz"].posts.push(paramorph.posts["/2018-09-27-moje-wybory-wrzesien-2018/"]);
-paramorph.tags["książka"].posts.push(paramorph.posts["/2018-09-27-moje-wybory-wrzesien-2018/"]);
-paramorph.tags["kosmetyk"].posts.push(paramorph.posts["/2018-09-27-moje-wybory-wrzesien-2018/"]);
+paramorph.tags["o kolorach"].posts.push(paramorph.posts["/2018-09-21-o-kolorach-czern/"]);
+paramorph.tags["czerń"].posts.push(paramorph.posts["/2018-09-21-o-kolorach-czern/"]);
+paramorph.tags["czarny"].posts.push(paramorph.posts["/2018-09-21-o-kolorach-czern/"]);
+paramorph.tags["kolor"].posts.push(paramorph.posts["/2018-09-21-o-kolorach-czern/"]);
+paramorph.tags["symbolika"].posts.push(paramorph.posts["/2018-09-21-o-kolorach-czern/"]);
+paramorph.tags["znak"].posts.push(paramorph.posts["/2018-09-21-o-kolorach-czern/"]);
+paramorph.tags["black"].posts.push(paramorph.posts["/2018-09-21-o-kolorach-czern/"]);
 paramorph.tags["sztuka"].posts.push(paramorph.posts["/2018-10-02-wystawa-bestia-bog-i-linia/"]);
 paramorph.tags["wystawa"].posts.push(paramorph.posts["/2018-10-02-wystawa-bestia-bog-i-linia/"]);
 paramorph.tags["exhibition"].posts.push(paramorph.posts["/2018-10-02-wystawa-bestia-bog-i-linia/"]);
@@ -7116,17 +7101,17 @@ paramorph.tags["artysta"].posts.push(paramorph.posts["/2018-10-02-wystawa-bestia
 paramorph.tags["dzieło"].posts.push(paramorph.posts["/2018-10-02-wystawa-bestia-bog-i-linia/"]);
 paramorph.tags["azja"].posts.push(paramorph.posts["/2018-10-02-wystawa-bestia-bog-i-linia/"]);
 paramorph.tags["muzeum"].posts.push(paramorph.posts["/2018-10-02-wystawa-bestia-bog-i-linia/"]);
+paramorph.tags["moodboard"].posts.push(paramorph.posts["/2018-10-04-manieryzm-moodboard/"]);
+paramorph.tags["manieryzm"].posts.push(paramorph.posts["/2018-10-04-manieryzm-moodboard/"]);
+paramorph.tags["mannerism"].posts.push(paramorph.posts["/2018-10-04-manieryzm-moodboard/"]);
+paramorph.tags["art"].posts.push(paramorph.posts["/2018-10-04-manieryzm-moodboard/"]);
+paramorph.tags["sztuka"].posts.push(paramorph.posts["/2018-10-04-manieryzm-moodboard/"]);
 paramorph.tags["makeup"].posts.push(paramorph.posts["/2018-10-10-make-up-inspirowany-obrazem-kompozycja-viii-by-wassily/"]);
 paramorph.tags["makijaż"].posts.push(paramorph.posts["/2018-10-10-make-up-inspirowany-obrazem-kompozycja-viii-by-wassily/"]);
 paramorph.tags["obraz"].posts.push(paramorph.posts["/2018-10-10-make-up-inspirowany-obrazem-kompozycja-viii-by-wassily/"]);
 paramorph.tags["wassily"].posts.push(paramorph.posts["/2018-10-10-make-up-inspirowany-obrazem-kompozycja-viii-by-wassily/"]);
 paramorph.tags["kandinsky"].posts.push(paramorph.posts["/2018-10-10-make-up-inspirowany-obrazem-kompozycja-viii-by-wassily/"]);
 paramorph.tags["abstrakcja"].posts.push(paramorph.posts["/2018-10-10-make-up-inspirowany-obrazem-kompozycja-viii-by-wassily/"]);
-paramorph.tags["moodboard"].posts.push(paramorph.posts["/2018-10-04-manieryzm-moodboard/"]);
-paramorph.tags["manieryzm"].posts.push(paramorph.posts["/2018-10-04-manieryzm-moodboard/"]);
-paramorph.tags["mannerism"].posts.push(paramorph.posts["/2018-10-04-manieryzm-moodboard/"]);
-paramorph.tags["art"].posts.push(paramorph.posts["/2018-10-04-manieryzm-moodboard/"]);
-paramorph.tags["sztuka"].posts.push(paramorph.posts["/2018-10-04-manieryzm-moodboard/"]);
 paramorph.tags["moje wybory"].posts.push(paramorph.posts["/2018-10-24-moje-wybory-pazdziernik-2018/"]);
 paramorph.tags["my choices"].posts.push(paramorph.posts["/2018-10-24-moje-wybory-pazdziernik-2018/"]);
 paramorph.tags["październik"].posts.push(paramorph.posts["/2018-10-24-moje-wybory-pazdziernik-2018/"]);
@@ -7166,11 +7151,6 @@ paramorph.tags["antkowiak"].posts.push(paramorph.posts["/2018-11-22-wystawa-moda
 paramorph.tags["piętro III"].posts.push(paramorph.posts["/2018-11-22-wystawa-moda-polska/"]);
 paramorph.tags["piętro II"].posts.push(paramorph.posts["/2018-11-22-wystawa-moda-polska/"]);
 paramorph.tags["black & red"].posts.push(paramorph.posts["/2018-11-22-wystawa-moda-polska/"]);
-paramorph.tags["moodboard"].posts.push(paramorph.posts["/2018-12-06-fluxus-moodboard/"]);
-paramorph.tags["fluxus"].posts.push(paramorph.posts["/2018-12-06-fluxus-moodboard/"]);
-paramorph.tags["george maciunas"].posts.push(paramorph.posts["/2018-12-06-fluxus-moodboard/"]);
-paramorph.tags["yoko ono"].posts.push(paramorph.posts["/2018-12-06-fluxus-moodboard/"]);
-paramorph.tags["nam june paik"].posts.push(paramorph.posts["/2018-12-06-fluxus-moodboard/"]);
 paramorph.tags["wybory"].posts.push(paramorph.posts["/2018-11-28-moje-wybory-listopad-2018/"]);
 paramorph.tags["listopad"].posts.push(paramorph.posts["/2018-11-28-moje-wybory-listopad-2018/"]);
 paramorph.tags["kosmetyk"].posts.push(paramorph.posts["/2018-11-28-moje-wybory-listopad-2018/"]);
@@ -7178,16 +7158,28 @@ paramorph.tags["kolorówka"].posts.push(paramorph.posts["/2018-11-28-moje-wybory
 paramorph.tags["pielęgnacja"].posts.push(paramorph.posts["/2018-11-28-moje-wybory-listopad-2018/"]);
 paramorph.tags["lektura"].posts.push(paramorph.posts["/2018-11-28-moje-wybory-listopad-2018/"]);
 paramorph.tags["akcesoria"].posts.push(paramorph.posts["/2018-11-28-moje-wybory-listopad-2018/"]);
-paramorph.tags["stop"].posts.push(paramorph.posts["/2018-12-28-stop-2018-start-2019/"]);
-paramorph.tags["2018"].posts.push(paramorph.posts["/2018-12-28-stop-2018-start-2019/"]);
-paramorph.tags["start"].posts.push(paramorph.posts["/2018-12-28-stop-2018-start-2019/"]);
-paramorph.tags["2019"].posts.push(paramorph.posts["/2018-12-28-stop-2018-start-2019/"]);
-paramorph.tags["nowy rok"].posts.push(paramorph.posts["/2018-12-28-stop-2018-start-2019/"]);
+paramorph.tags["moodboard"].posts.push(paramorph.posts["/2018-12-06-fluxus-moodboard/"]);
+paramorph.tags["fluxus"].posts.push(paramorph.posts["/2018-12-06-fluxus-moodboard/"]);
+paramorph.tags["george maciunas"].posts.push(paramorph.posts["/2018-12-06-fluxus-moodboard/"]);
+paramorph.tags["yoko ono"].posts.push(paramorph.posts["/2018-12-06-fluxus-moodboard/"]);
+paramorph.tags["nam june paik"].posts.push(paramorph.posts["/2018-12-06-fluxus-moodboard/"]);
 paramorph.tags["o śmierci"].posts.push(paramorph.posts["/2018-12-13-o-smierci/"]);
 paramorph.tags["anioł"].posts.push(paramorph.posts["/2018-12-13-o-smierci/"]);
 paramorph.tags["makijaż"].posts.push(paramorph.posts["/2018-12-13-o-smierci/"]);
 paramorph.tags["tekst autorski"].posts.push(paramorph.posts["/2018-12-13-o-smierci/"]);
 paramorph.tags["sztuka"].posts.push(paramorph.posts["/2018-12-13-o-smierci/"]);
+paramorph.tags["moje wybory"].posts.push(paramorph.posts["/2018-09-27-moje-wybory-wrzesien-2018/"]);
+paramorph.tags["my choices"].posts.push(paramorph.posts["/2018-09-27-moje-wybory-wrzesien-2018/"]);
+paramorph.tags["wrzesień"].posts.push(paramorph.posts["/2018-09-27-moje-wybory-wrzesien-2018/"]);
+paramorph.tags["jesień"].posts.push(paramorph.posts["/2018-09-27-moje-wybory-wrzesien-2018/"]);
+paramorph.tags["kapelusz"].posts.push(paramorph.posts["/2018-09-27-moje-wybory-wrzesien-2018/"]);
+paramorph.tags["książka"].posts.push(paramorph.posts["/2018-09-27-moje-wybory-wrzesien-2018/"]);
+paramorph.tags["kosmetyk"].posts.push(paramorph.posts["/2018-09-27-moje-wybory-wrzesien-2018/"]);
+paramorph.tags["stop"].posts.push(paramorph.posts["/2018-12-28-stop-2018-start-2019/"]);
+paramorph.tags["2018"].posts.push(paramorph.posts["/2018-12-28-stop-2018-start-2019/"]);
+paramorph.tags["start"].posts.push(paramorph.posts["/2018-12-28-stop-2018-start-2019/"]);
+paramorph.tags["2019"].posts.push(paramorph.posts["/2018-12-28-stop-2018-start-2019/"]);
+paramorph.tags["nowy rok"].posts.push(paramorph.posts["/2018-12-28-stop-2018-start-2019/"]);
 paramorph.tags["moje wybory"].posts.push(paramorph.posts["/2019-01-03-moje-wybory-grudzien-2018/"]);
 paramorph.tags["my choices"].posts.push(paramorph.posts["/2019-01-03-moje-wybory-grudzien-2018/"]);
 paramorph.tags["kalendarz"].posts.push(paramorph.posts["/2019-01-03-moje-wybory-grudzien-2018/"]);
@@ -7294,6 +7286,14 @@ paramorph.tags["żółty dom"].posts.push(paramorph.posts["/2019-06-28-make-up-i
 paramorph.tags["gauguin"].posts.push(paramorph.posts["/2019-06-28-make-up-inspirowany-obrazem-gwiazdzista-noc-by-vincent/"]);
 paramorph.tags["saint-remy"].posts.push(paramorph.posts["/2019-06-28-make-up-inspirowany-obrazem-gwiazdzista-noc-by-vincent/"]);
 paramorph.tags["the starry night"].posts.push(paramorph.posts["/2019-06-28-make-up-inspirowany-obrazem-gwiazdzista-noc-by-vincent/"]);
+paramorph.tags["wybory"].posts.push(paramorph.posts["/2018-02-26-moje-wybory-luty/"]);
+paramorph.tags["inspiracje"].posts.push(paramorph.posts["/2018-02-26-moje-wybory-luty/"]);
+paramorph.tags["zima"].posts.push(paramorph.posts["/2018-02-26-moje-wybory-luty/"]);
+paramorph.tags["luty"].posts.push(paramorph.posts["/2018-02-26-moje-wybory-luty/"]);
+paramorph.tags["perfumy"].posts.push(paramorph.posts["/2018-02-26-moje-wybory-luty/"]);
+paramorph.tags["książka"].posts.push(paramorph.posts["/2018-02-26-moje-wybory-luty/"]);
+paramorph.tags["kosmetyk"].posts.push(paramorph.posts["/2018-02-26-moje-wybory-luty/"]);
+paramorph.tags["biżuteria"].posts.push(paramorph.posts["/2018-02-26-moje-wybory-luty/"]);
 paramorph.tags["kolor"].posts.push(paramorph.posts["/2018-02-21-o-kolorach-biel-cz-dot-1/"]);
 paramorph.tags["biel"].posts.push(paramorph.posts["/2018-02-21-o-kolorach-biel-cz-dot-1/"]);
 paramorph.tags["biały"].posts.push(paramorph.posts["/2018-02-21-o-kolorach-biel-cz-dot-1/"]);
@@ -7362,20 +7362,19 @@ paramorph.addContentLoader("/2018-02-11-make-up-inspirowany-obrazem-dove-with-su
 paramorph.addContentLoader("/2018-02-18-o-narkotykach-xxi-wieku/", () => __webpack_require__.e(/* import() */ 48).then(__webpack_require__.t.bind(null, "./_posts/2018-02-18-o-narkotykach-xxi-wieku.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-02-18-o-narkotykach-xxi-wieku.markdown")));
 paramorph.addContentLoader("/2018-03-08-socrealizm-moodboard/", () => __webpack_require__.e(/* import() */ 52).then(__webpack_require__.t.bind(null, "./_posts/2018-03-08-socrealizm-moodboard.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-03-08-socrealizm-moodboard.markdown")));
 paramorph.addContentLoader("/2018-02-28-wystawa-przyszlosc-bedzie-inna-wizje-i-praktyki-modernizacji/", () => __webpack_require__.e(/* import() */ 51).then(__webpack_require__.t.bind(null, "./_posts/2018-02-28-wystawa-przyszlosc-bedzie-inna-wizje-i-praktyki-modernizacji-spolecznych-po-roku-1918.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-02-28-wystawa-przyszlosc-bedzie-inna-wizje-i-praktyki-modernizacji-spolecznych-po-roku-1918.markdown")));
-paramorph.addContentLoader("/2018-02-26-moje-wybory-luty/", () => __webpack_require__.e(/* import() */ 50).then(__webpack_require__.t.bind(null, "./_posts/2018-02-26-moje-wybory-luty.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-02-26-moje-wybory-luty.markdown")));
+paramorph.addContentLoader("/2018-04-05-dadaizm-moodboard/", () => __webpack_require__.e(/* import() */ 54).then(__webpack_require__.t.bind(null, "./_posts/2018-04-05-dadaizm-moodboard.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-04-05-dadaizm-moodboard.markdown")));
 paramorph.addContentLoader("/2018-03-26-make-up-inspirowany-obrazem-bialy-srodek-zolty-rozowy/", () => __webpack_require__.e(/* import() */ 53).then(__webpack_require__.t.bind(null, "./_posts/2018-03-26-make-up-inspirowany-obrazem-bialy-srodek-zolty-rozowy-lawendowy-by-mark-rothko.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-03-26-make-up-inspirowany-obrazem-bialy-srodek-zolty-rozowy-lawendowy-by-mark-rothko.markdown")));
 paramorph.addContentLoader("/2018-04-07-moje-wybory-marzec/", () => __webpack_require__.e(/* import() */ 55).then(__webpack_require__.t.bind(null, "./_posts/2018-04-07-moje-wybory-marzec.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-04-07-moje-wybory-marzec.markdown")));
-paramorph.addContentLoader("/2018-04-05-dadaizm-moodboard/", () => __webpack_require__.e(/* import() */ 54).then(__webpack_require__.t.bind(null, "./_posts/2018-04-05-dadaizm-moodboard.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-04-05-dadaizm-moodboard.markdown")));
-paramorph.addContentLoader("/2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest/", () => __webpack_require__.e(/* import() */ 57).then(__webpack_require__.t.bind(null, "./_posts/2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest.markdown")));
 paramorph.addContentLoader("/2018-04-15-make-up-inspirowany-obrazem-onement-vi-by-barnett-newman/", () => __webpack_require__.e(/* import() */ 56).then(__webpack_require__.t.bind(null, "./_posts/2018-04-15-make-up-inspirowany-obrazem-onement-vi-by-barnett-newman.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-04-15-make-up-inspirowany-obrazem-onement-vi-by-barnett-newman.markdown")));
+paramorph.addContentLoader("/2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest/", () => __webpack_require__.e(/* import() */ 57).then(__webpack_require__.t.bind(null, "./_posts/2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest.markdown")));
 paramorph.addContentLoader("/2018-04-29-stylizacje-w-trendach-ss-2018/", () => __webpack_require__.e(/* import() */ 58).then(__webpack_require__.t.bind(null, "./_posts/2018-04-29-stylizacje-w-trendach-ss-2018.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-04-29-stylizacje-w-trendach-ss-2018.markdown")));
 paramorph.addContentLoader("/2018-05-02-moje-wybory-kwiecien/", () => __webpack_require__.e(/* import() */ 59).then(__webpack_require__.t.bind(null, "./_posts/2018-05-02-moje-wybory-kwiecien.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-05-02-moje-wybory-kwiecien.markdown")));
 paramorph.addContentLoader("/2018-05-10-puentylizm-pointylizm-moodboard/", () => __webpack_require__.e(/* import() */ 60).then(__webpack_require__.t.bind(null, "./_posts/2018-05-10-puentylizm-pointylizm-moodboard.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-05-10-puentylizm-pointylizm-moodboard.markdown")));
 paramorph.addContentLoader("/2018-05-14-oswoic-lek/", () => __webpack_require__.e(/* import() */ 61).then(__webpack_require__.t.bind(null, "./_posts/2018-05-14-oswoic-lek.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-05-14-oswoic-lek.markdown")));
 paramorph.addContentLoader("/2018-05-20-o-kolorach-roz/", () => __webpack_require__.e(/* import() */ 62).then(__webpack_require__.t.bind(null, "./_posts/2018-05-20-o-kolorach-roz.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-05-20-o-kolorach-roz.markdown")));
 paramorph.addContentLoader("/2018-05-29-moje-wybory-maj/", () => __webpack_require__.e(/* import() */ 63).then(__webpack_require__.t.bind(null, "./_posts/2018-05-29-moje-wybory-maj.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-05-29-moje-wybory-maj.markdown")));
-paramorph.addContentLoader("/2018-06-07-hiperrealizm-moodboard/", () => __webpack_require__.e(/* import() */ 65).then(__webpack_require__.t.bind(null, "./_posts/2018-06-07-hiperrealizm-moodboard.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-06-07-hiperrealizm-moodboard.markdown")));
 paramorph.addContentLoader("/2018-06-05-jestem-wdzieczna-ci-zycie/", () => __webpack_require__.e(/* import() */ 64).then(__webpack_require__.t.bind(null, "./_posts/2018-06-05-jestem-wdzieczna-ci-zycie.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-06-05-jestem-wdzieczna-ci-zycie.markdown")));
+paramorph.addContentLoader("/2018-06-07-hiperrealizm-moodboard/", () => __webpack_require__.e(/* import() */ 65).then(__webpack_require__.t.bind(null, "./_posts/2018-06-07-hiperrealizm-moodboard.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-06-07-hiperrealizm-moodboard.markdown")));
 paramorph.addContentLoader("/2018-06-27-rgb-trzy-stylizacje-z-mojej-szafy/", () => __webpack_require__.e(/* import() */ 66).then(__webpack_require__.t.bind(null, "./_posts/2018-06-27-rgb-trzy-stylizacje-z-mojej-szafy.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-06-27-rgb-trzy-stylizacje-z-mojej-szafy.markdown")));
 paramorph.addContentLoader("/2018-07-05-abstrakcja-geometryczna-moodboard/", () => __webpack_require__.e(/* import() */ 67).then(__webpack_require__.t.bind(null, "./_posts/2018-07-05-abstrakcja-geometryczna-moodboard.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-07-05-abstrakcja-geometryczna-moodboard.markdown")));
 paramorph.addContentLoader("/2018-07-13-make-up-inspirowany-obrazem-blue-nude-ii-by-henri-matisse/", () => __webpack_require__.e(/* import() */ 68).then(__webpack_require__.t.bind(null, "./_posts/2018-07-13-make-up-inspirowany-obrazem-blue-nude-ii-by-henri-matisse.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-07-13-make-up-inspirowany-obrazem-blue-nude-ii-by-henri-matisse.markdown")));
@@ -7386,22 +7385,22 @@ paramorph.addContentLoader("/2018-08-15-make-up-inspirowany-obrazem-circus-from-
 paramorph.addContentLoader("/2018-08-22-wystawa-handmade-acoustics/", () => __webpack_require__.e(/* import() */ 73).then(__webpack_require__.t.bind(null, "./_posts/2018-08-22-wystawa-handmade-acoustics.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-08-22-wystawa-handmade-acoustics.markdown")));
 paramorph.addContentLoader("/2018-08-31-moje-wybory-sierpien/", () => __webpack_require__.e(/* import() */ 74).then(__webpack_require__.t.bind(null, "./_posts/2018-08-31-moje-wybory-sierpien.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-08-31-moje-wybory-sierpien.markdown")));
 paramorph.addContentLoader("/2018-09-06-futuryzm-moodboard/", () => __webpack_require__.e(/* import() */ 75).then(__webpack_require__.t.bind(null, "./_posts/2018-09-06-futuryzm-moodboard.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-09-06-futuryzm-moodboard.markdown")));
-paramorph.addContentLoader("/2018-09-21-o-kolorach-czern/", () => __webpack_require__.e(/* import() */ 77).then(__webpack_require__.t.bind(null, "./_posts/2018-09-21-o-kolorach-czern.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-09-21-o-kolorach-czern.markdown")));
 paramorph.addContentLoader("/2018-09-09-pre-fall-fall-slash-winter-spring-slash-summer-resort/", () => __webpack_require__.e(/* import() */ 76).then(__webpack_require__.t.bind(null, "./_posts/2018-09-09-pre-fall-fall-slash-winter-spring-slash-summer-resort-cruise-co-to-wszystko-znaczy-plus-fw-trends-2018-slash-2019.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-09-09-pre-fall-fall-slash-winter-spring-slash-summer-resort-cruise-co-to-wszystko-znaczy-plus-fw-trends-2018-slash-2019.markdown")));
-paramorph.addContentLoader("/2018-09-27-moje-wybory-wrzesien-2018/", () => __webpack_require__.e(/* import() */ 78).then(__webpack_require__.t.bind(null, "./_posts/2018-09-27-moje-wybory-wrzesien-2018.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-09-27-moje-wybory-wrzesien-2018.markdown")));
+paramorph.addContentLoader("/2018-09-21-o-kolorach-czern/", () => __webpack_require__.e(/* import() */ 77).then(__webpack_require__.t.bind(null, "./_posts/2018-09-21-o-kolorach-czern.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-09-21-o-kolorach-czern.markdown")));
 paramorph.addContentLoader("/2018-10-02-wystawa-bestia-bog-i-linia/", () => __webpack_require__.e(/* import() */ 79).then(__webpack_require__.t.bind(null, "./_posts/2018-10-02-wystawa-bestia-bog-i-linia.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-10-02-wystawa-bestia-bog-i-linia.markdown")));
-paramorph.addContentLoader("/2018-10-10-make-up-inspirowany-obrazem-kompozycja-viii-by-wassily/", () => __webpack_require__.e(/* import() */ 81).then(__webpack_require__.t.bind(null, "./_posts/2018-10-10-make-up-inspirowany-obrazem-kompozycja-viii-by-wassily-kandinsky.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-10-10-make-up-inspirowany-obrazem-kompozycja-viii-by-wassily-kandinsky.markdown")));
 paramorph.addContentLoader("/2018-10-04-manieryzm-moodboard/", () => __webpack_require__.e(/* import() */ 80).then(__webpack_require__.t.bind(null, "./_posts/2018-10-04-manieryzm-moodboard.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-10-04-manieryzm-moodboard.markdown")));
+paramorph.addContentLoader("/2018-10-10-make-up-inspirowany-obrazem-kompozycja-viii-by-wassily/", () => __webpack_require__.e(/* import() */ 81).then(__webpack_require__.t.bind(null, "./_posts/2018-10-10-make-up-inspirowany-obrazem-kompozycja-viii-by-wassily-kandinsky.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-10-10-make-up-inspirowany-obrazem-kompozycja-viii-by-wassily-kandinsky.markdown")));
 paramorph.addContentLoader("/2018-10-24-moje-wybory-pazdziernik-2018/", () => __webpack_require__.e(/* import() */ 82).then(__webpack_require__.t.bind(null, "./_posts/2018-10-24-moje-wybory-pazdziernik-2018.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-10-24-moje-wybory-pazdziernik-2018.markdown")));
 paramorph.addContentLoader("/2018-10-28-smierc-doroslego/", () => __webpack_require__.e(/* import() */ 83).then(__webpack_require__.t.bind(null, "./_posts/2018-10-28-smierc-doroslego.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-10-28-smierc-doroslego.markdown")));
 paramorph.addContentLoader("/2018-10-31-kamp-moodboard/", () => __webpack_require__.e(/* import() */ 84).then(__webpack_require__.t.bind(null, "./_posts/2018-10-31-kamp-moodboard.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-10-31-kamp-moodboard.markdown")));
 paramorph.addContentLoader("/2018-11-07-make-up-inspirowany-obrazem-light-of-iris-by-georgia-okeeffe/", () => __webpack_require__.e(/* import() */ 85).then(__webpack_require__.t.bind(null, "./_posts/2018-11-07-make-up-inspirowany-obrazem-light-of-iris-by-georgia-okeeffe.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-11-07-make-up-inspirowany-obrazem-light-of-iris-by-georgia-okeeffe.markdown")));
 paramorph.addContentLoader("/2018-11-15-historia-pewnej-projektantki-czyli-perelka-z-lumpeksu/", () => __webpack_require__.e(/* import() */ 86).then(__webpack_require__.t.bind(null, "./_posts/2018-11-15-historia-pewnej-projektantki-czyli-perelka-z-lumpeksu.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-11-15-historia-pewnej-projektantki-czyli-perelka-z-lumpeksu.markdown")));
 paramorph.addContentLoader("/2018-11-22-wystawa-moda-polska/", () => __webpack_require__.e(/* import() */ 87).then(__webpack_require__.t.bind(null, "./_posts/2018-11-22-wystawa-moda-polska.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-11-22-wystawa-moda-polska.markdown")));
-paramorph.addContentLoader("/2018-12-06-fluxus-moodboard/", () => __webpack_require__.e(/* import() */ 89).then(__webpack_require__.t.bind(null, "./_posts/2018-12-06-fluxus-moodboard.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-12-06-fluxus-moodboard.markdown")));
 paramorph.addContentLoader("/2018-11-28-moje-wybory-listopad-2018/", () => __webpack_require__.e(/* import() */ 88).then(__webpack_require__.t.bind(null, "./_posts/2018-11-28-moje-wybory-listopad-2018.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-11-28-moje-wybory-listopad-2018.markdown")));
-paramorph.addContentLoader("/2018-12-28-stop-2018-start-2019/", () => __webpack_require__.e(/* import() */ 91).then(__webpack_require__.t.bind(null, "./_posts/2018-12-28-stop-2018-start-2019.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-12-28-stop-2018-start-2019.markdown")));
+paramorph.addContentLoader("/2018-12-06-fluxus-moodboard/", () => __webpack_require__.e(/* import() */ 89).then(__webpack_require__.t.bind(null, "./_posts/2018-12-06-fluxus-moodboard.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-12-06-fluxus-moodboard.markdown")));
 paramorph.addContentLoader("/2018-12-13-o-smierci/", () => __webpack_require__.e(/* import() */ 90).then(__webpack_require__.t.bind(null, "./_posts/2018-12-13-o-smierci.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-12-13-o-smierci.markdown")));
+paramorph.addContentLoader("/2018-09-27-moje-wybory-wrzesien-2018/", () => __webpack_require__.e(/* import() */ 78).then(__webpack_require__.t.bind(null, "./_posts/2018-09-27-moje-wybory-wrzesien-2018.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-09-27-moje-wybory-wrzesien-2018.markdown")));
+paramorph.addContentLoader("/2018-12-28-stop-2018-start-2019/", () => __webpack_require__.e(/* import() */ 91).then(__webpack_require__.t.bind(null, "./_posts/2018-12-28-stop-2018-start-2019.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-12-28-stop-2018-start-2019.markdown")));
 paramorph.addContentLoader("/2019-01-03-moje-wybory-grudzien-2018/", () => __webpack_require__.e(/* import() */ 92).then(__webpack_require__.t.bind(null, "./_posts/2019-01-03-moje-wybory-grudzien-2018.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2019-01-03-moje-wybory-grudzien-2018.markdown")));
 paramorph.addContentLoader("/2019-01-10-barok-moodboard/", () => __webpack_require__.e(/* import() */ 93).then(__webpack_require__.t.bind(null, "./_posts/2019-01-10-barok-moodboard.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2019-01-10-barok-moodboard.markdown")));
 paramorph.addContentLoader("/2019-01-24-make-up-inspirowany-obrazem-victory-boogie-woogie-by-piet/", () => __webpack_require__.e(/* import() */ 94).then(__webpack_require__.t.bind(null, "./_posts/2019-01-24-make-up-inspirowany-obrazem-victory-boogie-woogie-by-piet-mondrian.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2019-01-24-make-up-inspirowany-obrazem-victory-boogie-woogie-by-piet-mondrian.markdown")));
@@ -7416,6 +7415,7 @@ paramorph.addContentLoader("/2019-04-23-wystawa-syntetyczny-folklor/", () => __w
 paramorph.addContentLoader("/2019-05-10-make-up-inspirowany-obrazem-m64-by-wojciech-fangor-remake/", () => __webpack_require__.e(/* import() */ 103).then(__webpack_require__.t.bind(null, "./_posts/2019-05-10-make-up-inspirowany-obrazem-m64-by-wojciech-fangor-remake.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2019-05-10-make-up-inspirowany-obrazem-m64-by-wojciech-fangor-remake.markdown")));
 paramorph.addContentLoader("/2019-05-18-make-up-inspirowany-obrazem-zielony-turban-by-tamara-lempicka/", () => __webpack_require__.e(/* import() */ 104).then(__webpack_require__.t.bind(null, "./_posts/2019-05-18-make-up-inspirowany-obrazem-zielony-turban-by-tamara-lempicka.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2019-05-18-make-up-inspirowany-obrazem-zielony-turban-by-tamara-lempicka.markdown")));
 paramorph.addContentLoader("/2019-06-28-make-up-inspirowany-obrazem-gwiazdzista-noc-by-vincent/", () => __webpack_require__.e(/* import() */ 105).then(__webpack_require__.t.bind(null, "./_posts/2019-06-28-make-up-inspirowany-obrazem-gwiazdzista-noc-by-vincent-van-gogh.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2019-06-28-make-up-inspirowany-obrazem-gwiazdzista-noc-by-vincent-van-gogh.markdown")));
+paramorph.addContentLoader("/2018-02-26-moje-wybory-luty/", () => __webpack_require__.e(/* import() */ 50).then(__webpack_require__.t.bind(null, "./_posts/2018-02-26-moje-wybory-luty.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-02-26-moje-wybory-luty.markdown")));
 paramorph.addContentLoader("/2018-02-21-o-kolorach-biel-cz-dot-1/", () => __webpack_require__.e(/* import() */ 49).then(__webpack_require__.t.bind(null, "./_posts/2018-02-21-o-kolorach-biel-cz-dot-1.markdown", 7)).then(exports => asReactComponent(exports, "./_posts/2018-02-21-o-kolorach-biel-cz-dot-1.markdown")));
 paramorph.addContentLoader("/tags/sztuka/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/współczesna/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
@@ -7538,8 +7538,9 @@ paramorph.addContentLoader("/tags/socrealizm/", () => Promise.all(/* import() */
 paramorph.addContentLoader("/tags/zachęta/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/warszawa/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/przyszłość/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
-paramorph.addContentLoader("/tags/luty/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
-paramorph.addContentLoader("/tags/biżuteria/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
+paramorph.addContentLoader("/tags/dada/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
+paramorph.addContentLoader("/tags/dadaizm/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
+paramorph.addContentLoader("/tags/tristan-tzara/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/mark-rothko/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/marzec/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/vogue/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
@@ -7547,16 +7548,13 @@ paramorph.addContentLoader("/tags/clochee/", () => Promise.all(/* import() */[__
 paramorph.addContentLoader("/tags/moov/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/stradivarius/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/wiosna/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
-paramorph.addContentLoader("/tags/dada/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
-paramorph.addContentLoader("/tags/dadaizm/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
-paramorph.addContentLoader("/tags/tristan-tzara/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
+paramorph.addContentLoader("/tags/barnett-newman/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
+paramorph.addContentLoader("/tags/abstract-expressionism/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
+paramorph.addContentLoader("/tags/zip/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/fundacja/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/stefan-gierowski/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/sztuka-młodych/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/malarstwo/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
-paramorph.addContentLoader("/tags/barnett-newman/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
-paramorph.addContentLoader("/tags/abstract-expressionism/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
-paramorph.addContentLoader("/tags/zip/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/trendy/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/ss-2018/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/trends/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
@@ -7580,15 +7578,15 @@ paramorph.addContentLoader("/tags/kosmetyki/", () => Promise.all(/* import() */[
 paramorph.addContentLoader("/tags/kat-von-d/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/skin79/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/nosowska/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
-paramorph.addContentLoader("/tags/hiperrealizm/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
-paramorph.addContentLoader("/tags/fotorealizm/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
-paramorph.addContentLoader("/tags/superrealizm/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/wdzięczność/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/post/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/tekst/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/akademia/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/marzenia/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/cele/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
+paramorph.addContentLoader("/tags/hiperrealizm/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
+paramorph.addContentLoader("/tags/fotorealizm/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
+paramorph.addContentLoader("/tags/superrealizm/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/lem/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/geometria/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/sztuka-geometryczna/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
@@ -7601,6 +7599,7 @@ paramorph.addContentLoader("/tags/czerwiec/", () => Promise.all(/* import() */[_
 paramorph.addContentLoader("/tags/lipiec/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/lato/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/my-choices/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
+paramorph.addContentLoader("/tags/biżuteria/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/secesja/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/secessio/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/art-nouveau/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
@@ -7628,12 +7627,6 @@ paramorph.addContentLoader("/tags/futurism/", () => Promise.all(/* import() */[_
 paramorph.addContentLoader("/tags/giacomo-balla/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/fendi/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/gino-severini/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
-paramorph.addContentLoader("/tags/o-kolorach/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
-paramorph.addContentLoader("/tags/czerń/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
-paramorph.addContentLoader("/tags/czarny/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
-paramorph.addContentLoader("/tags/symbolika/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
-paramorph.addContentLoader("/tags/znak/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
-paramorph.addContentLoader("/tags/black/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/pre-fall/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/fall-winter/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/spring-summer/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
@@ -7642,13 +7635,17 @@ paramorph.addContentLoader("/tags/cruise/", () => Promise.all(/* import() */[__w
 paramorph.addContentLoader("/tags/collection/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/runway/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/show/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
-paramorph.addContentLoader("/tags/wrzesień/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
-paramorph.addContentLoader("/tags/kapelusz/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
+paramorph.addContentLoader("/tags/o-kolorach/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
+paramorph.addContentLoader("/tags/czerń/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
+paramorph.addContentLoader("/tags/czarny/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
+paramorph.addContentLoader("/tags/symbolika/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
+paramorph.addContentLoader("/tags/znak/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
+paramorph.addContentLoader("/tags/black/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/azja/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
-paramorph.addContentLoader("/tags/wassily/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
-paramorph.addContentLoader("/tags/kandinsky/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/manieryzm/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/mannerism/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
+paramorph.addContentLoader("/tags/wassily/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
+paramorph.addContentLoader("/tags/kandinsky/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/październik/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/autumn/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/fenty-beauty/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
@@ -7671,22 +7668,24 @@ paramorph.addContentLoader("/tags/antkowiak/", () => Promise.all(/* import() */[
 paramorph.addContentLoader("/tags/piętro-iii/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/piętro-ii/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/black-&-red/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
-paramorph.addContentLoader("/tags/fluxus/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
-paramorph.addContentLoader("/tags/george-maciunas/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
-paramorph.addContentLoader("/tags/yoko-ono/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
-paramorph.addContentLoader("/tags/nam-june-paik/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/listopad/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/kolorówka/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/pielęgnacja/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/lektura/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
+paramorph.addContentLoader("/tags/fluxus/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
+paramorph.addContentLoader("/tags/george-maciunas/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
+paramorph.addContentLoader("/tags/yoko-ono/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
+paramorph.addContentLoader("/tags/nam-june-paik/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
+paramorph.addContentLoader("/tags/o-śmierci/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
+paramorph.addContentLoader("/tags/anioł/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
+paramorph.addContentLoader("/tags/tekst-autorski/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
+paramorph.addContentLoader("/tags/wrzesień/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
+paramorph.addContentLoader("/tags/kapelusz/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/stop/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/2018/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/start/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/2019/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/nowy-rok/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
-paramorph.addContentLoader("/tags/o-śmierci/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
-paramorph.addContentLoader("/tags/anioł/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
-paramorph.addContentLoader("/tags/tekst-autorski/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/kalendarz/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/radzka/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/nars/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
@@ -7722,6 +7721,7 @@ paramorph.addContentLoader("/tags/chromoterapia/", () => Promise.all(/* import()
 paramorph.addContentLoader("/tags/ikb/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/yves-klein/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/blue-monday/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
+paramorph.addContentLoader("/tags/luty/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/kolczyki/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/symbolizm/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
 paramorph.addContentLoader("/tags/symbolisme/", () => Promise.all(/* import() */[__webpack_require__.e(0), __webpack_require__.e(1)]).then(__webpack_require__.t.bind(null, "./_pages/tag.markdown", 7)).then(exports => asReactComponent(exports, "./_pages/tag.markdown")));
