@@ -23,7 +23,7 @@ __webpack_require__("./node_modules/parrot-layout/bundle.css");
 /***/ "./node_modules/parrot-layout/bundle.css":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "style-fecd40dc00c588241c82a549ca7575db.bundle.css";
+module.exports = __webpack_require__.p + "style-7e8b05457f0823ac443210319047f140.bundle.css";
 
 /***/ })
 
