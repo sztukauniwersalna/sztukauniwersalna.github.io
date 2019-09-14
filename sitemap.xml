@@ -106,6 +106,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>http://sztukauniwersalna.pl/2017-11-09-action-painting-moodboard/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>http://sztukauniwersalna.pl/2017-11-13-picasso-wizerunek-wielokrotny-muzeum-lubelskie-w-lublinie/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
@@ -127,11 +132,6 @@
   </url>
   <url>
     <loc>http://sztukauniwersalna.pl/2017-12-11-wystawa-inny-trans-atlantyk-sztuka-kinetyczna-i-op-art/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/2017-11-09-action-painting-moodboard/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -281,11 +281,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/2018-03-26-make-up-inspirowany-obrazem-bialy-srodek-zolty-rozowy/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>http://sztukauniwersalna.pl/2018-07-30-moje-wybory-czerwiec-slash-lipiec-cz-dot-2/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
@@ -326,6 +321,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>http://sztukauniwersalna.pl/2018-09-27-moje-wybory-wrzesien-2018/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>http://sztukauniwersalna.pl/2018-10-02-wystawa-bestia-bog-i-linia/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
@@ -342,11 +342,6 @@
   </url>
   <url>
     <loc>http://sztukauniwersalna.pl/2018-10-24-moje-wybory-pazdziernik-2018/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/2018-09-27-moje-wybory-wrzesien-2018/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -482,6 +477,11 @@
   </url>
   <url>
     <loc>http://sztukauniwersalna.pl/2019-09-10-frida-kahlo/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/2018-03-26-make-up-inspirowany-obrazem-bialy-srodek-zolty-rozowy/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -796,6 +796,21 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>http://sztukauniwersalna.pl/tags/action/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/painting/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/pollock/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://sztukauniwersalna.pl/tags/wystawa/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -862,21 +877,6 @@
   </url>
   <url>
     <loc>http://sztukauniwersalna.pl/tags/muzeum/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/action/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/painting/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/pollock/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1386,11 +1386,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/mark-rothko/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>http://sztukauniwersalna.pl/tags/secesja/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -1596,6 +1591,16 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>http://sztukauniwersalna.pl/tags/wrzesień/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/kapelusz/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://sztukauniwersalna.pl/tags/azja/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -1647,16 +1652,6 @@
   </url>
   <url>
     <loc>http://sztukauniwersalna.pl/tags/kors/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/wrzesień/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/kapelusz/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2237,6 +2232,11 @@
   </url>
   <url>
     <loc>http://sztukauniwersalna.pl/tags/budda/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/mark-rothko/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
