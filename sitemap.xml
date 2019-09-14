@@ -41,12 +41,12 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/2017-09-21-make-up-inspirowany-obrazem-m10-by-wojciech-fangor/</loc>
+    <loc>http://sztukauniwersalna.pl/2017-09-25-podlewaj-swoje-kwiaty/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/2017-09-25-podlewaj-swoje-kwiaty/</loc>
+    <loc>http://sztukauniwersalna.pl/2017-09-21-make-up-inspirowany-obrazem-m10-by-wojciech-fangor/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -151,12 +151,12 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/2018-01-04-ekspresjonizm-abstrakcyjny-moodboard/</loc>
+    <loc>http://sztukauniwersalna.pl/2018-01-14-o-kolorach-czerwien-cz-dot-1/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/2018-01-14-o-kolorach-czerwien-cz-dot-1/</loc>
+    <loc>http://sztukauniwersalna.pl/2018-01-04-ekspresjonizm-abstrakcyjny-moodboard/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -201,17 +201,17 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/2018-03-26-make-up-inspirowany-obrazem-bialy-srodek-zolty-rozowy/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>http://sztukauniwersalna.pl/2018-04-05-dadaizm-moodboard/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://sztukauniwersalna.pl/2018-04-07-moje-wybory-marzec/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/2018-03-26-make-up-inspirowany-obrazem-bialy-srodek-zolty-rozowy/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -951,6 +951,16 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>http://sztukauniwersalna.pl/tags/czerwień/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/czerwony/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://sztukauniwersalna.pl/tags/ekspresjonizm/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -967,16 +977,6 @@
   </url>
   <url>
     <loc>http://sztukauniwersalna.pl/tags/szkoła-nowojorska/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/czerwień/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/czerwony/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1086,11 +1086,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/mark-rothko/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>http://sztukauniwersalna.pl/tags/dada/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -1132,6 +1127,11 @@
   </url>
   <url>
     <loc>http://sztukauniwersalna.pl/tags/wiosna/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/mark-rothko/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
