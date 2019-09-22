@@ -53,8 +53,7 @@ var MarkdownPost = /** @class */ (function (_super) {
             React.createElement("p", null, "I tylko \u015Bpiew ptak\u00F3w si\u0119 rano nie zmienia. Brzmi zawsze podobnie o wschodzie s\u0142o\u0144ca. Ja te\u017C kiedy\u015B b\u0119d\u0119 s\u0142o\u0144cem, za\u015Bwiec\u0119 sto razy bardziej i mocniej. Spal\u0119 si\u0119 w ogniu mi\u0142o\u015Bci, a z popio\u0142\u00F3w uformuj\u0119 ptaka, kt\u00F3ry codziennie rano wy\u015Bpiewa rubaszne:"),
             React.createElement("p", null, "Kiedy odchodz\u0119, odchodz\u0119 na zawsze."),
             React.createElement("p", null,
-                React.createElement("img", { src: "https://assets1.ello.co/uploads/asset/attachment/10253601/ello-optimized-831da441.jpg", alt: "Obraz przedstawia portret kobiety w szarymi w\u0142osami w artystycznym makija\u017Cu. Po bokach zdj\u0119cia wida\u0107 fragmenty p\u0142omienia." }),
-                React.createElement("img", { src: "https://assets2.ello.co/uploads/asset/attachment/10253600/ello-optimized-d6586a27.jpg", alt: "Obraz przedstawia fotografi\u0119 kobiety z szarymi w\u0142osami. Kobieta ma mocny makija\u017C i trzyma d\u0142oni\u0105 naszyjnik. Dooko\u0142a zdj\u0119cia znajduj\u0105 si\u0119 graficzne zielone elementy." })),
+                React.createElement("img", { src: "https://assets1.ello.co/uploads/asset/attachment/10253601/ello-optimized-831da441.jpg", alt: "Obraz przedstawia portret kobiety w szarymi w\u0142osami w artystycznym makija\u017Cu. Po bokach zdj\u0119cia wida\u0107 fragmenty p\u0142omienia." })),
             React.createElement("p", null, "Ona to nie ptak, czy nie widzisz?")));
     };
     return MarkdownPost;
