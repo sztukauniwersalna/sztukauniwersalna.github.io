@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1,111],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[10,112],{
 
 /***/ "./_includes/Feed.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -18,7 +18,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./_pages/tag.markdown":
+/***/ "./_pages/index.markdown":
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63,7 +63,7 @@ var MarkdownPost = /** @class */ (function (_super) {
         var _a = this.context, paramorph = _a.paramorph, post = _a.post, history = _a.history;
         return (React.createElement(paramorph_1.Content, __assign({ limit: 5 }, this.props),
             React.createElement("div", null,
-                React.createElement(Feed_js_1.default, { posts: post.posts
+                React.createElement(Feed_js_1.default, { posts: paramorph.collections['Posts'].posts
                         .filter(function (p) { return p.output && p.feed; })
                         .sort(function (a, b) { return b.compareTo(a); }) }))));
     };
