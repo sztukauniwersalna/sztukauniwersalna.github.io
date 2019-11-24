@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[8,112],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[8,113],{
 
 /***/ "./_categories/sztuka-ubioru.markdown":
 /***/ (function(module, exports, __webpack_require__) {

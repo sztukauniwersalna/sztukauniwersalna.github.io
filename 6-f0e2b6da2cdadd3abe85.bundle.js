@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[6,112],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[6,113],{
 
 /***/ "./_categories/sztuka-dla-sztuki.markdown":
 /***/ (function(module, exports, __webpack_require__) {
