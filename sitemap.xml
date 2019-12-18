@@ -206,52 +206,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/2018-04-07-moje-wybory-marzec/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/2018-03-26-make-up-inspirowany-obrazem-bialy-srodek-zolty-rozowy/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/2018-04-05-dadaizm-moodboard/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/2018-04-29-stylizacje-w-trendach-ss-2018/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>http://sztukauniwersalna.pl/2018-03-08-socrealizm-moodboard/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/2018-05-02-moje-wybory-kwiecien/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/2018-05-14-oswoic-lek/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/2018-05-10-puentylizm-pointylizm-moodboard/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/2018-05-29-moje-wybory-maj/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -261,7 +216,37 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>http://sztukauniwersalna.pl/2018-04-24-wystawa-komunikacja-ze-wszystkim-co-jest/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/2018-04-29-stylizacje-w-trendach-ss-2018/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/2018-05-02-moje-wybory-kwiecien/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/2018-05-10-puentylizm-pointylizm-moodboard/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/2018-05-14-oswoic-lek/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>http://sztukauniwersalna.pl/2018-05-20-o-kolorach-roz/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/2018-05-29-moje-wybory-maj/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -276,7 +261,22 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>http://sztukauniwersalna.pl/2018-06-27-rgb-trzy-stylizacje-z-mojej-szafy/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/2018-07-05-abstrakcja-geometryczna-moodboard/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>http://sztukauniwersalna.pl/2018-07-13-make-up-inspirowany-obrazem-blue-nude-ii-by-henri-matisse/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/2018-07-27-moje-wybory-czerwiec-slash-lipiec-cz-dot-1/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -291,17 +291,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/2018-07-05-abstrakcja-geometryczna-moodboard/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/2018-07-27-moje-wybory-czerwiec-slash-lipiec-cz-dot-1/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/2018-06-27-rgb-trzy-stylizacje-z-mojej-szafy/</loc>
+    <loc>http://sztukauniwersalna.pl/2018-08-15-make-up-inspirowany-obrazem-circus-from-jazz-book-by-henri/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -311,22 +301,12 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/2018-09-06-futuryzm-moodboard/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>http://sztukauniwersalna.pl/2018-08-31-moje-wybory-sierpien/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/2018-09-27-moje-wybory-wrzesien-2018/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/2018-09-21-o-kolorach-czern/</loc>
+    <loc>http://sztukauniwersalna.pl/2018-09-06-futuryzm-moodboard/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -336,7 +316,12 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/2018-10-04-manieryzm-moodboard/</loc>
+    <loc>http://sztukauniwersalna.pl/2018-09-21-o-kolorach-czern/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/2018-09-27-moje-wybory-wrzesien-2018/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -346,22 +331,22 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>http://sztukauniwersalna.pl/2018-10-04-manieryzm-moodboard/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>http://sztukauniwersalna.pl/2018-10-10-make-up-inspirowany-obrazem-kompozycja-viii-by-wassily/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/2018-08-15-make-up-inspirowany-obrazem-circus-from-jazz-book-by-henri/</loc>
+    <loc>http://sztukauniwersalna.pl/2018-10-24-moje-wybory-pazdziernik-2018/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://sztukauniwersalna.pl/2018-10-28-smierc-doroslego/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/2018-10-24-moje-wybory-pazdziernik-2018/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -381,7 +366,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/2018-12-06-fluxus-moodboard/</loc>
+    <loc>http://sztukauniwersalna.pl/2018-11-22-wystawa-moda-polska/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -391,12 +376,17 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>http://sztukauniwersalna.pl/2018-12-06-fluxus-moodboard/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>http://sztukauniwersalna.pl/2018-12-13-o-smierci/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/2018-11-22-wystawa-moda-polska/</loc>
+    <loc>http://sztukauniwersalna.pl/2018-12-28-stop-2018-start-2019/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -416,7 +406,17 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/2018-12-28-stop-2018-start-2019/</loc>
+    <loc>http://sztukauniwersalna.pl/2019-01-30-moje-wybory-styczen-2019/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/2019-02-07-prymitywizm-sztuka-naiwna-moodboard/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/2019-03-07-romantyzm-moodboard/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -426,7 +426,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/2019-02-07-prymitywizm-sztuka-naiwna-moodboard/</loc>
+    <loc>http://sztukauniwersalna.pl/2019-03-20-o-kolorach-niebieski-cz-dot-2/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -496,17 +496,17 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/2019-03-07-romantyzm-moodboard/</loc>
+    <loc>http://sztukauniwersalna.pl/2018-04-07-moje-wybory-marzec/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/2019-01-30-moje-wybory-styczen-2019/</loc>
+    <loc>http://sztukauniwersalna.pl/2018-04-05-dadaizm-moodboard/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/2019-03-20-o-kolorach-niebieski-cz-dot-2/</loc>
+    <loc>http://sztukauniwersalna.pl/2018-03-26-make-up-inspirowany-obrazem-bialy-srodek-zolty-rozowy/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1116,67 +1116,22 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/marzec/</loc>
+    <loc>http://sztukauniwersalna.pl/tags/socrealizm/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/vogue/</loc>
+    <loc>http://sztukauniwersalna.pl/tags/barnett-newman/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/clochee/</loc>
+    <loc>http://sztukauniwersalna.pl/tags/abstract-expressionism/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/moov/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/stradivarius/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/wiosna/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/mark-rothko/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/dada/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/dadaizm/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/tristan-tzara/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/trendy/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/ss-2018/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/trends/</loc>
+    <loc>http://sztukauniwersalna.pl/tags/zip/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1201,7 +1156,17 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/socrealizm/</loc>
+    <loc>http://sztukauniwersalna.pl/tags/trendy/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/ss-2018/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/trends/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1236,6 +1201,26 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>http://sztukauniwersalna.pl/tags/stradivarius/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/wiosna/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/puentylizm/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/pointylizm/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://sztukauniwersalna.pl/tags/lęk/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -1251,12 +1236,22 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/puentylizm/</loc>
+    <loc>http://sztukauniwersalna.pl/tags/różowy/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/pointylizm/</loc>
+    <loc>http://sztukauniwersalna.pl/tags/pink/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/marilyn-monroe/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/elsa-schiaparelli/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1282,41 +1277,6 @@
   </url>
   <url>
     <loc>http://sztukauniwersalna.pl/tags/nosowska/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/barnett-newman/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/abstract-expressionism/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/zip/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/różowy/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/pink/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/marilyn-monroe/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/elsa-schiaparelli/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1366,6 +1326,26 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>http://sztukauniwersalna.pl/tags/lem/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/geometria/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/sztuka-geometryczna/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/kształty/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://sztukauniwersalna.pl/tags/henri-matisse/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -1381,17 +1361,27 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/my-choices/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>http://sztukauniwersalna.pl/tags/ulubieńcy/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>http://sztukauniwersalna.pl/tags/czerwiec/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/lipiec/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://sztukauniwersalna.pl/tags/lato/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/my-choices/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1431,32 +1421,27 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/geometria/</loc>
+    <loc>http://sztukauniwersalna.pl/tags/jazz/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/sztuka-geometryczna/</loc>
+    <loc>http://sztukauniwersalna.pl/tags/jazz-book/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/kształty/</loc>
+    <loc>http://sztukauniwersalna.pl/tags/art-book/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/czerwiec/</loc>
+    <loc>http://sztukauniwersalna.pl/tags/design/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/lipiec/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/lem/</loc>
+    <loc>http://sztukauniwersalna.pl/tags/collage/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1496,6 +1481,21 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>http://sztukauniwersalna.pl/tags/marc-jacobs/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/michael-kors/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/dom-polski/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://sztukauniwersalna.pl/tags/futuryzm/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -1517,66 +1517,6 @@
   </url>
   <url>
     <loc>http://sztukauniwersalna.pl/tags/gino-severini/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/marc-jacobs/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/michael-kors/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/design/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/dom-polski/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/wrzesień/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/kapelusz/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/o-kolorach/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/czerń/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/czarny/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/symbolika/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/znak/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/black/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1621,6 +1561,51 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>http://sztukauniwersalna.pl/tags/o-kolorach/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/czerń/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/czarny/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/symbolika/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/znak/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/black/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/wrzesień/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/kapelusz/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/azja/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://sztukauniwersalna.pl/tags/manieryzm/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -1631,37 +1616,12 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/azja/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>http://sztukauniwersalna.pl/tags/wassily/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://sztukauniwersalna.pl/tags/kandinsky/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/jazz/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/jazz-book/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/art-book/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/collage/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1746,61 +1706,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/fluxus/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/george-maciunas/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/yoko-ono/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/nam-june-paik/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/listopad/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/kolorówka/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/pielęgnacja/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/lektura/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/o-śmierci/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/anioł/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/tekst-autorski/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>http://sztukauniwersalna.pl/tags/moda-polska/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -1827,6 +1732,86 @@
   </url>
   <url>
     <loc>http://sztukauniwersalna.pl/tags/black-red/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/listopad/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/kolorówka/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/pielęgnacja/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/lektura/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/fluxus/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/george-maciunas/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/yoko-ono/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/nam-june-paik/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/o-śmierci/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/anioł/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/tekst-autorski/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/stop/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/2018/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/start/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/2019/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/nowy-rok/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1926,27 +1911,42 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/stop/</loc>
+    <loc>http://sztukauniwersalna.pl/tags/prymitywizm/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/2018/</loc>
+    <loc>http://sztukauniwersalna.pl/tags/sztuka-naiwna/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/start/</loc>
+    <loc>http://sztukauniwersalna.pl/tags/rousseau/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/2019/</loc>
+    <loc>http://sztukauniwersalna.pl/tags/gauguin/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/nowy-rok/</loc>
+    <loc>http://sztukauniwersalna.pl/tags/nikifor/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/dwurnik/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/romantyzm/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/romanticism/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1976,32 +1976,22 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/prymitywizm/</loc>
+    <loc>http://sztukauniwersalna.pl/tags/ikb/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/sztuka-naiwna/</loc>
+    <loc>http://sztukauniwersalna.pl/tags/yves-klein/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/rousseau/</loc>
+    <loc>http://sztukauniwersalna.pl/tags/blue-monday/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/gauguin/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/nikifor/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/dwurnik/</loc>
+    <loc>http://sztukauniwersalna.pl/tags/marzec/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2286,27 +2276,37 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/romantyzm/</loc>
+    <loc>http://sztukauniwersalna.pl/tags/vogue/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/romanticism/</loc>
+    <loc>http://sztukauniwersalna.pl/tags/clochee/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/ikb/</loc>
+    <loc>http://sztukauniwersalna.pl/tags/moov/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/yves-klein/</loc>
+    <loc>http://sztukauniwersalna.pl/tags/dada/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/blue-monday/</loc>
+    <loc>http://sztukauniwersalna.pl/tags/dadaizm/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/tristan-tzara/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/mark-rothko/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
