@@ -101,6 +101,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>http://sztukauniwersalna.pl/2017-11-07-make-up-inspirowany-obrazem-czarny-kwadrat-na-bialym-tle/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>http://sztukauniwersalna.pl/2017-11-09-action-painting-moodboard/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
@@ -262,11 +267,6 @@
   </url>
   <url>
     <loc>http://sztukauniwersalna.pl/2018-07-05-abstrakcja-geometryczna-moodboard/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/2017-11-07-make-up-inspirowany-obrazem-czarny-kwadrat-na-bialym-tle/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -792,6 +792,21 @@
   </url>
   <url>
     <loc>http://sztukauniwersalna.pl/tags/nadrealizm/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/malewicz/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/suprematyzm/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/kwadrat/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1327,21 +1342,6 @@
   </url>
   <url>
     <loc>http://sztukauniwersalna.pl/tags/kształty/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/malewicz/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/suprematyzm/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/kwadrat/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
