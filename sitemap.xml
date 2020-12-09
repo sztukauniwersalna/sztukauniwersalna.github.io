@@ -46,12 +46,12 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/2017-09-28-neoplastycyzm-moodboard/</loc>
+    <loc>http://sztukauniwersalna.pl/2017-09-25-podlewaj-swoje-kwiaty/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/2017-09-25-podlewaj-swoje-kwiaty/</loc>
+    <loc>http://sztukauniwersalna.pl/2017-09-28-neoplastycyzm-moodboard/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -76,12 +76,12 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/2017-10-19-minimalism-moodboard/</loc>
+    <loc>http://sztukauniwersalna.pl/2017-10-18-stylizacje-za-grosze-czyli-pokochaj-lumpeksy/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/2017-10-18-stylizacje-za-grosze-czyli-pokochaj-lumpeksy/</loc>
+    <loc>http://sztukauniwersalna.pl/2017-10-19-minimalism-moodboard/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -207,11 +207,6 @@
   </url>
   <url>
     <loc>http://sztukauniwersalna.pl/2018-03-08-socrealizm-moodboard/</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/2018-03-26-make-up-inspirowany-obrazem-bialy-srodek-zolty-rozowy/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -471,12 +466,12 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/2019-08-06-jablko/</loc>
+    <loc>http://sztukauniwersalna.pl/2019-07-26-8-zasad-osiagania-sukcesu-ktorych-nie-znal-vincent-van/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/2019-07-26-8-zasad-osiagania-sukcesu-ktorych-nie-znal-vincent-van/</loc>
+    <loc>http://sztukauniwersalna.pl/2019-08-06-jablko/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -507,6 +502,11 @@
   </url>
   <url>
     <loc>http://sztukauniwersalna.pl/2018-04-05-dadaizm-moodboard/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/2018-03-26-make-up-inspirowany-obrazem-bialy-srodek-zolty-rozowy/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -671,22 +671,22 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/neoplasticism/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/kierunek/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>http://sztukauniwersalna.pl/tags/stylizacja/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://sztukauniwersalna.pl/tags/kwiat/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/neoplasticism/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/kierunek/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -731,21 +731,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/minimalizm/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/minimalism/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/minimal/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>http://sztukauniwersalna.pl/tags/taniaodzież/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -762,6 +747,21 @@
   </url>
   <url>
     <loc>http://sztukauniwersalna.pl/tags/fashion/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/minimalizm/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/minimalism/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/minimal/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1117,11 +1117,6 @@
   </url>
   <url>
     <loc>http://sztukauniwersalna.pl/tags/socrealizm/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/mark-rothko/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2166,26 +2161,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/jabłko/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/miłość/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/uczucia/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/sztuka-miłości/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>http://sztukauniwersalna.pl/tags/sukces/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -2202,6 +2177,26 @@
   </url>
   <url>
     <loc>http://sztukauniwersalna.pl/tags/dyscyplina/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/jabłko/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/miłość/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/uczucia/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/sztuka-miłości/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2307,6 +2302,11 @@
   </url>
   <url>
     <loc>http://sztukauniwersalna.pl/tags/tristan-tzara/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/mark-rothko/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
