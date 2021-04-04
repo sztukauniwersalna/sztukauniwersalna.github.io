@@ -106,12 +106,12 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/2017-11-13-picasso-wizerunek-wielokrotny-muzeum-lubelskie-w-lublinie/</loc>
+    <loc>http://sztukauniwersalna.pl/2017-11-09-action-painting-moodboard/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/2017-11-09-action-painting-moodboard/</loc>
+    <loc>http://sztukauniwersalna.pl/2017-11-13-picasso-wizerunek-wielokrotny-muzeum-lubelskie-w-lublinie/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -206,7 +206,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/2018-04-07-moje-wybory-marzec/</loc>
+    <loc>http://sztukauniwersalna.pl/2018-03-08-socrealizm-moodboard/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -496,7 +496,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/2018-03-26-make-up-inspirowany-obrazem-bialy-srodek-zolty-rozowy/</loc>
+    <loc>http://sztukauniwersalna.pl/2018-04-07-moje-wybory-marzec/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -506,7 +506,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/2018-03-08-socrealizm-moodboard/</loc>
+    <loc>http://sztukauniwersalna.pl/2018-03-26-make-up-inspirowany-obrazem-bialy-srodek-zolty-rozowy/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -811,6 +811,21 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>http://sztukauniwersalna.pl/tags/action/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/painting/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/pollock/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://sztukauniwersalna.pl/tags/wystawa/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -837,21 +852,6 @@
   </url>
   <url>
     <loc>http://sztukauniwersalna.pl/tags/grafika/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/action/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/painting/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/pollock/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1116,32 +1116,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/marzec/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/vogue/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/clochee/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/moov/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/stradivarius/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://sztukauniwersalna.pl/tags/wiosna/</loc>
+    <loc>http://sztukauniwersalna.pl/tags/socrealizm/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1222,6 +1197,16 @@
   </url>
   <url>
     <loc>http://sztukauniwersalna.pl/tags/paperbag/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/stradivarius/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/wiosna/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2006,6 +1991,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>http://sztukauniwersalna.pl/tags/marzec/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://sztukauniwersalna.pl/tags/kolczyki/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -2286,7 +2276,17 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/mark-rothko/</loc>
+    <loc>http://sztukauniwersalna.pl/tags/vogue/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/clochee/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://sztukauniwersalna.pl/tags/moov/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2306,7 +2306,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://sztukauniwersalna.pl/tags/socrealizm/</loc>
+    <loc>http://sztukauniwersalna.pl/tags/mark-rothko/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
